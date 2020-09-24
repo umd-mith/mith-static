@@ -1,0 +1,18 @@
+footer {
+  font-size: 12px;
+  color: #8c8989;
+  background-color: #282a2b;
+  border-color: #4b4c4d;
+}
+.footer-bar {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 18px 30px 16px;
+}
+footer a {
+  color: #bfbfbf;
+}
+footer a:hover,
+footer a:active {
+  color: #ffffff;
+}
