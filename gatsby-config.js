@@ -1,8 +1,10 @@
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `MITH`,
+    description: `Maryland Institute for Technology in the Humanities`,
+    author: `@UMD_MITH`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -41,8 +43,21 @@ module.exports = {
         //icon: `src/img/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: process.env.AIRTABLE_API_KEY,
+        concurrency: 5,
+        tables: [
+          {
+            baseId: process.env.AIRTABLE_BASE_ID,
+            tableName: `People`,
+            queryName: 'MITHPeople',
+            createSeparateNodeType: true,
+            separateMapType: true,
+          }
+        ]
+      }
+    }
   ],
 }
