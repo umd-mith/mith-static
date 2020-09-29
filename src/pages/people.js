@@ -13,11 +13,18 @@ const PeoplePage = ({ data }) => {
           <h1>MITH People</h1>
         </section>
         <section> 
-          {data.people.nodes.map(item => {
+          {data.people.nodes.map(group => {
             return (
-              <div>
-                <Link key={`p-${item.data.id}`} to={item.data.slug}>{item.data.name}</Link>
-              </div>
+              <div key={`g-${group.data.id}`}>
+                <h3>{group.data.group_name}</h3>{
+                  group.data.linked_people ?
+                    group.data.linked_people.map(person => (
+                      <div>
+                        <Link key={`p-${person.data.id}`} to={person.data.slug}>{person.data.name}</Link>
+                      </div>
+                    ))
+                  : ''
+              }</div>
             )
           })}
         </section>
@@ -28,17 +35,16 @@ const PeoplePage = ({ data }) => {
 
 export const query = graphql`
   query PeopleQuery {
-    people: allAirtable(filter: {table: {eq: "People"}}, sort: {fields: data___last}) {
+    people: allAirtable(filter: {table: {eq: "Staff Groups"}}, sort: {fields: data___sort}) {
       nodes {
         data {
           id
-          name
-          slug
-          headshot {
-            thumbnails {
-              large {
-                url
-              }
+          group_name
+          linked_people {
+            data {
+              id
+              name
+              slug
             }
           }
         }

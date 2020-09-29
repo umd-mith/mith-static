@@ -13,7 +13,11 @@ async function makePeople(createPage, graphql, pathPrefix) {
             website
             twitter
             title
-            staff_group
+            staff_group {
+              data {
+                group_name
+              }
+            }
             research_interests
             record_id
             phone
