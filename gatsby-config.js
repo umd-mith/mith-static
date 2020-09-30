@@ -1,6 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
+  pathPrefix: `mith-static`,
   siteMetadata: {
     title: `MITH`,
     description: `Maryland Institute for Technology in the Humanities`,
