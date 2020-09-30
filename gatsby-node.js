@@ -24,7 +24,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
             name
             links
             email
-            dates
+            date_spans
             bio_external
             slug
             headshot {
