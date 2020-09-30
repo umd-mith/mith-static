@@ -33,7 +33,7 @@ const NewsPage = (data) => {
 
 export const query = graphql`
   query PostsQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {fields: frontmatter___published, order: DESC}) {
       nodes {
         frontmatter {
           categories
