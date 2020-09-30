@@ -9,6 +9,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
@@ -19,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `img`,
-        path: `${__dirname}/src/img/`,
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
     },
 		{
@@ -30,7 +31,14 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
-    `gatsby-transformer-sharp`,
+		{
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `news`,
+        path: `${__dirname}/src/news/`,
+      },
+    },
+     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

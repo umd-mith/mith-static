@@ -41,7 +41,7 @@ class Header extends React.Component {
                 </ul>
               </li>
               <li className="menu-blog">
-                <Link activeClassName="active" to="/blog/">Blog</Link>
+                <Link activeClassName="active" to="/news/">News</Link>
               </li>
               <li className="menu-people has-children">
                 <Link activeClassName="active" to="/people/" aria-haspopup="true">People</Link>
