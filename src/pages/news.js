@@ -7,7 +7,6 @@ import SEO from '../components/seo'
 
 
 const NewsPage = (data) => {
-  console.log(data.data.allMarkdownRemark.nodes)
   const posts = data.data.allMarkdownRemark.nodes
   return (
 		<Layout>
