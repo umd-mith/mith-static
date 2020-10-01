@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: SpicyPizza/create-envfile@v1
+        with:
+          envkey_AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY  }}
+          envkey_AIRTABLE_BASE_ID: "appk2btw36qEO3vFo"
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
