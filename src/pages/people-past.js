@@ -22,7 +22,9 @@ const PeoplePastPage = ({ data }) => {
                     group.data.linked_people ?
                       group.data.linked_people.map(person => (
                         <article className="col-4 col-4-lg col-4-md col-6-sm col-12-xs">
-                          <Link key={`p-${person.data.id}`} to={person.data.slug}><h4>{person.data.name}</h4></Link>
+                          <h4>
+                            <Link key={`p-${person.data.id}`} to={`../people/${person.data.slug}`}>{person.data.name}</Link>
+                          </h4>
                           <>{
                             person.data.date_spans ? 
                             person.data.date_spans.map(dates => (
@@ -63,6 +65,7 @@ export const query = graphql`
             data {
               id
               name
+              slug
               date_spans {
                 data {
                   date_span
