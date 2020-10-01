@@ -17,15 +17,15 @@ categories:
 - PVW
 - PVW I
 - PVW II
-image: /images/2011-05-farewell2011_1469.jpg
+image: ../../images/2011-05-farewell2011_1469.jpg
 ---
-![A Farewell Party](/images/2011-05-farewell2011_1469.jpg)
+![A Farewell Party](../../images/2011-05-farewell2011_1469.jpg)
 
 MITH recently hosted a farewell party to close out the spring semester in honor of our student staff. Thank you Alex, Brooks, James, Jordan, Sahil and TinTin for your hard work, enthusiasm, support, and stellar Kinect skills. Enjoy the summer!
 
 - On April 30th, MITH participated in Maryland Day, an annual event at University of Maryland, where warm weather and a myriad of event tents drew a record-setting 97,000 attendees throughout the day. MITHers Travis Brown, Grant Dickie, Rachel Donahue and Matthew Kirschenbaum donned 80s jean jackets and rocker tees to highlight MITH’s work on [Preserving Virtual Worlds I](http://mith.umd.edu/research/pvwi/) [& II](http://mith.umd.edu/research/pvwii/). A partnership between University of Maryland, University of Illinois Urbana-Champaign, Stanford University, and Rochester Institute of Technology, Preserving Virtual Worlds I & II investigates the preservation of digital games in the context of libraries, archives, and museums. UMD’s investigators are Matthew Kirschenbaum, Kari Kraus and Rachel Donahue. Several visitors stopped by to play various arcade games (Donkey Kong, Pac-Man, Burger Time and Seadragon) on an old Apple II computer, and Super Mario Brothers 2 and 3 that ran via a Nintendo (NES) emulator on an iMac - though the pink shag rug stole the show.
 
-![mday2011_1508_sm](/images/2011-05-mday2011_1508_sm.jpg) ![mday2011_1488](/images/2011-05-mday2011_1488-300x200.jpg)
+![mday2011_1508_sm](../../images/2011-05-mday2011_1508_sm.jpg) ![mday2011_1488](../../images/2011-05-mday2011_1488-300x200.jpg)
 
 - The final [Digital Dialogue](http://mith.umd.edu/digital-dialogues/) on May 3rd featured Siva Vaidhyanathan, Professor of Media Studies at the University of Virginia, and author of [\_The Googlization of Everything – and Why We Should Worr_y](http://mith.umd.edu/53-mith-digital-dialogue-siva-vaidhyanathan-the-googlization-of-surveillance/) (University of California Press, 2011). Using Google Street View as a case study, Dr. Vaidhyanathan discussed notions of surveillance and privacy, the “process of being processed,” and the benefits and drawbacks of our relationship with the world’s most universal search engine.
 - The Society of American Archivists (SAA) recently awarded a special citation in the Preservation Publication Award category to Matthew Kirschenbaum, Richard Ovenden, Gabriela Redwine and Rachel Donahue for their innovative research reflected in _Digital Forensics and Born-Digital Content in Cultural Heritage Collections_ (Council on Library and Information Resources, 2010). Congratulations!

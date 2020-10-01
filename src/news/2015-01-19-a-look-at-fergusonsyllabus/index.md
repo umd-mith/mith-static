@@ -11,7 +11,7 @@ categories:
 - Community
 - Research
 - Researching Ferguson
-image: /images/2015-01-fergusonsyllabus-chart.png
+image: ../../images/2015-01-fergusonsyllabus-chart.png
 ---
 As a new semester is about to begin academics are busily putting finishing touches on their course syllabi. Here at the University of Maryland there has been sustained interest over the past few months in integrating discussion and thinking about the recent events in Ferguson, and subsequent #BlackLivesMatter movement into our classes. Look for news about planned teach-ins and events like [ours](http://mith.umd.edu/researching-ferguson-update-previewing-miths-teach-ins-blacklivesmatter-umd/) in the coming weeks.
 
@@ -25,7 +25,7 @@ Here at MITH we have a collection of these tweets between August 17th 2014 and J
 
 ## Timeline of Activity
 
-![Ferguson Syllabus Chart](/images/2015-01-fergusonsyllabus-chart.png)
+![Ferguson Syllabus Chart](../../images/2015-01-fergusonsyllabus-chart.png)
 
 ## Top 25 Most Mentioned Web Resources
 

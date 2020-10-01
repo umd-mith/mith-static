@@ -9,7 +9,7 @@ categories:
 - News
 - Shakespeare Quartos Archive
 - TILE
-image: /images/2014-02-PeopleEnjoyingWineMarienBridge1-225x300.jpg
+image: ../../images/2014-02-PeopleEnjoyingWineMarienBridge1-225x300.jpg
 ---
 The past two days have been a flurry of coding, sometimes even going on to 1-2 in the morning. This group is highly enthusiastic about making progress in their individual groups. This energy has been pretty contagious and I've had less time for blogging. Regardless, here's some reports from the Interedition Bootcamp weekend:
 
@@ -25,13 +25,13 @@ Tomorrow will be a round-up of everyone's progress, so I'll be looking forward t
 
 I'll leave you with some pictures from last night, where we had dinner at the Old Mill restaurant - a staple of the Wuerzburg scene. Locals like to get their local wine here and sit on the nearby bridge during the day. At night, they offer some of the best food in town, as well as the best of the local wine. I hate to say it, but it's going to be hard for Maryland to top this kind of attraction.
 
-![People Enjoying Wine on Marien Bridge](/images/2014-02-PeopleEnjoyingWineMarienBridge1-225x300.jpg)
+![People Enjoying Wine on Marien Bridge](../../images/2014-02-PeopleEnjoyingWineMarienBridge1-225x300.jpg)
 
-![Heading to the Castle Before Dinner](/images/2014-02-HeadingtoCastleBeforeDinner2-300x225.jpg)
+![Heading to the Castle Before Dinner](../../images/2014-02-HeadingtoCastleBeforeDinner2-300x225.jpg)
 
-![View from Marien](/images/2014-02-viewFromMarien-300x225.jpg)
+![View from Marien](../../images/2014-02-viewFromMarien-300x225.jpg)
 
-![Eating at the Old Mill](/images/2014-02-EatingAtOldMill-300x225.jpg)
+![Eating at the Old Mill](../../images/2014-02-EatingAtOldMill-300x225.jpg)
 
 Auf Wiedersehen,
 

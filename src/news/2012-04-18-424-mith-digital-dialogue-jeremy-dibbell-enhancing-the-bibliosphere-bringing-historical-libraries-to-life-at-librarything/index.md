@@ -8,13 +8,13 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-05-JBD1-320x202.jpg
+image: ../../images/2012-05-JBD1-320x202.jpg
 ---
 Tuesday, April 24, 12:30-1:45pm B0135 McKeldin Library, MITH Conference Room
 
 "Enhancing the Bibliosphere: Bringing Historical Libraries to Life at LibraryThing" by **JEREMY DIBBELL**
 
-![Jeremy Dibbell](/images/2012-05-JBD1-320x202.jpg)I will discuss the Libraries of Early America project, an effort to digitize and make widely available the library collections of American readers from the early colonial period through 1825. Using the online book-cataloging site LibraryThing.com, scholars and volunteers from institutions around the country - including Monticello, the Boston Public Library, the Massachusetts Historical Society, the Boston Athenaeum, the American Antiquarian Society and others - have begun the process of creating an extensive online database of early American libraries. Current subjects include Thomas Jefferson, John Adams, Benjamin Franklin, Lady Jean Skipwith, James and Mary Murray, and other early American readers (some well-known, others obscure).
+![Jeremy Dibbell](../../images/2012-05-JBD1-320x202.jpg)I will discuss the Libraries of Early America project, an effort to digitize and make widely available the library collections of American readers from the early colonial period through 1825. Using the online book-cataloging site LibraryThing.com, scholars and volunteers from institutions around the country - including Monticello, the Boston Public Library, the Massachusetts Historical Society, the Boston Athenaeum, the American Antiquarian Society and others - have begun the process of creating an extensive online database of early American libraries. Current subjects include Thomas Jefferson, John Adams, Benjamin Franklin, Lady Jean Skipwith, James and Mary Murray, and other early American readers (some well-known, others obscure).
 
 Unlike standalone institutional databases or online library catalogs, the Libraries of Early America collections through LibraryThing allow users to quickly and easily make comparisons between libraries (what books did John Adams and Benjamin Franklin have in common, for example, or what books were most commonly shared among all the Signers of the Declaration of Independence?), and to search collections which may not exist today in physical form or which are spread across multiple institutions and private collections. A reconstruction of the multi-generational Mather Family library makes those titles widely available for the first time. Further, LibraryThing's capabilities allow significant data about each book to be added to the record where known: transcriptions of marginalia, information about acquisition of the title, the binding, correspondence about a given book, or even a link to a digital scan of the volumes (as with the John Adams collection at the Boston Public Library).
 

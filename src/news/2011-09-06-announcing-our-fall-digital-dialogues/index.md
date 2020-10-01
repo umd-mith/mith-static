@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2014-02-digital_dialogues_icon.jpg
+image: ../../images/2014-02-digital_dialogues_icon.jpg
 ---
-![Digital Dialogues Icon](/images/2014-02-digital_dialogues_icon.jpg)Fall is here! And with the new semester brings a stellar list of speakers for our fall Digital Dialogues. Digital Dialogues is a speaker series hosted by The Maryland Institute for Technology in the Humanities (MITH). Talks are open to the public, and guests are welcome to bring their lunches. The Fall 2011 Schedule:
+![Digital Dialogues Icon](../../images/2014-02-digital_dialogues_icon.jpg)Fall is here! And with the new semester brings a stellar list of speakers for our fall Digital Dialogues. Digital Dialogues is a speaker series hosted by The Maryland Institute for Technology in the Humanities (MITH). Talks are open to the public, and guests are welcome to bring their lunches. The Fall 2011 Schedule:
 
 **September 20**: Aditi Muralidharan, doctoral candidate at University of California, Berkeley, _Large Scale Text Analysis in the Digital Humanities: Methods and Challenges_
 

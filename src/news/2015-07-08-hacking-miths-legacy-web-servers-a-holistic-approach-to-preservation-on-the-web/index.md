@@ -11,7 +11,7 @@ categories:
 - Digital Preservation
 - MITH Digital Stewardship Series
 - Research
-image: /images/2015-07-20150708_104704-1024x768.jpg
+image: ../../images/2015-07-20150708_104704-1024x768.jpg
 ---
 _Editor's note— This is the second post in MITH's series on stewarding digital humanities scholarship._
 
@@ -27,7 +27,7 @@ As Trevor described in his [recent post on MITH’s digital preservation practic
 
 The two systems represented by those heavy, black IBM towers were a development server named “Khelone” and a production server named “Minerva.” These machines were MITH’s web servers from 2006 to 2009. When they were retired, the websites they hosted were migrated to new, more secure servers. MITH staff (primarily Greg Lord and Doug Reside) developed a transition plan where they evaluated each website on the servers for security and stability and then, based on that analysis, decided how each website should be migrated to the new servers. Some sites could be migrated in their entirety, but a number of websites had security vulnerabilities that dictated only a partial migration. (Later in the summer MITH’s Lead Developer Ed Summers will share a little more about the process of migrating dynamic websites.) After the websites had been migrated to the new servers, Khelone and Minerva, which had been hosted in the campus data center, were collected and returned to MITH. The decision to hold on to these servers showed great foresight and is what allowed me to go back six years after they had been retired and delve into MITH’s digital nooks and crannies.
 
-![Khelone & Minerva - MITH's web servers c 2009](/images/2015-07-20150708_104704-1024x768.jpg)
+![Khelone & Minerva - MITH's web servers c 2009](../../images/2015-07-20150708_104704-1024x768.jpg)
 
 Imaging and analyzing Khelone and Minerva’s hard drives is a task I eagerly took up because I have been interested in exploring how a digital forensics approach to digital preservation would differ between personal computing hardware (desktop computers, laptops and mobile devices) and server hardware. As I suspected, what I found was that there are both hardware and software differences between the two types of systems, and these differences significantly affect how one might go about preserving a server’s digital contents. In this post I will cover four common features of server hardware that may impede the digital humanities center manager’s or digital archivist’s ability to capture disk images of a server’s hard drives (I will write more about post-imaging BitCurator tools in subsequent posts). Those features are: 1) the use of SCSI hard drives, 2) drive access without login credentials, 3) accessing data on a RAID array, and 4) working with logical volumes. If those terms don’t mean anything to you, fear not! I will do my best to explain each of them and how a digital archivist might need to work with or around them when data held on server hardware.
 
@@ -65,7 +65,7 @@ Once the server is up and running on the liveCD, you may want to either capture 
 2. “Mirror” data across two or more disks to build redundancy (called RAID 1, see diagram below)
 3. Data striping with parity checks to prevent data loss (RAID 2-6)
 
-![Diagram of RAID 1 Array. Photo credit Intel](/images/2015-07-raid1.jpg)
+![Diagram of RAID 1 Array. Photo credit Intel](../../images/2015-07-raid1.jpg)
 
 Regardless of the RAID type, in all cases a RAID makes multiple disks appear to be a single disk. This complicates the work of the digital archivists significantly because when hard drives are configured in a RAID, they may not be able to stand alone as single disk, particularly in the case of RAID 0 where data is striped between the disks in the array.
 
@@ -79,7 +79,7 @@ _TL;DR #3: Servers frequently deploy a redundancy technology called RAID to ensu
 
 The fourth and final server technology I’ll discuss in this post is what is called a “logical volume.” For simplicity’s sake, I’ll draw a distinction between a “physical volume” and a “logical volume.” A physical volume would be all the space on a single drive; its size (its _volume_) is limited by its physical capacity. If I connect a physical drive to my computer and format it, its volume would only ever be what its physical capacity allowed. A logical volume, by comparison, has the capacity to span multiple drives to create a single, umbrella-like volume. The volume’s size can now be expanded by adding additional drives to the logical volume (see the diagram below). In practice this means that, like a RAID array, a logical volume allows the user to to connect multiple hard disks to a system but have the operating system treat them as a single drive. This capability allows the user to add space to the logical volume on an as-needed basis, so server administrators create logical volumes on servers where they anticipate the need to add more drive space in the future.
 
-![Diagram of a Logical Volume. Image credit The Fedora Project](/images/2015-07-lvg.png)
+![Diagram of a Logical Volume. Image credit The Fedora Project](../../images/2015-07-lvg.png)
 
 The hard drives on Minerva, the production server, were configured in a logical volume as well as a RAID. This meant that in addition to reconstructing the RAID with mdadm, I had to download a tool called lvm (Linux Volume Manager) to mount the logical volume, which I then used to mount and access the contents of the drives. While I generally advocate the use of disk images for preservation, in this case it may make more sense to capture a logical copy of the data (that is, just the data visible to the operating system and not a complete bitstream). The reason for this is that in order to access the data from a disk image, you must once again use lvm to mount the logical volume. This additional step may be difficult for future users. It is, however, possible to mount a logical volume contained on a disk image in BitCurator, which I’ll detail in a subsequent post.
 

@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2011-12-trevor-munoz.jpg
+image: ../../images/2011-12-trevor-munoz.jpg
 ---
-![Trevor Munoz](/images/2011-12-trevor-munoz.jpg)Tuesday, November 1, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
+![Trevor Munoz](../../images/2011-12-trevor-munoz.jpg)Tuesday, November 1, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 "Learning on the Job: Data Curation by Humanists, Librarians, and the Public" by TREVOR MUÑOZ
 

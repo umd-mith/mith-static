@@ -9,11 +9,11 @@ categories:
 - Community
 - Deena Larsen Collection
 - DLC
-image: /images/2014-02-DLC_collection_sm.jpg
+image: ../../images/2014-02-DLC_collection_sm.jpg
 ---
 “We were interested in the collection as a research test bed and so we wanted a set of born-digital materials we could actually work with, that a student could work with…” MITH Associate Director Matt Kirschenbaum
 
-[![](/images/2014-02-DLC_collection_sm.jpg "DLC_Collection")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_collection.jpg)
+[![](../../images/2014-02-DLC_collection_sm.jpg "DLC_Collection")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_collection.jpg)
 
 When you come to visit _The Deena Larsen Collection (DLC)_, you will be shown five well organized glass cases, containing vintage Macintosh computers, archival storage boxes, books on hypertext and new media, and a smattering of old computer peripherals.
 
@@ -21,7 +21,7 @@ When you come to visit _The Deena Larsen Collection (DLC)_, you will be shown fi
 
 Your guide will likely also point out the famous “[Marble Springs Shower Curtain](http://mith.umd.edu/larsen/items/show/42)." The shower curtain attempts to graphically illustrate, with printed screen shots and colored thread, the linked associations enlivened by authoring a hypertextual work to an audience in the pre-Web browsers days of the early 1990s.
 
-[![](/images/2014-02-MS1_docNancy_sm.jpg "Marble_Springs_Shower_Curtain")](http://mith.umd.edu/wp-content/uploads/2014/02/MS1_docNancy.jpg)
+[![](../../images/2014-02-MS1_docNancy_sm.jpg "Marble_Springs_Shower_Curtain")](http://mith.umd.edu/wp-content/uploads/2014/02/MS1_docNancy.jpg)
 
 As Maryland Institute for Technology in the Humanities (MITH) Associate Director Matthew Kirschenbaum notes, _The Deena Larsen Collection_ is “a true hybrid collection,” containing both analog and digital materials. Besides the specimens mentioned above, there are e-literature works from numerous authors, sometimes in draft _and_ finished form, as Deena is a keen collaborator, always happy to “read” rough drafts. Larsen, Kirschenbaum remarks, is “also somebody who is broadly interested in computer culture.” The _DLC_ contains many newspaper and magazine articles and clipped comics on issues such as Internet privacy, the growth of email, law and the Internet, and the frustrations computing tools can bring to the average user, among others. “I think,” Kirschenbaum adds, “the collection has some value as a cross section of a certain moment in popular computer history as well from roughly 1985 to 2000.”
 
@@ -31,7 +31,7 @@ With those things in mind I was encouraged to explore the collection.
 
 I used the Finding Aid binder (more on the Finding Aid [next post](http://mith.umd.edu/hands-on-the-dlc-finding-and-finding-aids)) to see which Mac Classic or Mac SE was still running. Sadly, my first choice, a Mac Classic II identified as M1, had stopped working since it’s last check-up in May 2009, and the screen never resolved:
 
-[![](/images/2014-02-DLC_mac_classic_II_fail_sm.jpg "Mac_Classic_II")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_mac_classic_II_fail.jpg)
+[![](../../images/2014-02-DLC_mac_classic_II_fail_sm.jpg "Mac_Classic_II")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_mac_classic_II_fail.jpg)
 
 (In case you are wondering about the markings on the side, yes, Deena did buy a pallet of surplussed computers from the Denver Public School, which she stores in her temperature controlled crawl space (I have crawled in it)…but that is a story for another time.)
 

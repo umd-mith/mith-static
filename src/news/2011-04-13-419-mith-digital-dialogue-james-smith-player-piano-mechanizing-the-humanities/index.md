@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/web-20111121194847-https:--lh3.googleusercontent.jpg
+image: ../../images/web-20111121194847-https:--lh3.googleusercontent.jpg
 ---
-![](/images/web-20111121194847-https:--lh3.googleusercontent.jpg)Tuesday, April 19, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
+![](../../images/web-20111121194847-https:--lh3.googleusercontent.jpg)Tuesday, April 19, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 “Player Piano: Mechanizing the Humanities” by JAMES SMITH
 

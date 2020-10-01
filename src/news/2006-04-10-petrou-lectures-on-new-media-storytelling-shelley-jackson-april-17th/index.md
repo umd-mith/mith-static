@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - MITH
-image: /images/2006-04-shelley.jpg
+image: ../../images/2006-04-shelley.jpg
 ---
-![Shelley Jackson, April 17th](/images/2006-04-shelley.jpg)
+![Shelley Jackson, April 17th](../../images/2006-04-shelley.jpg)
 
 The John and Bebe Petrou Foundation, the Department of English, and the Maryland Institute for Technology in the Humanities (MITH) are very pleased to announce the 2006 Bebe Koch Petrou Lectures on NEW MEDIA STORYTELLING at the University of Maryland, College Park. There will be two speakers associated with this event, coming to campus on separate days. All events are free and open to the public.
 

@@ -12,11 +12,11 @@ categories:
 - Digital Publishing
 - Digital Stewardship
 - Research
-image: /images/2010-2499689386_b13cdb37fc_b.jpg
+image: ../../images/2010-2499689386_b13cdb37fc_b.jpg
 ---
 COLLEGE PARK, MD—The **Maryland Institute for Technology in the Humanities **at the University of Maryland and the **Book Industry Study Group** are pleased to announce **Books.Files**, a new project funded by **The** **Andrew W. Mellon Foundation** to assess the potential for the archival collection and scholarly study of digital assets associated with today’s trade publishing and bookmaking.
 
-![](/images/2010-2499689386_b13cdb37fc_b.jpg)![]()
+![](../../images/2010-2499689386_b13cdb37fc_b.jpg)![]()
 
 The fact is that nearly all printed books now begin—and for many practical purposes end—their lifecycles as digital files that are produced and managed by designers, editors, publishers, packagers, and printers. The printed book that we hold in our hands is just one of the outputs that can be derived from these digital assets, which are also used to produce ebooks and Web-ready texts. In particular, the role of Adobe InDesign and other software tools is not well understood outside of the industry. And yet, this is where the book stops being a manuscript and starts _becoming_ a book, by way of its transformation into a prescribed set of digital assets which in addition to the text may include stylesheets, fonts, metadata, images, and other design elements.
 

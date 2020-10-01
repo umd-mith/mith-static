@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2014-02-biopic_rnelson_lg-200x200.png
+image: ../../images/2014-02-biopic_rnelson_lg-200x200.png
 ---
-![Robert Nelson](/images/2014-02-biopic_rnelson_lg-200x200.png)Tuesday, October 4, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
+![Robert Nelson](../../images/2014-02-biopic_rnelson_lg-200x200.png)Tuesday, October 4, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 “Hardtack and Software: Topic Modeling in Civil War Newspapers” by ROBERT K. NELSON
 

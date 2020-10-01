@@ -10,11 +10,11 @@ categories:
 - Research
 - SGA
 - Shelley Godwin Archive
-image: /images/2014-02-sga_screenshot_sm.jpg
+image: ../../images/2014-02-sga_screenshot_sm.jpg
 ---
 I am pleased to report that the first phase of _[The Shelley-Godwin Archive](http://shelleygodwinarchive.org/)_ is now underway. Wenfei (our intrepid intern) and I have begun to create electronic files for our diplomatic transcriptions of Mary Shelley’s _Frankenstein_ and Percy Shelley’s “Esdaile Notebook,” a collection of 58 early poems that remained unpublished until 1964. We are also preparing to encode Shelley’s hand-written revisions to his printed edition of _Queen Mab_, a portion of which was ultimately published as _The Daemon of the World, A Fragment_ in the _Alastor_ volume.
 
-[![](/images/2014-02-sga_screenshot_sm.jpg "Shelley_Godwin_Archive")](http://shelleygodwinarchive.org/)
+[![](../../images/2014-02-sga_screenshot_sm.jpg "Shelley_Godwin_Archive")](http://shelleygodwinarchive.org/)
 
 Our encoding schema is based on the [TEI P5 XML guidelines](http://www.tei-c.org/Guidelines/P5/), which gives us the flexibility to design an innovative framework that will enable end users to collate transcriptions of draft manuscripts with printed editions, to overlay and compare images of various draft states, to search all texts and transcriptions, and to tag text selections with user annotations. In conjunction with the MITH software development team, we strive to create a digital resource that takes into account not only the needs of textual scholars, but also the needs of students and teachers who are interested in learning more about the compositional process and how manuscript sources are brought to and through the press.
 

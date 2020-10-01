@@ -14,7 +14,7 @@ categories:
 - MEI to VexFlow
 - Music Studies
 - Research
-image: /images/2013-08-Screen-Shot-2013-08-05-at-09.52.03.png
+image: ../../images/2013-08-Screen-Shot-2013-08-05-at-09.52.03.png
 ---
 _MEI to VexFlow_ is a JavaScript library used to render music notation encoded according to the [Music Encoding Initiative](http://music-encoding.org/) (MEI) format. MEI is a community-driven effort to create a commonly-accepted, digital, symbolic representation of music notation documents, while keeping in mind the needs of textual scholars and the Digital Humanities.
 
@@ -38,9 +38,9 @@ Several other features have been introduced. **Now it’s possible to display ch
 
 **System breaks are also now supported** (Figure 4), and staff connectors are now rendered on the left of each system. Different staff connectors are supported in order to render different symbols connecting different groups of staves (for example, a brace for the piano right left hand, or a bracket for a group of instruments in an orchestral score).
 
-![C Major Prelude from The Well Tempered Clavier by J. S. Bach](/images/2013-08-Screen-Shot-2013-08-07-at-15.38.15-980x304.png "C Major Prelude from The Well Tempered Clavier by J. S. Bach")
+![C Major Prelude from The Well Tempered Clavier by J. S. Bach](../../images/2013-08-Screen-Shot-2013-08-07-at-15.38.15-980x304.png "C Major Prelude from The Well Tempered Clavier by J. S. Bach")
 
-![Multi-staff system with instrument groups](/images/2013-08-Screen-Shot-2013-08-05-at-11.02.40-200x172.png "Multi-staff system with instrument groups")
+![Multi-staff system with instrument groups](../../images/2013-08-Screen-Shot-2013-08-05-at-11.02.40-200x172.png "Multi-staff system with instrument groups")
 
 These are important steps towards the usability of the scores in real-life use cases such as performance or practice.
 

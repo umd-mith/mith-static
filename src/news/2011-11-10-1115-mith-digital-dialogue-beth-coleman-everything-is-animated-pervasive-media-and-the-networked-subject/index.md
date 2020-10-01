@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-01-beth_coleman.jpg
+image: ../../images/2012-01-beth_coleman.jpg
 ---
-![Beth Coleman](/images/2012-01-beth_coleman.jpg)Tuesday, November 15, 12:30-1:45PM **NOTE LOCATION**: Women's Studies Multimedia Studio, 0135 Taliaferro Hall, University of Maryland
+![Beth Coleman](../../images/2012-01-beth_coleman.jpg)Tuesday, November 15, 12:30-1:45PM **NOTE LOCATION**: Women's Studies Multimedia Studio, 0135 Taliaferro Hall, University of Maryland
 
 "Everything is Animated: Pervasive Media and the Networked Subject" by BETH COLEMAN
 

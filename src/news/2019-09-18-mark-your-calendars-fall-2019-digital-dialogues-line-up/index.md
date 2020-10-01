@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Digital Dialogues
 - News
-image: /images/2009-12-header_digital-dialogues_wide.png
+image: ../../images/2009-12-header_digital-dialogues_wide.png
 ---
-![Digital Dialogues](/images/2009-12-header_digital-dialogues_wide.png)
+![Digital Dialogues](../../images/2009-12-header_digital-dialogues_wide.png)
 
 We are delighted to announce the lineup for the Fall 2019 Digital Dialogue series. We will host eight speakers for six incredible sessions. All Digital Dialogues will be held Tuesdays, at 12:30 pm in the Maryland Institute for Technology in the Humanities Conference Room, 0301 Hornbake Library North beginning October 1, 2019.
 

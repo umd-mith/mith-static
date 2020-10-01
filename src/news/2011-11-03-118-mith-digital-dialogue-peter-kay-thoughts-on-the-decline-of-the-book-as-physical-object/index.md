@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-01-peter-kay-200x200.jpg
+image: ../../images/2012-01-peter-kay-200x200.jpg
 ---
-![Peter Kay](/images/2012-01-peter-kay-200x200.jpg)Tuesday, November 8, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
+![Peter Kay](../../images/2012-01-peter-kay-200x200.jpg)Tuesday, November 8, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 "Thoughts on the Decline of the Book as Physical Object" by PETER KAY
 

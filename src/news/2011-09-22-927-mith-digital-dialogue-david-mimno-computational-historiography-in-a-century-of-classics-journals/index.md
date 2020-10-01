@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-01-david-mimno.jpg
+image: ../../images/2012-01-david-mimno.jpg
 ---
-![David Minmo](/images/2012-01-david-mimno.jpg)Tuesday, September 27, 12:30-1:45PM MITH Seminar Room, McKeldin Library B0131
+![David Minmo](../../images/2012-01-david-mimno.jpg)Tuesday, September 27, 12:30-1:45PM MITH Seminar Room, McKeldin Library B0131
 
 “Computational Historiography in a Century of Classics Journals” by DAVID MIMNO
 

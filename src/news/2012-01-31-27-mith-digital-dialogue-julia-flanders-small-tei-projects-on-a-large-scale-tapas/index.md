@@ -8,11 +8,11 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-06-julia-flanders-headshot.jpg
+image: ../../images/2012-06-julia-flanders-headshot.jpg
 ---
 \*As of 10 am on 2/6/2012, this talk has been cancelled due to illness. MITH will be rescheduling and will update as soon as we have a new date. \*
 
-![Julie Flanders](/images/2012-06-julia-flanders-headshot.jpg)Tuesday, February 7, 12:30-1:45PM 2115 Tawes Hall Co-sponsored by the [Department of English](http://www.english.umd.edu/) "Small TEI Projects on a Large Scale: TAPAS" by JULIA FLANDERS
+![Julie Flanders](../../images/2012-06-julia-flanders-headshot.jpg)Tuesday, February 7, 12:30-1:45PM 2115 Tawes Hall Co-sponsored by the [Department of English](http://www.english.umd.edu/) "Small TEI Projects on a Large Scale: TAPAS" by JULIA FLANDERS
 
 The TEI Archiving, Publishing, and Access Service (TAPAS) is tackling one of the trickiest problems of scholarly text encoding. How can we provide robust, large-scale TEI publication services, while accommodating the detailed scholarly insight that makes TEI such a valuable tool for the digital humanities? What level of customization and variation can we support without compromising on interoperability, and what are the mechanisms by which we can achieve the optimal balance? And who needs variation anyway--what kinds of scholarly insight are at stake, or at risk?
 

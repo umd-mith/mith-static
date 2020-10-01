@@ -8,13 +8,13 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-11-photo11-200x200.jpg
+image: ../../images/2012-11-photo11-200x200.jpg
 ---
 Tuesday, October 18, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 "Practical Strategies for Digital Humanities Development: 10 Things I Wish Someone Would Have Told Me Before I Began Digital Humanities Research" by JENNIFER GUILIANO
 
-![Jennifer Guiliano](/images/2012-11-photo11-200x200.jpg)
+![Jennifer Guiliano](../../images/2012-11-photo11-200x200.jpg)
 
 This talk offers lessons learned from managing individual, multi-institutional, and international research agendas in the digital humanities. From topics as varied as “Collaboration: Why we love it and how it can harm a project” to “Your great idea: why it isn’t innovative” and “failure matters”, Practical Strategies offers tips and hints to scholars looking to build or maintain their own digital humanities research agenda.
 

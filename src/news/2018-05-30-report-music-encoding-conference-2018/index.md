@@ -17,9 +17,9 @@ categories:
 - News
 - Performing Arts
 - Theatre
-image: /images/2017-10-header_mec2018.png
+image: ../../images/2017-10-header_mec2018.png
 ---
-![Music Encoding Conference](/images/2017-10-header_mec2018.png)
+![Music Encoding Conference](../../images/2017-10-header_mec2018.png)
 
 Raffaele Viglianti (MITH) and Stephen Henry (Michelle Smith Performing Arts Library) hosted the [Music Encoding Conference](http://music-encoding.org/conference/2018) last week (22 - 25 May 2018).
 
@@ -29,7 +29,7 @@ We are also particularly grateful to **Anna Kijas** who, in her keynote speech, 
 
 We closed MEC with a productive _unconference_ day in the MITH offices and we are happy to already see some activity on the Music Encoding Initiative community as a result!
 
-![Music Encoding Conference reception and performance with Brad Cohen and Tory Wood](/images/2018-05-IMG_20180523_171713-669x272.jpg)
+![Music Encoding Conference reception and performance with Brad Cohen and Tory Wood](../../images/2018-05-IMG_20180523_171713-669x272.jpg)
 
 Many thanks were given throughout the conference days; however, we would be remiss not to acknowledge again the support provided by the University of Maryland College of Arts and Humanities and the MEI Board for sponsored bursaries for students. This was especially important to allow students to attend the conference in a place that is currently geographically distant from the core constituencies of the MEI community. We are also thankful to Tido for sponsoring the Wednesday reception and particularly to soprano Tory Wood and Tido’s founder and director Brad Cohen for a wonderful live performance.
 

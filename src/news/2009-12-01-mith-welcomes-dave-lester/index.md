@@ -7,9 +7,9 @@ redirect_from:
 - /mith-welcomes-dave-lester/
 categories:
 - Community
-image: /images/2009-12-staff_dlester.jpg
+image: ../../images/2009-12-staff_dlester.jpg
 ---
-![Dave Lester](/images/2009-12-staff_dlester.jpg)
+![Dave Lester](../../images/2009-12-staff_dlester.jpg)
 
 The Maryland Institute for Technology in the Humanities (MITH) is very pleased to welcome Dave Lester to its leadership team as an Assistant Director.
 

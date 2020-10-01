@@ -12,13 +12,13 @@ categories:
 - SGA
 - Shelley Godwin Archive
 - Text Encoding
-image: /images/sites-umdrightnow.umd.edu-files-frankenstein.1831.inside-cover.jpg
+image: ../../images/sites-umdrightnow.umd.edu-files-frankenstein.1831.inside-cover.jpg
 ---
 COLLEGE PARK, Md. – The University of Maryland's [Institute for Technology in the Humanities](http://mith.umd.edu/) (MITH) announces the launch of the Shelley-Godwin Archive (S-GA), a new digital resource that allows scholars, students and the public to explore in one place the widely scattered texts of England's "first family of writers."
 
 For the first time together, the archive will make available online the manuscripts of Mary Wollstonecraft, William Godwin, Percy Bysshe Shelley and Mary Wollstonecraft Shelley. The public can take a deeper look into the creative process of literature's most iconic texts.
 
-![The first public release of the archive will be the fully transcribed and encoded manuscripts of Mary Shelley's Frankenstein notebooks, with page images provided by the Bodleian Library at Oxford.  ](/images/sites-umdrightnow.umd.edu-files-frankenstein.1831.inside-cover.jpg "The first public release of the archive will be the fully transcribed and encoded manuscripts of Mary Shelley's Frankenstein notebooks, with page images provided by the Bodleian Library at Oxford.  ")Building on MITH's leadership and innovation in the field of digital humanities, the technology driving the archive provides high-quality, zoomable page images, as well as transcriptions of each page created on the fly from TEI encoding. The first public release of the archive will be the fully transcribed and encoded manuscripts of Mary Shelley's _Frankenstein_ notebooks, with page images provided by the Bodleian Library at Oxford.
+![The first public release of the archive will be the fully transcribed and encoded manuscripts of Mary Shelley's Frankenstein notebooks, with page images provided by the Bodleian Library at Oxford.  ](../../images/sites-umdrightnow.umd.edu-files-frankenstein.1831.inside-cover.jpg "The first public release of the archive will be the fully transcribed and encoded manuscripts of Mary Shelley's Frankenstein notebooks, with page images provided by the Bodleian Library at Oxford.  ")Building on MITH's leadership and innovation in the field of digital humanities, the technology driving the archive provides high-quality, zoomable page images, as well as transcriptions of each page created on the fly from TEI encoding. The first public release of the archive will be the fully transcribed and encoded manuscripts of Mary Shelley's _Frankenstein_ notebooks, with page images provided by the Bodleian Library at Oxford.
 
 "We encoded each stage of the composition process, tracing the revisionary evolution of primary manuscripts from rough draft to final copy," said Neil Fraistat director of MITH and an eminent Shelley scholar. "The added value here is far greater than basic transcription that only displays text as it appears on the page without embedded contextual information."
 

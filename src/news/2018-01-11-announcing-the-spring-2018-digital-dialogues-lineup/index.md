@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Digital Dialogues
 - Events
-image: /images/2009-12-header_digital-dialogues-h.jpg
+image: ../../images/2009-12-header_digital-dialogues-h.jpg
 ---
-![Digital Dialogues](/images/2009-12-header_digital-dialogues-h.jpg)
+![Digital Dialogues](../../images/2009-12-header_digital-dialogues-h.jpg)
 
 MITH’s Spring 2018 Digital Dialogues season is about to get underway! Starting in mid-February with Jarrett Drake from Harvard, we have SIX amazing speakers covering a wide range of research specialties:
 

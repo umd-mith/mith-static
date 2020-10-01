@@ -11,9 +11,9 @@ categories:
 - Community
 - Faculty Fellows
 - News
-image: /images/2012-01-carla-peterson-200x200.jpg
+image: ../../images/2012-01-carla-peterson-200x200.jpg
 ---
-![Carla Peterson](/images/2012-01-carla-peterson-200x200.jpg)Wednesday, March 7th at 4:30pm Carla Peterson, Ph.D, professor of English, MITH Faculty Fellow, and director of the _[Black Gotham Archive](http://www.blackgothamarchive.org/)_, will be giving a talk as part of the University of Maryland Libraries' _[Speaking of Books... Conversations with Campus Authors](http://www.lib.umd.edu/MCK/booktalks.html)_ series. Carla will be speaking on her recently published book, [_Black Gotham: A Family History of African Americans in Nineteenth-Century New York City_](http://yalepress.yale.edu/book.asp?isbn=9780300162554) (Yale UP, 2011).
+![Carla Peterson](../../images/2012-01-carla-peterson-200x200.jpg)Wednesday, March 7th at 4:30pm Carla Peterson, Ph.D, professor of English, MITH Faculty Fellow, and director of the _[Black Gotham Archive](http://www.blackgothamarchive.org/)_, will be giving a talk as part of the University of Maryland Libraries' _[Speaking of Books... Conversations with Campus Authors](http://www.lib.umd.edu/MCK/booktalks.html)_ series. Carla will be speaking on her recently published book, [_Black Gotham: A Family History of African Americans in Nineteenth-Century New York City_](http://yalepress.yale.edu/book.asp?isbn=9780300162554) (Yale UP, 2011).
 
 During the 2011-12 academic year, Dr. Peterson is completing a faculty fellowship at MITH which is allowing her to create the _[Black Gotham Archive](http://www.blackgothamarchive.org/)_, an interactive website that dives into the cultural and narrative history of the lives of nineteenth-century black New Yorkers. Throughout the course of the year, Dr. Peterson is giving book talks across the country. A complete calendar of her events is listed on the [Archive](http://www.blackgothamarchive.org/).
 

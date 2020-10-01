@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Digital Dialogues
 - Events
-image: /images/2009-12-header_digital-dialogues_wide.png
+image: ../../images/2009-12-header_digital-dialogues_wide.png
 ---
-![Digital Dialogues](/images/2009-12-header_digital-dialogues_wide.png)
+![Digital Dialogues](../../images/2009-12-header_digital-dialogues_wide.png)
 
 We are delighted to announce the lineup for the Fall 2018 Digital Dialogue series. The series will begin with our Fall Mixer, **Wednesday, September 12 at 12:30 pm**. We will then have seven incredible sessions. All Digital Dialogues will be held at 12:30 pm in the Maryland Institute for Technology in the Humanities Conference Room, 0301 Hornbake Library North.
 

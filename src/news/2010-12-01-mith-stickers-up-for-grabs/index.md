@@ -7,9 +7,9 @@ redirect_from:
 - /mith-stickers-up-for-grabs/
 categories:
 - Community
-image: /images/2010-12-photo-200x150.jpg
+image: ../../images/2010-12-photo-200x150.jpg
 ---
-![](/images/2010-12-photo-200x150.jpg "MITH Stickers")Earlier this semester a shipment of MITH stickers arrived that we've been passing out at Digital Dialogues. We'll continue to have them available at MITH events, but want to open this opportunity to the greater DH community while supplies last. Interested? Mail us a self-addressed stamped envelope and we'll send it back with a few free MITH stickers!
+![](../../images/2010-12-photo-200x150.jpg "MITH Stickers")Earlier this semester a shipment of MITH stickers arrived that we've been passing out at Digital Dialogues. We'll continue to have them available at MITH events, but want to open this opportunity to the greater DH community while supplies last. Interested? Mail us a self-addressed stamped envelope and we'll send it back with a few free MITH stickers!
 
 Your self-addressed stamped envelope can be mailed to:
 

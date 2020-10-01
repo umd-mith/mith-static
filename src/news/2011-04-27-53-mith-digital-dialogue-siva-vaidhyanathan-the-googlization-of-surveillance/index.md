@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-01-siva-vaidhyanathan.jpg
+image: ../../images/2012-01-siva-vaidhyanathan.jpg
 ---
-![Siva Vaidhyanathan](/images/2012-01-siva-vaidhyanathan.jpg)Tuesday, May 3, 12:30-1:45PM Special Events Room, McKeldin Library 6137
+![Siva Vaidhyanathan](../../images/2012-01-siva-vaidhyanathan.jpg)Tuesday, May 3, 12:30-1:45PM Special Events Room, McKeldin Library 6137
 
 "The Googlization of Surveillance" by SIVA VAIDHYANATHAN
 

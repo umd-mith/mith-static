@@ -10,9 +10,9 @@ categories:
 - Black Gotham Archive
 - Digital Dialogues
 - Events
-image: /images/2014-02-black-gotham-archive.jpg
+image: ../../images/2014-02-black-gotham-archive.jpg
 ---
-![Black Gotham Book](/images/2014-02-black-gotham-archive.jpg)Tuesday, May 1, 12:30-1:45pm 6137 McKeldin Library, Special Events Cosponsored by the Departments of African-American Studies, American Studies, and English
+![Black Gotham Book](../../images/2014-02-black-gotham-archive.jpg)Tuesday, May 1, 12:30-1:45pm 6137 McKeldin Library, Special Events Cosponsored by the Departments of African-American Studies, American Studies, and English
 
 "From Print to Digital: The Black Gotham Digital Archive" by **CARLA PETERSON** Co-presenter: **SETH DENBO**
 

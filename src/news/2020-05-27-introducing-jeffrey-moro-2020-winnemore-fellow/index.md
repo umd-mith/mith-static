@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Fellows
 - Winnemore Fellows
-image: /images/2020-05-jeffrey-moro-735x980.jpg
+image: ../../images/2020-05-jeffrey-moro-735x980.jpg
 ---
-![Jeffrey Moro](/images/2020-05-jeffrey-moro-735x980.jpg)MITH is delighted to welcome Jeffrey Moro as the 2020 Winnemore Fellow. Jeffrey is a PhD candidate in English with a certificate in Digital Studies in the Arts and Humanities ([DSAH](https://dsah.umd.edu/)). The Winnemore Digital Humanities Dissertation Fellowship supports work toward the completion of dissertations engaged with digital humanities or new media and the arts and humanities.
+![Jeffrey Moro](../../images/2020-05-jeffrey-moro-735x980.jpg)MITH is delighted to welcome Jeffrey Moro as the 2020 Winnemore Fellow. Jeffrey is a PhD candidate in English with a certificate in Digital Studies in the Arts and Humanities ([DSAH](https://dsah.umd.edu/)). The Winnemore Digital Humanities Dissertation Fellowship supports work toward the completion of dissertations engaged with digital humanities or new media and the arts and humanities.
 
 Jeffrey's research is at the crossroads of digital media studies and the environmental humanities. His dissertation, titled “Atmospheric Media: Computation and the Environmental Imagination,” explores how we imagine computation in terms of physical and cultural atmospheres. His writing has appeared in _Amodern_ and the _Los Angeles Review of Books_. Prior to joining UMD, he was the post-baccalaureate resident in digital humanities for Five Colleges, Inc. in Western Massachusetts, and holds degrees in English and Theater & Dance from Amherst College.
 

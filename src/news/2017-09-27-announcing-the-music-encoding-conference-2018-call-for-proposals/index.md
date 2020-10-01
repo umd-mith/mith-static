@@ -13,9 +13,9 @@ categories:
 - Music Studies
 - Opportunities
 - Performing Arts
-image: /images/2017-10-header_mec2018.png
+image: ../../images/2017-10-header_mec2018.png
 ---
-![Music Encoding Conference](/images/2017-10-header_mec2018.png)
+![Music Encoding Conference](../../images/2017-10-header_mec2018.png)
 
 ```
 <strong>** Deadline extended until November 15 11:59pm EST **

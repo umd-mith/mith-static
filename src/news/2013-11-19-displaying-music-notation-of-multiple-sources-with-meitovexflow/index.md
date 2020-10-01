@@ -12,7 +12,7 @@ categories:
 - MEI to VexFlow
 - Music
 - Research
-image: /images/2013-11-GSoC-Final-Blog-Post-Figure-1.png
+image: ../../images/2013-11-GSoC-Final-Blog-Post-Figure-1.png
 ---
 Google Summer of Code (GSoC) is over, and it’s time to recap what has been done during a greatly productive summer. Not only has my project has achieved its main objectives, but as a result I was able to demonstrate the results at the [École Thématique](http://duchemin.haverford.edu/editorsforum/ecole-thematique-2013/), Centre d’Étude Supérieures de la Renaissance in Tours, France in late October.
 
@@ -38,9 +38,9 @@ You can replace fragments of the musical text, by clicking on the green dots and
 
 In some cases, one source is different from all others, while all other sources agree. In other cases, some sources agree on one variant, and other sources agree on another. In the little pop-up variant selector window, you can see which source(s) a variant comes from (Figure 3-4).
 
-![Figure 3: the variant comes from source FC2439.](/images/2013-11-GSoC-Final-Blog-Post-Figure-3-200x180.png)
+![Figure 3: the variant comes from source FC2439.](../../images/2013-11-GSoC-Final-Blog-Post-Figure-3-200x180.png)
 
-![Figure 4: four sources agree on a different rhythm.](/images/2013-11-GSoC-Final-Blog-Post-Figure-4-200x197.png)
+![Figure 4: four sources agree on a different rhythm.](../../images/2013-11-GSoC-Final-Blog-Post-Figure-4-200x197.png)
 
 **Evaluation**
 

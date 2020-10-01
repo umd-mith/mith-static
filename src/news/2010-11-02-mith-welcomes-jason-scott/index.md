@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/images-brasslamps.jpg
+image: ../../images/images-brasslamps.jpg
 ---
-![](/images/images-brasslamps.jpg)
+![](../../images/images-brasslamps.jpg)
 
 On November 8th and 9th, JASON SCOTT, independent filmmaker, computer archivist, activist, and historian, and purveyor of tuna for @Sockington, the most popular cat on the internet, will be visiting the University of Maryland campus. Jason will screen his latest documentary film, GET LAMP, about text adventures aka interactive fiction, on the evening of Monday November 8th, at 7:00pm in Ulrich Recital Hall (in Tawes Hall). He will introduce the film and take questions afterward. The screening is free and open to the public. On Tuesday, November 9th, at 12:30, Jason Scott will deliver a talk entitled "Where the Magnet Hits the Metal: Computer History on the Ground" as part of the Digital Dialogues series at the Maryland Institute for Technology in the Humanities (MITH). MITH is located on the basement level of McKeldin Library. The talk is also free and open to the public.
 

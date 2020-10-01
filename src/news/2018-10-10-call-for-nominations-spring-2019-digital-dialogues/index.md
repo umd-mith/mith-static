@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Digital Dialogues
 - News
-image: /images/2009-12-header_digital-dialogues-h.jpg
+image: ../../images/2009-12-header_digital-dialogues-h.jpg
 ---
-![Digital Dialogues](/images/2009-12-header_digital-dialogues-h.jpg)
+![Digital Dialogues](../../images/2009-12-header_digital-dialogues-h.jpg)
 
 We are delighted to open nominations for spring 2019 Digital Dialogue speakers. [Digital Dialogues](https://mith.umd.edu/digital-dialogues/) is MITH’s signature events program, held almost every week while the academic semester is in session. Digital Dialogues is an occasion for discussion, presentation, and intellectual exchange that you can build into your weekly schedule.
 

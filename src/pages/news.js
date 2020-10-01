@@ -37,7 +37,10 @@ export const query = graphql`
         frontmatter {
           categories
           description
-          image
+          image {
+            publicURL
+            relativePath
+          }
           published
           redirect_from
           title

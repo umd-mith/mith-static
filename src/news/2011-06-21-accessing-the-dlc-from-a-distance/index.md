@@ -9,15 +9,15 @@ categories:
 - Community
 - Deena Larsen Collection
 - DLC
-image: /images/2014-02-DLC_web-front.jpg
+image: ../../images/2014-02-DLC_web-front.jpg
 ---
 My previous posts on _The Deena Larsen Collection_ (_DLC_) focused on visiting the Maryland Institute for Technology in the Humanities (MITH) in person and interacting with the collection physically. While at MITH I read through early versions of the poems in _Marble Springs_, I loaded 20-year-old diskettes into a 20-year-old computer (and crossed my fingers), and looked through a box of newly-received-but-as-yet-uncataloged materials. As it is not always convenient to drive 700 miles to visit MITH (although I am planning another such trip as I write this), it would be nice to have access to the collection from a distance. My first interaction with the _DLC_, as it will likely be for most of you, was electronic, rather than physical, through _The Deena Larsen Collection _[website](http://mith.umd.edu/research/deena-larsen-collection/ "Deena Larsen Collection"), designed by Amanda Visconti (whom I follow on Twitter [@literature_geek](https://twitter.com/Literature_Geek)).
 
-[![](/images/2014-02-DLC_web-front.jpg "DLC_web_homepage")](http://mith.umd.edu/research/deena-larsen-collection/ "Deena Larsen Collection")
+[![](../../images/2014-02-DLC_web-front.jpg "DLC_web_homepage")](http://mith.umd.edu/research/deena-larsen-collection/ "Deena Larsen Collection")
 
 The _DLC \_site has more detail about how the collection came to MITH, and Larsen’s artist statement. Another page is devoted to Larsen’s important work \_Marble Springs_. The page includes a video of _Marble Springs_ running on modern computing equipment via an emulator program. The bulk of the site, though, is given over to a growing catalog of the collection. At this writing there are 114 photos of _DLC_ contents, including the [Mac Classic II Cozy](http://mith.umd.edu/larsen/items/show/41), the previously mentioned [shower curtain](http://mith.umd.edu/larsen/items/show/42) (below), and a cover shot of Brendon Towle’s paper "[Towards a Prescriptive Theory of Hypertext Fiction](http://mith.umd.edu/larsen/items/show/153)".
 
-[![Shower Curtain](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_showercurtain.jpg "DLC_ShowerCurtain")](/images/2014-02-DLC_showercurtain.jpg)
+[![Shower Curtain](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_showercurtain.jpg "DLC_ShowerCurtain")](../../images/2014-02-DLC_showercurtain.jpg)
 
 The on-line catalog is great, giving a sense of what the collection contains. However, I will admit to feeling teased by it, like a kid outside a candy shop with a closed sign hanging in the window.
 
@@ -29,7 +29,7 @@ Finally, I asked Kirschenbaum about separating the intellectual content of the w
 
 So while there are significant difficulties to full digitization of _The Deena Larsen Collection_, there are a few steps that could be taken in the short term, to give distant researchers greater access. Papers, such as Larsen’s 1992 Thesis, _Hyperpoems and Hyperpossibilites _(below), could be scanned and made available to read on-line or via download. Currently, the catalog has a picture of the cover page, and a few interior pages. Making the thesis digital would give hypertext researchers an interesting pre-World Wide Web view.
 
-[![](/images/2014-02-DLC_HandH_cover_sm.jpg "DLC_HandH_cover")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_HandH_cover.jpg)
+[![](../../images/2014-02-DLC_HandH_cover_sm.jpg "DLC_HandH_cover")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_HandH_cover.jpg)
 
 As the collection contains hundreds of articles about computers and the development of Web culture, a linked bibliography of Larsen’s clippings could be created. Such a bibliography could help to contextualize Larsen’s thoughts on, and practice in, hypertextual works with the wider computer culture. Further, it could be a useful tool for researchers.
 

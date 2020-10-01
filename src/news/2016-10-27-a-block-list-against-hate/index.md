@@ -13,9 +13,9 @@ categories:
 - Events
 - Language and Culture
 - Night Against Hate
-image: /images/2016-10-user-ids-224x300.jpg
+image: ../../images/2016-10-user-ids-224x300.jpg
 ---
-![Twitter User Identifiers](/images/2016-10-user-ids-224x300.jpg)
+![Twitter User Identifiers](../../images/2016-10-user-ids-224x300.jpg)
 
 Two weeks ago a group of students, scholars and activists gathered in the evening at MITH for an event called the [Night Against Hate](http://mith.umd.edu/come-join-mith-thursday-1013-night-hate/). Our goal was to spend two hours working together to link groups and individuals documented in the Southern Poverty Law Center's [Extremist Files](https://www.splcenter.org/fighting-hate/extremist-files) to their respective Twitter accounts in order to:
 

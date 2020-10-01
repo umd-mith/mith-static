@@ -9,11 +9,11 @@ categories:
 - Fellows
 - Infinite Ulysses
 - Winnemore Fellows
-image: /images/2015-03-Step1-200x200.png
+image: ../../images/2015-03-Step1-200x200.png
 ---
 Since my [last post](http://mith.umd.edu/invitation-beta-test-infinite-ulysses-digital-edition/ "An Invitation to Beta-Test the Infinite Ulysses Digital Edition") in January, I've used feedback from generous beta-testers to bring [the Infinite Ulysses participatory digital edition](http://www.infiniteulysses.com) up to where I'd hoped it would be by the end of my dissertation. In the past, I invited users in small batches from a list of readers who signed up to beta-test. I wanted to continue testing early and often, slowly ramping up the formality of my testing from the informal conversations I used during the previous year to formal survey metrics.
 
-![Step 1](/images/2015-03-Step1-200x200.png)![Step 2](/images/2015-03-Step2-200x200.png)![Step 3](/images/2015-03-Step3metal-200x200.png)
+![Step 1](../../images/2015-03-Step1-200x200.png)![Step 2](../../images/2015-03-Step2-200x200.png)![Step 3](../../images/2015-03-Step3metal-200x200.png)
 
 ## Private beta ends, public beta opens
 
@@ -27,19 +27,19 @@ _The front page of InfiniteUlysses.com uses these visuals to show the site's hig
 
 ## Current site features
 
-These screenshots offer a quick overview what you can do on Infinite Ulysses: ![Annotate](/images/2015-03-annotate.png)
+These screenshots offer a quick overview what you can do on Infinite Ulysses: ![Annotate](../../images/2015-03-annotate.png)
 
 **Screenshot 1: **Highlight words and phrases and type in an annotation related to that highlight (comment, interpretation, question). You can add tags to the annotation to help readers filter in annotations that help or interest them, and filter out annotations that aren't useful for them.
 
-![Help](/images/2015-03-help1.png)
+![Help](../../images/2015-03-help1.png)
 
 **Screenshot 2: **You can read annotations left by other readers by clicking on any of the highlights. Deeper yellow highlights mean a word or phrase has more than one annotation on it.
 
-![Help 2](/images/2015-03-help2.png)
+![Help 2](../../images/2015-03-help2.png)
 
 **Screenshot 3: **The sidebar initially shows random annotations for the whole page. Clicking on a highlight makes just the annotations tied to that highlight appear in the sidebar.
 
-![Customize](/images/2015-03-customize1.png)
+![Customize](../../images/2015-03-customize1.png)
 
 **Screenshot 4: **In addition to adding tags to annotations, you can up- or down-vote them, favorite them (you can see a list of your favorites on your account page), or report them for moderation. What highlights are displayed on a page can be changed using the filters for annotation text, author, and tag. When a highlight has more than one annotation tied to it, you can prioritize which annotations appear on top in the sidebar by creation date or the annotations' rankings.
 

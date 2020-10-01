@@ -8,7 +8,7 @@ redirect_from:
 categories:
 - Curriculum
 - Data Curation
-image: /images/2018-07-Screen-Shot-2018-07-30-at-3.06.04-PM-980x918.png
+image: ../../images/2018-07-Screen-Shot-2018-07-30-at-3.06.04-PM-980x918.png
 ---
 This past spring [Purdom Lindblad](https://mith.umd.edu/people/person/purdom-lindblad/) and [I](https://mith.umd.edu/people/person/ed-summers/) had the opportunity to participate in several praxis oriented sessions involving social media data collection and analysis for [Matt Kirschenbaum](https://twitter.com/mkirschenbaum)'s [Introduction to Digital Studies](https://dsah.umd.edu/requirements/#introds) (MITH 610). We thought that some of the details of how we went about doing this work could be interesting to share with a wider audience, and also wanted to begin a short series of posts that showcases the work that some students generated during the class.
 
@@ -26,7 +26,7 @@ We thought it would be compelling to introduce social media data collection by u
 
 Since the University of Maryland uses Google's [GSuite for Education](https://edu.google.com/) for email and other services, students are (for better or worse) guaranteed to have (at least one) Google account. As part of Google Cloud they offer any account holder the ability to go to a URL <https://console.cloud.google.com/>cloudshell which automatically launches a virtual machine in the cloud, and give you a terminal window directly in your browser for interacting with it. It is a real Debian Linux operating system, which can used without having to install any software at all.
 
-![](/images/2018-07-Screen-Shot-2018-07-30-at-3.06.04-PM-980x918.png)
+![](../../images/2018-07-Screen-Shot-2018-07-30-at-3.06.04-PM-980x918.png)
 
 We developed a [short exercise](https://docs.google.com/document/d/11QSMTAiGWEJM324Tpm_SNYImVxAhkeGQfg_UaV0bgsI/edit#) that walked students through how to launch Google Cloud Shell, get comfortable with a few commands, install the [twarc](https://github.com/docnow/twarc) utility, and use it to collect some Twitter data directly from Twitter's API. twarc has been developed as part of MITH's involvement in the [Documenting the Now](https://www.docnow.io/) project, and allowed students to collect Twitter data matching a query of their choosing, store it in the native JSON format that Twitter themselves make available, and download it for further analysis.
 

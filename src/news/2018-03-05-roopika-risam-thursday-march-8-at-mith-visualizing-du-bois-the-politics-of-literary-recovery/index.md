@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Alerts
 - Events
-image: /images/2018-03-Roopika-Risam-talk-.png
+image: ../../images/2018-03-Roopika-Risam-talk-.png
 ---
-![](/images/2018-03-Roopika-Risam-talk-.png)We are excited to have Roopika Risam on campus to kick off a weekend of digital humanities events between March 8 and 10th. Risam’s work focuses on the intersections between postcolonial, African American, and US ethnic studies, and the role of digital humanities in mediating between them.
+![](../../images/2018-03-Roopika-Risam-talk-.png)We are excited to have Roopika Risam on campus to kick off a weekend of digital humanities events between March 8 and 10th. Risam’s work focuses on the intersections between postcolonial, African American, and US ethnic studies, and the role of digital humanities in mediating between them.
 
 Please join us Thursday, March 8th at 3:00 pm for Risam’s talk, **Visualizing Du Bois: The Politics of Literary Recovery**. This talk, drawn from her current book project, examines W.E.B. Du Bois’s influence on knowledge infrastructures in the humanities. This event will be held at the Maryland Institute of Technology in the Humanities (MITH), 0301 Hornbake Library North.
 

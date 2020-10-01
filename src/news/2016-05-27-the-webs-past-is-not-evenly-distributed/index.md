@@ -8,7 +8,7 @@ redirect_from:
 categories:
 - MITH Digital Stewardship Series
 - Research
-image: /images/2016-05-image01-300x283.png
+image: ../../images/2016-05-image01-300x283.png
 ---
 _This is the 4th post in [MITH's Digital Stewardship Series](http://mith.umd.edu/tag/mith-digital-stewardship-series/). In this post Ed Summers discusses ways to align your content with the grain of the Web so that it can last (a bit) longer._
 
@@ -82,7 +82,7 @@ and we didn’t want to have to move it to somewhere like:
 
 Certainly the old locations could have been permanently redirected to the new locations for some period of time. But doing that properly for over 100 project websites was a bit daunting. Instead we chose to use a reverse proxy server called [Varnish](https://varnish-cache.org/) to manage the traffic to and from our new servers. An added benefit to using a reverse proxy like Varnish is that it will cache content where appropriate, which greatly improves user experience when pages have been previously requested. In fact speeding up websites is the primary use case for Varnish. Another advantage to using something like Varnish is that its configuration becomes an active map of your organization's Web landscape. You can use the configuration as documentation for the web properties you manage. Here’s a partial view of our setup now:
 
-![image01](/images/2016-05-image01-300x283.png)
+![image01](../../images/2016-05-image01-300x283.png)
 
 Reverse proxies are an extremely useful tool for managing your Web namespace. They allow you to present a simplified namespace of your websites to your users, while also giving you a powerful mechanism to grow and adapt your backend infrastructure over time.
 
@@ -94,7 +94,7 @@ When a link breaks it’s not just the hostname or domain name in the URL that c
 
 This URL identifies the record in our Vintage Computers website for this Apple IIe computer that has been signed by the author Bruce Sterling:
 
-![image00](/images/2016-05-image00.jpg)
+![image00](../../images/2016-05-image00.jpg)
 
 In addition, a URL may have a query component, which is the portion of the URL that starts with a question mark. Here’s an example of a URL that identifies a search for the word apple in the Vintage Computing website:
 

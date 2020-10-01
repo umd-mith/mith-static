@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-03-lynn-cazabon-200x200.jpg
+image: ../../images/2012-03-lynn-cazabon-200x200.jpg
 ---
-![Lynn Cazabon](/images/2012-03-lynn-cazabon-200x200.jpg)Tuesday, March 6, 12:30-1:45PM 6137 McKeldin Library, Special Events
+![Lynn Cazabon](../../images/2012-03-lynn-cazabon-200x200.jpg)Tuesday, March 6, 12:30-1:45PM 6137 McKeldin Library, Special Events
 
 Co-sponsored by [Digital Cultures & Creativity](http://dcc.umd.edu/) and [University Libraries](http://www.lib.umd.edu/)
 

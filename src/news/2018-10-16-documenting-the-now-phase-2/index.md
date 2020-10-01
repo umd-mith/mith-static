@@ -13,9 +13,9 @@ categories:
 - News
 - Research
 - Social Media
-image: /images/2018-10-docnow2-a.png
+image: ../../images/2018-10-docnow2-a.png
 ---
-![DocNow2](/images/2018-10-docnow2-a.png)
+![DocNow2](../../images/2018-10-docnow2-a.png)
 
 With a \$1.2 Million grant from The Andrew W. Mellon Foundation, The Maryland Institute for Technology in the Humanities in the [College of Arts and Humanities](http://www.arhu.umd.edu/) at the University of Maryland, [Shift](http://shiftdesign.org.uk/), and the [Department of Media Studies](http://mediastudies.virginia.edu/) at the University of Virginia (UVA) will collaborate to lead the ongoing work of the Documenting the Now project. Started in 2014 with a grant to Washington University in St. Louis in partnership with the University of California, Riverside and MITH, [Documenting the Now](https://www.docnow.io) is committed to developing tools and community practices that support the ethical collection, use, and preservation of social media and web archives. Continuing the important work the project has accomplished over the past four years, the second phase of Documenting the Now will be focused on three interdependent strands of activity: software development, pedagogy, and engagement with community-based archiving of social justice activism.
 

@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Events
 - News
-image: /images/2012-04-ttw12_promo_flyer-980x757.jpg
+image: ../../images/2012-04-ttw12_promo_flyer-980x757.jpg
 ---
-[![Theorizing the Web Flyer](/images/2012-04-ttw12_promo_flyer-980x757.jpg)](http://mith.umd.edu/wp-content/uploads/2012/04/ttw12_promo_flyer.pdf)
+[![Theorizing the Web Flyer](../../images/2012-04-ttw12_promo_flyer-980x757.jpg)](http://mith.umd.edu/wp-content/uploads/2012/04/ttw12_promo_flyer.pdf)
 
 This Saturday, April 14th the Maryland Institute for Technology in the Humanities will be co-sponsoring the second annual Theorizing the Web Conference along with the [Department of Sociology](http://www.bsos.umd.edu/socy/), [Cyborgology](http://www.cyborgology.org/), and the[ iSchool](http://ischool.umd.edu/). It should be a fantastic event. Come on out!
 

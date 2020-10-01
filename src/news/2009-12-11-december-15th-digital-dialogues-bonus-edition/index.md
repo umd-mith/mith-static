@@ -7,9 +7,9 @@ redirect_from:
 - /december-15th-digital-dialogues-bonus-edition/
 categories:
 - Digital Dialogues
-image: /images/web-20131230171508-http:--mith.umd.edu-mithpress-goac-200x300.jpg
+image: ../../images/web-20131230171508-http:--mith.umd.edu-mithpress-goac-200x300.jpg
 ---
-![](/images/web-20131230171508-http:--mith.umd.edu-mithpress-goac-200x300.jpg "goac")The Center for the Advanced Study of Communities and Information (CASCI) and the Maryland Institute for Technology in the Humanities (MITH) are pleased to co-sponsor a Digital Dialogue with Georgina Goodlander of the Smithsonian American Art Museum.
+![](../../images/web-20131230171508-http:--mith.umd.edu-mithpress-goac-200x300.jpg "goac")The Center for the Advanced Study of Communities and Information (CASCI) and the Maryland Institute for Technology in the Humanities (MITH) are pleased to co-sponsor a Digital Dialogue with Georgina Goodlander of the Smithsonian American Art Museum.
 
 Tuesday, December 15, 12:30-1:45 pm MITH Conference Room, McKeldin Library B013
 

@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-03-michaelwitmore-159x202.jpg
+image: ../../images/2012-03-michaelwitmore-159x202.jpg
 ---
-![Michael Witmore](/images/2012-03-michaelwitmore-159x202.jpg)Tuesday, February 21, 12:30-1:45PM 2115 Tawes Hall Co-sponsored by the [Department of English](http://www.english.umd.edu/)
+![Michael Witmore](../../images/2012-03-michaelwitmore-159x202.jpg)Tuesday, February 21, 12:30-1:45PM 2115 Tawes Hall Co-sponsored by the [Department of English](http://www.english.umd.edu/)
 
 "Shakespeare from the Waist Down" by MICHAEL WITMORE
 

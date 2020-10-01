@@ -7,11 +7,11 @@ redirect_from:
 - /nanodhmo-nadhmo-whatever-lets-just-make-something/
 categories:
 - Community
-image: /images/web-20111121183648-http:--mith.umd.edu-hinkelstone_flickr-225x168.jpg
+image: ../../images/web-20111121183648-http:--mith.umd.edu-hinkelstone_flickr-225x168.jpg
 ---
 Every November, I mean to write fifty thousand words. Every November, something comes up that keeps me from doing it. This year, I'm doing it! I don't have any trips planned except for Thanksgiving. I don't have any activities outside work that take up a large amount of time. Nothing is standing in my way.
 
-![](/images/web-20111121183648-http:--mith.umd.edu-hinkelstone_flickr-225x168.jpg "hinkelstone_flickr")For those not familiar with [NaNoWriMo](http://www.nanowrimo.org/), head to the website and take a look. I want to explore why NaNoWriMo works and what it could mean for digital humanities.
+![](../../images/web-20111121183648-http:--mith.umd.edu-hinkelstone_flickr-225x168.jpg "hinkelstone_flickr")For those not familiar with [NaNoWriMo](http://www.nanowrimo.org/), head to the website and take a look. I want to explore why NaNoWriMo works and what it could mean for digital humanities.
 
 When teaching creative writing, I have two weeks titled "Editing without writing" and "Writing without editing" that cover sophistication and voice.
 

@@ -10,13 +10,13 @@ categories:
 - Community
 - Deena Larsen Collection
 - DLC
-image: /images/2014-02-DLC_deena.jpg
+image: ../../images/2014-02-DLC_deena.jpg
 ---
 In 2007, MITH acquired the [Deena Larsen Collection](http://mith.umd.edu/larsen/) (DLC). The collection consists of Macintosh SE computers, archived press materials, and early hypertexts and electronic literature from 1987 to 2004. I recently had the fortunate opportunity to sit down with Deena and fellow hypertext author, Bill Bly.
 
 _How did you both become involved in hypertext literature?_ **Bill Bly**: I had gotten a Mac in 1988, and loved it. Five years later, I learned about Storyspace, a Mac program distributed by Eastgate Systems, that let you write hypertext -- a novel that could be read more than one way. Mark Bernstein, Chief Scientist of Eastgate, sent me a copy of the program, and after a lot of experimentation and help from other writers of hypertext, I finished my own hypertext novel, _We Descend_ -- oddly enough, a story about an archive.
 
-[![](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_deena.jpg "Deena_Larsen_Bill_Bly_052011")](/images/2014-02-DLC_deena.jpg)
+[![](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_deena.jpg "Deena_Larsen_Bill_Bly_052011")](../../images/2014-02-DLC_deena.jpg)
 
 **Deena Larsen**: I started out with a vision of a work that told the story mostly in the links: _Marble Springs_. Then I got interested in the form and function of hypertext literature. There were scattered folks, and we attached ourselves to the hypertext community because we didn't have one of our own. The Association of Computing Machinery (ACM) hypertext group was primarily science-based; we created a community of hypertext writers through these conferences.
 
@@ -26,7 +26,7 @@ _What are the advantages of the hypertext form?_
 
 **DL**: First there was text. Now all of a sudden you can make text dance; there are links, sounds, images, much more than the spoken word. We get to explore. We get to explain. It's like going from walking to an airplane. You see all of the paths, all of the roads, which nodes are more important, the complete landscape.
 
-[![](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_map.jpg "We_Descend_Bill_Bly")](/images/2014-02-DLC_map.jpg)
+[![](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_map.jpg "We_Descend_Bill_Bly")](../../images/2014-02-DLC_map.jpg)
 
 _How do you create a cohesive narrative plot in the hypertext if a reader may take multiple paths through the text at any given time?_
 

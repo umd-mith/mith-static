@@ -8,11 +8,11 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-04-Jordan-Boyd-Graber1-200x169.png
+image: ../../images/2012-04-Jordan-Boyd-Graber1-200x169.png
 ---
 Tuesday, April 10, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
-"Making Topics More Human(e)" by JORDAN BOYD-GRABER![Jordan Boyd-Graber](/images/2012-04-Jordan-Boyd-Graber1-200x169.png)
+"Making Topics More Human(e)" by JORDAN BOYD-GRABER![Jordan Boyd-Graber](../../images/2012-04-Jordan-Boyd-Graber1-200x169.png)
 
 Imagine you need to get the gist of what's going on in a large text dataset such as all tweets that mention Obama, all e-mails sent within a company, or all newspaper articles published by _The New York Times_ in the 1990s. Topic models, which automatically discover the themes which permeate a corpus, are a popular tool for discovering what's being discussed. However, topic models aren't perfect; errors hamper adoption of the model, performance in downstream computational tasks, and human understanding of the data. However, humans can easily diagnose and fix these errors. We present a statistically sound model to incorporate hints and suggestions from humans to iteratively refine topic models to better model large datasets.
 

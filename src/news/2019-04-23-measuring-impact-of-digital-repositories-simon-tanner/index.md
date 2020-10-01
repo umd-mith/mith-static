@@ -11,9 +11,9 @@ categories:
 - Digital Preservation
 - Digital Publishing
 - Events
-image: /images/2019-04-simon-tanner-300x300.png
+image: ../../images/2019-04-simon-tanner-300x300.png
 ---
-**![](/images/2019-04-simon-tanner-300x300.png)Measuring Impact of Digital Repositories** Open, Collaborative Research: Developing the Balanced Value Impact Model to Assess the Impact of Digital Repositories _Thursday, April 25, 11 AM, MITH (0301 Hornbake Library)_
+**![](../../images/2019-04-simon-tanner-300x300.png)Measuring Impact of Digital Repositories** Open, Collaborative Research: Developing the Balanced Value Impact Model to Assess the Impact of Digital Repositories _Thursday, April 25, 11 AM, MITH (0301 Hornbake Library)_
 
 [Simon Tanner](http://simon-tanner.blogspot.com/) will offer a sneak peek at the [Balanced Value Impact Model 2.0](https://www.kdl.kcl.ac.uk/what-we-do/consultancy/strategic-thinking-and-practice/balanced-value-impact-model/) (BVI Model). Tanner will introduce the Digital Humanities at King's College London, and link this to his open and collaborative research practices to tell the story of the intellectual development of the BVI Model. He will detail the BVI Model 2.0 to highlight what's new and how it works. Tanner will relate these changes to his collaboration with [Europeana](https://www.europeana.eu/) to develop their [Impact Playbook](https://pro.europeana.eu/post/europeana-impact-assessment-playbook) and look to the future of that tool.
 

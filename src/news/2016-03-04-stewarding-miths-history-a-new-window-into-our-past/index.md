@@ -12,7 +12,7 @@ categories:
 - MITH Digital Stewardship Series
 - Research
 - Website Design
-image: /images/2016-03-DISC-Web-Components-735x980.jpg
+image: ../../images/2016-03-DISC-Web-Components-735x980.jpg
 ---
 _\[fusion_builder_container hundred_percent="yes" overflow="visible"]\[fusion_builder_row]\[fusion_builder_column type="1_1" background_position="left top" background_color="" border_size="" border_color="" border_style="solid" spacing="yes" background_image="" background_repeat="no-repeat" padding="" margin_top="0px" margin_bottom="0px" class="" id="" animation_type="" animation_speed="0.3" animation_direction="left" hide_on_mobile="no" center_content="no" min_height="none"]\[fusion_text]This is the third post in [MITH’s series on stewarding digital humanities scholarship](http://mith.umd.edu/tag/mith-digital-stewardship-series/)._
 
@@ -42,7 +42,7 @@ Record retention is a tricky business in general, as is the appraisal of an orga
 
 I downloaded all available project and event metadata from the current MITH Wordpress site and set it up in a dedicated shared spreadsheet. Then the MITH staff met and talked through our ideas about the design of the revamped interface, determining what an ideal set of core project metadata elements would be, and what information would display where on the new site. We looked at what metadata was already present on the site, and Kirsten created a separate tab on the spreadsheet to track existing and new metadata elements.
 
-![DISC Web Components](/images/2016-03-DISC-Web-Components-735x980.jpg)
+![DISC Web Components](../../images/2016-03-DISC-Web-Components-735x980.jpg)
 
 The easiest additions were projects which had been on former versions of the MITH site, now archived in the Wayback Machine. Since the descriptions and information in these had already been curated and vetted by former MITH staff, it was typically in fine shape for porting over as-is, filling in holes with other research. MITH’s electronic records provided much of the information about post-2009 projects that needed additional metadata.
 

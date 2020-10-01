@@ -8,13 +8,13 @@ redirect_from:
 categories:
 - Community
 - MITH's Vintage Computers
-image: /images/2014-02-blog_mattoffice.jpg
+image: ../../images/2014-02-blog_mattoffice.jpg
 ---
 My job is actually pretty simple. When people ask me what I do, I tell them I’m an English professor who teaches archivists about computers. What’s not to understand?
 
 Okay, there’s more to it than that. The official story is that I’m an [Associate Professor of English](http://www.english.umd.edu/users/mgk) who also has a research and administrative role at a digital humanities center, the [Maryland Institute for Technology in the Humanities](http://mith.umd.edu/) at the University of Maryland. But that’s arguably even less illuminating. Let me try a third tack. Here’s a picture of my office. Apologies for the mess, I’m actually kind of a neat freak, but this is an interesting mess. Maybe one way to talk about what I do is just to walk you through it.
 
-![Matt's Office](/images/2014-02-blog_mattoffice.jpg)
+![Matt's Office](../../images/2014-02-blog_mattoffice.jpg)
 
 So, we’ll start over on the left-hand side. That’s an Apple IIe, my first machine. My parents bought it for me (yeah, I was that lucky) back around 1982-3. It still boots today. Among other things, I keep it around to show students. Most of them have never used a computer that didn’t have a hard drive, so first having to select a disk and pop it into the drive before the computer does anything is a new experience for them. It’s signed by two people I have enormous respect for, Bruce Sterling (famous for, among much else, the [Dead Media](http://www.deadmedia.org/) project) and [Jason Scott](http://ascii.textfiles.com/), aka @textfiles. Both of them have been here to give talks, but the signatures also reinforce the way individual pieces of hardware become artifacts in their own right, something we’ve attempted to document in [a more formal way](http://mith.umd.edu/research/miths-vintage-computers/ "MITH’s Vintage Computers"). This computer, along with some Commodore 64s that Doug Reside used to keep around MITH when he was here, became the impetus for other people to begin offering us machines to add to our vintage collection.
 

@@ -9,17 +9,17 @@ categories:
 - Community
 - Deena Larsen Collection
 - DLC
-image: /images/2014-02-DLC_collage.jpg
+image: ../../images/2014-02-DLC_collage.jpg
 ---
 “…it is a true hybrid collection. It is not just a collection of digital materials.” MITH Associate Director Matt Kirschenbaum
 
-[![](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_collage.jpg "DLC_Collection")](/images/2014-02-DLC_collage.jpg)
+[![](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_collage.jpg "DLC_Collection")](../../images/2014-02-DLC_collage.jpg)
 
 Before opening the display cases, you will be shown to the three-ring binder with _The Deena Larsen Collection \_Finding Aid, if you haven’t already accessed the [electronic copy](http://mith.umd.edu/larsen/about/about) (scroll down to “The Collection Finding Aid” heading). The materials are inventoried in a spreadsheet of 18 tabs with categories such as “Authors,” “Manuals,” “Hardware,” “Articles,” “Correspondence,” and “Course Materials.” Many of the tabs relate to a specific archival box or set of boxes in the cases. There is also a separate finding aid spreadsheet for the 800+ (and growing) 3.5 inch floppy disk agglomeration that represent the most numerous single media item in the \_Deena Larsen Collection (DLC)_.
 
 The finding aids are vital to the researcher first coming to the _DLC_. Once you begin to crack open the boxes and binders on the shelves, you are confronted by the broad scope of the collection. _The Deena Larsen Collection_ contains nearly 400 articles clipped from various sources, known and unknown, with another 150+ printed from various Web sources; materials from a dozen conferences; a hand-full of bound computer manuals from the days before everything was electronic PDF files; and the boxes of disks containing work from Larsen and many other e-literature authors, in various drafts and stages of completion.
 
-[![](/images/2014-02-DLC_discs_sm.jpg "DLC_discs")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_discs.jpg)
+[![](../../images/2014-02-DLC_discs_sm.jpg "DLC_discs")](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_discs.jpg)
 
 Maryland Institute for Technology in the Humanities (MITH) Associate Director Matthew Kirschenbaum expects that most researchers will be drawn to the _DLC_ for the array of e-literature to be found here. The disk boxes include hypertexts produced in HyperCard, StorySpace, and HTML. The authors represented include Stephanie Strickland, Judy Mallory, William Dickey, Bill Bly, and many others.
 
@@ -29,7 +29,7 @@ As I noted in an earlier post, I was able to find a number of working versions o
 
 As I was working with the disk boxes, I thought that perhaps each box should have a box inventory sheet and an inventory control sheet, which would record instances of materials being checked out for research or preservation use. I have worked with such systems in other special collections, and have found it useful.
 
-[![](http://mith.umd.edu/wp-content/uploads/2011/06/DLC_disk_find_sample.jpg "DLC_disk_find_sample")](/images/2011-06-DLC_disk_find_sample.jpg)
+[![](http://mith.umd.edu/wp-content/uploads/2011/06/DLC_disk_find_sample.jpg "DLC_disk_find_sample")](../../images/2011-06-DLC_disk_find_sample.jpg)
 
 While each disk has been cataloged, the description is at the disk level, meaning that the description in the finding aid is based on the information on the label. The MITH staffers have yet had the time to do a file level description of the contents of each disk. This task is of course made more difficult by the fact that the Mac operating systems of the time did not always record the source program for files. So there is no telling if the “doc” files on a disk were created in MacWrite or Microsoft Word. (Although, when I queried Deena Larsen via email during my visit to MITH she told me they were likely MacWrite.)
 

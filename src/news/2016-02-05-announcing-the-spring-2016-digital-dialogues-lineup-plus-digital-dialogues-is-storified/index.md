@@ -8,7 +8,7 @@ redirect_from:
 categories:
 - Digital Dialogues
 - Events
-image: /images/2015-11-Trisha-Campbell-Storify.jpg
+image: ../../images/2015-11-Trisha-Campbell-Storify.jpg
 ---
 MITH’s Spring 2016 Digital Dialogues season is about to get underway! Starting next week with Elissa Frankle from the US Holocaust Museum, we have six amazing speakers covering a wide range of research specialties:
 
@@ -28,4 +28,4 @@ ALSO - Save the Date for a special additional Digital Dialogues talk on **Tuesda
 
 ### Digital Dialogues is Now Storified!
 
-As many of you noticed last semester, MITH is now creating Storify pages for all of our Digital Dialogue talks where we post links to resources, people and projects that speakers reference during their talks, ![Trisha Campbell Storify](/images/2015-11-Trisha-Campbell-Storify.jpg)along with recaps and tweets posted during the events. [Click here to look back at the talks from Fall 2015](http://mith.umd.edu/mith_dialogue_series/2015-02-fall/?submit=view). Links to the Storify are posted on each talk’s page.
+As many of you noticed last semester, MITH is now creating Storify pages for all of our Digital Dialogue talks where we post links to resources, people and projects that speakers reference during their talks, ![Trisha Campbell Storify](../../images/2015-11-Trisha-Campbell-Storify.jpg)along with recaps and tweets posted during the events. [Click here to look back at the talks from Fall 2015](http://mith.umd.edu/mith_dialogue_series/2015-02-fall/?submit=view). Links to the Storify are posted on each talk’s page.

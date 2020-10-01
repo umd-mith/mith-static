@@ -8,11 +8,11 @@ redirect_from:
 categories:
 - Events
 - Opportunities
-image: /images/web-20130608201418-https:--ciberpunk.es-imagenes-Bruce_Sterling.jpg
+image: ../../images/web-20130608201418-https:--ciberpunk.es-imagenes-Bruce_Sterling.jpg
 ---
 The Maryland Institute for Technology in the Humanities (MITH), College Park Art Scholars, Honors Humanities, and the Honors College are very pleased to present an evening with author and futurist . . .
 
-![](/images/web-20130608201418-https:--ciberpunk.es-imagenes-Bruce_Sterling.jpg)
+![](../../images/web-20130608201418-https:--ciberpunk.es-imagenes-Bruce_Sterling.jpg)
 
 **B R U C E S T E R L I N G**
 

@@ -10,15 +10,15 @@ categories:
 - Research
 - VADA
 - Visual Accent &amp; Dialect Archive
-image: /images/2014-02-vada_launch_logo.jpg
+image: ../../images/2014-02-vada_launch_logo.jpg
 ---
 Why do residents in the Italian neighborhood of Philadelphia pronounce words like “home” and “hoagie” in a Scottish dialect? Questions such as these have long drawn the curiosity of linguistics and language scholars. Up until now, audio recordings served as the primary source material for those studying accent and dialect history. Now, thanks to [Leigh Wilson Smiley](http://tdps.umd.edu/faculty/Leigh-Wilson-Smiley), Head of the MFA in Performance in the School of Theatre, Dance, and Performance Studies at the University of Maryland, and MITH Resident Fellow, her launch of the [Visual Accent and Dialect Archive](http://mith.umd.edu/vada/) (VADA) allows viewers to closely monitor facial movements of speakers while listening to English spoken in a variety of accents and dialects.
 
 VADA is a crowd-sourced YouTube video archive of English-language accents and dialects gathered from around the globe, providing visual information on language sound pronunciation for the theater community. Users are able to browse dialects from a selection of recorded interviews from “dialect donors”, who read a designated passage in English, or speak in their own words, in a variety of accents and dialects.
 
-![](/images/2014-02-vada_launch_logo.jpg "vada_launch_logo")
+![](../../images/2014-02-vada_launch_logo.jpg "vada_launch_logo")
 
-![](/images/2014-02-vada_launch.jpg "VADA_Launch")
+![](../../images/2014-02-vada_launch.jpg "VADA_Launch")
 
 These videos are useful, Leigh explains, when working with an actor who uses their own facial muscles differently, and is learning an accent for a role. Observing the facial movement while hearing the words aloud assists the acquisition process. Leigh hopes VADA will serve as the central video source of people speaking English in different dialects for teachers and linguists, as well as for dialect and voice coaches working in professional theater.
 

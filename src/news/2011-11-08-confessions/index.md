@@ -10,7 +10,7 @@ categories:
 - Black Gotham Archive
 - Faculty Fellows
 - Research
-image: /images/2014-02-black-gotham-archive.jpg
+image: ../../images/2014-02-black-gotham-archive.jpg
 ---
 As a professor in the humanities, I've spent a career committed to scholarly research. But I confess to having definite likes and dislikes.
 
@@ -18,7 +18,7 @@ Here's what I like: going to the archives and rooting around looking at old docu
 
 Here's what I don't like: sitting in front of my computer trying to engage with new media. I admit to being technologically challenged. I can word process (do people still use that term?) and email, and I love wasting time googling this, that, and the other. But that's about it. I don't do facebook (I think you're supposed to do something with a wall), I don't twitter or tweet (in fact I'm not sure what the distinction between the two is). I do own a cell phone but the only function that works is making outgoing calls; it's definitely not for tm (is that short for text messaging?).
 
-[![Black Gotham Book](/images/2014-02-black-gotham-archive.jpg)](http://mith.umd.edu/confessions/black-gotham-archive/)So you might well wonder why I went online a few nights ago and, with massive spousal support and encouragement, purchased a domain name: [www.blackgothamarchive.org](http://www.blackgothamarchive.org/).
+[![Black Gotham Book](../../images/2014-02-black-gotham-archive.jpg)](http://mith.umd.edu/confessions/black-gotham-archive/)So you might well wonder why I went online a few nights ago and, with massive spousal support and encouragement, purchased a domain name: [www.blackgothamarchive.org](http://www.blackgothamarchive.org/).
 
 Earlier this spring Yale University Press published my book*,* [Black Gotham:](http://yalepress.yale.edu/book.asp?isbn=9780300162554)_[ A Family History of African Americans in Nineteenth-Century New York City](http://yalepress.yale.edu/book.asp?isbn=9780300162554)_. It was eleven years in the making, and I suspect it took that long because of my addiction to archival research and playing with narrative form.
 

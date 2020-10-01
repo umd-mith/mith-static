@@ -10,7 +10,7 @@ categories:
 - SGA
 - Shelley Godwin Archive
 - TEI
-image: /images/2012-04-TEIexample.jpg
+image: ../../images/2012-04-TEIexample.jpg
 ---
 Team MARKUP, a group of graduate students working with the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/), evolved as a encoding project in Professor and MITH Director Neil Fraistat's[ Technoromanticism graduate seminar](http://mith.umd.edu/eng738T) (English 738T) during the Spring 2012 term at the University of Maryland; our team was augmented by several students in[ the sister course](http://digital19thcentury.wordpress.com/) taught by Professor Andrew Stauffer at the University of Virginia. The project involved using git and GitHub to manage a collaborative encoding project, practicing TEI and the use of the Oxygen XML editor for markup and validation, and encoding and quality-control checking nearly 100 pages of Mary Shelley's Frankenstein manuscript for the[ Shelley-Godwin Archive](http://shelleygodwinarchive.org/), with each student encoding ten pages of the manuscript.
 
@@ -20,7 +20,7 @@ Team MARKUP collaboratively authored [a post on the several phases of the projec
 
 **1. Affective editing is effective editing?** One of my favorite quotations—so beloved that it shapes my professional work and has been reused shamelessly on my Ph.D. exams list, a Society for Textual Scholarship[ panel abstract](http://web.archive.org/web/20151223202657/http://literaturegeek.com/2012/02/17/society-for-textual-scholarship-panel-abstract/), and at least one paper—is Gary Taylor’s reasoning on the meaningfulness of editing: “How can you love a work, if you don't know it? How can you know it, if you can't get near it? How can you get near it, without editors?”\*. My interests focus on participatory editing because I want to help others get near the literature I love. Encoding my editorial decisions with TEI pushed me a step closer to the text than my previous non-encoded editorial experience, something I didn’t know was possible.
 
-![Screenshot of TEI encoding of first page of volume II of Frankenstein manuscript](/images/2012-04-TEIexample.jpg)
+![Screenshot of TEI encoding of first page of volume II of Frankenstein manuscript](../../images/2012-04-TEIexample.jpg)
 
 My ten pages happened to be the first pages of the Creature’s monologue; hearing the voice of the Creature by seeing the handwriting of its true creator, Mary Shelley, gave me shivers—meaningful shivers accompanied by a greater understanding of important aspects of Shelley’s writing, such as the large editorial impact made by her husband Percy and the differing ways she crossed out or emphasized changes to her draft. Moving between the manuscripts images and the TEI encoding—so similar to my other work as a web designer and developer—also emphasized the differences in the writing process of my generation and the work that went into inscribing, organizing, and editing a book without the aid of a mechanical or digital device.
 
@@ -30,7 +30,7 @@ My ten pages happened to be the first pages of the Creature’s monologue; heari
 
 **4. Encode all the things! Or not.** Depth of encoding was a difficult issue to understand early on; once we’d encoded a few pages, I began to have a better sense of what required encoding and what aspects of the manuscript images I could ignore. Initially, I was driven to encode everything, to model what I saw as thoroughly as possible: sums in the margins, different types of overstrikes, and analytical bibliography aspects such as smudges and burns and creases.
 
-![X all the Y meme stating Encode All the Things](/images/2012-04-encode.jpg)
+![X all the Y meme stating Encode All the Things](../../images/2012-04-encode.jpg)
 
 What helped me begin to judge what to encode was understanding what was useful for Team MARKUP to encode (the basics that would apply to future encoding work: page structure and additions and deletions), what was useful for more advanced encoders to tackle (sitting in on the SGA staff meetings, I knew that some of our work would be subject to find-and-replace by people more experienced with Percy and Mary’s handwriting styles), and what our final audience would do with our XML (e.g. smudges and burns weren’t important, but Percy’s doodles could indicate an editorial state of mind useful to the literary scholar).
 

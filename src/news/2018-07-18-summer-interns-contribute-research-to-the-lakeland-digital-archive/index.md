@@ -9,13 +9,13 @@ categories:
 - Lakeland
 - News
 - Research
-image: /images/2018-07-IMG_2096-980x735.jpg
+image: ../../images/2018-07-IMG_2096-980x735.jpg
 ---
 Two new grants, a Research Continuity Micro-Grant from the University of Maryland College of Arts and Humanities and a Community Partnership Grant from the American Studies Association, will provide funds for a team of students to conduct new oral history interviews with elder community members from Lakeland, an African American community of College Park, Maryland. This work is part of a collaboration between the [Lakeland Community Heritage Project (LCHP)](https://lakelandchp.com/), the University of Maryland’s Department of American Studies, and MITH.
 
 Eight students will work with us this summer—four from the Lakeland community and four from local schools and universities. The students are receiving 8 hours of training introducing them to the history of Lakeland and the LCHP and learning oral history methods they will use to conduct interviews. The project will follow a template that Project Director Dr. Mary Corbin Sies has previously used with classes as part of her long-term investment in working with the Lakeland community. In addition to Sies, Ms. Violetta Sharps Jones, a local historian and LCHP board member, MITH’s Stephanie Sapienza, Dr. Asim Ali, a Lecturer and ethnographer from the Department of American Studies, and Ashleigh Coren, Special Collections Librarian for Teaching and Learning, at the University of Maryland Libraries are all contributing their expertise.
 
-![Group photo of interns and instructors for Lakeland oral history project](/images/2018-07-IMG_2096-980x735.jpg)
+![Group photo of interns and instructors for Lakeland oral history project](../../images/2018-07-IMG_2096-980x735.jpg)
 
 At our first session, Ms. Sharps Jones shared stories about Lakeland’s early history with the students. She explained Lakeland’s central geographic location among a group of small, interconnected African American communities along U.S. Route One in Prince George's County, MD. Because it was the location of the main African American high school in the county prior to 1950 and its easy access to train and trolley transportation, Lakeland became a natural gathering place for African American social and recreational activities.
 

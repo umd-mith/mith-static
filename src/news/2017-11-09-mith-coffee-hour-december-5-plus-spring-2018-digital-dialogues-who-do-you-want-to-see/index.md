@@ -9,9 +9,9 @@ categories:
 - Community
 - Digital Dialogues
 - Events
-image: /images/2017-11-Fall-2017-collage.jpg
+image: ../../images/2017-11-Fall-2017-collage.jpg
 ---
-![](/images/2017-11-Fall-2017-collage.jpg)
+![](../../images/2017-11-Fall-2017-collage.jpg)
 
 MITH has wrapped up another fantastic Digital Dialogues season! This semester we got to hear about groundbreaking scholarly work on the history of segregation in the field of Library & Information Science ([Nicole Cooke, October 3](http://mith.umd.edu/dialogues/dd-fall-2017-nicole-cooke/)); research on how online social networks function to foster community discourse on race and representation ([Sarah Florini, October 10](http://mith.umd.edu/dialogues/dd-fall-2017-sarah-florini/)); a discussion on the interdisciplinary benefits the arts can offer humanities in terms of materiality in research ([Kevin Hamilton, September 26](http://mith.umd.edu/dialogues/dd-fall-2017-kevin-hamilton/)); a preview of new work in digital textual scholarship revealing new insights about the evolution of Mary Shelley's _Frankenstein_ over several editions ([Elisa Beshero-Bondar, October 24](http://mith.umd.edu/dialogues/dd-fall-2017-elisa-beshero-bondar/)); inspiring stories of working with art, media and game design to help students of color understand and thrive in their world - AND conduct hands-on archival research ([Alexandrina Agloro, October 31](http://mith.umd.edu/dialogues/dd-fall-2017-alexandrina-agloro/)); and lastly, how the Smithsonian's new National Museum of African American History and Culture is doing truly innovative collaborative archival work building public digitization labs to encourage community engagement and build its audiovisual collections ([Walter Forsberg, November 7](http://mith.umd.edu/dialogues/dd-fall-2017-walter-forsberg/)).
 

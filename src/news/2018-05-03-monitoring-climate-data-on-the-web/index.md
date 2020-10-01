@@ -9,9 +9,9 @@ categories:
 - Digital Stewardship
 - Events
 - News
-image: /images/2018-05-raycha-300x300.jpg
+image: ../../images/2018-05-raycha-300x300.jpg
 ---
-![](/images/2018-05-raycha-300x300.jpg)
+![](../../images/2018-05-raycha-300x300.jpg)
 
 ## Monitoring Climate Data on the Web
 

@@ -9,9 +9,9 @@ categories:
 - Alerts
 - Digital Dialogues
 - Events
-image: /images/2009-12-header_digital-dialogues-h.jpg
+image: ../../images/2009-12-header_digital-dialogues-h.jpg
 ---
-![Digital Dialogues](/images/2009-12-header_digital-dialogues-h.jpg)
+![Digital Dialogues](../../images/2009-12-header_digital-dialogues-h.jpg)
 
 MITH’s Fall 2017 Digital Dialogues season is about to get underway! Starting four weeks from today with Kevin Hamilton from University of Illinois, we have SIX amazing speakers covering a wide range of research specialties:
 

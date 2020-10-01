@@ -9,7 +9,7 @@ categories:
 - Digital Mishnah
 - Faculty Fellows
 - Fellows
-image: /images/2013-09-OutputSubst1.jpg
+image: ../../images/2013-09-OutputSubst1.jpg
 ---
 Since my last post, I have been working on a grant application. This has afforded the opportunity of some stock taking. I’ve also had some very helpful conversations with scholars in the field: Juan Garcés and Matt Munson in Hebrew Biblical Studies, Tim Finney in New Testament and Desmond Schmidt in textual computing and classics.
 

@@ -9,7 +9,7 @@ categories:
 - Digital Stewardship
 - Media Studies
 - Research
-image: /images/2018-08-Figure-1.png
+image: ../../images/2018-08-Figure-1.png
 ---
 _This post is part 2 in a [series](https://mith.umd.edu/little-big-data/) about social media data collection experiments conducted in [Matt Kirschenbaum](https://twitter.com/mkirschenbaum)‘s [Introduction to Digital Studies](https://dsah.umd.edu/requirements/#introds)._
 
@@ -33,19 +33,19 @@ Questions I am interested in answering about this data include:
 
 I can posit answers to some of these questions by using spreadsheets and word clouds to analyze the tweets. First, to understand why people might use the hashtag, I generated the word cloud in Fig. 1. It represents other hashtags that accounts used in addition to #engineering within the same tweet. To generate the word cloud, I copied the “hashtags” column from the .csv file into a free online tool, WordClouds.com. The bigger the word appears the more often it occurred.
 
-![](/images/2018-08-Figure-1.png)
+![](../../images/2018-08-Figure-1.png)
 
 The words that occurred most often were related to jobs and hiring. Specifically, “CareerArc” is a company that specializes in online recruiting. I was surprised to see jimmyfallon on the word cloud. I discovered that it first appeared in this tweet:
 
-![](/images/2018-08-jimmyfallon1.png)
+![](../../images/2018-08-jimmyfallon1.png)
 
 And, then it appears to have been scraped as a hashtag associated with engineering by an account promoting continuing education programs and tweeted over and over again:
 
-![](/images/2018-08-jimmyfallon2.png)
+![](../../images/2018-08-jimmyfallon2.png)
 
 To better understand who uses the hashtag, I copied and pasted user descriptions through the same word cloud generator. The results are displayed here:
 
-![](/images/2018-08-Cloud.png)
+![](../../images/2018-08-Cloud.png)
 
 “Engineering” is the word that occured most often, which suggests that many of the accounts identify with or specialize in engineering somewhat exclusively. The other word that caught my eye was “Need.” Given the high occurrence of career related words, my initial guess was that perhaps users were sharing that they needed a job. However, a small sample of user descriptions with the word “need” suggests that they are framing their expertise as something that is needed. For example:
 
@@ -57,11 +57,11 @@ To better understand who uses the hashtag, I copied and pasted user descriptions
 
 To better understand the “who,” I also used a pivot table to identify the top 10 accounts using #engineering. The results displayed in the table suggest that the hashtag is often used by accounts whose primary function is recruiting.
 
-![](/images/2018-08-Screen-Shot-2018-08-27-at-3.11.31-PM.png)
+![](../../images/2018-08-Screen-Shot-2018-08-27-at-3.11.31-PM.png)
 
 Of course, using the hashtag does not mean that the tweet is influential. To start to identify influential tweets I decided to look at favorited tweets because retweets seemed to be more automated, for example, a circle of accounts all retweeting the same content. Below are the top 10 most favorited tweets. Most of the tweets express wonder at the feats of #engineering. @colin_furze, who also has a YouTube account “with all the crazy inventions and projects,” appears 3 times. He has approximately 35,800 followers. Exploring how the invocation of wonder overlaps with the more pragmatic concern of getting a job could be the focus of future analysis.
 
-![](/images/2018-08-Untitled-2.png)
+![](../../images/2018-08-Untitled-2.png)
 
 I tried to find an easy way to visualize the network/assemblage swirling about #engineering. I do not have previous experience with this, but after a few emails and discovering that NodeXL does not work on on Apple computers, I found GEPHI. I downloaded it and realized it would take a little time to learn the software and properly format my data. Reading about the software, I learned about “nodes” (in the case of Twitter, users) and “edges” (connections between users). Since my own personal discovery, I have seen two scholars present on the work they did with GEPHI, and I realize it is commonly used for visualizing social media networks. To create a clearer picture of the influence of the accounts using the hashtag, mastering GEPHI might be the best next step. However, even with GEPHI, this dataset is limited, and therefore, it may or may not represent what the public assumes about engineering and engineers.
 

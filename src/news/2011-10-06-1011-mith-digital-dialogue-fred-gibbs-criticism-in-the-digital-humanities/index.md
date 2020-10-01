@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-01-fred-gibbs.jpg
+image: ../../images/2012-01-fred-gibbs.jpg
 ---
-![Fred Gibbs](/images/2012-01-fred-gibbs.jpg)Tuesday, October 11, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
+![Fred Gibbs](../../images/2012-01-fred-gibbs.jpg)Tuesday, October 11, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 "Criticism in the Digital Humanities" by FRED GIBBS
 

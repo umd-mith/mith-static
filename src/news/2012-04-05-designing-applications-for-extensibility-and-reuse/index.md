@@ -7,7 +7,7 @@ redirect_from:
 - /designing-applications-for-extensibility-and-reuse/
 categories:
 - Research
-image: /images/2012-04-Data-Flow-Schematic.png
+image: ../../images/2012-04-Data-Flow-Schematic.png
 ---
 ![](http://mith.umd.edu/wp-content/uploads/2012/04/Data-Flow-Schematic.png "Data-Flow-Schematic")
 

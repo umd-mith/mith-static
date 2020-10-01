@@ -10,9 +10,9 @@ categories:
 - Community
 - Digital Dialogues
 - Events
-image: /images/2009-12-header_digital-dialogues-h.jpg
+image: ../../images/2009-12-header_digital-dialogues-h.jpg
 ---
-![Digital Dialogues](/images/2009-12-header_digital-dialogues-h.jpg)
+![Digital Dialogues](../../images/2009-12-header_digital-dialogues-h.jpg)
 
 MITH is excited to announce the lineup of speakers for our Spring 2015 Digital Dialogues season! Our six speakers come from a wide variety of research specialties ranging from ranging from Digital Musicology to Literature/Digital Editions to Urban Media Art and Interaction Design. Reserve the date now for:
 

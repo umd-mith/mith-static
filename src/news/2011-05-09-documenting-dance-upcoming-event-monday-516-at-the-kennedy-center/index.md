@@ -9,13 +9,13 @@ categories:
 - Community
 - Documentation and Preservation of Dance
 - Events
-image: /images/2011-05-preservation_of_dance_sm.jpg
+image: ../../images/2011-05-preservation_of_dance_sm.jpg
 ---
 Renowned ballerina [Suzanne Farrell](https://secure.wikimedia.org/wikipedia/en/wiki/Suzanne_Farrell) performed an exceptional 28 years before retiring from an established and widely-accomplished career. Having danced for world-famous companies in Berlin, New York City, Paris and Vienna, Farrell gained an unparalleled wealth of knowledge and expertise that she then chose to pass down to the next generation of dancers as teacher and founder of her own company, the Suzanne Farrell Ballet at the [John F. Kennedy Center for the Performing Arts](http://www.kennedy-center.org).
 
 The case of Ms. Farrell illustrates the need to preserve knowledge like hers, and the challenges that surround dance documentation: how does one document and preserve motion through space and time? Art museums conserve paintings; libraries house books; but how does one archive a series of fleeting movements? Considerable work on dance documentation has been completed in recent years using notation systems, video, motion capture technologies and oral history. Though, as Doug Reside, Digital Curator of Performing Arts at the New York Public Library notes in his recent [blog post](http://www.nypl.org/blog/2011/05/02/how-can-we-know-dancer-from-dance), limits of dimension and perspective have forced an urgency for more sophisticated technologies in order to preserve this fluid art form.
 
-![preservation_of_dance_sm](/images/2011-05-preservation_of_dance_sm.jpg)
+![preservation_of_dance_sm](../../images/2011-05-preservation_of_dance_sm.jpg)
 
 Fortunately, a skilled interdisciplinary team from the [Maryland Institute for Technology in the Humanities](http://mith.umd.edu) (MITH) and the [Kinesiology Department](http://www.sph.umd.edu/KNES) at the University of Maryland, the [Advanced Computing Center for the Arts and Design](http://accad.osu.edu) (ACCAD) at Ohio State University, the Kennedy Center, and the [New York Public Library for the Performing Arts](http://www.nypl.org/locations/lpa) have teamed dancers, choreographers, software developers, scholars and archivists to establish the [Documentation and Preservation of Dance ](http://mith.umd.edu/research/the-documentation-and-preservation-of-dance/)project in order to explore challenges surrounding dance preservation. This project has been generously funded by Ohio State University and by a seed grant from the Office of Vice President for Research and College for Arts and Humanities at the University of Maryland.
 

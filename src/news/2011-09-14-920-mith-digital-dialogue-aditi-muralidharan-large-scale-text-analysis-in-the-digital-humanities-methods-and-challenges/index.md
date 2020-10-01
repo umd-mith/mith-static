@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2011-11-aditi_muralidharan.jpg
+image: ../../images/2011-11-aditi_muralidharan.jpg
 ---
-![Aditi Muralidharan](/images/2011-11-aditi_muralidharan.jpg)Tuesday, September 20, 12:30-1:45PM MITH Seminar Room, McKeldin Library B0131
+![Aditi Muralidharan](../../images/2011-11-aditi_muralidharan.jpg)Tuesday, September 20, 12:30-1:45PM MITH Seminar Room, McKeldin Library B0131
 
 "Large Scale Text Analysis in the Digital Humanities: Methods and Challenges" by ADITI MURALIDHARAN
 

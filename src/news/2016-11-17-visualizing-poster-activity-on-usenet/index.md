@@ -14,7 +14,7 @@ categories:
 - Research
 - Transgender Usenet Archive
 - Winnemore Dissertation Fellow
-image: /images/2016-11-CisNet-980x648.png
+image: ../../images/2016-11-CisNet-980x648.png
 ---
 _This is the second in [series of blog posts](http://mith.umd.edu/tag/transgender-usenet-archive/) by 2016-17 Winnemore Digital Dissertation Fellow Avery Dame on the progress of his dissertation, “[Talk Amongst Yourselves: Community Formation in Transgender Counterpublic Discourse Online](http://mith.umd.edu/?p=18022),” which explores the affective and structural meanings assigned to “community” in English-language transgender discourse online._
 
@@ -24,7 +24,7 @@ I’ve also been slowing my pace a bit in order to think carefully about what th
 
 I’ve put [all of these visualizations up on my site](http://averydame.net/?page_id=495), with some description about their significance and my collection methodology (with links to the modules on [GitHub](https://github.com/apdame/usenet-tools)). From these exercises, I’ve learned that these newsgroups were similar to non-transgender newsgroups in poster activity, with a small handful of highly active posters who make up a sizable chunk of the messages collected. Users primarily posted to one or two newsgroups at a time, and there are some interesting differences in both what's recorded in the collections and how users cross-posted. There’s not a lot of crossposting between the two newsgroups with “transgendered” in the name, alt.transgendered (AltT) and soc.support.transgendered (SST), but there is a lot of cross-posting between SST and alt.support.srs (SRS). In contrast, the two major crossdressing groups, alt.fashion.crossdressing (AFCD) and alt.support.crossdressing (ASCD) have almost equal patterns of single newsgroup posting and cross-posting between themselves. These differences raise interesting questions I hope to address in a close analysis using the archive, once it’s launched in the next few weeks.
 
-![Cisgender Usenet Visualization](/images/2016-11-CisNet-980x648.png)
+![Cisgender Usenet Visualization](../../images/2016-11-CisNet-980x648.png)
 
 However, I also wanted to spend a little more time talking about [my initial network analysis](http://averydame.net/network/#), because I think it’s indicative of some of complexities of working with Usenet data. One of my key research questions is how Usenet facilitated the spread of the term “cisgender.” As far as I’ve found, the term or its variants don’t appear in movement publications during the 1990s. However, it eventually became ubiquitous in transgender discourse. How could that be, if it wasn’t in active use in print publications? This takes me to the internet, the other major (recorded) hub of transgender discussion at the time.
 

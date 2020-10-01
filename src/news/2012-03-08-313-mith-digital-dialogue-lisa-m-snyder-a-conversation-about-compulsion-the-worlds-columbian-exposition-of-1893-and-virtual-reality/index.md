@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-03-lisa-snyder-headshot-200x200.jpg
+image: ../../images/2012-03-lisa-snyder-headshot-200x200.jpg
 ---
-![Lisa Snyder](/images/2012-03-lisa-snyder-headshot-200x200.jpg)Tuesday, March 13, 2:00-3:15PM 1111 School of Architecture (Building 145)
+![Lisa Snyder](../../images/2012-03-lisa-snyder-headshot-200x200.jpg)Tuesday, March 13, 2:00-3:15PM 1111 School of Architecture (Building 145)
 
 "A Conversation about Compulsion, the World's Columbia Exposition of 1893, and Virtual Reality" by LISA M. SNYDER
 

@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2011-11-girlsListeningToApril1-980x667.jpg
+image: ../../images/2011-11-girlsListeningToApril1-980x667.jpg
 ---
-![Girls Listening to April](/images/2011-11-girlsListeningToApril1-980x667.jpg)Tuesday, November 29, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
+![Girls Listening to April](../../images/2011-11-girlsListeningToApril1-980x667.jpg)Tuesday, November 29, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 "'It's not a game to me:' ARGs, Game Design & Secret Agents in the Schoolroom" by BETH BONSIGNORE, ANN FRAISTAT, KARI KRAUS, AMANDA VISCONTI [The Arcane Gallery of Gadgetry (AGOG)](http://www.arcanegalleryofgadgetry.org/) is a sort of narrative [wunderkammer](http://jeresmith.com/portfolio/objects/object-wunderkammer.jpg) of an alternate reality game (ARG), a "cabinet of curiosities" combining a rich and oftentimes mysteriously fragmented historical tapestry with what Rob MacDougall has called "playful historical thinking." By incorporating [counterfactuals](http://www.colitz.com/site/0906/0906_view.html) and re-imagining the past, AGOG is designed to lead players into a newly enfranchised relationship with history, teach them [STEM](http://www.colitz.com/site/0901/0901_view.html) and information literacy skills, and help them discover the secret stories outside most history books. In the first full-fledged season of the game, middle school players raced against time to gain cryptographic, [archival](http://colitz.com/site/556248/556248.htm), cartographic, and inventor skills that would help them prevent a dangerous rift in the course of history. In today's talk, attendees will also take part in an activity. With each season of the ARG based around a different intriguing lost invention from the Arcane Gallery of Gadgetry, there's always a new story to uncover, a new rabbit hole to fall down–and it's never too late to change the past!
 

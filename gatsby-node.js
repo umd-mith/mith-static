@@ -67,7 +67,10 @@ async function makeNews(createPage, graphql, pathPrefix) {
           frontmatter {
             categories
             description
-            image
+            image {
+              publicURL
+              relativePath
+            }
             published
             redirect_from
             title

@@ -9,9 +9,9 @@ categories:
 - Community
 - Digital Dialogues
 - HathiTrust
-image: /images/2012-03-beth-plale-200x200.jpg
+image: ../../images/2012-03-beth-plale-200x200.jpg
 ---
-![Beth Plale](/images/2012-03-beth-plale-200x200.jpg)Wednesday, February 29, 4:00-5:30PM\* 6137 McKeldin Library, Special Events
+![Beth Plale](../../images/2012-03-beth-plale-200x200.jpg)Wednesday, February 29, 4:00-5:30PM\* 6137 McKeldin Library, Special Events
 
 Co-sponsored by [University Libraries](http://www.lib.umd.edu/)
 

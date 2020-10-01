@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-04-billpic20101-200x200.jpg
+image: ../../images/2012-04-billpic20101-200x200.jpg
 ---
-![Bill Ferster](/images/2012-04-billpic20101-200x200.jpg)Tuesday, April 3, 12:30-1:45pm 2117 Hornbake, South Wing (HCIL) Co-sponsored by the [Human Computer Interaction Lab](http://www.cs.umd.edu/hcil/)
+![Bill Ferster](../../images/2012-04-billpic20101-200x200.jpg)Tuesday, April 3, 12:30-1:45pm 2117 Hornbake, South Wing (HCIL) Co-sponsored by the [Human Computer Interaction Lab](http://www.cs.umd.edu/hcil/)
 
 "Historical Interactive Visualization: Coaxing Data to Tell Stories" by BILL FERSTER This talk will take an informal look at interactive visualization projects done at the University of Virginia's [Virginia Center for Digital History (VCDH)](http://www.vcdh.virginia.edu/index.php?page=VCDH) and the [Sciences, Arts, & Humanities Network of Technology Initiatives (SHANTI)](http://shanti.virginia.edu/) digital humanities centers. The projects were built using an NEH-funded visualization authoring tool, [VisualEyes](http://www.viseyes.org/), developed at UVa.
 

@@ -9,7 +9,7 @@ categories:
 - Alerts
 - Digital Dialogues
 - Events
-image: /images/2015-09-screen-cap-notifications-300x119.png
+image: ../../images/2015-09-screen-cap-notifications-300x119.png
 ---
 Good news! So many of you expressed interest in having a Fall 2015 Digital Dialogues Pre-Season Mixer, that we will definitely be holding the event here at MITH on [**Tuesday, September 27, 2015 at 12:30pm**](https://www.facebook.com/events/926409637429092/). Although we asked all of you to express initial interest by this past Tuesday the 14th through the online survey, you can still RSVP up until the day before the event.
 
@@ -17,7 +17,7 @@ For those of you who didn’t see the [original announcement](http://us5.campaig
 
 Starting in Fall 2015 with this event, MITH will begin posting its events on our Facebook page. If you haven’t done so yet:
 
-- Please [‘Like’ our Facebook page](https://www.facebook.com/UMD.MITH)! Opt to receive Notifications in order to make sure you hear the latest about our activities: ![Notifications](/images/2015-09-screen-cap-notifications-300x119.png)
-- Please ‘Subscribe’ to our events! You can do so on the main MITH page, on the lower left in the ‘Upcoming Events’ box: ![Subscribe](/images/2015-09-screen-cap-subscribe-300x146.png)
+- Please [‘Like’ our Facebook page](https://www.facebook.com/UMD.MITH)! Opt to receive Notifications in order to make sure you hear the latest about our activities: ![Notifications](../../images/2015-09-screen-cap-notifications-300x119.png)
+- Please ‘Subscribe’ to our events! You can do so on the main MITH page, on the lower left in the ‘Upcoming Events’ box: ![Subscribe](../../images/2015-09-screen-cap-subscribe-300x146.png)
 
 MITH is very much looking forward to kicking off the Fall semester, seeing new and old faces, and starting our next Digital Dialogues series. We hope to see many of you very soon!

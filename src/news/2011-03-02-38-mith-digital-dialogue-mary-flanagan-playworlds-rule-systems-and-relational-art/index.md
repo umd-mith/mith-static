@@ -9,9 +9,9 @@ categories:
 - Community
 - Dialogue
 - Digital Dialogues
-image: /images/2012-01-mary-flanagan.jpg
+image: ../../images/2012-01-mary-flanagan.jpg
 ---
-![Mary Flanagan](/images/2012-01-mary-flanagan.jpg)Tuesday, March 8, 12:30-1:45 PM MITH Conference Room, McKeldin Library B0135
+![Mary Flanagan](../../images/2012-01-mary-flanagan.jpg)Tuesday, March 8, 12:30-1:45 PM MITH Conference Room, McKeldin Library B0135
 
 "Playworlds: rule systems & relational art" by MARY FLANAGAN
 

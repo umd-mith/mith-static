@@ -7,7 +7,7 @@ redirect_from:
 - /feb-28th-digital-dialogue-april-householder-the-brave-stepped-back-the-life-and-times-of-laskarina-bouboulina/
 categories:
 - Digital Dialogues
-image: /images/2014-02-bravesteppedback1.jpg
+image: ../../images/2014-02-bravesteppedback1.jpg
 ---
 She built her own fleet.
 
@@ -19,7 +19,7 @@ And started a revolution.
 
 Not bad for a fifty year old grandmother in the 1820s . . .
 
-![The Brave Stepped Back: The Life and Times of Laskarina Bouboulina. A Film by April Householder](/images/2014-02-bravesteppedback1.jpg)
+![The Brave Stepped Back: The Life and Times of Laskarina Bouboulina. A Film by April Householder](../../images/2014-02-bravesteppedback1.jpg)
 
 Born in a prison in Constantinople, Bouboulina defied the prescribed roles for women in the 19th century by becoming one of the most powerful figures of the Greek War of Independence. Drawing on documents housed at the General Archives in Athens, the Spetses museum, and interviews with specialists in the areas of Greek and Turkish history and culture, including Bouboulina's own fifth-generation grandson, this hour-long documentary film presents a vivid portrait of one of Greece's most extraordinary heroines. (In English with Greek subtitles.)
 

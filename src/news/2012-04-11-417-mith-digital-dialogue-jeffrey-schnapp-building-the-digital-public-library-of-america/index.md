@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-04-jeffrey11-200x200.jpg
+image: ../../images/2012-04-jeffrey11-200x200.jpg
 ---
-![Jeffrey Schnapp](/images/2012-04-jeffrey11-200x200.jpg)Tuesday, April 17, 12:30-1:45pm 6137 McKeldin Library, Special Events Co-sponsored by the School of Languages, Literatures, and Cultures
+![Jeffrey Schnapp](../../images/2012-04-jeffrey11-200x200.jpg)Tuesday, April 17, 12:30-1:45pm 6137 McKeldin Library, Special Events Co-sponsored by the School of Languages, Literatures, and Cultures
 
 **"Building the Digital Public Library of America" by JEFFREY SCHNAPP**
 

@@ -9,9 +9,9 @@ categories:
 - Community
 - Digital Dialogues
 - Maria Velazquez
-image: /images/web-20111121194847-https:--lh4.googleusercontent.jpg
+image: ../../images/web-20111121194847-https:--lh4.googleusercontent.jpg
 ---
-![](/images/web-20111121194847-https:--lh4.googleusercontent.jpg)Tuesday, April 12, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
+![](../../images/web-20111121194847-https:--lh4.googleusercontent.jpg)Tuesday, April 12, 12:30-1:45PM MITH Conference Room, McKeldin Library B0135
 
 "Communities Incarnate: Virtual Intimacies of Body and Place" by MARIA VELAZQUEZ
 

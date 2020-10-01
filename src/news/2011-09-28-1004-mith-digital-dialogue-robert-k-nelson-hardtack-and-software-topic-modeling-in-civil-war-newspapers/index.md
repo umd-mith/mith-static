@@ -8,11 +8,11 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2014-02-biopic_rnelson_lg.png
+image: ../../images/2014-02-biopic_rnelson_lg.png
 ---
 Tuesday, October 4, 12:30-1:45PM MITH Seminar Room, McKeldin Library B0131 “Hardtack and Software: Topic Modeling in Civil War Newspapers” by ROBERT K. NELSON
 
-![Robert Nelson](/images/2014-02-biopic_rnelson_lg.png)During the Civil War, newspaper editors in the Union and Confederacy were called upon to help motivate their male readers to die and to kill for their respective countries. This presentation will present some preliminary research that uses topic modeling to analyze how and when these editors used patriotism and nationalism to convince men to engage in the terrible work of death. This presentation will also reflect upon some methodological challenges raised by topic modeling and other text-mining techniques, particularly the desirability of toggling between distant and close readings to combine the power of algorithmically generated visualizations with the subtlety of traditional humanistic research methods.
+![Robert Nelson](../../images/2014-02-biopic_rnelson_lg.png)During the Civil War, newspaper editors in the Union and Confederacy were called upon to help motivate their male readers to die and to kill for their respective countries. This presentation will present some preliminary research that uses topic modeling to analyze how and when these editors used patriotism and nationalism to convince men to engage in the terrible work of death. This presentation will also reflect upon some methodological challenges raised by topic modeling and other text-mining techniques, particularly the desirability of toggling between distant and close readings to combine the power of algorithmically generated visualizations with the subtlety of traditional humanistic research methods.
 
 This talk will be held in the MITH Seminar Room, in the basement of McKeldin Library.
 

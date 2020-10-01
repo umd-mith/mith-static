@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2012-04-Saper_headshot1-200x200.jpg
+image: ../../images/2012-04-Saper_headshot1-200x200.jpg
 ---
-![Craig Saper](/images/2012-04-Saper_headshot1-200x200.jpg)Tuesday, March 27, 12:30-1:45PM MITH Conference Room, B0135 McKeldin Library
+![Craig Saper](../../images/2012-04-Saper_headshot1-200x200.jpg)Tuesday, March 27, 12:30-1:45PM MITH Conference Room, B0135 McKeldin Library
 
 “R\\e\\a\\d/i/n/g/ as a Publishing Practice” by CRAIG SAPER
 

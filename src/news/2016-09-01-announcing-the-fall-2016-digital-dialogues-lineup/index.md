@@ -9,9 +9,9 @@ categories:
 - Alerts
 - Community
 - Digital Dialogues
-image: /images/2009-12-header_digital-dialogues-h.jpg
+image: ../../images/2009-12-header_digital-dialogues-h.jpg
 ---
-![Digital Dialogues](/images/2009-12-header_digital-dialogues-h.jpg)
+![Digital Dialogues](../../images/2009-12-header_digital-dialogues-h.jpg)
 
 We may have spent the summer [organizing and exploring Digital Dialogues past](http://mith.umd.edu/tag/digital-dialogues-curation/), but now it's time to remind you all that over a decade after we've begun this series, we're still here bringing you amazing talks by groundbreaking academics. Our [Fall 2016 series](http://mith.umd.edu/digital-dialogues/schedule/) starts off strong with talks from our two newest hires, Assistant Director of Innovation and Learning [Purdom Lindblad](http://mith.umd.edu/people/person/purdom-lindblad/), and Director of the [AADHum project](http://mith.umd.edu/research/synergies-among-digital-humanities-and-african-american-history-and-culture/) [Catherine Steele](http://mith.umd.edu/people/person/catherine-knight-steele/). Then we will bring you five additional speakers from disciplines ranging from Film and Media, African American Studies and Literature, Medieval Conservation, and Museums and Material Culture.
 

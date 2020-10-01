@@ -9,9 +9,9 @@ categories:
 - Community
 - Dialogue
 - Digital Dialogues
-image: /images/2012-01-tim-carmody.jpg
+image: ../../images/2012-01-tim-carmody.jpg
 ---
-![Tim Carmody](/images/2012-01-tim-carmody.jpg)Tuesday, March 1, 12:30-1:45 PM MITH Conference Room, McKeldin Library B0135
+![Tim Carmody](../../images/2012-01-tim-carmody.jpg)Tuesday, March 1, 12:30-1:45 PM MITH Conference Room, McKeldin Library B0135
 
 "Stop Being Polite and Start Getting Real: Professional Education for Professional Humanists" by TIM CARMODY
 

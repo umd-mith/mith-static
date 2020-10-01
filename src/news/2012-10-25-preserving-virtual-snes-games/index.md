@@ -11,7 +11,7 @@ categories:
 - Games
 - PVW
 - PVW II
-image: /images/2012-10-PVW2Retrode_boxcontents-320x202.jpg
+image: ../../images/2012-10-PVW2Retrode_boxcontents-320x202.jpg
 ---
 I had originally planned to use this post to log my adventures in desoldering the CPU from the Nintendo Entertainment System (NES), but, alas, the campus couriers are holding the all-important [solder sucker](http://en.wikipedia.org/wiki/Desoldering#Desoldering_pump) hostage. Instead, I'll talk a little bit about the work we've done with the Super Nintendo Entertainment System (SNES), which involves significantly less molten metal.
 
@@ -29,7 +29,7 @@ To answer these questions, we're using a nifty device called the [Retrode2](http
 
 ### Setting up the Retrode2
 
-![Retrode2 device, miniUSB cord, instruction booklet](/images/2012-10-PVW2Retrode_boxcontents-320x202.jpg)
+![Retrode2 device, miniUSB cord, instruction booklet](../../images/2012-10-PVW2Retrode_boxcontents-320x202.jpg)
 
 The Retrode box contains the Retrode unit, a Mini-USB cable, and a simple sheet of instructions. SNES cartridges are inserted in the rear slot, facing backwards. Controllers are plugged into the side ports.
 
@@ -37,7 +37,7 @@ Before using the Retrode, it is necessary to flash the firmware (the firmware it
 
 Once you’ve successfully updated the firmware and reset the device, open up the Retrode in a file manager. Note the datestamp--files on the Retrode will a**lways** display this datestamp, even if you have updated them (when the device has been reset after any file changes).
 
-![File-listing for the Retrode2](/images/2012-10-retrode-explorer.png)
+![File-listing for the Retrode2](../../images/2012-10-retrode-explorer.png)
 
 Open the file [RETRODE.CFG](http://www.retrode.org/documentation/the-retrode-cfg-file/) in a text editor. Your filenames may include a number after the game title. If you’d like to disable this, change the value on **line 15** for from **1** to **0**. In order to write savegames to the cartridge, it is also necessary to change the value for \[sramReadonly] on **line 17** from **1** to **0**. _Only_ change this value if and when you are writing a savegame to the cartridge. Leaving it on provides some small security against accidentally corrupting your save file. Save. If for some reason saving the config file fails, refer to procedures for writing an SRAM (save) file to the cartidge.
 
@@ -73,7 +73,7 @@ Open the file [RETRODE.CFG](http://www.retrode.org/documentation/the-retrode-cfg
 
 Here it is, set up and running Super Mario Kart:
 
-![Mario Kart running on an emulator through the Retrode2](/images/2012-10-mariokart-splash-707x980.jpg)
+![Mario Kart running on an emulator through the Retrode2](../../images/2012-10-mariokart-splash-707x980.jpg)
 
 ### Setting up an Emulator
 
@@ -81,7 +81,7 @@ SNES9x is an emulator available for all major platforms. To run it, simply extra
 
 The SNES game pad must be setup as the input device within the emulator. To do this, select **Input->Input Configuration** in the top menu or press **Alt+F7**. Click your mouse in the “Up” textbox, and then press the corresponding buttons on the SNES controller until all buttons have (J0) or (J1) values. Ignore the buttons after the R-button.
 
-![SNES9x's Input Configuration Screen](/images/2012-10-snes9x-input.png)
+![SNES9x's Input Configuration Screen](../../images/2012-10-snes9x-input.png)
 
 **Select File->Load Game** or type **Ctrl+O** and navigate to the Retrode directory. Open the **\*.sfc** file; opening the **\*.srm** (save) file will just cause the emulator to hang. When you play the game, it should reflect any data currently stored in the cartridge’s SRAM. The \*.sfc file can be copied to SNES9x’s **Roms** directory for later play without the Retrode.
 
@@ -111,8 +111,8 @@ When you look at the Retrode in a file manager, the srm file should now reflect 
 
 If for some reason you get a CHKSUM error and SNES9x hangs, fear not! Playing the game with an original SNES console should fix the problem. This is most likely to happen if you use the OS’s GUI copy command rather than writing over the file at the command line.
 
-![Mario Kart Time Trial Data (Original Save)](/images/2012-10-MK-battsave.png)
+![Mario Kart Time Trial Data (Original Save)](../../images/2012-10-MK-battsave.png)
 
-![Mario Kart Time Trial Data (New Save)](/images/2012-10-MK-newbattsave.png)
+![Mario Kart Time Trial Data (New Save)](../../images/2012-10-MK-newbattsave.png)
 
 The drawback to this workflow is that it only works with SNES cartridges that support saving. It also depends on the battery which powers those saves being live, though it is easy to replace that battery with a little technical know-how. It does, however, give us a way to audit a fair subset of SNES games and it's a lot of fun!

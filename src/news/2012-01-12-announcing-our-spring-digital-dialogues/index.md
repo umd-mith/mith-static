@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Digital Dialogues
-image: /images/2014-02-digital_dialogues_icon.jpg
+image: ../../images/2014-02-digital_dialogues_icon.jpg
 ---
-![Digital Dialogues Icon](/images/2014-02-digital_dialogues_icon.jpg)A new semester is here! And with it brings a stellar list of speakers for our spring Digital Dialogues, a speaker series hosted by The Maryland Institute for Technology in the Humanities (MITH). We are delighted to host this impressive list of innovative scholars, and would love for you to join us!
+![Digital Dialogues Icon](../../images/2014-02-digital_dialogues_icon.jpg)A new semester is here! And with it brings a stellar list of speakers for our spring Digital Dialogues, a speaker series hosted by The Maryland Institute for Technology in the Humanities (MITH). We are delighted to host this impressive list of innovative scholars, and would love for you to join us!
 
 02.07 **Julia Flanders**, Director, Women Writers Project, Brown University _Small TEI Projects on a Large Scale: TAPAS_ co-sponsored by the Department of English Time: 12:30 pm Place: 2115 Tawes Hall
 

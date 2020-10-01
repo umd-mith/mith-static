@@ -8,7 +8,7 @@ redirect_from:
 categories:
 - Community
 - Project Bamboo
-image: /images/2016-03-dj-emma.png
+image: ../../images/2016-03-dj-emma.png
 ---
 \[fusion_text]During the three-day [CorporaCamp](http://mith.umd.edu/corporacamp/) code sprint at MITH the participants built a prototype application designed to work across three large text collections. The result of our efforts is ‘Woodchipper’ — a tool that allows the scholar to select a set of texts from these collections and to produce visualizations of thematic relationships between them.
 
@@ -16,4 +16,4 @@ Woodchipper was built primarily to inform the Corpora Space design process. Prep
 
 The [CorporaCamp website](http://mith.umd.edu/corporacamp/) is now live, with a screencast explaining and demonstrating Woodchipper. You will also find more information about our design process, and how to get involved in testing Woodchipper.
 
-[![](/images/2016-03-dj-emma.png)](https://wiki.projectbamboo.org/display/BTECH/Proposed+Functionality+for+the+First+Corpora+Space+Workshop)
+[![](../../images/2016-03-dj-emma.png)](https://wiki.projectbamboo.org/display/BTECH/Proposed+Functionality+for+the+First+Corpora+Space+Workshop)

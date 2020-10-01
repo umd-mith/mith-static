@@ -11,7 +11,7 @@ categories:
 - Music
 - News
 - Research
-image: /images/2014-11-EMA_ex.png
+image: ../../images/2014-11-EMA_ex.png
 ---
 The [Enhancing Music Notation Addressability](http://mith.umd.edu/research/enhancing-music-notation-addressability/ "Enhancing Music Notation Addressability") project (EMA) is creating a system to address specific parts of a music document available online. By addressing we mean being able to talk about a specific music passage (cfr. Michael Witmore’s [blog post](http://winedarksea.org/?p=926) on textual addressability).
 
@@ -31,7 +31,7 @@ _staves:_ staves in scores separate music notation played by different instrumen
 
 Consider the following example (from [_The Lost Voices_](http://digitalduchemin.org/piece/DC0519/) project), where we want to address the notation highlighted in red:
 
-![DC0519 L’huillier, Si je te voy](/images/2014-11-EMA_ex.png)
+![DC0519 L’huillier, Si je te voy](../../images/2014-11-EMA_ex.png)
 
 We can say that it occurs between measure 38 and 39, on the first and third staves (labelled _Superius_ and _Tenor_ — this is a renaissance choral piece). Measure 38, however, is not considered in full, but only starting from the third beat (there are four beats per measure in this example).
 

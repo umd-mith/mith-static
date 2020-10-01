@@ -14,7 +14,7 @@ categories:
 - Education and Training
 - MITH Digital Stewardship Series
 - Uncategorized
-image: /images/2016-07-MITH-DD-Workflow-New-Page.png
+image: ../../images/2016-07-MITH-DD-Workflow-New-Page.png
 ---
 _This is the 5th post in [MITH's Digital Stewardship Series](http://mith.umd.edu/tag/mith-digital-stewardship-series/). In this post, MITH's summer intern David Durden discusses his work on MITH's audiovisual collection of historic Digital Dialogues events._
 
@@ -24,7 +24,7 @@ Staying current with changes in digital audio and video recording and editing re
 
 Since I was dealing with a variety of locations for content, the first task at hand was to consolidate media from all storage locations and resolve discrepancies and duplications. This resulted in aggregating all available content from an editing workstation, an external drive, an AWS server, and a local server. Once all the content was funneled into a singular location, I began the slow and tedious process of comparing files and folders. I was able to separate usable media from everything else and began moving content into a well-organized master directory that will be cloned into redundant storage for preservation. Future workflows will prevent discrepancies by having content be imported, named, organized, and edited on the local workstation and then copied to external storage sources to prevent duplication or accidental changes to archived content.
 
-![An example of the future data flow for Digital Dialogues videos](/images/2016-07-MITH-DD-Workflow-New-Page.png)
+![An example of the future data flow for Digital Dialogues videos](../../images/2016-07-MITH-DD-Workflow-New-Page.png)
 
 MITH had been successfully saving multiple copies of files across different storage devices, but many of these files reflected out-dated workflows and there were often several versions of the same file. The recording of Digital Dialogues went through several technological evolutions and left behind a messy file structure. Some source files were saved, others are missing. Some final product videos and recordings were duplicated across local storage devices, others exist solely in the Internet Archive and other web-hosting services. MITH’s early Digital Dialogues provide an example of the danger inherent in relying on singular storage locations and web-hosting services to archive digital assets. The file compression used by many services, as well as the possibility of service interruption, make web-hosting a ‘front-end access-only’ form of digital storage. The important thing to emphasize here is that once digital source media is lost, it is usually lost forever, which is why it is always necessary and recommended to have a data management plan ready at the onset of any digital project.
 
@@ -40,6 +40,6 @@ Events are organized by season (e.g., Spring 2016) and stored in a season folder
 
 All events for a season will be edited in a single Adobe Premiere project file that is located within the season folder. This reduces the amount of project files to manage and also streamlines the video editing process.
 
-![Example of a well-organized Digital Dialogue season folder](/images/2016-07-Screen-Shot-2016-07-13-at-11.25.08-AM-980x401.png)
+![Example of a well-organized Digital Dialogue season folder](../../images/2016-07-Screen-Shot-2016-07-13-at-11.25.08-AM-980x401.png)
 
 Another part of this project consisted of editing previous content to conform to current standards. Due to the variety of files that existed, both formats and duplicates, I decided to prioritize raw footage (or the highest quality derivative that I could discover) for archiving and the creation of new videos. Provided that usable media was accessible, videos currently on the MITH website are being updated to reflect proper MITH logos and branding, as well as title slates with appropriate attributions to speakers, dates and talk titles. There are also many years of Digital Dialogues recorded as audio, which are in the process of being exported to a standardized video format so that the majority of Digital Dialogues will be accessible to the user through one hosting service (Vimeo). At the end of the project, I will have created or recreated around 105 videos, streamlined and documented any changes to MITH’s audiovisual workflows, and ensured proper digital stewardship of an important collection of digital humanities scholarship. My second and final blog post in this series will highlight some of the more interesting content in this collection.

@@ -9,9 +9,9 @@ categories:
 - Community
 - Dialogue
 - Digital Dialogues
-image: /images/2014-02-biopic_tgideon.jpg
+image: ../../images/2014-02-biopic_tgideon.jpg
 ---
-![thomas-gideon](/images/2014-02-biopic_tgideon.jpg)Tuesday, March 15, 12:30-1:45 PM MITH Conference Room, McKeldin Library B0135
+![thomas-gideon](../../images/2014-02-biopic_tgideon.jpg)Tuesday, March 15, 12:30-1:45 PM MITH Conference Room, McKeldin Library B0135
 
 "The International Amateur Scanning League, Unlocking the Federal Archives One Work at a Time" by THOMAS GIDEON
 

@@ -8,9 +8,9 @@ redirect_from:
 categories:
 - Community
 - Events
-image: /images/2019-04-andrea-thomer-247x300.jpg
+image: ../../images/2019-04-andrea-thomer-247x300.jpg
 ---
-![](/images/2019-04-andrea-thomer-247x300.jpg)Please join us Wednesday, April 24, at 3:30pm at MITH (0301 Hornbake Library) for a presentation by [Dr. Andrea Thomer](https://sites.google.com/umich.edu/akthomer//), who is visiting from the [University of Michigan iSchool](https://www.si.umich.edu/), and does [work](https://scholar.google.com/citations?user=dagYfuQAAAAJ&hl=en) on data histories, with implications for cultural collections and humanities data across disciplines.
+![](../../images/2019-04-andrea-thomer-247x300.jpg)Please join us Wednesday, April 24, at 3:30pm at MITH (0301 Hornbake Library) for a presentation by [Dr. Andrea Thomer](https://sites.google.com/umich.edu/akthomer//), who is visiting from the [University of Michigan iSchool](https://www.si.umich.edu/), and does [work](https://scholar.google.com/citations?user=dagYfuQAAAAJ&hl=en) on data histories, with implications for cultural collections and humanities data across disciplines.
 
 Natural historians create the frameworks, calendars and infrastructures that allow us to understand and grapple with "deep time" -- but they do so within their own temporally complex scholarly settings: the infrastructures and data collections that house the specimens and datasets used in their analyses. Though natural history collections are meant to last for generations, the records they contain last only years (at best) without careful maintenance and curation. Digital collections are particularly fragile, prone to bit rot and obsolescence, and must consequently be upgraded and migrated frequently. In this talk, Thomer will consider the temporal rhythms of natural history data collections, their management, and and their migration, and how that impacts the creation and management of systems of understanding – and making – “deep time.”
 

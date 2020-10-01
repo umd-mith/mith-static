@@ -13,7 +13,7 @@ categories:
 - MITH Digital Stewardship Series
 - Research
 - Training
-image: /images/2016-08-Donahue-Title-Slide-300x226.jpg
+image: ../../images/2016-08-Donahue-Title-Slide-300x226.jpg
 ---
 _This is the 6th post in [MITH’s Digital Stewardship Series](http://mith.umd.edu/tag/mith-digital-stewardship-series/). In this post, MITH’s summer intern David Durden discusses his work on MITH’s audiovisual collection of historic Digital Dialogues events._
 
@@ -35,7 +35,7 @@ Here are a few (only a tiny sample) of my favorites:
 
 ### Featured video: “It’s too Dangerous to Go Alone! Take This.” Powering Up for Videogame Preservation
 
-![Donahue Title Slide](/images/2016-08-Donahue-Title-Slide-300x226.jpg)
+![Donahue Title Slide](../../images/2016-08-Donahue-Title-Slide-300x226.jpg)
 
 I am an avid fan and player of videogames, which is why I chose to highlight the talk in this video. Rachel Donahue worked on a Library of Congress-sponsored project, [Preserving Virtual Worlds (PVW)](http://mith.umd.edu/research/pvwii/), which focused on the complexities of preserving the digital content of videogames (the Preserving Virtual Worlds website can only be viewed through the Internet Archive, but the [project report is available here](http://www.digitalpreservation.gov/partners/pvw.html)).
 
@@ -43,13 +43,13 @@ Donahue’s talk explains the methodology devised by PVW to determine the ‘how
 
 > “if you talk to a lot of people about the _Oregon Trail_, and ask them ‘what do you most remember about the _Oregon Trail_, what do you think is most important to the _Oregon Trail_?’, and they’re going to say things like, dysentery, trying to shoot squirrels, making it to Independence Rock before July 4th, fjording the river, having enough axles in your pack, having enough stuff in general without weighing down your oxen so much that they can’t move; maybe if you’re a little bit more observant you might think, ‘problematic portrayal of Native Americans,’ but you’re not going to say, ‘data model.’ I don’t think anybody thinks about the data model, but if you talk to the creators of the _Oregon Trail_, they are in fact going to say, ‘the data model, the statistics, those are the most important parts of the game.”
 
-![Oregon Trail](/images/2016-08-Oregon-Trail.jpg)
+![Oregon Trail](../../images/2016-08-Oregon-Trail.jpg)
 
 Videogames often have a multiplayer component that is a source of nostalgia for players. When comparing the gameplay between two-player _Super Mario Bros_., which can be preserved through software emulation or preservation of original hardware, to online play in _Halo 3_, which required servers operated by Microsoft in addition to the hardware and software components, one can quickly see how the ‘what’ of videogame preservation can imply drastically different things to groups within the community. Donahue also mentions that there are often unique trends and quirks for specific games within the player community which are not always preservable (such as [‘bunny hopping’ in Quake](https://wiki.sourceruns.org/wiki/Bunnyhopping)).
 
 A variety of questions must be answered before preservation activities can move forward. The most important question is: “what exactly are we preserving?” Aside from content, videogames are data, software, hardware, unique storage media, and peripherals such as controllers. Each element of a videogame system may require a specific skillset in order to achieve any sort of reliable preservation. In the case of hardware and circuit boards, basic knowledge of electronics and computer repair may be required; when using emulation, scripting skills will inevitably be required. Videogame preservation also demands a distinction to be made between original hardware preservation and software emulation--what is the minimum level of preservation for a videogame? The question of what to save is most certainly a philosophical one: is it the aesthetic of the original object and the experience of playing the game in its original state, or will any experience involving the loose entity of the game be acceptable?
 
-![Retrode](/images/2016-08-Retrode2-carts2-matted.png)
+![Retrode](../../images/2016-08-Retrode2-carts2-matted.png)
 
 Donahue exhibits several surveys created to gauge the focus of preservation activities. For the curator or archivist, survey questions were more technical, and a few examples are ‘can the game be played’, ‘do you have the equipment to emulate’, and ‘will you provide a complete videogame experience, or will you just preserve the artifacts?’ For players, the questions are more rooted in videogame culture, for example, ‘what is the core of the game and what does it mean’, ‘what contributes to the success of a franchise’, ‘what is the importance of multiplayer’, and ‘is this a good game or a milestone game’?
 
