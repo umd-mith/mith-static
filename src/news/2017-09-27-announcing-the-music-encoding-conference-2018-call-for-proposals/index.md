@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Music Encoding Conference 2018 Call for Proposals'
 type: post
+author: raffaeleviglianti
 description: ""
 published: 2017-09-27
 redirect_from: 

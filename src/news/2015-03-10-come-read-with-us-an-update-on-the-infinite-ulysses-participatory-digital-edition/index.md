@@ -1,6 +1,7 @@
 ---
 title: 'Come read with us!: an update on the Infinite Ulysses participatory digital edition'
 type: post
+author: amandavisconti
 description: ""
 published: 2015-03-10
 redirect_from: 

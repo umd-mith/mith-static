@@ -1,6 +1,7 @@
 ---
 title: 'MITH Partners with Rice on Million Dollar Grant for Our Americas Archive'
 type: post
+author: mith_admin
 description: ""
 published: 2007-10-08
 redirect_from: 

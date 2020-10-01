@@ -1,6 +1,7 @@
 ---
 title: '10/25 MITH Digital Dialogue: Rachel Frick, "Networked Macrosolutions: Library Peer-Sourced Collaborative Services"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-10-20
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '4/24 MITH Digital Dialogue: Jeremy Dibbell, "Enhancing the Bibliosphere: Bringing Historical Libraries to Life at LibraryThing"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-04-18
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Coalition for Networked Information (CNI) - VIDEO featuring MITH''s Matthew Kirschenbaum and Rachel Donahaue - Digital Forensics & Cultural Heritage'
 type: post
+author: mith_admin
 description: ""
 published: 2011-02-16
 redirect_from: 

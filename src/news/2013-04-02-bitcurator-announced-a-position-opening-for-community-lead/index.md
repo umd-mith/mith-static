@@ -1,6 +1,7 @@
 ---
 title: 'BitCurator Announced a Position Opening for Community Lead'
 type: post
+author: mith_admin
 description: ""
 published: 2013-04-02
 redirect_from: 

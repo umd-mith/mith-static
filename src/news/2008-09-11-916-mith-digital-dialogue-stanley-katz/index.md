@@ -1,6 +1,7 @@
 ---
 title: '9/16 MITH Digital Dialogue: Stanley Katz'
 type: post
+author: digitaldialogues
 description: ""
 published: 2008-09-11
 redirect_from: 

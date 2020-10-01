@@ -1,6 +1,7 @@
 ---
 title: 'An Early Look at the BitCurator Environment'
 type: post
+author: porterolsen
 description: ""
 published: 2012-11-09
 redirect_from: 

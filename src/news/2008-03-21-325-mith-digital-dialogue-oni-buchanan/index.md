@@ -1,6 +1,7 @@
 ---
 title: '3/25 MITH Digital Dialogue: Oni Buchanan'
 type: post
+author: mith_admin
 description: ""
 published: 2008-03-21
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'It''s Alive! The Shelley-Godwin Archive Launches this Thursday!'
 type: post
+author: mith_admin
 description: ""
 published: 2013-10-29
 redirect_from: 

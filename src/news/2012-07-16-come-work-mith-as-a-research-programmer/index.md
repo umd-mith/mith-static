@@ -1,6 +1,7 @@
 ---
 title: 'Come work @MITH as a research programmer'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-07-16
 redirect_from: 

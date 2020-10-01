@@ -1,6 +1,7 @@
 ---
 title: 'Digital Forensics and Cultural Heritage'
 type: post
+author: mith_admin
 description: ""
 published: 2010-12-15
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '4/28 MITH Digital Dialogue: "Preserving Virtual Worlds: A MITH Research Update"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-04-22
 redirect_from: 

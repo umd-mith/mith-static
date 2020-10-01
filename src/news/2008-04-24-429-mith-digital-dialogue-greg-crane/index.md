@@ -1,6 +1,7 @@
 ---
 title: '4/29 MITH Digital Dialogue: Greg Crane'
 type: post
+author: mith_admin
 description: ""
 published: 2008-04-24
 redirect_from: 

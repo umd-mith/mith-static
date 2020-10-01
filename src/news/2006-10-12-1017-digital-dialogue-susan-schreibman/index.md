@@ -1,6 +1,7 @@
 ---
 title: '10/17 Digital Dialogue: Susan Schreibman'
 type: post
+author: mith_admin
 description: ""
 published: 2006-10-12
 redirect_from: 

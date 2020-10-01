@@ -1,6 +1,7 @@
 ---
 title: '10/16 Digital Dialogue: Brett Bobley'
 type: post
+author: mith_admin
 description: ""
 published: 2007-10-11
 redirect_from: 

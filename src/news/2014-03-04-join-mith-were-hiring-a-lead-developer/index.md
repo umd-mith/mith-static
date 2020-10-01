@@ -1,6 +1,7 @@
 ---
 title: 'Join MITH! We''re Hiring a Lead Developer'
 type: post
+author: trevormunoz
 description: ""
 published: 2014-03-04
 redirect_from: 

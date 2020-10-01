@@ -1,6 +1,7 @@
 ---
 title: 'Documenting the Now Phase 2'
 type: post
+author: edsummers
 description: ""
 published: 2018-10-16
 redirect_from: 

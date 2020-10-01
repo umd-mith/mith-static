@@ -1,6 +1,7 @@
 ---
 title: 'CFP: Digital Humanities and African American/African Diaspora Studies Conference'
 type: post
+author: mith_admin
 description: ""
 published: 2008-01-24
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Organizational Meeting for UMD DH/DS Student Group—September 18th'
 type: post
+author: mith_admin
 description: ""
 published: 2018-09-13
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Three New Jobs at MITH'
 type: post
+author: mith_admin
 description: ""
 published: 2010-10-07
 redirect_from: 

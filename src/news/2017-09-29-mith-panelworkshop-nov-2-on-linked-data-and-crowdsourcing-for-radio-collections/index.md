@@ -1,6 +1,7 @@
 ---
 title: 'MITH Panel/Workshop Nov 2 on Linked Data & Crowdsourcing for Radio Collections!'
 type: post
+author: stephaniesapienza
 description: ""
 published: 2017-09-29
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Two important S-GA announcements: Scrope Davies Notebook publication, plus a new grant!'
 type: post
+author: mith_admin
 description: ""
 published: 2017-04-18
 redirect_from: 

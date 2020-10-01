@@ -1,6 +1,7 @@
 ---
 title: 'Visiting the Deena Larsen Collection'
 type: post
+author: leightonchristiansen
 description: ""
 published: 2011-05-31
 redirect_from: 

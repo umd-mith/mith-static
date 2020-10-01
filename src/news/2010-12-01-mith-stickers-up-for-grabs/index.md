@@ -1,6 +1,7 @@
 ---
 title: 'MITH stickers up for grabs'
 type: post
+author: mith_admin
 description: ""
 published: 2010-12-01
 redirect_from: 

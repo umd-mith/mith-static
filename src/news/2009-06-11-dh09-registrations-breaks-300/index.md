@@ -1,6 +1,7 @@
 ---
 title: 'DH09 Registrations Breaks 300!'
 type: post
+author: mith_admin
 description: ""
 published: 2009-06-11
 redirect_from: 

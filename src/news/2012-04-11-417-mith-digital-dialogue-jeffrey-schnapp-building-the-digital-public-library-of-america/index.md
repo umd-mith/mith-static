@@ -1,6 +1,7 @@
 ---
 title: '4/17 MITH Digital Dialogue: Jeffrey Schnapp, "Building the Digital Public Library of America"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-04-11
 redirect_from: 

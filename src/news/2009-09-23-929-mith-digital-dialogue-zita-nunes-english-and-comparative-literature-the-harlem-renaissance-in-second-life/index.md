@@ -1,6 +1,7 @@
 ---
 title: '9/29 MITH Digital Dialogue: Zita Nunes (English and Comparative Literature), "The Harlem Renaissance in Second Life."'
 type: post
+author: mith_admin
 description: ""
 published: 2009-09-23
 redirect_from: 

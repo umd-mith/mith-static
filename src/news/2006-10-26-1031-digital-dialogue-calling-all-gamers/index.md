@@ -1,6 +1,7 @@
 ---
 title: '10/31 Digital Dialogue: "Calling All Gamers!"'
 type: post
+author: mith_admin
 description: ""
 published: 2006-10-26
 redirect_from: 

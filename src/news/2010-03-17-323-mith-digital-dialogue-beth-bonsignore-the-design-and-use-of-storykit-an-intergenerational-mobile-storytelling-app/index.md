@@ -1,6 +1,7 @@
 ---
 title: '3/23 MITH Digital Dialogue: Beth Bonsignore, "The Design and Use of StoryKit: An Intergenerational Mobile Storytelling App"'
 type: post
+author: mith_admin
 description: ""
 published: 2010-03-17
 redirect_from: 

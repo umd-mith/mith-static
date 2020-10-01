@@ -1,6 +1,7 @@
 ---
 title: 'Endangered Data Week, February 26 - March 2, 2018'
 type: post
+author: purdomlindblad
 description: ""
 published: 2018-02-19
 redirect_from: 

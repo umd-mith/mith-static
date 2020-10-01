@@ -1,6 +1,7 @@
 ---
 title: 'MITH barn raising continues'
 type: post
+author: mith_admin
 description: ""
 published: 2011-01-05
 redirect_from: 

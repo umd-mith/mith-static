@@ -1,6 +1,7 @@
 ---
 title: 'TEDx Potomac Simulcast at MITH'
 type: post
+author: mith_admin
 description: ""
 published: 2010-05-17
 redirect_from: 

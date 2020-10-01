@@ -1,6 +1,7 @@
 ---
 title: 'The Shelley-Godwin Archive: From a Textual to a Digital Condition'
 type: post
+author: neilfraistat
 description: ""
 published: 2014-01-24
 redirect_from: 

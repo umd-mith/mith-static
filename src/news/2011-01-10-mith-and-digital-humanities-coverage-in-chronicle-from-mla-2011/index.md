@@ -1,6 +1,7 @@
 ---
 title: 'MITH and Digital Humanities coverage in Chronicle from MLA 2011'
 type: post
+author: mith_admin
 description: ""
 published: 2011-01-10
 redirect_from: 

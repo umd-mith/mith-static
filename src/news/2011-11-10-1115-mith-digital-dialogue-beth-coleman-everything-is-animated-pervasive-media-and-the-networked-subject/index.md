@@ -1,6 +1,7 @@
 ---
 title: '11/15 MITH Digital Dialogue: Beth Coleman, "Everything is Animated: Pervasive Media and the Networked Subject"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-11-10
 redirect_from: 

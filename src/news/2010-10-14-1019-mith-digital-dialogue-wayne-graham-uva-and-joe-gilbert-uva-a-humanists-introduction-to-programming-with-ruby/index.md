@@ -1,6 +1,7 @@
 ---
 title: '10/19 MITH Digital Dialogue: Wayne Graham (UVA) and Joe Gilbert (UVA), "A Humanist’s Introduction to Programming (with Ruby)"'
 type: post
+author: jamesneal
 description: ""
 published: 2010-10-14
 redirect_from: 

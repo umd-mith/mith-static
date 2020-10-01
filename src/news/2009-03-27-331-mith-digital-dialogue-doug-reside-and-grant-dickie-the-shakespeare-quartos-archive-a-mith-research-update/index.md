@@ -1,6 +1,7 @@
 ---
 title: '3/31 MITH Digital Dialogue: Doug Reside & Grant Dickie, "The Shakespeare Quartos Archive: A MITH Research Update"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-03-27
 redirect_from: 

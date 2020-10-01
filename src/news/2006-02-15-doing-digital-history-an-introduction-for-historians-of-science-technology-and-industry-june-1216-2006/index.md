@@ -1,6 +1,7 @@
 ---
 title: 'Doing Digital History: An Introduction for Historians of Science, Technology, and Industry, June 12-16, 2006'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-15
 redirect_from: 

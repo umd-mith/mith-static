@@ -1,6 +1,7 @@
 ---
 title: '11/2 MITH Digital Dialogue: Matthew K. Gold, Beyond Friending: @cunycommons and the Emergence of the Social University'
 type: post
+author: jamesneal
 description: ""
 published: 2010-10-27
 redirect_from: 

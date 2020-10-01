@@ -1,6 +1,7 @@
 ---
 title: 'Confessions'
 type: post
+author: carlapeterson
 description: ""
 published: 2011-11-08
 redirect_from: 

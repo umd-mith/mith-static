@@ -1,6 +1,7 @@
 ---
 title: 'Travis Brown to Lead Research and Development as Assistant Director'
 type: post
+author: mith_admin
 description: ""
 published: 2011-10-18
 redirect_from: 

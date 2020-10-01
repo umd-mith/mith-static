@@ -1,6 +1,7 @@
 ---
 title: '3/6 MITH Digital Dialogue: Lynn Cazabon, "The Archive''s Shadow"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-03-01
 redirect_from: 

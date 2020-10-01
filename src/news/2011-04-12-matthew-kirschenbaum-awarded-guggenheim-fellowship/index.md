@@ -1,6 +1,7 @@
 ---
 title: 'Matthew Kirschenbaum awarded Guggenheim Fellowship'
 type: post
+author: jamesneal
 description: ""
 published: 2011-04-12
 redirect_from: 

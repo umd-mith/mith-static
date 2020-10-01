@@ -1,6 +1,7 @@
 ---
 title: 'Witches, Networks of Intellectual History, Magnetic Recording, Railroads, and Women''s Writing at the 2011 Nebraska Digital Workshop'
 type: post
+author: trevormunoz
 description: ""
 published: 2011-10-19
 redirect_from: 

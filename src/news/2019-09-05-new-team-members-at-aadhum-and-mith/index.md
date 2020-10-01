@@ -1,6 +1,7 @@
 ---
 title: 'New Team Members at AADHum and MITH'
 type: post
+author: trevormunoz
 description: ""
 published: 2019-09-05
 redirect_from: 

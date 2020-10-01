@@ -1,6 +1,7 @@
 ---
 title: 'Introducing Jeffrey Moro, 2020 Winnemore Fellow'
 type: post
+author: mith_admin
 description: ""
 published: 2020-05-27
 redirect_from: 

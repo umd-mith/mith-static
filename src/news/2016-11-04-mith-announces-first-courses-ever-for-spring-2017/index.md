@@ -1,6 +1,7 @@
 ---
 title: 'MITH announces first courses ever for spring 2017!'
 type: post
+author: mith_admin
 description: ""
 published: 2016-11-04
 redirect_from: 

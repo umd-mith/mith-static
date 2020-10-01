@@ -1,6 +1,7 @@
 ---
 title: 'April 28th: MITH Presents a Morning of Discussion on Electronic Literature'
 type: post
+author: mith_admin
 description: ""
 published: 2006-04-19
 redirect_from: 

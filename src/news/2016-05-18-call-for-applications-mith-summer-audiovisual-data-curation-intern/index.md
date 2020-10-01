@@ -1,6 +1,7 @@
 ---
 title: 'Call for Applications: MITH Summer Audiovisual Data Curation Intern'
 type: post
+author: mith_admin
 description: ""
 published: 2016-05-18
 redirect_from: 

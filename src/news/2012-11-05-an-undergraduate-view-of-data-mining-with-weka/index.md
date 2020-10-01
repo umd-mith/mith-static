@@ -1,6 +1,7 @@
 ---
 title: 'An Undergraduate View of Data Mining with WEKA'
 type: post
+author: gemstoneteam
 description: ""
 published: 2012-11-05
 redirect_from: 

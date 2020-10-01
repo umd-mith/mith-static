@@ -1,6 +1,7 @@
 ---
 title: 'Join us at MITH for a mixer to kick off the Fall 2016 season of Digital Dialogues!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2016-09-08
 redirect_from: 

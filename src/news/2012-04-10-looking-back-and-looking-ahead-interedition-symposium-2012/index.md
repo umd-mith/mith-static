@@ -1,6 +1,7 @@
 ---
 title: 'Looking Back and Looking Ahead: Interedition Symposium 2012'
 type: post
+author: grantdickie
 description: ""
 published: 2012-04-10
 redirect_from: 

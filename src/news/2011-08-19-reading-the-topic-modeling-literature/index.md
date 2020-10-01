@@ -1,6 +1,7 @@
 ---
 title: 'Reading the Topic Modeling Literature'
 type: post
+author: claytempleton
 description: ""
 published: 2011-08-19
 redirect_from: 

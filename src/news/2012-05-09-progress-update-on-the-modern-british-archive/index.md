@@ -1,6 +1,7 @@
 ---
 title: 'Progress Update on the Modern British Archive'
 type: post
+author: jenniferwellman
 description: ""
 published: 2012-05-09
 redirect_from: 

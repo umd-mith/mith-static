@@ -1,6 +1,7 @@
 ---
 title: '"How Can You Love a Work If You Don''t Know It?": Six Lessons from Team MARKUP'
 type: post
+author: amandavisconti
 description: ""
 published: 2012-04-27
 redirect_from: 

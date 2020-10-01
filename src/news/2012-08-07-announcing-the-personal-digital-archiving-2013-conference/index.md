@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Personal Digital Archiving 2013 Conference'
 type: post
+author: trevormunoz
 description: ""
 published: 2012-08-07
 redirect_from: 

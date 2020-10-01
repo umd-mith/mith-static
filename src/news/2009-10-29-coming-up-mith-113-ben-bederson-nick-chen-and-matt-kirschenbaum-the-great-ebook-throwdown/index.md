@@ -1,6 +1,7 @@
 ---
 title: 'Coming up @ MITH 11/3: Ben Bederson, Nick Chen, & Matt Kirschenbaum, "The Great Ebook Throwdown"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-10-29
 redirect_from: 

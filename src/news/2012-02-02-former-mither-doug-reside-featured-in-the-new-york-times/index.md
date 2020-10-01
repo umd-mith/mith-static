@@ -1,6 +1,7 @@
 ---
 title: 'Former MITHer Doug Reside Featured in The New York Times'
 type: post
+author: mith_admin
 description: ""
 published: 2012-02-02
 redirect_from: 

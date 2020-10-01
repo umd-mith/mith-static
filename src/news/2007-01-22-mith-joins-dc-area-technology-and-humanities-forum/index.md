@@ -1,6 +1,7 @@
 ---
 title: 'MITH Joins DC Area Technology and Humanities Forum'
 type: post
+author: mith_admin
 description: ""
 published: 2007-01-22
 redirect_from: 

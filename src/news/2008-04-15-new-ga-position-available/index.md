@@ -1,6 +1,7 @@
 ---
 title: 'New GA Position Available'
 type: post
+author: mith_admin
 description: ""
 published: 2008-04-15
 redirect_from: 

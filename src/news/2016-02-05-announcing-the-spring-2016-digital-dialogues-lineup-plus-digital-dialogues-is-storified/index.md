@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Spring 2016 Digital Dialogues Lineup, plus Digital Dialogues is Storified!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2016-02-05
 redirect_from: 

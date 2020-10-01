@@ -1,6 +1,7 @@
 ---
 title: 'Recap Part I: Engaging the Public: Best Practices for Crowdsourcing across the Disciplines Workshop (CrowdCon)'
 type: post
+author: mith_admin
 description: ""
 published: 2015-05-21
 redirect_from: 

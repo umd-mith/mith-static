@@ -1,6 +1,7 @@
 ---
 title: 'MITH Receives Mellon Funding for Open Annotation Collaboration'
 type: post
+author: mith_admin
 description: ""
 published: 2009-08-03
 redirect_from: 

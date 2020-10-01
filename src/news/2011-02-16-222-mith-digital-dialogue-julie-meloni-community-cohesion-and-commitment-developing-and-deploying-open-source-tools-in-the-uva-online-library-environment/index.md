@@ -1,6 +1,7 @@
 ---
 title: '2/22 MITH Digital Dialogue: Julie Meloni, Community, Cohesion, and Commitment: Developing and Deploying Open Source Tools in the UVa Online Library Environment'
 type: post
+author: jamesneal
 description: ""
 published: 2011-02-16
 redirect_from: 

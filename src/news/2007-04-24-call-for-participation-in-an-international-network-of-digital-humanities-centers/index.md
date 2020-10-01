@@ -1,6 +1,7 @@
 ---
 title: 'Call for Participation in an International Network of Digital Humanities Centers'
 type: post
+author: mith_admin
 description: ""
 published: 2007-04-24
 redirect_from: 

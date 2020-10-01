@@ -1,6 +1,7 @@
 ---
 title: '10/9 Digital Dialogue: Paul E. Ceruzzi'
 type: post
+author: mith_admin
 description: ""
 published: 2007-10-03
 redirect_from: 

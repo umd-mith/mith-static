@@ -1,6 +1,7 @@
 ---
 title: 'Preserving Virtual Worlds 2 Funded'
 type: post
+author: mith_admin
 description: ""
 published: 2010-10-04
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH is Hiring'
 type: post
+author: mith_admin
 description: ""
 published: 2006-04-12
 redirect_from: 

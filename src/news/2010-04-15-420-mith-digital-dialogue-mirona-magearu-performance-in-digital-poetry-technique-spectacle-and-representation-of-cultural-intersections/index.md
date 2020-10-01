@@ -1,6 +1,7 @@
 ---
 title: '4/20 MITH Digital Dialogue: Mirona Magearu, "Performance in Digital Poetry: Technique, Spectacle, and Representation of Cultural Intersections"'
 type: post
+author: mith_admin
 description: ""
 published: 2010-04-15
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Thinking about the End Product'
 type: post
+author: hayimlapin
 description: ""
 published: 2012-01-26
 redirect_from: 

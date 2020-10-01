@@ -1,6 +1,7 @@
 ---
 title: '4/1 MITH Digital Dialogue: Sunil Iyengar, "To Read or Not to Read"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-03-27
 redirect_from: 

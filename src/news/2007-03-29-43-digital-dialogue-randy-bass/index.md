@@ -1,6 +1,7 @@
 ---
 title: '4/3 Digital Dialogue: Randy Bass'
 type: post
+author: mith_admin
 description: ""
 published: 2007-03-29
 redirect_from: 

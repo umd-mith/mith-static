@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Digital Humanities Winter Institute'
 type: post
+author: mith_admin
 description: ""
 published: 2012-05-15
 redirect_from: 

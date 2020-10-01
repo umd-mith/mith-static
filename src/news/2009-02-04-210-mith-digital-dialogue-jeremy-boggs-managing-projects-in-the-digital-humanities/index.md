@@ -1,6 +1,7 @@
 ---
 title: '2/10 MITH Digital Dialogue: Jeremy Boggs, "Managing Projects in the Digital Humanities"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-02-04
 redirect_from: 

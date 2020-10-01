@@ -1,6 +1,7 @@
 ---
 title: 'MITH Appoints Affiliate Faculty'
 type: post
+author: trevormunoz
 description: ""
 published: 2018-10-11
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Fall 2015 Digital Dialogues Pre-Season Mixer'
 type: post
+author: digitaldialogues
 description: ""
 published: 2015-09-21
 redirect_from: 

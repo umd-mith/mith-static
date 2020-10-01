@@ -1,6 +1,7 @@
 ---
 title: 'NanoDHMo, NaDHMo, ... Whatever, Let''s Just Make Something'
 type: post
+author: jgsmith
 description: ""
 published: 2011-11-02
 redirect_from: 

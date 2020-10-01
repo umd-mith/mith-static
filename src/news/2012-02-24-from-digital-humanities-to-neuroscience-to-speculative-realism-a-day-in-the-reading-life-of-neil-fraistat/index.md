@@ -1,6 +1,7 @@
 ---
 title: 'From Digital Humanities to Neuroscience to Speculative Realism: A Day in the Reading Life of Neil Fraistat'
 type: post
+author: mith_admin
 description: ""
 published: 2012-02-24
 redirect_from: 

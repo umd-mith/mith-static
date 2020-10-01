@@ -1,6 +1,7 @@
 ---
 title: 'Answering the Mail: Digital Mishnah Project Update'
 type: post
+author: hayimlapin
 description: ""
 published: 2012-11-15
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '5/3 MITH Digital Dialogue: Siva Vaidhyanathan, "The Googlization of Surveillance"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-04-27
 redirect_from: 

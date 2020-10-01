@@ -1,6 +1,7 @@
 ---
 title: '9/20 MITH Digital Dialogue: Aditi Muralidharan, "Large Scale Text Analysis in the Digital Humanities: Methods and Challenges"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-09-14
 redirect_from: 

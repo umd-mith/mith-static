@@ -1,6 +1,7 @@
 ---
 title: '11/16 MITH Digital Dialogue: Tara Rodgers, Representing Lively Bodies in Sound: Legacies of Analog Signification in Digital Audio'
 type: post
+author: jamesneal
 description: ""
 published: 2010-11-10
 redirect_from: 

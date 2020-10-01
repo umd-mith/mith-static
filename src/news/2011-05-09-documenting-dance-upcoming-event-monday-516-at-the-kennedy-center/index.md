@@ -1,6 +1,7 @@
 ---
 title: 'Documenting Dance: Upcoming Event Monday 5/16 at the Kennedy Center'
 type: post
+author: emmamillon
 description: ""
 published: 2011-05-09
 redirect_from: 

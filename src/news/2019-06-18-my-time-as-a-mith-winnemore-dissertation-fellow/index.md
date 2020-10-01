@@ -1,6 +1,7 @@
 ---
 title: 'My Time as a MITH Winnemore Dissertation Fellow'
 type: post
+author: kylebickoff
 description: ""
 published: 2019-06-18
 redirect_from: 

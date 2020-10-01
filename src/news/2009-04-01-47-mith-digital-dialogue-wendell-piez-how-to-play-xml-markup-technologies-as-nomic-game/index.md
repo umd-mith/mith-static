@@ -1,6 +1,7 @@
 ---
 title: '4/7 MITH Digital Dialogue: Wendell Piez, "How to Play XML: Markup Technologies as Nomic Game"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-04-01
 redirect_from: 

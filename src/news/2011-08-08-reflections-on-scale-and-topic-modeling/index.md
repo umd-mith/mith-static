@@ -1,6 +1,7 @@
 ---
 title: 'Reflections on Scale and Topic Modeling'
 type: post
+author: sayanbhattacharyya
 description: ""
 published: 2011-08-08
 redirect_from: 

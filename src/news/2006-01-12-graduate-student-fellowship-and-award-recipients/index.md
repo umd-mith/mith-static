@@ -1,6 +1,7 @@
 ---
 title: 'Graduate Student Fellowship and Award Recipients'
 type: post
+author: mith_admin
 description: ""
 published: 2006-01-12
 redirect_from: 

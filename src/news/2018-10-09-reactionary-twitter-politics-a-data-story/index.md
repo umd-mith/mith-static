@@ -1,6 +1,7 @@
 ---
 title: 'Reactionary Twitter Politics: A Data Story'
 type: post
+author: jeschollaert
 description: ""
 published: 2018-10-09
 redirect_from: 

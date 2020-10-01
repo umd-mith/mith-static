@@ -1,6 +1,7 @@
 ---
 title: 'Digital Dialogues returns to MITH'
 type: post
+author: mith_admin
 description: ""
 published: 2011-02-07
 redirect_from: 

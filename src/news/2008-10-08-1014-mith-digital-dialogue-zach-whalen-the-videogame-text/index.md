@@ -1,6 +1,7 @@
 ---
 title: '10/14 MITH Digital Dialogue: Zach Whalen, "The Videogame Text"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-10-08
 redirect_from: 

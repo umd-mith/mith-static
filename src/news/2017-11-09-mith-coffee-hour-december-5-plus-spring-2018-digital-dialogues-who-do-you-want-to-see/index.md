@@ -1,6 +1,7 @@
 ---
 title: 'MITH Coffee Hour December 5! Plus, Spring 2018 Digital Dialogues: Who Do You Want to See?'
 type: post
+author: mith_admin
 description: ""
 published: 2017-11-09
 redirect_from: 

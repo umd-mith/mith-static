@@ -1,6 +1,7 @@
 ---
 title: 'Come join MITH Thursday 10/13 for a Night Against Hate!'
 type: post
+author: mith_admin
 description: ""
 published: 2016-10-11
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Registration is now open for ‘Textual Embodiments,’ the 2017 STS annual conference!'
 type: post
+author: mith_admin
 description: ""
 published: 2017-04-04
 redirect_from: 

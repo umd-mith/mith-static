@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Lisa Rhody as Winnemore Fellow'
 type: post
+author: mith_admin
 description: ""
 published: 2012-01-18
 redirect_from: 

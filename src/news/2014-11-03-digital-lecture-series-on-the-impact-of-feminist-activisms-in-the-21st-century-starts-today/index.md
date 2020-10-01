@@ -1,6 +1,7 @@
 ---
 title: 'Digital Lecture Series on the Impact of Feminist Activisms in the 21st Century Starts Today'
 type: post
+author: mith_admin
 description: ""
 published: 2014-11-03
 redirect_from: 

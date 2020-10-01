@@ -1,6 +1,7 @@
 ---
 title: 'This Friday, October 4th: MITH Hosts a Special *Unconference*'
 type: post
+author: mith_admin
 description: ""
 published: 2013-10-03
 redirect_from: 

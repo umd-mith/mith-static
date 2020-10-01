@@ -1,6 +1,7 @@
 ---
 title: 'MITH''s TILE Project Funded by NEH Preservation and Access'
 type: post
+author: mith_admin
 description: ""
 published: 2009-03-26
 redirect_from: 

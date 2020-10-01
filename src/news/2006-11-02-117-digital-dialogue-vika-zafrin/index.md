@@ -1,6 +1,7 @@
 ---
 title: '11/7 Digital Dialogue: Vika Zafrin'
 type: post
+author: mith_admin
 description: ""
 published: 2006-11-02
 redirect_from: 

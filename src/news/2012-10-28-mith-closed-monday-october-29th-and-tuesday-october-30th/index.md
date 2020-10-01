@@ -1,6 +1,7 @@
 ---
 title: 'MITH Closed: Monday October 29th and Tuesday October 30th'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-10-28
 redirect_from: 

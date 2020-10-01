@@ -1,6 +1,7 @@
 ---
 title: 'Names of the Game'
 type: post
+author: nicholasslaughter
 description: ""
 published: 2012-04-16
 redirect_from: 

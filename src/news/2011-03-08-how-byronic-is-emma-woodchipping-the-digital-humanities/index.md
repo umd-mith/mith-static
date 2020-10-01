@@ -1,6 +1,7 @@
 ---
 title: '‘How Byronic is Emma’: Woodchipping the Digital Humanities'
 type: post
+author: mith_admin
 description: ""
 published: 2011-03-08
 redirect_from: 

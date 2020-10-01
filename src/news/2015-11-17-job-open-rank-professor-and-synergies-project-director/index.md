@@ -1,6 +1,7 @@
 ---
 title: 'Job: Open Rank Professor and Synergies Project Director'
 type: post
+author: mith_admin
 description: ""
 published: 2015-11-17
 redirect_from: 

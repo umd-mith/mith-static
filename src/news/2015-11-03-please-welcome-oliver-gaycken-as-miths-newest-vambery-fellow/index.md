@@ -1,6 +1,7 @@
 ---
 title: 'Please welcome Oliver Gaycken as MITH’s newest Vambery Fellow!'
 type: post
+author: mith_admin
 description: ""
 published: 2015-11-03
 redirect_from: 

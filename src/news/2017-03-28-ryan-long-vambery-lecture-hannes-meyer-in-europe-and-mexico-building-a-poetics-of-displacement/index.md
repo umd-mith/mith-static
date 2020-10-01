@@ -1,6 +1,7 @@
 ---
 title: 'Ryan Long Vambery Lecture: ''Hannes Meyer in Europe and Mexico: Building, a Poetics of Displacement'''
 type: post
+author: mith_admin
 description: ""
 published: 2017-03-28
 redirect_from: 

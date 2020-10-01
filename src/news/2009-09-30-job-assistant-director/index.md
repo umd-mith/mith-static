@@ -1,6 +1,7 @@
 ---
 title: 'Job: Assistant Director'
 type: post
+author: mith_admin
 description: ""
 published: 2009-09-30
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Upcoming Digital Dialogue Lecture'
 type: post
+author: mith_admin
 description: ""
 published: 2009-09-02
 redirect_from: 

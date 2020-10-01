@@ -1,6 +1,7 @@
 ---
 title: 'MITH Helps Recover William Gibson''s AGRIPPA'
 type: post
+author: mith_admin
 description: ""
 published: 2008-12-09
 redirect_from: 

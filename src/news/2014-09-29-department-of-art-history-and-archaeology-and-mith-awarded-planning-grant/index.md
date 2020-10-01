@@ -1,6 +1,7 @@
 ---
 title: 'Department of Art History and Archaeology and MITH Awarded Planning Grant'
 type: post
+author: mith_admin
 description: ""
 published: 2014-09-29
 redirect_from: 

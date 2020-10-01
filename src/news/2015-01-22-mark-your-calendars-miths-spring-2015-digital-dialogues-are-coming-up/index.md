@@ -1,6 +1,7 @@
 ---
 title: 'Mark your calendars ... MITH''s Spring 2015 Digital Dialogues are coming up!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2015-01-22
 redirect_from: 

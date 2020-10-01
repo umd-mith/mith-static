@@ -1,6 +1,7 @@
 ---
 title: 'MITH Fellow Merle Collins Presents Work'
 type: post
+author: mith_admin
 description: ""
 published: 2006-11-07
 redirect_from: 

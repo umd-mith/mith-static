@@ -1,6 +1,7 @@
 ---
 title: 'MITH in the Chronicle'
 type: post
+author: mith_admin
 description: ""
 published: 2009-04-07
 redirect_from: 

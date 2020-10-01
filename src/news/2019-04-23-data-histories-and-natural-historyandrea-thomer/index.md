@@ -1,6 +1,7 @@
 ---
 title: 'Data Histories and Natural History—Andrea Thomer'
 type: post
+author: edsummers
 description: ""
 published: 2019-04-23
 redirect_from: 

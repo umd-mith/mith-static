@@ -1,6 +1,7 @@
 ---
 title: 'MITH to Host U.S. East Coast Open Annotation Data Model Rollout'
 type: post
+author: jgsmith
 description: ""
 published: 2013-02-14
 redirect_from: 

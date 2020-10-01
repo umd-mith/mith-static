@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Alan Liu'
 type: post
+author: mith_admin
 description: ""
 published: 2010-09-28
 redirect_from: 

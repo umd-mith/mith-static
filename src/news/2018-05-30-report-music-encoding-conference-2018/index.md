@@ -1,6 +1,7 @@
 ---
 title: 'Report: Music Encoding Conference 2018'
 type: post
+author: raffaeleviglianti
 description: ""
 published: 2018-05-30
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'We''re Hiring: Full Time TEI Encoder Position at MITH'
 type: post
+author: mith_admin
 description: ""
 published: 2008-04-25
 redirect_from: 

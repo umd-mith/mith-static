@@ -1,6 +1,7 @@
 ---
 title: '3/8 MITH Digital Dialogue: Mary Flanagan, "Playworlds: rule systems & relational art"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-03-02
 redirect_from: 

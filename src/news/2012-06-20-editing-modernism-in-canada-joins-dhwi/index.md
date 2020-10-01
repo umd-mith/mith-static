@@ -1,6 +1,7 @@
 ---
 title: 'Editing Modernism in Canada joins DHWI!'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-06-20
 redirect_from: 

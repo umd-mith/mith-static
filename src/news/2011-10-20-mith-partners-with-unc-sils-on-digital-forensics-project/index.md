@@ -1,6 +1,7 @@
 ---
 title: 'MITH Partners with UNC SILS on Digital Forensics Project'
 type: post
+author: mith_admin
 description: ""
 published: 2011-10-20
 redirect_from: 

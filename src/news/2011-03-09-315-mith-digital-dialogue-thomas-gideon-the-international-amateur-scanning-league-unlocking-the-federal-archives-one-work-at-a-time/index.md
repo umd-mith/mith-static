@@ -1,6 +1,7 @@
 ---
 title: '3/15 MITH Digital Dialogue: Thomas Gideon, "The International Amateur Scanning League, Unlocking the Federal Archives One Work at a Time"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-03-09
 redirect_from: 

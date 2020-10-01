@@ -1,6 +1,7 @@
 ---
 title: 'Digital Mishnah: Live Demo'
 type: post
+author: hayimlapin
 description: ""
 published: 2012-09-04
 redirect_from: 

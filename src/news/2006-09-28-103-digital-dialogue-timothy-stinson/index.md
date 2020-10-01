@@ -1,6 +1,7 @@
 ---
 title: '10/3 Digital Dialogue: Timothy Stinson'
 type: post
+author: mith_admin
 description: ""
 published: 2006-09-28
 redirect_from: 

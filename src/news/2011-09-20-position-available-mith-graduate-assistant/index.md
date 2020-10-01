@@ -1,6 +1,7 @@
 ---
 title: 'Position Available: MITH Graduate Assistant'
 type: post
+author: mith_admin
 description: ""
 published: 2011-09-20
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Graphic Design Assistant Job Opening'
 type: post
+author: mith_admin
 description: ""
 published: 2013-08-22
 redirect_from: 

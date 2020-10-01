@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Fall 2016 Digital Dialogues lineup!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2016-09-01
 redirect_from: 

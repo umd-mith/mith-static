@@ -1,6 +1,7 @@
 ---
 title: 'Announcing MITH’s Newly Launched Website!'
 type: post
+author: neilfraistat
 description: ""
 published: 2012-03-07
 redirect_from: 

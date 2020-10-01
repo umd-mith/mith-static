@@ -1,6 +1,7 @@
 ---
 title: 'Open Call for Applications: "Engaging the Public: Best Practices for Crowdsourcing Across the Disciplines"'
 type: post
+author: mith_admin
 description: ""
 published: 2015-02-18
 redirect_from: 

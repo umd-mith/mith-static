@@ -1,6 +1,7 @@
 ---
 title: 'Starting Out'
 type: post
+author: hayimlapin
 description: ""
 published: 2011-10-19
 redirect_from: 

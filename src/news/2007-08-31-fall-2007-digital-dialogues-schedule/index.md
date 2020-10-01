@@ -1,6 +1,7 @@
 ---
 title: 'Fall 2007 Digital Dialogues Schedule'
 type: post
+author: mith_admin
 description: ""
 published: 2007-08-31
 redirect_from: 

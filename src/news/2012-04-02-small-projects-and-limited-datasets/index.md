@@ -1,6 +1,7 @@
 ---
 title: 'Small Projects & Limited Datasets'
 type: post
+author: lisarhody
 description: ""
 published: 2012-04-02
 redirect_from: 

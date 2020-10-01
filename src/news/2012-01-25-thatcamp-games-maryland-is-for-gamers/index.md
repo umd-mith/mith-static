@@ -1,6 +1,7 @@
 ---
 title: 'THATCamp Games: Maryland Is For Gamers'
 type: post
+author: amandavisconti
 description: ""
 published: 2012-01-25
 redirect_from: 

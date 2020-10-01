@@ -1,6 +1,7 @@
 ---
 title: 'Shared Horizons Update'
 type: post
+author: neilfraistat
 description: ""
 published: 2012-11-29
 redirect_from: 

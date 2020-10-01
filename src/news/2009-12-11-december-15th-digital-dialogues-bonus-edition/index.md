@@ -1,6 +1,7 @@
 ---
 title: 'December 15th Digital Dialogues Bonus Edition!'
 type: post
+author: mith_admin
 description: ""
 published: 2009-12-11
 redirect_from: 

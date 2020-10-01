@@ -1,6 +1,7 @@
 ---
 title: '2/28 MITH Digital Dialogue: Leigh Wilson Smiley, "Vocal Visions"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-02-22
 redirect_from: 

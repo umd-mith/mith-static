@@ -1,6 +1,7 @@
 ---
 title: 'Books on the Digital Humanities available through UMD Libraries!'
 type: post
+author: mith_admin
 description: ""
 published: 2014-10-16
 redirect_from: 

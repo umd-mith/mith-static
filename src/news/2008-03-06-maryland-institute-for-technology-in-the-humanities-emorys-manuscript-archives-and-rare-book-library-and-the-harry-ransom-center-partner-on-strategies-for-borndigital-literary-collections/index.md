@@ -1,6 +1,7 @@
 ---
 title: 'Maryland Institute for Technology in the Humanities, Emory''s Manuscript, Archives, and Rare Book Library, and the Harry Ransom Center Partner on Strategies for Born-Digital Literary Collections'
 type: post
+author: mith_admin
 description: ""
 published: 2008-03-06
 redirect_from: 

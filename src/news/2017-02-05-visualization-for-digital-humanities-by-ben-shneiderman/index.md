@@ -1,6 +1,7 @@
 ---
 title: 'Visualization for Digital Humanities by Ben Shneiderman'
 type: post
+author: mith_admin
 description: ""
 published: 2017-02-05
 redirect_from: 

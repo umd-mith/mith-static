@@ -1,6 +1,7 @@
 ---
 title: 'New Models for Scholarly Communication'
 type: post
+author: neilfraistat
 description: ""
 published: 2011-07-14
 redirect_from: 

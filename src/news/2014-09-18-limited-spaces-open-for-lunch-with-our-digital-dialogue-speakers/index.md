@@ -1,6 +1,7 @@
 ---
 title: 'Limited Spaces Open for Lunch with Our Digital Dialogue Speakers!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2014-09-18
 redirect_from: 

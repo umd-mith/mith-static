@@ -1,6 +1,7 @@
 ---
 title: 'Welcome Back to MITH!'
 type: post
+author: mith_admin
 description: ""
 published: 2010-08-30
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH Fellowship Call'
 type: post
+author: mith_admin
 description: ""
 published: 2010-03-31
 redirect_from: 

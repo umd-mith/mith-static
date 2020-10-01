@@ -1,6 +1,7 @@
 ---
 title: 'Listening for the Static'
 type: post
+author: averydame
 description: ""
 published: 2016-12-09
 redirect_from: 

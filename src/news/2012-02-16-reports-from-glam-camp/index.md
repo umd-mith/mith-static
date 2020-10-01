@@ -1,6 +1,7 @@
 ---
 title: 'Reports from GLAM Camp'
 type: post
+author: grantdickie
 description: ""
 published: 2012-02-16
 redirect_from: 

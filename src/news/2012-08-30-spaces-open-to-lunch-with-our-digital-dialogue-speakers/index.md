@@ -1,6 +1,7 @@
 ---
 title: 'Spaces Open to Lunch with Our Digital Dialogue Speakers'
 type: post
+author: mith_admin
 description: ""
 published: 2012-08-30
 redirect_from: 

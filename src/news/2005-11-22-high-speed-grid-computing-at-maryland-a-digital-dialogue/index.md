@@ -1,6 +1,7 @@
 ---
 title: 'High Speed GRID Computing at Maryland: A Digital Dialogue'
 type: post
+author: mith_admin
 description: ""
 published: 2005-11-22
 redirect_from: 

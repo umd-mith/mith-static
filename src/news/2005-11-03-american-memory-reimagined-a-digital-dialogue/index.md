@@ -1,6 +1,7 @@
 ---
 title: 'American Memory Re-Imagined: A Digital Dialogue'
 type: post
+author: mith_admin
 description: ""
 published: 2005-11-03
 redirect_from: 

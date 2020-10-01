@@ -1,6 +1,7 @@
 ---
 title: '3/28 Digital Dialogue: Asim Ali and Marc Ruppel on New Media and Popular Culture'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-21
 redirect_from: 

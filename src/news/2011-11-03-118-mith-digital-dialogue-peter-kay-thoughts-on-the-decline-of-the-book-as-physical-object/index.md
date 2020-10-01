@@ -1,6 +1,7 @@
 ---
 title: '11/8 MITH Digital Dialogue: Peter Kay, "Thoughts on the Decline of the Book as Physical Object"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-11-03
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Spring 2014 MITH Digital Dialogues Lineup!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2014-01-08
 redirect_from: 

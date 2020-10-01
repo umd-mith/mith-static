@@ -1,6 +1,7 @@
 ---
 title: 'Jobs: Postdoctoral Positions in Digital Humanities and African American History and Culture'
 type: post
+author: mith_admin
 description: ""
 published: 2016-06-30
 redirect_from: 

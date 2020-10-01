@@ -1,6 +1,7 @@
 ---
 title: 'Assessing Interest in a DH/DS Student Organization'
 type: post
+author: mith_admin
 description: ""
 published: 2018-08-28
 redirect_from: 

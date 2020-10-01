@@ -1,6 +1,7 @@
 ---
 title: 'Interedition Bootcamp: Day 1'
 type: post
+author: grantdickie
 description: ""
 published: 2011-10-07
 redirect_from: 

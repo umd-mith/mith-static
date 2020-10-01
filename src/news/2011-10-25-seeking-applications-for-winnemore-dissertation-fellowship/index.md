@@ -1,6 +1,7 @@
 ---
 title: 'Seeking Applications for Winnemore Dissertation Fellowship'
 type: post
+author: mith_admin
 description: ""
 published: 2011-10-25
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Please welcome MITH summer intern Xiaoyu Tai!'
 type: post
+author: mith_admin
 description: ""
 published: 2016-06-06
 redirect_from: 

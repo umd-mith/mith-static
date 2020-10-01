@@ -1,6 +1,7 @@
 ---
 title: 'Companion to Digital Humanities Online'
 type: post
+author: mith_admin
 description: ""
 published: 2007-01-09
 redirect_from: 

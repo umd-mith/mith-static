@@ -1,6 +1,7 @@
 ---
 title: '4/25 Digital Dialogue: David Prager Branner and Chip Manekin'
 type: post
+author: mith_admin
 description: ""
 published: 2006-04-19
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '10/24 Digital Dialogue: Doug Oard'
 type: post
+author: mith_admin
 description: ""
 published: 2006-10-19
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Tools for Data-Driven Scholarship'
 type: post
+author: mith_admin
 description: ""
 published: 2008-10-22
 redirect_from: 

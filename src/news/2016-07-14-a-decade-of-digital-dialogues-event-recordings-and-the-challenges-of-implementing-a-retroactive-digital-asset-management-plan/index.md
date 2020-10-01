@@ -1,6 +1,7 @@
 ---
 title: 'A Decade of Digital Dialogues Event Recordings and the Challenges of Implementing a Retroactive Digital Asset Management Plan'
 type: post
+author: daviddurden
 description: ""
 published: 2016-07-14
 redirect_from: 

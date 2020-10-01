@@ -1,6 +1,7 @@
 ---
 title: 'Second Annual Nebraska Digital Workshop'
 type: post
+author: mith_admin
 description: ""
 published: 2007-02-15
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '10/5 Digital Dialgoue: Rachel Donahue, "A Glance at the Current State of Video Game Preservation"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-09-08
 redirect_from: 

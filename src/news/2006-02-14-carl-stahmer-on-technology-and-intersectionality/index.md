@@ -1,6 +1,7 @@
 ---
 title: 'Carl Stahmer on  "Technology and Intersectionality"'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-14
 redirect_from: 

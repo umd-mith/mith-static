@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Amanda Visconti'
 type: post
+author: mith_admin
 description: ""
 published: 2009-05-05
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Progress Involves Some Undoing'
 type: post
+author: hayimlapin
 description: ""
 published: 2011-11-17
 redirect_from: 

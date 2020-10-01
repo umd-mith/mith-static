@@ -1,6 +1,7 @@
 ---
 title: '4/17 Digital Dialogue: 2006-07 Fellows Presentations'
 type: post
+author: mith_admin
 description: ""
 published: 2007-04-11
 redirect_from: 

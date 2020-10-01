@@ -1,6 +1,7 @@
 ---
 title: 'MITH Announces Fellowship Calls for 2006-7'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-16
 redirect_from: 

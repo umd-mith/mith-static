@@ -1,6 +1,7 @@
 ---
 title: '2/21 MITH Digital Dialogue: Michael Witmore, "Shakespeare from the Waist Down"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-02-16
 redirect_from: 

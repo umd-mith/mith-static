@@ -1,6 +1,7 @@
 ---
 title: '2/5 MITH Digital Dialogue: Marilee Lindemann, "On the Internet, Everybody Thinks I''m a Dog"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-01-28
 redirect_from: 

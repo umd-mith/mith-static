@@ -1,6 +1,7 @@
 ---
 title: 'Announcing Our Fall Digital Dialogues!'
 type: post
+author: emmamillon
 description: ""
 published: 2011-09-06
 redirect_from: 

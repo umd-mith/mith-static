@@ -1,6 +1,7 @@
 ---
 title: 'MITH and University of Maryland Libraries Collaboration Selected as a Host Institution for Inaugural National Digital Stewardship Residency Program'
 type: post
+author: trevormunoz
 description: ""
 published: 2013-02-08
 redirect_from: 

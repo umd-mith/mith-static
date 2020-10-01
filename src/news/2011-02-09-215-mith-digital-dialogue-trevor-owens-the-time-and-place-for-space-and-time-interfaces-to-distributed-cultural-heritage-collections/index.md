@@ -1,6 +1,7 @@
 ---
 title: '2/15 MITH Digital Dialogue: Trevor Owens, The Time and Place for Space and Time: Interfaces to distributed cultural heritage collections'
 type: post
+author: jamesneal
 description: ""
 published: 2011-02-09
 redirect_from: 

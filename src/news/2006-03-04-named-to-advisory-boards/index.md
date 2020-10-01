@@ -1,6 +1,7 @@
 ---
 title: 'Named to Advisory Boards'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-04
 redirect_from: 

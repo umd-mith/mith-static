@@ -1,6 +1,7 @@
 ---
 title: 'Digital Humanities 2009 CFP Available!'
 type: post
+author: mith_admin
 description: ""
 published: 2008-09-11
 redirect_from: 

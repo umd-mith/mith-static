@@ -1,6 +1,7 @@
 ---
 title: 'Coalition of Humanities and Arts Infrastructures and Networks - CHAIN'
 type: post
+author: mith_admin
 description: ""
 published: 2009-11-10
 redirect_from: 

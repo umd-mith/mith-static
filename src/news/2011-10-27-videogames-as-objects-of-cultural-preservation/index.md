@@ -1,6 +1,7 @@
 ---
 title: 'Videogames as Objects of Cultural Preservation'
 type: post
+author: racheldonahue
 description: ""
 published: 2011-10-27
 redirect_from: 

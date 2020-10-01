@@ -1,6 +1,7 @@
 ---
 title: 'MITH Awarded Amazon Web Services Grant'
 type: post
+author: travisbrown
 description: ""
 published: 2011-07-15
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH Wins Another Digital Humanities Start-Up Award!'
 type: post
+author: mith_admin
 description: ""
 published: 2008-08-28
 redirect_from: 

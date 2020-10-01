@@ -1,6 +1,7 @@
 ---
 title: 'MITH is Moving On!'
 type: post
+author: emmamillon
 description: ""
 published: 2011-05-18
 redirect_from: 

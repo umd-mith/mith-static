@@ -1,6 +1,7 @@
 ---
 title: '3/30 MITH Digital Dialogue: Nick Chen & Kari Kraus, "Prototyping a Dual-Display e-Reader in the Literature Classroom"'
 type: post
+author: mith_admin
 description: ""
 published: 2010-03-24
 redirect_from: 

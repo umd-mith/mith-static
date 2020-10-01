@@ -1,6 +1,7 @@
 ---
 title: 'Dan Cohen and More Speak at MITH''s Reception'
 type: post
+author: mith_admin
 description: ""
 published: 2012-09-07
 redirect_from: 

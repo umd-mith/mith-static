@@ -1,6 +1,7 @@
 ---
 title: 'MITH and UNC SILS release BitCurator 1.0 and look ahead to the future'
 type: post
+author: porterolsen
 description: ""
 published: 2014-10-08
 redirect_from: 

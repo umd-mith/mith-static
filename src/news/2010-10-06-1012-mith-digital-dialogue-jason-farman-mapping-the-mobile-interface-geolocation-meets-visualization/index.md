@@ -1,6 +1,7 @@
 ---
 title: '10/12 MITH Digital Dialogue: Jason Farman, Mapping the Mobile Interface: Geolocation Meets Visualization'
 type: post
+author: jamesneal
 description: ""
 published: 2010-10-06
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'My Fond Farewell to MITH'
 type: post
+author: neilfraistat
 description: ""
 published: 2017-06-15
 redirect_from: 

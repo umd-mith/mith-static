@@ -1,6 +1,7 @@
 ---
 title: '5/1 MITH Digital Dialogue: Carla Peterson and Seth Denbo, "From Print to Digital: The Black Gotham Digital Archive"'
 type: post
+author: mith_admin
 description: ""
 published: 2012-04-25
 redirect_from: 

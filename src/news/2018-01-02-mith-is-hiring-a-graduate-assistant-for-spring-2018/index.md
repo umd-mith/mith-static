@@ -1,6 +1,7 @@
 ---
 title: 'MITH is Hiring a Graduate Assistant for Spring 2018!'
 type: post
+author: mith_admin
 description: ""
 published: 2018-01-02
 redirect_from: 

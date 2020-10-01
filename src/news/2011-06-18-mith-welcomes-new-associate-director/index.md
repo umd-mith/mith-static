@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes New Associate Director'
 type: post
+author: mith_admin
 description: ""
 published: 2011-06-18
 redirect_from: 

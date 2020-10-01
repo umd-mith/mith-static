@@ -1,6 +1,7 @@
 ---
 title: 'MITH Goes to Capitol Hill'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-03
 redirect_from: 

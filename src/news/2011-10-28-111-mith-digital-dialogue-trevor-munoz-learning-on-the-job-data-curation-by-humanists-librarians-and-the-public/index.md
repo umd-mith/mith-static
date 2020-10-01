@@ -1,6 +1,7 @@
 ---
 title: '11/1 MITH Digital Dialogue: Trevor Muñoz, "Learning on the Job: Data Curation by Humanists, Librarians, and the Public"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-10-28
 redirect_from: 

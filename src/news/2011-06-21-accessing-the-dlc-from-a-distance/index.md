@@ -1,6 +1,7 @@
 ---
 title: 'Accessing the DLC from a Distance?'
 type: post
+author: leightonchristiansen
 description: ""
 published: 2011-06-21
 redirect_from: 

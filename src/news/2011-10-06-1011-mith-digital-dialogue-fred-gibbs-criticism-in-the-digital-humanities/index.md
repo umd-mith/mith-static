@@ -1,6 +1,7 @@
 ---
 title: '10/11 MITH Digital Dialogue: Fred Gibbs, "Criticism in the Digital Humanities"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-10-06
 redirect_from: 

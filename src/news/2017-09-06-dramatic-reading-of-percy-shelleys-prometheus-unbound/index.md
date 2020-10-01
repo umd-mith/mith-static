@@ -1,6 +1,7 @@
 ---
 title: 'Dramatic Reading of Percy Shelley''s Prometheus Unbound'
 type: post
+author: raffaeleviglianti
 description: ""
 published: 2017-09-06
 redirect_from: 

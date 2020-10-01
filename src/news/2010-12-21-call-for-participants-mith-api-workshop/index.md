@@ -1,6 +1,7 @@
 ---
 title: 'Call for Participants, MITH API Workshop'
 type: post
+author: davelester
 description: ""
 published: 2010-12-21
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Four New MITH Hires'
 type: post
+author: mith_admin
 description: ""
 published: 2010-12-15
 redirect_from: 

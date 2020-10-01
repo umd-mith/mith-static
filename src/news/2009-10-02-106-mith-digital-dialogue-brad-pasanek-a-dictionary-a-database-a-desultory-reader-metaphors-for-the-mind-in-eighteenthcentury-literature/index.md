@@ -1,6 +1,7 @@
 ---
 title: '10/6 MITH Digital Dialogue: Brad Pasanek, "A Dictionary, A Database, A Desultory Reader: Metaphors for the Mind in Eighteenth-Century Literature"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-10-02
 redirect_from: 

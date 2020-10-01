@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Jason Scott'
 type: post
+author: mith_admin
 description: ""
 published: 2010-11-02
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH in Top Ten!'
 type: post
+author: mith_admin
 description: ""
 published: 2011-01-03
 redirect_from: 

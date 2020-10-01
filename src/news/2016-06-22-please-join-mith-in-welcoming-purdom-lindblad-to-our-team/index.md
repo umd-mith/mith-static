@@ -1,6 +1,7 @@
 ---
 title: 'Please join MITH in welcoming Purdom Lindblad to our team!'
 type: post
+author: mith_admin
 description: ""
 published: 2016-06-22
 redirect_from: 

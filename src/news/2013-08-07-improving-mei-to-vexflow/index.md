@@ -1,6 +1,7 @@
 ---
 title: 'Improving MEI to VexFlow'
 type: post
+author: zoltankomives
 description: ""
 published: 2013-08-07
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH Receives Mellon Funding for Computer Forensics Report'
 type: post
+author: mith_admin
 description: ""
 published: 2009-07-11
 redirect_from: 

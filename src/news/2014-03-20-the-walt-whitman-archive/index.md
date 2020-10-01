@@ -1,6 +1,7 @@
 ---
 title: 'The Walt Whitman Archive'
 type: post
+author: raffaeleviglianti
 description: ""
 published: 2014-03-20
 redirect_from: 

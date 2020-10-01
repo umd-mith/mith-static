@@ -1,6 +1,7 @@
 ---
 title: 'Extremely Visible and Incredibly Close Reading of Logos'
 type: post
+author: amandavisconti
 description: ""
 published: 2012-02-07
 redirect_from: 

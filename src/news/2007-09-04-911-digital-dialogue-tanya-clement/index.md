@@ -1,6 +1,7 @@
 ---
 title: '9/11 Digital Dialogue: Tanya Clement'
 type: post
+author: mith_admin
 description: ""
 published: 2007-09-04
 redirect_from: 

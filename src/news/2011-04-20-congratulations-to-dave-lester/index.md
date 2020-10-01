@@ -1,6 +1,7 @@
 ---
 title: 'Congratulations to Dave Lester!'
 type: post
+author: neilfraistat
 description: ""
 published: 2011-04-20
 redirect_from: 

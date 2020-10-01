@@ -1,6 +1,7 @@
 ---
 title: 'Carla Peterson Wins 2011 NYC Book Award for Black Gotham'
 type: post
+author: emmamillon
 description: ""
 published: 2012-04-16
 redirect_from: 

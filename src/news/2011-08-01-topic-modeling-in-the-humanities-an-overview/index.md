@@ -1,6 +1,7 @@
 ---
 title: 'Topic Modeling in the Humanities: An Overview'
 type: post
+author: claytempleton
 description: ""
 published: 2011-08-01
 redirect_from: 

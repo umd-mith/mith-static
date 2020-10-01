@@ -1,6 +1,7 @@
 ---
 title: 'What''s Happening at MITH?'
 type: post
+author: mith_admin
 description: ""
 published: 2011-09-26
 redirect_from: 

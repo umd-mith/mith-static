@@ -1,6 +1,7 @@
 ---
 title: 'MITH Faculty Fellow Carla Peterson in the News'
 type: post
+author: emmamillon
 description: ""
 published: 2012-02-22
 redirect_from: 

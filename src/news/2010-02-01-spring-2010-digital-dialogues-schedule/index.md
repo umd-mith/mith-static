@@ -1,6 +1,7 @@
 ---
 title: 'Spring 2010 Digital Dialogues Schedule'
 type: post
+author: mith_admin
 description: ""
 published: 2010-02-01
 redirect_from: 

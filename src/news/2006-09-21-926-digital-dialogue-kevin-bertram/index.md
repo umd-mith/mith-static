@@ -1,6 +1,7 @@
 ---
 title: '9/26 Digital Dialogue: Kevin Bertram'
 type: post
+author: mith_admin
 description: ""
 published: 2006-09-21
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '4/15 MITH Digital Dialogue: Kari Kraus, "Rezzing Books: Codex Technology in the Metaverse"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-04-10
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '10/20 MITH Digital Dialogue: Doug Reside, "If/Then 101: Teaching Programming at Maryland"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-10-14
 redirect_from: 

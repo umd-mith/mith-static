@@ -1,6 +1,7 @@
 ---
 title: '10/13 MITH Digital Dialogue: Sayeed Choudhury, "An Abundant Humanities Library"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-10-07
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Carl Stahmer in New Role as Research Associate'
 type: post
+author: mith_admin
 description: ""
 published: 2006-06-30
 redirect_from: 

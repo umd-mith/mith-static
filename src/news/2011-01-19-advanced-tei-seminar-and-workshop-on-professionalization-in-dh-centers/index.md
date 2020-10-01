@@ -1,6 +1,7 @@
 ---
 title: 'Advanced TEI Seminar  & Workshop on Professionalization in DH Centers'
 type: post
+author: mith_admin
 description: ""
 published: 2011-01-19
 redirect_from: 

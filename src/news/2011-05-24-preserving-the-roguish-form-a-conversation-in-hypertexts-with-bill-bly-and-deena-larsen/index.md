@@ -1,6 +1,7 @@
 ---
 title: 'Preserving the Roguish Form: A Conversation in Hypertexts with Bill Bly and Deena Larsen'
 type: post
+author: mith_admin
 description: ""
 published: 2011-05-24
 redirect_from: 

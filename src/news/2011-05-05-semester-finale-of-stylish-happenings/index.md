@@ -1,6 +1,7 @@
 ---
 title: 'Semester Finale of Stylish Happenings'
 type: post
+author: mith_admin
 description: ""
 published: 2011-05-05
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '2/14 Digital Dialogue'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-08
 redirect_from: 

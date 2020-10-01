@@ -1,6 +1,7 @@
 ---
 title: 'The DLC is Back!'
 type: post
+author: mith_admin
 description: ""
 published: 2012-02-07
 redirect_from: 

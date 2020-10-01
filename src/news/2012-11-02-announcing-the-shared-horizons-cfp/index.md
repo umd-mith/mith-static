@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Shared Horizons CFP'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-11-02
 redirect_from: 

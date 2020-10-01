@@ -1,6 +1,7 @@
 ---
 title: 'The Library in Bits and Bytes: Symposium Proceedings Online'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-15
 redirect_from: 

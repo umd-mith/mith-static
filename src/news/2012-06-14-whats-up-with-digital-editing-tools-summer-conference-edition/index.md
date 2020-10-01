@@ -1,6 +1,7 @@
 ---
 title: 'What’s Up with Digital Editing Tools? (Summer Conference Edition)'
 type: post
+author: amandavisconti
 description: ""
 published: 2012-06-14
 redirect_from: 

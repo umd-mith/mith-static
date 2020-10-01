@@ -1,6 +1,7 @@
 ---
 title: 'Announcing TWO events in April with Andy van Dam from Brown University!'
 type: post
+author: mith_admin
 description: ""
 published: 2016-03-02
 redirect_from: 

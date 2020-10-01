@@ -1,6 +1,7 @@
 ---
 title: 'Announcing Musical Theatre Online!'
 type: post
+author: mith_admin
 description: ""
 published: 2010-03-07
 redirect_from: 

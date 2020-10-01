@@ -1,6 +1,7 @@
 ---
 title: '2/3 MITH Digital Dialogue: Merle Collins, "Saracca and Nation: African Memory and Re-creation in Grenada" (film screening)'
 type: post
+author: mith_admin
 description: ""
 published: 2009-01-29
 redirect_from: 

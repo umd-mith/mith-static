@@ -1,6 +1,7 @@
 ---
 title: 'We Descended: Processing the Bill Bly Collection with the UMD Born-Digital Working Group'
 type: post
+author: mith_admin
 description: ""
 published: 2012-10-12
 redirect_from: 

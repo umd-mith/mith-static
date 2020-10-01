@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes New Staff'
 type: post
+author: mith_admin
 description: ""
 published: 2006-09-04
 redirect_from: 

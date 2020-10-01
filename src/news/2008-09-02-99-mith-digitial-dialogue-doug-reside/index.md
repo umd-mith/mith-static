@@ -1,6 +1,7 @@
 ---
 title: '9/9 MITH Digitial Dialogue: Doug Reside'
 type: post
+author: mith_admin
 description: ""
 published: 2008-09-02
 redirect_from: 

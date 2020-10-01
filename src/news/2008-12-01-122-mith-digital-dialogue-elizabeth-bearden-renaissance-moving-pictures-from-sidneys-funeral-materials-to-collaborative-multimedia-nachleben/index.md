@@ -1,6 +1,7 @@
 ---
 title: '12/2 MITH Digital Dialogue: Elizabeth Bearden, "Renaissance Moving Pictures: From Sidney''s Funeral materials to Collaborative, Multimedia Nachleben."'
 type: post
+author: mith_admin
 description: ""
 published: 2008-12-01
 redirect_from: 

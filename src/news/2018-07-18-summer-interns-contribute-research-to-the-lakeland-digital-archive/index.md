@@ -1,6 +1,7 @@
 ---
 title: 'Summer Interns Contribute Research to the Lakeland Digital Archive'
 type: post
+author: trevormunoz
 description: ""
 published: 2018-07-18
 redirect_from: 

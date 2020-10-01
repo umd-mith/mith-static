@@ -1,6 +1,7 @@
 ---
 title: '11/28 Digital Dialogue: MITH''s Own Doug Reside'
 type: post
+author: mith_admin
 description: ""
 published: 2006-11-22
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Collaborators’ Bill of Rights from recent "Off The Tracks" workshop'
 type: post
+author: mith_admin
 description: ""
 published: 2011-01-24
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Digital Dialogues Spring Schedule Posted'
 type: post
+author: mith_admin
 description: ""
 published: 2007-01-29
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Little Big Data'
 type: post
+author: edsummers
 description: ""
 published: 2018-08-03
 redirect_from: 

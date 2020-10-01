@@ -1,6 +1,7 @@
 ---
 title: '2/24 MITH Digital Dialogue: William Noel (Walters Art Museum), "Archimedes in Bits: Ten Years of Work on the Archimedes Palimpsest"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-02-21
 redirect_from: 

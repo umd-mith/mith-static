@@ -1,6 +1,7 @@
 ---
 title: '3/29 MITH Digital Dialogue: Travis Brown, "Teaching Machines to Read Milton: Natural Language Processing Challenges for Literary and Historical Texts"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-03-23
 redirect_from: 

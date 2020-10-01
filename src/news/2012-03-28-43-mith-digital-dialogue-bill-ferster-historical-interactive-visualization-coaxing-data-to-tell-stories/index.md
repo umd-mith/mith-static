@@ -1,6 +1,7 @@
 ---
 title: '4/3 MITH Digital Dialogue: Bill Ferster, "Historical Interactive Visualization: Coaxing Data to Tell Stories"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-03-28
 redirect_from: 

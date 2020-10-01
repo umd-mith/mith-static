@@ -1,6 +1,7 @@
 ---
 title: 'The Black Gotham Digital Archive: The Draft Riots of July 1863'
 type: post
+author: carlapeterson
 description: ""
 published: 2012-03-14
 redirect_from: 

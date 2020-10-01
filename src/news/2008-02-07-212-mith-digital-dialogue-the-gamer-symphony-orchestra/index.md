@@ -1,6 +1,7 @@
 ---
 title: '2/12 MITH Digital Dialogue: The Gamer Symphony Orchestra'
 type: post
+author: mith_admin
 description: ""
 published: 2008-02-07
 redirect_from: 

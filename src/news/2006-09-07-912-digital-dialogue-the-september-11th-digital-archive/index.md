@@ -1,6 +1,7 @@
 ---
 title: '9/12 Digital Dialogue: The September 11th Digital Archive'
 type: post
+author: mith_admin
 description: ""
 published: 2006-09-07
 redirect_from: 

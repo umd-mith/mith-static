@@ -1,6 +1,7 @@
 ---
 title: 'NEH and Sloan award funds to University of Maryland and Dartmouth to host crowdsourcing workshop in May 2015'
 type: post
+author: mith_admin
 description: ""
 published: 2014-12-17
 redirect_from: 

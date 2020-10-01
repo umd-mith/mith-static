@@ -1,6 +1,7 @@
 ---
 title: 'MITH partners in $1.25 Million Mellon Grant Awarded to UMD''s Arts and Humanities College'
 type: post
+author: mith_admin
 description: ""
 published: 2015-07-16
 redirect_from: 

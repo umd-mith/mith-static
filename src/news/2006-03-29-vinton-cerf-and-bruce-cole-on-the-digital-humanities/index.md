@@ -1,6 +1,7 @@
 ---
 title: 'Vinton Cerf and Bruce Cole on the Digital Humanities'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-29
 redirect_from: 

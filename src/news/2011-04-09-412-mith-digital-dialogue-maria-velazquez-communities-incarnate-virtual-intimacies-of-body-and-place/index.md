@@ -1,6 +1,7 @@
 ---
 title: '4/12 MITH Digital Dialogue: Maria Velazquez, "Communities Incarnate: Virtual Intimacies of Body and Place"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-04-09
 redirect_from: 

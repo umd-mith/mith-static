@@ -1,6 +1,7 @@
 ---
 title: 'NEH Project Director''s Meeting: Lessons for Promoting your Project'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-09-20
 redirect_from: 

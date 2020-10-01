@@ -1,6 +1,7 @@
 ---
 title: '9/5 Digital Dialogue: Kimberlee Staking and Nikki Stewart'
 type: post
+author: mith_admin
 description: ""
 published: 2006-08-30
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '3/29 Coffeehouse Conversation on Scholarly Electronic Publishing'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-21
 redirect_from: 

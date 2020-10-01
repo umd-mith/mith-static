@@ -1,6 +1,7 @@
 ---
 title: 'MITH co-PIs centerNet Start Up'
 type: post
+author: mith_admin
 description: ""
 published: 2009-09-10
 redirect_from: 

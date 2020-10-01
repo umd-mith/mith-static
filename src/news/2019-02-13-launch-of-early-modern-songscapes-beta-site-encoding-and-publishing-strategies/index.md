@@ -1,6 +1,7 @@
 ---
 title: 'Launch of Early Modern Songscapes Beta Site: Encoding and Publishing strategies'
 type: post
+author: raffaeleviglianti
 description: ""
 published: 2019-02-13
 redirect_from: 

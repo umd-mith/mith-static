@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Society for Textual Scholarship''s 2017 Call for Papers'
 type: post
+author: mith_admin
 description: ""
 published: 2017-01-25
 redirect_from: 

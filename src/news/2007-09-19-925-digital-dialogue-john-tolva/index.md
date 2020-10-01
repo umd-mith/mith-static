@@ -1,6 +1,7 @@
 ---
 title: '9/25 Digital Dialogue: John Tolva'
 type: post
+author: mith_admin
 description: ""
 published: 2007-09-19
 redirect_from: 

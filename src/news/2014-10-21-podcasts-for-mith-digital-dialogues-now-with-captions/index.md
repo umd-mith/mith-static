@@ -1,6 +1,7 @@
 ---
 title: 'Podcasts for MITH Digital Dialogues: Now with captions!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2014-10-21
 redirect_from: 

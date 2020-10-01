@@ -1,6 +1,7 @@
 ---
 title: 'Learning and Teaching Initiatives at MITH'
 type: post
+author: mith_admin
 description: ""
 published: 2017-05-18
 redirect_from: 

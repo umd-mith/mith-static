@@ -1,6 +1,7 @@
 ---
 title: 'Please Join Us! The dedication of the new MITH home'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-08-09
 redirect_from: 

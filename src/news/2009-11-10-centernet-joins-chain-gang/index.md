@@ -1,6 +1,7 @@
 ---
 title: 'centerNet Joins CHAIN Gang'
 type: post
+author: mith_admin
 description: ""
 published: 2009-11-10
 redirect_from: 

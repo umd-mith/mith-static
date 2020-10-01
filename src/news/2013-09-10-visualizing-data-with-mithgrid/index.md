@@ -1,6 +1,7 @@
 ---
 title: 'Visualizing Data with MITHgrid'
 type: post
+author: selvampalanimalai
 description: ""
 published: 2013-09-10
 redirect_from: 

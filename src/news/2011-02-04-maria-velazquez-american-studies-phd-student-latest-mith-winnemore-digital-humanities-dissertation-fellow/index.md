@@ -1,6 +1,7 @@
 ---
 title: 'Maria Velazquez, American Studies PhD student, latest MITH Winnemore Digital Humanities Dissertation Fellow'
 type: post
+author: mith_admin
 description: ""
 published: 2011-02-04
 redirect_from: 

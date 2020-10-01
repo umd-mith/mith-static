@@ -1,6 +1,7 @@
 ---
 title: 'Developing Policies for a Digital World'
 type: post
+author: racheldonahue
 description: ""
 published: 2013-02-28
 redirect_from: 

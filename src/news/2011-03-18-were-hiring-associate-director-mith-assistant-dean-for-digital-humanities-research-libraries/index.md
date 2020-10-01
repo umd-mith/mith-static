@@ -1,6 +1,7 @@
 ---
 title: 'We''re Hiring: Associate Director, MITH; Assistant Dean for Digital Humanities Research, Libraries'
 type: post
+author: mith_admin
 description: ""
 published: 2011-03-18
 redirect_from: 

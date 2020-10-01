@@ -1,6 +1,7 @@
 ---
 title: 'A Look at #FergusonSyllabus'
 type: post
+author: edsummers
 description: ""
 published: 2015-01-19
 redirect_from: 

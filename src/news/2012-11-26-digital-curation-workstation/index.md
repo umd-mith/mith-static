@@ -1,6 +1,7 @@
 ---
 title: 'Digital Curation Workstation'
 type: post
+author: porterolsen
 description: ""
 published: 2012-11-26
 redirect_from: 

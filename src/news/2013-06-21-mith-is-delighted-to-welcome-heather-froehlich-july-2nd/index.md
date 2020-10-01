@@ -1,6 +1,7 @@
 ---
 title: 'MITH is delighted to welcome Heather Froehlich, July 2nd'
 type: post
+author: mith_admin
 description: ""
 published: 2013-06-21
 redirect_from: 

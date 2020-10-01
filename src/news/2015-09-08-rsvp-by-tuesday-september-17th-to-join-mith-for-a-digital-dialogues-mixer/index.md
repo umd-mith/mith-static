@@ -1,6 +1,7 @@
 ---
 title: 'RSVP by Tuesday September 17th to join MITH for a Digital Dialogues mixer!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2015-09-08
 redirect_from: 

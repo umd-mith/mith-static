@@ -1,6 +1,7 @@
 ---
 title: 'MITH is Twittering!'
 type: post
+author: mith_admin
 description: ""
 published: 2008-03-06
 redirect_from: 

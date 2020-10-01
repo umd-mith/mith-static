@@ -1,6 +1,7 @@
 ---
 title: '4/10 Digital Dialogue: Kate Murray'
 type: post
+author: mith_admin
 description: ""
 published: 2007-04-04
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Dave Lester'
 type: post
+author: mith_admin
 description: ""
 published: 2009-12-01
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Upcoming Event This Saturday 4/14: Theorizing the Web Conference'
 type: post
+author: mith_admin
 description: ""
 published: 2012-04-12
 redirect_from: 

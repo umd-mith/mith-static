@@ -1,6 +1,7 @@
 ---
 title: 'Taking Stock'
 type: post
+author: carlapeterson
 description: ""
 published: 2012-04-23
 redirect_from: 

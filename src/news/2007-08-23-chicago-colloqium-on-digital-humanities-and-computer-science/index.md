@@ -1,6 +1,7 @@
 ---
 title: 'Chicago Colloqium on Digital Humanities and Computer Science'
 type: post
+author: mith_admin
 description: ""
 published: 2007-08-23
 redirect_from: 

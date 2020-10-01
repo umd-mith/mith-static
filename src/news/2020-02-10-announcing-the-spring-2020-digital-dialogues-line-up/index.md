@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Spring 2020 Digital Dialogues Line Up'
 type: post
+author: digitaldialogues
 description: ""
 published: 2020-02-10
 redirect_from: 

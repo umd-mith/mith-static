@@ -1,6 +1,7 @@
 ---
 title: 'MITH Director Search Presentation'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-28
 redirect_from: 

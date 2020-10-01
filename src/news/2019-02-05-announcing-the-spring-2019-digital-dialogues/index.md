@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Spring 2019 Digital Dialogues!'
 type: post
+author: purdomlindblad
 description: ""
 published: 2019-02-05
 redirect_from: 

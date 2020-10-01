@@ -1,6 +1,7 @@
 ---
 title: 'Infinite Ulysses: Designing a Public Humanities Conversation'
 type: post
+author: amandavisconti
 description: ""
 published: 2014-12-01
 redirect_from: 

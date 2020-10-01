@@ -1,6 +1,7 @@
 ---
 title: 'MITH''s Research & Collections featured on NPR''s All Things Considered'
 type: post
+author: mith_admin
 description: ""
 published: 2014-04-09
 redirect_from: 

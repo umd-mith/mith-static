@@ -1,6 +1,7 @@
 ---
 title: 'Digital Humanities Data Curation Institute Summer 2013 Workshop Now Accepting Applications'
 type: post
+author: trevormunoz
 description: ""
 published: 2012-12-19
 redirect_from: 

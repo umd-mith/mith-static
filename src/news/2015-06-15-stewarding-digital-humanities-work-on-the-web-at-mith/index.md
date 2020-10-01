@@ -1,6 +1,7 @@
 ---
 title: 'Stewarding Digital Humanities Work on the Web at MITH'
 type: post
+author: trevormunoz
 description: ""
 published: 2015-06-15
 redirect_from: 

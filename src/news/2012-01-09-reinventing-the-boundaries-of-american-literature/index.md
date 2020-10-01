@@ -1,6 +1,7 @@
 ---
 title: 'Reinventing the Boundaries of American Literature'
 type: post
+author: nicholasslaughter
 description: ""
 published: 2012-01-09
 redirect_from: 

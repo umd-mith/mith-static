@@ -1,6 +1,7 @@
 ---
 title: 'Asking Questions of Lots of Text with Weka'
 type: post
+author: gemstoneteam
 description: ""
 published: 2012-12-18
 redirect_from: 

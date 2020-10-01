@@ -1,6 +1,7 @@
 ---
 title: 'Appointment of Matthew Kirschenbaum as Associate Director of MITH'
 type: post
+author: mith_admin
 description: ""
 published: 2006-06-16
 redirect_from: 

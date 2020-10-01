@@ -1,6 +1,7 @@
 ---
 title: 'Early use data on a participatory digital edition'
 type: post
+author: amandavisconti
 description: ""
 published: 2015-04-07
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Neil Fraistat Delivers Keynote in Vienna'
 type: post
+author: mith_admin
 description: ""
 published: 2010-10-19
 redirect_from: 

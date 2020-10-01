@@ -1,6 +1,7 @@
 ---
 title: 'Special Edition Digital Dialogue: Beth Plale, "Digital Humanities at Scale: the HathiTrust Research Center"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-02-27
 redirect_from: 

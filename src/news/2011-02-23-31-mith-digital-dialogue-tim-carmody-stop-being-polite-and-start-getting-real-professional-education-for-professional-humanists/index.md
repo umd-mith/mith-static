@@ -1,6 +1,7 @@
 ---
 title: '3/1 MITH Digital Dialogue: Tim Carmody, "Stop Being Polite and Start Getting Real: Professional Education for Professional Humanists"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-02-23
 redirect_from: 

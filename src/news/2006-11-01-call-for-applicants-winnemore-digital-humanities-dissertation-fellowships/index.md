@@ -1,6 +1,7 @@
 ---
 title: 'Call for Applicants: Winnemore Digital Humanities Dissertation Fellowships'
 type: post
+author: mith_admin
 description: ""
 published: 2006-11-01
 redirect_from: 

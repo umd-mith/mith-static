@@ -1,6 +1,7 @@
 ---
 title: 'Hands on the DLC: Finding and Finding Aids'
 type: post
+author: leightonchristiansen
 description: ""
 published: 2011-06-13
 redirect_from: 

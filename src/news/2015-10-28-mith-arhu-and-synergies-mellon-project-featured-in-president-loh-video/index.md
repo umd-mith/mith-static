@@ -1,6 +1,7 @@
 ---
 title: 'MITH, ARHU and Synergies Mellon project featured in President Loh video'
 type: post
+author: mith_admin
 description: ""
 published: 2015-10-28
 redirect_from: 

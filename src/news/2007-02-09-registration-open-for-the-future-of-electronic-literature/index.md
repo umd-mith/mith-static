@@ -1,6 +1,7 @@
 ---
 title: 'Registration Open for the Future of Electronic Literature'
 type: post
+author: mith_admin
 description: ""
 published: 2007-02-09
 redirect_from: 

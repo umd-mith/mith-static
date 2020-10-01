@@ -1,6 +1,7 @@
 ---
 title: 'Introducing Documenting the Now'
 type: post
+author: edsummers
 description: ""
 published: 2016-02-16
 redirect_from: 

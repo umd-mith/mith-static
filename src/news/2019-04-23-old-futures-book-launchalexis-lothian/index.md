@@ -1,6 +1,7 @@
 ---
 title: 'Old Futures Book Launch—Alexis Lothian'
 type: post
+author: edsummers
 description: ""
 published: 2019-04-23
 redirect_from: 

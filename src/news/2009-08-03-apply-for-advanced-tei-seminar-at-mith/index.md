@@ -1,6 +1,7 @@
 ---
 title: 'Apply for Advanced TEI Seminar at MITH!'
 type: post
+author: mith_admin
 description: ""
 published: 2009-08-03
 redirect_from: 

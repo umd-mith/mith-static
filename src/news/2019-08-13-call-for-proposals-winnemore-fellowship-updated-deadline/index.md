@@ -1,6 +1,7 @@
 ---
 title: 'Call for Proposals: Winnemore Fellowship - Updated Deadline'
 type: post
+author: purdomlindblad
 description: ""
 published: 2019-08-13
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH welcomes T''Sey-Haye Preaster'
 type: post
+author: trevormunoz
 description: ""
 published: 2018-12-13
 redirect_from: 

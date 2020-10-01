@@ -1,6 +1,7 @@
 ---
 title: 'NEA Grant to Build Music Theater Online: 1866-1923'
 type: post
+author: mith_admin
 description: ""
 published: 2011-06-14
 redirect_from: 

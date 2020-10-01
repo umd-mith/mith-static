@@ -1,6 +1,7 @@
 ---
 title: 'Researching Ferguson Update: Previewing MITH’s Teach Ins for #BlackLivesMatter at UMD'
 type: post
+author: mith_admin
 description: ""
 published: 2015-01-15
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Coffeehouse now open!'
 type: post
+author: mith_admin
 description: ""
 published: 2005-10-24
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH in International Partnership Shares New NEH/JISC Grant to Digitize Shakespeare''s Quartos'
 type: post
+author: mith_admin
 description: ""
 published: 2008-03-26
 redirect_from: 

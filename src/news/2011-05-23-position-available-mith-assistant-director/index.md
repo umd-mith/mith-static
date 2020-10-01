@@ -1,6 +1,7 @@
 ---
 title: 'Position Available: MITH Assistant Director'
 type: post
+author: neilfraistat
 description: ""
 published: 2011-05-23
 redirect_from: 

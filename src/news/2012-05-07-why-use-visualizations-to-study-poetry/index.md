@@ -1,6 +1,7 @@
 ---
 title: 'Why use visualizations to study poetry?'
 type: post
+author: lisarhody
 description: ""
 published: 2012-05-07
 redirect_from: 

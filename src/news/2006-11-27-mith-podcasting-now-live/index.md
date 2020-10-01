@@ -1,6 +1,7 @@
 ---
 title: 'MITH Podcasting Now Live!'
 type: post
+author: mith_admin
 description: ""
 published: 2006-11-27
 redirect_from: 

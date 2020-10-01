@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes New Community Lead'
 type: post
+author: neilfraistat
 description: ""
 published: 2011-04-27
 redirect_from: 

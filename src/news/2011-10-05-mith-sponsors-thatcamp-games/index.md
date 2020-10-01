@@ -1,6 +1,7 @@
 ---
 title: 'MITH Sponsors THATCamp Games'
 type: post
+author: amandavisconti
 description: ""
 published: 2011-10-05
 redirect_from: 

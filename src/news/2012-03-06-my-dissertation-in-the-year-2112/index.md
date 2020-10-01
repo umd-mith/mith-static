@@ -1,6 +1,7 @@
 ---
 title: 'My Dissertation in the Year 2112'
 type: post
+author: rebeccaborden
 description: ""
 published: 2012-03-06
 redirect_from: 

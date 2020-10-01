@@ -1,6 +1,7 @@
 ---
 title: '"A Web Developer''s Toolkit for Annotation of Streaming Video"'
 type: post
+author: jgsmith
 description: ""
 published: 2012-11-08
 redirect_from: 

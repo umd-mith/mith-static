@@ -1,6 +1,7 @@
 ---
 title: 'nora Project Update'
 type: post
+author: mith_admin
 description: ""
 published: 2006-01-09
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Silvia Mejia''s Film to be Screened at SCMS'
 type: post
+author: mith_admin
 description: ""
 published: 2007-02-10
 redirect_from: 

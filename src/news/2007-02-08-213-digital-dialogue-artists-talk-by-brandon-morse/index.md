@@ -1,6 +1,7 @@
 ---
 title: '2/13 Digital Dialogue: Artist''s Talk by Brandon Morse'
 type: post
+author: mith_admin
 description: ""
 published: 2007-02-08
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Carla Peterson Interviewed by Brian Lehrer'
 type: post
+author: emmamillon
 description: ""
 published: 2012-04-06
 redirect_from: 

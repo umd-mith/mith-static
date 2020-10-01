@@ -1,6 +1,7 @@
 ---
 title: '11/27 MITH Digital Dialogue: Linda Frueh, "The Internet Archive and the Digital Humanities"'
 type: post
+author: mith_admin
 description: ""
 published: 2007-11-23
 redirect_from: 

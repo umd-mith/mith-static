@@ -1,6 +1,7 @@
 ---
 title: 'Mark your calendars! Fall 2019 Digital Dialogues Line Up'
 type: post
+author: purdomlindblad
 description: ""
 published: 2019-09-18
 redirect_from: 

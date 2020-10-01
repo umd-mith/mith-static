@@ -1,6 +1,7 @@
 ---
 title: 'Fall 2010 Digital Dialogues Schedule'
 type: post
+author: mith_admin
 description: ""
 published: 2010-09-07
 redirect_from: 

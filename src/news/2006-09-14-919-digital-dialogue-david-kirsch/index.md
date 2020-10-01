@@ -1,6 +1,7 @@
 ---
 title: '9/19 Digital Dialogue: David Kirsch'
 type: post
+author: mith_admin
 description: ""
 published: 2006-09-14
 redirect_from: 

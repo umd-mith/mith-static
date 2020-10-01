@@ -1,6 +1,7 @@
 ---
 title: 'MITH is Hiring a Web Programmer'
 type: post
+author: mith_admin
 description: ""
 published: 2009-04-09
 redirect_from: 

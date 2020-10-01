@@ -1,6 +1,7 @@
 ---
 title: 'MITH in the News'
 type: post
+author: mith_admin
 description: ""
 published: 2010-01-26
 redirect_from: 

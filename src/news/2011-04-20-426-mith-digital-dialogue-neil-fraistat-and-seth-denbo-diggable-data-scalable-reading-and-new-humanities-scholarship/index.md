@@ -1,6 +1,7 @@
 ---
 title: '4/26 MITH Digital Dialogue: Neil Fraistat and Seth Denbo, "Diggable Data, Scalable Reading, and New Humanities Scholarship"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-04-20
 redirect_from: 

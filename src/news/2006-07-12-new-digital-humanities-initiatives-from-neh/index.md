@@ -1,6 +1,7 @@
 ---
 title: 'New Digital Humanities Initiatives from NEH'
 type: post
+author: mith_admin
 description: ""
 published: 2006-07-12
 redirect_from: 

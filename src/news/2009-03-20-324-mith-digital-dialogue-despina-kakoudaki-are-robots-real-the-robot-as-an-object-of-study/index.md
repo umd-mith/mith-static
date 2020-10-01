@@ -1,6 +1,7 @@
 ---
 title: '3/24 MITH Digital Dialogue: Despina Kakoudaki, "Are Robots Real? The Robot as an Object of Study"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-03-20
 redirect_from: 

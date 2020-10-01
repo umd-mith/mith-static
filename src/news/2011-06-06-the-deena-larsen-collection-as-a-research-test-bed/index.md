@@ -1,6 +1,7 @@
 ---
 title: 'The Deena Larsen Collection as a Research Test Bed'
 type: post
+author: leightonchristiansen
 description: ""
 published: 2011-06-06
 redirect_from: 

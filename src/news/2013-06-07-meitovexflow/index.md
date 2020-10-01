@@ -1,6 +1,7 @@
 ---
 title: 'MEI-to-VexFlow'
 type: post
+author: zoltankomives
 description: ""
 published: 2013-06-07
 redirect_from: 

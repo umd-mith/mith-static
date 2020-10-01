@@ -1,6 +1,7 @@
 ---
 title: 'An Evening with Bruce Sterling'
 type: post
+author: mith_admin
 description: ""
 published: 2009-10-17
 redirect_from: 

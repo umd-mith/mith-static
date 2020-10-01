@@ -1,6 +1,7 @@
 ---
 title: '2/27 Digital Dialogue: Lisa Gitelman'
 type: post
+author: mith_admin
 description: ""
 published: 2007-02-21
 redirect_from: 

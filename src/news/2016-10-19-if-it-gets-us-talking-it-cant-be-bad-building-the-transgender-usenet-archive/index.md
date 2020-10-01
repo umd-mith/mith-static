@@ -1,6 +1,7 @@
 ---
 title: '“If it gets us talking, it can''t be bad:” Building the Transgender Usenet Archive'
 type: post
+author: averydame
 description: ""
 published: 2016-10-19
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Almost Ready for Prime Time'
 type: post
+author: hayimlapin
 description: ""
 published: 2012-05-25
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '11/17 MITH Digital Dialogue: Jennifer Fleeger, "Archiving America: The Vitaphone, the DVD, and Warner Bros. (re)store Jazz History'
 type: post
+author: mith_admin
 description: ""
 published: 2009-11-13
 redirect_from: 

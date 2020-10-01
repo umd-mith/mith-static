@@ -1,6 +1,7 @@
 ---
 title: 'MITH Directors Kirschenbaum and Muñoz featured at Digital Preservation 2014'
 type: post
+author: mith_admin
 description: ""
 published: 2014-07-23
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Progress, real but in small steps'
 type: post
+author: hayimlapin
 description: ""
 published: 2012-03-12
 redirect_from: 

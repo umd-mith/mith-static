@@ -1,6 +1,7 @@
 ---
 title: 'Shelley-Godwin Archive Seeking Applications for Text-Encoders'
 type: post
+author: mith_admin
 description: ""
 published: 2012-12-19
 redirect_from: 

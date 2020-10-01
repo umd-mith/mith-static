@@ -1,6 +1,7 @@
 ---
 title: 'Digging into Data with Topic Models'
 type: post
+author: sayanbhattacharyya
 description: ""
 published: 2011-07-22
 redirect_from: 

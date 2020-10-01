@@ -1,6 +1,7 @@
 ---
 title: '4/13 MITH Digital Dialogue: Sharon Leon, "Doing History in Public: Digital History in the Digital Humanities"'
 type: post
+author: mith_admin
 description: ""
 published: 2010-04-07
 redirect_from: 

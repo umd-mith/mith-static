@@ -1,6 +1,7 @@
 ---
 title: '2/21 Digital Dialogue: Ben Shneiderman, "Creativity and Computing" (with a light Japanese lunch!)'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-15
 redirect_from: 

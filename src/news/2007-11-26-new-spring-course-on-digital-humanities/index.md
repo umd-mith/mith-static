@@ -1,6 +1,7 @@
 ---
 title: 'New Spring Course on Digital Humanities'
 type: post
+author: mith_admin
 description: ""
 published: 2007-11-26
 redirect_from: 

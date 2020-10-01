@@ -1,6 +1,7 @@
 ---
 title: '10/04 MITH Digital Dialogue: Robert K. Nelson, "Hardtack and Software: Topic Modeling in Civil War Newspapers"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-09-28
 redirect_from: 

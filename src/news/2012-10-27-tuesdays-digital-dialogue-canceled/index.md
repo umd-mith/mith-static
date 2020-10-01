@@ -1,6 +1,7 @@
 ---
 title: 'Tuesday''s Digital Dialogue Canceled'
 type: post
+author: digitaldialogues
 description: ""
 published: 2012-10-27
 redirect_from: 

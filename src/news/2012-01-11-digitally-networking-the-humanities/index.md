@@ -1,6 +1,7 @@
 ---
 title: 'Digitally Networking the Humanities'
 type: post
+author: mith_admin
 description: ""
 published: 2012-01-11
 redirect_from: 

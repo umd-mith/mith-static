@@ -1,6 +1,7 @@
 ---
 title: '11/18 MITH Digital Dialogue: Ann Weeks and Benjamin Bederson, "The International Children''s Digital Library - Not Just for Children Anymore"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-11-12
 redirect_from: 

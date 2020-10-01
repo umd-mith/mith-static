@@ -1,6 +1,7 @@
 ---
 title: '9/14 MITH Digital Dialogue: Zeynep Tufekci and Nathan Jurgenson, The iPad: The "Jesus Tablet" and the Resurrection of Consumer Society'
 type: post
+author: mith_admin
 description: ""
 published: 2010-09-08
 redirect_from: 

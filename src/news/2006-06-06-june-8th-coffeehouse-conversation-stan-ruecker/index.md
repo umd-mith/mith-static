@@ -1,6 +1,7 @@
 ---
 title: 'June 8th CoffeeHouse Conversation: Stan Ruecker'
 type: post
+author: mith_admin
 description: ""
 published: 2006-06-06
 redirect_from: 

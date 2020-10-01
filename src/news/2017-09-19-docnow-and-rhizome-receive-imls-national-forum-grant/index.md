@@ -1,6 +1,7 @@
 ---
 title: 'DocNow and Rhizome receive IMLS National Forum grant!'
 type: post
+author: mith_admin
 description: ""
 published: 2017-09-19
 redirect_from: 

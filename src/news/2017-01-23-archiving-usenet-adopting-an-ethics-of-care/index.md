@@ -1,6 +1,7 @@
 ---
 title: 'Archiving Usenet: Adopting an Ethics of Care'
 type: post
+author: averydame
 description: ""
 published: 2017-01-23
 redirect_from: 

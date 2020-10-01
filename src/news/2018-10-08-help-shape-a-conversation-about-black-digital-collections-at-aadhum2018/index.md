@@ -1,6 +1,7 @@
 ---
 title: 'Help Shape a Conversation About Black Digital Collections at #AADHum2018'
 type: post
+author: trevormunoz
 description: ""
 published: 2018-10-08
 redirect_from: 

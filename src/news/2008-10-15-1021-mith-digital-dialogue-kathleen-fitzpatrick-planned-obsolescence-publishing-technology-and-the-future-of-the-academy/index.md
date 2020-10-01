@@ -1,6 +1,7 @@
 ---
 title: '10/21 MITH Digital Dialogue: Kathleen Fitzpatrick: Planned Obsolescence: Publishing, Technology, and the Future of the Academy.'
 type: post
+author: digitaldialogues
 description: ""
 published: 2008-10-15
 redirect_from: 

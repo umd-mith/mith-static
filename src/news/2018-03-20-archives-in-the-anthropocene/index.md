@@ -1,6 +1,7 @@
 ---
 title: 'Archives in the Anthropocene'
 type: post
+author: purdomlindblad
 description: ""
 published: 2018-03-20
 redirect_from: 

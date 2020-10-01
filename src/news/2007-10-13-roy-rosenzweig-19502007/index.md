@@ -1,6 +1,7 @@
 ---
 title: 'Roy Rosenzweig, 1950-2007'
 type: post
+author: mith_admin
 description: ""
 published: 2007-10-13
 redirect_from: 

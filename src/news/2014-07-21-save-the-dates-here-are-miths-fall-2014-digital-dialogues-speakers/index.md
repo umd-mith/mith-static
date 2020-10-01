@@ -1,6 +1,7 @@
 ---
 title: 'Save the Dates!  Here are MITH''s Fall 2014 Digital Dialogues speakers'
 type: post
+author: digitaldialogues
 description: ""
 published: 2014-07-21
 redirect_from: 

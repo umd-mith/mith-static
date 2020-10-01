@@ -1,6 +1,7 @@
 ---
 title: '"Archive Ahoy!": A Dive into the World of Game Preservation'
 type: post
+author: emmamillon
 description: ""
 published: 2011-11-04
 redirect_from: 

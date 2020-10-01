@@ -1,6 +1,7 @@
 ---
 title: 'Welcome to MITH''s New Web Site'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-01
 redirect_from: 

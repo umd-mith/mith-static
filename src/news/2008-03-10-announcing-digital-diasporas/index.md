@@ -1,6 +1,7 @@
 ---
 title: 'Announcing "Digital Diasporas"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-03-10
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'BitCurator is Designing Curation Tools for Use'
 type: post
+author: porterolsen
 description: ""
 published: 2012-01-12
 redirect_from: 

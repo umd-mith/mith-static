@@ -1,6 +1,7 @@
 ---
 title: 'UNL/CLIR Fellowship: Abraham Lincoln, Walt Whitman, and Washington, D.C'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-08
 redirect_from: 

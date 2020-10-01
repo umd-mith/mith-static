@@ -1,6 +1,7 @@
 ---
 title: 'MITH Launches Vintage Computing Site'
 type: post
+author: mith_admin
 description: ""
 published: 2010-09-10
 redirect_from: 

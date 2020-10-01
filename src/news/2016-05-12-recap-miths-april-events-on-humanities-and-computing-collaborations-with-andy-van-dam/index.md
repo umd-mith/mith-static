@@ -1,6 +1,7 @@
 ---
 title: 'Recap: MITH’s April events on Humanities and Computing Collaborations with Andy van Dam'
 type: post
+author: mith_admin
 description: ""
 published: 2016-05-12
 redirect_from: 

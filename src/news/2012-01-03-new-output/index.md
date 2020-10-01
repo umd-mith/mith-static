@@ -1,6 +1,7 @@
 ---
 title: 'New Output'
 type: post
+author: hayimlapin
 description: ""
 published: 2012-01-03
 redirect_from: 

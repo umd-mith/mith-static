@@ -1,6 +1,7 @@
 ---
 title: 'Reckoning with Digital Projects: MITH Makes a Roadmap'
 type: post
+author: stephaniesapienza
 description: ""
 published: 2018-10-04
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH Winter Term Course: Anatomy of DH Research'
 type: post
+author: mith_admin
 description: ""
 published: 2017-11-14
 redirect_from: 

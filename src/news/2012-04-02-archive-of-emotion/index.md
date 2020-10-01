@@ -1,6 +1,7 @@
 ---
 title: 'Archive of Emotion'
 type: post
+author: katherinestanutz
 description: ""
 published: 2012-04-02
 redirect_from: 

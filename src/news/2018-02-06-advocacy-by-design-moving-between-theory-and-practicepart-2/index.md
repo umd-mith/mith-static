@@ -1,6 +1,7 @@
 ---
 title: 'Advocacy By Design: Moving Between Theory and Practice—Part 2'
 type: post
+author: purdomlindblad
 description: ""
 published: 2018-02-06
 redirect_from: 

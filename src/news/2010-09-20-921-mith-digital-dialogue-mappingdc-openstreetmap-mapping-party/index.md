@@ -1,6 +1,7 @@
 ---
 title: '9/21 MITH Digital Dialogue: MappingDC, OpenStreetMap Mapping Party'
 type: post
+author: mith_admin
 description: ""
 published: 2010-09-20
 redirect_from: 

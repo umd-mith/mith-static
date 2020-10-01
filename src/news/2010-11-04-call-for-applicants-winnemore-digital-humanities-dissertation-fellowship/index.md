@@ -1,6 +1,7 @@
 ---
 title: 'Call for Applicants: Winnemore Digital Humanities Dissertation Fellowship'
 type: post
+author: mith_admin
 description: ""
 published: 2010-11-04
 redirect_from: 

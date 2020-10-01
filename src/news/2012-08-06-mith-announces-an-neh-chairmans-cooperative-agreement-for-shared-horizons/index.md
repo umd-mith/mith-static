@@ -1,6 +1,7 @@
 ---
 title: 'MITH Announces an NEH Chairman''s Cooperative Agreement for Shared Horizons'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-08-06
 redirect_from: 

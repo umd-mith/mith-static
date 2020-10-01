@@ -1,6 +1,7 @@
 ---
 title: 'Sign up now to have lunch with our Digital Dialogue speakers!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2015-02-09
 redirect_from: 

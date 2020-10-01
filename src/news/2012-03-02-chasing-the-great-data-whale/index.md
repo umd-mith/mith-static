@@ -1,6 +1,7 @@
 ---
 title: 'Chasing the Great Data Whale'
 type: post
+author: lisarhody
 description: ""
 published: 2012-03-02
 redirect_from: 

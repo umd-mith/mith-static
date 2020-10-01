@@ -1,6 +1,7 @@
 ---
 title: 'Ethics and Archiving the Web'
 type: post
+author: edsummers
 description: ""
 published: 2018-02-19
 redirect_from: 

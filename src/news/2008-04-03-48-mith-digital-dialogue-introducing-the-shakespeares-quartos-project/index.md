@@ -1,6 +1,7 @@
 ---
 title: '4/8 MITH Digital Dialogue: "Introducing the Shakespeare''s Quartos Project"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-04-03
 redirect_from: 

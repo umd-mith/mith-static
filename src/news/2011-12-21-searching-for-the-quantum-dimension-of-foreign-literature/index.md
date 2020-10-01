@@ -1,6 +1,7 @@
 ---
 title: 'Searching for the Quantum Dimension of Foreign Literature'
 type: post
+author: rebeccaborden
 description: ""
 published: 2011-12-21
 redirect_from: 

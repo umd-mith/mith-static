@@ -1,6 +1,7 @@
 ---
 title: 'Inviting UMD Participants to a Regional DH Symposium, March 9, 2018'
 type: post
+author: purdomlindblad
 description: ""
 published: 2018-02-22
 redirect_from: 

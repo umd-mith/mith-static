@@ -1,6 +1,7 @@
 ---
 title: '4/19 MITH Digital Dialogue: James Smith, "Player Piano: Mechanizing the Humanities"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-04-13
 redirect_from: 

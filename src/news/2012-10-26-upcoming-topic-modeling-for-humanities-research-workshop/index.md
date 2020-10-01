@@ -1,6 +1,7 @@
 ---
 title: 'Upcoming Topic Modeling for Humanities Research workshop'
 type: post
+author: travisbrown
 description: ""
 published: 2012-10-26
 redirect_from: 

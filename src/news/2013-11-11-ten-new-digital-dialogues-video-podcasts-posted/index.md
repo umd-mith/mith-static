@@ -1,6 +1,7 @@
 ---
 title: 'Ten New Digital Dialogues Video Podcasts Posted!'
 type: post
+author: mith_admin
 description: ""
 published: 2013-11-11
 redirect_from: 

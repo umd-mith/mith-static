@@ -1,6 +1,7 @@
 ---
 title: 'Press Release: Directors of National Digital Humanities Centers to Hold Summit Meeting at NEH'
 type: post
+author: mith_admin
 description: ""
 published: 2007-03-28
 redirect_from: 

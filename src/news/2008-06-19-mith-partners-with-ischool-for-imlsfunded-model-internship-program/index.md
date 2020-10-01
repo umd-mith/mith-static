@@ -1,6 +1,7 @@
 ---
 title: 'MITH Partners with iSchool for IMLS-Funded Model Internship Program'
 type: post
+author: mith_admin
 description: ""
 published: 2008-06-19
 redirect_from: 

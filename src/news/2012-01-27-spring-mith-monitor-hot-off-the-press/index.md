@@ -1,6 +1,7 @@
 ---
 title: 'Spring MITH Monitor Hot Off the Press!'
 type: post
+author: emmamillon
 description: ""
 published: 2012-01-27
 redirect_from: 

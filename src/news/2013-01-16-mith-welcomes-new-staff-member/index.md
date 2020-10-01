@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes New Staff Member'
 type: post
+author: neilfraistat
 description: ""
 published: 2013-01-16
 redirect_from: 

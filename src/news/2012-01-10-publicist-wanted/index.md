@@ -1,6 +1,7 @@
 ---
 title: 'Publicist Wanted'
 type: post
+author: mith_admin
 description: ""
 published: 2012-01-10
 redirect_from: 

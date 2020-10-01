@@ -1,6 +1,7 @@
 ---
 title: 'More Jobs at MITH: Coordinator and Web Programmer'
 type: post
+author: mith_admin
 description: ""
 published: 2008-06-06
 redirect_from: 

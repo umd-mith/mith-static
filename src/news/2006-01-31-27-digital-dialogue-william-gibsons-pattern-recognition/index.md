@@ -1,6 +1,7 @@
 ---
 title: '2/7 Digital Dialogue: William Gibson''s Pattern Recognition'
 type: post
+author: mith_admin
 description: ""
 published: 2006-01-31
 redirect_from: 

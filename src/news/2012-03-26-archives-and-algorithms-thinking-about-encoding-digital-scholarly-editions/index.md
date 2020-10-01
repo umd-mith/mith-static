@@ -1,6 +1,7 @@
 ---
 title: 'Archives and Algorithms: Thinking about Encoding Digital Scholarly Editions'
 type: post
+author: wendyhagenmaier
 description: ""
 published: 2012-03-26
 redirect_from: 

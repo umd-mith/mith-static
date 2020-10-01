@@ -1,6 +1,7 @@
 ---
 title: 'Deena Larsen Collection Temporarily Down'
 type: post
+author: mith_admin
 description: ""
 published: 2012-01-26
 redirect_from: 

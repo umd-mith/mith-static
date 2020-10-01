@@ -1,6 +1,7 @@
 ---
 title: 'MITH Hosts CorporaCamp'
 type: post
+author: mith_admin
 description: ""
 published: 2011-03-02
 redirect_from: 

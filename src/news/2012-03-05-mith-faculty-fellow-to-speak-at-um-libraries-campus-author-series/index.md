@@ -1,6 +1,7 @@
 ---
 title: 'MITH Faculty Fellow to Speak at UM Libraries'' Campus Author Series'
 type: post
+author: emmamillon
 description: ""
 published: 2012-03-05
 redirect_from: 

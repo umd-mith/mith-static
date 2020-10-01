@@ -1,6 +1,7 @@
 ---
 title: 'Adjustments to Digital Dialogues Schedule'
 type: post
+author: mith_admin
 description: ""
 published: 2007-11-02
 redirect_from: 

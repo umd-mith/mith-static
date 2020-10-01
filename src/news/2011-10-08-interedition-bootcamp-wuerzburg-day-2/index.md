@@ -1,6 +1,7 @@
 ---
 title: 'Interedition Bootcamp Wuerzburg: Day 2'
 type: post
+author: grantdickie
 description: ""
 published: 2011-10-08
 redirect_from: 

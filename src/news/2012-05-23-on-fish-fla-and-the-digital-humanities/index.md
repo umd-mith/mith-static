@@ -1,6 +1,7 @@
 ---
 title: 'On Fish, FLA, and the Digital Humanities'
 type: post
+author: petermallios
 description: ""
 published: 2012-05-23
 redirect_from: 

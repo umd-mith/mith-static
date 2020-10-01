@@ -1,6 +1,7 @@
 ---
 title: 'Testudo takes over the MITH Dedication Celebration'
 type: post
+author: racheldonahue
 description: ""
 published: 2012-09-06
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'A Block List Against Hate'
 type: post
+author: edsummers
 description: ""
 published: 2016-10-27
 redirect_from: 

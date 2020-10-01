@@ -1,6 +1,7 @@
 ---
 title: 'MITH awarded Institutes for Advanced Topics in the Digital Humanities NEH grant to lead Digital Humanities Data Curation institutes'
 type: post
+author: trevormunoz
 description: ""
 published: 2012-07-26
 redirect_from: 

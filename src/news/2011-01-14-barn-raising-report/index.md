@@ -1,6 +1,7 @@
 ---
 title: 'Barn raising report'
 type: post
+author: mith_admin
 description: ""
 published: 2011-01-14
 redirect_from: 

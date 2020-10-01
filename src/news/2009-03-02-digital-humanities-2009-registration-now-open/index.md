@@ -1,6 +1,7 @@
 ---
 title: 'Digital Humanities 2009 Registration Now Open!'
 type: post
+author: mith_admin
 description: ""
 published: 2009-03-02
 redirect_from: 

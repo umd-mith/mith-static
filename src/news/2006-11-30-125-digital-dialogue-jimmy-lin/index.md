@@ -1,6 +1,7 @@
 ---
 title: '12/5 Digital Dialogue: Jimmy Lin'
 type: post
+author: mith_admin
 description: ""
 published: 2006-11-30
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Wireframe as Metaphor: Architecting a Digital Edition for Katherine Anne Porter’s Letters'
 type: post
+author: wendyhagenmaier
 description: ""
 published: 2012-05-04
 redirect_from: 

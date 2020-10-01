@@ -1,6 +1,7 @@
 ---
 title: 'MITH and the University of Maryland Libraries Welcome Margo Padilla as part of inaugural class of National Digital Stewardship Residents'
 type: post
+author: trevormunoz
 description: ""
 published: 2013-06-20
 redirect_from: 

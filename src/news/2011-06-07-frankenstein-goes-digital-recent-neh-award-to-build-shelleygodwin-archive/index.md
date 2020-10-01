@@ -1,6 +1,7 @@
 ---
 title: 'Frankenstein Goes Digital: Recent NEH Award to Build Shelley-Godwin Archive'
 type: post
+author: emmamillon
 description: ""
 published: 2011-06-07
 redirect_from: 

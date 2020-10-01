@@ -1,6 +1,7 @@
 ---
 title: '2/14 MITH Digital Dialogue: Melanie Kill, “Knowledge and Meaning in the Information Age: A Humanist Perspective on Wikipedia”'
 type: post
+author: emmamillon
 description: ""
 published: 2012-02-08
 redirect_from: 

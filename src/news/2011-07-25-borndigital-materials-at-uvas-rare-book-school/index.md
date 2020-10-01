@@ -1,6 +1,7 @@
 ---
 title: 'Born-Digital Materials at UVA''s Rare Book School'
 type: post
+author: matthewkirschenbaum
 description: ""
 published: 2011-07-25
 redirect_from: 

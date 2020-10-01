@@ -1,6 +1,7 @@
 ---
 title: '9/27 MITH Digital Dialogue: David Mimno, "Computational Historiography in a Century of Classics Journals"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-09-22
 redirect_from: 

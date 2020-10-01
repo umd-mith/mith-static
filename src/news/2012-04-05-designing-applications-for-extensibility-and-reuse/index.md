@@ -1,6 +1,7 @@
 ---
 title: 'Designing Applications for Extensibility and Reuse'
 type: post
+author: jgsmith
 description: ""
 published: 2012-04-05
 redirect_from: 

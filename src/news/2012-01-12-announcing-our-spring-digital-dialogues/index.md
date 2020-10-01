@@ -1,6 +1,7 @@
 ---
 title: 'Announcing our Spring Digital Dialogues!'
 type: post
+author: emmamillon
 description: ""
 published: 2012-01-12
 redirect_from: 

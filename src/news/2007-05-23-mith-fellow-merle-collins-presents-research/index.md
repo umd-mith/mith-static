@@ -1,6 +1,7 @@
 ---
 title: 'MITH Fellow Merle Collins Presents Research'
 type: post
+author: mith_admin
 description: ""
 published: 2007-05-23
 redirect_from: 

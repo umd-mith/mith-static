@@ -1,6 +1,7 @@
 ---
 title: '4/4 Digital Dialogue: Ralph Bauer and Marlene Mayo on their Digital Humanities Work in Progress'
 type: post
+author: mith_admin
 description: ""
 published: 2006-03-29
 redirect_from: 

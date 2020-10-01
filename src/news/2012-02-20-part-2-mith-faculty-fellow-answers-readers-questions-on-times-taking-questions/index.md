@@ -1,6 +1,7 @@
 ---
 title: 'Part 2: MITH Faculty Fellow Answers Readers'' Questions on Times’ “Taking Questions”'
 type: post
+author: emmamillon
 description: ""
 published: 2012-02-20
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH awarded HathiTrust Research Center grant'
 type: post
+author: mith_admin
 description: ""
 published: 2014-04-15
 redirect_from: 

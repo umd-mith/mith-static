@@ -1,6 +1,7 @@
 ---
 title: '3/7 Digital Dialogue: Scott Rettberg'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-28
 redirect_from: 

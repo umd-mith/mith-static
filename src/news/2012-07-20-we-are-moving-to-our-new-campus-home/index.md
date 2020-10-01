@@ -1,6 +1,7 @@
 ---
 title: 'We are moving to our new campus home'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-07-20
 redirect_from: 

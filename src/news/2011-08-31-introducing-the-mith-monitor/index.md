@@ -1,6 +1,7 @@
 ---
 title: 'Introducing the MITH Monitor'
 type: post
+author: neilfraistat
 description: ""
 published: 2011-08-31
 redirect_from: 

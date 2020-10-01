@@ -1,6 +1,7 @@
 ---
 title: 'MITH Associate Director Speaking at DC Public Library Panel Discussion on History of Reading'
 type: post
+author: emmamillon
 description: ""
 published: 2012-03-08
 redirect_from: 

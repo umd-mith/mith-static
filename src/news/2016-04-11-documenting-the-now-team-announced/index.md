@@ -1,6 +1,7 @@
 ---
 title: 'Documenting the Now Team Announced'
 type: post
+author: edsummers
 description: ""
 published: 2016-04-11
 redirect_from: 

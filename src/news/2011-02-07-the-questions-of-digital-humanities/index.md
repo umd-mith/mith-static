@@ -1,6 +1,7 @@
 ---
 title: 'The Question(s) of Digital Humanities'
 type: post
+author: neilfraistat
 description: ""
 published: 2011-02-07
 redirect_from: 

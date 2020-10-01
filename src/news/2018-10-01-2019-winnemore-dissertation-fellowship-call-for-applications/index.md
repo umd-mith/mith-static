@@ -1,6 +1,7 @@
 ---
 title: '2019 Winnemore Dissertation Fellowship Call for Applications'
 type: post
+author: purdomlindblad
 description: ""
 published: 2018-10-01
 redirect_from: 

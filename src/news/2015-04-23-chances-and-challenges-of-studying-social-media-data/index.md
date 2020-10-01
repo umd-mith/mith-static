@@ -1,6 +1,7 @@
 ---
 title: 'Chances and Challenges of Studying Social Media Data'
 type: post
+author: edsummers
 description: ""
 published: 2015-04-23
 redirect_from: 

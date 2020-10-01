@@ -1,6 +1,7 @@
 ---
 title: 'Job: Processing Archivist (Term Contract)'
 type: post
+author: mith_admin
 description: ""
 published: 2016-07-06
 redirect_from: 

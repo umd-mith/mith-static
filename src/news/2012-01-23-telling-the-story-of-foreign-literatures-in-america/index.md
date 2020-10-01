@@ -1,6 +1,7 @@
 ---
 title: 'Telling the Story of Foreign Literatures in America'
 type: post
+author: jenniferwellman
 description: ""
 published: 2012-01-23
 redirect_from: 

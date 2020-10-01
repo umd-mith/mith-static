@@ -1,6 +1,7 @@
 ---
 title: 'MITH is Hiring: 12-month GA Position(s)'
 type: post
+author: mith_admin
 description: ""
 published: 2007-04-07
 redirect_from: 

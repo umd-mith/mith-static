@@ -1,6 +1,7 @@
 ---
 title: 'MITH developer Ed Summers named recipient of the 2015 Kilgour Award'
 type: post
+author: mith_admin
 description: ""
 published: 2015-03-10
 redirect_from: 

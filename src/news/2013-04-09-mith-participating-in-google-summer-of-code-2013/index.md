@@ -1,6 +1,7 @@
 ---
 title: 'MITH Participating in Google Summer of Code 2013'
 type: post
+author: jgsmith
 description: ""
 published: 2013-04-09
 redirect_from: 

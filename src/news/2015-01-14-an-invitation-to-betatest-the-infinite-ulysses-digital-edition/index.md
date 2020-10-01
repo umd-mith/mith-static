@@ -1,6 +1,7 @@
 ---
 title: 'An Invitation to Beta-Test the Infinite Ulysses Digital Edition'
 type: post
+author: amandavisconti
 description: ""
 published: 2015-01-14
 redirect_from: 

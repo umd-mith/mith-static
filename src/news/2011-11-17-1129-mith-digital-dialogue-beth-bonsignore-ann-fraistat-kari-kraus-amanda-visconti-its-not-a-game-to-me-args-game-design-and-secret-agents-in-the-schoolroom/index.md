@@ -1,6 +1,7 @@
 ---
 title: '11/29 MITH Digital Dialogue: Beth Bonsignore, Ann Fraistat, Kari Kraus, Amanda Visconti, "''It''s not a game to me:'' ARGs, Game Design & Secret Agents in the Schoolroom"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-11-17
 redirect_from: 

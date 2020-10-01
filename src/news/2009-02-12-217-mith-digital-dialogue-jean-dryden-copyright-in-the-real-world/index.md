@@ -1,6 +1,7 @@
 ---
 title: '2/17 MITH Digital Dialogue: Jean Dryden, "Copyright in the Real World"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-02-12
 redirect_from: 

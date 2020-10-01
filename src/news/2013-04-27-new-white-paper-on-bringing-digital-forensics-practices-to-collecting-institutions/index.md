@@ -1,6 +1,7 @@
 ---
 title: 'New White Paper on Bringing Digital Forensics Practices to Collecting Institutions'
 type: post
+author: mith_admin
 description: ""
 published: 2013-04-27
 redirect_from: 

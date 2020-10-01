@@ -1,6 +1,7 @@
 ---
 title: 'Books.Files: New project to help scholars assess digital components of today’s bookmaking'
 type: post
+author: mith_admin
 description: ""
 published: 2017-11-01
 redirect_from: 

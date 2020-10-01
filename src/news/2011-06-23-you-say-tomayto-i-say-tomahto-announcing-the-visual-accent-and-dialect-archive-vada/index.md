@@ -1,6 +1,7 @@
 ---
 title: 'You Say Tomayto, I Say Tomahto: Announcing the Visual Accent and Dialect Archive (VADA)'
 type: post
+author: emmamillon
 description: ""
 published: 2011-06-23
 redirect_from: 

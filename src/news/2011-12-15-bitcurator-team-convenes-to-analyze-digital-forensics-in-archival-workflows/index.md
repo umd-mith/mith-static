@@ -1,6 +1,7 @@
 ---
 title: 'BitCurator Team Convenes to Analyze Digital Forensics in Archival Workflows'
 type: post
+author: mith_admin
 description: ""
 published: 2011-12-15
 redirect_from: 

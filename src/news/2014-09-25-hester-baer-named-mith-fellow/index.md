@@ -1,6 +1,7 @@
 ---
 title: 'Hester Baer named MITH Fellow'
 type: post
+author: mith_admin
 description: ""
 published: 2014-09-25
 redirect_from: 

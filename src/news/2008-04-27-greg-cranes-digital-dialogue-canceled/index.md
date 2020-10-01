@@ -1,6 +1,7 @@
 ---
 title: 'Greg Crane''s Digital Dialogue Canceled'
 type: post
+author: digitaldialogues
 description: ""
 published: 2008-04-27
 redirect_from: 

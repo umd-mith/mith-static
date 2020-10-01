@@ -1,6 +1,7 @@
 ---
 title: 'Drowning in Texts'
 type: post
+author: hayimlapin
 description: ""
 published: 2012-10-24
 redirect_from: 

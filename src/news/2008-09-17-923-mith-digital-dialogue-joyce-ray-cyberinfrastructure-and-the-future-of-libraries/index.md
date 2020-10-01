@@ -1,6 +1,7 @@
 ---
 title: '9/23 MITH Digital Dialogue: Joyce Ray, "Cyberinfrastructure and the Future of Libraries."'
 type: post
+author: digitaldialogues
 description: ""
 published: 2008-09-17
 redirect_from: 

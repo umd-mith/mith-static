@@ -1,6 +1,7 @@
 ---
 title: 'Transcribing The Shelley-Godwin Archive'
 type: post
+author: davidbrookshire
 description: ""
 published: 2011-10-12
 redirect_from: 

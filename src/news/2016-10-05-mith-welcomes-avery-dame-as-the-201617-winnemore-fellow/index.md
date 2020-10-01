@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Avery Dame as the 2016-17 Winnemore Fellow!'
 type: post
+author: mith_admin
 description: ""
 published: 2016-10-05
 redirect_from: 

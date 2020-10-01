@@ -1,6 +1,7 @@
 ---
 title: 'MITH Director Neil Fraistat to Chair the Alliance of Digital Humanities Organizations'
 type: post
+author: mith_admin
 description: ""
 published: 2012-08-28
 redirect_from: 

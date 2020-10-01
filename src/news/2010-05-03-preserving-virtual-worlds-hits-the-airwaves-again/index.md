@@ -1,6 +1,7 @@
 ---
 title: 'Preserving Virtual Worlds Hits the Airwaves Again'
 type: post
+author: mith_admin
 description: ""
 published: 2010-05-03
 redirect_from: 

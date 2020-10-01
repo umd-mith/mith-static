@@ -1,6 +1,7 @@
 ---
 title: 'Monitoring Climate Data on the Web'
 type: post
+author: edsummers
 description: ""
 published: 2018-05-03
 redirect_from: 

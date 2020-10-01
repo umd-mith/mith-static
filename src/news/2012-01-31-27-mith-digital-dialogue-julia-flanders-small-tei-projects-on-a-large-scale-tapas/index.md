@@ -1,6 +1,7 @@
 ---
 title: '2/7 MITH Digital Dialogue: Julia Flanders, "Small TEI Projects on a Large Scale: TAPAS"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-01-31
 redirect_from: 

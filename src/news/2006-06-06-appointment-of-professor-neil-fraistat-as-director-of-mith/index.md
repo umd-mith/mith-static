@@ -1,6 +1,7 @@
 ---
 title: 'Appointment of Professor Neil Fraistat as Director of MITH'
 type: post
+author: mith_admin
 description: ""
 published: 2006-06-06
 redirect_from: 

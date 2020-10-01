@@ -1,6 +1,7 @@
 ---
 title: 'Job: Assistant Director for Innovation and Learning'
 type: post
+author: mith_admin
 description: ""
 published: 2016-04-08
 redirect_from: 

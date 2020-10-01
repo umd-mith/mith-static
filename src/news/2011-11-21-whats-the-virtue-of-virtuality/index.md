@@ -1,6 +1,7 @@
 ---
 title: 'What''s the Virtue of Virtuality?'
 type: post
+author: carlapeterson
 description: ""
 published: 2011-11-21
 redirect_from: 

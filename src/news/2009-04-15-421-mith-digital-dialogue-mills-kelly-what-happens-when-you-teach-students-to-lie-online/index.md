@@ -1,6 +1,7 @@
 ---
 title: '4/21 MITH Digital Dialogue: Mills Kelly, "What Happens When You Teach Students to Lie Online?"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-04-15
 redirect_from: 

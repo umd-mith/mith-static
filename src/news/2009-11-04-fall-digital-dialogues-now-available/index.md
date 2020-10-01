@@ -1,6 +1,7 @@
 ---
 title: 'Fall Digital Dialogues Now Available'
 type: post
+author: mith_admin
 description: ""
 published: 2009-11-04
 redirect_from: 

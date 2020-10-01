@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Transgender Usenet Archive!'
 type: post
+author: averydame
 description: ""
 published: 2017-03-13
 redirect_from: 

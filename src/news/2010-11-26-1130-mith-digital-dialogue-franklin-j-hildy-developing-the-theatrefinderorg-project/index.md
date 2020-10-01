@@ -1,6 +1,7 @@
 ---
 title: '11/30 MITH Digital Dialogue: Franklin J. Hildy, Developing the theatre-finder.org Project'
 type: post
+author: jamesneal
 description: ""
 published: 2010-11-26
 redirect_from: 

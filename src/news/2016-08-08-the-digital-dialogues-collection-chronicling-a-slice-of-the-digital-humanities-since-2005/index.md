@@ -1,6 +1,7 @@
 ---
 title: 'The Digital Dialogues Collection, chronicling a slice of the digital humanities since 2005'
 type: post
+author: daviddurden
 description: ""
 published: 2016-08-08
 redirect_from: 

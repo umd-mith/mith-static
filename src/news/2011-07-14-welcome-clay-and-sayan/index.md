@@ -1,6 +1,7 @@
 ---
 title: 'Welcome Clay and Sayan'
 type: post
+author: mith_admin
 description: ""
 published: 2011-07-14
 redirect_from: 

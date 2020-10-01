@@ -1,6 +1,7 @@
 ---
 title: 'ELO and MITH Announce Partnership'
 type: post
+author: mith_admin
 description: ""
 published: 2005-12-29
 redirect_from: 

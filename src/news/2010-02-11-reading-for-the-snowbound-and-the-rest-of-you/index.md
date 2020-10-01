@@ -1,6 +1,7 @@
 ---
 title: 'Reading for the Snowbound (and the Rest of You)'
 type: post
+author: mith_admin
 description: ""
 published: 2010-02-11
 redirect_from: 

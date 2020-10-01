@@ -1,6 +1,7 @@
 ---
 title: 'Announcing Hilt: Humanities Intensive Learning + Teaching'
 type: post
+author: mith_admin
 description: ""
 published: 2013-04-17
 redirect_from: 

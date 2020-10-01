@@ -1,6 +1,7 @@
 ---
 title: 'Born Digital Working Group: Configuring FRED'
 type: post
+author: racheldonahue
 description: ""
 published: 2013-04-08
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'MITH’s Ed Summers discusses his Ferguson Twitter archive'
 type: post
+author: edsummers
 description: ""
 published: 2014-11-26
 redirect_from: 

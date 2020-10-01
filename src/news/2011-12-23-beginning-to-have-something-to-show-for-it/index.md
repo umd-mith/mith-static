@@ -1,6 +1,7 @@
 ---
 title: 'Beginning to Have Something to Show for It'
 type: post
+author: hayimlapin
 description: ""
 published: 2011-12-23
 redirect_from: 

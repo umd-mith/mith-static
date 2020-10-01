@@ -1,6 +1,7 @@
 ---
 title: 'Project Bamboo: Building Shared Infrastructure for Humanities Research'
 type: post
+author: emmamillon
 description: ""
 published: 2011-07-01
 redirect_from: 

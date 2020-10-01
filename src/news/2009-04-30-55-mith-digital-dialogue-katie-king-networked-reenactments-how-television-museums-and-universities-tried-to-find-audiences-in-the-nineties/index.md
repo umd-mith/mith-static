@@ -1,6 +1,7 @@
 ---
 title: '5/5 MITH Digital Dialogue: Katie King, "Networked Reenactments: how television, museums, and universities tried to find audiences in the nineties"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-04-30
 redirect_from: 

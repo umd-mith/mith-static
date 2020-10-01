@@ -1,6 +1,7 @@
 ---
 title: 'Introducing TILE 0.9'
 type: post
+author: mith_admin
 description: ""
 published: 2011-02-14
 redirect_from: 

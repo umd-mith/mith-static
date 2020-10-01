@@ -1,6 +1,7 @@
 ---
 title: 'Return of the Digital Dialogues Podcast'
 type: post
+author: edsummers
 description: ""
 published: 2017-04-03
 redirect_from: 

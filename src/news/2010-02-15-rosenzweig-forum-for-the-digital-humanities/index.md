@@ -1,6 +1,7 @@
 ---
 title: 'Rosenzweig Forum for the Digital Humanities'
 type: post
+author: mith_admin
 description: ""
 published: 2010-02-15
 redirect_from: 

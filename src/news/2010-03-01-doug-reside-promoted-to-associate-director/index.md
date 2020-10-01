@@ -1,6 +1,7 @@
 ---
 title: 'Doug Reside Promoted to Associate Director!'
 type: post
+author: mith_admin
 description: ""
 published: 2010-03-01
 redirect_from: 

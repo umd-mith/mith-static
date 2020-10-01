@@ -1,6 +1,7 @@
 ---
 title: 'Update: Server Maintenance This Weekend'
 type: post
+author: jgsmith
 description: ""
 published: 2012-03-30
 redirect_from: 

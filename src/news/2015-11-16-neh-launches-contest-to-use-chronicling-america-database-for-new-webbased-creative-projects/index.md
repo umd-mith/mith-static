@@ -1,6 +1,7 @@
 ---
 title: 'NEH launches contest to use Chronicling America database for new web-based creative projects'
 type: post
+author: mith_admin
 description: ""
 published: 2015-11-16
 redirect_from: 

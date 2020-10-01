@@ -1,6 +1,7 @@
 ---
 title: 'Into the Electronic Reading Room: Stewarding Digital Scholarly Editions'
 type: post
+author: wendyhagenmaier
 description: ""
 published: 2012-03-02
 redirect_from: 

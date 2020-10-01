@@ -1,6 +1,7 @@
 ---
 title: '11/4 MITH Digital Dialogue: Bethany Nowviskie, "New World Ordering: Shaping Geospatial Information for Scholarly Use."'
 type: post
+author: mith_admin
 description: ""
 published: 2008-10-29
 redirect_from: 

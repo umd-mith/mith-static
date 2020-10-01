@@ -1,6 +1,7 @@
 ---
 title: 'Willard McCarty''s 2006 Lyman Lecture: "The Imaginations of Computing"'
 type: post
+author: mith_admin
 description: ""
 published: 2006-12-13
 redirect_from: 

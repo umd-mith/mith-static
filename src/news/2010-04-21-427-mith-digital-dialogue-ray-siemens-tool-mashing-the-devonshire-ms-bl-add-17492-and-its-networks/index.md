@@ -1,6 +1,7 @@
 ---
 title: '4/27 MITH Digital Dialogue: Ray Siemens, "Tool Mashing: The Devonshire MS (BL Add 17492) and its Networks"'
 type: post
+author: mith_admin
 description: ""
 published: 2010-04-21
 redirect_from: 

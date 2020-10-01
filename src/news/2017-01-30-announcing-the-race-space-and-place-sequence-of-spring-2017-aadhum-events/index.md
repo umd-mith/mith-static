@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the ''Race, Space, and Place'' sequence of Spring 2017 AADHum Events!'
 type: post
+author: mith_admin
 description: ""
 published: 2017-01-30
 redirect_from: 

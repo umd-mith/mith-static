@@ -1,6 +1,7 @@
 ---
 title: 'Delmas Grant to Support the Shelley-Godwin Archive'
 type: post
+author: mith_admin
 description: ""
 published: 2011-11-14
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Code Aesthetics: A Digital Dialogue'
 type: post
+author: mith_admin
 description: ""
 published: 2005-12-01
 redirect_from: 

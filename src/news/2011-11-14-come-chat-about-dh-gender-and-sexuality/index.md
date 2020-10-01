@@ -1,6 +1,7 @@
 ---
 title: 'Come chat about DH, gender & sexuality...'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2011-11-14
 redirect_from: 

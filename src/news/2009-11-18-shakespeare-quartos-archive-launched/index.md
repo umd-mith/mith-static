@@ -1,6 +1,7 @@
 ---
 title: 'Shakespeare Quartos Archive Launched'
 type: post
+author: mith_admin
 description: ""
 published: 2009-11-18
 redirect_from: 

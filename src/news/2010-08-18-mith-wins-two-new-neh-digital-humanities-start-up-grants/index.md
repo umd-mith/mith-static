@@ -1,6 +1,7 @@
 ---
 title: 'MITH Wins Two New NEH Digital Humanities Start Up Grants'
 type: post
+author: mith_admin
 description: ""
 published: 2010-08-18
 redirect_from: 

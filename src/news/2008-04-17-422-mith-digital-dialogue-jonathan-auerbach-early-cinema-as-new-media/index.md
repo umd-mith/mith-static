@@ -1,6 +1,7 @@
 ---
 title: '4/22 MITH Digital Dialogue: Jonathan Auerbach, "Early Cinema as New Media"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-04-17
 redirect_from: 

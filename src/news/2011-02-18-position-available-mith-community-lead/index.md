@@ -1,6 +1,7 @@
 ---
 title: 'Position Available: MITH Community Lead'
 type: post
+author: mith_admin
 description: ""
 published: 2011-02-18
 redirect_from: 

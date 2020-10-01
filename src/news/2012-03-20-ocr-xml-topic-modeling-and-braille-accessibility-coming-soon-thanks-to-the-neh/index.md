@@ -1,6 +1,7 @@
 ---
 title: 'OCR, XML, Topic Modeling, and Braille Accessibility: Coming Soon Thanks to the NEH!'
 type: post
+author: mith_admin
 description: ""
 published: 2012-03-20
 redirect_from: 

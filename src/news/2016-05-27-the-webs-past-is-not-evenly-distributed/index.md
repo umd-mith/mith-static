@@ -1,6 +1,7 @@
 ---
 title: 'The Web''s Past is Not Evenly Distributed'
 type: post
+author: edsummers
 description: ""
 published: 2016-05-27
 redirect_from: 

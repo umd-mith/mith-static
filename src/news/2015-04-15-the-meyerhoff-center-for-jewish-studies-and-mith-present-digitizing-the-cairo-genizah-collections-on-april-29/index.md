@@ -1,6 +1,7 @@
 ---
 title: 'The Meyerhoff Center for Jewish Studies and MITH present: Digitizing the Cairo Genizah Collections, on April 29'
 type: post
+author: mith_admin
 description: ""
 published: 2015-04-15
 redirect_from: 

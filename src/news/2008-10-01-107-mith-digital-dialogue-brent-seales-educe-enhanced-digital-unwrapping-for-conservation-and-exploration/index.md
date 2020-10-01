@@ -1,6 +1,7 @@
 ---
 title: '10/7 MITH Digital Dialogue: Brent Seales, "EDUCE: Enhanced Digital Unwrapping for Conservation and Exploration."'
 type: post
+author: digitaldialogues
 description: ""
 published: 2008-10-01
 redirect_from: 

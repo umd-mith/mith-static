@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Stephanie Sapienza as Project Manager!'
 type: post
+author: mith_admin
 description: ""
 published: 2013-09-04
 redirect_from: 

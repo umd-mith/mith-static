@@ -1,6 +1,7 @@
 ---
 title: 'Organizing historical menus: a data curation experiment'
 type: post
+author: lydiazvyagintseva
 description: ""
 published: 2013-06-21
 redirect_from: 

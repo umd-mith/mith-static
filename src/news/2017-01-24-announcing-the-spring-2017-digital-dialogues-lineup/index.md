@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Spring 2017 Digital Dialogues Lineup!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2017-01-24
 redirect_from: 

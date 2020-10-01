@@ -1,6 +1,7 @@
 ---
 title: 'Topic Modeling: New Software and a Wrap-up of our NEH-Sponsored Workshop'
 type: post
+author: travisbrown
 description: ""
 published: 2012-12-18
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '2/26 MITH Digital Dialogue: Douglas Eyman, "Play and Pedagogy: Video Games and Writing Instruction"'
 type: post
+author: mith_admin
 description: ""
 published: 2008-02-19
 redirect_from: 

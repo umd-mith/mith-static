@@ -1,6 +1,7 @@
 ---
 title: 'Digital Humanities Training'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-06-13
 redirect_from: 

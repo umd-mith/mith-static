@@ -1,6 +1,7 @@
 ---
 title: 'MITH is now accepting Digital Dialogues speaker nominations for Spring 2017!'
 type: post
+author: mith_admin
 description: ""
 published: 2016-11-28
 redirect_from: 

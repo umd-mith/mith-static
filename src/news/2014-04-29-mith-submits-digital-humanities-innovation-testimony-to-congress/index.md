@@ -1,6 +1,7 @@
 ---
 title: 'MITH Submits Digital Humanities Innovation Testimony to Congress'
 type: post
+author: mith_admin
 description: ""
 published: 2014-04-29
 redirect_from: 

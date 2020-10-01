@@ -1,6 +1,7 @@
 ---
 title: 'Trends at the Digital Humanities Summer Institute'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-06-12
 redirect_from: 

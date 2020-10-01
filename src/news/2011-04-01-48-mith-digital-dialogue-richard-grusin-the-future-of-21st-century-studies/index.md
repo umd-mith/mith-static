@@ -1,6 +1,7 @@
 ---
 title: '4/8 MITH Digital Dialogue: Richard Grusin, "The Future of 21st Century Studies"'
 type: post
+author: jamesneal
 description: ""
 published: 2011-04-01
 redirect_from: 

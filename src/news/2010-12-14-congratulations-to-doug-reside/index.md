@@ -1,6 +1,7 @@
 ---
 title: 'Congratulations to Doug Reside!'
 type: post
+author: neilfraistat
 description: ""
 published: 2010-12-14
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Announcing Fall 2013 Digital Dialogues!'
 type: post
+author: digitaldialogues
 description: ""
 published: 2013-09-10
 redirect_from: 

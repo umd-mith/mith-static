@@ -1,6 +1,7 @@
 ---
 title: 'MITH to Host Digital Humanities 2009 Conference'
 type: post
+author: mith_admin
 description: ""
 published: 2007-06-12
 redirect_from: 

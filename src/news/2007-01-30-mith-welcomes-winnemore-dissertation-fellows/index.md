@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Winnemore Dissertation Fellows'
 type: post
+author: mith_admin
 description: ""
 published: 2007-01-30
 redirect_from: 

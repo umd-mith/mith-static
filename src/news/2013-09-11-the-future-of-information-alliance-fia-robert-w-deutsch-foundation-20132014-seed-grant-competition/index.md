@@ -1,6 +1,7 @@
 ---
 title: 'The Future of Information Alliance (FIA)  Robert W. Deutsch Foundation  2013-2014 Seed Grant Competition'
 type: post
+author: mith_admin
 description: ""
 published: 2013-09-11
 redirect_from: 

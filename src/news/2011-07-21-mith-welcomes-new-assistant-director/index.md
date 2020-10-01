@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes New Assistant Director'
 type: post
+author: mith_admin
 description: ""
 published: 2011-07-21
 redirect_from: 

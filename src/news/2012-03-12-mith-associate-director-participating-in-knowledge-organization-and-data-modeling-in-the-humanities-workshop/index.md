@@ -1,6 +1,7 @@
 ---
 title: 'MITH Associate Director Participating in “Knowledge Organization and Data Modeling in the Humanities” Workshop'
 type: post
+author: trevormunoz
 description: ""
 published: 2012-03-12
 redirect_from: 

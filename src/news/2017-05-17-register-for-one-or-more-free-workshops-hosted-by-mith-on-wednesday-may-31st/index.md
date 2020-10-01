@@ -1,6 +1,7 @@
 ---
 title: 'Register for one or more FREE workshop(s), hosted by MITH on Wednesday, May 31st'
 type: post
+author: mith_admin
 description: ""
 published: 2017-05-17
 redirect_from: 

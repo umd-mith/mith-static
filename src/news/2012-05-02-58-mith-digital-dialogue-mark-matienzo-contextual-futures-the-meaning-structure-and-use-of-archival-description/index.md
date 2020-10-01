@@ -1,6 +1,7 @@
 ---
 title: '5/8 MITH Digital Dialogue: Mark Matienzo, "Contextual Futures: The Meaning, Structure, and Use of Archival Description"'
 type: post
+author: mith_admin
 description: ""
 published: 2012-05-02
 redirect_from: 

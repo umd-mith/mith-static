@@ -1,6 +1,7 @@
 ---
 title: 'Announcing Kyle Bickoff as the 2019 Winnemore Fellow'
 type: post
+author: purdomlindblad
 description: ""
 published: 2019-02-18
 redirect_from: 

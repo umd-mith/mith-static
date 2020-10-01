@@ -1,6 +1,7 @@
 ---
 title: 'City University of New York (CUNY) Graduate Center Digital Initiatives Program Joins DHWI!'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-07-12
 redirect_from: 

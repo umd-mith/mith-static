@@ -1,6 +1,7 @@
 ---
 title: 'The Cleaners: Movie Night (Oct 30)'
 type: post
+author: edsummers
 description: ""
 published: 2019-10-07
 redirect_from: 

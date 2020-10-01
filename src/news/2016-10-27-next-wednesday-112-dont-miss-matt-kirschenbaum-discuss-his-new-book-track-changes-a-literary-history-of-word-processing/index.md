@@ -1,6 +1,7 @@
 ---
 title: 'Next Wednesday 11/2, don''t miss Matt Kirschenbaum discuss his new book ''Track Changes: A Literary History of Word Processing!'''
 type: post
+author: mith_admin
 description: ""
 published: 2016-10-27
 redirect_from: 

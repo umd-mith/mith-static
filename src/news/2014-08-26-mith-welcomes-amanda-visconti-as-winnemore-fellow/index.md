@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Amanda Visconti as Winnemore Fellow!'
 type: post
+author: mith_admin
 description: ""
 published: 2014-08-26
 redirect_from: 

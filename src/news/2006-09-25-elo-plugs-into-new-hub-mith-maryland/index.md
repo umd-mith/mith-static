@@ -1,6 +1,7 @@
 ---
 title: 'ELO Plugs Into New Hub: MITH @ Maryland'
 type: post
+author: mith_admin
 description: ""
 published: 2006-09-25
 redirect_from: 

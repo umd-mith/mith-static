@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes Tanya Clement as Winnemore Dissertation Fellow'
 type: post
+author: mith_admin
 description: ""
 published: 2008-02-05
 redirect_from: 

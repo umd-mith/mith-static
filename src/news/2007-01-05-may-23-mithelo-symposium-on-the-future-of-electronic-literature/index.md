@@ -1,6 +1,7 @@
 ---
 title: 'May 2-3: MITH/ELO Symposium on the Future of Electronic Literature'
 type: post
+author: mith_admin
 description: ""
 published: 2007-01-05
 redirect_from: 

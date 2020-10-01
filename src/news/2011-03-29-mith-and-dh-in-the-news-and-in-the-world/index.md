@@ -1,6 +1,7 @@
 ---
 title: 'MITH and DH in the News and in the World'
 type: post
+author: mith_admin
 description: ""
 published: 2011-03-29
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Nominations Open, Spring 2020 Digital Dialogues'
 type: post
+author: purdomlindblad
 description: ""
 published: 2019-10-14
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '11/13 MITH Digital Dialogue: Stephan Greene and Philip Resnik'
 type: post
+author: mith_admin
 description: ""
 published: 2007-11-08
 redirect_from: 

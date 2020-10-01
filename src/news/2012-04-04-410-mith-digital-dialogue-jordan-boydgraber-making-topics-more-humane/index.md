@@ -1,6 +1,7 @@
 ---
 title: '4/10 MITH Digital Dialogue: Jordan Boyd-Graber, "Making Topics More Human(e)"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-04-04
 redirect_from: 

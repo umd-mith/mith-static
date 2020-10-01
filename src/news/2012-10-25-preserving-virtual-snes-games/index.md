@@ -1,6 +1,7 @@
 ---
 title: 'Preserving Virtual SNES Games'
 type: post
+author: racheldonahue
 description: ""
 published: 2012-10-25
 redirect_from: 

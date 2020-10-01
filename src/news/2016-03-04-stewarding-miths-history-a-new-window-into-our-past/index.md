@@ -1,6 +1,7 @@
 ---
 title: 'Stewarding MITH''s History: A New Window Into Our Past'
 type: post
+author: stephaniesapienza
 description: ""
 published: 2016-03-04
 redirect_from: 

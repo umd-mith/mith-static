@@ -1,6 +1,7 @@
 ---
 title: 'Join the MITH team as a Project Manager!'
 type: post
+author: mith_admin
 description: ""
 published: 2013-04-25
 redirect_from: 

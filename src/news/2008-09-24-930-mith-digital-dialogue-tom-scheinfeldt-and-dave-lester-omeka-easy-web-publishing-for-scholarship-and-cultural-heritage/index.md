@@ -1,6 +1,7 @@
 ---
 title: '9/30 MITH Digital Dialogue: Tom Scheinfeldt and Dave Lester, "Omeka: Easy Web Publishing for Scholarship and Cultural Heritage"'
 type: post
+author: digitaldialogues
 description: ""
 published: 2008-09-24
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'First MITH barn-raising: Web-based TEI editor'
 type: post
+author: mith_admin
 description: ""
 published: 2010-12-20
 redirect_from: 

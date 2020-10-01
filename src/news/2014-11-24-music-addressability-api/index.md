@@ -1,6 +1,7 @@
 ---
 title: 'Music Addressability API'
 type: post
+author: raffaeleviglianti
 description: ""
 published: 2014-11-24
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'The Shelley-Godwin Archive Releases the Prometheus Unbound fair copy notebooks'
 type: post
+author: neilfraistat
 description: ""
 published: 2016-02-29
 redirect_from: 

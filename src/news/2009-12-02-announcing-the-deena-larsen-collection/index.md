@@ -1,6 +1,7 @@
 ---
 title: 'Announcing the Deena Larsen Collection'
 type: post
+author: mith_admin
 description: ""
 published: 2009-12-02
 redirect_from: 

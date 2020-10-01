@@ -1,6 +1,7 @@
 ---
 title: 'MITH Welcomes DCC'
 type: post
+author: mith_admin
 description: ""
 published: 2009-10-24
 redirect_from: 

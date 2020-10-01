@@ -1,6 +1,7 @@
 ---
 title: 'Approaches to Managing and Collecting Born-Digital Literary Resources for Scholarly Use'
 type: post
+author: mith_admin
 description: ""
 published: 2009-05-11
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'The Born Digital Working Group Divides and Conquers'
 type: post
+author: racheldonahue
 description: ""
 published: 2013-01-29
 redirect_from: 

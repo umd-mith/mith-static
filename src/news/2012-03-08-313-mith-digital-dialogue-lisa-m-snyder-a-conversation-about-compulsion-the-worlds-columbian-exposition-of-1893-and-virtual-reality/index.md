@@ -1,6 +1,7 @@
 ---
 title: '3/13 MITH Digital Dialogue: Lisa M. Snyder, "A Conversation about Compulsion, the World’s Columbian Exposition of 1893, and Virtual Reality"'
 type: post
+author: emmamillon
 description: ""
 published: 2012-03-08
 redirect_from: 

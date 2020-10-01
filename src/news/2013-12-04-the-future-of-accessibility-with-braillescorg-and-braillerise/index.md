@@ -1,6 +1,7 @@
 ---
 title: 'The Future of Accessibility with BrailleSC.org and BrailleRISE'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2013-12-04
 redirect_from: 

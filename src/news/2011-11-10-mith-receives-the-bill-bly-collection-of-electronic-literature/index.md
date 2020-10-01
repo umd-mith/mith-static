@@ -1,6 +1,7 @@
 ---
 title: 'MITH Receives the Bill Bly Collection of Electronic Literature'
 type: post
+author: mith_admin
 description: ""
 published: 2011-11-10
 redirect_from: 

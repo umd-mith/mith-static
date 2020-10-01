@@ -1,6 +1,7 @@
 ---
 title: 'Call for Participation: NEH-funded Topic Modeling for Humanities Research Workshop'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-07-10
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Fall 2008 Digital Dialogues Schedule Posted'
 type: post
+author: mith_admin
 description: ""
 published: 2008-09-04
 redirect_from: 

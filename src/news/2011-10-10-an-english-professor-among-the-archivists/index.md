@@ -1,6 +1,7 @@
 ---
 title: 'An English Professor Among the Archivists'
 type: post
+author: matthewkirschenbaum
 description: ""
 published: 2011-10-10
 redirect_from: 

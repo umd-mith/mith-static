@@ -1,6 +1,7 @@
 ---
 title: '10/26 MITH Digital Dialogue: Hasan Elahi, Tracking Transience: The Orwell Project'
 type: post
+author: jamesneal
 description: ""
 published: 2010-10-21
 redirect_from: 

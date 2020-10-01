@@ -1,6 +1,7 @@
 ---
 title: 'Ed Summers joins MITH as Lead Developer!'
 type: post
+author: mith_admin
 description: ""
 published: 2014-08-21
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Visualizing Poster Activity on Usenet'
 type: post
+author: averydame
 description: ""
 published: 2016-11-17
 redirect_from: 

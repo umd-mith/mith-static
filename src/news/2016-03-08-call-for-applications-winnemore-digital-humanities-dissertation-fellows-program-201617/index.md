@@ -1,6 +1,7 @@
 ---
 title: 'Call for Applications: Winnemore Digital Humanities Dissertation Fellows Program 2016-17'
 type: post
+author: mith_admin
 description: ""
 published: 2016-03-08
 redirect_from: 

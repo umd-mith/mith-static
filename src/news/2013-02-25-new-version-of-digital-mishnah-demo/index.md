@@ -1,6 +1,7 @@
 ---
 title: 'New Version of Digital Mishnah Demo'
 type: post
+author: hayimlapin
 description: ""
 published: 2013-02-25
 redirect_from: 

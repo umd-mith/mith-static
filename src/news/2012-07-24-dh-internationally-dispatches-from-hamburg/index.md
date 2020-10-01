@@ -1,6 +1,7 @@
 ---
 title: 'DH Internationally: Dispatches from Hamburg'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2012-07-24
 redirect_from: 

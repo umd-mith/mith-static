@@ -1,6 +1,7 @@
 ---
 title: 'We''re Hiring: Full-Time GA Positions Available'
 type: post
+author: mith_admin
 description: ""
 published: 2007-08-14
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: '11/11 MITH Digital Dialogue: Greg Crane, "From the First Year Through Tenure: New Pathways for Humanities in a Digital Age"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-11-04
 redirect_from: 

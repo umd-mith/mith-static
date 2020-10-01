@@ -1,6 +1,7 @@
 ---
 title: '3/27 MITH Digital Dialogue: Craig Saper, “R\e\a\d/i/n/g/ as a Publishing Practice”'
 type: post
+author: emmamillon
 description: ""
 published: 2012-03-14
 redirect_from: 

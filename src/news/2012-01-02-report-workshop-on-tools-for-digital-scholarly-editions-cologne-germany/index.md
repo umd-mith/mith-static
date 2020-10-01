@@ -1,6 +1,7 @@
 ---
 title: 'Report: Workshop on Tools for Digital Scholarly Editions (Cologne, Germany)'
 type: post
+author: grantdickie
 description: ""
 published: 2012-01-02
 redirect_from: 

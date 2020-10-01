@@ -1,6 +1,7 @@
 ---
 title: 'Digital Amphitheatres, Virtual Odea: Announcing the Launch of Theatre Finder'
 type: post
+author: emmamillon
 description: ""
 published: 2011-07-26
 redirect_from: 

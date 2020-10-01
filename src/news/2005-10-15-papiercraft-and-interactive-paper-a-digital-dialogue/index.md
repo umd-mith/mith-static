@@ -1,6 +1,7 @@
 ---
 title: 'PapierCraft and Interactive Paper: A Digital Dialogue'
 type: post
+author: mith_admin
 description: ""
 published: 2005-10-15
 redirect_from: 

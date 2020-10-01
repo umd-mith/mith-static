@@ -1,6 +1,7 @@
 ---
 title: 'Displaying Music Notation of Multiple Sources With MEI-to-VexFlow'
 type: post
+author: zoltankomives
 description: ""
 published: 2013-11-19
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Roopika Risam, Thursday March 8 at MITH: ''Visualizing Du Bois: The Politics of Literary Recovery'''
 type: post
+author: mith_admin
 description: ""
 published: 2018-03-05
 redirect_from: 

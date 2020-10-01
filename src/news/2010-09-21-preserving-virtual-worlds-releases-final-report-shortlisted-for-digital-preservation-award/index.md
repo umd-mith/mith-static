@@ -1,6 +1,7 @@
 ---
 title: 'Preserving Virtual Worlds Releases Final Report, Shortlisted for Digital Preservation Award'
 type: post
+author: mith_admin
 description: ""
 published: 2010-09-21
 redirect_from: 

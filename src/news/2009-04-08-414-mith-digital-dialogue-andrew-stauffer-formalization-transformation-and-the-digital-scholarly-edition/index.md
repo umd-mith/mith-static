@@ -1,6 +1,7 @@
 ---
 title: '4/14 MITH Digital Dialogue: Andrew Stauffer, "Formalization, Transformation, and the Digital Scholarly Edition"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-04-08
 redirect_from: 

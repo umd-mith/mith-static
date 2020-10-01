@@ -1,6 +1,7 @@
 ---
 title: 'This Week: Digital Diasporas'
 type: post
+author: mith_admin
 description: ""
 published: 2008-04-28
 redirect_from: 

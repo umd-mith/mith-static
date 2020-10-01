@@ -1,6 +1,7 @@
 ---
 title: 'O Say Can You See: A Legal and Cultural History of the 19th Century'
 type: post
+author: jenniferguiliano
 description: ""
 published: 2013-12-17
 redirect_from: 

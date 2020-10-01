@@ -1,6 +1,7 @@
 ---
 title: 'Tracking Changes With diffengine'
 type: post
+author: edsummers
 description: ""
 published: 2017-01-25
 redirect_from: 

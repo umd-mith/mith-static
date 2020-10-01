@@ -1,6 +1,7 @@
 ---
 title: '2/16 MITH Digital Dialogue: Dave Lester, “Collaborative Approaches to Digital Humanities: Unconferences and Crowdsourcing”'
 type: post
+author: mith_admin
 description: ""
 published: 2010-02-15
 redirect_from: 

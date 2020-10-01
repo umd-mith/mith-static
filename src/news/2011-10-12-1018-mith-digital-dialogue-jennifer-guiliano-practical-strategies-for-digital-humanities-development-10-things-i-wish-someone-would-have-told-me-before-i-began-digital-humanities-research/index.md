@@ -1,6 +1,7 @@
 ---
 title: '10/18 MITH Digital Dialogue: Jennifer Guiliano, "Practical Strategies for Digital Humanities Development: 10 Things I Wish Someone Would Have Told Me Before I Began Digital Humanities Research"'
 type: post
+author: emmamillon
 description: ""
 published: 2011-10-12
 redirect_from: 

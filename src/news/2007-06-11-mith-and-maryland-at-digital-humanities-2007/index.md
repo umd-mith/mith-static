@@ -1,6 +1,7 @@
 ---
 title: 'MITH and Maryland at Digital Humanities 2007'
 type: post
+author: mith_admin
 description: ""
 published: 2007-06-11
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Congratulations to MITH Fellow Regina Harrison'
 type: post
+author: mith_admin
 description: ""
 published: 2006-02-06
 redirect_from: 

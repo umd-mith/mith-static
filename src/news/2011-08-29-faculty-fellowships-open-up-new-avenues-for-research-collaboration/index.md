@@ -1,6 +1,7 @@
 ---
 title: 'Faculty Fellowships Open Up New Avenues for Research Collaboration'
 type: post
+author: mith_admin
 description: ""
 published: 2011-08-29
 redirect_from: 

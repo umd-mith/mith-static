@@ -1,6 +1,7 @@
 ---
 title: 'MITH Demonstrates Video Annotation at OAC Meeting'
 type: post
+author: jgsmith
 description: ""
 published: 2012-08-01
 redirect_from: 

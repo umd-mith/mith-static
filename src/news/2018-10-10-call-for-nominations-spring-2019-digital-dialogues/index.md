@@ -1,6 +1,7 @@
 ---
 title: 'Call for Nominations, Spring 2019 Digital Dialogues'
 type: post
+author: purdomlindblad
 description: ""
 published: 2018-10-10
 redirect_from: 

@@ -1,6 +1,7 @@
 ---
 title: 'Diggable Data, Scalable Reading, and New Humanities Scholarship'
 type: post
+author: sethdenbo
 description: ""
 published: 2011-10-18
 redirect_from: 

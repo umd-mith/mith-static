@@ -1,6 +1,7 @@
 ---
 title: '10/27 MITH Digital Dialogue: Mark Sample, "The Open Source Professor: Teaching, Research, and Transparency"'
 type: post
+author: mith_admin
 description: ""
 published: 2009-10-21
 redirect_from: 
