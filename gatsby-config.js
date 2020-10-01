@@ -1,7 +1,6 @@
 require("dotenv").config();
 
 module.exports = {
-  pathPrefix: `mith-static`,
   siteMetadata: {
     title: `MITH`,
     description: `Maryland Institute for Technology in the Humanities`,
@@ -61,7 +60,7 @@ module.exports = {
           {
             baseId: process.env.AIRTABLE_BASE_ID,
             tableName: `People`,
-            tableLinks: ['staff_group'],
+            tableLinks: [`staff_group`,`date_spans`],
             queryName: 'PeopleTable',
             createSeparateNodeType: true,
             separateMapType: true,
@@ -70,7 +69,15 @@ module.exports = {
             baseId: process.env.AIRTABLE_BASE_ID,
             tableName: `Staff Groups`,
             queryName: 'StaffGroupsTable',
-            tableLinks: ['linked_people'],
+            tableLinks: [`linked_people`],
+            createSeparateNodeType: true,
+            separateMapType: true,
+          },
+          {
+            baseId: process.env.AIRTABLE_BASE_ID,
+            tableName: `Dates`,
+            queryName: 'DatesTable',
+            tableLinks: [`linked_people`],
             createSeparateNodeType: true,
             separateMapType: true,
           }
