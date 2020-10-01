@@ -1,0 +1,12 @@
+---
+title: 'Second Annual Nebraska Digital Workshop'
+type: post
+description: ""
+published: 2007-02-15
+redirect_from: 
+- /second-annual-nebraska-digital-workshop/
+categories:
+- Community
+- MITH
+---
+The [Center for Digital Research in the Humanities](http://cdrh.unl.edu/) (CDRH) at the University of NebraskaÃƒÂ¢Ã¢Â‚Â¬"Lincoln will host the second annual Nebraska Digital Workshop on October 5 & 6, 2007. Through a competitive process, selected early-career scholars will be invited to present their work in digital humanities. [Full details are available here](http://cdrh.unl.edu/opportunities/nebraskaforum.php).

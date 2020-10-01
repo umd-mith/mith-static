@@ -2,7 +2,7 @@
   "name": "mith-static",
   "description": "The Website of the Maryland Institute for Technology in the Humanities",
   "version": "0.1.0",
-  "author": "MITH",
+  "author": "MITH <mith@umd.edu>",
   "dependencies": {
     "gatsby": "^2.24.65",
     "gatsby-image": "^2.4.16",
@@ -11,8 +11,10 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sharp": "^2.6.28",
+    "gatsby-remark-images": "^3.3.32",
     "gatsby-source-airtable": "^2.1.1",
     "gatsby-source-filesystem": "^2.3.25",
+    "gatsby-transformer-remark": "^2.8.36",
     "gatsby-transformer-sharp": "^2.5.13",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -40,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/umd-mith/mith-static"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/umd-mith/mith-static/issues"
   }
 }
