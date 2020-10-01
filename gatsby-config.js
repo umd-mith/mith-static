@@ -1,6 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
+  pathPrefix: `mith-static`,
   siteMetadata: {
     title: `MITH`,
     description: `Maryland Institute for Technology in the Humanities`,
@@ -8,7 +9,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
@@ -16,6 +18,19 @@ module.exports = {
         path: `${__dirname}/src/svg/`,
       }
     },    
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 200
+            }
+          }
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,20 +50,6 @@ module.exports = {
       options: {
         name: `news`,
         path: `${__dirname}/src/news/`,
-      },
-    },
-     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        //icon: `src/img/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -83,6 +84,6 @@ module.exports = {
           }
         ]
       }
-    }
-  ],
+    },
+  ]
 }
