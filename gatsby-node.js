@@ -2,12 +2,13 @@ const path = require('path')
 
 exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
   await makePeople(createPage, graphql, pathPrefix)
-  await makeNews(createPage, graphql, pathPrefix)
+  await makePosts(createPage, graphql, pathPrefix)
+  await makePostIndex(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql, pathPrefix) {
   const results = await graphql(`
-    query {
+    query PostsQuery($skip: Int!, $limit: Int!) {
       allAirtable(filter: {table: {eq: "People"}}) {
         nodes {
           data {
@@ -59,7 +60,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
   }
 }
 
-async function makeNews(createPage, graphql, pathPrefix) {
+async function makePosts(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
       allMarkdownRemark {
@@ -94,4 +95,33 @@ async function makeNews(createPage, graphql, pathPrefix) {
       }
     })
   }
+}
+
+async function makePostIndex(createPage, graphql, pathPrefix) {
+  const results = await graphql(`
+    query {
+      allMarkdownRemark {
+        pageInfo {
+          itemCount
+        }
+      }
+    }
+  `)
+
+  const numPosts = results.data.allMarkdownRemark.pageInfo.itemCount
+  const postsPerPage = 10
+  const numPages = Math.ceil(numPosts / postsPerPage)
+
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/news` : `/news/${i + 1}`,
+      component: path.resolve("./src/templates/post-index.js"),
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1
+      }
+    })
+  })
 }

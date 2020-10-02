@@ -5,9 +5,9 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-import './news.css'
+import './post-index.css'
 
-const NewsPage = (data) => {
+const PostIndex = (data) => {
   const posts = data.data.allMarkdownRemark.nodes
   return (
 		<Layout>
@@ -38,8 +38,12 @@ const NewsPage = (data) => {
 }
 
 export const query = graphql`
-  query PostsQuery {
-    allMarkdownRemark(sort: {fields: frontmatter___published, order: DESC}) {
+  query PostsQuery($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: {fields: frontmatter___published, order: DESC}
+      limit: $limit
+      skip: $skip
+    ) {
       nodes {
         excerpt(pruneLength: 250)
         frontmatter {
@@ -60,8 +64,13 @@ export const query = graphql`
         timeToRead
         id
       }
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        currentPage
+      }
     }
   }
 `
  
-export default NewsPage
+export default PostIndex
