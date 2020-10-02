@@ -9,11 +9,11 @@ redirect_from:
 categories:
 - MITH
 - Research
-image: ../../images/web-20130518204757-http:--otal.umd.edu-~mgk-blog-archives-Agrippa%20Emulation3.png
+image: ../../images/web-20130518204757-http--otal.umd.edu-~mgk-blog-archives-Agrippa%20Emulation3.png
 ---
 \[UPDATE: notices on [Boing Boing](http://www.boingboing.net/2008/12/09/gibsons-selfdetructi.html) and [Slashdot](http://entertainment.slashdot.org/entertainment/08/12/10/0226239.shtml), among many others.]
 
-![Agrippa Emulation3.png](../../images/web-20130518204757-http:--otal.umd.edu-~mgk-blog-archives-Agrippa%20Emulation3.png)
+![Agrippa Emulation3.png](../../images/web-20130518204757-http--otal.umd.edu-~mgk-blog-archives-Agrippa%20Emulation3.png)
 
 Agrippa (a book of the dead) appeared in 1992 as a collaboration between artist Dennis Ashbaugh, author William Gibson, and publisher Kevin Begos, Jr. On December 9, 2008--the sixteenth anniversary of the original "Transmission" event debuting Agrippa--The Agrippa Files ([http://agrippa.english.ucsb.edu](http://agrippa.english.ucsb.edu/)) announces the release of two major new discoveries for scholars and fans:
 
