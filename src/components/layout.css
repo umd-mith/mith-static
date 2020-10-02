@@ -698,6 +698,9 @@ h3 {
 .columns div {
   position: relative;
 }
+.columns h2 {
+  grid-column: span 12;
+}
 .col-12 {
   grid-column: span 12;
 }
