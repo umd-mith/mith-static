@@ -8,7 +8,7 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
 
 async function makePeople(createPage, graphql, pathPrefix) {
   const results = await graphql(`
-    query PostsQuery($skip: Int!, $limit: Int!) {
+    query {
       allAirtable(filter: {table: {eq: "People"}}) {
         nodes {
           data {
@@ -109,7 +109,7 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
   `)
 
   const numPosts = results.data.allMarkdownRemark.pageInfo.itemCount
-  const postsPerPage = 10
+  const postsPerPage = 25
   const numPages = Math.ceil(numPosts / postsPerPage)
 
   Array.from({ length: numPages }).forEach((_, i) => {

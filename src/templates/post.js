@@ -9,9 +9,7 @@ const Post = ({ pageContext: post }) => {
       <section className='post'>
         <h1>{post.frontmatter.title}</h1> 
         <div className="post-meta">
-          {post.frontmatter.author} <br />
-          {post.frontmatter.published} <br />
-          {post.frontmatter.categories.join(', ')}
+          by {post.frontmatter.author} on {post.frontmatter.published} in {post.frontmatter.categories.join(', ')}
         </div>       
         <div 
           className='content'

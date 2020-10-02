@@ -7,8 +7,10 @@ import SEO from '../components/seo'
 
 import './post-index.css'
 
-const PostIndex = (data) => {
-  const posts = data.data.allMarkdownRemark.nodes
+const PostIndex = ({data}) => {
+  const posts = data.allMarkdownRemark.nodes
+  const pageCount = data.allMarkdownRemark.pageInfo.pageCount
+
   return (
 		<Layout>
       <div>
@@ -16,14 +18,14 @@ const PostIndex = (data) => {
           <SEO title="MITH News" />
           <h1>News</h1>
           {posts.map(post => {
-            const slug = path.basename(path.dirname(post.fileAbsolutePath)) + '/'
+            const slug = '/news/' + path.basename(path.dirname(post.fileAbsolutePath)) + '/'
             return (
               <article className="post" key={`news-${post.id}`}>
                 <div className="title">
                   <Link to={slug}>{post.frontmatter.title}</Link>
                 </div>
                 <div className="post-meta">
-                  <time>{post.frontmatter.published}</time> by <span className="author">{post.frontmatter.author}</span>
+                  by <span className="author">{post.frontmatter.author}</span> on <time>{post.frontmatter.published}</time>
                 </div>
                 <div>
                   {post.excerpt} <Link to={slug}>read more</Link>
@@ -31,6 +33,19 @@ const PostIndex = (data) => {
               </article>
             )
           })}
+
+          <div className="pagination">
+            Pages:
+            {Array.from({ length: pageCount }, (_, i) => (
+              <Link
+                activeClassName="active" 
+                key={`pagination-number${i + 1}`}
+                to={`/news/${i === 0 ? "" : i + 1}`}>
+                {i + 1}&nbsp;
+              </Link>
+            ))}
+          </div>
+
         </section>
       </div>
     </Layout>
@@ -68,6 +83,7 @@ export const query = graphql`
         hasNextPage
         hasPreviousPage
         currentPage
+        pageCount
       }
     }
   }

@@ -1,8 +1,13 @@
 .news .post {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .news .post-meta {
   font-size: smaller;
   color: gray;
+}
+
+.news .pagination .active {
+  font-weight: bold;
+  font-size: larger;
 }
