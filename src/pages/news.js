@@ -5,23 +5,30 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import './news.css'
 
 const NewsPage = (data) => {
   const posts = data.data.allMarkdownRemark.nodes
   return (
 		<Layout>
       <div>
-        <section>
+        <section className="news">
           <SEO title="MITH News" />
           <h1>News</h1>
-        </section>
-        <section> 
           {posts.map(post => {
             const slug = path.basename(path.dirname(post.fileAbsolutePath)) + '/'
             return (
-              <div key={`news-${post.id}`}>
-                <Link to={slug}>{post.frontmatter.title}</Link>
-              </div>
+              <article className="post" key={`news-${post.id}`}>
+                <div className="title">
+                  <Link to={slug}>{post.frontmatter.title}</Link>
+                </div>
+                <div className="post-meta">
+                  <time>{post.frontmatter.published}</time> by <span className="author">{post.frontmatter.author}</span>
+                </div>
+                <div>
+                  {post.excerpt} <Link to={slug}>read more</Link>
+                </div>
+              </article>
             )
           })}
         </section>
@@ -34,14 +41,16 @@ export const query = graphql`
   query PostsQuery {
     allMarkdownRemark(sort: {fields: frontmatter___published, order: DESC}) {
       nodes {
+        excerpt(pruneLength: 250)
         frontmatter {
+          author
           categories
           description
           image {
             publicURL
             relativePath
           }
-          published
+          published(formatString: "MMMM D, YYYY")
           redirect_from
           title
           type

@@ -65,13 +65,14 @@ async function makeNews(createPage, graphql, pathPrefix) {
       allMarkdownRemark {
         nodes {
           frontmatter {
+            author
             categories
             description
             image {
               publicURL
               relativePath
             }
-            published
+            published(formatString: "MMMM D, YYYY")
             redirect_from
             title
             type
