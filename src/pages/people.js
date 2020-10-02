@@ -23,7 +23,6 @@ const PeoplePage = ({ data }) => {
 
   return (
 		<Layout>
-<<<<<<< HEAD
       <SEO title="People" />
       <div className="page-people">
         <section className="leader hidden">
@@ -42,23 +41,6 @@ const PeoplePage = ({ data }) => {
             .filter(g => g.fieldValue === 'Affiliates')
             .map(makePeople)
           }
-=======
-      <div>
-        <SEO title="People" />
-        <h1>People</h1>
-        <h2>Faculty &amp; Staff</h2>
-        <section className="columns">
-          {data.people.group
-            .filter(g => g.fieldValue !== 'Affiliates' && g.fieldValue.match(/^[^P]/))
-            .map(makePeople)
-          }
-        </section>
-        <h2>Affiliates</h2>
-        <section className="columns">
-          {data.people.group
-            .filter(g => g.fieldValue === 'Affiliates')
-            .map(makePeople)}
->>>>>>> 11d83d05b677469911bf00889fd423e89907cb20
         </section>
       </div>
     </Layout>
