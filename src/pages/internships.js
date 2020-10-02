@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'gatsby';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,13 +13,13 @@ const InternshipsPage = () => (
         <p>MITH supports the work of emerging undergraduate digital humanities scholars through internships. With the guidance of MITH staff, interns have the time and mentorship to learn new skills as they contribute to ongoing MITH projects. Interns will explore advanced applied computational humanities, and contribute to the intellectual programming of MITH.</p>
         <h2>Eligibility</h2>
         <p>Applicants must be a third or fourth year undergraduate enrolled at the University of Maryland.</p>
-        <p>To apply please email Purdom Lindblad the following:</p>
-        <ul>
+        <p>To apply please email <Link to="mailto:purdom@umd.edu">Purdom Lindblad</Link> the following:</p>
+        <ol>
           <li>Letter of Interest, including a skills assessment identifying your current skills and past relevant experience;</li>
           <li>CV;</li>
           <li>Major GPA, Overall GPA;</li>
           <li>Contact info for one reference.</li>
-        </ul>            
+        </ol>            
         <p>MITH Undergraduate Interns can expect to work 6-9 hours per week in the MITH offices, including a weekly cohort meeting. MITH Interns will write 1 or 2 blog posts per term, with editorial assistance from MITH Staff.</p>
       </section>
     </div>
