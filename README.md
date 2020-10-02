@@ -8,4 +8,4 @@ To build the site:
 
 Pushing to GitHub will trigger a build to the staging site at: 
 
-https://umd-mith.github.io/mith-static/
+    https://umd-mith.github.io/mith-static/
