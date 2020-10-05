@@ -4,14 +4,16 @@ import SEO from '../components/seo'
 import { graphql } from 'gatsby';
 
 const Post = ({ data, pageContext: post }) => {
-  const metadata = data.people.nodes[0].data
+  // TEMPORARY 
+  const _metadata = data.people.nodes
+  const metadata = _metadata.length > 0 ? data.people.nodes[0].data.name : post.frontmatter.author
   return (
     <Layout>
       <SEO title={post.frontmatter.title} />
       <section className='post'>
         <h1>{post.frontmatter.title}</h1> 
         <div className="post-meta">
-          by {metadata.name} on {post.frontmatter.published} in {post.frontmatter.categories.join(', ')}
+          by {metadata} on {post.frontmatter.published} in {post.frontmatter.categories.join(', ')}
         </div>       
         <div 
           className='content'
