@@ -10,6 +10,7 @@ import './post-index.css'
 const PostIndex = ({data}) => {
   const posts = data.allMarkdownRemark.nodes
   const pageCount = data.allMarkdownRemark.pageInfo.pageCount
+  const peopleInfo = data.allAirtable.nodes
 
   return (
 		<Layout>
@@ -19,13 +20,17 @@ const PostIndex = ({data}) => {
           <h1>News</h1>
           {posts.map(post => {
             const slug = '/news/' + path.basename(path.dirname(post.fileAbsolutePath)) + '/'
+            // TEMPORARY
+            const authorSlug = post.frontmatter.author === 'trevormunoz' ? 'trevor-munoz' : post.frontmatter.author
+            const tm = peopleInfo.filter(n => n.data.slug === authorSlug)[0]
+            const author = tm ? tm.data.name : post.frontmatter.author
             return (
               <article className="post" key={`news-${post.id}`}>
                 <div className="title">
                   <Link to={slug}>{post.frontmatter.title}</Link>
                 </div>
                 <div className="post-meta">
-                  by <span className="author">{post.frontmatter.author}</span> on <time>{post.frontmatter.published}</time>
+                  by <span className="author">{author}</span> on <time>{post.frontmatter.published}</time>
                 </div>
                 <div>
                   {post.excerpt} <Link to={slug}>read more</Link>
@@ -84,6 +89,14 @@ export const query = graphql`
         hasPreviousPage
         currentPage
         pageCount
+      }
+    }
+    allAirtable(filter: {table: {eq: "People"}}) {
+      nodes {
+        data {
+          name
+          slug
+        }
       }
     }
   }
