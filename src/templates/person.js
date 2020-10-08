@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
-// import Img from 'gatsby-image';
+import Img from 'gatsby-image';
 
 import SEO from '../components/seo'
 
 const Person = ({ pageContext: person }) => {
   const title = person.name
   const img = person.headshot 
-    ? <img src={person.headshot[0].thumbnails.large.url} alt={`Headshot of ${person.name}`}/>
+    ? <Img fluid={person.headshot.localFiles[0].childImageSharp.fluid} alt={`Headshot of ${person.name}`}/>
     : ''
   const email = person.email
     ? <><dt>Email:</dt><dd>{person.email}</dd></> : ''
@@ -17,9 +17,10 @@ const Person = ({ pageContext: person }) => {
     ? <><dt>Twitter:</dt><dd>{person.twitter}</dd></> : ''
   const phone = person.phone
     ? <><dt>Phone:</dt><dd>{person.phone}</dd></> : ''
-
+  
   const bio = person.bio
     ? <div>{person.bio}</div> : ''
+    
   return (
     <Layout>
       <SEO title={title} />

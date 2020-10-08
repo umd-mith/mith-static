@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -9,7 +10,9 @@ const PeoplePage = ({ data }) => {
   function makePeople(people) {
     return people.nodes.map(person => {
       const img = person.data.headshot 
-      ? <img src={person.data.headshot[0].thumbnails.large.url} alt={`Headshot of ${person.data.name}`}/>
+      ? <Link key={`p-${person.data.id}`} to={person.data.slug}>
+        <Img fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} alt={`Headshot of ${person.data.name}`}/>
+        </Link>
       : ''
       return (
       <article className="col-4 col-4-lg col-4-md col-6-sm col-6-xs" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
@@ -70,9 +73,11 @@ export const query = graphql`
             last
             title
             headshot {
-              thumbnails {
-                large {
-                  url
+              localFiles {
+                childImageSharp {
+                  fluid( maxHeight: 500, maxWidth: 500, fit: CONTAIN, background: "rgba(255,255,255,0)" ) {
+                    ...GatsbyImageSharpFluid_noBase64
+                  }
                 }
               }
             }
