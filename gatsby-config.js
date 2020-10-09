@@ -66,7 +66,7 @@ module.exports = {
         concurrency: 5,
         tables: [
           {
-            baseId: process.env.AIRTABLE_BASE_ID,
+            baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
             tableName: `People`,
             tableLinks: [`staff_group`,`date_spans`],
             mapping: { headshot: `fileNode` },
@@ -75,7 +75,7 @@ module.exports = {
             separateMapType: true,
           },
           {
-            baseId: process.env.AIRTABLE_BASE_ID,
+            baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
             tableName: `Staff Groups`,
             queryName: 'StaffGroupsTable',
             tableLinks: [`linked_people`],
@@ -83,7 +83,7 @@ module.exports = {
             separateMapType: true,
           },
           {
-            baseId: process.env.AIRTABLE_BASE_ID,
+            baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
             tableName: `Dates`,
             queryName: 'DatesTable',
             tableLinks: [`linked_people`],
