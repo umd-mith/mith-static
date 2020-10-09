@@ -1,34 +1,42 @@
 import React from 'react'
-import Layout from '../components/layout'
-import Img from 'gatsby-image';
+import Img from 'gatsby-image'
+import { Link } from 'gatsby'
 
+import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import './person.css'
+
 const Person = ({ pageContext: person }) => {
-  const title = person.name
-  const img = person.headshot 
-    ? <Img fluid={person.headshot.localFiles[0].childImageSharp.fluid} alt={`Headshot of ${person.name}`}/>
+  const name = person.name
+  const photo = person.headshot 
+    ? <Img 
+      fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
+      alt={`Headshot of ${person.name}`} 
+      className="col-3 col-4-lg col-4-md col-4-sm col-6-xs headshot"
+      />
     : ''
   const email = person.email
-    ? <><dt>Email:</dt><dd>{person.email}</dd></> : ''
-  const website = person.website
-    ? <><dt>Website:</dt><dd>{person.website}</dd></> : ''
-  const twitter = person.twitter
-    ? <><dt>Twitter:</dt><dd>{person.twitter}</dd></> : ''
+    ? <><Link className="email" to={`mailto:${person.email}`}>{person.email}</Link></> : ''
   const phone = person.phone
-    ? <><dt>Phone:</dt><dd>{person.phone}</dd></> : ''
-  
+    ? <p>{person.phone}</p> : ''
+  const website = person.website
+    ? <><Link to={person.website}>{person.website}</Link></> : ''
+  const twitter = person.twitter
+    ? <><Link to={`https://twitter.com/${person.twitter}`}>@{person.twitter}</Link></> : ''
   const bio = person.bio
-    ? <div>{person.bio}</div> : ''
-    
+    ? <div className="col-12">{person.bio}</div> : ''
+
   return (
     <Layout>
-      <SEO title={title} />
-      <section>
-        <h1>{person.name}</h1>        
-        {img}
-        <h2>{person.title}</h2>
-        <div>
+      <SEO title={name} />
+      <section className="leader">
+        <h1>{name}</h1>
+      </section>
+      <section className="columns">
+        {photo}
+        <h2 className="col-9 col-8-lg col-8-md col-8-sm col-6-xs">{person.title}</h2>
+        <div className="col-9 col-8-lg col-8-md col-8-sm col-6-xs metadata">
           {email} {website} {twitter} {phone}
         </div>
         {bio}

@@ -185,7 +185,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 100%/1.45em "Open Sans", Arial, Helvetica, sans-serif;
+  font: 100%/1.75em "Open Sans", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -224,14 +224,13 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -241,14 +240,13 @@ h2 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -258,14 +256,13 @@ h3 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -275,14 +272,13 @@ h4 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -292,14 +288,13 @@ h5 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -309,14 +304,13 @@ h6 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -326,11 +320,11 @@ hgroup {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 ul {
   margin-left: 1.45rem;
@@ -672,12 +666,16 @@ header, .main-head {
   padding-bottom: 1rem;
   margin-bottom: 0;
 }
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1.1rem;
+}
 h2 {
   font-size: 1.25rem;
   border-bottom: 1px dotted #999;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 h3 {
   font-size: 1rem;
@@ -685,22 +683,29 @@ h3 {
   border-bottom: 1px dotted #999;
   padding-bottom: 1.1rem;
   margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.75rem;
+}
+section h2:first-of-type {
+  margin-top: 0;
 }
 /***** GRID *****/
 .columns {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 1.5rem;
+  grid-column-gap: 3rem;
   grid-row-gap: 1.5rem;
   align-items: start;
 }
 .columns div {
   position: relative;
 }
-.columns h2 {
+.columns .leader {
   grid-column: span 12;
 }
+/*
+.columns h2 {
+  grid-column: span 12;
+}*/
 .col-12 {
   grid-column: span 12;
 }
