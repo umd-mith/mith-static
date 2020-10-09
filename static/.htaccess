@@ -1,0 +1,83 @@
+RewriteEngine On
+RewriteBase /
+
+# These are some handy abbreviations that were used for some reason.
+
+RewriteRule ^dd/?$ https://mith.umd.edu/digital-dialogues/ [R=302,L]
+RewriteRule ^digitaldialogues/?$ https://mith.umd.edu/digital-dialogues/ [R=302,L]
+
+# These are permanent redirects for things that have moved on to other 
+# places on the web.
+
+RewriteRule ^theatrefinder/(.*)$ http://www.theatre-finder.org/$1 [R=301,L]
+RewriteRule ^mto/(.*)$ http://dougreside.com/mto/$1 [R=301,L]
+RewriteRule ^digital-dialogues/podcast/(.*)$ http://digital-dialogues.s3-website-us-east-1.amazonaws.com/podcast.xml [R=302,L]
+RewriteRule ^ema/(.*)$ http://ema.mith.us/$1 [R=302,L]
+
+# These are things that moved around within mith.umd.edu.
+
+RewriteRule ^community/fellowships/(.*)$ /curricula/fellowships/$1
+RewriteRule ^community/internships/ /curricula/internships/
+RewriteRule ^community/partnership/(.*)$ /about/partnership/$1
+RewriteRule ^community/sponsors-giving/ /about/sponsors-giving/
+RewriteRule ^community/ /about/
+
+# These are things that have moved permanently to archive.mith.umd.edu
+
+RewriteRule ^angles/?(.*)$ https://archive.mith.umd.edu/angles/$1 [R=301,L]
+RewriteRule ^apiworkshop/?(.*)$ https://archive.mith.umd.edu/apiworkshop/$1 [R=301,L]
+RewriteRule ^beckett/?(.*)$ https://archive.mith.umd.edu/beckett/$1 [R=301,L]
+RewriteRule ^camp/?(.*)$ https://archive.mith.umd.edu/camp/$1 [R=301,L]
+RewriteRule ^comus/?(.*)$ https://archive.mith.umd.edu/comus/$1 [R=301,L]
+RewriteRule ^corporacamp/?(.*)$ https://archive.mith.umd.edu/corporacamp/$1 [R=301,L]
+RewriteRule ^dance-preservation/?(.*)$ https://archive.mith.umd.edu/dance-preservation/$1 [R=301,L]
+RewriteRule ^dccresearch/?(.*)$ https://archive.mith.umd.edu/dccresearch/$1 [R=301,L]
+RewriteRule ^dh09/?(.*)$ https://archive.mith.umd.edu/dh09/$1 [R=301,L]
+RewriteRule ^diaspora2008/?(.*)$ https://archive.mith.umd.edu/diaspora2008/$1 [R=301,L]
+RewriteRule ^digitalstorytelling/?(.*)$ https://archive.mith.umd.edu/digitalstorytelling/$1 [R=301,L]
+RewriteRule ^eada/?(.*)$ https://archive.mith.umd.edu/eada/$1 [R=301,L]
+RewriteRule ^elo2007/?(.*)$ https://archive.mith.umd.edu/elo2007/$1 [R=301,L]
+RewriteRule ^eng738T/?(.*)$ https://archive.mith.umd.edu/eng738T/$1 [R=301,L]
+RewriteRule ^engl479w/?(.*)$ https://archive.mith.umd.edu/engl479w/$1 [R=301,L]
+RewriteRule ^engl668k/?(.*)$ https://archive.mith.umd.edu/engl668k/$1 [R=301,L]
+RewriteRule ^fellows/?(.*)$ https://archive.mith.umd.edu/fellows/$1 [R=301,L]
+RewriteRule ^flare/?(.*)$ https://archive.mith.umd.edu/flare/$1 [R=301,L]
+RewriteRule ^forensics/?(.*)$ https://archive.mith.umd.edu/forensics/$1 [R=301,L]
+RewriteRule ^gcr/?(.*)$ https://archive.mith.umd.edu/gcr/$1 [R=301,L]
+RewriteRule ^gsoc2012/?(.*)$ https://archive.mith.umd.edu/gsoc2012/$1 [R=301,L]
+RewriteRule ^gsoc2013/?(.*)$ https://archive.mith.umd.edu/gsoc2013/$1 [R=301,L]
+RewriteRule ^hughes/?(.*)$ https://archive.mith.umd.edu/hughes/$1 [R=301,L]
+RewriteRule ^hughes2/?(.*)$ https://archive.mith.umd.edu/hughes2/$1 [R=301,L]
+RewriteRule ^irads/?(.*)$ https://archive.mith.umd.edu/irads/$1 [R=301,L]
+RewriteRule ^larsen/?(.*)$ https://archive.mith.umd.edu/larsen/$1 [R=301,L]
+RewriteRule ^lightbox/?(.*)$ https://archive.mith.umd.edu/lightbox/$1 [R=301,L]
+RewriteRule ^mlifton/?(.*)$ https://archive.mith.umd.edu/mlifton/$1 [R=301,L]
+RewriteRule ^mnsmith/?(.*)$ https://archive.mith.umd.edu/mnsmith/$1 [R=301,L]
+RewriteRule ^musical-theatre/?(.*)$ https://archive.mith.umd.edu/musical-theatre/$1 [R=301,L]
+RewriteRule ^oac-rollout-videos/?(.*)$ https://archive.mith.umd.edu/oac-rollout-videos/$1 [R=301,L]
+RewriteRule ^offthetracks/?(.*)$ https://archive.mith.umd.edu/offthetracks/$1 [R=301,L]
+RewriteRule ^pda2013/?(.*)$ https://archive.mith.umd.edu/pda2013/$1 [R=301,L]
+RewriteRule ^sharedhorizons/?(.*)$ https://archive.mith.umd.edu/sharedhorizons/$1 [R=301,L]
+RewriteRule ^steinschneider/?(.*)$ https://archive.mith.umd.edu/steinschneider/$1 [R=301,L]
+RewriteRule ^sts2017/?(.*)$ https://archive.mith.umd.edu/sts2017/$1 [R=301,L]
+RewriteRule ^summit/?(.*)$ https://archive.mith.umd.edu/summit/$1 [R=301,L]
+RewriteRule ^thet669d/?(.*)$ https://archive.mith.umd.edu/thet669d/$1 [R=301,L]
+RewriteRule ^tile/?(.*)$ https://archive.mith.umd.edu/tile/$1 [R=301,L]
+RewriteRule ^tools/?(.*)$ https://archive.mith.umd.edu/tools/$1 [R=301,L]
+RewriteRule ^topicmodeling/?(.*)$ https://archive.mith.umd.edu/topicmodeling/$1 [R=301,L]
+RewriteRule ^vintage-computers/?(.*)$ https://archive.mith.umd.edu/vintage-computers/$1 [R=301,L]
+RewriteRule ^womensstudies/?(.*)$ https://archive.mith.umd.edu/womensstudies/$1 [R=301,L]
+RewriteRule ^workshop/?(.*)$ https://archive.mith.umd.edu/workshop/$1 [R=301,L]
+
+# For everything else when we don't have a file or a directory here in the static
+# site we are going to blindly assume it has moved on to 
+# archive.mith.umd.edu/mith-2020/
+# 
+# Note: we are going to redirect temporarily (307) until we've ported over 
+# what we want from the old website. After that we can redirect permanently
+# (301). Google and other search engines apparently update their indexes for 
+# resources that have moved permanently.
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) https://archive.mith.umd.edu/mith-2020/$1 [R=307,L,QSA]
