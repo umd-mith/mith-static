@@ -36,9 +36,15 @@ async function makePeople(createPage, graphql, pathPrefix) {
             bio_external
             slug
             headshot {
-              thumbnails {
-                large {
-                  url
+              localFiles {
+                childImageSharp {
+                  fluid(maxWidth: 500, background: "rgba(255,255,255,0)" ) {
+                    src
+                    srcSet
+                    aspectRatio
+                    sizes
+                    base64
+                  }
                 }
               }
             }

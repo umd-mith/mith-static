@@ -1,34 +1,52 @@
 import React from 'react'
-import Layout from '../components/layout'
-// import Img from 'gatsby-image';
+import Img from 'gatsby-image'
 
+import Layout from '../components/layout'
 import SEO from '../components/seo'
+import './person.css'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Person = ({ pageContext: person }) => {
-  const title = person.name
-  const img = person.headshot 
-    ? <img src={person.headshot[0].thumbnails.large.url} alt={`Headshot of ${person.name}`}/>
+  const name = person.name
+  const photo = person.headshot 
+    ? <Img 
+      fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
+      alt={`Headshot of ${person.name}`} 
+      className="col-4 col-4-lg col-4-md col-5-sm col-6-xs headshot"
+      />
     : ''
+  const icon_email = <FontAwesomeIcon icon="envelope" />
   const email = person.email
-    ? <><dt>Email:</dt><dd>{person.email}</dd></> : ''
-  const website = person.website
-    ? <><dt>Website:</dt><dd>{person.website}</dd></> : ''
-  const twitter = person.twitter
-    ? <><dt>Twitter:</dt><dd>{person.twitter}</dd></> : ''
+    ? <><a className="meta email" href={`mailto:${person.email}`}>
+        {icon_email} {person.email}
+      </a></> : ''
+  const icon_phone = <FontAwesomeIcon icon="mobile-alt" />
   const phone = person.phone
-    ? <><dt>Phone:</dt><dd>{person.phone}</dd></> : ''
-
+    ? <p className="meta phone">{icon_phone} {person.phone}</p> : ''
+  const website = person.website
+    ? <><a className="meta website" href={person.website}>{person.website}</a></> : ''
+  const icon_twitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
+  const twitter = person.twitter
+    ? <><a className="meta twitter" href={`https://twitter.com/${person.twitter}`}>
+        {icon_twitter} {person.twitter}
+      </a></> : ''
   const bio = person.bio
-    ? <div>{person.bio}</div> : ''
+    ? <div className="col-12">{person.bio}</div> : ''
+
   return (
     <Layout>
-      <SEO title={title} />
-      <section>
-        <h1>{person.name}</h1>        
-        {img}
-        <h2>{person.title}</h2>
-        <div>
-          {email} {website} {twitter} {phone}
+      <SEO title={name} />
+      <section className="leader">
+        <h1>{name}</h1>
+      </section>
+      <section className="columns">
+        {photo}
+        <div className="col-8 col-8-lg col-8-md col-7-sm col-6-xs">
+          <h2 className="title">{person.title}</h2>
+          <div className="metadata">
+            {email} {phone} {website} {twitter}
+          </div>
         </div>
         {bio}
       </section>

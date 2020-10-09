@@ -10,7 +10,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        stripMetadata: false,
+        defaultQuality: 100,
+        background: `rgba(255,255,255,0)`
+      }
+    },
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
@@ -62,6 +69,7 @@ module.exports = {
             baseId: process.env.AIRTABLE_BASE_ID,
             tableName: `People`,
             tableLinks: [`staff_group`,`date_spans`],
+            mapping: { headshot: `fileNode` },
             queryName: 'PeopleTable',
             createSeparateNodeType: true,
             separateMapType: true,
