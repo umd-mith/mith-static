@@ -1,8 +1,7 @@
-import React from "react"
-import { Link } from 'gatsby';
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const FellowshipsPage = () => (
   <Layout>
@@ -45,7 +44,7 @@ const FellowshipsPage = () => (
         <h3>Eligibility</h3>
         <p>Affiliates of the Program in Comparative Literature, and Core Faculty Members are eligible to apply for the Vambery Award. Winners of the Vambery Professorship may not reapply for three years after having won the award. In other words, it is only possible to be named a Vambery Distinguished Professor once every four years.</p>
         <h3>Selection Process</h3>
-        <p>The Vambery Distinguished Professor will be selected every spring by a committee of three: The Director of Graduate Studies of Comparative Literature, and the two Vambery Distinguished Professors immediately preceding the current cycle. Calls for applications will be issued through the&nbsp;<Link to="http://www.english.umd.edu/academics/cmlt">Comparative Literature Department</Link>. Contact <Link to="mailto:sjelen@umd.edu">sjelen@umd.edu</Link>.</p>
+        <p>The Vambery Distinguished Professor will be selected every spring by a committee of three: The Director of Graduate Studies of Comparative Literature, and the two Vambery Distinguished Professors immediately preceding the current cycle. Calls for applications will be issued through the&nbsp;<a href="http://www.english.umd.edu/academics/cmlt">Comparative Literature Department</a>. Contact <a href="mailto:sjelen@umd.edu">sjelen@umd.edu</a>.</p>
       </section>
     </div>
   </Layout>
