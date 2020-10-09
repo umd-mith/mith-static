@@ -50,8 +50,8 @@ class Header extends React.Component {
                   <li className="menu-item menu-people-past"><Link activeClassName="active" to="/people/people-past">Past Staff</Link></li>
                 </ul>
               </li>            
-              <li className="menu-partner">
-                <Link activeClassName="active" to="/blog/">Partner with Us</Link>
+              <li className="menu-partnership">
+                <Link activeClassName="active" to="/partner-with-us/">Partner with Us</Link>
               </li>
             </ul>
           </nav>
