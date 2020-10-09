@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
 
-import "./header.css"
-import Logo from "../svg/MITH-logostack-wht.svg"
+import './header.css'
+import Logo from '../svg/MITH-logostack-wht.svg'
 
 class Header extends React.Component {
   render() {
@@ -30,14 +30,12 @@ class Header extends React.Component {
                   <li className="menu-item menu-internships"><Link activeClassName="active" to="/opportunities/internships/">Internships</Link></li>
                   <li className="menu-item menu-fellowships"><Link activeClassName="active" to="/opportunities/fellowships/">Fellowships</Link></li>
                   <li className="menu-item menu-writing-group"><Link activeClassName="active" to="/opportunities/writing-group/">Writing Group</Link></li>
-                  <li className="menu-item menu-curricula"><Link activeClassName="active" to="/opportunities/curricula/">Courses</Link></li>
                 </ul>
               </li>
               <li className="menu-events has-children">
                 <Link activeClassName="active" to="/events/" aria-haspopup="true">Events</Link>
                 <ul className="sub-menu">
-                  <li className="menu-item menu-digital-dialogues"><Link activeClassName="active" to="/digital-dialogues/">Digital Dialogues</Link></li>
-                  <li className="menu-item menu-other-events hidden"><Link activeClassName="active" to="/events/other">Other Events</Link></li>
+                  <li className="menu-item menu-digital-dialogues"><Link activeClassName="active" to="/events/digital-dialogues/">Digital Dialogues</Link></li>
                 </ul>
               </li>
               <li className="menu-blog">
@@ -46,8 +44,7 @@ class Header extends React.Component {
               <li className="menu-people has-children">
                 <Link activeClassName="active" to="/people/" aria-haspopup="true">People</Link>
                 <ul className="sub-menu">
-                  <li className="menu-item menu-people-current"><Link activeClassName="active" to="people/">Current Staff</Link></li>
-                  <li className="menu-item menu-people-past"><Link activeClassName="active" to="/people/people-past">Past Staff</Link></li>
+                  <li className="menu-item menu-people-past"><Link activeClassName="active" to="/people/people-past/">Past Staff</Link></li>
                 </ul>
               </li>            
               <li className="menu-partnership">
