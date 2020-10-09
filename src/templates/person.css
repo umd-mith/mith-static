@@ -1,6 +1,6 @@
 .headshot {
   max-width: 300px;
-  grid-row-end: span 2;
+  grid-row-end: span 3;
 }
 .metadata {
   display: grid;

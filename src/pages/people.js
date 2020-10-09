@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import './people.css'
 
 const PeoplePage = ({ data }) => { 
 
@@ -11,14 +12,14 @@ const PeoplePage = ({ data }) => {
     return people.nodes.map(person => {
       const img = person.data.headshot 
       ? <Link key={`p-${person.data.id}`} to={person.data.slug}>
-        <Img fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} alt={`Headshot of ${person.data.name}`}/>
+        <Img fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} alt={`Headshot of ${person.data.name}`} className="headshot" />
         </Link>
       : ''
       return (
-      <article className="col-4 col-4-lg col-4-md col-6-sm col-6-xs" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
+      <article className="col-4 col-4-lg col-4-md col-6-sm col-6-xs person" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
         {img}
-        <h4><Link key={`p-${person.data.id}`} to={person.data.slug}>{person.data.name}</Link></h4>
-        <p>{person.data.title}</p>
+        <h3 className="name"><Link key={`p-${person.data.id}`} to={person.data.slug}>{person.data.name}</Link></h3>
+        <div className="title">{person.data.title}</div>
       </article>
       )
     })
@@ -28,18 +29,15 @@ const PeoplePage = ({ data }) => {
 		<Layout>
       <SEO title="People" />
       <div className="page-people">
-        <section className="leader hidden">
-          <h1>People</h1>
-        </section>
         <section id="facstaff" className="columns">
-          <h2>Faculty &amp; Staff</h2>
+          <h1 className="col-12">Faculty &amp; Staff</h1>
           {data.people.group
             .filter(g => g.fieldValue !== 'Affiliates' && g.fieldValue.match(/^[^P]/))
             .map(makePeople)
           }
         </section>
         <section id="affiliates" className="columns">
-          <h2>Affiliates</h2>
+          <h1 className="col-12">Affiliates</h1>
           {data.people.group
             .filter(g => g.fieldValue === 'Affiliates')
             .map(makePeople)

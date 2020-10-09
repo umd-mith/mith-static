@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import './people.css'
 
 const PeoplePastPage = ({ data }) => {
   return (
@@ -15,21 +16,21 @@ const PeoplePastPage = ({ data }) => {
         <section> 
           {data.people.nodes.map(group => {
             return (
-              <div key={`g-${group.data.id}`}>
+              <div key={`g-${group.data.id}`} className={`people-group ${group.data.slug}`}>
                 <h2>{group.data.group_name}</h2>
                   <div className="columns">
                     {
                     group.data.linked_people ?
                       group.data.linked_people.map(person => (
-                        <article className="col-4 col-4-lg col-4-md col-6-sm col-12-xs">
-                          <Link key={`p-${person.data.id}`} to={person.data.slug}><h4>{person.data.name}</h4></Link>
-                          <>{
+                        <article id={person.data.slug} className="col-4 col-4-lg col-4-md col-6-sm col-12-xs">
+                          <strong key={`p-${person.data.id}`}>{person.data.name}</strong>
+                          <div>{
                             person.data.date_spans ? 
                             person.data.date_spans.map(dates => (
                               <span key={`d-${dates.data.id}`}>{dates.data.date_span}</span>
                             ))
                             : ''
-                          }</>
+                          }</div>
                         </article>
                       ))
                     : ''
@@ -59,10 +60,12 @@ export const query = graphql`
         data {
           id
           group_name
+          slug
           linked_people {
             data {
               id
               name
+              slug
               date_spans {
                 data {
                   date_span

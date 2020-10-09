@@ -1,0 +1,25 @@
+.people-group {
+  margin-bottom: 1.75rem;
+}
+.people-group span {
+  display: inline-block;
+  font-size: 90%;
+  line-height: 1.5;
+  margin-bottom: 0.1rem;
+}
+.person {
+  margin-bottom: 1rem;
+}
+.person .name {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.person .title {
+  line-height: 1.5;
+  font-family: 'IBM Plex Serif', Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.person .name a {
+  color: inherit;
+}
