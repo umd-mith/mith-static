@@ -1,11 +1,11 @@
 import React from 'react'
 import Img from 'gatsby-image'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-
 import './person.css'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Person = ({ pageContext: person }) => {
   const name = person.name
@@ -13,17 +13,24 @@ const Person = ({ pageContext: person }) => {
     ? <Img 
       fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
       alt={`Headshot of ${person.name}`} 
-      className="col-3 col-4-lg col-4-md col-4-sm col-6-xs headshot"
+      className="col-4 col-4-lg col-4-md col-5-sm col-6-xs headshot"
       />
     : ''
+  const icon_email = <FontAwesomeIcon icon="envelope" />
   const email = person.email
-    ? <><Link className="email" to={`mailto:${person.email}`}>{person.email}</Link></> : ''
+    ? <><a className="meta email" href={`mailto:${person.email}`}>
+        {icon_email} {person.email}
+      </a></> : ''
+  const icon_phone = <FontAwesomeIcon icon="mobile-alt" />
   const phone = person.phone
-    ? <p>{person.phone}</p> : ''
+    ? <p className="meta phone">{icon_phone} {person.phone}</p> : ''
   const website = person.website
-    ? <><Link to={person.website}>{person.website}</Link></> : ''
+    ? <><a className="meta website" href={person.website}>{person.website}</a></> : ''
+  const icon_twitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
   const twitter = person.twitter
-    ? <><Link to={`https://twitter.com/${person.twitter}`}>@{person.twitter}</Link></> : ''
+    ? <><a className="meta twitter" href={`https://twitter.com/${person.twitter}`}>
+        {icon_twitter} {person.twitter}
+      </a></> : ''
   const bio = person.bio
     ? <div className="col-12">{person.bio}</div> : ''
 
@@ -35,9 +42,11 @@ const Person = ({ pageContext: person }) => {
       </section>
       <section className="columns">
         {photo}
-        <h2 className="col-9 col-8-lg col-8-md col-8-sm col-6-xs">{person.title}</h2>
-        <div className="col-9 col-8-lg col-8-md col-8-sm col-6-xs metadata">
-          {email} {website} {twitter} {phone}
+        <div className="col-8 col-8-lg col-8-md col-7-sm col-6-xs">
+          <h2 className="title">{person.title}</h2>
+          <div className="metadata">
+            {email} {phone} {website} {twitter}
+          </div>
         </div>
         {bio}
       </section>

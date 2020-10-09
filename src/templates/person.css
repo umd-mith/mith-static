@@ -3,7 +3,22 @@
   grid-row-end: span 3;
 }
 .metadata {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: inline-grid;
+  grid-template-columns: repeat( 4, auto );
   grid-row-gap: 0.5rem;
+}
+.metadata a {
+  color: inherit;
+}
+.meta {
+  padding: 0 1rem;
+  text-align: center;
+  border-left: 1px solid #dfdfdf;
+}
+.meta:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.meta svg {
+  margin-right: 0.25rem;
 }
