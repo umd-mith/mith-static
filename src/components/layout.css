@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,400;1,500&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+/*
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -230,7 +237,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: inherit;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -653,7 +660,7 @@ header, .main-head {
 .content {
   grid-area: content;
   max-width: 1140px;
-  padding: 30px 30px 100px;
+  padding: 50px 30px 100px;
   margin: 0 auto;
 }
 .side {
@@ -664,25 +671,21 @@ header, .main-head {
 }
 .leader h1 {
   padding-bottom: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 h1 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: 1.1rem;
 }
 h2 {
-  font-size: 1.25rem;
+  /*font-size: 1.25rem;
   border-bottom: 1px dotted #999;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem; */
   margin-bottom: 1.5rem;
   margin-top: 1rem;
 }
 h3 {
-  font-size: 1rem;
-  font-weight: normal;
-  border-bottom: 1px dotted #999;
-  padding-bottom: 1.1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 0.75rem;
 }
 section h2:first-of-type {
