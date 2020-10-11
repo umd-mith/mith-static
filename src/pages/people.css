@@ -16,7 +16,7 @@
 }
 .person .title {
   line-height: 1.5;
-  font-family: 'IBM Plex Serif', Georgia, 'Times New Roman', Times, serif;
+  font-family: var(--font-stack);
   font-style: italic;
   letter-spacing: 1px;
 }
