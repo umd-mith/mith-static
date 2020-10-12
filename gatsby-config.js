@@ -6,6 +6,32 @@ module.exports = {
     title: `MITH`,
     description: `Maryland Institute for Technology in the Humanities`,
     author: `@UMD_MITH`,
+    navLinks: [
+      {
+        name: "What We Do",
+        link: "/what-we-do/"
+      },
+      {
+        name: "Opportunities For Students",
+        link: "/students/"
+      },
+      {
+        name: "Events",
+        link: "/events/"
+      },
+      {
+        name: "News",
+        link: "/news/"
+      },
+      {
+        name: "People",
+        link: "/people/"
+      },
+      {
+        name: "Partner With Us",
+        link: "/partner-with-us/"
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

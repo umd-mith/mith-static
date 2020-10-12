@@ -1,0 +1,35 @@
+nav {
+    display: block;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* header-specific nav styles */
+@media (max-width: 40rem) {
+    header nav {
+        display: none;
+    }
+}
+
+header nav a {
+    color: #777;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* footer-specific nav styles */
+footer nav {
+    margin: 0 auto;
+    padding: 1.18rem 2rem 1rem 2rem;
+}
