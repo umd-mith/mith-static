@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 import './header.css'
-import Logo from '../svg/MITH-logostack-wht.svg'
+import Logo from '../svg/MITH-logostack-blk.svg'
 
 class Header extends React.Component {
   render() {
