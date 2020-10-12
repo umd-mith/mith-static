@@ -13,7 +13,11 @@ async function makePeople(createPage, graphql, pathPrefix) {
         nodes {
           data {
             id
-            bio
+            bio {
+              childMarkdownRemark {
+                html
+              }
+            }
             website
             twitter
             title
