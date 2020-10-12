@@ -9,16 +9,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="page-home columns">
       <section className="leader">
-        <h1>Home</h1>
-        <p>[intro text can go here]</p>
-      </section>
-      <section className="col-2 col-2-lg col-2-md col-2-sm col-1-xs">
-          <h2>Subheader</h2>
-          <p>[paragraph text]</p>
-      </section>
-      <section className="col-2 col-2-lg col-2-md col-2-sm col-1-xs">
-          <h2>Subheader</h2>
-          <p>[paragraph text]</p>
+        <p>MITH is a research center within the College of Arts and Humanities at the University of Maryland, College Park. The center is home to an interdisciplinary group of researchers who collaboratively advance the study of cultural heritage and arts using computational technologies and who also study computational technologies using humanities approaches. For over 20 years, this world-class concentration of expertise has served as a resource for the university community and collaborators in many domains. MITH also provides some teaching and hosts events for campus and public communities in support of its core research mission.</p>
       </section>
     </div>
   </Layout>
