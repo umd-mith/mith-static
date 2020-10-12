@@ -3,12 +3,12 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const WhoWeArePage = () => (
+const WhatWeDoPage = () => (
   <Layout>
-    <SEO title="Who We Are" />
+    <SEO title="What We Do" />
     <div className="page-who-we-are">
         <section className="leader">
-          <h1>Who We Are</h1>
+          <h1>What We Do</h1>
           <p>Intro text</p>
         </section>
         <section>
@@ -18,4 +18,4 @@ const WhoWeArePage = () => (
   </Layout>
 )
 
-export default WhoWeArePage
+export default WhatWeDoPage
