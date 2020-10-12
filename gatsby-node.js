@@ -13,7 +13,11 @@ async function makePeople(createPage, graphql, pathPrefix) {
         nodes {
           data {
             id
-            bio
+            bio {
+              childMarkdownRemark {
+                html
+              }
+            }
             website
             twitter
             title
@@ -92,6 +96,7 @@ async function makePosts(createPage, graphql, pathPrefix) {
     }
   `)
   for (const post of results.data.allMarkdownRemark.nodes) {
+    console.log(post)
     const slug = path.basename(path.dirname(post.fileAbsolutePath))
     // TEMPORARY:
     const author = post.frontmatter.author === 'trevormunoz' ? 'trevor-munoz' : post.frontmatter.author

@@ -95,7 +95,7 @@ module.exports = {
             baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
             tableName: `People`,
             tableLinks: [`staff_group`,`date_spans`],
-            mapping: { headshot: `fileNode` },
+            mapping: { headshot: `fileNode`, bio: 'text/markdown' },
             queryName: 'PeopleTable',
             createSeparateNodeType: true,
             separateMapType: true,
