@@ -115,6 +115,13 @@ module.exports = {
             tableLinks: [`linked_people`],
             createSeparateNodeType: true,
             separateMapType: true,
+          },
+          {
+            baseId: process.env.AIRTABLE_POSTS_BASE_ID,
+            tableName: `Posts`,
+            queryName: 'PostsTable',
+            createSeparateNodeType: true,
+            separateMapType: true,
           }
         ]
       }

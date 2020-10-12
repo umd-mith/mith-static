@@ -10,7 +10,6 @@ import './post-index.css'
 const PostIndex = ({data}) => {
   const posts = data.allMarkdownRemark.nodes
   const pageCount = data.allMarkdownRemark.pageInfo.pageCount
-  const peopleInfo = data.allAirtable.nodes
 
   return (
 		<Layout>
@@ -19,21 +18,20 @@ const PostIndex = ({data}) => {
           <SEO title="MITH News" />
           <h1>News</h1>
           {posts.map(post => {
-            const slug = '/news/' + path.basename(path.dirname(post.fileAbsolutePath)) + '/'
-            // TEMPORARY
-            const authorSlug = post.frontmatter.author === 'trevormunoz' ? 'trevor-munoz' : post.frontmatter.author
-            const tm = peopleInfo.filter(n => n.data.slug === authorSlug)[0]
-            const author = tm ? tm.data.name : post.frontmatter.author
+            const slug = path.basename(post.fileAbsolutePath, '.md')
+            const metadata = data.allAirtable.nodes.filter(n => n.data.slug === slug)[0]
+            if (!metadata) return null
             return (
               <article className="post" key={`news-${post.id}`}>
                 <div className="title">
-                  <Link to={slug}>{post.frontmatter.title}</Link>
+                  <Link to={metadata.data.slug}>{metadata.data.post_title}</Link>
                 </div>
                 <div className="post-meta">
-                  by <span className="author">{author}</span> on <time>{post.frontmatter.published}</time>
+                  by <span className="author">{metadata.data.author_name}</span>
+                  {' '}on <time>{metadata.data.post_date}</time>
                 </div>
                 <div>
-                  {post.excerpt} <Link to={slug}>read more</Link>
+                  {post.excerpt} <Link to={metadata.data.slug}>read more</Link>
                 </div>
               </article>
             )
@@ -60,42 +58,31 @@ const PostIndex = ({data}) => {
 export const query = graphql`
   query PostsQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      sort: {fields: frontmatter___published, order: DESC}
       limit: $limit
       skip: $skip
+      sort: {fields: fileAbsolutePath, order: DESC}
     ) {
       nodes {
         excerpt(pruneLength: 250)
-        frontmatter {
-          author
-          categories
-          description
-          image {
-            publicURL
-            relativePath
-          }
-          published(formatString: "MMMM D, YYYY")
-          redirect_from
-          title
-          type
-        }
-        html
-        fileAbsolutePath
-        timeToRead
         id
+        fileAbsolutePath
       }
       pageInfo {
-        hasNextPage
-        hasPreviousPage
-        currentPage
         pageCount
       }
     }
-    allAirtable(filter: {table: {eq: "People"}}) {
+    allAirtable(
+      limit: $limit
+      skip: $skip
+      filter: {table: {eq: "Posts"}}
+      sort: {fields: data___post_date, order: DESC}
+    ) {
       nodes {
         data {
-          name
           slug
+          author_name
+          post_title
+          post_date(formatString: "MMMM D, YYYY")          
         }
       }
     }
