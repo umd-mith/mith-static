@@ -19,7 +19,7 @@ const Nav = () => {
   `)
 
   return(
-      <nav>
+      <nav className="main-nav">
           <ul>
               {data.site.siteMetadata.navLinks.map(link=> (
                   <li
