@@ -14,6 +14,7 @@ const Post = ({ data, pageContext: post }) => {
         <h1>{metadata.post_title}</h1> 
         <div className="post-meta">
           by {metadata.author_name} on {metadata.post_date}
+          {' '}in {metadata.categories.join(', ')}
         </div>       
         <div 
           className='content'
@@ -26,13 +27,15 @@ const Post = ({ data, pageContext: post }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    postInfo: allAirtable(filter: {table: {eq: "Posts"}, data: {slug: {eq: $slug}}}) {
+    postInfo: allAirtable(filter: {table: {eq: "Posts"}, data: {
+      DD_Post: {eq: null}, Event_Post: {eq: null}, slug: {eq: $slug}}}) {
       nodes {
         data {
           slug
           author_name
           post_title
-          post_date(formatString: "MMMM D, YYYY")          
+          post_date(formatString: "MMMM D, YYYY")
+          categories
         }
       }
     }
