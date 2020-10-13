@@ -8,8 +8,8 @@ import './layout.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faEnvelope, faTwitter, faMobileAlt)
+import { faEnvelope, faMobileAlt, faBars } from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faEnvelope, faTwitter, faMobileAlt, faBars)
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main className="content">
+      <main className="content container">
         {children}
       </main>
       <Footer />

@@ -5,9 +5,8 @@ footer {
   border-color: #4b4c4d;
 }
 .footer-bar {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 18px 30px 16px;
+  padding: 0.75rem 2rem 2rem;
+  text-align: center;
 }
 footer a {
   color: #bfbfbf;

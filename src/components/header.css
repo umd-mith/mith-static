@@ -5,13 +5,13 @@ header {
   background-color: #ffffff;
 }
 .logo,
-.main-nav {
-  width: 1140px;
+.nav-bar {
+  grid: inl;
   margin: 0 auto;
   display: block;
 } 
-.main-nav {
-  padding: 0 30px;
+.nav-bar {
+  padding: 0 2rem;
 }
 header svg {
   margin: 30px;
@@ -24,24 +24,24 @@ header svg {
   background-color: #fff;
   z-index: 200;
 }
-.main-nav ul {
+.nav-bar ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.main-nav ul li {
+.nav-bar ul li {
   position: relative;
   float: left;
   margin: 0;
   padding: 0;
 }
-.main-nav li.has-children {
+.nav-bar li.has-children {
   overflow: hidden;
 }
-.main-nav li.has-children:hover {
+.nav-bar li.has-children:hover {
   overflow: visible;
 }
-.main-nav a { 
+.nav-bar a { 
   color: #777;
   font-weight: 600;   
   text-decoration: none;
@@ -51,7 +51,7 @@ header svg {
   border-bottom: 3px solid transparent;
   display: block;
 }
-.main-nav a:hover, .main-nav a.active {
+.nav-bar a:hover, .nav-bar a.active {
   border-bottom-color: #009abd;
 }
 .sub-menu {
@@ -66,12 +66,12 @@ header svg {
   background-color: #f9f9f9;
   border-top: 2px solid #cecece;
 }
-.main-nav li.has-children:hover .sub-menu {
+.nav-bar li.has-children:hover .sub-menu {
   display: block;
   visibility: visible;
   opacity: 1;
 }
-.main-nav .sub-menu li {
+.nav-bar .sub-menu li {
   display: block;
   float: none;
 }
