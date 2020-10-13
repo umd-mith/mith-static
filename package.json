@@ -39,7 +39,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "publish": "gatsby clean && gatsby build && rsync --archive --recursive --delete public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
