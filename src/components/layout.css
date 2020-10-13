@@ -4,6 +4,7 @@
 
 html {
   font-family: var(--font-stack);
+  font-size: 19px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
