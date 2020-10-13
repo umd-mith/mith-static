@@ -73,7 +73,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
 async function makePosts(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/src\/news/"}}) {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/src\/news\/.+/"}}) {
         nodes {
           fileAbsolutePath
           html
