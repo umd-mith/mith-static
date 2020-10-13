@@ -32,7 +32,7 @@ const Person = ({ pageContext: person }) => {
         {icon_twitter} {person.twitter}
       </a></> : ''
   const bio = person.bio
-    ? <div className="col-12">{person.bio}</div> : ''
+    ? <div className='col-12' dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''
 
   return (
     <Layout>
