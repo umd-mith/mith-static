@@ -16,7 +16,7 @@ const IndexPage = () => (
       <section className="col-12">
         <p>You might know us through our work on the <a href="https://aadhum.umd.edu/">African American History, Culture and Digital Humanities (AADHum) Initiative</a>, the <a href="https://www.docnow.io/">Documenting the Now</a> project, the <a href="http://shelleygodwinarchive.org/">Shelley-Godwin Archive</a>, or the other work of one of our <Link to="/people/">faculty and staff members</Link>.</p>
       </section>
-      <section className="col-12">The MITH website is currently being redeveloped in public. If you are looking for content that was previously here, it's in <a href="#">the archive</a>.</section>
+      <section className="col-12">The MITH website is currently being redeveloped in public. If you are looking for content that was previously here, it's in <a href="https://archive.mith.umd.edu/">the archive</a>.</section>
     </div>
   </Layout>
 )
