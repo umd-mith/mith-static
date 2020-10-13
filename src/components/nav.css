@@ -14,17 +14,15 @@ nav a {
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex: 1 0 100%;
   list-style: none;
   padding: 0 2rem;
 }
 nav ul li {
-  flex: 0 0 auto;
   position: relative;
-  float: left;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem 0 0;
 }
 nav li.has-children {
   overflow: hidden;
@@ -88,7 +86,6 @@ footer nav {
   }
   nav ul li {
     flex: none;
-    float: none;
     border-top: 1px dotted #d2d2d2;
   }
   nav ul li:first-child {
