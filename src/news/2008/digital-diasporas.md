@@ -5,3 +5,11 @@ The program will begin on May 1st and 2nd with hands-on workshops, including one
 [Please visit the conference website](http://mith.umd.edu/diaspora2008/) for schedule and registration information.
 
 For further information, please contact Zita Nunes at znunes at umd dot edu
+ Affairs Office
+- UMD David C. Driskell Center for the Study of the Visual Arts and Culture of African Americans and the African Diaspora
+- UMD Consortium on Race, Gender and Ethnicity
+- UMD Nyumburu Cultural Center
+- WMUC Radio 88.1
+- Johns Hopkins University Center for Africana Studies
+
+###

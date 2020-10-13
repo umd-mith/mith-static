@@ -19,19 +19,20 @@ const PostIndex = ({data}) => {
           <h1>News</h1>
           {posts.map(post => {
             const slug = path.basename(post.fileAbsolutePath, '.md')
+            const linkSlug = '/news/' + slug
             const metadata = data.allAirtable.nodes.filter(n => n.data.slug === slug)[0]
             if (!metadata) return null
             return (
               <article className="post" key={`news-${post.id}`}>
                 <div className="title">
-                  <Link to={metadata.data.slug}>{metadata.data.post_title}</Link>
+                  <Link to={linkSlug}>{metadata.data.post_title}</Link>
                 </div>
                 <div className="post-meta">
                   by <span className="author">{metadata.data.author_name}</span>
                   {' '}on <time>{metadata.data.post_date}</time>
                 </div>
                 <div>
-                  {post.excerpt} <Link to={metadata.data.slug}>read more</Link>
+                  {post.excerpt} <Link to={linkSlug}>read more</Link>
                 </div>
               </article>
             )
@@ -58,6 +59,7 @@ const PostIndex = ({data}) => {
 export const query = graphql`
   query PostsQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
+      filter: {fields: {sourceName: {eq: "news"}}}
       limit: $limit
       skip: $skip
       sort: {fields: fileAbsolutePath, order: DESC}
@@ -74,7 +76,10 @@ export const query = graphql`
     allAirtable(
       limit: $limit
       skip: $skip
-      filter: {table: {eq: "Posts"}}
+      filter: {
+        table: {eq: "Posts"}
+        data: {DD_Post: {eq: null}, Event_Post: {eq: null}}
+      }
       sort: {fields: data___post_date, order: DESC}
     ) {
       nodes {
@@ -82,7 +87,7 @@ export const query = graphql`
           slug
           author_name
           post_title
-          post_date(formatString: "MMMM D, YYYY")          
+          post_date(formatString: "MMMM D, YYYY")
         }
       }
     }
