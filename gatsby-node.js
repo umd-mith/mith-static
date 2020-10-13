@@ -73,7 +73,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
 async function makePosts(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/src\/news\/.+/"}}) {
+      allMarkdownRemark(filter: {fields: {sourceName: {eq: "news"}}}) {
         nodes {
           fileAbsolutePath
           html
@@ -81,6 +81,7 @@ async function makePosts(createPage, graphql, pathPrefix) {
       }
     }
   `)
+  
   for (const post of results.data.allMarkdownRemark.nodes) {
     const slug = path.basename(post.fileAbsolutePath, '.md')
     createPage({
@@ -97,7 +98,7 @@ async function makePosts(createPage, graphql, pathPrefix) {
 async function makePostIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(filter: {fields: {sourceName: {eq: "news"}}}) {
         pageInfo {
           itemCount
         }

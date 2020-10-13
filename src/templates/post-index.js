@@ -58,6 +58,7 @@ const PostIndex = ({data}) => {
 export const query = graphql`
   query PostsQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
+      filter: {fields: {sourceName: {eq: "news"}}}
       limit: $limit
       skip: $skip
       sort: {fields: fileAbsolutePath, order: DESC}
