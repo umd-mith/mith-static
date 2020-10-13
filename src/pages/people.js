@@ -12,7 +12,14 @@ const PeoplePage = ({ data }) => {
     return people.nodes.map(person => {
       const img = person.data.headshot 
       ? <Link key={`p-${person.data.id}`} to={person.data.slug}>
-        <Img fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} alt={`Headshot of ${person.data.name}`} className="headshot" />
+        <Img 
+          fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} 
+          alt={`Headshot of ${person.data.name}`} 
+          className="headshot" 
+          imgStyle={{
+            objectFit: "cover",
+          }}
+        />
         </Link>
       : ''
       return (
@@ -73,7 +80,7 @@ export const query = graphql`
             headshot {
               localFiles {
                 childImageSharp {
-                  fluid( maxHeight: 500, maxWidth: 500, fit: CONTAIN, background: "rgba(255,255,255,0)" ) {
+                  fluid( maxHeight: 500, maxWidth: 500, fit: COVER, background: "rgba(255,255,255,0)" ) {
                     ...GatsbyImageSharpFluid_noBase64
                   }
                 }

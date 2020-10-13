@@ -14,6 +14,9 @@ const Person = ({ pageContext: person }) => {
       fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
       alt={`Headshot of ${person.name}`} 
       className="col-4 col-4-lg col-4-md col-5-sm col-6-xs headshot"
+      imgStyle={{
+        objectFit: "cover",
+      }}
       />
     : ''
   const icon_email = <FontAwesomeIcon icon="envelope" />

@@ -42,7 +42,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
             headshot {
               localFiles {
                 childImageSharp {
-                  fluid(maxWidth: 500, background: "rgba(255,255,255,0)" ) {
+                  fluid(maxWidth: 500, maxHeight:500, fit: COVER, background: "rgba(255,255,255,0)" ) {
                     src
                     srcSet
                     aspectRatio
