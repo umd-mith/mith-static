@@ -909,10 +909,10 @@ grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 a {
   text-decoration: none;
-  color: #009abd
+  color: rgb(183,191,16)
 }
 a:hover {
-  color: #0092bd
+  color: rgb(164,171,15)
 }
 .hidden {
 	display: none !important;

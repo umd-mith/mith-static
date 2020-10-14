@@ -22,7 +22,7 @@ nav ul {
 nav ul li {
   position: relative;
   margin: 0;
-  padding: 0 1rem 0 0;
+  padding: 0 2rem 0 0;
 }
 nav li.has-children {
   overflow: hidden;
@@ -71,7 +71,7 @@ header nav a {
     text-transform: uppercase;
 }
 header nav a:hover, header nav a.active {
-  border-bottom-color: #009abd;
+  border-bottom-color: rgb(183,191,16);
 }
 /* footer-specific nav styles */
 footer nav {
