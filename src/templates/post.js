@@ -1,7 +1,8 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { graphql } from 'gatsby';
 
 const Post = ({ data, pageContext: post }) => {
   const postInfo = data.postInfo.nodes[0]
@@ -10,14 +11,14 @@ const Post = ({ data, pageContext: post }) => {
   return (
     <Layout>
       <SEO title={metadata.post_title} />
-      <section className='post'>
-        <h1>{metadata.post_title}</h1> 
+      <section className="post">
+        <h1 className="post-title">{metadata.post_title}</h1> 
         <div className="post-meta">
           by {metadata.author_name} on {metadata.post_date}
           {' '}in {metadata.categories.join(', ')}
         </div>       
         <div 
-          className='content'
+          className="post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </section>

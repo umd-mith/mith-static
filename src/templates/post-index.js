@@ -13,44 +13,44 @@ const PostIndex = ({data}) => {
 
   return (
 		<Layout>
-      <div>
-        <section className="news">
-          <SEO title="MITH News" />
-          <h1>News</h1>
-          {posts.map(post => {
-            const slug = path.basename(post.fileAbsolutePath, '.md')
-            const linkSlug = '/news/' + slug
-            const metadata = data.allAirtable.nodes.filter(n => n.data.slug === slug)[0]
-            if (!metadata) return null
-            return (
-              <article className="post" key={`news-${post.id}`}>
-                <div className="title">
-                  <Link to={linkSlug}>{metadata.data.post_title}</Link>
-                </div>
-                <div className="post-meta">
-                  by <span className="author">{metadata.data.author_name}</span>
-                  {' '}on <time>{metadata.data.post_date}</time>
-                </div>
-                <div>
-                  {post.excerpt} <Link to={linkSlug}>read more</Link>
-                </div>
-              </article>
-            )
-          })}
-
-          <div className="pagination">
-            Pages:
-            {Array.from({ length: pageCount }, (_, i) => (
-              <Link
-                activeClassName="active" 
-                key={`pagination-number${i + 1}`}
-                to={`/news/${i === 0 ? "" : i + 1}`}>
-                {i + 1}&nbsp;
-              </Link>
-            ))}
-          </div>
-
-        </section>
+      <SEO title="MITH News" />
+      <section className="leader">
+        <h1>News</h1>
+      </section>
+      <section className="news">
+        {posts.map(post => {
+          const slug = path.basename(post.fileAbsolutePath, '.md')
+          const linkSlug = '/news/' + slug
+          const metadata = data.allAirtable.nodes.filter(n => n.data.slug === slug)[0]
+          if (!metadata) return null
+          return (
+            <article className="post" key={`news-${post.id}`}>
+              <h2 className="post-title">
+                <Link to={linkSlug}>{metadata.data.post_title}</Link>
+              </h2>
+              <div className="post-meta">
+                by <span className="author">{metadata.data.author_name}</span>
+                {' '}on <time>{metadata.data.post_date}</time>
+              </div>
+              <div className="post-excerpt">
+                {post.excerpt} 
+                <Link to={linkSlug} className="read-more">continue reading</Link>
+              </div>
+            </article>
+          )
+        })}
+      </section>
+      <div className="pagination">
+        <span class="label hidden">Pages:</span>
+        {Array.from({ length: pageCount }, (_, i) => (
+          <Link
+            activeClassName="active" 
+            className="page-link"
+            key={`pagination-number${i + 1}`}
+            to={`/news/${i === 0 ? "" : i + 1}`}>
+            {i + 1}
+          </Link>
+        ))}
       </div>
     </Layout>
   )
