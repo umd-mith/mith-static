@@ -24,41 +24,7 @@ nav ul li {
   margin: 0;
   padding: 0 2rem 0 0;
 }
-nav li.has-children {
-  overflow: hidden;
-}
-nav li.has-children:hover {
-  overflow: visible;
-}
-/* sub-nav / dropdown styles */
-.sub-nav {
-  position: absolute;
-  left: 0;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 1;
-  transition: opacity .2s ease-in;
-  box-shadow: 1px 1px 10px rgba(0,0,0,.02);
-  min-width: 140px;
-  background-color: #f9f9f9;
-  border-top: 2px solid #cecece;
-}
-nav li.has-children:hover .sub-nav {
-  display: block;
-  visibility: visible;
-  opacity: 1;
-}
-nav .sub-nav li {
-  display: block;
-  float: none;
-}
-.sub-nav li a {
-  font-weight: normal;
-  text-transform: none;
-  font-size: 13px;
-  padding: 6px 5px;
-  border-bottom: 1px solid #cecece;
-}
+
 /* header-specific nav styles */
 header nav {
   border-top: 1px solid #efefef;
