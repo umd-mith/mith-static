@@ -76,6 +76,27 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+.skip-link {
+  color: #ffffff;
+  background: #000000;
+  display: inline-block;
+  font-weight: 700;
+  padding: 8px;
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-100%);
+  z-index: 30;
+  transition: transform 0.3s;
+}
+
+.skip-link:focus {
+  top: 2rem;
+  outline: 5px solid rgba(0,0,0,0.1);
+  transform: translateY(0%);
+}
+
 img {
   max-width: 100%;
   margin-left: 0;
