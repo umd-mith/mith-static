@@ -20,6 +20,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   max-width: var(--base-content-width);
+  padding: 0 var(--base-content-padding);
 }
 li {
   margin-bottom: calc(1rem / 2);
