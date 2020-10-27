@@ -6,11 +6,14 @@ html {
   overflow-y: scroll;
 }
 a {
+  color: rgb(183,191,16);
   background-color: transparent;
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
+  color: rgb(164,171,15);
   outline-width: 0;
 }
 img {
