@@ -1,9 +1,7 @@
 @import 'site-reset.css';
 @import 'typography.css';
+@import 'variables.css';
 
-:root {
-  --base-content-width: 35rem;
-}
 html {
   overflow-y: scroll;
 }
