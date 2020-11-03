@@ -38,6 +38,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-remark-source-name`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-24127640-1`
+      }
+    },
+    {
       resolve: `gatsby-plugin-sharp`,
       options: {
         stripMetadata: false,
