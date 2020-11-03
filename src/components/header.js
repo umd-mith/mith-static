@@ -9,9 +9,9 @@ import Logo from '../svg/MITH-logostack-blk.svg'
 class Header extends React.Component {
   render() {
     return (
-        <div>
-          <Link className="logo" to="/">
       <header>
+        <div className="logo">
+          <Link to="/">
             <Logo />
           </Link>
         </div>

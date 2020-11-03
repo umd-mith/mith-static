@@ -9,3 +9,6 @@ header svg {
   max-height: 125px;
   max-width: 374px;
 }
+.logo {
+  padding-top: 2rem;
+}
