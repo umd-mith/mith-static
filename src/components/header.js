@@ -10,7 +10,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="innerWrapper">
-        <div className="logo-bar container">
+        <div>
           <Link className="logo" to="/">
             <Logo />
           </Link>
