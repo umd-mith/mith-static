@@ -21,9 +21,6 @@ img {
   border-style: none;
 }
 .innerWrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--base-content-width);
   padding: 0 var(--base-content-padding);
 }
 li {
@@ -39,8 +36,6 @@ ol,
 ul {
     list-style-position: outside;
     list-style-image: none;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
 }
 ul {
   list-style: none;

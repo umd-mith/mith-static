@@ -17,7 +17,6 @@ nav ul {
   justify-content: flex-start;
   flex: 1 0 100%;
   list-style: none;
-  padding: 0 2rem;
 }
 nav ul li {
   position: relative;
