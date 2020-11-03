@@ -4,11 +4,15 @@
     grid-gap: 1rem;
     grid-template-areas: 
         "header"
+        "nav"
         "page-content"
         "footer";
 }
 header {
     grid-area: header;
+}
+nav {
+    grid-area: nav;
 }
 main {
     grid-area: page-content;

@@ -1,4 +1,7 @@
+@import 'variables.css';
+
 nav {
+  padding: 0 var(--base-content-padding);
   z-index: 200;
 }
 nav a {
@@ -41,8 +44,7 @@ header nav a:hover, header nav a.active {
 /* footer-specific nav styles */
 footer nav {
     margin: 0 auto;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
+    padding: 0.5rem 0 1rem 0;
 }
 /* mobile-specific nav styles */
 @media (max-width: 52rem) {
