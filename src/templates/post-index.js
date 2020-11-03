@@ -1,4 +1,3 @@
-import path from 'path'
 import React from 'react'
 import { graphql, Link } from 'gatsby';
 
@@ -8,8 +7,8 @@ import SEO from '../components/seo'
 import './post-index.css'
 
 const PostIndex = ({data}) => {
-  const posts = data.allMarkdownRemark.nodes
-  const pageCount = data.allMarkdownRemark.pageInfo.pageCount
+  const posts = data.allAirtable.nodes.map(n => n.data)
+  const pageCount = data.allAirtable.pageInfo.pageCount
 
   return (
 		<Layout>
@@ -19,29 +18,33 @@ const PostIndex = ({data}) => {
       </section>
       <section className="news">
         {posts.map(post => {
-          const slug = path.basename(post.fileAbsolutePath, '.md')
-          const linkSlug = '/news/' + slug
-          const metadata = data.allAirtable.nodes.filter(n => n.data.slug === slug)[0]
-          if (!metadata) return null
+          const slug = '/news/' + post.slug
+          const markdownFile = post.slug + '.md'
+
+          // pick out the markdown file that has the same slug
+          const doc = data.allMarkdownRemark.nodes.find(
+            n => n.fileAbsolutePath.match(markdownFile)
+          )
+
           return (
             <article className="post" key={`news-${post.id}`}>
               <h2 className="post-title">
-                <Link to={linkSlug}>{metadata.data.post_title}</Link>
+                <Link to={slug}>{post.post_title}</Link>
               </h2>
               <div className="post-meta">
-                by <span className="author">{metadata.data.author_name}</span>
-                {' '}on <time>{metadata.data.post_date}</time>
+                by <span className="author">{post.author_name}</span>
+                {' '}on <time>{post.post_date}</time>
               </div>
               <div className="post-excerpt">
-                {post.excerpt} 
-                <Link to={linkSlug} className="read-more">continue reading</Link>
+                {doc.excerpt} 
+                <Link to={slug} className="read-more">continue reading</Link>
               </div>
             </article>
           )
         })}
       </section>
       <div className="pagination">
-        <span class="label hidden">Pages:</span>
+        <span className="label hidden">Pages:</span>
         {Array.from({ length: pageCount }, (_, i) => (
           <Link
             activeClassName="active" 
@@ -58,28 +61,13 @@ const PostIndex = ({data}) => {
 
 export const query = graphql`
   query PostsQuery($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      filter: {fields: {sourceName: {eq: "news"}}}
-      limit: $limit
-      skip: $skip
-      sort: {fields: fileAbsolutePath, order: DESC}
-    ) {
-      nodes {
-        excerpt(pruneLength: 250)
-        id
-        fileAbsolutePath
-      }
-      pageInfo {
-        pageCount
-      }
-    }
     allAirtable(
-      limit: $limit
-      skip: $skip
       filter: {
         table: {eq: "Posts"}
         data: {DD_Post: {eq: null}, Event_Post: {eq: null}}
       }
+      limit: $limit
+      skip: $skip
       sort: {fields: data___post_date, order: DESC}
     ) {
       nodes {
@@ -89,6 +77,18 @@ export const query = graphql`
           post_title
           post_date(formatString: "MMMM D, YYYY")
         }
+      }
+      pageInfo {
+        pageCount
+      }
+    }
+    allMarkdownRemark(
+      filter: {fields: {sourceName: {eq: "news"}}}
+    ) {
+      nodes {
+        excerpt(pruneLength: 250)
+        id
+        fileAbsolutePath
       }
     }
   }
