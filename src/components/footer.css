@@ -1,8 +1,11 @@
+@import 'variables.css';
+
 footer {
-  font-size: 0.789rem;
-  color: #8c8989;
   background-color: #282a2b;
   border-color: #4b4c4d;
+  color: #8c8989;
+  font-size: 0.789rem;
+  padding: 0 var(--base-content-padding);
 }
 footer a {
   color: #bfbfbf;

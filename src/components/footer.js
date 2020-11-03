@@ -7,7 +7,7 @@ import './footer.css'
 class Footer extends React.Component {
   render() {
     return( 
-      <footer className="innerWrapper">
+      <footer>
         <Nav />
         <div>
           <div>

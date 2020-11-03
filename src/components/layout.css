@@ -20,14 +20,14 @@ a:hover {
 img {
   border-style: none;
 }
-.innerWrapper {
-  padding: 0 var(--base-content-padding);
-}
 li {
   margin-bottom: calc(1rem / 2);
 }
 li *:last-child {
   margin-bottom: 0;
+}
+main {
+  padding: 0 var(--base-content-padding);
 }
 p *:last-child {
   margin-bottom: 0;

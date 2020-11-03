@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
       <a className="skip-link" href="#main-content">Skip to main content</a>
       <div className="outerWrapper">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main id="main-content" className="innerWrapper">
+        <main id="main-content">
           {children}
         </main>
         <Footer />
