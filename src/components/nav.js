@@ -21,7 +21,7 @@ const Nav = () => {
 
   return(
     <nav className="nav-bar">
-      <ul className="container">
+      <ul>
         {data.site.siteMetadata.navLinks.map(link=> (
           <li
             key={link.name}
