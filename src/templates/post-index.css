@@ -23,11 +23,13 @@ h2.post-title {
   margin-top: 1rem;
 }
 .pagination {
-  display: grid;
+  display: flex;
+  justify-content: flex-start;
+  /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
-  justify-items: center;
+  justify-items: center; */
 }
 .pagination > .label {
   grid-column: 1 / 3;
@@ -39,6 +41,7 @@ h2.post-title {
   border-radius: 0.25rem;
   border: 1px solid transparent;
   place-self: center stretch;
+  flex: 1 1 auto;
   text-align: center;
   color: inherit;
   font-weight: 500;

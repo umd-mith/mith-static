@@ -31,8 +31,29 @@ footer {
     }
 }
 @media screen and (min-width: 61em) {
+    header,
+    nav,
+    footer,
+    .page-home,
+    .page-people,
+    .page-news {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 1rem;
+    }
+    .logo,
+    .navbar,
+    .small-print,
+    .leader,
+    .news {
+        grid-column: 2 / 10;
+    }
+    .pagination {
+        grid-column: 2 / 12;
+    }
     .page-people > section {
         display: grid;
+        grid-column: 2 / 12;
         grid-template-columns: repeat(3, 1fr);
     }
     .page-people > section > h1 {
