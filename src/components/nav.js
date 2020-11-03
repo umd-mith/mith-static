@@ -21,9 +21,9 @@ const Nav = () => {
 
   return(
     <nav>
-      <ul>
+      <ul className="navbar">
         {data.site.siteMetadata.navLinks.map(link=> (
-          <li
+          <li className="navbar-item"
             key={link.name}
           >
           <Link activeClassName="active" to={link.link}>{link.name}</Link>

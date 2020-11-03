@@ -13,47 +13,47 @@ const PostIndex = ({data}) => {
   return (
 		<Layout>
       <SEO title="MITH News" />
-      <section className="leader">
-        <h1>News</h1>
-      </section>
-      <section className="news">
-        {posts.map(post => {
-          const slug = '/news/' + post.slug
-          const markdownFile = post.slug + '.md'
+      <div className="page-news">
+        <section className="news">
+          <h1>News</h1>
+          {posts.map(post => {
+            const slug = '/news/' + post.slug
+            const markdownFile = post.slug + '.md'
 
-          // pick out the markdown file that has the same slug
-          const doc = data.allMarkdownRemark.nodes.find(
-            n => n.fileAbsolutePath.match(markdownFile)
-          )
+            // pick out the markdown file that has the same slug
+            const doc = data.allMarkdownRemark.nodes.find(
+              n => n.fileAbsolutePath.match(markdownFile)
+            )
 
-          return (
-            <article className="post" key={`news-${post.id}`}>
-              <h2 className="post-title">
-                <Link to={slug}>{post.post_title}</Link>
-              </h2>
-              <div className="post-meta">
-                by <span className="author">{post.author_name}</span>
-                {' '}on <time>{post.post_date}</time>
-              </div>
-              <div className="post-excerpt">
-                {doc.excerpt} 
-                <Link to={slug} className="read-more">continue reading</Link>
-              </div>
-            </article>
-          )
-        })}
-      </section>
-      <div className="pagination">
-        <span className="label hidden">Pages:</span>
-        {Array.from({ length: pageCount }, (_, i) => (
-          <Link
-            activeClassName="active" 
-            className="page-link"
-            key={`pagination-number${i + 1}`}
-            to={`/news/${i === 0 ? "" : i + 1}`}>
-            {i + 1}
-          </Link>
-        ))}
+            return (
+              <article className="post" key={`news-${post.id}`}>
+                <h2 className="post-title">
+                  <Link to={slug}>{post.post_title}</Link>
+                </h2>
+                <div className="post-meta">
+                  by <span className="author">{post.author_name}</span>
+                  {' '}on <time>{post.post_date}</time>
+                </div>
+                <div className="post-excerpt">
+                  {doc.excerpt} 
+                  <Link to={slug} className="read-more">continue reading</Link>
+                </div>
+              </article>
+            )
+          })}
+        </section>
+        <div className="pagination">
+          <span className="label hidden">Pages:</span>
+          {Array.from({ length: pageCount }, (_, i) => (
+            <Link
+              activeClassName="active" 
+              className="page-link"
+              key={`pagination-number${i + 1}`}
+              to={`/news/${i === 0 ? "" : i + 1}`}>
+              {i + 1}
+            </Link>
+          ))}
+        </div>
       </div>
     </Layout>
   )

@@ -15,13 +15,14 @@ nav a {
   text-transform: uppercase;
   color: #777;
 }
-nav ul {
+.navbar {
   display: flex;
   justify-content: flex-start;
   flex: 1 0 100%;
   list-style: none;
 }
-nav ul li {
+
+.navbar-item {
   position: relative;
   margin: 0;
   padding: 0 2rem 0 0;
