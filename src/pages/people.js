@@ -23,7 +23,7 @@ const PeoplePage = ({ data }) => {
         </Link>
       : ''
       return (
-      <article className="col-4 col-4-lg col-4-md col-6-sm col-6-xs person" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
+      <article className="person" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
         {img}
         <h3 className="name"><Link key={`p-${person.data.id}`} to={person.data.slug}>{person.data.name}</Link></h3>
         <div className="title">{person.data.title}</div>
@@ -36,15 +36,15 @@ const PeoplePage = ({ data }) => {
 		<Layout>
       <SEO title="People" />
       <div className="page-people">
-        <section id="facstaff" className="columns">
-          <h1 className="col-12">Faculty &amp; Staff</h1>
+        <section id="facstaff">
+          <h1>Faculty &amp; Staff</h1>
           {data.people.group
             .filter(g => g.fieldValue !== 'Affiliates' && g.fieldValue.match(/^[^P]/))
             .map(makePeople)
           }
         </section>
-        <section id="affiliates" className="columns">
-          <h1 className="col-12">Affiliates</h1>
+        <section id="affiliates">
+          <h1>Affiliates</h1>
           {data.people.group
             .filter(g => g.fieldValue === 'Affiliates')
             .map(makePeople)
