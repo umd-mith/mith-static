@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/layout'
+import Paginator from '../components/paginator'
 import SEO from '../components/seo'
 
 import './post-index.css'
@@ -42,18 +43,7 @@ const PostIndex = ({data}) => {
             )
           })}
         </section>
-        <div className="pagination">
-          <span className="label hidden">Pages:</span>
-          {Array.from({ length: pageCount }, (_, i) => (
-            <Link
-              activeClassName="active" 
-              className="page-link"
-              key={`pagination-number${i + 1}`}
-              to={`/news/${i === 0 ? "" : i + 1}`}>
-              {i + 1}
-            </Link>
-          ))}
-        </div>
+        <Paginator count={pageCount} />
       </div>
     </Layout>
   )
