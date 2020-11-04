@@ -36,8 +36,7 @@ footer {
     footer,
     .page-home,
     .page-people,
-    .page-news,
-    .post {
+    .page-news {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap: 1rem;
@@ -46,10 +45,7 @@ footer {
     .navbar,
     .small-print,
     .leader,
-    .news,
-    .post-title,
-    .post-meta,
-    .post-content {
+    .news {
         grid-column: 2 / 10;
     }
     .pagination {
