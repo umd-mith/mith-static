@@ -40,12 +40,11 @@ const Person = ({ pageContext: person }) => {
   return (
     <Layout>
       <SEO title={name} />
-      <section className="leader">
-        <h1>{name}</h1>
-      </section>
-      <section className="columns">
+      <div className="page-person">
+      <h1>{name}</h1>
+      <section className="person">
         {photo}
-        <div className="col-8 col-8-lg col-8-md col-7-sm col-6-xs">
+        <div>
           <h2 className="title">{person.title}</h2>
           <div className="metadata">
             {email} {phone} {website} {twitter}
@@ -53,6 +52,7 @@ const Person = ({ pageContext: person }) => {
         </div>
         {bio}
       </section>
+      </div>
     </Layout>
   )
 }
