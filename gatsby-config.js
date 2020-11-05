@@ -48,7 +48,6 @@ module.exports = {
       options: {
         stripMetadata: false,
         defaultQuality: 100,
-        background: `rgba(255,255,255,0)`
       }
     },
     {
