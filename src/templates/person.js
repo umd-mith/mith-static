@@ -19,20 +19,21 @@ const Person = ({ pageContext: person }) => {
       }}
       />
     : ''
-  const icon_email = <FontAwesomeIcon icon="envelope" />
+  const iconEmail = <FontAwesomeIcon icon="envelope" />
   const email = person.email
     ? <><a className="meta email" href={`mailto:${person.email}`}>
-        {icon_email} {person.email}
+        {iconEmail} {person.email}
       </a></> : ''
-  const icon_phone = <FontAwesomeIcon icon="mobile-alt" />
+  const iconPhone = <FontAwesomeIcon icon="mobile-alt" />
   const phone = person.phone
-    ? <p className="meta phone">{icon_phone} {person.phone}</p> : ''
+    ? <p className="meta phone">{iconPhone} {person.phone}</p> : ''
+  const iconWeb = <FontAwesomeIcon icon="globe" />
   const website = person.website
-    ? <><a className="meta website" href={person.website}>{person.website}</a></> : ''
-  const icon_twitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
+    ? <><a className="meta website" href={`https://${person.website}`}>{iconWeb} {person.website}</a></> : ''
+  const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
   const twitter = person.twitter
     ? <><a className="meta twitter" href={`https://twitter.com/${person.twitter}`}>
-        {icon_twitter} {person.twitter}
+        {iconTwitter} {person.twitter}
       </a></> : ''
   const bio = person.bio
     ? <div className='col-12' dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''

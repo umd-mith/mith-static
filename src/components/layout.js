@@ -8,9 +8,20 @@ import Footer from './footer'
 import './layout.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faMobileAlt, faBars } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faEnvelope, faTwitter, faMobileAlt, faBars)
+import { fab } from '@fortawesome/free-brands-svg-icons'
+const { fas } = require('@fortawesome/free-solid-svg-icons')
+
+// add just what we need from font-awesome
+
+library.add(
+  fab.faTwitter,
+  fas.faEnvelope,
+  fas.faMobileAlt,
+  fas.faBars,
+  fas.faGlobe
+)
+
+console.log(library)
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

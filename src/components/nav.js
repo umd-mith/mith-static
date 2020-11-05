@@ -3,7 +3,6 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import './nav.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Nav = () => {
   const data = useStaticQuery(graphql`
