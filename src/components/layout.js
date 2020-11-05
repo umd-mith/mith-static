@@ -21,8 +21,6 @@ library.add(
   fas.faGlobe
 )
 
-console.log(library)
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
