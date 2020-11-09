@@ -44,7 +44,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "publish": "gatsby clean && gatsby build && rsync --archive --recursive --delete public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu",
-    "compose": "./scripts/newBlogPost.js",
+    "compose": "./scripts/compose.js",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
