@@ -9,7 +9,8 @@ html {
 a {
   color: rgb(183,191,16);
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-skip: spaces;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
