@@ -4,6 +4,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import './post.css'
+
 const Post = ({ data, pageContext: post }) => {
   const postInfo = data.postInfo.nodes[0]
   if (!postInfo) return null
@@ -11,7 +13,7 @@ const Post = ({ data, pageContext: post }) => {
   return (
     <Layout>
       <SEO title={metadata.post_title} />
-      <section className="post">
+      <section className="post flow">
         <h1 className="post-title">{metadata.post_title}</h1> 
         <div className="post-meta">
           by {metadata.author_name} on {metadata.post_date}
