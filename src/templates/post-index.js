@@ -26,6 +26,13 @@ const PostIndex = ({data}) => {
               n => n.fileAbsolutePath.match(markdownFile)
             )
 
+            // if there is no doc then we're missing the markdown file for a blog
+            // post that is in airtable 
+            
+            if (! doc) {
+              throw new Error(`missing markdown post for slug ${post.slug}`)
+            }
+
             return (
               <article className="post" key={`news-${post.id}`}>
                 <h2 className="post-title">
