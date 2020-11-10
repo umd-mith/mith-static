@@ -151,7 +151,7 @@ module.exports = {
         feeds: [
           {
             title: `MITH News`,
-            output: `news.xml`,
+            output: `/news/feed.xml`,
             serialize: ({query: {site, allAirtable}}) => {
               return allAirtable.nodes.map(node => (
                 {
