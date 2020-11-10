@@ -4,6 +4,7 @@ module.exports = {
   pathPrefix: `mith-static`,
   siteMetadata: {
     title: `MITH`,
+    siteUrl: 'https://mith.umd.edu',
     description: `Maryland Institute for Technology in the Humanities`,
     author: `@UMD_MITH`,
     navLinks: [
@@ -77,14 +78,14 @@ module.exports = {
         ]
       }
     },
-		{
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages/`,
       },
     },
-		{
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `news`,
@@ -132,5 +133,58 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            title: `MITH News`,
+            output: `news.xml`,
+            serialize: ({query: {site, allAirtable}}) => {
+              return allAirtable.nodes.map(node => (
+                {
+                  url: site.siteMetadata.siteUrl + '/news/' + node.data.slug,
+                  title: node.data.title,
+                  date: node.data.date,
+                }
+              ))
+            },
+            query: `
+              {
+                allAirtable(
+                  filter: {
+                    table: {eq: "Posts"}
+                    data: {DD_Post: {eq: null}, Event_Post: {eq: null}}
+                  }
+                  limit: 25
+                  sort: {fields: data___post_date, order: DESC}
+                ) {
+                  nodes {
+                    data {
+                      slug
+                      author: author_name
+                      title: post_title
+                      date: post_date
+                    }
+                  }
+                }
+              }
+            `
+          }
+        ]
+      }
+    }
   ]
 }

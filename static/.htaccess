@@ -21,7 +21,8 @@ RewriteRule ^community/fellowships/(.*)$ /curricula/fellowships/$1
 RewriteRule ^community/internships/ /curricula/internships/
 RewriteRule ^community/partnership/(.*)$ /about/partnership/$1
 RewriteRule ^community/sponsors-giving/ /about/sponsors-giving/
-RewriteRule ^community/ /about/
+RewriteRule ^community/$ /about/
+RewriteRule ^feed/$ /news.xml
 
 # These are blog posts that have moved to /news/
 
