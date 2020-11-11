@@ -28,6 +28,10 @@ module.exports = {
         name: "People",
         link: "/people/"
       },
+      {
+        name: "Research",
+        link: "/research/"
+      },
       // {
       //   name: "Partner With Us",
       //   link: "/partner-with-us/"
@@ -127,6 +131,13 @@ module.exports = {
             baseId: process.env.AIRTABLE_POSTS_BASE_ID,
             tableName: `Posts`,
             queryName: 'PostsTable',
+            createSeparateNodeType: true,
+            separateMapType: true,
+          },
+          {
+            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
+            tableName: `Projects`,
+            queryName: 'ResearchTable',
             createSeparateNodeType: true,
             separateMapType: true,
           }

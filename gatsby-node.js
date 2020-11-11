@@ -4,6 +4,8 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makePeople(createPage, graphql, pathPrefix)
   await makePosts(createPage, graphql, pathPrefix)
   await makePostIndex(createPage, graphql, pathPrefix)
+  await makeResearchIndex(createPage, graphql, pathPrefix)
+  await makeResearchItem(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql, pathPrefix) {
@@ -122,4 +124,69 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
       }
     })
   })
+}
+
+async function makeResearchIndex(createPage, graphql, pathPrefix) {
+  const results = await graphql(`
+    query {
+      allAirtable(filter: {table: {eq: "Projects"}}) {
+        pageInfo {
+          itemCount
+        }
+      }
+    }  
+  `)
+
+  const numItems = results.data.allAirtable.pageInfo.itemCount
+  const itemsPerPage = 25
+  const numPages = Math.ceil(numItems / itemsPerPage)
+
+  Array.from({ length: numItems }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/research` : `/research/${i + 1}`,
+      component: path.resolve("./src/templates/research-index.js"),
+      context: {
+        limit: itemsPerPage,
+        skip: i * itemsPerPage,
+        numPages,
+        currentPage: i + 1
+      }
+    })
+  })
+}
+
+async function makeResearchItem(createPage, graphql, pathPrefix) {
+  const results = await graphql(`
+    query {
+      allAirtable(
+        filter: {table: {eq: "Projects"}}
+      ) {
+        nodes {
+          data {
+            title
+            slug
+            description_excerpt
+            year_start
+            month_start
+            year_end
+            month_end
+            project_directors
+            participants
+            active
+          }
+        }
+      }
+    }  
+  `)
+
+  for (const node of results.data.allAirtable.nodes) {
+    const item = node.data
+    createPage({
+      path: `/research/${item.slug}/`,
+      component: require.resolve(`./src/templates/research-item.js`),
+      context: {
+        ...item
+      }
+    })
+  }
 }

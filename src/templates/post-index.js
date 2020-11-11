@@ -50,7 +50,7 @@ const PostIndex = ({data}) => {
             )
           })}
         </section>
-        <Paginator count={pageCount} />
+        <Paginator count={pageCount} path="news" />
       </div>
     </Layout>
   )
