@@ -58,12 +58,12 @@ export const query = graphql`
     ) {
       nodes {
         data {
-          id
+          new_id
           group_name
           slug
           linked_people {
             data {
-              id
+              new_id
               name
               slug
               date_spans {
