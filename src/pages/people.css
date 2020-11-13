@@ -1,5 +1,5 @@
 .people-group {
-  margin-bottom: 1.75rem;
+  margin-bottom: 3rem;
 }
 .people-group span {
   display: inline-block;
@@ -8,7 +8,7 @@
   margin-bottom: 0.1rem;
 }
 .person {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .person .name {
   margin-bottom: 0.5rem;
