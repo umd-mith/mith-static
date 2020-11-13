@@ -22,11 +22,9 @@ const Nav = () => {
     <nav>
       <ul className="navbar">
         {data.site.siteMetadata.navLinks.map(link=> (
-          <li className="navbar-item"
-            key={link.name}
-          >
-          <Link activeClassName="active" to={link.link}>{link.name}</Link>
-        </li>
+          <li key={link.name} >
+            <Link activeClassName="active" to={link.link}>{link.name}</Link>
+          </li>
         ))}
       </ul>
     </nav>
