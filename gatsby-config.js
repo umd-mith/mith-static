@@ -140,6 +140,21 @@ module.exports = {
             queryName: 'ResearchTable',
             createSeparateNodeType: true,
             separateMapType: true,
+          },
+          {
+            baseId: process.env.AIRTABLE_EVENTS_BASE_ID,
+            tableName: 'Events',
+            queryName: 'EventsTable',
+            tableLinks: [`speakers`],
+            createSeparateNodeType: true,
+            separateMapType: true,
+          },
+          {
+            baseId: process.env.AIRTABLE_EVENTS_BASE_ID,
+            tableName: 'Speaker(s)',
+            queryName: 'SpeakersTable',
+            createSeparateNodeType: true,
+            separateMapType: true,
           }
         ]
       }

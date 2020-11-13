@@ -4,8 +4,10 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makePeople(createPage, graphql, pathPrefix)
   await makePosts(createPage, graphql, pathPrefix)
   await makePostIndex(createPage, graphql, pathPrefix)
+  await makeResearch(createPage, graphql, pathPrefix)
   await makeResearchIndex(createPage, graphql, pathPrefix)
-  await makeResearchItem(createPage, graphql, pathPrefix)
+  await makeEvents(createPage, graphql, pathPrefix)
+  // await makeEventIndex(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql, pathPrefix) {
@@ -155,7 +157,7 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
   })
 }
 
-async function makeResearchItem(createPage, graphql, pathPrefix) {
+async function makeResearch(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
       allAirtable(
@@ -183,9 +185,68 @@ async function makeResearchItem(createPage, graphql, pathPrefix) {
     const item = node.data
     createPage({
       path: `/research/${item.slug}/`,
-      component: require.resolve(`./src/templates/research-item.js`),
+      component: require.resolve(`./src/templates/research.js`),
       context: {
         ...item
+      }
+    })
+  }
+}
+
+async function makeEventIndex(createPage, graphql, pathPrefix) {
+  const results = await graphql(`
+    query {
+      allAirtable(filter: {table: {eq: "Events"}}) {
+        pageInfo {
+          itemCount
+        }
+      }
+    }  
+  `)
+
+  const numItems = results.data.allAirtable.pageInfo.itemCount
+  const itemsPerPage = 25
+  const numPages = Math.ceil(numItems / itemsPerPage)
+
+  Array.from({ length: numItems }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/research` : `/research/${i + 1}`,
+      component: path.resolve("./src/templates/event-index.js"),
+      context: {
+        limit: itemsPerPage,
+        skip: i * itemsPerPage,
+        numPages,
+        currentPage: i + 1
+      }
+    })
+  })
+}
+
+async function makeEvents(createPage, graphql) {
+  const results = await graphql(`
+    query {
+      allAirtable(
+        filter: {table: {eq: "Events"}}
+      ) {
+        nodes {
+          data {
+            id
+            slug
+            title
+            description
+          }
+        }
+      }
+    }  
+  `)
+
+  for (const node of results.data.allAirtable.nodes) {
+    const event = node.data
+    createPage({
+      path: `/events/${item.slug}/`,
+      component: require.resolve(`./src/templates/event.js`),
+      context: {
+        ...event
       }
     })
   }

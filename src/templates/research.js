@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import './post-index.css'
 
-const ResearchItem = ({ pageContext: item }) => {
+const Research = ({ pageContext: item }) => {
   return (
     <Layout>
       <SEO title={item.title} />
@@ -22,4 +22,4 @@ const ResearchItem = ({ pageContext: item }) => {
   )
 }
 
-export default ResearchItem
+export default Research
