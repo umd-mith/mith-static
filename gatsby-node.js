@@ -14,7 +14,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
       allAirtable(filter: {table: {eq: "People"}}) {
         nodes {
           data {
-            id
+            new_id
             bio {
               childMarkdownRemark {
                 html
@@ -29,7 +29,6 @@ async function makePeople(createPage, graphql, pathPrefix) {
               }
             }
             research_interests
-            record_id
             phone
             name
             links

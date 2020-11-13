@@ -121,8 +121,8 @@ module.exports = {
           },
           {
             baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
-            tableName: `Dates`,
-            queryName: 'DatesTable',
+            tableName: `Affiliations`,
+            queryName: 'AffiliationsTable',
             tableLinks: [`linked_people`],
             createSeparateNodeType: true,
             separateMapType: true,

@@ -11,7 +11,7 @@ const PeoplePage = ({ data }) => {
   function makePeople(people) {
     return people.nodes.map(person => {
       const img = person.data.headshot 
-      ? <Link key={`p-${person.data.id}`} to={person.data.slug}>
+      ? <Link key={`p-${person.data.new_id}`} to={person.data.slug}>
         <Img 
           fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} 
           alt={`Headshot of ${person.data.name}`} 
@@ -23,9 +23,9 @@ const PeoplePage = ({ data }) => {
         </Link>
       : ''
       return (
-      <article className="person" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
+      <article className="person" id={person.data.new_id} title={person.data.name} key={`p-${person.data.new_id}`}>
         {img}
-        <h3 className="name"><Link key={`p-${person.data.id}`} to={person.data.slug}>{person.data.name}</Link></h3>
+        <h3 className="name"><Link key={`p-${person.data.new_id}`} to={person.data.slug}>{person.data.name}</Link></h3>
         <div className="title">{person.data.title}</div>
       </article>
       )
@@ -71,7 +71,7 @@ export const query = graphql`
         fieldValue
         nodes {
           data {          
-            id
+            new_id
             slug
             name
             first
