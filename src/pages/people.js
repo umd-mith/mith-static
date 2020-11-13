@@ -36,14 +36,14 @@ const PeoplePage = ({ data }) => {
 		<Layout>
       <SEO title="People" />
       <div className="page-people">
-        <section id="facstaff">
+        <section id="facstaff" className="people-group">
           <h1>Faculty &amp; Staff</h1>
           {data.people.group
             .filter(g => g.fieldValue !== 'Affiliates' && g.fieldValue.match(/^[^P]/))
             .map(makePeople)
           }
         </section>
-        <section id="affiliates">
+        <section id="affiliates" className="people-group">
           <h1>Affiliates</h1>
           {data.people.group
             .filter(g => g.fieldValue === 'Affiliates')

@@ -1,68 +1,67 @@
 .outerWrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-    grid-gap: 1rem;
-    grid-template-areas: 
-        "header"
-        "nav"
-        "page-content"
-        "footer";
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-gap: 1rem;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "page-content"
+    "footer";
 }
 header {
-    grid-area: header;
+  grid-area: header;
 }
 nav {
-    grid-area: nav;
+  grid-area: nav;
 }
 main {
-    grid-area: page-content;
+  grid-area: page-content;
 }
 footer {
-    grid-area: footer;
+  grid-area: footer;
 }
 /* Media queries for grid layouts */
 @media screen and (min-width: 45em) {
-    .page-people > section {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .page-people > section > h1 {
-        grid-column: 1 / 3;
-    }
+  .page-people > section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
+  .page-people > section > h1 {
+    grid-column: 1 / 3;
+  }
 }
 @media screen and (min-width: 61em) {
-    header,
-    nav,
-    footer,
-    .page-home,
-    .page-people,
-    .page-person,
-    .page-news,
-    section.post {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 1rem;
-    }
-    .logo,
-    .navbar,
-    .small-print,
-    .leader,
-    section.person,
-    .news,
-    section.post > .post-title,
-    section.post > .post-meta,
-    section.post > .post-content {
-        grid-column: 2 / 10;
-    }
-    .pagination {
-        grid-column: 2 / 12;
-    }
-    .page-people > section {
-        display: grid;
-        grid-column: 2 / 12;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .page-people > section > h1 {
-        grid-column: 1 / 4;
-    }
+  header,
+  nav,
+  footer,
+  #main-content > div,
+  .leader,
+  section.post {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+  }
+  .logo,
+  .navbar,
+  .small-print,
+  section.person,
+  .news,
+  section.post > .post-title,
+  section.post > .post-meta,
+  section.post > .post-content {
+    grid-column: 2 / 10;
+  }
+  .pagination {
+    grid-column: 2 / 12;
+  }
+  .page-people > section {
+    display: grid;
+    grid-column: 2 / 12;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  .page-people > section > h1 {
+    grid-column: 1 / 4;
+  }
 }
