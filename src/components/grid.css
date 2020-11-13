@@ -36,7 +36,6 @@ footer {
   nav,
   footer,
   #main-content > div,
-  .leader,
   section.post {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -44,13 +43,14 @@ footer {
   }
   .logo,
   .navbar,
+  .leader,
   .small-print,
   section.person,
   .news,
   section.post > .post-title,
   section.post > .post-meta,
   section.post > .post-content {
-    grid-column: 2 / 10;
+    grid-column: 2 / 12;
   }
   .pagination {
     grid-column: 2 / 12;
