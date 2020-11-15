@@ -7,7 +7,7 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makeResearch(createPage, graphql, pathPrefix)
   await makeResearchIndex(createPage, graphql, pathPrefix)
   await makeEvents(createPage, graphql, pathPrefix)
-  // await makeEventIndex(createPage, graphql, pathPrefix)
+  await makeEventIndex(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql, pathPrefix) {
@@ -209,7 +209,7 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
 
   Array.from({ length: numItems }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/research` : `/research/${i + 1}`,
+      path: i === 0 ? `/events/` : `/events/${i + 1}/`,
       component: path.resolve("./src/templates/event-index.js"),
       context: {
         limit: itemsPerPage,
@@ -229,10 +229,13 @@ async function makeEvents(createPage, graphql) {
       ) {
         nodes {
           data {
-            id
-            slug
-            title
+            id: ID
+            title: event_title
+            type: event_type
             description
+            start: start_date(formatString: "MMMM D, YYYY")
+            end: end_date(formatString: "MMMM D, YYYY")
+            location
           }
         }
       }
@@ -242,7 +245,7 @@ async function makeEvents(createPage, graphql) {
   for (const node of results.data.allAirtable.nodes) {
     const event = node.data
     createPage({
-      path: `/events/${item.slug}/`,
+      path: `/events/${event.id}/`,
       component: require.resolve(`./src/templates/event.js`),
       context: {
         ...event

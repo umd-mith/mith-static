@@ -6,42 +6,34 @@ import Paginator from '../components/paginator'
 import SEO from '../components/seo'
 
 import './post-index.css'
-import './research-index.css'
 
 const EventIndex = ({data}) => {
-  const items = data.allAirtable.nodes.map(n => n.data)
+  const events = data.allAirtable.nodes.map(n => n.data)
   const pageCount = data.allAirtable.pageInfo.pageCount
 
   return (
-		<Layout>
-      <SEO title="MITH Research" />
+    <Layout>
+      <SEO title="MITH Events" />
       <div className="page-news">
         <section className="news">
-          <h1>Research</h1>
-          {items.map(item => {
-            const slug = '/research/' + item.slug
-            const active = item.active === 'TRUE' ? <span class="research-active">Active</span> : ''
-            const ended = item.year_end ? <span> ended on <time>{item.year_end}</time></span> : ''
-
+          <h1>Events</h1>
+          {events.map(event => {
             return (
-              <article className="post" key={`research-${item.id}`}>
+              <article className="post" key={event.id}>
                 <h2 className="post-title">
-                  <Link to={slug}>{item.title}</Link>
+                  <Link to={`/events/${event.id}/`}>{event.title}</Link>
                 </h2>
                 <div className="post-meta">
-                  {active}
-                  Directors: <span className="author">{item.project_directors}</span>
-                  {' '}started on <time>{item.year_start}</time>
-                  {ended}
+                  {event.start} - {event.end} {event.type}
                 </div>
                 <div className="post-excerpt">
-                  {item.description_excerpt} 
+                  {event.description} 
                 </div>
               </article>
             )
           })}
         </section>
-        <Paginator count={pageCount} path="research" />
+        <Paginator count={pageCount} path="events" />
       </div>
     </Layout>
   )
@@ -55,29 +47,17 @@ export const query = graphql`
       }
       limit: $limit
       skip: $skip
-      sort: {fields: [data___active, data___slug], order: [DESC, ASC]}
+      sort: {fields: [data___start_date], order: [DESC]}
     ) {
       nodes {
         data {
-          id
-          slug
+          id: ID
           title: event_title
-          talkTitle: talk_title
+          type: event_type
           description
-          startDate: start_date
-          startTime: start_time
-          endDate: endDate
-          endTime: endTime
+          start: start_date(formatString: "MMMM D, YYYY HH:MM:SS")
+          end: end_date(formatString: "MMMM D, YYYY")
           location
-          topics
-          vimeoUrl: vimeo_url
-          liveStreamUrl: livestream_url
-          storifyUrl: storify_url
-          sutoriUrl: sutori_recap_url
-          twitterMomentUrl: twitter_moment
-          files
-          adhoDisciplines: ADHO_Taxonomy_Disciplines__from_topics_
-          adhoMethods: ADHO_Taxonomy_Methods__from_topics_
         }
       }
       pageInfo {

@@ -10,11 +10,10 @@ const Event = ({ pageContext: event }) => {
       <section className="post flow">
         <h1 className="post-title">{event.title}</h1> 
         <div className="post-meta">
-          Directors: <span className="author">{event.project_directors}</span>
-          {' '}started on <time>{event.year_start}</time>
+          {event.start} - {event.end}
         </div>       
         <div className="post-content">
-          {event.description_excerpt}
+          {event.description}
         </div>
       </section>
     </Layout>
