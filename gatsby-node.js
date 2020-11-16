@@ -236,6 +236,10 @@ async function makeEvents(createPage, graphql) {
             start: start_date(formatString: "MMMM D, YYYY")
             end: end_date(formatString: "MMMM D, YYYY")
             location
+            vimeo_id
+            storify_url
+            sutori_embed
+            twitter_moment
           }
         }
       }
