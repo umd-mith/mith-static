@@ -19,10 +19,9 @@ nav ul li {
   padding: 0 2rem 0 0;
 }
 nav a {
-  padding: 12px 0 8px;
+  padding: .63rem 0 .42rem;
   border-bottom: 3px solid transparent;
   display: block;
-  font-size: 18px;
   font-weight: 600;   
   text-decoration: none;
   text-transform: uppercase;
