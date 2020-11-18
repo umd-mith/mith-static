@@ -29,7 +29,7 @@ nav a {
   letter-spacing: 1px;
 }
 nav a:hover, nav a.active {
-  border-bottom-color: var(--base-color);
+  border-bottom-color: var(--color-main);
 }
 
 /* mobile-specific nav styles */
@@ -50,6 +50,6 @@ nav a:hover, nav a.active {
   }
   nav a:hover, nav a.active {
     border-bottom-color: transparent;
-    color: var(--base-color)
+    color: var(--color-main)
   }
 }
