@@ -21,20 +21,28 @@ const Person = ({ pageContext: person }) => {
     : ''
   const iconEmail = <FontAwesomeIcon icon="envelope" />
   const email = person.email
-    ? <><a className="meta email" href={`mailto:${person.email}`}>
-        {iconEmail} {person.email}
-      </a></> : ''
+    ? <span className="meta email">
+        {iconEmail} 
+        <a href={`mailto:${person.email}`}>{person.email}</a>
+      </span> : ''
   const iconPhone = <FontAwesomeIcon icon="mobile-alt" />
   const phone = person.phone
-    ? <p className="meta phone">{iconPhone} {person.phone}</p> : ''
+    ? <span className="meta phone">
+        {iconPhone}
+        {person.phone}
+      </span> : ''
   const iconWeb = <FontAwesomeIcon icon="globe" />
   const website = person.website
-    ? <><a className="meta website" href={`https://${person.website}`}>{iconWeb} {person.website}</a></> : ''
+    ? <span className="meta website">
+        {iconWeb}
+        <a href={`https://${person.website}`}>{person.website}</a>
+      </span> : ''
   const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
   const twitter = person.twitter
-    ? <><a className="meta twitter" href={`https://twitter.com/${person.twitter}`}>
-        {iconTwitter} {person.twitter}
-      </a></> : ''
+    ? <span className="meta twitter">
+        {iconTwitter}
+        <a href={`https://twitter.com/${person.twitter}`}>{person.twitter}</a>
+      </span> : ''
   const bio = person.bio
     ? <div className='col-12' dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''
 

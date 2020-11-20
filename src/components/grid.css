@@ -50,7 +50,7 @@ footer {
   section.post > .post-title,
   section.post > .post-meta,
   section.post > .post-content {
-    grid-column: 2 / 12;
+    grid-column: 3 / 10;
   }
   .pagination {
     grid-column: 2 / 12;

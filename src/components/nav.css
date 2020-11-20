@@ -19,10 +19,9 @@ nav ul li {
   padding: 0 2rem 0 0;
 }
 nav a {
-  padding: 12px 0 8px;
+  padding: .63rem 0 .42rem;
   border-bottom: 3px solid transparent;
   display: block;
-  font-size: 18px;
   font-weight: 600;   
   text-decoration: none;
   text-transform: uppercase;
@@ -30,7 +29,7 @@ nav a {
   letter-spacing: 1px;
 }
 nav a:hover, nav a.active {
-  border-bottom-color: var(--base-color);
+  border-bottom-color: var(--color-main);
 }
 
 /* mobile-specific nav styles */
@@ -51,6 +50,6 @@ nav a:hover, nav a.active {
   }
   nav a:hover, nav a.active {
     border-bottom-color: transparent;
-    color: var(--base-color)
+    color: var(--color-main)
   }
 }
