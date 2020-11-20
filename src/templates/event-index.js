@@ -55,8 +55,8 @@ export const query = graphql`
           title: event_title
           type: event_type
           description
-          start: start_date(formatString: "MMMM D, YYYY HH:MM:SS")
-          end: end_date(formatString: "MMMM D, YYYY")
+          start: start_date
+          end: end_date
           location
         }
       }

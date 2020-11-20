@@ -233,13 +233,14 @@ async function makeEvents(createPage, graphql) {
             title: event_title
             type: event_type
             description
-            start: start_date(formatString: "MMMM D, YYYY")
-            end: end_date(formatString: "MMMM D, YYYY")
+            start: start_date
+            end: end_date
             location
-            vimeo_id
-            storify_url
-            sutori_embed
-            twitter_moment
+            vimeoId: vimeo_id
+            storifyUrl: storify_url
+            sutoriEmbed: sutori_embed
+            twitterMoment: twitter_moment
+            image: image_link
           }
         }
       }
