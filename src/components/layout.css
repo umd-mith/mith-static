@@ -7,7 +7,7 @@ html {
   overflow-y: scroll;
 }
 a {
-  color: rgb(183,191,16);
+  color: var(--color-main);
   background-color: transparent;
   text-decoration: none;
   text-decoration-skip: spaces;
@@ -17,6 +17,13 @@ a:active,
 a:hover {
   color: rgb(164,171,15);
   outline-width: 0;
+}
+main a {
+  border-bottom: 1px solid var(--color-gray-lt);
+}
+main a:active,
+main a:hover {
+  border-bottom: 1px solid var(--color-gray);
 }
 img {
   border-style: none;
