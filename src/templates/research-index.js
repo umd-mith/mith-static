@@ -30,12 +30,12 @@ const ResearchIndex = ({data}) => {
                 </h2>
                 <div className="post-meta">
                   {active}
-                  Directors: <span className="author">{item.project_directors}</span>
+                  Directors: <span className="director">{item.directors}</span>
                   {' '}started on <time>{item.year_start}</time>
                   {ended}
                 </div>
                 <div className="post-excerpt">
-                  {item.description_excerpt} 
+                  {item.excerpt} 
                 </div>
               </article>
             )
@@ -61,12 +61,13 @@ export const query = graphql`
         data {
           title
           slug
-          description_excerpt
+          description
+          excerpt
           year_start
           month_start
           year_end
           month_end
-          project_directors
+          directors
           participants
           active
         }

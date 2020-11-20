@@ -166,12 +166,13 @@ async function makeResearch(createPage, graphql, pathPrefix) {
           data {
             title
             slug
-            description_excerpt
+            description
+            excerpt
             year_start
             month_start
             year_end
             month_end
-            project_directors
+            directors
             participants
             active
           }

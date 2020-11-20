@@ -11,11 +11,11 @@ const Research = ({ pageContext: item }) => {
       <section className="post flow">
         <h1 className="post-title">{item.title}</h1> 
         <div className="post-meta">
-          Directors: <span className="author">{item.project_directors}</span>
+          Directors: <span className="director">{item.directors}</span>
           {' '}started on <time>{item.year_start}</time>
         </div>       
         <div className="post-content">
-          {item.description_excerpt}
+          {item.excerpt}
         </div>
       </section>
     </Layout>
