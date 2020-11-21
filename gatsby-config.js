@@ -140,6 +140,9 @@ module.exports = {
             queryName: 'ResearchTable',
             createSeparateNodeType: true,
             separateMapType: true,
+            mapping: {
+              description: 'text/markdown'
+            },
           },
           {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
@@ -147,6 +150,9 @@ module.exports = {
             queryName: 'EventsTable',
             createSeparateNodeType: true,
             separateMapType: true,
+            mapping: {
+              description: 'text/markdown'
+            },
           }
         ]
       }
@@ -159,8 +165,12 @@ module.exports = {
             site {
               siteMetadata {
                 title
-                description
                 siteUrl
+                description {
+                  childMarkdownRemark {
+                    excerpt
+                  }
+                }
                 site_url: siteUrl
               }
             }

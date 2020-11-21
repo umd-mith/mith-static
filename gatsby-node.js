@@ -144,7 +144,7 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
 
   Array.from({ length: numItems }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/research` : `/research/${i + 1}`,
+      path: i === 0 ? `/research` : `/research/${i + 1}/`,
       component: path.resolve("./src/templates/research-index.js"),
       context: {
         limit: itemsPerPage,
@@ -166,7 +166,20 @@ async function makeResearch(createPage, graphql, pathPrefix) {
           data {
             title
             slug
-            description
+            description {
+              childMarkdownRemark {
+                html
+              }
+            }
+            image {
+              thumbnails {
+                large {
+                  url
+                  height
+                  width
+                }
+              }
+            }
             excerpt
             year_start
             month_start
@@ -230,10 +243,14 @@ async function makeEvents(createPage, graphql) {
       ) {
         nodes {
           data {
-            id: ID
+            slug
             title: event_title
             type: event_type
-            description
+            description {
+              childMarkdownRemark {
+                html
+              }
+            }
             start: start_date
             end: end_date
             location
@@ -251,7 +268,7 @@ async function makeEvents(createPage, graphql) {
   for (const node of results.data.allAirtable.nodes) {
     const event = node.data
     createPage({
-      path: `/events/${event.id}/`,
+      path: `/events/${event.slug}/`,
       component: require.resolve(`./src/templates/event.js`),
       context: {
         ...event
