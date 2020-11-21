@@ -166,11 +166,7 @@ module.exports = {
               siteMetadata {
                 title
                 siteUrl
-                description {
-                  childMarkdownRemark {
-                    excerpt
-                  }
-                }
+                description
                 site_url: siteUrl
               }
             }
