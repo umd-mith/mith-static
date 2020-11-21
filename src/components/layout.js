@@ -18,7 +18,8 @@ library.add(
   fas.faEnvelope,
   fas.faMobileAlt,
   fas.faBars,
-  fas.faGlobe
+  fas.faGlobe,
+  fas.faCalendar
 )
 
 const Layout = ({ children }) => {

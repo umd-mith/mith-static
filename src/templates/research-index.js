@@ -13,13 +13,13 @@ const ResearchIndex = ({data}) => {
   const pageCount = data.allAirtable.pageInfo.pageCount
 
   return (
-		<Layout>
+    <Layout>
       <SEO title="MITH Research" />
       <div className="page-news">
         <section className="news">
           <h1>Research</h1>
           {items.map(item => {
-            const slug = '/research/' + item.slug
+            const slug = '/research/' + item.slug + '/'
             const active = item.active === 'TRUE' ? <span class="research-active">Active</span> : ''
             const ended = item.year_end ? <span> ended on <time>{item.year_end}</time></span> : ''
 
@@ -35,7 +35,7 @@ const ResearchIndex = ({data}) => {
                   {ended}
                 </div>
                 <div className="post-excerpt">
-                  {item.excerpt} 
+                  {item.description ? item.description.childMarkdownRemark.excerpt : ''} 
                 </div>
               </article>
             )
@@ -61,8 +61,11 @@ export const query = graphql`
         data {
           title
           slug
-          description
-          excerpt
+          description {
+            childMarkdownRemark {
+              excerpt
+            }
+          }
           year_start
           month_start
           year_end

@@ -1,9 +1,11 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Layout from '../components/layout'
 import Paginator from '../components/paginator'
 import SEO from '../components/seo'
+import EventTime from '../components/event-time'
 
 import './post-index.css'
 
@@ -19,16 +21,15 @@ const EventIndex = ({data}) => {
           <h1>Events</h1>
           {events.map(event => {
             return (
-              <article className="post" key={event.id}>
+              <article className="post" key={event.slug}>
                 <h2 className="post-title">
-                  <Link to={`/events/${event.id}/`}>{event.title}</Link>
+                  <FontAwesomeIcon icon="calendar" /> &nbsp; 
+                  <Link to={`/events/${event.slug}/`}>{event.title}</Link>
                 </h2>
                 <div className="post-meta">
-                  {event.start} - {event.end} {event.type}
+                  <EventTime start={event.start} end={event.end} />
                 </div>
-                <div className="post-excerpt">
-                  {event.description} 
-                </div>
+                <div className="post-excerpt">{event.description.childMarkdownRemark.excerpt}</div>
               </article>
             )
           })}
@@ -51,10 +52,14 @@ export const query = graphql`
     ) {
       nodes {
         data {
-          id: ID
+          slug
           title: event_title
           type: event_type
-          description
+          description {
+            childMarkdownRemark {
+              excerpt(pruneLength: 250)
+            }
+          }
           start: start_date
           end: end_date
           location

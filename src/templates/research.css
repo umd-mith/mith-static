@@ -1,0 +1,7 @@
+.project-image {
+  display: block;
+  width: 100%;
+  border: thin solid gray;
+  margin-bottom: 15px;
+  text-align: center;
+}
