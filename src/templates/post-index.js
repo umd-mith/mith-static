@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Layout from '../components/layout'
 import Paginator from '../components/paginator'
@@ -16,7 +17,12 @@ const PostIndex = ({data}) => {
       <SEO title="MITH News" />
       <div className="page-news">
         <section className="news">
-          <h1>News</h1>
+          <h1>
+            News &nbsp;
+            <a href="/news/feed.xml">
+              <FontAwesomeIcon title="News RSS Feed" icon="rss" />
+            </a>
+          </h1>
           {posts.map(post => {
             const slug = '/news/' + post.slug
             const markdownFile = post.slug + '.md'

@@ -18,15 +18,21 @@ const EventIndex = ({data}) => {
       <SEO title="MITH Events" />
       <div className="page-news">
         <section className="news">
-          <h1>Events</h1>
+          <h1>
+            Events &nbsp;
+            <a href="/events/feed.xml">
+              <FontAwesomeIcon title="Event RSS Feed" icon="rss" />
+            </a>
+          </h1>
           {events.map(event => {
             return (
               <article className="post" key={event.slug}>
                 <h2 className="post-title">
                   <FontAwesomeIcon icon="calendar" /> &nbsp; 
-                  <Link to={`/events/${event.slug}/`}>{event.title}</Link>
+                  <Link to={`/events/${event.slug}/`}>{event.talkTitle || event.eventTitle}</Link>
                 </h2>
                 <div className="post-meta">
+                  <span className="pill">{event.type}</span> &nbsp;
                   <EventTime start={event.start} end={event.end} />
                 </div>
                 <div className="post-excerpt">{event.description.childMarkdownRemark.excerpt}</div>
@@ -53,7 +59,8 @@ export const query = graphql`
       nodes {
         data {
           slug
-          title: event_title
+          evenTitle: event_title
+          talkTitle: talk_title
           type: event_type
           description {
             childMarkdownRemark {

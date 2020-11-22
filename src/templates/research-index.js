@@ -6,7 +6,6 @@ import Paginator from '../components/paginator'
 import SEO from '../components/seo'
 
 import './post-index.css'
-import './research-index.css'
 
 const ResearchIndex = ({data}) => {
   const items = data.allAirtable.nodes.map(n => n.data)
@@ -20,7 +19,7 @@ const ResearchIndex = ({data}) => {
           <h1>Research</h1>
           {items.map(item => {
             const slug = '/research/' + item.slug + '/'
-            const active = item.active === 'TRUE' ? <span class="research-active">Active</span> : ''
+            const active = item.active === 'TRUE' ? <span class="pill">Active</span> : ''
             const ended = item.year_end ? <span> ended on <time>{item.year_end}</time></span> : ''
 
             return (
@@ -63,7 +62,7 @@ export const query = graphql`
           slug
           description {
             childMarkdownRemark {
-              excerpt
+              excerpt(pruneLength: 250)
             }
           }
           year_start

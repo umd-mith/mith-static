@@ -179,9 +179,10 @@ module.exports = {
             serialize: ({query: {site, allAirtable}}) => {
               return allAirtable.nodes.map(node => (
                 {
-                  url: site.siteMetadata.siteUrl + '/news/' + node.data.slug,
+                  url: site.siteMetadata.siteUrl + '/news/' + node.data.slug + '/',
                   title: node.data.title,
                   date: node.data.date,
+                  description: node.data.description ? node.data.description.childMarkdownRemark.excerpt : ''
                 }
               ))
             },
@@ -201,6 +202,50 @@ module.exports = {
                       author: author_name
                       title: post_title
                       date: post_date
+                      description {
+                        childMarkdownRemark {
+                          excerpt
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `
+          },
+          {
+            title: `MITH Events`,
+            output: `/events/feed.xml`,
+            serialize: ({query: {site, allAirtable}}) => {
+              return allAirtable.nodes.map(node => (
+                {
+                  url: site.siteMetadata.siteUrl + '/events/' + node.data.slug + '/',
+                  title: node.data.talk_title || node.data.event_title,
+                  date: node.data.start_date,
+                  description: node.data.description ? node.data.description.childMarkdownRemark.excerpt : ''
+                }
+              ))
+            },
+            query: `
+              {
+                allAirtable(
+                  filter: {
+                    table: {eq: "Events"}
+                  }
+                  limit: 25
+                  sort: {fields: data___start_date, order: DESC}
+                ) {
+                  nodes {
+                    data {
+                      slug
+                      event_title
+                      talk_title
+                      start_date
+                      description {
+                        childMarkdownRemark {
+                          excerpt
+                        }
+                      }
                     }
                   }
                 }
