@@ -29,7 +29,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
             website
             twitter
             title
-            staff_group {
+            people_groups {
               data {
                 group_name
               }
@@ -189,6 +189,11 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 html
               }
             }
+            excerpt {
+              childMarkdownRemark {
+                html
+              }
+            }
             image {
               thumbnails {
                 large {
@@ -198,7 +203,6 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 }
               }
             }
-            excerpt
             year_start
             month_start
             year_end

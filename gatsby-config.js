@@ -105,10 +105,10 @@ module.exports = {
           {
             baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
             tableName: `People`,
-            tableLinks: [`staff_group`,`date_spans`],
+            tableLinks: [`people_groups`,`date_spans`],
             mapping: { 
               headshot: `fileNode`, 
-              bio: 'text/markdown' 
+              bio: `text/markdown`
             },
             queryName: 'PeopleTable',
             createSeparateNodeType: true,
@@ -116,8 +116,8 @@ module.exports = {
           },
           {
             baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
-            tableName: `Staff Groups`,
-            queryName: 'StaffGroupsTable',
+            tableName: `Groups`,
+            queryName: 'GroupsTable',
             tableLinks: [`linked_people`],
             createSeparateNodeType: true,
             separateMapType: true,
@@ -141,11 +141,10 @@ module.exports = {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `Research`,
             queryName: 'ResearchTable',
-            //tableView: `All_Research_Items`,
             createSeparateNodeType: true,
             separateMapType: true,
             mapping: {
-              description: 'text/markdown'
+              description: `text/markdown`,
             },
           },
           {
