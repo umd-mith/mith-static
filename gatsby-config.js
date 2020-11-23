@@ -16,10 +16,10 @@ module.exports = {
       //   name: "Opportunities For Students",
       //   link: "/students/"
       // },
-      {
-         name: "Events",
-         link: "/events/"
-      },
+      // {
+      //    name: "Events",
+      //    link: "/events/"
+      // },
       {
         name: "News",
         link: "/news/"
@@ -28,10 +28,10 @@ module.exports = {
         name: "People",
         link: "/people/"
       },
-      {
-        name: "Research",
-        link: "/research/"
-      },
+      // {
+      //   name: "Research",
+      //   link: "/research/"
+      // },
       // {
       //   name: "Partner With Us",
       //   link: "/partner-with-us/"

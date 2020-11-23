@@ -85,24 +85,17 @@ async function checkout(release) {
 }
 
 async function build(release) {
-  const releaseDir = getReleaseDir(release)
-  const files = fs.readdirSync(releaseDir)
-  const buildDir = path.resolve(releaseDir, files[0])
-
-  // change directory into build dir
-  const oldDir = process.cwd()
-  process.chdir(buildDir)
-
+  const buildDir = getBuildDir(release)
   log.info(`building release in ${buildDir}`)
-  await run('npm install')
-  await run('npm run build')
-
-  // move back
-  process.chdir(oldDir)
+  await run('npm install', buildDir)
+  await run('npm run build', buildDir)
+  log.info(`built release ${release.fields.id}`)
 }
 
 async function publish(release) {
-  await run('npm run rsync')
+  const buildDir = getBuildDir()
+  log.info(`publishing release in ${buildDir}`)
+  await run('npm run rsync', buildDir)
   log.info(`published ${release.fields.id}`)
 }
 
@@ -133,6 +126,13 @@ function getReleaseDir(release) {
   return path.resolve(appDir, 'releases', release.fields.tag)
 }
 
+function getBuildDir(release) {
+  const releaseDir = getReleaseDir(release)
+  const files = fs.readdirSync(releaseDir)
+  const buildDir = path.resolve(releaseDir, files[0])
+  return buildDir
+}
+
 function createLogger() {
   const logPath = path.resolve(appDir, 'release.log')
   const fileLog = new winston.transports.File({filename: logPath, timestamp: true})
@@ -147,15 +147,22 @@ function createLogger() {
   })
 }
 
-function run(cmd) {
+function run(cmd, buildDir) {
   return new Promise((resolve, reject) => {
+  
+    // commands should be run relative to the build directory
+    const oldDir = process.cwd()
+    process.chdir(buildDir)
+
     childProcess.exec(cmd, (error, stdout, stderr) => {
+      process.chdir(oldDir)
       if (error) {
         reject(error)
       } else {
         resolve(stdout)
       }
     })
+
   })
 }
 
