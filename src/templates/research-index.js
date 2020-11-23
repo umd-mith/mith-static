@@ -54,7 +54,10 @@ export const query = graphql`
       }
       limit: $limit
       skip: $skip
-      sort: {fields: [data___active, data___slug], order: [DESC, ASC]}
+      sort: {
+        fields: [data___active, data___slug], 
+        order: [DESC, ASC]
+      }
     ) {
       nodes {
         data {
@@ -63,6 +66,11 @@ export const query = graphql`
           description {
             childMarkdownRemark {
               excerpt(pruneLength: 250)
+            }
+          }
+          excerpt {
+            childMarkdownRemark {
+              html
             }
           }
           year_start

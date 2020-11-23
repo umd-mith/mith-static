@@ -16,7 +16,9 @@ const Research = ({ pageContext: project }) => {
           Directors: <span className="director">{project.directors}</span>
           {' '}started on <time>{project.year_start}</time>
         </div>       
-        <div className="post-content" dangerouslySetInnerHTML={{ __html: project.description ? project.description.childMarkdownRemark.html : ''}} />
+        <div className="post-content" 
+          dangerouslySetInnerHTML={{ __html: project.description ? project.description.childMarkdownRemark.html : ''}} 
+        />
       </section>
     </Layout>
   )
