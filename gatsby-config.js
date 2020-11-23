@@ -110,51 +110,53 @@ module.exports = {
               headshot: `fileNode`, 
               bio: `text/markdown`
             },
-            queryName: 'PeopleTable',
-            createSeparateNodeType: true,
+            queryName: `PeopleTable`,
+            separateNodeType: true,
             separateMapType: true,
           },
           {
             baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
             tableName: `Groups`,
-            queryName: 'GroupsTable',
+            queryName: `GroupsTable`,
             tableLinks: [`linked_people`],
-            createSeparateNodeType: true,
+            separateNodeType: true,
             separateMapType: true,
           },
           {
             baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
             tableName: `Affiliations`,
-            queryName: 'AffiliationsTable',
+            queryName: `AffiliationsTable`,
             tableLinks: [`linked_people`],
-            createSeparateNodeType: true,
+            //separateNodeType: true,
             separateMapType: true,
           },
           {
             baseId: process.env.AIRTABLE_POSTS_BASE_ID,
             tableName: `Posts`,
-            queryName: 'PostsTable',
-            createSeparateNodeType: true,
+            queryName: `PostsTable`,
+            //separateNodeType: true,
             separateMapType: true,
           },
           {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `Research`,
-            queryName: 'ResearchTable',
-            createSeparateNodeType: true,
+            queryName: `ResearchTable`,
+            //tableLinks: [`linked_directors`],
+            separateNodeType: true,
             separateMapType: true,
             mapping: {
               description: `text/markdown`,
+              excerpt: `text/markdown`
             },
           },
           {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: 'Events',
-            queryName: 'EventsTable',
-            createSeparateNodeType: true,
+            tableName: `Events`,
+            queryName: `EventsTable`,
+            //separateNodeType: true,
             separateMapType: true,
             mapping: {
-              description: 'text/markdown'
+              description: `text/markdown`
             },
           }
         ]

@@ -13,7 +13,7 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
 async function makePeople(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtable(
+      allAirtablePeopleTable(
         filter: {
           table: {eq: "People"}
         }
@@ -65,7 +65,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  for (const node of results.data.allAirtable.nodes) {
+  for (const node of results.data.allAirtablePeopleTable.nodes) {
     const person = node.data
     createPage({
       path: `/people/${person.slug}/`,
@@ -142,7 +142,7 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
 async function makeResearchIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtable(
+      allAirtableResearchTable(
         filter: {
           table: {eq: "Research"}
         }
@@ -154,7 +154,7 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  const numItems = results.data.allAirtable.pageInfo.itemCount
+  const numItems = results.data.allAirtableResearchTable.pageInfo.itemCount
   const itemsPerPage = 25
   const numPages = Math.ceil(numItems / itemsPerPage)
 
@@ -175,7 +175,7 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
 async function makeResearch(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtable(
+      allAirtableResearchTable(
         filter: {
           table: {eq: "Research"}
         }
@@ -216,7 +216,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  for (const node of results.data.allAirtable.nodes) {
+  for (const node of results.data.allAirtableResearchTable.nodes) {
     const item = node.data
     createPage({
       path: `/research/${item.slug}/`,

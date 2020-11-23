@@ -8,8 +8,8 @@ import SEO from '../components/seo'
 import './post-index.css'
 
 const ResearchIndex = ({data}) => {
-  const items = data.allAirtable.nodes.map(n => n.data)
-  const pageCount = data.allAirtable.pageInfo.pageCount
+  const items = data.allAirtableResearchTable.nodes.map(n => n.data)
+  const pageCount = data.allAirtableResearchTable.pageInfo.pageCount
 
   return (
     <Layout>
@@ -48,10 +48,7 @@ const ResearchIndex = ({data}) => {
 
 export const query = graphql`
   query ResearchQuery($skip: Int!, $limit: Int!) {
-    allAirtable(
-      filter: {
-        table: {eq: "Research"}
-      }
+    allAirtableResearchTable(
       limit: $limit
       skip: $skip
       sort: {

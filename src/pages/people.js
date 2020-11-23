@@ -57,7 +57,7 @@ const PeoplePage = ({ data }) => {
 
 export const query = graphql`
   query PeopleQuery {
-    people: allAirtable(
+    people: allAirtablePeopleTable(
       filter: {
         table: {eq: "People"}, 
         data: {group_type: {regex: "/^[^P].*/"}}

@@ -47,9 +47,9 @@ const PeoplePastPage = ({ data }) => {
 
 export const query = graphql`
   query PeoplePastQuery {
-    people: allAirtable(
+    people: allAirtableGroupsTable(
       filter: {
-        table: {eq: "Staff Groups"}, 
+        table: {eq: "Groups"},
         data: {group_name: {regex: "/Past/"}}
       }, 
       sort: {
@@ -58,9 +58,10 @@ export const query = graphql`
     ) {
       nodes {
         data {
-          new_id
-          group_name
+          id
+          sort
           slug
+          group_name
           linked_people {
             data {
               new_id
