@@ -27,7 +27,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "unzipper": "^0.10.11",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "airtable": "0.10.1",
@@ -42,14 +44,16 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "start": "npm run develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "publish": "gatsby clean && gatsby build && rsync --archive --recursive --delete public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu",
-    "compose": "./scripts/compose.js",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "compose": "./scripts/compose.js",
+    "release": "./scripts/release.js",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "publish": "gatsby clean && gatsby build && npm run rsync",
+    "rsync": "rsync --archive --recursive --delete public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu-test",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
