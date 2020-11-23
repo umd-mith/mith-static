@@ -28,14 +28,14 @@ module.exports = {
         name: "People",
         link: "/people/"
       },
-      // {
-      //   name: "Research",
-      //   link: "/research/"
-      // },
-      // {
-      //   name: "Partner With Us",
-      //   link: "/partner-with-us/"
-      // }
+      {
+        name: "Research",
+        link: "/research/"
+      },
+      {
+        name: "Partner With Us",
+        link: "/partner-with-us/"
+      }
     ]
   },
   plugins: [
@@ -51,8 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
-        stripMetadata: false,
-        defaultQuality: 100,
+        stripMetadata: false
       }
     },
     {

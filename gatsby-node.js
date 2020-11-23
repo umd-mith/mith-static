@@ -4,10 +4,10 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makePeople(createPage, graphql, pathPrefix)
   await makePosts(createPage, graphql, pathPrefix)
   await makePostIndex(createPage, graphql, pathPrefix)
-  // await makeResearch(createPage, graphql, pathPrefix)
-  // await makeResearchIndex(createPage, graphql, pathPrefix)
-  // await makeEvents(createPage, graphql, pathPrefix)
-  // await makeEventIndex(createPage, graphql, pathPrefix)
+  await makeResearch(createPage, graphql, pathPrefix)
+  await makeResearchIndex(createPage, graphql, pathPrefix)
+  await makeEvents(createPage, graphql, pathPrefix)
+  await makeEventIndex(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql, pathPrefix) {
