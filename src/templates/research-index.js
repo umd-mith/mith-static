@@ -50,7 +50,7 @@ export const query = graphql`
   query ResearchQuery($skip: Int!, $limit: Int!) {
     allAirtable(
       filter: {
-        table: {eq: "Projects"}
+        table: {eq: "Research"}
       }
       limit: $limit
       skip: $skip

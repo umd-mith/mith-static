@@ -13,7 +13,11 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
 async function makePeople(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtable(filter: {table: {eq: "People"}}) {
+      allAirtable(
+        filter: {
+          table: {eq: "People"}
+        }
+      ) {
         nodes {
           data {
             new_id
@@ -76,7 +80,11 @@ async function makePeople(createPage, graphql, pathPrefix) {
 async function makePosts(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allMarkdownRemark(filter: {fields: {sourceName: {eq: "news"}}}) {
+      allMarkdownRemark(
+        filter: {
+          fields: {sourceName: {eq: "news"}}
+        }
+      ) {
         nodes {
           fileAbsolutePath
           html
@@ -101,7 +109,11 @@ async function makePosts(createPage, graphql, pathPrefix) {
 async function makePostIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allMarkdownRemark(filter: {fields: {sourceName: {eq: "news"}}}) {
+      allMarkdownRemark(
+        filter: {
+          fields: {sourceName: {eq: "news"}}
+        }
+      ) {
         pageInfo {
           itemCount
         }
@@ -130,7 +142,11 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
 async function makeResearchIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtable(filter: {table: {eq: "Projects"}}) {
+      allAirtable(
+        filter: {
+          table: {eq: "Research"}
+        }
+      ) {
         pageInfo {
           itemCount
         }
@@ -160,7 +176,9 @@ async function makeResearch(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
       allAirtable(
-        filter: {table: {eq: "Projects"}}
+        filter: {
+          table: {eq: "Research"}
+        }
       ) {
         nodes {
           data {
@@ -209,7 +227,11 @@ async function makeResearch(createPage, graphql, pathPrefix) {
 async function makeEventIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtable(filter: {table: {eq: "Events"}}) {
+      allAirtable(
+        filter: {
+          table: {eq: "Events"}
+        }
+      ) {
         pageInfo {
           itemCount
         }
