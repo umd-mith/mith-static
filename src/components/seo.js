@@ -34,6 +34,12 @@ function SEO({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={[
+        {
+          rel: 'author',
+          href: '/humans.txt'
+        }
+      ]}
       meta={[
         {
           name: `description`,
