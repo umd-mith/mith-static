@@ -53,7 +53,7 @@
     "release": "./scripts/release.js",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "publish": "gatsby clean && gatsby build && npm run rsync",
-    "rsync": "rsync --archive --recursive --delete public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu-test",
+    "rsync": "rsync --archive --recursive --delete public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
