@@ -147,8 +147,15 @@ function getBuildDir(release) {
 
 function createLogger() {
   const logPath = path.resolve(appDir, 'release.log')
-  const fileLog = new winston.transports.File({filename: logPath, timestamp: true})
   const consoleLog = new winston.transports.Console()
+  const fileLog = new winston.transports.File({
+    filename: logPath,    // log to release.log
+    timestamp: true,      // add a timestamp
+    maxsize: 10 ** 6,     // 1M
+    maxFiles: 5,          // roll old files
+    tailable: true,       // release.log is current
+    zippedArchive: true,  // zip the old files
+  })
   return winston.createLogger({
     level: 'info',
     format: winston.format.combine(
