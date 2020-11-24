@@ -36,8 +36,9 @@ async function main() {
     await cleanup(release)
     await setFinished(release)
   } catch(e) {
-    log.error(e)
+    await setError(release, e.toString())
     console.error(e)
+    log.error(e)
   }
 
   log.info('finished')
@@ -66,7 +67,7 @@ async function getPendingRelease() {
 
 async function setStarted(release) {
   const releases = getReleasesTable()
-  releases.update(release.id, {started: new Date()})
+  releases.update(release.id, {started: new Date(), status: 'BUILDING'})
   log.info(`started release for ${release.fields.id}`)
 }
 
@@ -93,9 +94,9 @@ async function build(release) {
 }
 
 async function publish(release) {
-  const buildDir = getBuildDir()
+  const buildDir = getBuildDir(release)
   log.info(`publishing release in ${buildDir}`)
-  await run('npm run rsync', buildDir)
+  await run('npm run rsync')
   log.info(`published ${release.fields.id}`)
 }
 
@@ -107,9 +108,20 @@ async function cleanup(release) {
 
 async function setFinished(release) {
   const releases = getReleasesTable()
-  releases.update(release.id, {finished: new Date()})
+  releases.update(release.id, {finished: new Date(), status: 'OK'})
   log.info(`finished release ${release.fields.id}`)
 }
+
+async function setError(release, message) {
+  const releases = getReleasesTable()
+  releases.update(release.id, {
+    finished: new Date(),
+    status: 'ERROR',
+    message: message
+  })
+  log.info(`aborted release ${release.fields.id}`)
+}
+
 
 function getReleasesTable() {
   const key = process.env.AIRTABLE_API_KEY
@@ -150,14 +162,16 @@ function createLogger() {
 function run(cmd, buildDir) {
   return new Promise((resolve, reject) => {
   
-    // commands should be run relative to the build directory
+    // some commands need to be run relative to the build directory
     const oldDir = process.cwd()
-    process.chdir(buildDir)
+    if (buildDir) {
+      process.chdir(buildDir)
+    }
 
     childProcess.exec(cmd, (error, stdout, stderr) => {
       process.chdir(oldDir)
       if (error) {
-        reject(error)
+        reject(stderr)
       } else {
         resolve(stdout)
       }
