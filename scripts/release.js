@@ -123,7 +123,7 @@ function getReleasesTable() {
 }
 
 function getReleaseDir(release) {
-  return path.resolve(appDir, 'releases', release.fields.tag)
+  return path.resolve(appDir, 'releases', release.fields.id)
 }
 
 function getBuildDir(release) {
