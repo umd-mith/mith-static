@@ -96,7 +96,7 @@ async function build(release) {
 async function publish(release) {
   const buildDir = getBuildDir(release)
   log.info(`publishing release in ${buildDir}`)
-  await run('npm run rsync')
+  await run('npm run rsync', buildDir)
   log.info(`published ${release.fields.id}`)
 }
 
