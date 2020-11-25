@@ -153,10 +153,20 @@ module.exports = {
             tableName: `Events`,
             queryName: `EventsTable`,
             //separateNodeType: true,
+            tableLinks: ['speakers'],
             separateMapType: true,
             mapping: {
               description: `text/markdown`
             },
+          },
+          {
+            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
+            tableName: `People`,
+            queryName: `EventsPeopleTable`,
+            separateNodeType: true,
+            mapping: {
+              bio: `text/markdown`
+            }
           }
         ]
       }

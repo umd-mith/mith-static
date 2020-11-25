@@ -6,8 +6,7 @@ import Layout from '../components/layout'
 import Paginator from '../components/paginator'
 import SEO from '../components/seo'
 import EventTime from '../components/event-time'
-
-import './post-index.css'
+import Speaker from '../components/speaker'
 
 const EventIndex = ({data}) => {
   const events = data.allAirtable.nodes.map(n => n.data)
@@ -25,12 +24,18 @@ const EventIndex = ({data}) => {
             </a>
           </h1>
           {events.map(event => {
+            const speakers = event.speakers || []
             return (
               <article className="post" key={event.slug}>
                 <h2 className="post-title">
                   <FontAwesomeIcon icon="calendar" /> &nbsp; 
                   <Link to={`/events/${event.slug}/`}>{event.talkTitle || event.eventTitle}</Link>
                 </h2>
+                <ul className="inline-list">
+                  {speakers.map(s => (
+                    <li><Speaker person={s.data} /></li>
+                  ))}
+                </ul>
                 <div className="post-meta">
                   <span className="pill">{event.type}</span> &nbsp;
                   <EventTime start={event.start} end={event.end} />
@@ -59,9 +64,15 @@ export const query = graphql`
       nodes {
         data {
           slug
-          evenTitle: event_title
+          eventTitle: event_title
           talkTitle: talk_title
           type: event_type
+          speakers {
+            data {
+              name
+              website
+            }
+          }
           description {
             childMarkdownRemark {
               excerpt(pruneLength: 250)

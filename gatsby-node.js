@@ -270,7 +270,8 @@ async function makeEvents(createPage, graphql) {
         nodes {
           data {
             slug
-            title: event_title
+            eventTitle: event_title
+            talkTitle: talk_title
             type: event_type
             description {
               childMarkdownRemark {
@@ -285,6 +286,13 @@ async function makeEvents(createPage, graphql) {
             sutoriEmbed: sutori_embed
             twitterMoment: twitter_moment
             image: image_link
+            speakers {
+              data {
+                id
+                name
+                affiliation
+              }
+            }
           }
         }
       }
