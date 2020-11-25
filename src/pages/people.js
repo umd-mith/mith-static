@@ -8,29 +8,54 @@ import './people.css'
 
 const PeoplePage = ({ data }) => { 
 
-  function makePeople(people) {
-    return people.nodes.map(person => {
-      const img = person.data.headshot 
-      ? <Link key={`p-${person.data.new_id}`} to={person.data.slug}>
-        <Img 
-          fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} 
-          alt={`Headshot of ${person.data.name}`} 
-          className="headshot" 
-          imgStyle={{
-            objectFit: "cover",
-          }}
-        />
-        </Link>
-      : ''
+  function makePerson(person, useWebsite=false) {
+    let pageLocation = person.data.slug
+    if (useWebsite) {
+      if (person.data.website) {
+        pageLocation = person.data.website.startsWith('http')
+          ? person.data.website
+          : `http://${person.data.website}`
+      } else {
+        pageLocation = null
+      }
+    }
+    let img = ''
+      if (person.data.headshot) {
+        const el = <Img 
+            fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} 
+            alt={`Headshot of ${person.data.name}`} 
+            className="headshot" 
+            imgStyle={{
+              objectFit: "cover",
+            }}
+          />
+        img = pageLocation
+          ? <Link key={`p-${person.data.new_id}`} to={pageLocation}>{el}</Link>
+          : el
+      }
+      let persName = pageLocation 
+        ? <Link key={`p-${person.data.new_id}`} to={pageLocation}>{person.data.name}</Link>
+        : person.data.name
       return (
       <article className="person" id={person.data.new_id} title={person.data.name} key={`p-${person.data.new_id}`}>
         {img}
-        <h3 className="name"><Link key={`p-${person.data.new_id}`} to={person.data.slug}>{person.data.name}</Link></h3>
+        <h3 className="name">{persName}</h3>
         <div className="title">{person.data.title}</div>
       </article>
-      )
+      )    
+  }
+
+  function makeStaff(people) {    
+    return people.nodes.map(person => {
+      return makePerson(person)
     })
-  }  
+  }
+
+  function makeAffiliates(affiliates) {    
+    return affiliates.nodes.map(person => {
+      return makePerson(person, true)
+    })
+  }
 
   return (
 		<Layout>
@@ -40,14 +65,14 @@ const PeoplePage = ({ data }) => {
           <h1>Faculty &amp; Staff</h1>
           {data.people.group
             .filter(g => g.fieldValue !== 'Affiliates' && g.fieldValue.match(/^[^P]/))
-            .map(makePeople)
+            .map(makeStaff)
           }
         </section>
         <section id="affiliates" className="people-group">
           <h1>Affiliates</h1>
           {data.people.group
             .filter(g => g.fieldValue === 'Affiliates')
-            .map(makePeople)
+            .map(makeAffiliates)
           }
         </section>
       </div>
@@ -72,6 +97,7 @@ export const query = graphql`
         nodes {
           data {          
             new_id
+            website
             slug
             name
             first

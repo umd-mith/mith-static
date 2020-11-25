@@ -13,11 +13,11 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
 async function makePeople(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtablePeopleTable(
-        filter: {
-          table: {eq: "People"}
+      allAirtablePeopleTable(filter: {table: {eq: "People"}, data: {
+        people_groups: {elemMatch: {data: {group_name: {nin: ["Affiliates", "Past Affiliates"]}}}
         }
-      ) {
+      }
+      }) {
         nodes {
           data {
             new_id
@@ -49,7 +49,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
             headshot {
               localFiles {
                 childImageSharp {
-                  fluid(maxWidth: 500, maxHeight:500, fit: COVER, background: "rgba(255,255,255,0)" ) {
+                  fluid(maxWidth: 500, maxHeight: 500, fit: COVER, background: "rgba(255,255,255,0)") {
                     src
                     srcSet
                     aspectRatio
