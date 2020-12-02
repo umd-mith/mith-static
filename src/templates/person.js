@@ -52,7 +52,7 @@ const Person = ({ pageContext: person }) => {
       <SEO title={name} />
       <div className="page-person">
       <section className="person">
-        <h1>{name}</h1>
+        <h1 className="name">{name}</h1>
         {photo}
         <div className="details">
           <h2 className="title">{person.title}</h2>

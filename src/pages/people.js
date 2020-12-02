@@ -28,6 +28,7 @@ const PeoplePage = ({ data }) => {
             imgStyle={{
               objectFit: "cover",
             }}
+            role="img"
           />
         img = pageLocation
           ? <Link key={`p-${person.data.new_id}`} to={pageLocation}>{el}</Link>
@@ -61,15 +62,18 @@ const PeoplePage = ({ data }) => {
 		<Layout>
       <SEO title="People" />
       <div className="page-people">
+        <section className="leader hidden">
+          <h1 className="page-title text-hidden">People</h1>
+        </section>
         <section id="facstaff" className="people-group">
-          <h1>Faculty &amp; Staff</h1>
+          <h2>Faculty &amp; Staff</h2>
           {data.people.group
             .filter(g => g.fieldValue !== 'Affiliates' && g.fieldValue.match(/^[^P]/))
             .map(makeStaff)
           }
         </section>
         <section id="affiliates" className="people-group">
-          <h1>Affiliates</h1>
+          <h2>Affiliates</h2>
           {data.people.group
             .filter(g => g.fieldValue === 'Affiliates')
             .map(makeAffiliates)
