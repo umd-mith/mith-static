@@ -35,7 +35,7 @@ const Person = ({ pageContext: person }) => {
   const website = person.website
     ? <span className="meta website">
         {iconWeb}
-        <a href={`https://${person.website}`}>{person.website}</a>
+        <a href={person.website}>{person.website}</a>
       </span> : ''
   const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
   const twitter = person.twitter
@@ -50,8 +50,8 @@ const Person = ({ pageContext: person }) => {
     <Layout>
       <SEO title={name} />
       <div className="page-person">
-      <h1>{name}</h1>
       <section className="person">
+        <h1>{name}</h1>
         {photo}
         <div>
           <h2 className="title">{person.title}</h2>
