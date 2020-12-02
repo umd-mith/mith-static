@@ -25,7 +25,7 @@ const Event = ({ pageContext: event }) => {
           <EventTime start={event.start} end={event.end} />
           <div itemProp="location">{event.location}</div>
         </div>
-        <div className="post-content" dangerouslySetInnerHTML={{ __html: event.description.childMarkdownRemark.html }} />
+        <div className="post-content" dangerouslySetInnerHTML={{ __html: event.description ? event.description.childMarkdownRemark.html : ''}} />
       </section>
     </Layout>
   )

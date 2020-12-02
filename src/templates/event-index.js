@@ -40,7 +40,7 @@ const EventIndex = ({data}) => {
                   <span className="pill">{event.type}</span> &nbsp;
                   <EventTime start={event.start} end={event.end} />
                 </div>
-                <div className="post-excerpt">{event.description.childMarkdownRemark.excerpt}</div>
+                <div className="post-excerpt">{event.description ? event.description.childMarkdownRemark.excerpt : ''}</div>
               </article>
             )
           })}

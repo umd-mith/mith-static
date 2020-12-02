@@ -301,12 +301,14 @@ async function makeEvents(createPage, graphql) {
 
   for (const node of results.data.allAirtable.nodes) {
     const event = node.data
-    createPage({
-      path: `/events/${event.slug}/`,
-      component: require.resolve(`./src/templates/event.js`),
-      context: {
-        ...event
-      }
-    })
+    if (event.slug) {
+      createPage({
+        path: `/events/${event.slug}/`,
+        component: require.resolve(`./src/templates/event.js`),
+        context: {
+          ...event
+        }
+      })
+    }
   }
 }
