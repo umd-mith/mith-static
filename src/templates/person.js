@@ -10,14 +10,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Person = ({ pageContext: person }) => {
   const name = person.name
   const photo = person.headshot 
-    ? <Img 
-      fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
-      alt={`Headshot of ${person.name}`} 
-      className="col-4 col-4-lg col-4-md col-5-sm col-6-xs headshot"
-      imgStyle={{
-        objectFit: "cover",
-      }}
-      />
+    ? <div className="headshot">
+        <Img 
+        fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
+        alt={`Headshot of ${person.name}`} 
+        imgStyle={{
+          objectFit: "cover",
+        }}
+        />
+      </div>
     : ''
   const iconEmail = <FontAwesomeIcon icon="envelope" />
   const email = person.email
@@ -44,7 +45,7 @@ const Person = ({ pageContext: person }) => {
         <a href={`https://twitter.com/${person.twitter}`}>{person.twitter}</a>
       </span> : ''
   const bio = person.bio
-    ? <div className='col-12' dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''
+    ? <div className='bio' dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''
 
   return (
     <Layout>
@@ -53,7 +54,7 @@ const Person = ({ pageContext: person }) => {
       <section className="person">
         <h1>{name}</h1>
         {photo}
-        <div>
+        <div className="details">
           <h2 className="title">{person.title}</h2>
           <div className="metadata">
             {email} {phone} {website} {twitter}

@@ -1,20 +1,31 @@
+@import '../components/variables.css';
+
 .page-person > h1 {
-  grid-column: 2 / 12;
+  grid-column: 3 / 9;
+}
+.person {
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr);
+  grid-gap: 2rem;
 }
 .headshot {
-  max-width: 300px;
-  grid-row-end: span 3;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.details {
+  grid-column: span 2;
 }
 .metadata {
   display: inline-grid;
   grid-template-columns: repeat( 4, auto );
-  grid-row-gap: 0.5rem;
+  margin-top: var(--base-content-padding);
 }
 .metadata a {
   color: inherit;
+  border-bottom-color: transparent;
 }
 .meta {
-  padding: 0 1rem;
+  padding: 0 var(--base-content-padding);
   text-align: center;
   border-left: 1px solid #dfdfdf;
 }
@@ -23,5 +34,8 @@
   padding-left: 0;
 }
 .meta svg {
-  margin-right: 0.25rem;
+  margin-right: 0.5rem;
+}
+.bio {
+  grid-column: span 2;
 }
