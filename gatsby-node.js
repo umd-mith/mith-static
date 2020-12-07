@@ -14,7 +14,12 @@ async function makePeople(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
       allAirtablePeopleTable(filter: {table: {eq: "People"}, data: {
-        people_groups: {elemMatch: {data: {group_name: {nin: ["Affiliates", "Past Affiliates"]}}}
+        people_groups: {
+          elemMatch: {
+            data: {
+              group_name: {nin: ["Affiliates", "Past Affiliates"]}
+            }
+          }
         }
       }
       }) {
@@ -195,11 +200,21 @@ async function makeResearch(createPage, graphql, pathPrefix) {
               }
             }
             image {
-              thumbnails {
-                large {
-                  url
-                  height
-                  width
+              localFiles {
+                childImageSharp {
+                  fluid {
+                    src
+                    srcSet
+                    aspectRatio
+                    sizes
+                    base64
+                  }
+                  fixed (background: "rgba(255,255,255,0)") {
+                    src
+                    srcSet
+                    aspectRatio
+                    base64
+                  }
                 }
               }
             }
@@ -227,6 +242,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
     })
   }
 }
+
 
 async function makeEventIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`

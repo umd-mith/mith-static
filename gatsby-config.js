@@ -144,8 +144,9 @@ module.exports = {
             separateNodeType: true,
             separateMapType: true,
             mapping: {
+              image: `fileNode`, 
               description: `text/markdown`,
-              excerpt: `text/markdown`
+              excerpt: `text/markdown`,
             },
           },
           {
