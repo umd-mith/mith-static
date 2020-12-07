@@ -1,41 +1,42 @@
-@import '../components/variables.css';
-
 .page-person > h1 {
   grid-column: 3 / 9;
 }
-.person {
+.page-person .person {
   display: grid;
   grid-template-columns: repeat( 3, 1fr);
   grid-gap: 2rem;
 }
-.headshot {
+.page-person .person .name {
+  grid-column: 1 / 4;
+}
+.page-person .person .headshot {
   grid-column: span 1;
   grid-row: span 2;
 }
-.details {
+.page-person .person .details {
   grid-column: span 2;
 }
-.metadata {
+.page-person .person .metadata {
   display: inline-grid;
   grid-template-columns: repeat( 4, auto );
-  margin-top: var(--base-content-padding);
+  margin-top: 1rem;
 }
-.metadata a {
+.page-person .person .metadata a {
   color: inherit;
   border-bottom-color: transparent;
 }
-.meta {
-  padding: 0 var(--base-content-padding);
+.page-person .person .meta {
+  padding: 0 1rem;
   text-align: center;
   border-left: 1px solid #dfdfdf;
 }
-.meta:first-child {
+.page-person .person .meta:first-child {
   border-left: none;
   padding-left: 0;
 }
-.meta svg {
+.page-person .person .meta svg {
   margin-right: 0.5rem;
 }
-.bio {
+.page-person .person .bio {
   grid-column: span 2;
 }
