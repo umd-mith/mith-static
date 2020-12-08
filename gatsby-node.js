@@ -223,7 +223,26 @@ async function makeResearch(createPage, graphql, pathPrefix) {
             year_end
             month_end
             directors
+            linked_directors {
+              data {
+                name
+                title
+                affiliation
+                new_id
+                slug
+              }
+            }            
             participants
+            linked_participants {
+              data {
+                name
+                title
+                affiliation
+                people_groups
+                new_id
+                slug
+              }
+            }
             active
           }
         }
