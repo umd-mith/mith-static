@@ -1,5 +1,54 @@
+.research-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  grid-template-areas:
+    "header"
+    "content"
+    "sidebar"
+    "footer"
+}
+.research-item h1 {
+  grid-area: header;
+  grid-column: span 4;
+}
 .research-image {
-  display: block;
+  grid-area: header;
+  grid-column: span 4;
   margin-bottom: 2rem;
   text-align: left;
+}
+.research-item .description {
+  grid-area: content;
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+.research-item .metadata {
+  grid-area: sidebar;
+  grid-column: 4 / 5;
+  grid-row: 2;
+  font-size: smaller;
+}
+.research-item .research-person {
+  margin: 0.5rem 0;
+}
+.research-item .metadata .person-name {
+  font-weight: bold;
+}
+.research-item .metadata a {
+  display: block;
+  border-bottom-style: none;
+}
+.research-item .metadata span {
+  font-style: italic;
+  font-size: 0.75rem;
+}
+.research-item .metadata span:after {
+  content: ", "
+}
+.research-item .metadata span:last-of-type:after {
+  content: none;
+}
+.research-item .footer {
+
 }
