@@ -227,7 +227,9 @@ async function makeResearch(createPage, graphql, pathPrefix) {
               data {
                 name
                 title
+                department
                 affiliation
+                group_type
                 new_id
                 slug
               }
@@ -237,8 +239,10 @@ async function makeResearch(createPage, graphql, pathPrefix) {
               data {
                 name
                 title
+                department
                 affiliation
                 people_groups
+                group_type
                 new_id
                 slug
               }
