@@ -15,7 +15,7 @@ const Research = ({ pageContext: item }) => {
     let pageLocation = person.data.slug
 
     let person_name = pageLocation
-      ? <Link className="person-name" key= {`p-${person.data.new_id}`} to={pageLocation}>{person.data.name}</Link>
+      ? <Link className="person-name" key= {`p-${person.data.new_id}`} to={`../../people/${pageLocation}`}>{person.data.name}</Link>
       : <div className="person-name">{person.data.name}</div>
 
     let person_title = null
