@@ -45,7 +45,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
               }
             }
             bio_external
-            slug
+            id
             headshot {
               localFiles {
                 childImageSharp {
@@ -68,7 +68,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
   for (const node of results.data.allAirtablePeopleTable.nodes) {
     const person = node.data
     createPage({
-      path: `/people/${person.slug}/`,
+      path: `/people/${person.id}/`,
       component: require.resolve(`./src/templates/person.js`),
       context: {
         ...person

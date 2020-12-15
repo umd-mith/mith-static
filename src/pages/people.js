@@ -9,7 +9,7 @@ import './people.css'
 const PeoplePage = ({ data }) => { 
 
   function makePerson(person, useWebsite=false) {
-    let pageLocation = person.data.slug
+    let pageLocation = person.data.id
     if (useWebsite) {
       if (person.data.website) {
         pageLocation = person.data.website.startsWith('http')
@@ -98,7 +98,7 @@ export const query = graphql`
           data {          
             new_id
             website
-            slug
+            id
             name
             first
             last
