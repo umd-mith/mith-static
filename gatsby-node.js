@@ -20,7 +20,6 @@ async function makePeople(createPage, graphql, pathPrefix) {
       }) {
         nodes {
           data {
-            new_id
             bio {
               childMarkdownRemark {
                 html
