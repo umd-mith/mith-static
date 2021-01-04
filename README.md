@@ -1,6 +1,7 @@
 # MITH (Static) Website
 
-This is the Gatsby static site for https://mith.umd.edu.
+This is the Gatsby static site for https://mith.umd.edu. It builds pages based
+on data stored in several Airtable bases.
 
 ## Deploy
 
