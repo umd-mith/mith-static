@@ -29,6 +29,9 @@
   grid-row: 2;
   font-size: smaller;
 }
+.research-item .metadata > div {
+  margin-bottom: 2rem;
+}
 .research-item .research-person {
   margin: 0.5rem 0;
 }
