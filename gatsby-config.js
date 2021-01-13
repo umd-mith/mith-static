@@ -139,8 +139,9 @@ module.exports = {
           {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `Research`,
+            //tableView: `All_Research_Items`,
             queryName: `ResearchTable`,
-            tableLinks: [`linked_directors`,`linked_participants`],
+            tableLinks: [`linked_directors`,`linked_participants`,`linked_links`,`linked_partners`,`linked_sponsors`],
             separateNodeType: true,
             separateMapType: true,
             mapping: {
@@ -148,6 +149,18 @@ module.exports = {
               description: `text/markdown`,
               excerpt: `text/markdown`,
             },
+          },        
+          {
+            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
+            tableName: `Links`,
+          },
+          {
+            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
+            tableName: `Partners`,
+          },
+          {
+            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
+            tableName: `Sponsors`,
           },
           {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,

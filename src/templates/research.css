@@ -29,29 +29,38 @@
   grid-row: 2;
   font-size: smaller;
 }
+.research-item .metadata h2 {
+  margin-bottom: 1.0rem;
+}
 .research-item .metadata > div {
   margin-bottom: 2rem;
 }
-.research-item .research-person {
+.research-item .metadata a {
+  border-bottom-width: 0;
+}
+/* Twitter */
+.research-item .twitter svg {
+  margin-right: 0.5rem;
+  color: #00aced;
+}
+.research-item .twitter a {
+  color: inherit;
+}
+/* Person */
+.research-item .person {
   margin: 0.5rem 0;
 }
-.research-item .metadata .person-name {
+.research-item .person .name {
   font-weight: bold;
-}
-.research-item .metadata a {
   display: block;
-  border-bottom-style: none;
-}
-.research-item .metadata span {
+} 
+.research-item .metadata .person span {
   font-style: italic;
   font-size: 0.75rem;
 }
-.research-item .metadata span:after {
+.research-item .metadata .person span:after {
   content: ", "
 }
-.research-item .metadata span:last-of-type:after {
+.research-item .metadata .person span:last-of-type:after {
   content: none;
-}
-.research-item .footer {
-
 }

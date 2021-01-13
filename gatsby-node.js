@@ -209,15 +209,11 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                     sizes
                     base64
                   }
-                  fixed (background: "rgba(255,255,255,0)") {
-                    src
-                    srcSet
-                    aspectRatio
-                    base64
-                  }
                 }
               }
             }
+            twitter_account
+            twitter_hashtag
             year_start
             month_start
             year_end
@@ -244,6 +240,28 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 people_groups
                 group_type
                 new_id
+                slug
+              }
+            }
+            linked_links {
+              data {
+                title
+                url
+                type
+              }
+            }
+            linked_sponsors {
+              data {
+                name
+                website
+                slug
+              }
+            }
+            linked_partners {
+              data {
+                name
+                type
+                website
                 slug
               }
             }
