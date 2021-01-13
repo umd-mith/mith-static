@@ -9,16 +9,16 @@
   grid-row-gap: var(--content-spacing-sm);
   margin-bottom: var(--content-spacing-xl);
 }
-h2.title {
+.post h2.title {
   margin-bottom: var(--content-spacing-sm);
   font-size: 1.1rem;
 }
-.meta {
+.post .meta {
   font-size: smaller;
   color: #777;
   margin-bottom: var(--content-spacing-xs);
 }
-.post-excerpt .read-more {
+.post .post-excerpt .read-more {
   display: block;
   text-transform: uppercase;
   font-size: smaller;
