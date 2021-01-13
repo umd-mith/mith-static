@@ -9,7 +9,7 @@ import './people.css'
 const PeoplePage = ({ data }) => { 
 
   function makePerson(person, useWebsite=false) {
-    let pageLocation = person.data.slug
+    let pageLocation = person.data.id
     if (useWebsite) {
       if (person.data.website) {
         pageLocation = person.data.website.startsWith('http')
@@ -30,14 +30,14 @@ const PeoplePage = ({ data }) => {
             }}
           />
         img = pageLocation
-          ? <Link key={`p-${person.data.new_id}`} to={pageLocation}>{el}</Link>
+          ? <Link key={`p-${person.data.id}`} to={pageLocation}>{el}</Link>
           : el
       }
       let persName = pageLocation 
-        ? <Link key={`p-${person.data.new_id}`} to={pageLocation}>{person.data.name}</Link>
+        ? <Link key={`p-${person.data.id}`} to={pageLocation}>{person.data.name}</Link>
         : person.data.name
       return (
-      <article className="person" id={person.data.new_id} title={person.data.name} key={`p-${person.data.new_id}`}>
+      <article className="person" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
         {img}
         <h3 className="name">{persName}</h3>
         <div className="title">{person.data.title}</div>
@@ -95,10 +95,9 @@ export const query = graphql`
       group(field: data___group_type) {
         fieldValue
         nodes {
-          data {          
-            new_id
+          data {
             website
-            slug
+            id
             name
             first
             last
