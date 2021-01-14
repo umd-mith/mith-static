@@ -327,8 +327,8 @@ async function makeEvents(createPage, graphql) {
         nodes {
           data {
             slug
-            eventTitle: event_title
-            talkTitle: talk_title
+            event_title
+            talk_title
             type: event_type
             description {
               childMarkdownRemark {
