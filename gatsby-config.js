@@ -162,7 +162,7 @@ module.exports = {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `Sponsors`,
           },
-          {
+          { // People on Events Page
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `People`,
             queryName: `ResearchPeopleTable`,
@@ -171,21 +171,27 @@ module.exports = {
               headshot: `fileNode`
             }
           },
-          {
+          { // Events on Research Page
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `Events`,
-            queryName: `EventsTable`,
+            queryName: `Events`,
             //separateNodeType: true,
-            tableLinks: ['speakers'],
+            tableLinks: ['speakers','linked_research_item'],
             separateMapType: true,
             mapping: {
               description: `text/markdown`
             },
           },
-          {
+          { // Speakers on Event pages
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `People`,
-            queryName: `EventsPeopleTable`,
+            queryName: `EventsPeople`,
+            separateNodeType: true,
+          },
+          { // Linked Research Items on Event pages
+            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
+            tableName: `Research`,
+            queryName: `EventsResearch`,
             separateNodeType: true,
           }
         ]
