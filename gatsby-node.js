@@ -42,7 +42,6 @@ async function makePeople(createPage, graphql, pathPrefix) {
             research_interests
             phone
             name
-            links
             email
             date_spans {
               data {
