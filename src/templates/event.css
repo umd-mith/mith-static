@@ -1,0 +1,27 @@
+.event-item {
+
+}
+.event-item h1 {
+
+}
+.event-image {
+
+}
+.event-item .description {
+
+}
+.event-item .metadata {
+  grid-area: sidebar;
+  grid-column: 4 / 5;
+  grid-row: 2;
+  font-size: smaller;
+}
+.event-item .metadata h2 {
+  margin-bottom: 1.0rem;
+}
+.event-item .metadata > div {
+  margin-bottom: 2rem;
+}
+.event-item .metadata a {
+  border-bottom-width: 0;
+}

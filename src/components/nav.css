@@ -1,10 +1,12 @@
 @import 'variables.css';
 
 nav {
-  padding: 0 var(--base-content-padding);
+  padding: 0 var(--base-content-spacing);
   z-index: 200;
   background-color: #fff;
   border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: var(--base-content-spacing);
 }
 .navbar {
   display: flex;
@@ -16,7 +18,7 @@ nav {
 nav ul li {
   position: relative;
   margin: 0;
-  padding: 0 2rem 0 0;
+  padding: 0 var(--content-spacing-lg) 0 0;
 }
 nav a {
   padding: .63rem 0 .42rem;
@@ -36,7 +38,7 @@ nav a:hover, nav a.active {
 @media (max-width: 45rem) {
   nav {
     border-bottom: 1px solid #efefef;
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--content-spacing-md);
   }
   .navbar {
     flex-direction: column;

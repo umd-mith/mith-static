@@ -29,7 +29,7 @@ const EventIndex = ({data}) => {
               <article className="post" key={event.slug}>
                 <h2 className="post-title">
                   <FontAwesomeIcon icon="calendar" /> &nbsp; 
-                  <Link to={`/events/${event.slug}/`}>{event.talkTitle || event.eventTitle}</Link>
+                  <Link to={`/events/${event.slug}/`}>{event.talk_title || event.event_title}</Link>
                 </h2>
                 <ul className="inline-list">
                   {speakers.map(s => (
@@ -53,7 +53,7 @@ const EventIndex = ({data}) => {
 
 export const query = graphql`
   query EventsQuery($skip: Int!, $limit: Int!) {
-    allAirtable(
+    allAirtable (
       filter: {
         table: {eq: "Events"}
       }
@@ -64,8 +64,8 @@ export const query = graphql`
       nodes {
         data {
           slug
-          eventTitle: event_title
-          talkTitle: talk_title
+          event_title
+          talk_title
           type: event_type
           speakers {
             data {

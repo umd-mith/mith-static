@@ -16,10 +16,10 @@ const PostIndex = ({data}) => {
 		<Layout>
       <SEO title="MITH News" />
       <div className="page-news">
-        <section className="news">
-          <h1>
+        <section className="posts news">
+          <h1 className="page-title">
             News &nbsp;
-            <a href="/news/feed.xml">
+            <a href="/news/feed.xml" className="icon-rss">
               <FontAwesomeIcon title="News RSS Feed" icon="rss" />
             </a>
           </h1>
@@ -44,11 +44,11 @@ const PostIndex = ({data}) => {
                 <h2 className="post-title">
                   <Link to={slug}>{post.post_title}</Link>
                 </h2>
-                <div className="post-meta">
+                <div className="meta">
                   by <span className="author">{post.author_name}</span>
                   {' '}on <time>{post.post_date}</time>
                 </div>
-                <div className="post-excerpt">
+                <div className="excerpt">
                   {doc.excerpt} 
                   <Link to={slug} className="read-more">continue reading</Link>
                 </div>

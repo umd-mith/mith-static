@@ -1,27 +1,42 @@
 .page-person > h1 {
-  grid-column: 2 / 12;
+  grid-column: 3 / 9;
 }
-.headshot {
-  max-width: 300px;
-  grid-row-end: span 3;
+.page-person .person {
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr);
+  grid-gap: 2rem;
 }
-.metadata {
+.page-person .person .name {
+  grid-column: 1 / 4;
+}
+.page-person .person .headshot {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.page-person .person .details {
+  grid-column: span 2;
+}
+.page-person .person .metadata {
   display: inline-grid;
   grid-template-columns: repeat( 4, auto );
-  grid-row-gap: 0.5rem;
+  margin-top: 1rem;
 }
-.metadata a {
+.page-person .person .metadata a {
   color: inherit;
+  border-bottom-color: transparent;
 }
-.meta {
+.page-person .person .meta {
   padding: 0 1rem;
   text-align: center;
   border-left: 1px solid #dfdfdf;
 }
-.meta:first-child {
+.page-person .person .meta:first-child {
   border-left: none;
   padding-left: 0;
 }
-.meta svg {
-  margin-right: 0.25rem;
+.page-person .person .meta svg {
+  margin-right: 0.5rem;
+}
+.page-person .person .bio {
+  grid-column: span 2;
 }

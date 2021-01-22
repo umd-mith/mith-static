@@ -13,17 +13,19 @@ const Post = ({ data, pageContext: post }) => {
   return (
     <Layout>
       <SEO title={metadata.post_title} />
-      <section className="post flow">
-        <h1 className="post-title">{metadata.post_title}</h1> 
-        <div className="post-meta">
-          by {metadata.author_name} on {metadata.post_date}
-          {' '}in {metadata.categories.join(', ')}
-        </div>       
-        <div 
-          className="post-content"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-      </section>
+      <div className="page-post">
+        <section className="post flow">
+          <h1 className="post-title">{metadata.post_title}</h1> 
+          <div className="post-meta">
+            by {metadata.author_name} on {metadata.post_date}
+            {' '}in {metadata.categories.join(', ')}
+          </div>       
+          <div 
+            className="post-content"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </section>
+      </div>
     </Layout>
   )
 }
