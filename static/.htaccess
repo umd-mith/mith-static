@@ -1,6 +1,11 @@
 RewriteEngine On
 RewriteBase /
 
+# mith.umd.edu is canonical for the website, not www.mith.umd.edu 
+
+RewriteCond %{HTTP_HOST} www.mith.umd.edu [NC]
+RewriteRule ^(.*)$ https://mith.umd.edu/$1 [L,R=301,NC]
+
 # These are some handy abbreviations that were used for some reason.
 
 RewriteRule ^dd/?$ https://mith.umd.edu/digital-dialogues/ [R=302,L]
