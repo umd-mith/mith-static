@@ -217,8 +217,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
             month_start
             year_end
             month_end        
-            participants
-            linked_participants {
+            participants: linked_participants {
               data {
                 name
                 title
@@ -231,21 +230,21 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 slug
               }
             }
-            linked_links {
+            links: linked_links {
               data {
                 title
                 url
                 type
               }
             }
-            linked_sponsors {
+            sponsors: linked_sponsors {
               data {
                 name
                 website
                 slug
               }
             }
-            linked_partners {
+            partners: linked_partners {
               data {
                 name
                 type
@@ -253,7 +252,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 slug
               }
             }
-            linked_events {
+            events: linked_events {
               data {
                 id
                 event_title
@@ -351,7 +350,15 @@ async function makeEvents(createPage, graphql) {
               data {
                 id
                 name
+                title
                 affiliation
+                affiliation_as_speaker
+              }
+            }
+            research_items: linked_research_item {
+              data {
+                id
+                title
               }
             }
           }
