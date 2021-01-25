@@ -70,7 +70,7 @@ export const query = graphql`
           speakers {
             data {
               name
-              website
+              affiliation_as_speaker
             }
           }
           description {

@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ResearchTime from '../components/research-time'
 import EventTime from '../components/event-time'
+import Person from '../components/person'
 
 //import './post-index.css'
 import './research.css'
@@ -14,59 +15,27 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Research = ({ pageContext: item }) => {
 
-  function makePerson(person, showTitle=false) {
-    let pageLocation = null
-    if (person.data.affiliation_as_current) {
-      pageLocation = person.data.slug ? person.data.slug : null
-    }
-
-    let person_name = pageLocation
-      ? <Link className="meta name" key={`p-${person.data.new_id}`} to={`../../people/${pageLocation}`}>{person.data.name}</Link>
-      : <div className="meta name">{person.data.name}</div>
-    let person_title = null
-    let person_affiliation = null
-    let person_dept = null
-    if (showTitle) {
-      person_title = person.data.title 
-        ? <span className="meta title">{person.data.title}</span>
-        : null
-      person_affiliation = person.data.affiliation
-        ? <span className="meta affiliation">{person.data.affiliation}</span>
-        : null
-      person_dept = person.data.department 
-        ? <span className="meta dept">{person.data.department}</span>
-        : null
-    } 
-    return (
-      <div className="person" id={person.data.new_id} title={person.data.name} key={`p-${person.data.new_id}`}>
-        {person_name}
-        {person_title}
-        {person_dept}
-        {person_affiliation}
-      </div>
-    )
-  }
-  // show directors in list of participants
-  let participant_list = null
-  let participants = null
-  if (item.linked_participants) {
-    participant_list = item.linked_participants.map(person => {
-      return makePerson(person, true)
-    })
-    participants = <div className="participants">
-      <h2>Participants</h2>
-      {participant_list}
-    </div>
-  }
-
   const title = item.image
     ? <Img 
       fluid={item.image.localFiles[0].childImageSharp.fluid} 
       alt={item.title} 
       className="research-image" 
     /> : <h1 className="title">{item.title}</h1>
+
   const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
   const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
+
+  let participant_list = null
+  let participants = null
+  if (item.participants) {
+    participant_list = item.participants.map(person => {
+      return <Person person={person.data} showTitle="true" />
+    })
+    participants = <div className="participants">
+      <h2>Participants</h2>
+      {participant_list}
+    </div>
+  }
 
   let twitter = null
   if (item.twitter_account || item.twitter_hashtag) {
@@ -85,8 +54,8 @@ const Research = ({ pageContext: item }) => {
   let links_list = null
   let links = null
   let link_url = null
-  if (item.linked_links) {
-    links_list = item.linked_links.map(l => {
+  if (item.links) {
+    links_list = item.links.map(l => {
         link_url = l.data.url.startsWith('http') 
           ? l.data.url 
           : `http://${l.data.url}`
@@ -98,8 +67,8 @@ const Research = ({ pageContext: item }) => {
   let sponsors_list = null
   let sponsors = null
   let sponsor_name = null
-  if (item.linked_sponsors) {
-    sponsors_list = item.linked_sponsors.map(s => {
+  if (item.sponsors) {
+    sponsors_list = item.sponsors.map(s => {
         if (s.data.website) {
           sponsor_name = s.data.website.startsWith('http') 
             ? s.data.website
@@ -114,8 +83,8 @@ const Research = ({ pageContext: item }) => {
 
   let events_list = null 
   let events = null
-  if (item.linked_events) {
-    events_list = item.linked_events.map(e => {
+  if (item.events) {
+    events_list = item.events.map(e => {
       return <li id={e.data.id}>
           <h3 className="title" itemProp="name"><Link key={`e-${e.data.id}`} to={`../../events/${e.data.id}`}>{e.data.talk_title || e.data.event_title}</Link></h3>
           <EventTime start={e.data.start} end={e.data.end} />
@@ -136,7 +105,7 @@ const Research = ({ pageContext: item }) => {
         <section className="research-item">
           {title}
           <div className="metadata">
-            <div className="time date"><ResearchTime start={start} end={end} /></div>
+            <ResearchTime start={start} end={end} />
             {twitter}
             {participants}
             {links}
