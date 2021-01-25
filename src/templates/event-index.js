@@ -9,8 +9,8 @@ import EventTime from '../components/event-time'
 import Speaker from '../components/speaker'
 
 const EventIndex = ({data}) => {
-  const events = data.allAirtable.nodes.map(n => n.data)
-  const pageCount = data.allAirtable.pageInfo.pageCount
+  const events = data.allAirtableEvents.nodes.map(n => n.data)
+  const pageCount = data.allAirtableEvents.pageInfo.pageCount
 
   return (
     <Layout>
@@ -53,7 +53,7 @@ const EventIndex = ({data}) => {
 
 export const query = graphql`
   query EventsQuery($skip: Int!, $limit: Int!) {
-    allAirtable (
+    allAirtableEvents (
       filter: {
         table: {eq: "Events"}
       }

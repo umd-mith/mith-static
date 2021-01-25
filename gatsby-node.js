@@ -223,6 +223,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 title
                 department
                 affiliation
+                affiliation_as_current
                 group_type
                 new_id
                 slug
@@ -235,6 +236,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 title
                 department
                 affiliation
+                affiliation_as_current
                 people_groups
                 group_type
                 new_id
@@ -286,7 +288,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
 async function makeEventIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtable(
+      allAirtableEvents(
         filter: {
           table: {eq: "Events"}
         }
@@ -298,7 +300,7 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  const numItems = results.data.allAirtable.pageInfo.itemCount
+  const numItems = results.data.allAirtableEvents.pageInfo.itemCount
   const itemsPerPage = 25
   const numPages = Math.ceil(numItems / itemsPerPage)
 
@@ -319,7 +321,7 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
 async function makeEvents(createPage, graphql) {
   const results = await graphql(`
     query {
-      allAirtable(
+      allAirtableEvents(
         filter: {table: {eq: "Events"}}
       ) {
         nodes {
@@ -340,7 +342,6 @@ async function makeEvents(createPage, graphql) {
             storifyUrl: storify_url
             sutoriEmbed: sutori_embed
             twitterMoment: twitter_moment
-            image: image_link
             speakers {
               data {
                 id
@@ -354,7 +355,7 @@ async function makeEvents(createPage, graphql) {
     }  
   `)
 
-  for (const node of results.data.allAirtable.nodes) {
+  for (const node of results.data.allAirtableEvents.nodes) {
     const event = node.data
     if (event.slug) {
       createPage({

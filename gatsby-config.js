@@ -141,7 +141,13 @@ module.exports = {
             tableName: `Research`,
             //tableView: `All_Research_Items`,
             queryName: `ResearchTable`,
-            tableLinks: [`linked_directors`,`linked_participants`,`linked_links`,`linked_partners`,`linked_sponsors`],
+            tableLinks: [
+              `linked_directors`,
+              `linked_participants`,
+              `linked_links`,
+              `linked_partners`,
+              `linked_sponsors`
+            ],
             separateNodeType: true,
             separateMapType: true,
             mapping: {
@@ -162,10 +168,10 @@ module.exports = {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `Sponsors`,
           },
-          { // People on Events Page
+          { // People on Research Page
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `People`,
-            queryName: `ResearchPeopleTable`,
+            queryName: `ResearchPeople`,
             separateNodeType: true,
             mapping: {
               headshot: `fileNode`
@@ -175,7 +181,7 @@ module.exports = {
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
             tableName: `Events`,
             queryName: `Events`,
-            //separateNodeType: true,
+            separateNodeType: true,
             tableLinks: ['speakers','linked_research_item'],
             separateMapType: true,
             mapping: {
@@ -252,7 +258,7 @@ module.exports = {
                 }
               }
             `
-          },
+          }/*,
           {
             title: `MITH Events`,
             output: `/events/feed.xml`,
@@ -291,7 +297,7 @@ module.exports = {
                 }
               }
             `
-          }
+          }*/
         ]
       }
     }
