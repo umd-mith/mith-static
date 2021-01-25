@@ -146,7 +146,8 @@ module.exports = {
               `linked_participants`,
               `linked_links`,
               `linked_partners`,
-              `linked_sponsors`
+              `linked_sponsors`,
+              `linked_events`
             ],
             separateNodeType: true,
             separateMapType: true,
@@ -183,7 +184,7 @@ module.exports = {
             queryName: `Events`,
             separateNodeType: true,
             tableLinks: ['speakers','linked_research_item'],
-            separateMapType: true,
+            //separateMapType: true,
             mapping: {
               description: `text/markdown`
             },

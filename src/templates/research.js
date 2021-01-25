@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ResearchTime from '../components/research-time'
+import EventTime from '../components/event-time'
 
 //import './post-index.css'
 import './research.css'
@@ -18,7 +19,7 @@ const Research = ({ pageContext: item }) => {
     if (person.data.affiliation_as_current) {
       pageLocation = person.data.slug ? person.data.slug : null
     }
-    //let pageLocation = person.data.slug
+
     let person_name = pageLocation
       ? <Link className="meta name" key={`p-${person.data.new_id}`} to={`../../people/${pageLocation}`}>{person.data.name}</Link>
       : <div className="meta name">{person.data.name}</div>
@@ -111,6 +112,23 @@ const Research = ({ pageContext: item }) => {
     sponsors = <div className="sponsors"><h2>Sponsors</h2><ul>{sponsors_list}</ul></div>
   }
 
+  let events_list = null 
+  let events = null
+  if (item.linked_events) {
+    events_list = item.linked_events.map(e => {
+      return <li id={e.data.id}>
+          <h3 className="title" itemProp="name"><Link key={`e-${e.data.id}`} to={`../../events/${e.data.id}`}>{e.data.talk_title || e.data.event_title}</Link></h3>
+          <EventTime start={e.data.start} end={e.data.end} />
+          <div itemProp="location" className="location">{e.data.location}</div>
+          <div className="description" 
+            dangerouslySetInnerHTML={{ __html: e.data.description ? e.data.description.childMarkdownRemark.excerpt : ''}} 
+          />
+          <Link className="button" key={`e-${e.data.id}`} to={`../../events/${e.data.id}`}>View Event Details</Link>
+        </li>
+    })
+    events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
+  }
+
   return (
     <Layout>
       <SEO title={item.title} />
@@ -127,6 +145,7 @@ const Research = ({ pageContext: item }) => {
           <div className="description" 
             dangerouslySetInnerHTML={{ __html: item.description ? item.description.childMarkdownRemark.html : ''}} 
           />
+          {events}
         </section>
       </div>
     </Layout>

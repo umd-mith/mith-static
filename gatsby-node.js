@@ -185,8 +185,9 @@ async function makeResearch(createPage, graphql, pathPrefix) {
       ) {
         nodes {
           data {
-            title
+            id
             slug
+            title
             description {
               childMarkdownRemark {
                 html
@@ -215,20 +216,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
             year_start
             month_start
             year_end
-            month_end
-            directors
-            linked_directors {
-              data {
-                name
-                title
-                department
-                affiliation
-                affiliation_as_current
-                group_type
-                new_id
-                slug
-              }
-            }            
+            month_end        
             participants
             linked_participants {
               data {
@@ -263,6 +251,22 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 type
                 website
                 slug
+              }
+            }
+            linked_events {
+              data {
+                id
+                event_title
+                talk_title
+                type: event_type
+                start: start_date
+                end: end_date
+                location
+                description {
+                  childMarkdownRemark {
+                    excerpt
+                  }
+                }
               }
             }
             active
@@ -326,6 +330,7 @@ async function makeEvents(createPage, graphql) {
       ) {
         nodes {
           data {
+            id
             slug
             event_title
             talk_title

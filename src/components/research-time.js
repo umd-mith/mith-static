@@ -13,12 +13,10 @@ const ResearchTime = ({start, end}) => {
   const endEl = <time itemProp="endDate" dateTime={end.format('YYYY-MM')}>{end.format('MMMM YYYY')}</time>
 
   if (startEl && endEl) {
-    return <span>{startEl} - {endEl}</span>
+    return <span>{startEl} &ndash; {endEl}</span>
   } else {
     return <span>{startEl}</span>
   }
-
 }
 
 export default ResearchTime
-

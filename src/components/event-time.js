@@ -29,8 +29,6 @@ const EventTime = ({start, end}) => {
   } else {
     return <span>{startEl}</span>
   }
-
 }
 
 export default EventTime
-
