@@ -14,9 +14,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Research = ({ pageContext: item }) => {
 
   function makePerson(person, showTitle=false) {
-    let pageLocation = person.data.slug
+    let pageLocation = null
+    if (person.data.affiliation_as_current) {
+      pageLocation = person.data.slug ? person.data.slug : null
+    }
+    //let pageLocation = person.data.slug
     let person_name = pageLocation
-      ? <Link className="meta name" key= {`p-${person.data.new_id}`} to={`../../people/${pageLocation}`}>{person.data.name}</Link>
+      ? <Link className="meta name" key={`p-${person.data.new_id}`} to={`../../people/${pageLocation}`}>{person.data.name}</Link>
       : <div className="meta name">{person.data.name}</div>
     let person_title = null
     let person_affiliation = null
@@ -41,28 +45,17 @@ const Research = ({ pageContext: item }) => {
       </div>
     )
   }
-
-  let director_list = null
-  let directors = null
-  if (item.linked_directors) {
-    director_list = item.linked_directors.map(person => {
-      return makePerson(person)
-    })
-    let count = item.linked_directors.length
-    let dir_header = "Director"
-    if (count > 1) {
-      dir_header = "Directors"
-    } 
-    directors = <div className="directors"><h2>{dir_header}</h2>{director_list}</div>
-  }
-
+  // show directors in list of participants
   let participant_list = null
   let participants = null
   if (item.linked_participants) {
     participant_list = item.linked_participants.map(person => {
       return makePerson(person, true)
     })
-    participants = <div className="participants"><h2>Participants</h2>{participant_list}</div>
+    participants = <div className="participants">
+      <h2>Participants</h2>
+      {participant_list}
+    </div>
   }
 
   const title = item.image
@@ -125,9 +118,8 @@ const Research = ({ pageContext: item }) => {
         <section className="research-item">
           {title}
           <div className="metadata">
-            <div className="time"><ResearchTime start={start} end={end} /></div>
+            <div className="time date"><ResearchTime start={start} end={end} /></div>
             {twitter}
-            {directors}
             {participants}
             {links}
             {sponsors}

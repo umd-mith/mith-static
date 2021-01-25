@@ -38,13 +38,20 @@
 .research-item .metadata a {
   border-bottom-width: 0;
 }
+/* Date */
+.research-item .date {
+  font-weight: 600;
+}
 /* Twitter */
 .research-item .twitter svg {
-  margin-right: 0.5rem;
+  font-size: 1.4rem;
+  margin-right: 0.1rem;
   color: #00aced;
 }
 .research-item .twitter a {
-  color: inherit;
+  font-size: 1.1rem;
+  color: #00aced;
+  font-weight: 600;
 }
 /* Person */
 .research-item .person {
