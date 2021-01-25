@@ -8,38 +8,34 @@ import './people.css'
 const PeoplePastPage = ({ data }) => {
   return (
 		<Layout>
-      <div>
-        <section>
-          <SEO title="Past People" />
-          <h1 className="hidden">Past People</h1>
+      <SEO title="Past People" />
+      <div className="page-people">
+        <section className="leader hidden">
+          <h1 className="page-title text-hidden">Past People</h1>
         </section>
-        <section> 
-          {data.people.nodes.map(group => {
-            return (
-              <div key={`g-${group.data.id}`} className={`people-group ${group.data.slug}`}>
-                <h2>{group.data.group_name}</h2>
-                  <div className="columns">
-                    {
-                    group.data.linked_people ?
-                      group.data.linked_people.map(person => (
-                        <article id={person.data.slug} className="col-4 col-4-lg col-4-md col-6-sm col-12-xs">
-                          <strong key={`p-${person.data.id}`}>{person.data.name}</strong>
-                          <div>{
-                            person.data.date_spans ? 
-                            person.data.date_spans.map(dates => (
-                              <span key={`d-${dates.data.id}`}>{dates.data.date_span}</span>
-                            ))
-                            : ''
-                          }</div>
-                        </article>
-                      ))
-                    : ''
-                    }
-                  </div>
-              </div>
-            )
-          })}
-        </section>
+        {data.people.nodes.map(group => {
+          return (
+            <section key={`g-${group.data.id}`} className={`people-group ${group.data.slug}`} role="group">
+              <h2>{group.data.group_name}</h2>
+              <> {
+                group.data.linked_people ?
+                  group.data.linked_people.map(person => (
+                    <article className="person" id={person.data.id}>
+                      <strong className="name" key={`p-${person.data.id}`}>{person.data.name}</strong>
+                      <div className="details">{
+                        person.data.date_spans ? 
+                        person.data.date_spans.map(dates => (
+                          <span key={`d-${dates.data.id}`}>{dates.data.date_span}</span>
+                        ))
+                        : ''
+                      }</div>
+                    </article>
+                  ))
+                : ''
+              } </>
+            </section>
+          )
+        })}
       </div>
     </Layout>
   )

@@ -7,19 +7,19 @@
   line-height: 1.5;
   margin-bottom: 0.1rem;
 }
-.person {
+.people-group .person {
   margin-bottom: 1.5rem;
 }
-.person .name {
+.people-group .person .name {
   margin-bottom: 0.5rem;
   margin-top: 1rem;
 }
-.person .title {
+.people-group .person .title {
   line-height: 1.5;
   font-family: var(--font-stack);
   font-style: italic;
   letter-spacing: 1px;
 }
-.person .name a {
+.people-group .person .name a {
   color: inherit;
 }

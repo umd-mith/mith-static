@@ -14,7 +14,12 @@ async function makePeople(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
       allAirtablePeopleTable(filter: {table: {eq: "People"}, data: {
-        people_groups: {elemMatch: {data: {group_name: {nin: ["Affiliates", "Past Affiliates"]}}}
+        people_groups: {
+          elemMatch: {
+            data: {
+              group_name: {nin: ["Affiliates", "Past Affiliates"]}
+            }
+          }
         }
       }
       }) {
@@ -36,7 +41,6 @@ async function makePeople(createPage, graphql, pathPrefix) {
             research_interests
             phone
             name
-            links
             email
             date_spans {
               data {
@@ -194,20 +198,71 @@ async function makeResearch(createPage, graphql, pathPrefix) {
               }
             }
             image {
-              thumbnails {
-                large {
-                  url
-                  height
-                  width
+              localFiles {
+                childImageSharp {
+                  fluid {
+                    src
+                    srcSet
+                    aspectRatio
+                    sizes
+                    base64
+                  }
                 }
               }
             }
+            twitter_account
+            twitter_hashtag
             year_start
             month_start
             year_end
             month_end
             directors
+            linked_directors {
+              data {
+                name
+                title
+                department
+                affiliation
+                group_type
+                new_id
+                slug
+              }
+            }            
             participants
+            linked_participants {
+              data {
+                name
+                title
+                department
+                affiliation
+                people_groups
+                group_type
+                new_id
+                slug
+              }
+            }
+            linked_links {
+              data {
+                title
+                url
+                type
+              }
+            }
+            linked_sponsors {
+              data {
+                name
+                website
+                slug
+              }
+            }
+            linked_partners {
+              data {
+                name
+                type
+                website
+                slug
+              }
+            }
             active
           }
         }
@@ -226,6 +281,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
     })
   }
 }
+
 
 async function makeEventIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
@@ -269,8 +325,8 @@ async function makeEvents(createPage, graphql) {
         nodes {
           data {
             slug
-            eventTitle: event_title
-            talkTitle: talk_title
+            event_title
+            talk_title
             type: event_type
             description {
               childMarkdownRemark {

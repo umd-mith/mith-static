@@ -1,7 +1,66 @@
-.project-image {
+.research-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  grid-template-areas:
+    "header"
+    "content"
+    "sidebar"
+    "footer"
+}
+.research-item h1 {
+  grid-area: header;
+  grid-column: span 4;
+}
+.research-image {
+  grid-area: header;
+  grid-column: span 4;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.research-item .description {
+  grid-area: content;
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+.research-item .metadata {
+  grid-area: sidebar;
+  grid-column: 4 / 5;
+  grid-row: 2;
+  font-size: smaller;
+}
+.research-item .metadata h2 {
+  margin-bottom: 1.0rem;
+}
+.research-item .metadata > div {
+  margin-bottom: 2rem;
+}
+.research-item .metadata a {
+  border-bottom-width: 0;
+}
+/* Twitter */
+.research-item .twitter svg {
+  margin-right: 0.5rem;
+  color: #00aced;
+}
+.research-item .twitter a {
+  color: inherit;
+}
+/* Person */
+.research-item .person {
+  margin: 0.5rem 0;
+}
+.research-item .person .name {
+  font-weight: bold;
   display: block;
-  width: 100%;
-  border: thin solid gray;
-  margin-bottom: 15px;
-  text-align: center;
+} 
+.research-item .metadata .person span {
+  font-style: italic;
+  font-size: 0.75rem;
+}
+.research-item .metadata .person span:after {
+  content: ", "
+}
+.research-item .metadata .person span:last-of-type:after {
+  content: none;
 }

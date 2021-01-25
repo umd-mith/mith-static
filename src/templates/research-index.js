@@ -14,9 +14,9 @@ const ResearchIndex = ({data}) => {
   return (
     <Layout>
       <SEO title="MITH Research" />
-      <div className="page-news">
-        <section className="news">
-          <h1>Research</h1>
+      <div className="page-research">
+        <section className="posts research">
+          <h1 className="page-title">Research</h1>
           {items.map(item => {
             const slug = '/research/' + item.slug + '/'
             const active = item.active === 'TRUE' ? <span class="pill">Active</span> : ''
@@ -24,10 +24,10 @@ const ResearchIndex = ({data}) => {
 
             return (
               <article className="post" key={`research-${item.id}`}>
-                <h2 className="post-title">
+                <h2 className="title">
                   <Link to={slug}>{item.title}</Link>
                 </h2>
-                <div className="post-meta">
+                <div className="meta">
                   {active}
                   Directors: <span className="director">{item.directors}</span>
                   {' '}started on <time>{item.year_start}</time>
