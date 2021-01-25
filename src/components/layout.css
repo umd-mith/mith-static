@@ -15,7 +15,7 @@ a {
 }
 a:active,
 a:hover {
-  color: rgb(164,171,15);
+  color: var(--color-main-dk);
   outline-width: 0;
 }
 main a {
@@ -88,10 +88,14 @@ svg:not(:root) {
   display: none;
 }
 .pill {
-  padding: 0 .5em;
-  background-color: rgb(183,191,16);
-  margin: 0 1em 0 0;
-  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--color-main);
+  padding: 0.2rem 0.75em;
+  margin: 0 var(--content-spacing-sm) 0 0;
+  border-radius: var(--base-content-spacing);
 }
 ul.inline-list {
   padding-left: 0;
@@ -104,4 +108,21 @@ ul.inline-list > li:before {
 }
 ul.inline-list > li:first-child:before {
   content: normal;
+}
+.button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--color-main);
+  border-bottom: 0;
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  margin: var(--content-spacing-sm) 0;
+}
+.button:hover,
+.button:active {
+  border-bottom: 0;
+  color: #fff;
+  background-color: rgba(183,191,16,0.8);
 }
