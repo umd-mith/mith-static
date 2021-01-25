@@ -25,9 +25,9 @@ const EventTime = ({start, end}) => {
   }
 
   if (startEl && endEl) {
-    return <span>{startEl} &ndash; {endEl}</span>
+    return <span className="time date event-date">{startEl} &ndash; {endEl}</span>
   } else {
-    return <span>{startEl}</span>
+    return <span className="time date event-date">{startEl}</span>
   }
 }
 
