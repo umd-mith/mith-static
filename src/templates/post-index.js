@@ -40,7 +40,7 @@ const PostIndex = ({data}) => {
             }
 
             return (
-              <article className="post" key={`news-${post.id}`}>
+              <article className="post news-post" key={`news-${post.id}`}>
                 <h2 className="post-title">
                   <Link to={slug}>{post.post_title}</Link>
                 </h2>

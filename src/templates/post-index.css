@@ -14,9 +14,11 @@
   font-size: 1.1rem;
 }
 .post .meta {
-  font-size: smaller;
-  color: #777;
+  color: var(--color-gray);
   margin-bottom: var(--content-spacing-xs);
+}
+.post .inline-list div {
+  display: inline-block;
 }
 .post .post-excerpt .read-more {
   display: block;
