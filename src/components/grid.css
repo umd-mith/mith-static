@@ -43,7 +43,8 @@ footer {
   #main-content .page-home,
   #main-content .page-people,
   #main-content .page-news,
-  #main-content .page-research {
+  #main-content .page-research,
+  #main-content .page-events {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-gap: var(--base-content-spacing);
@@ -78,7 +79,8 @@ footer {
   #main-content .page-home,
   #main-content .page-people,
   #main-content .page-news,
-  #main-content .page-research {
+  #main-content .page-research,
+  #main-content .page-events {
     display: block;
   }
   .logo,
