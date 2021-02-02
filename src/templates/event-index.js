@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import Paginator from '../components/paginator'
 import SEO from '../components/seo'
 import EventTime from '../components/event-time'
-import Speaker from '../components/speaker'
+import Person from '../components/person'
 
 const EventIndex = ({data}) => {
   const events = data.allAirtableEvents.nodes.map(n => n.data)
@@ -15,9 +15,9 @@ const EventIndex = ({data}) => {
   return (
     <Layout>
       <SEO title="MITH Events" />
-      <div className="page-news">
-        <section className="news">
-          <h1>
+      <div className="page-events">
+        <section className="posts events">
+          <h1 className="page-title">
             Events &nbsp;
             <a href="/events/feed.xml">
               <FontAwesomeIcon title="Event RSS Feed" icon="rss" />
@@ -26,18 +26,18 @@ const EventIndex = ({data}) => {
           {events.map(event => {
             const speakers = event.speakers || []
             return (
-              <article className="post" key={event.slug}>
-                <h2 className="post-title">
+              <article className="post event-post" key={event.slug}>
+                <h2 className="post-title event-title">
                   <FontAwesomeIcon icon="calendar" /> &nbsp; 
                   <Link to={`/events/${event.slug}/`}>{event.talk_title || event.event_title}</Link>
                 </h2>
-                <ul className="inline-list">
-                  {speakers.map(s => (
-                    <li><Speaker person={s.data} /></li>
-                  ))}
-                </ul>
-                <div className="post-meta">
-                  <span className="pill">{event.type}</span> &nbsp;
+                <div className="meta">
+                  <ul className="inline-list speakers">
+                    {speakers.map(s => (
+                      <Person person={s.data} showTitle="false" type="index" />
+                    ))}
+                  </ul>
+                  <span className="pill event-type">{event.type}</span>
                   <EventTime start={event.start} end={event.end} />
                 </div>
                 <div className="post-excerpt">{event.description ? event.description.childMarkdownRemark.excerpt : ''}</div>

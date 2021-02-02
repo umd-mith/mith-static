@@ -17,10 +17,6 @@ module.exports = {
       //   link: "/students/"
       // },
       {
-         name: "Events",
-         link: "/events/"
-      },
-      {
         name: "News",
         link: "/news/"
       },
@@ -32,6 +28,10 @@ module.exports = {
         name: "Research",
         link: "/research/"
       },
+      {
+        name: "Events",
+        link: "/events/"
+     },
       // {
       //  name: "Partner With Us",
       //  link: "/partner-with-us/"
@@ -126,14 +126,12 @@ module.exports = {
             tableName: `Affiliations`,
             queryName: `AffiliationsTable`,
             tableLinks: [`linked_people`],
-            //separateNodeType: true,
             separateMapType: true,
           },
           {
             baseId: process.env.AIRTABLE_POSTS_BASE_ID,
             tableName: `Posts`,
             queryName: `PostsTable`,
-            //separateNodeType: true,
             separateMapType: true,
           },
           {
@@ -184,7 +182,6 @@ module.exports = {
             queryName: `Events`,
             separateNodeType: true,
             tableLinks: ['speakers','linked_research_item'],
-            //separateMapType: true,
             mapping: {
               description: `text/markdown`
             },
@@ -194,6 +191,10 @@ module.exports = {
             tableName: `People`,
             queryName: `EventsPeople`,
             separateNodeType: true,
+            mapping: {
+              headshot: `fileNode`,
+              bio: `text/markdown`
+            }
           },
           { // Linked Research Items on Event pages
             baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,

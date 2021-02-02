@@ -52,7 +52,7 @@ async function makePeople(createPage, graphql, pathPrefix) {
             headshot {
               localFiles {
                 childImageSharp {
-                  fluid(maxWidth: 500, maxHeight: 500, fit: COVER, background: "rgba(255,255,255,0)") {
+                  fluid(maxWidth: 500, maxHeight: 500, fit: COVER, srcSetBreakpoints: [200, 250, 500], quality: 100, background: "rgba(255,255,255,0)") {
                     src
                     srcSet
                     aspectRatio
@@ -224,6 +224,7 @@ async function makeResearch(createPage, graphql, pathPrefix) {
                 department
                 affiliation
                 affiliation_as_current
+                bio_external
                 people_groups
                 group_type
                 new_id
@@ -353,6 +354,22 @@ async function makeEvents(createPage, graphql) {
                 title
                 affiliation
                 affiliation_as_speaker
+                twitter
+                website
+                headshot {
+                  localFiles {
+                    childImageSharp {
+                      fluid(maxHeight: 200, maxWidth: 200, fit: COVER, srcSetBreakpoints: [200, 400], quality: 100, background: "rgba(255,255,255,0)") {
+                        src
+                        srcSet
+                        aspectRatio
+                        sizes
+                        base64
+                      }
+                    }
+                  }
+                }
+                bio
               }
             }
             research_items: linked_research_item {
