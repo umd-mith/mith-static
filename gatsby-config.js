@@ -220,6 +220,7 @@ module.exports = {
           }
         `,
         feeds: [
+          /*
           {
             title: `MITH News`,
             output: `/news/feed.xml`,
@@ -259,7 +260,7 @@ module.exports = {
                 }
               }
             `
-          }/*,
+          },
           {
             title: `MITH Events`,
             output: `/events/feed.xml`,
