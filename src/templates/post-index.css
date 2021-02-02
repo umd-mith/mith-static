@@ -20,6 +20,10 @@
 .post .inline-list div {
   display: inline-block;
 }
+.post ul {
+  list-style: unset;
+  padding: revert;
+}
 .post .post-excerpt .read-more {
   display: block;
   text-transform: uppercase;
