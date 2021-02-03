@@ -26,7 +26,6 @@ module.exports = {
         name: "People",
         link: "/people/"
       },
-      /*
       {
         name: "Research",
         link: "/research/"
@@ -35,6 +34,7 @@ module.exports = {
         name: "Events",
         link: "/events/"
       },
+      /*
       {
         name: "Partner With Us",
         link: "/partner-with-us/"
