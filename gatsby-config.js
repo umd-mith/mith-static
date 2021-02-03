@@ -8,14 +8,16 @@ module.exports = {
     description: `Maryland Institute for Technology in the Humanities`,
     author: `@UMD_MITH`,
     navLinks: [
-      // {
-      //   name: "What We Do",
-      //   link: "/what-we-do/"
-      // },
-      // {
-      //   name: "Opportunities For Students",
-      //   link: "/students/"
-      // },
+      /*
+      {
+        name: "What We Do",
+        link: "/what-we-do/"
+      },
+      {
+        name: "Opportunities For Students",
+        link: "/students/"
+      },
+      */
       {
         name: "News",
         link: "/news/"
@@ -24,6 +26,7 @@ module.exports = {
         name: "People",
         link: "/people/"
       },
+      /*
       {
         name: "Research",
         link: "/research/"
@@ -31,11 +34,12 @@ module.exports = {
       {
         name: "Events",
         link: "/events/"
-     },
-      // {
-      //  name: "Partner With Us",
-      //  link: "/partner-with-us/"
-      // }
+      },
+      {
+        name: "Partner With Us",
+        link: "/partner-with-us/"
+      }
+      */
     ]
   },
   plugins: [
