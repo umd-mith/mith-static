@@ -46,6 +46,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-remark-source-name`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./static/data/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
