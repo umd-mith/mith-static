@@ -8,10 +8,8 @@ import ResearchTime from '../components/research-time'
 import EventTime from '../components/event-time'
 import Person from '../components/person'
 
-//import './post-index.css'
 import './research.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 
 const Research = ({ pageContext: item }) => {
 
@@ -29,11 +27,11 @@ const Research = ({ pageContext: item }) => {
   let participants = null
   if (item.participants) {
     participant_list = item.participants.map(person => {
-      return <Person person={person.data} showTitle="true" />
+      return <Person person={person.data} showTitle="true" type="participant" />
     })
     participants = <div className="participants">
       <h2>Participants</h2>
-      {participant_list}
+      <ul>{participant_list}</ul>
     </div>
   }
 
@@ -41,11 +39,11 @@ const Research = ({ pageContext: item }) => {
   if (item.twitter_account || item.twitter_hashtag) {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     const twitter_acct = item.twitter_account
-      ? <span className="meta twitter_acct">
+      ? <span className="twitter_acct">
           <a href={`https://twitter.com/${item.twitter_account}`}>{item.twitter_account}</a>
         </span> : null
     const twitter_hash = item.twitter_hashtag 
-      ? <span className="meta twitter_hash">
+      ? <span className="twitter_hash">
         <a href={`https://twitter.com/hashtag/${item.twitter_hashtag}`}>#{item.twitter_hashtag}</a>
       </span> : null
     twitter = <div className="twitter">{iconTwitter} {twitter_acct} {twitter_hash}</div>
