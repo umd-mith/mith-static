@@ -21,18 +21,16 @@ const ResearchIndex = ({data}) => {
           {items.map(item => {
             const slug = '/research/' + item.slug + '/'
             const active = item.active === 'TRUE' ? <span class="pill">Active</span> : ''
-            const ended = item.year_end ? <span> ended on <time>{item.year_end}</time></span> : ''
-            
-            const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
-            const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end 
-            
+            const started = item.year_start ? <span><time>{item.year_start}</time></span> : ''
+            const ended = item.year_end ? <span> &ndash; <time>{item.year_end}</time></span> : ''
+
             return (
               <article className="post research-item-post" key={`research-${item.id}`}>
                 <h2 className="title">
                   <Link to={slug}>{item.title}</Link>
                 </h2>
                 <div className="meta">
-                  {active} <ResearchTime start={start} end={end} />
+                  {active} {started}{ended}
                 </div>
                 <div className="post-excerpt">
                   {item.description ? item.description.childMarkdownRemark.excerpt : ''} 

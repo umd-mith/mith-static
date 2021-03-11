@@ -20,8 +20,10 @@ const Research = ({ pageContext: item }) => {
       className="research-image" 
     /> : <h1 className="title">{item.title}</h1>
 
-  const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
-  const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
+  const started = item.year_start ? <span className="started">{item.year_start}</span> : ''
+  const ended = item.year_end ? <span className="ended"> &ndash; {item.year_end}</span> : ''
+  //const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
+  //const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
 
   let participant_list = null
   let participants = null
@@ -103,7 +105,7 @@ const Research = ({ pageContext: item }) => {
         <section className="research-item">
           {title}
           <div className="metadata">
-            <ResearchTime start={start} end={end} />
+            {started}{ended}
             {twitter}
             {participants}
             {links}
