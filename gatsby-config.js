@@ -30,10 +30,12 @@ module.exports = {
         name: "Research",
         link: "/research/"
       },
+      /*
       {
         name: "Events",
         link: "/events/"
       },
+      */
       /*
       {
         name: "Partner With Us",
