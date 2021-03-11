@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ResearchTime from '../components/research-time'
-import EventTime from '../components/event-time'
+//import ResearchTime from '../components/research-time'
+//import EventTime from '../components/event-time'
 import Person from '../components/person'
 
 import './research.css'
@@ -80,7 +80,7 @@ const Research = ({ pageContext: item }) => {
     })
     sponsors = <div className="sponsors"><h2>Sponsors</h2><ul>{sponsors_list}</ul></div>
   }
-
+/*
   let events_list = null 
   let events = null
   if (item.events) {
@@ -97,7 +97,7 @@ const Research = ({ pageContext: item }) => {
     })
     events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
   }
-
+*/
   return (
     <Layout>
       <SEO title={item.title} />
@@ -114,7 +114,6 @@ const Research = ({ pageContext: item }) => {
           <div className="description" 
             dangerouslySetInnerHTML={{ __html: item.description ? item.description.childMarkdownRemark.html : ''}} 
           />
-          {events}
         </section>
       </div>
     </Layout>
