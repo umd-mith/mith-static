@@ -83,7 +83,12 @@ async function persistPeople() {
 }
 
 async function persistPosts() {
-  const base = at.base(process.env.AIRTABLE_POSTS_BASE_ID)
+  const baseId = process.env.AIRTABLE_POSTS_BASE_ID
+  if (! baseId) {
+    console.error('Please add AIRTABLE_POSTS_BASE_ID to your environment or .env file!')
+    return
+  }
+  const base = at.base(baseId)
   try {
     const postsData = await getDataFor(base, 'Posts')
 
