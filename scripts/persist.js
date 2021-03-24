@@ -8,7 +8,12 @@ const fs = require('fs')
 const path = require('path')
 const Airtable = require('airtable')
 
-const at = new Airtable({apiKey: process.env.AIRTABLE_API_KEY})
+const airtableKey = process.env.AIRTABLE_API_KEY
+if (! airtableKey) {
+  console.error('Please add AIRTABLE_API_KEY to your environment or .env file!')
+  process.exit()
+}
+const at = new Airtable({apiKey: airtableKey})
 
 function writeJson(o, filename) {
   const fullPath = path.resolve(__dirname, '../static/data/', filename)
@@ -41,7 +46,14 @@ function getDataFor(base, table) {
 }
 
 async function persistPeople() {
-  const base = at.base(process.env.AIRTABLE_MITH_BASE_ID)
+
+  const baseId = process.env.AIRTABLE_MITH_BASE_ID
+  if (! baseId) {
+    console.error('Please add AIRTABLE_MITH_BASE_ID to your environment or .env file!')
+    return
+  }
+  const base = at.base(baseId)
+
   try {
     const people = await getDataFor(base, 'People')
     const groups = await getDataFor(base, 'Groups')
