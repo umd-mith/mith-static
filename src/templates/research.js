@@ -1,17 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ResearchTime from '../components/research-time'
-import EventTime from '../components/event-time'
+//import ResearchTime from '../components/research-time'
+//import EventTime from '../components/event-time'
 import Person from '../components/person'
 
-//import './post-index.css'
 import './research.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 
 const Research = ({ pageContext: item }) => {
 
@@ -22,18 +20,20 @@ const Research = ({ pageContext: item }) => {
       className="research-image" 
     /> : <h1 className="title">{item.title}</h1>
 
-  const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
-  const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
+  const started = item.year_start ? <span className="started">{item.year_start}</span> : ''
+  const ended = item.year_end ? <span className="ended"> &ndash; {item.year_end}</span> : ''
+  //const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
+  //const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
 
   let participant_list = null
   let participants = null
   if (item.participants) {
     participant_list = item.participants.map(person => {
-      return <Person person={person.data} showTitle="true" />
+      return <Person person={person.data} showTitle="true" type="participant" />
     })
     participants = <div className="participants">
       <h2>Participants</h2>
-      {participant_list}
+      <ul>{participant_list}</ul>
     </div>
   }
 
@@ -41,11 +41,11 @@ const Research = ({ pageContext: item }) => {
   if (item.twitter_account || item.twitter_hashtag) {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     const twitter_acct = item.twitter_account
-      ? <span className="meta twitter_acct">
+      ? <span className="twitter_acct">
           <a href={`https://twitter.com/${item.twitter_account}`}>{item.twitter_account}</a>
         </span> : null
     const twitter_hash = item.twitter_hashtag 
-      ? <span className="meta twitter_hash">
+      ? <span className="twitter_hash">
         <a href={`https://twitter.com/hashtag/${item.twitter_hashtag}`}>#{item.twitter_hashtag}</a>
       </span> : null
     twitter = <div className="twitter">{iconTwitter} {twitter_acct} {twitter_hash}</div>
@@ -80,7 +80,7 @@ const Research = ({ pageContext: item }) => {
     })
     sponsors = <div className="sponsors"><h2>Sponsors</h2><ul>{sponsors_list}</ul></div>
   }
-
+/*
   let events_list = null 
   let events = null
   if (item.events) {
@@ -97,7 +97,7 @@ const Research = ({ pageContext: item }) => {
     })
     events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
   }
-
+*/
   return (
     <Layout>
       <SEO title={item.title} />
@@ -105,7 +105,7 @@ const Research = ({ pageContext: item }) => {
         <section className="research-item">
           {title}
           <div className="metadata">
-            <ResearchTime start={start} end={end} />
+            {started}{ended}
             {twitter}
             {participants}
             {links}
@@ -114,7 +114,6 @@ const Research = ({ pageContext: item }) => {
           <div className="description" 
             dangerouslySetInnerHTML={{ __html: item.description ? item.description.childMarkdownRemark.html : ''}} 
           />
-          {events}
         </section>
       </div>
     </Layout>

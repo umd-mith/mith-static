@@ -2,8 +2,9 @@ import React from 'react'
 import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/layout'
-import Paginator from '../components/paginator'
 import SEO from '../components/seo'
+import Paginator from '../components/paginator'
+import ResearchTime from '../components/research-time'
 
 import './post-index.css'
 
@@ -20,18 +21,16 @@ const ResearchIndex = ({data}) => {
           {items.map(item => {
             const slug = '/research/' + item.slug + '/'
             const active = item.active === 'TRUE' ? <span class="pill">Active</span> : ''
-            const ended = item.year_end ? <span> ended on <time>{item.year_end}</time></span> : ''
+            const started = item.year_start ? <span><time>{item.year_start}</time></span> : ''
+            const ended = item.year_end ? <span> &ndash; <time>{item.year_end}</time></span> : ''
 
             return (
-              <article className="post" key={`research-${item.id}`}>
+              <article className="post research-item-post" key={`research-${item.id}`}>
                 <h2 className="title">
                   <Link to={slug}>{item.title}</Link>
                 </h2>
                 <div className="meta">
-                  {active}
-                  Directors: <span className="director">{item.directors}</span>
-                  {' '}started on <time>{item.year_start}</time>
-                  {ended}
+                  {active} {started}{ended}
                 </div>
                 <div className="post-excerpt">
                   {item.description ? item.description.childMarkdownRemark.excerpt : ''} 
