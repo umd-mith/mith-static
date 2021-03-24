@@ -9,8 +9,8 @@ import SEO from '../components/seo'
 import './post-index.css'
 
 const PostIndex = ({data}) => {
-  const posts = data.allAirtable.nodes.map(n => n.data)
-  const pageCount = data.allAirtable.pageInfo.pageCount
+  const posts = data.allPostsJson.nodes
+  const pageCount = data.allPostsJson.pageInfo.pageCount
 
   return (
 		<Layout>
@@ -64,22 +64,19 @@ const PostIndex = ({data}) => {
 
 export const query = graphql`
   query PostsQuery($skip: Int!, $limit: Int!) {
-    allAirtable(
+    allPostsJson(
       filter: {
-        table: {eq: "Posts"}
-        data: {DD_Post: {eq: null}, Event_Post: {eq: null}}
+        DD_Post: {eq: null}, Event_Post: {eq: null}
       }
       limit: $limit
       skip: $skip
-      sort: {fields: data___post_date, order: DESC}
+      sort: {fields: post_date, order: DESC}
     ) {
       nodes {
-        data {
-          slug
-          author_name
-          post_title
-          post_date(formatString: "MMMM D, YYYY")
-        }
+        slug
+        author_name
+        post_title
+        post_date(formatString: "MMMM D, YYYY")
       }
       pageInfo {
         pageCount

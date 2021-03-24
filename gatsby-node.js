@@ -3,12 +3,14 @@ const {createRemoteFileNode} = require('gatsby-source-filesystem')
 
 // When creating nodes, set the following fields with a markdown mediaType.
 const toMarkdown = {
-  'People' : ['bio']
+  'People' : ['bio'],
+  'Research' : ['description', 'excerpt']
 }
 
 // When creating nodes, set the following fields with an Image type.
 const toImage = {
-  'People' : ['headshot']
+  'People' : ['headshot'],
+  'Research' : ['image']
 }
 
 exports.onCreateNode = async ({
@@ -210,11 +212,7 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
 async function makeResearchIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtableResearchTable(
-        filter: {
-          table: {eq: "Research"}
-        }
-      ) {
+      allResearchJson {
         pageInfo {
           itemCount
         }
@@ -222,7 +220,7 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  const numItems = results.data.allAirtableResearchTable.pageInfo.itemCount
+  const numItems = results.data.allResearchJson.pageInfo.itemCount
   const itemsPerPage = 25
   const numPages = Math.ceil(numItems / itemsPerPage)
 
