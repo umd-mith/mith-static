@@ -238,111 +238,91 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
   })
 }
 
-async function makeResearch(createPage, graphql, pathPrefix) {
+async function makeResearch(createPage, graphql) {
   const results = await graphql(`
     query {
-      allAirtableResearchTable(
-        filter: {
-          table: {eq: "Research"}
-        }
-      ) {
+      allResearchJson {
         nodes {
-          data {
-            id
-            slug
-            title
-            description {
+          id
+          fields {
+            markdownDescription {
               childMarkdownRemark {
                 html
               }
             }
-            excerpt {
+            markdownExcerpt {
               childMarkdownRemark {
                 html
               }
             }
             image {
-              localFiles {
-                childImageSharp {
-                  fluid {
-                    src
-                    srcSet
-                    aspectRatio
-                    sizes
-                    base64
-                  }
+              childImageSharp {
+                fluid {
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                  base64
                 }
               }
             }
-            twitter_account
-            twitter_hashtag
-            year_start
-            month_start
-            year_end
-            month_end        
-            participants: linked_participants {
-              data {
-                name
-                title
-                department
-                affiliation
-                affiliation_as_current
-                bio_external
-                people_groups
-                group_type
-                new_id
-                slug
-              }
-            }
-            links: linked_links {
-              data {
-                title
-                url
-                type
-              }
-            }
-            sponsors: linked_sponsors {
-              data {
-                name
-                website
-                slug
-              }
-            }
-            partners: linked_partners {
-              data {
-                name
-                type
-                website
-                slug
-              }
-            }
-            events: linked_events {
-              data {
-                id
-                event_title
-                talk_title
-                type: event_type
-                start: start_date
-                end: end_date
-                location
-                description {
-                  childMarkdownRemark {
-                    excerpt
-                  }
-                }
-              }
-            }
-            active
+          }
+          active
+          title
+          twitter_account
+          twitter_hashtag
+          year_start
+          month_start
+          year_end
+          month_end
+          participants {
+            name
+            title
+            department
+            institution
+            person_group
+            slug
+          }
+          directors {
+            name
+            title
+            department
+            institution
+            person_group
+            slug
+          }
+          links {
+            title
+            url
+          }
+          sponsors {
+            name
+            website
+            slug
+          }
+          partners {
+            name
+            website
+            slug
+          }
+          events {
+            id
+            event_type
+            event_title
+            type: talk_title
+            start: start_date
+            end: end_date
+            location
           }
         }
-      }
-    }  
+      } 
+    }
   `)
 
-  for (const node of results.data.allAirtableResearchTable.nodes) {
-    const item = node.data
+  for (const node of results.data.allResearchJson.nodes) {
+    const item = node
     createPage({
-      path: `/research/${item.slug}/`,
+      path: `/research/${item.id}/`,
       component: require.resolve(`./src/templates/research.js`),
       context: {
         ...item
