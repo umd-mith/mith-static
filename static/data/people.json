@@ -166,6 +166,32 @@
     "id": "maria-velazquez",
     "first": "Maria",
     "last": "Velazquez",
+    "headshot": [
+      {
+        "id": "attu8omfUjBIsP7rp",
+        "url": "https://dl.airtable.com/.attachments/0ef7c0b9aede2f46907702199f4d979d/6e4f844e/image.png",
+        "filename": "image.png",
+        "size": 64397,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/646a183a715b2a38f82b5b0ef229a476/380a24b7",
+            "width": 21,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0130f26bce87fb8aacc81e25493c56aa/cf6a6eda",
+            "width": 122,
+            "height": 205
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/e5fdbf45eb77b5ac7373897f10b5c72e/08fbf0ea",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "title": "Winnemore Digital Humanities Dissertation Fellow",
     "institution": "University of Maryland",
     "identity as past": "maria-velazquez-452",
@@ -197,7 +223,7 @@
     ],
     "slug formula": "maria-velazquez",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T22:45:24.000Z",
     "record_id": "rec0qDKJCTRfh5AbI"
   },
   {
@@ -418,6 +444,9 @@
       "rec44PIqARZuQXJ0w",
       "recPihXbttdksuNiP"
     ],
+    "events as participant": [
+      "recHnhO9G81d6Tfia"
+    ],
     "linked identities": [
       "recuTlwT4DcsFsoMc",
       "recmvcVuyurcUEZ0C"
@@ -429,7 +458,7 @@
     ],
     "slug formula": "rachel-donahue",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T22:32:12.000Z",
     "record_id": "rec13WYRw8YDH78ss"
   },
   {
@@ -590,7 +619,8 @@
       "recg6jOlhWPZVbLyV",
       "recdP0I3lL0t3p6fa",
       "recuo0xeTS4XALdWR",
-      "recq64FfJY5vGqecq"
+      "recq64FfJY5vGqecq",
+      "recsYbAx3cuzDgm0x"
     ],
     "events as speaker": [
       "recJkvOYWhPEXu869"
@@ -606,7 +636,7 @@
     ],
     "slug formula": "george-williams",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T16:38:05.000Z",
+    "modified": "2021-03-10T20:37:08.000Z",
     "record_id": "rec1hjdAVIdyZoEEm"
   },
   {
@@ -1138,7 +1168,8 @@
     ],
     "linked identities": [
       "recrx3Up62pn9rzpa",
-      "reconV5GvjQ6JmOjT"
+      "reconV5GvjQ6JmOjT",
+      "rec5C3VJPPQylelaI"
     ],
     "name": "Kyle Bickoff",
     "group type": [
@@ -1146,8 +1177,27 @@
     ],
     "slug formula": "kyle-bickoff",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T22:03:57.000Z",
     "record_id": "rec3O1HRc3GA767RC"
+  },
+  {
+    "id": "catherine-phan",
+    "first": "Catherine",
+    "last": "Phan",
+    "people groups": [
+      "External"
+    ],
+    "linked identities": [
+      "recEAqGQ7VqMC98v3"
+    ],
+    "name": "Catherine Phan",
+    "group type": [
+      "External"
+    ],
+    "slug formula": "catherine-phan",
+    "created": "2021-03-09T15:12:45.000Z",
+    "modified": "2021-03-09T15:13:16.000Z",
+    "record_id": "rec3Rj44VzJ71BKt7"
   },
   {
     "id": "mauricio-giraldo",
@@ -2074,7 +2124,6 @@
       "recQrBgXNsDrlSJHt",
       "rec8mO5wbkeBJxI6l",
       "recixwPkJ79MJaDhx",
-      "rec2M5EtNxNX7opn2",
       "recS9VbejZ4CnjcZg",
       "rechMqJ7VykqPDG99",
       "reclnYy3JRImc7fdJ",
@@ -2097,9 +2146,7 @@
       "rec2M5EtNxNX7opn2",
       "recS9VbejZ4CnjcZg",
       "rechMqJ7VykqPDG99",
-      "reclnYy3JRImc7fdJ",
-      "recZ0HGWJHKE7lAAc",
-      "recZWQryQONobmxcK"
+      "reclnYy3JRImc7fdJ"
     ],
     "events as speaker": [
       "reckGyZnmI1rUkmMn",
@@ -2109,7 +2156,8 @@
     "events as participant": [
       "recoFfFg1889dnPEm",
       "recLzu5qlGNcIqugP",
-      "recjsR8BcSAZCmOCs"
+      "recjsR8BcSAZCmOCs",
+      "rec4Ew7YAVS0RP5h9"
     ],
     "linked identities": [
       "recl1S10YltcvoEKJ",
@@ -2123,7 +2171,7 @@
     ],
     "slug formula": "neil-fraistat",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-27T03:15:36.000Z",
+    "modified": "2021-03-10T20:43:22.000Z",
     "record_id": "rec7IQrtMhb4Ro8Mc"
   },
   {
@@ -2853,7 +2901,8 @@
       "rec8mO5wbkeBJxI6l",
       "recCqMxTdRsZ0Ovb1",
       "recJgjs866P2xLBdD",
-      "recK9x1IyybfYDyiA"
+      "recK9x1IyybfYDyiA",
+      "recS9VbejZ4CnjcZg"
     ],
     "events as speaker": [
       "rec4HAXBE9Z5RCFlR",
@@ -2881,7 +2930,7 @@
     ],
     "slug formula": "doug-reside",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T19:38:43.000Z",
+    "modified": "2021-03-10T21:08:53.000Z",
     "record_id": "recAPnvQ5zvVez1MD"
   },
   {
@@ -3370,7 +3419,7 @@
       }
     ],
     "identity as speaker": "ethan-watrall-462, ethan-watrall-463, ethan-watrall-464",
-    "bio": "**Ethan Watrall** is an Assistant Professor in the Department of Anthropology and Associate Director of Matrix: The Center for Humane Arts, Letters & Social Sciences Online ([matrix.msu.edu](matrix.msu.edu)) at Michigan State University. In addition, Ethan is Director of the Cultural Heritage Informatics Initiative ([chi.anthropology.msu.edu](chi.anthropology.msu.edu)) and the Cultural Heritage Informatics Fieldschool at Michigan State University ([sites.matrix.msu.edu/chi-fieldschool](sites.matrix.msu.edu/chi-fieldschool)). Ethan's interests fall in the domain of cultural heritage informatics and digital archaeology, with particular focus on serious games & meaningful play, mobile & geospatial (mostly within the context of public outreach and engagement), and linked open archaeological data. Ethan is PI of the NEH funded \"Red Land/Black Land: Teaching Ancient Egyptian History Through Game-Based Learning\" project. Ethan is editor of Play the Past ([www.playthepast.org](www.playthepast.org)), a collaborative authored, scholarly blog dedicated to exploring the intersection between games and cultural heritage. In addition, Ethan is co-editor of Archaeology 2.0: New Tools for Communication and Collaboration, an open access volume published by the UCLA Cotsen Institute of Archaeology Press ([www.escholarship.orguc/item/1r6137tb](www.escholarship.orguc/item/1r6137tb)). In addition to his scholarly work, Ethan has written trade books on web and interactive design, including Head First Web Design published by O'Reilly. \n",
+    "bio": "\n",
     "twitter": "captain_primate",
     "linked events": "ethan-watrall-archaeology-and-the-big-tent-of-the-digital-humanities",
     "people groups": [
@@ -3391,7 +3440,7 @@
     ],
     "slug formula": "ethan-watrall",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T04:09:03.000Z",
     "record_id": "recBeyNRWHAtVCJyS"
   },
   {
@@ -3544,8 +3593,12 @@
     "wordpress nicename": "sayanbhattacharyya",
     "new id": 105,
     "wordpress id": 7013,
+    "events as participant": [
+      "recF7g7awCqoQLFrF"
+    ],
     "linked identities": [
-      "rec0Vj4duFb7SBjsc"
+      "rec0Vj4duFb7SBjsc",
+      "recdOwXYqTsuBg1bH"
     ],
     "name": "Sayan Bhattacharyya",
     "group type": [
@@ -3553,7 +3606,7 @@
     ],
     "slug formula": "sayan-bhattacharyya",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T04:21:49.000Z",
     "record_id": "recCQxUqiw3LHTBfR"
   },
   {
@@ -3962,6 +4015,25 @@
     "record_id": "recDyUMlocZB9EqKd"
   },
   {
+    "id": "erik-moore",
+    "first": "Erik",
+    "last": "Moore",
+    "people groups": [
+      "External"
+    ],
+    "linked identities": [
+      "recLB73t7yBlGKAbp"
+    ],
+    "name": "Erik Moore",
+    "group type": [
+      "External"
+    ],
+    "slug formula": "erik-moore",
+    "created": "2021-03-09T15:16:10.000Z",
+    "modified": "2021-03-09T15:16:24.000Z",
+    "record_id": "recE2M2wPnxpIBTzh"
+  },
+  {
     "id": "kevin-fries",
     "first": "Kevin",
     "last": "Fries",
@@ -4080,11 +4152,13 @@
     "new id": 263,
     "wordpress id": 21068,
     "linked research as director": [
-      "recvR6EgsUHNU7q27"
+      "recvR6EgsUHNU7q27",
+      "recjiQMxXWTQ3vA5q"
     ],
     "linked research as participant": [
       "recvR6EgsUHNU7q27",
-      "recybLltnlNUrjFIw"
+      "recybLltnlNUrjFIw",
+      "recjiQMxXWTQ3vA5q"
     ],
     "events as speaker": [
       "rec73tYlqDdhuXggl"
@@ -4103,7 +4177,7 @@
     ],
     "slug formula": "eric-hoyt",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-09T15:04:44.000Z",
     "record_id": "recEFtLdFX1bEMTgo"
   },
   {
@@ -4297,6 +4371,25 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recF9xf5SsvTl528K"
+  },
+  {
+    "id": "rebecca-toov",
+    "first": "Rebecca",
+    "last": "Toov",
+    "people groups": [
+      "External"
+    ],
+    "linked identities": [
+      "recEE8pvZrgZYhzoJ"
+    ],
+    "name": "Rebecca Toov",
+    "group type": [
+      "External"
+    ],
+    "slug formula": "rebecca-toov",
+    "created": "2021-03-09T15:17:52.000Z",
+    "modified": "2021-03-09T15:18:04.000Z",
+    "record_id": "recFSjPGO2AVgxNWZ"
   },
   {
     "id": "jessica-h-lu",
@@ -4731,7 +4824,8 @@
     ],
     "new id": 467,
     "events as speaker": [
-      "reczsADnZKvyQI5I8"
+      "reczsADnZKvyQI5I8",
+      "recF7g7awCqoQLFrF"
     ],
     "linked identities": [
       "recKzn53WlNAykaB0"
@@ -4742,7 +4836,7 @@
     ],
     "slug formula": "david-mimno",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T04:27:01.000Z",
     "record_id": "recH8BtQNwlZS889R"
   },
   {
@@ -5278,7 +5372,13 @@
       "recz8xfGfJfHMMVWb",
       "rec0WWWqxVT33BROf",
       "recr52q9xyxZMFkNl",
-      "reccHUsC5lZzbh3QQ"
+      "reccHUsC5lZzbh3QQ",
+      "rec3cSBrwKbuD3gPU",
+      "rec2M5EtNxNX7opn2",
+      "recPg0Yv0z0Gz21Ao",
+      "recNFFgEpr2l6Kaxy",
+      "recS9VbejZ4CnjcZg",
+      "recGMizJpbZcg6B64"
     ],
     "events as speaker": [
       "recD0zkaMvtfLiyz6",
@@ -5298,7 +5398,7 @@
     ],
     "slug formula": "amanda-visconti",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-03T21:41:00.000Z",
+    "modified": "2021-03-10T22:24:55.000Z",
     "record_id": "recJZoV1BNBC8352X"
   },
   {
@@ -6342,7 +6442,11 @@
     ],
     "new id": 656,
     "events as speaker": [
-      "recgbqtyUa6Pv4Dpm"
+      "recgbqtyUa6Pv4Dpm",
+      "recA0BmUbtkwn2Rei"
+    ],
+    "linked identities": [
+      "recf9f3CaGUA7EP6i"
     ],
     "name": "Joanne Archer",
     "group type": [
@@ -6350,7 +6454,7 @@
     ],
     "slug formula": "joanne-archer",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:19:59.000Z",
+    "modified": "2021-03-10T17:13:46.000Z",
     "record_id": "recMyG5yaJDlXRfsk"
   },
   {
@@ -6641,7 +6745,8 @@
       "rec3CEHRtEQxYBrwQ",
       "recUn2Lhho9V4SWPB",
       "recVOeMu42YcKv17k",
-      "recJgjs866P2xLBdD"
+      "recJgjs866P2xLBdD",
+      "recGMizJpbZcg6B64"
     ],
     "events as speaker": [
       "recIq40g9iViZG0l0",
@@ -6664,7 +6769,7 @@
     ],
     "slug formula": "dave-lester",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T19:49:59.000Z",
+    "modified": "2021-03-10T22:24:49.000Z",
     "record_id": "recNoH02qOawGRF5V"
   },
   {
@@ -7274,7 +7379,8 @@
     "new id": 33,
     "wordpress id": 3852,
     "linked identities": [
-      "recb6HEya1TkyCW3H"
+      "recb6HEya1TkyCW3H",
+      "recLNWeCR33QSmHfJ"
     ],
     "name": "Karen O'Brien",
     "group type": [
@@ -7282,7 +7388,7 @@
     ],
     "slug formula": "karen-obrien",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T20:19:14.000Z",
     "record_id": "recQcfmXHgpc65GYk"
   },
   {
@@ -8220,7 +8326,9 @@
       "recr52q9xyxZMFkNl",
       "recUrcEcMBropcb0U",
       "recQrBgXNsDrlSJHt",
-      "recvR6EgsUHNU7q27"
+      "recvR6EgsUHNU7q27",
+      "recjiQMxXWTQ3vA5q",
+      "recZWQryQONobmxcK"
     ],
     "events as speaker": [
       "receB4kvAm4fb2Czh",
@@ -8243,7 +8351,7 @@
     ],
     "slug formula": "ed-summers",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-03-10T17:07:21.000Z",
     "record_id": "recTjXRwnbTyBl6aV"
   },
   {
@@ -8328,13 +8436,16 @@
       "reckGyZnmI1rUkmMn",
       "recsk3lWU8vHiZ4Fg",
       "recD0zkaMvtfLiyz6",
-      "recfPm4J59FphpkVM"
+      "recfPm4J59FphpkVM",
+      "recA0BmUbtkwn2Rei",
+      "recJJNrDku2LEEAfO"
     ],
     "linked identities": [
       "recViejhDgkGYOQtA",
       "recVjBi1B3DR5dV9b",
       "recbHk79sje1LGUZR",
-      "recrtHnBkYYjXK0n8"
+      "recrtHnBkYYjXK0n8",
+      "rec4PyHjISBc8ZoFT"
     ],
     "name": "Kari Kraus",
     "group type": [
@@ -8342,7 +8453,7 @@
     ],
     "slug formula": "kari-kraus",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-03T21:50:35.000Z",
+    "modified": "2021-03-10T20:16:45.000Z",
     "record_id": "recTrL6fAc4KAH8XE"
   },
   {
@@ -8723,7 +8834,8 @@
     "wordpress id": 3909,
     "linked research as director": [
       "recd0qqILDo4rx1KB",
-      "rec3cSBrwKbuD3gPU"
+      "rec3cSBrwKbuD3gPU",
+      "rec5D6Or1Z5awGVXL"
     ],
     "linked research as participant": [
       "recd0qqILDo4rx1KB",
@@ -8732,10 +8844,18 @@
       "rec9U4W4pWBDft0om",
       "recumm4ZSjbrlJMxs",
       "recr52q9xyxZMFkNl",
-      "rec3cSBrwKbuD3gPU"
+      "rec3cSBrwKbuD3gPU",
+      "rec2M5EtNxNX7opn2",
+      "recNFFgEpr2l6Kaxy",
+      "recZ0HGWJHKE7lAAc",
+      "recWLCADyrArLAQxz"
     ],
     "events as speaker": [
       "rec0PQ7yISGMMWDb2"
+    ],
+    "events as participant": [
+      "recF7g7awCqoQLFrF",
+      "rec4Ew7YAVS0RP5h9"
     ],
     "linked identities": [
       "recYHEPCAfRcAMEKe",
@@ -8749,7 +8869,7 @@
     ],
     "slug formula": "travis-brown",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T22:46:03.000Z",
     "record_id": "recVCVxnb9vR2O3VU"
   },
   {
@@ -9053,7 +9173,6 @@
       "recOhObajK8dyxTUU",
       "recvBNq9tcBGd7yLj",
       "reciFqPy5D8AMIGCO",
-      "recJZ927wakCJ7Ta3",
       "recAz3KE1IckQsdTg",
       "recxFjcbEiovMs7pb"
     ],
@@ -9069,7 +9188,8 @@
     ],
     "events as participant": [
       "recmOAn9vHgNdDNtM",
-      "recHnhO9G81d6Tfia"
+      "recHnhO9G81d6Tfia",
+      "recA0BmUbtkwn2Rei"
     ],
     "linked identities": [
       "recO4335TbFovzqqR",
@@ -9079,7 +9199,8 @@
       "recYjvqfaZaGCg1RS",
       "recUS9EOLaVmQYNLF",
       "recZRFPeohZtFjjnQ",
-      "recEKSZECHvam4fLz"
+      "recEKSZECHvam4fLz",
+      "receWHQ4m7swmFj4I"
     ],
     "identities as current": [
       "recuB9i6HbbCoTWaU",
@@ -9094,7 +9215,7 @@
     ],
     "slug formula": "matthew-kirschenbaum",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-25T05:12:46.000Z",
+    "modified": "2021-03-10T21:59:45.000Z",
     "record_id": "recX3NdlJAJ9f4mHH"
   },
   {
@@ -9432,7 +9553,8 @@
       "rec0WWWqxVT33BROf",
       "recaijHITsZ5Lfh6D",
       "recrnEUJqAouyhTkF",
-      "recrrs5FMvQYvAZk3"
+      "recrrs5FMvQYvAZk3",
+      "rec2M5EtNxNX7opn2"
     ],
     "linked research as participant": [
       "recfpgf5Qz4kjZFfQ",
@@ -9446,11 +9568,21 @@
       "recaijHITsZ5Lfh6D",
       "rec4ZB3QtnwIq2JoZ",
       "recrnEUJqAouyhTkF",
-      "recrrs5FMvQYvAZk3"
+      "recrrs5FMvQYvAZk3",
+      "rec3cSBrwKbuD3gPU",
+      "rec2M5EtNxNX7opn2",
+      "recPg0Yv0z0Gz21Ao",
+      "recS9VbejZ4CnjcZg"
     ],
     "events as speaker": [
       "rec0RrwkKlXOmANYd",
-      "recCBeKgMYtJdjjOJ"
+      "recCBeKgMYtJdjjOJ",
+      "recGDhqtOWE4gaO2o"
+    ],
+    "events as participant": [
+      "recF7g7awCqoQLFrF",
+      "rec4Ew7YAVS0RP5h9",
+      "recVAeEbEVSnquk1C"
     ],
     "linked identities": [
       "recOsHIcpWsR9CwDq",
@@ -9464,7 +9596,7 @@
     ],
     "slug formula": "jennifer-guiliano",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-03T20:38:46.000Z",
+    "modified": "2021-03-10T21:07:53.000Z",
     "record_id": "recXzKVuXIuyz6nXt"
   },
   {
@@ -9805,7 +9937,19 @@
       "rec7ilGSW3UrEUPX9",
       "recaijHITsZ5Lfh6D",
       "rec6VCNAOG1QeMSdM",
-      "recrrs5FMvQYvAZk3"
+      "recrrs5FMvQYvAZk3",
+      "rec3cSBrwKbuD3gPU",
+      "recZWQryQONobmxcK",
+      "rec2M5EtNxNX7opn2",
+      "recrnEUJqAouyhTkF",
+      "recPg0Yv0z0Gz21Ao",
+      "recNFFgEpr2l6Kaxy",
+      "recS9VbejZ4CnjcZg",
+      "recGMizJpbZcg6B64"
+    ],
+    "events as participant": [
+      "recF7g7awCqoQLFrF",
+      "rec4Ew7YAVS0RP5h9"
     ],
     "linked identities": [
       "rec1JFmaRhIi61uzs",
@@ -9820,7 +9964,7 @@
     ],
     "slug formula": "kirsten-keister",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-03-10T22:24:50.000Z",
     "record_id": "recYWeU8tULlqVWzj"
   },
   {
@@ -10894,7 +11038,8 @@
     "wordpress id": 11177,
     "linked research as director": [
       "recybLltnlNUrjFIw",
-      "recvR6EgsUHNU7q27"
+      "recvR6EgsUHNU7q27",
+      "recjiQMxXWTQ3vA5q"
     ],
     "linked research as participant": [
       "recwm5xrK8ZAZBkoh",
@@ -10908,7 +11053,10 @@
       "recQrBgXNsDrlSJHt",
       "reclnYy3JRImc7fdJ",
       "recvR6EgsUHNU7q27",
-      "recybLltnlNUrjFIw"
+      "recybLltnlNUrjFIw",
+      "recjiQMxXWTQ3vA5q",
+      "recZWQryQONobmxcK",
+      "recS9VbejZ4CnjcZg"
     ],
     "events as participant": [
       "rec73tYlqDdhuXggl",
@@ -10931,7 +11079,7 @@
     ],
     "slug formula": "stephanie-sapienza",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-03-10T21:08:30.000Z",
     "record_id": "recbuhPlvVzwsxw9O"
   },
   {
@@ -11098,6 +11246,30 @@
             "height": 3000
           }
         }
+      },
+      {
+        "id": "att945l64NRaoTEAK",
+        "url": "https://dl.airtable.com/.attachments/49e43bc66b96bd2979f99bcddec58185/96722a3f/brennan.jpg",
+        "filename": "brennan.jpg",
+        "size": 29040,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/de012220283bee7f45893c3d42fbf84e/899299ba",
+            "width": 29,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/378e1b3c06f51c11f9b1ea7eb445d08a/f1ec2d4b",
+            "width": 140,
+            "height": 176
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0e93dec183336797686cae756663f038/e101e3d2",
+            "width": 3000,
+            "height": 3000
+          }
+        }
       }
     ],
     "identity as past": "sheila-brennan-44, sheila-brennan-45",
@@ -11122,7 +11294,7 @@
     ],
     "slug formula": "sheila-brennan",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T04:32:26.000Z",
     "record_id": "recclJbwlmJvdHKMU"
   },
   {
@@ -11619,7 +11791,10 @@
       "recwlpdOziZpiW0cL",
       "recRogsRtxYXZGLaa",
       "recCG2QMT3eMTL4AW",
-      "reclnYy3JRImc7fdJ"
+      "reclnYy3JRImc7fdJ",
+      "recZWQryQONobmxcK",
+      "recZ0HGWJHKE7lAAc",
+      "recS9VbejZ4CnjcZg"
     ],
     "events as speaker": [
       "recMSW6GtHm9OzUWh"
@@ -11640,7 +11815,7 @@
     ],
     "slug formula": "raff-viglianti",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-03-03T19:45:37.000Z",
+    "modified": "2021-03-10T21:08:18.000Z",
     "record_id": "receBYteMvJ9LDupJ"
   },
   {
@@ -12485,7 +12660,8 @@
       "recCkfXG0yBD3J0jO"
     ],
     "linked identities": [
-      "recWsmmOmd1K6oo4j"
+      "recWsmmOmd1K6oo4j",
+      "recKhrRghCDstJXRP"
     ],
     "name": "Rita Raley",
     "group type": [
@@ -12493,7 +12669,7 @@
     ],
     "slug formula": "rita-raley",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T04:39:11.000Z",
     "record_id": "recgsgmHQ9FGkPwsa"
   },
   {
@@ -12841,6 +13017,59 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "rechf1E16HgVHZN5K"
+  },
+  {
+    "id": "emily-frazier",
+    "first": "Emily",
+    "last": "Frazier",
+    "headshot": [
+      {
+        "id": "attVpcEvl0k0dB41A",
+        "url": "https://dl.airtable.com/.attachments/77030e1de25370b505c5a7c6f10932ce/9cc13a91/emily-frazier.jpg",
+        "filename": "emily-frazier.jpg",
+        "size": 3183073,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/256b103a86cc061bfba5b66d5891f5a4/74a0d820",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4dc337263503ebe233048c87a249cab4/59c2503c",
+            "width": 512,
+            "height": 683
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/fb96949f67e5f9ae8bf3b42645b38f71/f71bb4d4",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "bio": "Emily Frazier is a Research Assistant for MITH's _[Unlocking the Airwaves](https://mith.umd.edu/research/unlocking-the-airwaves)_ and _[Broadcasting Audiovisual Data](https://mith.umd.edu/research/broadcasting-av-data/)_ projects. She is a History MA and Master of Library & Information Science graduate student at the University of Maryland. Her research interests include discoverability in archives and linked data, as well as maps, cartography, and digital humanities. Outside of school and work, she enjoys needlepoint embroidery and spending time with her cat. Emily is a graduate of the University of Texas at Austin, where she earned her BA in Linguistics, Spanish, and the Plan II Honors Program. During undergrad, she worked with museum and archival collections doing cataloging and processing.\n\n",
+    "email": "emilyf1@umd.edu",
+    "people groups": [
+      "Staff"
+    ],
+    "linked research as participant": [
+      "recjiQMxXWTQ3vA5q"
+    ],
+    "linked identities": [
+      "rec1WGA6npILZNR3S"
+    ],
+    "identities as current": [
+      "rec1WGA6npILZNR3S"
+    ],
+    "name": "Emily Frazier",
+    "group type": [
+      "Staff"
+    ],
+    "slug formula": "emily-frazier",
+    "created": "2021-03-09T15:05:02.000Z",
+    "modified": "2021-03-12T17:21:57.000Z",
+    "record_id": "rechjhwTnRXvMF3Fy"
   },
   {
     "id": "oliver-gaycken",
@@ -13546,7 +13775,8 @@
       "recr52q9xyxZMFkNl"
     ],
     "linked research as participant": [
-      "recr52q9xyxZMFkNl"
+      "recr52q9xyxZMFkNl",
+      "recZWQryQONobmxcK"
     ],
     "linked identities": [
       "recvMsmJFqPHudse2"
@@ -13557,7 +13787,7 @@
     ],
     "slug formula": "peter-mallios",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T17:21:02.000Z",
+    "modified": "2021-03-10T17:07:55.000Z",
     "record_id": "recjpBpGnZv6osej6"
   },
   {
@@ -13970,7 +14200,8 @@
     ],
     "new id": 529,
     "events as speaker": [
-      "rect3FylY02aa2oBL"
+      "rect3FylY02aa2oBL",
+      "recF7g7awCqoQLFrF"
     ],
     "linked identities": [
       "rec4f4NOcQeLm1pyY"
@@ -13981,7 +14212,7 @@
     ],
     "slug formula": "jordan-boyd-graber",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-03T22:34:13.000Z",
+    "modified": "2021-03-10T04:24:21.000Z",
     "record_id": "reckxk6sDU4g46OyA"
   },
   {
@@ -14040,7 +14271,9 @@
       "rec3CEHRtEQxYBrwQ",
       "recsYbAx3cuzDgm0x",
       "rec6VCNAOG1QeMSdM",
-      "recbPWfd29xOUEm9k"
+      "recbPWfd29xOUEm9k",
+      "recZ0HGWJHKE7lAAc",
+      "recGMizJpbZcg6B64"
     ],
     "events as speaker": [
       "rec9XvWFMDtHydNaz"
@@ -14056,7 +14289,7 @@
     ],
     "slug formula": "james-smith",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T22:24:53.000Z",
     "record_id": "recl12SKrGtXZnNmE"
   },
   {
@@ -15666,7 +15899,8 @@
     ],
     "new id": 629,
     "events as speaker": [
-      "rec80YNudvkO9ZxQl"
+      "rec80YNudvkO9ZxQl",
+      "recA0BmUbtkwn2Rei"
     ],
     "linked identities": [
       "reczCXDVOxP8OW9K0"
@@ -15677,7 +15911,7 @@
     ],
     "slug formula": "stuart-moulthrop",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T17:22:26.000Z",
     "record_id": "recquZI4oQ7N5Mfss"
   },
   {
@@ -15962,14 +16196,20 @@
       "recZ0HGWJHKE7lAAc",
       "recZWQryQONobmxcK",
       "recybkmkZX58lYMLP",
-      "recrrs5FMvQYvAZk3"
+      "recrrs5FMvQYvAZk3",
+      "rec2M5EtNxNX7opn2",
+      "recrnEUJqAouyhTkF",
+      "recS9VbejZ4CnjcZg"
     ],
     "events as speaker": [
       "recURxlZWHty1TM1u",
-      "recHf8eLtIEMwIrYp"
+      "recHf8eLtIEMwIrYp",
+      "recJJNrDku2LEEAfO",
+      "rec4nVL5Ix6801QlJ"
     ],
     "events as participant": [
-      "rec73tYlqDdhuXggl"
+      "rec73tYlqDdhuXggl",
+      "recfuDeV1yoAhSPFQ"
     ],
     "linked identities": [
       "recbX5qa1iSzgR6S9",
@@ -15986,7 +16226,7 @@
     ],
     "slug formula": "trevor-munoz",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-02-24T22:41:33.000Z",
+    "modified": "2021-03-10T21:07:43.000Z",
     "record_id": "recs8QcLUFxKBS88S"
   },
   {
@@ -16151,7 +16391,7 @@
     ],
     "institution": "University of Maryland",
     "identity as speaker": "amanda-french-151, amanda-french-540",
-    "bio": "**Amanda French** is currently Research Assistant Professor and [THATCamp](thatcamp.org) Coordinator at the Roy Rosenzweig [Center for History and New Media](chnm.gmu.edu) at George Mason University, helping scholars worldwide organize their own version of The Humanities and Technology Camp, \"an inexpensive, open meeting where humanists and technologists of all skill levels learn and build together in sessions proposed on the spot.\" Before that, she was an Assistant Research Scholar in the Archives and Public History program at New York University, where she helped develop a model curriculum emphasizing digital skills, and where she developed and taught the graduate course \"[Creating Digital History](aphdigital.orgclasses/G572033F09/).\" Before that, French taught graduate and undergraduate courses in [Victorian poetry and poetics](eng560.wordpress.com), [the Victorian period](wikis.lib.ncsu.edu/index.php//files/ENG_463), and [academic research methods for the digital age](hon296a.wordpress.com/) as a Teaching Assistant Professor at North Carolina State University. She held the [Council on Library and Information Resources Postdoctoral Fellowship](www.clir.orgfellowships/postdoc/postdoc.html) from 2004 to 2006. \n",
+    "bio": "\n",
     "twitter": "amandafrench",
     "linked events": "amanda-french-sheesh-whats-with-all-the-thatcamps",
     "people groups": [
@@ -16163,7 +16403,8 @@
       "rec7ilGSW3UrEUPX9"
     ],
     "events as speaker": [
-      "reckj0mfxfuri3FGr"
+      "reckj0mfxfuri3FGr",
+      "recGDhqtOWE4gaO2o"
     ],
     "linked identities": [
       "recoAk2GbitGiayfE",
@@ -16176,7 +16417,7 @@
     ],
     "slug formula": "amanda-french",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T17:44:27.000Z",
     "record_id": "recsnUumLJSiYrlGO"
   },
   {
@@ -17015,6 +17256,9 @@
     "events as speaker": [
       "recqY7sNqCktT61fl"
     ],
+    "events as participant": [
+      "recfuDeV1yoAhSPFQ"
+    ],
     "linked identities": [
       "recoDJYprV2jkYcl7"
     ],
@@ -17024,7 +17268,7 @@
     ],
     "slug formula": "bill-lefurgy",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T19:36:46.000Z",
     "record_id": "recvYgDUROIKBmXlA"
   },
   {
@@ -17952,7 +18196,8 @@
     ],
     "new id": 612,
     "events as speaker": [
-      "recDKo8aoDyxlgabZ"
+      "recDKo8aoDyxlgabZ",
+      "recF7g7awCqoQLFrF"
     ],
     "linked identities": [
       "recmL6zLeQwKiUwDg"
@@ -17963,7 +18208,7 @@
     ],
     "slug formula": "robert-k-nelson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-10T04:23:49.000Z",
     "record_id": "recylneJkKk78oGzB"
   },
   {

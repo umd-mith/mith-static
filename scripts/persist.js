@@ -3,6 +3,9 @@
 // This module contains some utilities for reshaping JSON from the Airtable API into 
 // normalized JSON objects that we can persist to the application as static data.
 
+// We recommend running this script via a package manager (e.g. npm) using `npm run persist`
+// You can persist a single table by passing its name as a parameter, e.g. `npm run persist -- people`
+
 require("dotenv").config()
 const fs = require('fs')
 const path = require('path')
@@ -27,7 +30,6 @@ function getDataFor(base, table) {
     base(table).select()
       .eachPage(
         async (records, nextPage) => {
-          // things.concat(records)
           for (const r of records) {
             things[r.id] = r
           }
@@ -80,4 +82,90 @@ async function persistPeople() {
   }
 }
 
-persistPeople()
+async function persistPosts() {
+  const baseId = process.env.AIRTABLE_POSTS_BASE_ID
+  if (! baseId) {
+    console.error('Please add AIRTABLE_POSTS_BASE_ID to your environment or .env file!')
+    return
+  }
+  const base = at.base(baseId)
+  try {
+    const postsData = await getDataFor(base, 'Posts')
+
+    const posts = []
+
+    for (const postId in postsData) {
+      const post = postsData[postId]
+
+      const postInfo = post.fields
+      posts.push(postInfo)
+    }
+
+    writeJson(posts, 'posts.json')
+  } catch(e) {
+    throw new Error(e)
+  }
+}
+
+async function persistResearch() {
+  const baseId = process.env.AIRTABLE_MITH_BASE_ID
+  if (! baseId) {
+    console.error('Please add AIRTABLE_MITH_BASE_ID to your environment or .env file!')
+    return
+  }
+  const base = at.base(baseId)
+  try {
+    const researchItems = await getDataFor(base, 'Research')
+    const people = await getDataFor(base, 'People')
+    const identities = await getDataFor(base, 'Identities')
+
+    const research = []
+
+    for (const researchItemId in researchItems) {
+      const researchItem = researchItems[researchItemId]
+
+      const intParticipants = (researchItem.get('linked internal participant affiliations') || []).map(
+        idId => identities[idId].fields
+      )
+
+      const extParticipants = (researchItem.get('linked external participant affiliations') || []).map(
+        idId => identities[idId].fields
+      )
+
+      for (participant of intParticipants.concat(extParticipants)) {
+        participant['linked person']
+        const person = people[participant['linked person'][0]]
+        if (!person) continue
+        participant.name = person.get('name')
+      }
+
+      researchItem.fields.participants = intParticipants
+
+      research.push(researchItem.fields)
+    }
+
+    writeJson(research, 'research.json')
+  } catch(e) {
+    throw new Error(e)
+  }
+}
+
+async function persist() {
+  await persistPeople()
+  await persistPosts()
+  await persistResearch()
+}
+
+switch (process.argv[2]) {
+  case 'people':
+    persistPeople()
+    break
+  case 'posts':
+    persistPosts()
+    break
+  case 'research':
+    persistResearch()
+    break
+  default:
+    persist()
+}
