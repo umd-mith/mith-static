@@ -2127,7 +2127,8 @@
       "recS9VbejZ4CnjcZg",
       "rechMqJ7VykqPDG99",
       "reclnYy3JRImc7fdJ",
-      "recZ0HGWJHKE7lAAc"
+      "recZ0HGWJHKE7lAAc",
+      "recVOeMu42YcKv17k"
     ],
     "linked research as participant": [
       "receRoq1QIw6xR0NG",
@@ -2146,7 +2147,8 @@
       "rec2M5EtNxNX7opn2",
       "recS9VbejZ4CnjcZg",
       "rechMqJ7VykqPDG99",
-      "reclnYy3JRImc7fdJ"
+      "reclnYy3JRImc7fdJ",
+      "recOhObajK8dyxTUU"
     ],
     "events as speaker": [
       "reckGyZnmI1rUkmMn",
@@ -2171,7 +2173,7 @@
     ],
     "slug formula": "neil-fraistat",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T20:43:22.000Z",
+    "modified": "2021-03-25T14:01:15.000Z",
     "record_id": "rec7IQrtMhb4Ro8Mc"
   },
   {
@@ -2902,7 +2904,8 @@
       "recCqMxTdRsZ0Ovb1",
       "recJgjs866P2xLBdD",
       "recK9x1IyybfYDyiA",
-      "recS9VbejZ4CnjcZg"
+      "recS9VbejZ4CnjcZg",
+      "recUn2Lhho9V4SWPB"
     ],
     "events as speaker": [
       "rec4HAXBE9Z5RCFlR",
@@ -2930,7 +2933,7 @@
     ],
     "slug formula": "doug-reside",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T21:08:53.000Z",
+    "modified": "2021-03-25T13:49:59.000Z",
     "record_id": "recAPnvQ5zvVez1MD"
   },
   {
@@ -2955,8 +2958,11 @@
     ],
     "slug formula": "tapan-khatri",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recAaOfs60dort1Hf"
+    "modified": "2021-03-25T14:00:39.000Z",
+    "record_id": "recAaOfs60dort1Hf",
+    "linked research as participant": [
+      "recVOeMu42YcKv17k"
+    ]
   },
   {
     "id": "anne-balsamo",
@@ -6737,8 +6743,7 @@
     "new id": 21,
     "wordpress id": 3788,
     "linked research as director": [
-      "recVb1pvX7NxxQA2n",
-      "recVOeMu42YcKv17k"
+      "recVb1pvX7NxxQA2n"
     ],
     "linked research as participant": [
       "recVb1pvX7NxxQA2n",
@@ -6769,7 +6774,7 @@
     ],
     "slug formula": "dave-lester",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T22:24:49.000Z",
+    "modified": "2021-03-25T14:01:10.000Z",
     "record_id": "recNoH02qOawGRF5V"
   },
   {
@@ -10728,7 +10733,9 @@
       "recarPm7PhkOBSnB6",
       "reco4WfMBIkdJrr6B",
       "recVOeMu42YcKv17k",
-      "recCqMxTdRsZ0Ovb1"
+      "recCqMxTdRsZ0Ovb1",
+      "rec8mO5wbkeBJxI6l",
+      "recR5msoTzAWX1BEg"
     ],
     "events as participant": [
       "recfwJAgqvzDbBsja"
@@ -10742,7 +10749,7 @@
     ],
     "slug formula": "gregory-lord",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-25T14:08:37.000Z",
     "record_id": "recafKSSV4qtSyxTW"
   },
   {
@@ -11392,7 +11399,8 @@
       "recxQGg49lDC99BUd"
     ],
     "linked identities": [
-      "recO1G4hNLcbD8tn2"
+      "recO1G4hNLcbD8tn2",
+      "recLNY2qzmeSAhGHi"
     ],
     "name": "Carl Stahmer",
     "group type": [
@@ -11401,7 +11409,7 @@
     ],
     "slug formula": "carl-stahmer",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-25T14:03:04.000Z",
     "record_id": "recdRyLQyXCLulvPj"
   },
   {
@@ -14263,7 +14271,8 @@
     "new id": 46,
     "wordpress id": 3837,
     "linked research as director": [
-      "recbPWfd29xOUEm9k"
+      "recbPWfd29xOUEm9k",
+      "rec6VCNAOG1QeMSdM"
     ],
     "linked research as participant": [
       "recfpgf5Qz4kjZFfQ",
@@ -14289,7 +14298,7 @@
     ],
     "slug formula": "james-smith",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T22:24:53.000Z",
+    "modified": "2021-03-25T12:51:42.000Z",
     "record_id": "recl12SKrGtXZnNmE"
   },
   {
