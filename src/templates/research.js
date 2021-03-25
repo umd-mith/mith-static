@@ -13,9 +13,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Research = ({ pageContext: item }) => {
 
-  const title = item.image
+  const title = item.fields.image
     ? <Img 
-      fluid={item.image.localFiles[0].childImageSharp.fluid} 
+      fluid={item.fields.image.childImageSharp.fluid} 
       alt={item.title} 
       className="research-image" 
     /> : <h1 className="title">{item.title}</h1>
@@ -29,7 +29,7 @@ const Research = ({ pageContext: item }) => {
   let participants = null
   if (item.participants) {
     participant_list = item.participants.map(person => {
-      return <Person person={person.data} showTitle="true" type="participant" />
+      return <Person person={person} showTitle="true" type="participant" />
     })
     participants = <div className="participants">
       <h2>Participants</h2>
@@ -54,12 +54,12 @@ const Research = ({ pageContext: item }) => {
   let links_list = null
   let links = null
   let link_url = null
-  if (item.links) {
+  if (item.links.length > 0) {
     links_list = item.links.map(l => {
-        link_url = l.data.url.startsWith('http') 
-          ? l.data.url 
-          : `http://${l.data.url}`
-        return <li id={l.data.link_id}><a href={link_url}>{l.data.title}</a></li>
+        link_url = l.url.startsWith('http') 
+          ? l.url 
+          : `http://${l.url}`
+        return <li id={l.link_id}><a href={link_url}>{l.title}</a></li>
     })
     links = <div className="links"><h2>Links</h2><ul>{links_list}</ul></div>
   }
@@ -67,16 +67,16 @@ const Research = ({ pageContext: item }) => {
   let sponsors_list = null
   let sponsors = null
   let sponsor_name = null
-  if (item.sponsors) {
+  if (item.sponsors.length > 0) {
     sponsors_list = item.sponsors.map(s => {
-        if (s.data.website) {
-          sponsor_name = s.data.website.startsWith('http') 
-            ? s.data.website
-            : <a href={`http://${s.data.website}`}>{s.data.name}</a>
+        if (s.website) {
+          sponsor_name = s.website.startsWith('http') 
+            ? s.website
+            : <a href={`http://${s.website}`}>{s.name}</a>
         } else {
-          sponsor_name = s.data.name
+          sponsor_name = s.name
         }
-      return <li id={s.data.slug}>{sponsor_name}</li>
+      return <li id={s.slug}>{sponsor_name}</li>
     })
     sponsors = <div className="sponsors"><h2>Sponsors</h2><ul>{sponsors_list}</ul></div>
   }
@@ -112,7 +112,7 @@ const Research = ({ pageContext: item }) => {
             {sponsors}
           </div>       
           <div className="description" 
-            dangerouslySetInnerHTML={{ __html: item.description ? item.description.childMarkdownRemark.html : ''}} 
+            dangerouslySetInnerHTML={{ __html: item.fields.markdownDescription ? item.fields.markdownDescription.childMarkdownRemark.html : ''}} 
           />
         </section>
       </div>

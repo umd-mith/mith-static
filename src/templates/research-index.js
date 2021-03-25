@@ -20,7 +20,7 @@ const ResearchIndex = ({data}) => {
           <h1 className="page-title">Research</h1>
           {items.map(item => {
             const slug = '/research/' + item.slug + '/'
-            const active = item.active === 'TRUE' ? <span class="pill">Active</span> : ''
+            const active = item.active === 'TRUE' ? <span className="pill">Active</span> : ''
             const started = item.year_start ? <span><time>{item.year_start}</time></span> : ''
             const ended = item.year_end ? <span> &ndash; <time>{item.year_end}</time></span> : ''
             let excerpt = ''

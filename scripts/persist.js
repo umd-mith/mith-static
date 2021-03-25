@@ -56,6 +56,24 @@ class Persistor {
     return this._identities
   }
 
+  get links() {
+    if (this._links) return this._links
+    this._links = this.getTable(this.mithBase, 'Links')
+    return this._links
+  }
+
+  get partnersAndSponsor() {
+    if (this._partnersAndSponsor) return this._partnersAndSponsor
+    this._partnersAndSponsor = this.getTable(this.mithBase, 'Partners & Sponsors')
+    return this._partnersAndSponsor
+  }
+
+  get events() {
+    if (this._events) return this._events
+    this._events = this.getTable(this.mithBase, 'Events')
+    return this._events
+  }
+
   get postsBase() {
     const baseId = process.env.AIRTABLE_POSTS_BASE_ID
     if (! baseId) {
@@ -151,27 +169,68 @@ class Persistor {
       const researchItems = await this.research
       const people = await this.people
       const identities = await this.identities
+      const links = await this.links
+      const partnersAndSponsor = await this.partnersAndSponsor
+      const events = await this.events
   
       const research = []
   
       for (const researchItemId in researchItems) {
         const researchItem = researchItems[researchItemId]
   
+        // Get internal and external participants
         const intParticipants = (researchItem.get('linked internal participant affiliations') || []).map(
           id => identities[id].fields
         )
+
+        for (const participant of intParticipants) {
+          const person = people[participant['linked person'][0]]
+          participant.name = person.get('name')
+          participant.slug = person.get('id')
+        }
   
         const extParticipants = (researchItem.get('linked external participant affiliations') || []).map(
           id => identities[id].fields
         )
   
-        for (const participant of intParticipants.concat(extParticipants)) {
+        for (const participant of extParticipants) {
           const person = people[participant['linked person'][0]]
-          if (!person) continue
-          participant.name = person.get('name')
+          participant.name = person.get('name')          
         }
   
-        researchItem.fields.participants = intParticipants
+        researchItem.fields.participants = intParticipants.concat(extParticipants)
+
+        // get directors
+        const directors = (researchItem.get('linked director affiliations') || []).map(
+          id => identities[id].fields
+        )
+
+        for (const director of directors) {
+          const person = people[director['linked person'][0]]
+          director.name = person.get('name')
+          director.slug = person.get('id')
+        }
+
+        researchItem.fields.directors = directors
+
+        // Links
+        researchItem.fields.links = (researchItem.get('linked links') || []).map(
+          id => links[id].fields
+        )
+
+        // Partners & Sponsors
+        researchItem.fields.partners = (researchItem.get('linked partners') || []).map(
+          id => partnersAndSponsor[id].fields
+        )
+
+        researchItem.fields.sponsors = (researchItem.get('linked sponsors') || []).map(
+          id => partnersAndSponsor[id].fields
+        )
+
+        // Events
+        researchItem.fields.events = (researchItem.get('linked events') || []).map(
+          id => events[id].fields
+        )
   
         research.push(researchItem.fields)
       }
