@@ -8,11 +8,12 @@ import './person.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Person = ({ pageContext: person }) => {
+  console.log(person)
   const name = person.name
   const photo = person.headshot 
     ? <div className="headshot">
         <Img 
-          fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
+          fluid={person.headshot} 
           alt={`Headshot of ${person.name}`} 
           imgStyle={{
             objectFit: "cover",
@@ -45,7 +46,7 @@ const Person = ({ pageContext: person }) => {
         <a href={`https://twitter.com/${person.twitter}`}>{person.twitter}</a>
       </span> : ''
   const bio = person.bio
-    ? <div className='bio' dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''
+    ? <div className='bio' dangerouslySetInnerHTML={{ __html: person.bio }} /> : ''
 
   return (
     <Layout>

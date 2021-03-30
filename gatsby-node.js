@@ -1,4 +1,83 @@
 const path = require('path')
+const {createRemoteFileNode} = require('gatsby-source-filesystem')
+
+// When creating nodes, set the following fields with a markdown mediaType.
+const toMarkdown = {
+  'People' : ['bio'],
+  'Research' : ['description', 'excerpt']
+}
+
+// When creating nodes, set the following fields with an Image type.
+const toImage = {
+  'People' : ['headshot'],
+  'Research' : ['image']
+}
+
+exports.onCreateNode = async ({
+    node, actions, store, cache, createContentDigest, createNodeId
+  }) => {
+
+  const { createNode, createNodeField } = actions
+
+  for (const table in toImage) {
+    if (node.internal.type === `${table}Json`) {
+      for (const key of toImage[table]) {
+        if (node[key]) {
+          let fileNode
+          try {
+            fileNode = await createRemoteFileNode({
+              url: node[key][0].url,
+              store,
+              cache,
+              createNode,
+              createNodeId,
+            });
+          } catch (e) {
+            console.error('Error downloading image:', e);
+          }
+      
+          if (fileNode) {
+            createNodeField({
+              node,
+              name: `${key}___NODE`,
+              value: fileNode.id,
+            })
+          }
+        }
+      }
+    }
+  }
+
+  for (const table in toMarkdown) {
+    if (node.internal.type === `${table}Json`) {
+      for (const key of toMarkdown[table]) {
+        if (node[key]) {
+          const capKey = key.charAt(0).toUpperCase() + key.slice(1)
+          const textNode = {
+            id: `${node.id}-Markdown${capKey}`,
+            parent: node.id,
+            dir: path.resolve("./"),
+            internal: {
+              type: `${node.internal.type}Markdown${capKey}`,
+              mediaType: "text/markdown",
+              content: node[key],
+              contentDigest: createContentDigest(node[key])
+            }
+          }
+          createNode(textNode)
+      
+          // Create markdownBio___NODE field
+          createNodeField({
+            node,
+            name: `markdown${capKey}___NODE`,
+            value: textNode.id,
+          })
+        }
+      }
+    }
+  }
+
+}
 
 exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
   await makePeople(createPage, graphql, pathPrefix)
@@ -10,66 +89,54 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   //await makeEventIndex(createPage, graphql, pathPrefix)
 }
 
-async function makePeople(createPage, graphql, pathPrefix) {
+async function makePeople(createPage, graphql) {
   const results = await graphql(`
     query {
-      allAirtablePeopleTable(filter: {table: {eq: "People"}, data: {
-        people_groups: {
-          elemMatch: {
-            data: {
-              group_name: {nin: ["Affiliates", "Past Affiliates"]}
-            }
-          }
-        }
-      }
-      }) {
+      allPeopleJson(filter: {group_type: {eq: "Staff"}}) {
         nodes {
-          data {
-            bio {
+          fields {
+            markdownBio {
               childMarkdownRemark {
                 html
               }
             }
-            website
-            twitter
-            title
-            people_groups {
-              data {
-                group_name
-              }
-            }
-            research_interests
-            phone
-            name
-            email
-            date_spans {
-              data {
-                date_span
-              }
-            }
-            bio_external
-            id
             headshot {
-              localFiles {
-                childImageSharp {
-                  fluid(maxWidth: 500, maxHeight: 500, fit: COVER, srcSetBreakpoints: [200, 250, 500], quality: 100, background: "rgba(255,255,255,0)") {
-                    src
-                    srcSet
-                    aspectRatio
-                    sizes
-                    base64
-                  }
+              childImageSharp {
+                fluid(maxWidth: 500, maxHeight: 500, fit: COVER, srcSetBreakpoints: [200, 250, 500], quality: 100, background: "rgba(255,255,255,0)") {
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                  base64
                 }
               }
+              publicURL
             }
           }
+          website
+          twitter
+          title
+          people_groups
+          research_interests
+          phone
+          name
+          email
+          bio_external
+          id
         }
       }
     }  
   `)
 
-  for (const node of results.data.allAirtablePeopleTable.nodes) {
-    const person = node.data
+  for (const node of results.data.allPeopleJson.nodes) {
+    const person = node
+    // Simplify fields
+    if (person.fields) {
+      person.bio = person.fields.markdownBio ? person.fields.markdownBio.childMarkdownRemark.html : person.bio
+      if (person.fields.headshot) {
+        person.headshot = person.fields.headshot.childImageSharp ? person.fields.headshot.childImageSharp.fluid : person.fields.headshot.publicURL
+      }
+    }
     createPage({
       path: `/people/${person.id}/`,
       component: require.resolve(`./src/templates/person.js`),
@@ -145,11 +212,7 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
 async function makeResearchIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtableResearchTable(
-        filter: {
-          table: {eq: "Research"}
-        }
-      ) {
+      allResearchJson {
         pageInfo {
           itemCount
         }
@@ -157,7 +220,7 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  const numItems = results.data.allAirtableResearchTable.pageInfo.itemCount
+  const numItems = results.data.allResearchJson.pageInfo.itemCount
   const itemsPerPage = 25
   const numPages = Math.ceil(numItems / itemsPerPage)
 
@@ -175,111 +238,91 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
   })
 }
 
-async function makeResearch(createPage, graphql, pathPrefix) {
+async function makeResearch(createPage, graphql) {
   const results = await graphql(`
     query {
-      allAirtableResearchTable(
-        filter: {
-          table: {eq: "Research"}
-        }
-      ) {
+      allResearchJson {
         nodes {
-          data {
-            id
-            slug
-            title
-            description {
+          id
+          fields {
+            markdownDescription {
               childMarkdownRemark {
                 html
               }
             }
-            excerpt {
+            markdownExcerpt {
               childMarkdownRemark {
                 html
               }
             }
             image {
-              localFiles {
-                childImageSharp {
-                  fluid {
-                    src
-                    srcSet
-                    aspectRatio
-                    sizes
-                    base64
-                  }
+              childImageSharp {
+                fluid {
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                  base64
                 }
               }
             }
-            twitter_account
-            twitter_hashtag
-            year_start
-            month_start
-            year_end
-            month_end        
-            participants: linked_participants {
-              data {
-                name
-                title
-                department
-                affiliation
-                affiliation_as_current
-                bio_external
-                people_groups
-                group_type
-                new_id
-                slug
-              }
-            }
-            links: linked_links {
-              data {
-                title
-                url
-                type
-              }
-            }
-            sponsors: linked_sponsors {
-              data {
-                name
-                website
-                slug
-              }
-            }
-            partners: linked_partners {
-              data {
-                name
-                type
-                website
-                slug
-              }
-            }
-            events: linked_events {
-              data {
-                id
-                event_title
-                talk_title
-                type: event_type
-                start: start_date
-                end: end_date
-                location
-                description {
-                  childMarkdownRemark {
-                    excerpt
-                  }
-                }
-              }
-            }
-            active
+          }
+          active
+          title
+          twitter_account
+          twitter_hashtag
+          year_start
+          month_start
+          year_end
+          month_end
+          participants {
+            name
+            title
+            department
+            institution
+            person_group
+            slug
+          }
+          directors {
+            name
+            title
+            department
+            institution
+            person_group
+            slug
+          }
+          links {
+            title
+            url
+          }
+          sponsors {
+            name
+            website
+            slug
+          }
+          partners {
+            name
+            website
+            slug
+          }
+          events {
+            id
+            event_type
+            event_title
+            type: talk_title
+            start: start_date
+            end: end_date
+            location
           }
         }
-      }
-    }  
+      } 
+    }
   `)
 
-  for (const node of results.data.allAirtableResearchTable.nodes) {
-    const item = node.data
+  for (const node of results.data.allResearchJson.nodes) {
+    const item = node
     createPage({
-      path: `/research/${item.slug}/`,
+      path: `/research/${item.id}/`,
       component: require.resolve(`./src/templates/research.js`),
       context: {
         ...item

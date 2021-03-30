@@ -48,6 +48,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-remark-source-name`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./static/data/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -100,116 +107,6 @@ module.exports = {
         name: `news`,
         path: `${__dirname}/src/news/`,
       },
-    },
-    {
-      resolve: `gatsby-source-airtable`,
-      options: {
-        apiKey: process.env.AIRTABLE_API_KEY,
-        concurrency: 5,
-        tables: [
-          {
-            baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
-            tableName: `People`,
-            tableLinks: [`people_groups`,`date_spans`],
-            mapping: { 
-              headshot: `fileNode`, 
-              bio: `text/markdown`
-            },
-            queryName: `PeopleTable`,
-            separateNodeType: true,
-            separateMapType: true,
-          },
-          {
-            baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
-            tableName: `Groups`,
-            queryName: `GroupsTable`,
-            tableLinks: [`linked_people`],
-            separateNodeType: true,
-            separateMapType: true,
-          },
-          {
-            baseId: process.env.AIRTABLE_PEOPLE_BASE_ID,
-            tableName: `Affiliations`,
-            queryName: `AffiliationsTable`,
-            tableLinks: [`linked_people`],
-            separateMapType: true,
-          },
-          {
-            baseId: process.env.AIRTABLE_POSTS_BASE_ID,
-            tableName: `Posts`,
-            queryName: `PostsTable`,
-            separateMapType: true,
-          },
-          {
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `Research`,
-            //tableView: `All_Research_Items`,
-            queryName: `ResearchTable`,
-            tableLinks: [
-              `linked_directors`,
-              `linked_participants`,
-              `linked_links`,
-              `linked_partners`,
-              `linked_sponsors`,
-              `linked_events`
-            ],
-            separateNodeType: true,
-            separateMapType: true,
-            mapping: {
-              image: `fileNode`, 
-              description: `text/markdown`,
-              excerpt: `text/markdown`,
-            },
-          },        
-          {
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `Links`,
-          },
-          {
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `Partners`,
-          },
-          {
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `Sponsors`,
-          },
-          { // People on Research Page
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `People`,
-            queryName: `ResearchPeople`,
-            separateNodeType: true,
-            mapping: {
-              headshot: `fileNode`
-            }
-          },
-          { // Events on Research Page
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `Events`,
-            queryName: `Events`,
-            separateNodeType: true,
-            tableLinks: ['speakers','linked_research_item'],
-            mapping: {
-              description: `text/markdown`
-            },
-          },
-          { // Speakers on Event pages
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `People`,
-            queryName: `EventsPeople`,
-            separateNodeType: true,
-            mapping: {
-              headshot: `fileNode`,
-              bio: `text/markdown`
-            }
-          },
-          { // Linked Research Items on Event pages
-            baseId: process.env.AIRTABLE_RESEARCH_BASE_ID,
-            tableName: `Research`,
-            queryName: `EventsResearch`,
-            separateNodeType: true,
-          }
-        ]
-      }
     },
     {
       resolve: `gatsby-plugin-feed`,

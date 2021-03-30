@@ -10,21 +10,21 @@ import './people.css'
 const PeoplePage = ({ data }) => { 
 
   function makePerson(person, useWebsite=false) {
-    let pageLocation = person.data.id
+    let pageLocation = person.id
     if (useWebsite) {
-      if (person.data.website) {
-        pageLocation = person.data.website.startsWith('http')
-          ? person.data.website
-          : `http://${person.data.website}`
+      if (person.website) {
+        pageLocation = person.website.startsWith('http')
+          ? person.website
+          : `http://${person.website}`
       } else {
         pageLocation = null
       }
     }
     let img = ''
-      if (person.data.headshot) {
+      if (person.fields.headshot) {
         const el = <Img 
-            fluid={person.data.headshot.localFiles[0].childImageSharp.fluid} 
-            alt={`Headshot of ${person.data.name}`} 
+            fluid={person.fields.headshot.childImageSharp.fluid} 
+            alt={`Headshot of ${person.name}`} 
             className="headshot" 
             imgStyle={{
               objectFit: "cover",
@@ -32,17 +32,17 @@ const PeoplePage = ({ data }) => {
             role="img"
           />
         img = pageLocation
-          ? <Link key={`p-${person.data.id}`} to={pageLocation}>{el}</Link>
+          ? <Link key={`p-${person.id}`} to={pageLocation}>{el}</Link>
           : el
       }
       let persName = pageLocation 
-        ? <Link key={`p-${person.data.id}`} to={pageLocation}>{person.data.name}</Link>
-        : person.data.name
+        ? <Link key={`p-${person.id}`} to={pageLocation}>{person.name}</Link>
+        : person.name
       return (
-      <article className="person" id={person.data.id} title={person.data.name} key={`p-${person.data.id}`}>
+      <article className="person" id={person.id} title={person.name} key={`p-${person.id}`}>
         {img}
         <h3 className="name">{persName}</h3>
-        <div className="title">{person.data.title}</div>
+        <div className="title">{person.title}</div>
       </article>
       )    
   }
@@ -69,7 +69,7 @@ const PeoplePage = ({ data }) => {
         <section id="facstaff" className="people-group">
           <h2>Faculty &amp; Staff</h2>
           {data.people.group
-            .filter(g => g.fieldValue !== 'Affiliates' && g.fieldValue.match(/^[^P]/))
+            .filter(g => g.fieldValue === 'Staff')
             .map(makeStaff)
           }
         </section>
@@ -87,38 +87,27 @@ const PeoplePage = ({ data }) => {
 
 export const query = graphql`
   query PeopleQuery {
-    people: allAirtablePeopleTable(
-      filter: {
-        table: {eq: "People"}, 
-        data: {group_type: {regex: "/^[^P].*/"}}
-      }, 
-      sort: {
-        fields: data___last
-      }
-    ) 
-    {
-      group(field: data___group_type) {
+    people: allPeopleJson(sort: {fields: last}, filter: {group_type: {in: ["Staff", "Affiliates"]}}) {
+      group(field: group_type) {
         fieldValue
         nodes {
-          data {
-            website
-            id
-            name
-            first
-            last
-            title
+          website
+          id
+          name
+          first
+          last
+          title
+          fields {
             headshot {
-              localFiles {
-                childImageSharp {
-                  fluid( maxHeight: 500, maxWidth: 500, fit: COVER, background: "rgba(255,255,255,0)" ) {
-                    ...GatsbyImageSharpFluid_noBase64
-                  }
-                }
+              childImageSharp {
+                fluid( maxHeight: 500, maxWidth: 500, fit: COVER, background: "rgba(255,255,255,0)" ) {
+                      ...GatsbyImageSharpFluid_noBase64
+                    }
               }
             }
           }
         }
-      }      
+      }
     }
   }
 `
