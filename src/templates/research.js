@@ -15,7 +15,7 @@ const Research = ({ pageContext: item }) => {
 
   let title = <h1 className="title">{item.title}</h1>
   let description = ''
-  if (item.field) {
+  if (item.fields) {
     if (item.fields.image) {
       title = <Img 
         fluid={item.fields.image.childImageSharp.fluid} 
