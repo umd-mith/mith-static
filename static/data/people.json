@@ -207,9 +207,6 @@
     "linked research as director": [
       "recWxw8h3pYnerbWn"
     ],
-    "linked research as participant": [
-      "recWxw8h3pYnerbWn"
-    ],
     "events as speaker": [
       "reclJni4kz777qet3"
     ],
@@ -223,7 +220,7 @@
     ],
     "slug formula": "maria-velazquez",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T22:45:24.000Z",
+    "modified": "2021-03-26T17:36:51.000Z",
     "record_id": "rec0qDKJCTRfh5AbI"
   },
   {
@@ -318,9 +315,6 @@
     "linked research as director": [
       "recjJdf9MAHWJ90Sg"
     ],
-    "linked research as participant": [
-      "recjJdf9MAHWJ90Sg"
-    ],
     "events as speaker": [
       "rec78516uTA0mObDE"
     ],
@@ -333,7 +327,7 @@
     ],
     "slug formula": "marilee-lindemann",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T22:30:05.000Z",
+    "modified": "2021-03-28T05:17:37.000Z",
     "record_id": "rec0uVsa99sgAZFNo"
   },
   {
@@ -364,10 +358,34 @@
             "height": 3000
           }
         }
+      },
+      {
+        "id": "attHAxyMMaJnGdBhh",
+        "url": "https://dl.airtable.com/.attachments/6efa0ed83935b448d64fa0dbdc869403/25b7cb4f/Trisha-Campbell.jpg",
+        "filename": "Trisha-Campbell.jpg",
+        "size": 23859,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9d329a6d00a08a9360ea4a09a660d57e/d0854c70",
+            "width": 30,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6afef4f9647b963b061f340f1faa6499/b66c01ca",
+            "width": 175,
+            "height": 207
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d2418a9146e6413dd2d0cac8ba3abc36/0aa7db44",
+            "width": 3000,
+            "height": 3000
+          }
+        }
       }
     ],
     "identity as past": "trisha-campbell-61",
-    "bio": "Trisha Campbell is an Assistant Professor of Writing and Rhetoric with a designated emphasis on Digital Rhetoric and Theory. Her work on the murder networks is finding audiences at national conferences and internationally peer-reviewed journals. Her work discusses an array of issues on race, human and non human agents, network logic, and new materialist rhetoric with regard to violence, digital publics, and our radically connected inhabitancy of the world. To this end, she teaches, makes, and composes projects—digital and textual, creative and critical—that imagine work in the humanities to be hinged on an interceding praxis. She is currently revising her manuscript, _Murder Networks._   \n",
+    "bio": "\n",
     "twitter": "digitaltrisha ",
     "website": "https://digitaltrishacampbell.com",
     "linked events": "dd-fall-2015-trisha-campbell",
@@ -387,7 +405,7 @@
     ],
     "slug formula": "trisha-campbell",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T18:57:20.000Z",
+    "modified": "2021-03-29T21:20:21.000Z",
     "record_id": "rec0zx8Jmk57FRgZB"
   },
   {
@@ -493,7 +511,7 @@
     ],
     "identity as past": "ian-bogost-34",
     "identity as speaker": "ian-bogost-34",
-    "bio": "**Dr. Ian Bogost** is an award-winning designer and media philosopher whose work focuses on videogames and computational media. He is Ivan Allen College Distinguished Chair in Media Studies and Professor of Interactive Computing at the Georgia Institute of Technology, and Founding Partner at Persuasive Games LLC. His research and writing considers videogames as an expressive medium, and his creative practice focuses on political games and artgames. Bogost is author or co-author of _Unit Operations: An Approach to Videogame Criticism_, P_ersuasive Games: The Expressive Power of Videogames_, _Racing the Beam: The Atari Video Computer System_, _Newsgames: Journalism at Play_, _How To Do Things with Videogames_, _Alien Phenomenology, or What it's Like to Be a Thing_, and _10 PRINT CHR$(205.5+RND(1)); : GOTO 10_. His recent independent games include Cow Clicker, a Facebook game send-up of Facebook games, and A Slow Year, a collection of videogame poems for Atari VCS, Windows, and Mac, and winner of the Vanguard and Virtuoso awards at the 2010 Indiecade Festival. Bogost holds a Bachelors degree in Philosophy and Comparative Literature from the University of Southern California, and a Masters and Ph.D. in Comparative Literature from UCLA. You can follow him on twitter [@ibogost](twitter.com/ibogost). \n",
+    "bio": "\n",
     "twitter": "ibogost",
     "linked events": "i-kickstarted-your-project-and-i-didnt-even-get-the-lousy-t-shirt",
     "people groups": [
@@ -504,7 +522,8 @@
       "recFYSmqBjr0tJ8nj"
     ],
     "linked identities": [
-      "recbLKPIURoH2oAxX"
+      "recbLKPIURoH2oAxX",
+      "reccc0n0seleOSeZP"
     ],
     "name": "Ian Bogost",
     "group type": [
@@ -512,7 +531,7 @@
     ],
     "slug formula": "ian-bogost",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:08:57.000Z",
     "record_id": "rec176lW4DBysqBzE"
   },
   {
@@ -620,10 +639,11 @@
       "recdP0I3lL0t3p6fa",
       "recuo0xeTS4XALdWR",
       "recq64FfJY5vGqecq",
-      "recsYbAx3cuzDgm0x"
+      "recfOQ02Bm8JXYSoq"
     ],
     "events as speaker": [
-      "recJkvOYWhPEXu869"
+      "recJkvOYWhPEXu869",
+      "recpOSRSO7MulHJfp"
     ],
     "linked identities": [
       "recoupr9rsnH96U7n",
@@ -636,7 +656,7 @@
     ],
     "slug formula": "george-williams",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T20:37:08.000Z",
+    "modified": "2021-03-29T14:07:50.000Z",
     "record_id": "rec1hjdAVIdyZoEEm"
   },
   {
@@ -784,7 +804,7 @@
       }
     ],
     "identity as past": "miriam-posner-362",
-    "bio": "Miriam Posner is the [Digital Humanities program](www.cdh.ucla.edu/) coordinator and a member of the core DH faculty at the University of California, Los Angeles. She teaches in the DH program, advises undergraduate and graduate students, and ensures the smooth development of this interdisciplinary program. Prior to joining UCLA, Posner was a Mellon Postdoctoral Fellow at the Emory University Library's Digital Scholarship Commons. A member of the executive council of the Association for Computers and the Humanities, Posner frequently writes and speaks on digital humanities, as well as on the history of technology, particularly the history of medical imaging. Her book, _Depth Perception_, on twentieth-century medical filmmaking, is under contract with the University of North Carolina Press. Her Ph.D., from Yale University, is in Film Studies and American Studies. You can read more about Miriam [on her website](miriamposner.com/index.html). \n",
+    "bio": "\n",
     "twitter": "miriamkp",
     "website": "https://miriamposner.com/index.html",
     "linked events": "dd_spring-2015-miriam-posner",
@@ -796,7 +816,8 @@
       "rec3z01vAxH6JhL6G"
     ],
     "linked identities": [
-      "rec5IRE28cqlvUr4a"
+      "rec5IRE28cqlvUr4a",
+      "recMHsSoiZKYWZBU0"
     ],
     "name": "Miriam Posner",
     "group type": [
@@ -804,7 +825,7 @@
     ],
     "slug formula": "miriam-posner",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T21:01:42.000Z",
     "record_id": "rec23W6ImNBAPkzOy"
   },
   {
@@ -1187,6 +1208,9 @@
     "people groups": [
       "External"
     ],
+    "linked research as participant": [
+      "recjiQMxXWTQ3vA5q"
+    ],
     "linked identities": [
       "recEAqGQ7VqMC98v3"
     ],
@@ -1196,15 +1220,41 @@
     ],
     "slug formula": "catherine-phan",
     "created": "2021-03-09T15:12:45.000Z",
-    "modified": "2021-03-09T15:13:16.000Z",
+    "modified": "2021-03-26T16:39:10.000Z",
     "record_id": "rec3Rj44VzJ71BKt7"
   },
   {
     "id": "mauricio-giraldo",
     "first": "Mauricio",
     "last": "Giraldo",
+    "headshot": [
+      {
+        "id": "attAGBReJWwBRt3ye",
+        "url": "https://dl.airtable.com/.attachments/deed01671dc46eb63fd71da79ab51704/02720e5a/mauricio-headshot.jpeg",
+        "filename": "mauricio-headshot.jpeg",
+        "size": 86406,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/e11cdc103d496f30b1021cc98ce86a8a/c81a22e9",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c72dfd0c8ad019a2b3fc19d0e38d66fc/b4eb9337",
+            "width": 500,
+            "height": 494
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0ff8ba495750506935c91b62158c9f4e/71d9b208",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "identity as past": "mauricio-giraldo-168",
-    "bio": "Mauricio enjoys playing with code, objects and all things interactive. He has spent the last fifteen years designing and developing interaction design projects for a wide range of commercial, academic, private and public institutions. Mauricio is an Industrial Designer from Universidad de los Andes in Bogotá, Colombia where he also lectured for six years. He also holds a Master in Human-Computer Interaction from Carnegie Mellon University. Read more about Mauricio [on his website](www.mauriciogiraldo.com/). \n",
+    "bio": "\n",
     "twitter": "mgiraldo",
     "website": "https://mauriciogiraldo.com",
     "linked events": "dd_spring-2015-mauricio-giraldo",
@@ -1225,7 +1275,7 @@
     ],
     "slug formula": "mauricio-giraldo",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:51:33.000Z",
     "record_id": "rec3oGJMmtagRx3p5"
   },
   {
@@ -1291,7 +1341,7 @@
     "department": "MITH",
     "institution": "University of Maryland",
     "identity as past": "marisa-parham-346, marisa-parham-347",
-    "bio": "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst\n",
+    "bio": "\n",
     "email": "marisa285@yahoo.com",
     "phone": "(413) 549-8257",
     "twitter": "amplify285",
@@ -1325,15 +1375,41 @@
     ],
     "slug formula": "marisa-parham",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T17:15:08.000Z",
+    "modified": "2021-03-29T20:41:09.000Z",
     "record_id": "rec4GSBjn9Pccdx9h"
   },
   {
     "id": "stephanie-ceraso",
     "first": "Stephanie",
     "last": "Ceraso",
+    "headshot": [
+      {
+        "id": "attgPm4YeSRXYoj77",
+        "url": "https://dl.airtable.com/.attachments/be882bd3d000c6dfd53afd6b733b5491/2e1f02f2/Stephanie-Ceraso.jpeg",
+        "filename": "Stephanie-Ceraso.jpeg",
+        "size": 42497,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6a699842088c33badce06231d2fbb77b/12b7a067",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/10ac027bd1590ed476f60747c05efa67/b1c7126b",
+            "width": 480,
+            "height": 480
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0a19a6132ce59b9e58e6270f872b9298/0435e583",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "identity as past": "stephanie-ceraso-69",
-    "bio": "Steph Ceraso is an Assistant Professor of English at the University of Maryland, Baltimore County. Her research and teaching interests are rhetoric and composition, pedagogy, sound studies, and digital media. In addition to coediting a special \"[Sonic Rhetorics](harlotofthearts.orgindex.php/harlot/issue/view/9)\" issue of _Harlot_, her work has appeared in _[Currents in Electronic Literacy](currents.cwrl.utexas.edu/2011/digitallyrical)_, [HASTAC](www.hastac.orgblogs/stephceraso/2014/02/09/sonic-composing-assignments), [Sounding Out! Blog](soundstudiesblog.com/2012/02/27/the-plasticity-of-listening-deafness-and-sound-studies/), and [Fembot Collective](fembotcollective.orgblog/category/laundryday/feminist-media-production-pt-2/). Some of her forthcoming essays include \"Re(Educating) the Senses\" (in College English) and \"Sound Practices for Digital Humanities\" (in Provoke! Digital Sound Studies, Duke UP). You can find more about her research, media projects, and teaching [on her website here](www.stephceraso.com).   \n",
+    "bio": "\n",
     "twitter": "stephceraso",
     "website": "https://stephceraso.com",
     "linked events": "dd_fall-2014-stephanie-ceraso",
@@ -1353,7 +1429,7 @@
     ],
     "slug formula": "stephanie-ceraso",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:56:37.000Z",
     "record_id": "rec4OsAUlBcYxQtcn"
   },
   {
@@ -1449,6 +1525,9 @@
     "linked research as participant": [
       "recdP0I3lL0t3p6fa"
     ],
+    "events as speaker": [
+      "recpOSRSO7MulHJfp"
+    ],
     "linked identities": [
       "recv3UuWoHws8TTZy",
       "recnlX9Su7NtFdVK2"
@@ -1459,7 +1538,7 @@
     ],
     "slug formula": "catherine-hays-zabriskie",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:08:00.000Z",
     "record_id": "rec4mwyPCoslxS8IZ"
   },
   {
@@ -1494,7 +1573,7 @@
     ],
     "identity as past": "harold-short-416",
     "identity as speaker": "harold-short-416",
-    "bio": "Harold Short is a Visiting Professorial Fellow at Australian Catholic University. He is Emeritus Professor of King's College London, where he founded and directed the Centre for Computing in the Humanities (later Department of Digital Humanities) until retirement in 2010. At King's he was involved in the development of three MA programmes: Digital Humanities, Digital Culture and Society and Digital Asset Management, and, with Willard McCarty, of the world's first PhD programme in Digital Humanities, launched in 2005. He also played a lead role in a number of large-scale inter-disciplinary research projects. 2011-15 he was a visiting Professor at Western Sydney University, where he was closely involved in the establishment of the Digital Humanities Research Group, which hosted the Digital Humanities 2015 conference. He is a former Chair of the European Association for Digital Humanities and the Alliance of Digital Humanities Organisations in which he has a continuing role to support the development of digital humanities associations world-wide. He is a general editor of the Ashgate series Digital Research in the Arts and Humanities. \n",
+    "bio": "\n",
     "linked events": "dd-spring-2016-harold-short",
     "people groups": [
       "External"
@@ -1512,7 +1591,7 @@
     ],
     "slug formula": "harold-short",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:28:05.000Z",
     "record_id": "rec5CO5YAcf6Td0IP"
   },
   {
@@ -1864,7 +1943,7 @@
     "institution": "University of Vienna",
     "identity as past": "maxim-romanov-391",
     "identity as speaker": "maxim-romanov-391",
-    "bio": "Maxim Romanov is a research fellow at [Alexander von Humboldt-Lehrstul für Digital Humanities](www.dh.uni-leipzig.de/wo/), Institut für Informatik, Universität Leipzig. His dissertation (Near Eastern Studies, University of Michigan, 2013) explored how modern computational techniques of text analysis can be applied to the study of premodern Arabic historical sources. In particular, he studied \"The History of Islam\" (_Taʾrīḫ al-islām_), the largest of surviving biographical collections with over 30,000 biographies, written by the Damascene scholar al-Ḏahabī (d. 1348 CE). He is continuing his research and develops methods of computational analysis for other genres of premodern Arabic literature, mainly large volume collections that can offer insights into long-term and large-scale developments that took place during the pre-modern period of Islamic history. He is working on two book projects: (1) \"The History of Islam\": An Essay in Digital Humanities continues the study of al-Ḏahabī's tremendous collection of biographies, while (2) The Gift to the Knowledgeable 2.0, explores cultural production in the Islamic world until the beginning of the 20th century through the study of the _Hadiyyaŧ al-ʿārifīn_, a bibliographical collection composed by Ismāʿīl Bāšā al-Baġdādī (d. 1920). \n",
+    "bio": "\n",
     "twitter": "maximromanov",
     "linked events": "dd-spring-2016-maxim-romanov",
     "people groups": [
@@ -1891,7 +1970,7 @@
     ],
     "slug formula": "maxim-romanov",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T17:18:46.000Z",
+    "modified": "2021-03-30T03:23:54.000Z",
     "record_id": "rec6ZnlEjIRIrQj9b"
   },
   {
@@ -2128,26 +2207,12 @@
       "rechMqJ7VykqPDG99",
       "reclnYy3JRImc7fdJ",
       "recZ0HGWJHKE7lAAc",
-      "recVOeMu42YcKv17k"
+      "recVOeMu42YcKv17k",
+      "rec6VCNAOG1QeMSdM"
     ],
     "linked research as participant": [
-      "receRoq1QIw6xR0NG",
-      "rec3CEHRtEQxYBrwQ",
-      "recNdeVHPe58T7n1z",
-      "rec9U4W4pWBDft0om",
-      "rec4AJb2rqjd3wGfN",
       "recNeJs9no3H5InHB",
-      "rec7ilGSW3UrEUPX9",
-      "recIzpMSRd6JZvz3K",
-      "recQrBgXNsDrlSJHt",
-      "recVOeMu42YcKv17k",
-      "rec6VCNAOG1QeMSdM",
-      "rec8mO5wbkeBJxI6l",
-      "recixwPkJ79MJaDhx",
       "rec2M5EtNxNX7opn2",
-      "recS9VbejZ4CnjcZg",
-      "rechMqJ7VykqPDG99",
-      "reclnYy3JRImc7fdJ",
       "recOhObajK8dyxTUU"
     ],
     "events as speaker": [
@@ -2173,7 +2238,7 @@
     ],
     "slug formula": "neil-fraistat",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-25T14:01:15.000Z",
+    "modified": "2021-03-26T18:22:19.000Z",
     "record_id": "rec7IQrtMhb4Ro8Mc"
   },
   {
@@ -2235,7 +2300,7 @@
       }
     ],
     "identity as speaker": "alex-wright-482",
-    "bio": "Alex Wright is the Director of Research at Etsy and the former Director of User Experience and Product Research at The New York Times. He is also a professor of interaction design at The School of Visual Arts and the author of Cataloging the World: Paul Otlet and the Birth of the Information Age (Oxford University Press, 2014). He has previously led interaction design and research projects for IBM, Yahoo!, The Long Now Foundation and the California Digital Library, among others. His writing has appeared in The New York Times, The Atlantic, Wilson Quarterly, The Believer, and Harvard Magazine, among others. \n",
+    "bio": "\n",
     "twitter": "alexgrantwright",
     "website": "http://alexwright.org",
     "linked events": "dd_fall-2014-alex-wright",
@@ -2247,7 +2312,8 @@
       "recvQ9USzrbWChopy"
     ],
     "linked identities": [
-      "recCCFqmMerd1vhTI"
+      "recCCFqmMerd1vhTI",
+      "recT8MqdjJZDsfPOP"
     ],
     "name": "Alex Wright",
     "group type": [
@@ -2255,7 +2321,7 @@
     ],
     "slug formula": "alex-wright",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:47:52.000Z",
     "record_id": "rec7xM3lvdKH8PTAe"
   },
   {
@@ -2441,9 +2507,35 @@
     "id": "allen-renear",
     "first": "Allen",
     "last": "Renear",
+    "headshot": [
+      {
+        "id": "attGegJKNIVBSne2y",
+        "url": "https://dl.airtable.com/.attachments/d0eed925c17ada2673db15c029a0a9b3/f09473b4/renear_2012_cropped_portrait.jpg",
+        "filename": "renear_2012_cropped_portrait.jpg",
+        "size": 1027670,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/017b3838235f639f199e1139dfb750ae/856da9e8",
+            "width": 37,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/78c6d7809793bb6c5abcea483dbab2dd/4df9118d",
+            "width": 533,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3d619af5421aba535a02d4e0d1dd1c9e/0d75d586",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "institution": "Association for Computers and the Humanities,University of Illinois at Urbana-Champaign",
     "identity as speaker": "allen-renear-378",
-    "bio": "**Allen Renear** is Interim Dean and Professor at GSLIS. He teaches courses and leads research in information modeling, data curation, digital humanities, scientific publishing, and the conceptual foundations of information organization. Prior to coming to the Graduate School of Library and Information Science, he was the Director of the Brown University Scholarly Technology Group. Dr. Renear received an AB from Bowdoin College and an MA and PhD from Brown University. His research is typically concerned with foundational issues in the development of formal ontologies for scientific and cultural objects, and the exploitation of those ontologies in data curation, scientific publishing and information system design. Recently his work has focused on fundamental issues in the curation of scientific datasets and conceptual models for data management and preservation. This includes topics such as levels of abstraction and encoding, identity, ontology, etc. His projects are located at the Center for Informatics Research in Science and Scholarship (CIRSS) and have been funded by NSF and IMLS. \n",
+    "bio": "\n",
     "linked events": "nicole-saylor-archiving-folk-culture",
     "people groups": [
       "External"
@@ -2455,7 +2547,7 @@
       "rec6VCNAOG1QeMSdM"
     ],
     "events as speaker": [
-      "recZe7nfBHsqSJUaK"
+      "recN8rEbEm4XHbBI3"
     ],
     "linked identities": [
       "rec2iyL9MtIrZScqn",
@@ -2467,7 +2559,7 @@
     ],
     "slug formula": "allen-renear",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T16:04:32.000Z",
+    "modified": "2021-03-29T20:54:17.000Z",
     "record_id": "rec8XeBqlXtZneoXF"
   },
   {
@@ -2623,9 +2715,6 @@
     "linked research as director": [
       "recrp1oDx9kCa4vqv"
     ],
-    "linked research as participant": [
-      "recrp1oDx9kCa4vqv"
-    ],
     "events as speaker": [
       "rec63Vw3JMHB9EG8l"
     ],
@@ -2640,7 +2729,7 @@
     ],
     "slug formula": "carla-l-peterson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T17:35:59.000Z",
     "record_id": "rec8xmRd0i75ytMYN"
   },
   {
@@ -2675,7 +2764,7 @@
     ],
     "title": "National Digital Stewardship Resident",
     "identity as past": "margo-padilla-340, margo-padilla-341",
-    "bio": "Margo Padilla received her MLIS with a concentration in Management, Digitization and Preservation of Cultural Heritage and Records from San Jose State University in 2011. After graduating, she accepted a position with The Bancroft Library at the University of California, Berkeley as the Digital Project Archivist on a National Park Service grant to create a digital archive of the Japanese American Evacuation and Relocation Study records. She is currently the Library of Congress and Institute of Museum and Library Services National Digital Stewardship Resident at University of Maryland Libraries and MITH where she will research, develop, and prototype an access model that will better enable researchers to discover and use born-digital collections. \n",
+    "bio": "\n",
     "email": "mpadilla@umd.edu",
     "phone": "(301) 405-8927",
     "twitter": "margo_padilla",
@@ -2701,7 +2790,7 @@
     ],
     "slug formula": "margo-padilla",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:35:21.000Z",
     "record_id": "rec99as9KYXSorIKv"
   },
   {
@@ -2890,22 +2979,17 @@
     ],
     "linked research as participant": [
       "recfpgf5Qz4kjZFfQ",
-      "recI0iHCHmP3FDon2",
-      "recR5msoTzAWX1BEg",
       "recIcdjvGCGJJYfZ5",
-      "rec3yYzG8rHF8B5uh",
       "rec9U4W4pWBDft0om",
-      "rec4ZB3QtnwIq2JoZ",
-      "recUWo0HsrBvy7gbY",
       "recVOeMu42YcKv17k",
       "rec6VCNAOG1QeMSdM",
       "recrtZefpfg8IaYa1",
       "rec8mO5wbkeBJxI6l",
       "recCqMxTdRsZ0Ovb1",
       "recJgjs866P2xLBdD",
-      "recK9x1IyybfYDyiA",
       "recS9VbejZ4CnjcZg",
-      "recUn2Lhho9V4SWPB"
+      "recUn2Lhho9V4SWPB",
+      "recjjLQ6LPam2Jt1z"
     ],
     "events as speaker": [
       "rec4HAXBE9Z5RCFlR",
@@ -2933,7 +3017,7 @@
     ],
     "slug formula": "doug-reside",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-25T13:49:59.000Z",
+    "modified": "2021-03-28T16:41:25.000Z",
     "record_id": "recAPnvQ5zvVez1MD"
   },
   {
@@ -2949,6 +3033,9 @@
     "slug": "tapan-khatri",
     "new id": 66,
     "wordpress id": 5616,
+    "linked research as participant": [
+      "recVOeMu42YcKv17k"
+    ],
     "linked identities": [
       "recccl2OX1yjx72pD"
     ],
@@ -2959,10 +3046,7 @@
     "slug formula": "tapan-khatri",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-25T14:00:39.000Z",
-    "record_id": "recAaOfs60dort1Hf",
-    "linked research as participant": [
-      "recVOeMu42YcKv17k"
-    ]
+    "record_id": "recAaOfs60dort1Hf"
   },
   {
     "id": "anne-balsamo",
@@ -2995,7 +3079,7 @@
       }
     ],
     "identity as speaker": "anne-balsamo-17",
-    "bio": "Dr. Balsamo is a groundbreaking national leader in media studies, a scholar and media-maker whose work links cultural studies, digital humanities, and interactive media. She received her PhD in Communications Research from the University of Illinois at Urbana-Champaign and began her faculty career in the School of Literature, Culture, and Communications at Georgia Tech, where she published a distinguished book about the cultural implications of emergent biotechnologies, Technologies of the Gendered Body: Reading Cyborg Women. In 1999, having grown interested in the practical linkages between technology and culture, she accepted an offer to join the celebrated Xerox Palo Alto Research Center (PARC), collaborating in the design of media for reading, exhibition, public art, and cultural projects. In 2003, Dr. Balsamo moved from Silicon Valley to USC, where she had been jointly appointed in the Annenberg School of Communications and the School of Cinematic Arts. She directed the Collaborative Design Lab within the Interactive Design Division of the School of Cinematic Arts. She has been a leader in the growth of digital humanities nationally, serving on the Advisory Board of HASTAC (Humanities, Arts, Science, and Technology Advanced Co-laboratory) since its founding in 2003. In 2011, she published Designing Culture: The Technological Imagination at Work, a transmedia book (with accompanying DVD and web linkages to interactive media projects) that synthesizes and theorizes the links between her cultural studies scholarship and digital media projects. \n",
+    "bio": "\n",
     "twitter": "annebalsamo",
     "linked events": "dd-spring-2014-anne-balsamo",
     "people groups": [
@@ -3015,7 +3099,7 @@
     ],
     "slug formula": "anne-balsamo",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:29:35.000Z",
     "record_id": "recAfIzqPiAEX1xpr"
   },
   {
@@ -3023,7 +3107,7 @@
     "first": "Tara",
     "last": "McPherson",
     "identity as past": "tara-mcpherson-297",
-    "bio": "**Tara McPherson** is Associate Professor of Critical Studies at the University of Southern California's School of Cinematic Arts. She is a core faculty member of the IMAP program, USC's innovative practice based-Ph.D., and also an affiliated faculty member in the American Studies and Ethnicity Department. Her research engages the cultural dimensions of media, including the intersection of gender, race, affect and place. She has a particular interest in digital media. Here, her research focuses on the digital humanities, early software histories, gender, and race, as well as upon the development of new tools and paradigms for digital publishing, learning, and authorship. Her _Reconstructing Dixie: Race, Gender and Nostalgia in the Imagined South_ (Duke UP: 2003) received the 2004 John G. Cawelti Award for the outstanding book published on American Culture, among other awards. She is co-editor of _Hop on Pop: The Politics and Pleasures of Popular Culture_ (Duke UP: 2003) and editor of _Digital Youth, Innovation and the Unexpected_, part of the MacArthur Foundation series on Digital Media and Learning (MIT Press, 2008.) Her writing has appeared in numerous journals, including _Camera Obscura, The Velvet Light Trap, Discourse, and Screen,_ and in edited anthologies such as _Race and Cyberspace, The New Media Book, The Object Reader, Virtual Publics, The Visual Culture Reader 2.0_, and _Basketball Jones._ The anthology, Interactive Frictions, co-edited with Marsha Kinder, is forthcoming from the University of California Press, and she is currently working on a manuscript examining the digital transformation of the archive as it mutates into the database. She is the Founding Editor of _Vectors_, [www.vectorsjournal.org](www.vectorsjournal.org), a multimedia peer-reviewed journal affiliated with the Open Humanities Press, and is a founding editor of the MacArthur-supported _International Journal of Learning and Media_ (launched by MIT Press in 2009.) She is a widely sought-out speaker on the digital humanities, digital scholarship, and feminist technology studies. Tara was among the founding organizers of Race in Digital Space, a multi-year project supported by the Annenberg Center for Communication and the Ford and Rockefeller Foundations. She is on the advisory board of the Mellon-funded Scholarly Communications Institute, has frequently served as an AFI juror, is a core board member of [HASTAC](www.hastac.org) , and is on the boards of several journals and other organizations. At USC, she co-directs (with Phil Ethington) the new Center for Transformative Scholarship and is a fellow at the Center for Excellence in Teaching. With major support from the Mellon Foundation, she is currently working with colleagues from leading universities and with several academic presses, museums, scholarly societies, and archives to explore new modes of scholarship for visual culture research. She is the lead PI on the new authoring platform, Scalar, and for the Alliance for Networking Visual Culture, [scalar.usc.edu](scalar.usc.edu/). \n",
+    "bio": "\n",
     "twitter": "tmcphers",
     "website": "https://cinema.usc.edu/directories/profile.cfm?id=6590",
     "linked events": "tara-mcpherson-theory-in-the-machine-or-a-feminist-in-a-software-lab, tara-mcpherson-scholarship-beyond-database",
@@ -3036,7 +3120,8 @@
       "rec1UGGo1PefEMLvm"
     ],
     "linked identities": [
-      "recyZigRXZSuKz4CM"
+      "recyZigRXZSuKz4CM",
+      "recI2fumI8rg6aWqM"
     ],
     "name": "Tara McPherson",
     "group type": [
@@ -3044,7 +3129,7 @@
     ],
     "slug formula": "tara-mcpherson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:18:43.000Z",
     "record_id": "recAjTEfjHC7Q2HSE"
   },
   {
@@ -3541,10 +3626,14 @@
     "wordpress id": 5774,
     "linked research as participant": [
       "rec7ne8B1n18zBqHc",
-      "recuo0xeTS4XALdWR"
+      "recuo0xeTS4XALdWR",
+      "recxFjcbEiovMs7pb",
+      "recLi5BnFcqsxlObS",
+      "recaG1qeqPK4LPM07"
     ],
     "linked identities": [
-      "recCOYZPQVgmOMKUn"
+      "recCOYZPQVgmOMKUn",
+      "recHYqNQN7RE21ODk"
     ],
     "name": "Eric White",
     "group type": [
@@ -3552,16 +3641,42 @@
     ],
     "slug formula": "eric-white",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T17:29:49.000Z",
     "record_id": "recCAHlETNTJlOUUL"
   },
   {
     "id": "kishonna-l-gray",
     "first": "Kishonna",
     "last": "L Gray",
+    "headshot": [
+      {
+        "id": "attVZi8j1CYymUONP",
+        "url": "https://dl.airtable.com/.attachments/96aa46ad160dcf1d6a08298c524d6a3b/d62efb31/Kishonna-Gray-photo.jpeg",
+        "filename": "Kishonna-Gray-photo.jpeg",
+        "size": 554878,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/91d7d4194ab91262aa83fb781bf3f483/5402bada",
+            "width": 29,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/515dca1dd3d6416062f39074a629fac9/920cc6e7",
+            "width": 512,
+            "height": 631
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/8d6f33c664c6653fbb90b04b2bd7ffd7/c7599af1",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "identity as past": "kishonna-l-gray-246, kishonna-l-gray-247",
     "identity as speaker": "kishonna-l-gray-246, kishonna-l-gray-247",
-    "bio": "Dr. Gray is visiting MIT as a MLK Scholar and Assistant Professor for the 2016-17 academic year. Additionally, she is a fellow at the Berkman-Klein Center for Internet & Society at Harvard University, and a Faculty Visitor at the Social Media Collective at Microsoft Research (Cambridge). Her work broadly intersects identity and digital media with a particular focus on video games and gaming culture. By examining game context and culture, her most recent book, _Race, Gender, & Deviance in Xbox Live,_ examines the reality of women and people of color in one of the largest gaming communities. Gray has published in a variety of outlets, both academic and public. Her work has been featured in the _Journal of Comparative Research in Anthropology and Sociology_, _ADA: A Journal of New Media and Technology_, the _Bulletin of Science, Technology, & Society_, the _New Review of Hypermedia and Multimedia_, and others. \n",
+    "bio": "\n",
     "twitter": "KishonnaGray",
     "website": "http://kishonnagray.com",
     "linked events": "dd-spring-2017-kishonna-gray",
@@ -3573,8 +3688,8 @@
       "recI1LtQFsfpNuoxc"
     ],
     "linked identities": [
-      "recdAdQUxRmJwFTX5",
-      "rec5pTCHbZj4T5zYl"
+      "rec5pTCHbZj4T5zYl",
+      "recdAdQUxRmJwFTX5"
     ],
     "name": "Kishonna L Gray",
     "group type": [
@@ -3582,7 +3697,7 @@
     ],
     "slug formula": "kishonna-l-gray",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T04:10:34.000Z",
     "record_id": "recCFpe8qjIct7FoK"
   },
   {
@@ -3944,7 +4059,7 @@
       }
     ],
     "identity as speaker": "darius-kazemi-220",
-    "bio": "Darius Kazemi makes weird internet stuff. His best known work is the Random Shopper, a program that bought him random books, DVDs, and CDs from Amazon each month. He also has a small army of Twitter bots that he builds because they make him laugh. He works as an API Evangelist at Akamai in Boston. Before he moved into internet technology, he was a game developer for ten years. \n",
+    "bio": "\n",
     "twitter": "davelester",
     "website": "https://davelester.org",
     "linked events": "dd_fall-2014-darius-kazemi",
@@ -3956,7 +4071,8 @@
       "reciPp2zPKAqD3xXK"
     ],
     "linked identities": [
-      "recDlwtRYlcWHXMXI"
+      "recDlwtRYlcWHXMXI",
+      "recNtYVg2IKRkLZoH"
     ],
     "name": "Darius Kazemi",
     "group type": [
@@ -3964,7 +4080,7 @@
     ],
     "slug formula": "darius-kazemi",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:45:23.000Z",
     "record_id": "recDxm6x9D4ipDOTd"
   },
   {
@@ -4027,6 +4143,9 @@
     "people groups": [
       "External"
     ],
+    "linked research as participant": [
+      "recjiQMxXWTQ3vA5q"
+    ],
     "linked identities": [
       "recLB73t7yBlGKAbp"
     ],
@@ -4036,7 +4155,7 @@
     ],
     "slug formula": "erik-moore",
     "created": "2021-03-09T15:16:10.000Z",
-    "modified": "2021-03-09T15:16:24.000Z",
+    "modified": "2021-03-26T16:39:17.000Z",
     "record_id": "recE2M2wPnxpIBTzh"
   },
   {
@@ -4162,9 +4281,7 @@
       "recjiQMxXWTQ3vA5q"
     ],
     "linked research as participant": [
-      "recvR6EgsUHNU7q27",
-      "recybLltnlNUrjFIw",
-      "recjiQMxXWTQ3vA5q"
+      "recybLltnlNUrjFIw"
     ],
     "events as speaker": [
       "rec73tYlqDdhuXggl"
@@ -4183,7 +4300,7 @@
     ],
     "slug formula": "eric-hoyt",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-09T15:04:44.000Z",
+    "modified": "2021-03-26T17:16:42.000Z",
     "record_id": "recEFtLdFX1bEMTgo"
   },
   {
@@ -4230,9 +4347,6 @@
     "linked research as director": [
       "rec5xCeI8HRovMj0I"
     ],
-    "linked research as participant": [
-      "rec5xCeI8HRovMj0I"
-    ],
     "linked identities": [
       "recWIBbvGVzQWcgCE"
     ],
@@ -4242,7 +4356,7 @@
     ],
     "slug formula": "elizabeth-abele",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T15:07:54.000Z",
     "record_id": "recEPCrLTihGAzgXX"
   },
   {
@@ -4302,7 +4416,7 @@
     ],
     "identity as past": "gregory-zinman-486",
     "identity as speaker": "gregory-zinman-486",
-    "bio": "Gregory Zinman is an Assistant Professor in the School of Literature, Media, and Communication at Georgia Tech. Before arriving at Georgia Tech, he was an ACLS New Faculty Fellow in the Film Program at Columbia University and the scholar-in-residence at the New York Film-Makers' Cooperative. In 2013, he was Postdoctoral Fellow at the Smithsonian American Art Museum, working on the Nam June Paik Archive. He is currently completing his first book, _Handmade: The Moving Image Without Photography_, which provides a theoretical and historical framework for understanding craft-based moving image practices, from painted film to new media. He is also editing, with John Hanhardt and Edith Decker-Phillips, _Nam June Paik: Selected Writings_ (forthcoming from The MIT Press). Zinman's writing on film and media has been published in _The New Yorker_, _American Art_, _Film History_, _Animation Journal_, _MIRAJ_, and _Millennium Film Journal_. His current research is supported by a fellowship from the National Endowment for the Humanities. He serves as a curatorial consultant to the Yale University Art Gallery and the Smithsonian American Art Museum, and has programmed film and media art at the Film-makers' Co-op, the Museum of the Moving Image, Asia Society New York, and the Ann Arbor Film Festival, as well as a number of venues in Atlanta. His website, handmadecinema.com, received the 2015 award for \"Best Electronic Reference Site,\" from the Popular Culture Association/American Culture Association. Zinman holds a Ph.D. from the Department of Cinema Studies at New York University, a BA in American Studies from Yale University, and a MA in Cinema Studies from NYU. \n",
+    "bio": "\n",
     "twitter": "gregzinman",
     "website": "https://gregzinman.wordpress.com",
     "linked events": "dd-fall-2016-gregory-zinman",
@@ -4322,7 +4436,7 @@
     ],
     "slug formula": "gregory-zinman",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:46:57.000Z",
     "record_id": "recEtv30ED0tLlPO2"
   },
   {
@@ -4331,24 +4445,24 @@
     "last": "Priestley",
     "headshot": [
       {
-        "id": "att22KADO2cQCnzOS",
-        "url": "https://dl.airtable.com/.attachments/fd1a0afd3ccf86f454d9c9a7912149e7/858a4c8c/Haigh-Priestley.jpg",
-        "filename": "Haigh-Priestley.jpg",
-        "size": 73644,
+        "id": "att3jdMHCVSgJi0iu",
+        "url": "https://dl.airtable.com/.attachments/40fe01727b002cf5d1343176a4c54aa3/aee21d05/Priestley.jpg",
+        "filename": "Priestley.jpg",
+        "size": 9355,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/87370a1972e6a8a71c5340ca3f5e4d20/3338e44d",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/2ef33683d22d7771bdab6c6edaeac2b0/8f3cbf6f",
             "width": 36,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/697a511d8ee72bf1696c6bf17529a8d0/3d1167db",
-            "width": 512,
-            "height": 512
+            "url": "https://dl.airtable.com/.attachmentThumbnails/02d3f9d72d149642dfaaf668e95fcdd2/198a2c7f",
+            "width": 319,
+            "height": 320
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/3de88d3815a496152e540743c1e968b9/1f5cb1e8",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9fa90468dde7f797d3242b98aad6b493/8bb758bf",
             "width": 3000,
             "height": 3000
           }
@@ -4375,7 +4489,7 @@
     ],
     "slug formula": "mark-priestley",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:11:59.000Z",
     "record_id": "recF9xf5SsvTl528K"
   },
   {
@@ -4384,6 +4498,9 @@
     "last": "Toov",
     "people groups": [
       "External"
+    ],
+    "linked research as participant": [
+      "recjiQMxXWTQ3vA5q"
     ],
     "linked identities": [
       "recEE8pvZrgZYhzoJ"
@@ -4394,7 +4511,7 @@
     ],
     "slug formula": "rebecca-toov",
     "created": "2021-03-09T15:17:52.000Z",
-    "modified": "2021-03-09T15:18:04.000Z",
+    "modified": "2021-03-26T16:39:20.000Z",
     "record_id": "recFSjPGO2AVgxNWZ"
   },
   {
@@ -4544,9 +4661,6 @@
     "linked research as director": [
       "rec7aDiD4aW2gKe86"
     ],
-    "linked research as participant": [
-      "rec7aDiD4aW2gKe86"
-    ],
     "events as speaker": [
       "recOOCK9iNqecC9An"
     ],
@@ -4560,7 +4674,7 @@
     ],
     "slug formula": "marlene-mayo",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:43:09.000Z",
     "record_id": "recFscZ6x0sChmT9O"
   },
   {
@@ -4579,9 +4693,6 @@
     "linked research as director": [
       "recbjQcKlxS7US5fG"
     ],
-    "linked research as participant": [
-      "recbjQcKlxS7US5fG"
-    ],
     "linked identities": [
       "rec0rQ7nQlopkcS5B"
     ],
@@ -4591,7 +4702,7 @@
     ],
     "slug formula": "ysaye-maria-barnwell",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T17:17:24.000Z",
     "record_id": "recFtdjAH2NXMOy2I"
   },
   {
@@ -4625,7 +4736,7 @@
       }
     ],
     "identity as past": "paul-jaskot-210",
-    "bio": "Paul Jaskot is professor of art history at DePaul University and, currently, the Andrew W. Mellon Professor at the Center for Advanced Study in the Visual Arts (National Gallery). His specific area of research has mostly focused on the cultural history of National Socialist Germany and its postwar impact on art and architecture. He has published a number of essays that explored the political function of architecture in the modern period, leading up to his most recent book The Nazi Perpetrator: Postwar German Art and the Politics of the Right (Minnesota 2012). These interests have also led to his involvement over the past decade with the Holocaust Geography Collaborative, a coalition of 8 international scholars who specialize in both Holocaust Studies and GIS. Their research has most recently resulted in the anthology _Geographies of the Holocaust_ (2014) for which Jaskot co-authored three chapters. He is currently exploring with Anne Kelly Knowles the potential for using Historical GIS to explore issues of forced labor and the construction industry in Nazi Germany. In addition to his research, Jaskot has served as President of the College Art Association (2008-2010). \n",
+    "bio": "\n",
     "twitter": "PBJaskot",
     "website": "http://www.las.depaul.edu/departments/history-of-art-and-architecture/faculty/Pages/paul-jaskot.aspx",
     "linked events": "dd_spring-2015-paul-jaskot",
@@ -4646,7 +4757,7 @@
     ],
     "slug formula": "paul-jaskot",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T21:06:35.000Z",
     "record_id": "recFtrtfa3Chiw1Z4"
   },
   {
@@ -4667,16 +4778,14 @@
     "linked research as director": [
       "recYbbTvNL8UyDeut"
     ],
-    "linked research as participant": [
-      "recYbbTvNL8UyDeut"
-    ],
     "events as speaker": [
       "recImW3QRzk807B4A",
       "recHowEGJoJu4XQw7"
     ],
     "linked identities": [
       "recUcEIzvs5UWcU1Y",
-      "recUhCmZO51s03Rqk"
+      "recUhCmZO51s03Rqk",
+      "recdoT59KK7N5z644"
     ],
     "name": "Katie King",
     "group type": [
@@ -4685,7 +4794,7 @@
     ],
     "slug formula": "katie-king",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T15:07:54.000Z",
     "record_id": "recFuRmzQpIwsupcc"
   },
   {
@@ -5100,7 +5209,7 @@
     ],
     "identity as past": "henry-lovejoy-273",
     "identity as speaker": "henry-lovejoy-273, henry-lovejoy-494",
-    "bio": "Henry B. Lovejoy was awarded his PhD from the University of California, Los Angeles in 2012. He completed a Social Sciences and Humanities Research Council of Canada Post-Doctoral Fellowship at the University of British Columbia (2012-2014) and another Post-Doctoral Fellowship at the University of Texas, Austin (2014-2015). He is currently a lecturer at McMaster University and a Visiting Assistant Professor at Michigan State University. He has published articles in _The Journal of African History_, _Slavery & Abolition_, _Canadian Journal of African Studies_, _African Economic Histor_y, among other chapters in edited volumes. He expects his book project _Slavery, Freedom and Empire: Juan Nepomuceno Prieto of the Lucumi Nation in Cuba during the Age of Revolution_ to be published in the \"Envisioning Cuba\" series with the University of North Carolina Press. \n",
+    "bio": "\n",
     "linked events": "dd-spring-2016-henry-lovejoy",
     "people groups": [
       "External"
@@ -5110,8 +5219,8 @@
       "recAiDVWCo0ooTp1I"
     ],
     "linked identities": [
-      "recI96r9p3kom6jNM",
-      "recmNlmabk2woQDOX"
+      "recmNlmabk2woQDOX",
+      "recI96r9p3kom6jNM"
     ],
     "name": "Henry Lovejoy",
     "group type": [
@@ -5119,7 +5228,7 @@
     ],
     "slug formula": "henry-lovejoy",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:25:30.000Z",
     "record_id": "recIO64uw1aV7pxTW"
   },
   {
@@ -5209,7 +5318,7 @@
     "department": "Department of Communication",
     "institution": "University of Maryland",
     "identity as past": "catherine-knight-steele-238, catherine-knight-steele-236, catherine-knight-steele-237",
-    "bio": "Catherine Knight Steele is a native Chicagoan who received her doctorate in Communication from the University of Illinois at Chicago in 2014. She previously served as an assistant professor at Colorado State University. Her research focuses on African American culture and discourse in mass and new media, and publications have appeared in the _Howard Journal of Communications and Intersectional Internet: Race, Sex, Class, and Culture Online_(Peter Lang, 2016). Her dissertation, \"Digital Barbershops: The Politics of African American Oral Culture in Online Blog Communities,\" explored the politics of African American blogs as contributing to online counterpublics and secondary orality. She is currently working on a monograph about digital black feminism and new media technologies.\nSteele is the first Project Director of [African American History, Culture and Digital Humanities (AADHum)](http://mith.umd.edu/research/aadhum/), for which she will lead up initiatives to prepare a diverse cadre of scholars and students whose work in African American History & Culture and the Digital Humanities will enrich arts and humanities research and teaching with new methods, archives, and tools.\n",
+    "bio": "\n",
     "bio external": "comm.umd.edu/people/faculty/steele",
     "email": "cksteele@umd.edu",
     "twitter": "SteeleCat717",
@@ -5225,7 +5334,6 @@
     "new id": 13,
     "wordpress id": 17958,
     "linked research as participant": [
-      "recwm5xrK8ZAZBkoh",
       "reclnYy3JRImc7fdJ"
     ],
     "events as speaker": [
@@ -5249,17 +5357,43 @@
     ],
     "slug formula": "catherine-knight-steele",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-03-30T03:44:43.000Z",
     "record_id": "recJB9khC3kthEB0k"
   },
   {
     "id": "richard-freedman",
     "first": "Richard",
     "last": "Freedman",
+    "headshot": [
+      {
+        "id": "attgztg9jh7TWcdQy",
+        "url": "https://dl.airtable.com/.attachments/c36852ad0c4aad5ef86e41637c010da0/ebb62091/Richard_Freedman.jpg",
+        "filename": "Richard_Freedman.jpg",
+        "size": 22667,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d1680a9f15e0f2a35cc6f52617ce32b9/18670328",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ab52853f80c5b6cf8b34159439194bf4/9a3af0cc",
+            "width": 350,
+            "height": 350
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7f31f3b02ee1e9c5555d116a95f46e81/1c3a32d8",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "institution": "Haverford College",
     "identity as past": "richard-freedman-150",
     "identity as speaker": "richard-freedman-150",
-    "bio": "Richard Freedman's research focuses on the music of Renaissance France and Italy—works by composers such as Josquin des Prez, Orlando di Lasso and Luca Marenzio. He is interested in the stories of stylistic and cultural change these works can tell. Freedman came to Haverford in 1986 from the University of Pennsylvania, where he earned an M.A. and Ph.D in the History and Theory of Music. His most recent book, Music in the Renaissance, was published by W.W. Norton in 2012, along with a companion Anthology for Music in the Renaissance. They are ideal for intermediate and advanced courses on the period, and take their place in Norton's new Western Music in Context series, under the editorial supervision of Walter Frisch. Sound recordings via iTunes, Amazon, and Naxos Music Library, and many readings, facsimiles, and other resources to accompany the book as well. The Lost Voices Project is an electronic forum for collaboration among scholars, students, and performers. It centers on a dozen sets of music books originally printed by the Parisian press of Nicholas Du Chemin, and features facsimiles, dynamic digital editions, tools for analysis and reconstruction. This work has been made possible by major grants from the National Endowment for the Humanities (Office of Digital Humanities and Scholarly Editions Program) the American Council of Learned Societies (Digital Innovations Fellowship), as well as ongoing support from Haverford College and from the Centre d'Etudes Superieures de la Renaissance in Tours, France, the leading French institute for the study of Early Modern culture. See the links posted below. Richard also serves as Digital and Multimedia Scholarship editor for the Journal of the American Musicological Society, and Director of the Tri-College Digital Humanities Initiative for Haverford, Bryn Mawr, and Swarthmore Colleges. \n",
+    "bio": "\n",
     "linked events": "dd-fall-2015-richard-freedman",
     "people groups": [
       "External"
@@ -5282,7 +5416,7 @@
     ],
     "slug formula": "richard-freedman",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T17:37:54.000Z",
+    "modified": "2021-03-29T21:18:12.000Z",
     "record_id": "recJCIMlM4X49LMkR"
   },
   {
@@ -5302,10 +5436,6 @@
       "recfOQ02Bm8JXYSoq",
       "recMYc6g5GoqQbxUS"
     ],
-    "linked research as participant": [
-      "recfOQ02Bm8JXYSoq",
-      "recMYc6g5GoqQbxUS"
-    ],
     "linked identities": [
       "rec1MzYanbAx0zIww"
     ],
@@ -5315,7 +5445,7 @@
     ],
     "slug formula": "carolina-robertson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:44:24.000Z",
     "record_id": "recJVzOIFyKGIFLWw"
   },
   {
@@ -5352,7 +5482,7 @@
     "department": "MITH",
     "institution": "University of Maryland",
     "identity as past": "amanda-visconti-454, amanda-visconti-456, amanda-visconti-457, amanda-visconti-455",
-    "bio": "Amanda Visconti was MITH's Winnemore Digital Dissertation Fellow for 2014-2015 and holds a Ph.D in Literature from the University of Maryland; she also holds a master's with a specialization in digital humanities HCI from the University of Michigan School of Information. Visconti recently completed a digital dissertation with an innovative format and methodology: scholarly blogging, design, coding, user-testing, and a journal article, rather than the traditional proto-monograph. She regularly blogs about her dissertation at [LiteratureGeek.com](www.literaturegeek.com/) and tweets [@Literature\\_Geek](www.twitter.com/Literature_Geek). An active member of the digital humanities community, Visconti's DH activity includes co-organizing a THATCamp (the inaugural THATCamp Games), receiving an ACH Microgrant for information visualization of knowledge flow in Digital Humanities Quarterly, and invited attendance at [Speaking in Code](codespeak.scholarslab.org) and [One Week | One Tool](oneweekonetool.org). She is also a professional web developer who has served in three past digital archives, web development, and usability roles at MITH. \n",
+    "bio": "\n",
     "email": "amandavisconti@gmail.com",
     "twitter": "Literature_Geek",
     "website": "http://www.LiteratureGeek.com",
@@ -5378,7 +5508,6 @@
       "recz8xfGfJfHMMVWb",
       "rec0WWWqxVT33BROf",
       "recr52q9xyxZMFkNl",
-      "reccHUsC5lZzbh3QQ",
       "rec3cSBrwKbuD3gPU",
       "rec2M5EtNxNX7opn2",
       "recPg0Yv0z0Gz21Ao",
@@ -5404,7 +5533,7 @@
     ],
     "slug formula": "amanda-visconti",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T22:24:55.000Z",
+    "modified": "2021-03-29T21:08:23.000Z",
     "record_id": "recJZoV1BNBC8352X"
   },
   {
@@ -5552,24 +5681,24 @@
     "last": "Ball",
     "headshot": [
       {
-        "id": "attGTQ7RW4jkvPVdZ",
-        "url": "https://dl.airtable.com/.attachments/5de642f33fd8660c9dfc842a851f43cf/8e1a15ac/IMG_6298.jpg",
-        "filename": "IMG_6298.jpg",
-        "size": 1355588,
+        "id": "attl3QdsAbjpgag5B",
+        "url": "https://dl.airtable.com/.attachments/3d671af87354b20fe44306a8da3ea9fa/5f9919c7/Cheryl_Ball.jpg",
+        "filename": "Cheryl_Ball.jpg",
+        "size": 39858,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/570ef9872127f192169ec952d225eaeb/b0565d43",
-            "width": 48,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/2ae70ec33916fc83ec9c8e006b540751/55f0ae6e",
+            "width": 34,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/3be4201b9157e1d08f6991d759d7cf6e/76c22f3f",
-            "width": 683,
-            "height": 512
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1473960e703c4fd21a5051276391c665/4960faf1",
+            "width": 280,
+            "height": 299
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/d9e7bd15b51d39052b01a82cf7e2f2fc/66d0841c",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c0e41a5fd52e8dcaeac38328a9b97c0f/eb38bd75",
             "width": 3000,
             "height": 3000
           }
@@ -5577,7 +5706,7 @@
       }
     ],
     "identity as speaker": "cheryl-ball-16",
-    "bio": "Cheryl Ball studies and teaches rhetorical activities and genres in digital media and publishing contexts, emphasizing how users learn to analyze and produce texts for professional purposes. She calls this apprenticeship philosophy an editorial pedagogy. Since 2006, she has been editor of the online, peer-reviewed, open-access journal [Kairos: Rhetoric, Technology, and Pedagogy](kairos.technorhetoric.net/), which exclusively publishes digital media scholarship and is read in 180 countries. The portfolio on [her website](ceball.com/) showcases her scholarship and teaching in rhetoric and composition, technical communication, and publishing studies, including articles in Classroom Discourse, Computers and Composition, C&C Online, Fibreculture, Convergence, Programmatic Perspectives, Technical Communication Quarterly, Writing & Pedagogy, and several visual rhetoric and multimodal textbooks. Her other books include a scholarly multimedia collection The New Work of Composing (co-edited with Debra Journet and Ryan Trauman) and the print-based [RAW: Reading and Writing New Media](www.bedfordstmartins.com/Catalog/product/writerdesigner-firstedition-arola) (co-edited with Jim Kalmbach). Her newest book, [Writer/Designer: A Guide to Making Multimodal Projects](www.bedfordstmartins.com/Catalog/product/writerdesigner-firstedition-arola) (with Kristin Arola and Jenny Sheppard), is available to order from Bedford/St. Martin's Press. \n",
+    "bio": "\n",
     "twitter": "s2ceball",
     "website": "http://ceball.com",
     "linked events": "dd-fall-2015-cheryl-ball",
@@ -5598,7 +5727,7 @@
     ],
     "slug formula": "cheryl-ball",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T21:12:23.000Z",
     "record_id": "recKVtxsux63uiBsb"
   },
   {
@@ -5607,24 +5736,24 @@
     "last": "Casey",
     "headshot": [
       {
-        "id": "att2uiqbk7BX9rFPo",
-        "url": "https://dl.airtable.com/.attachments/867e95b46e193c9967694fe973c81cc0/a7b2c8f6/IMG_5244.jpg",
-        "filename": "IMG_5244.jpg",
-        "size": 379719,
+        "id": "attc5h0Jo7QftQnai",
+        "url": "https://dl.airtable.com/.attachments/767033ce5874482d41816cc1fc547166/4fc0db94/Jim_Casey_--_Program_in_Humanistic_Studies",
+        "filename": "Jim_Casey_--_Program_in_Humanistic_Studies",
+        "size": 437207,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/f49df591945758ec72f36dc255a7af0d/7abcb6f1",
-            "width": 36,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ce53ab7fdd98cfbf71dcf18412a42326/24130a4f",
+            "width": 45,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/01bd82d36842ed89999bd4f933a1e50c/9c059bd5",
-            "width": 512,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4fa7fbbccb7fccd511277c8a8536e481/b28eb290",
+            "width": 640,
             "height": 512
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/6685fb46befe762e13e1fcff2e071db6/5c0fb5cd",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ffdbde9da23b130a6d32db96cfa457ce/7988adb8",
             "width": 3000,
             "height": 3000
           }
@@ -5633,7 +5762,7 @@
     ],
     "identity as past": "jim-casey-66",
     "identity as speaker": "jim-casey-66",
-    "bio": "Jim Casey is a PhD candidate in English at the University of Delaware with research interests in antebellum American print culture and the digital humanities. His dissertation charts the development of editorship and editorial practice in antebellum newspapers. He has served as the co-coordinator of the [Colored Conventions Project](coloredconventions.org). Read more about Jim on his website [here](jim-casey.com/). \n",
+    "bio": "\n",
     "twitter": "jimccasey1",
     "website": "http://english.udel.edu/people/Pages/bio.aspx?i=68",
     "linked events": "dd-fall-2016-jim-casey-sarah-patterson",
@@ -5653,7 +5782,7 @@
     ],
     "slug formula": "jim-casey",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:52:14.000Z",
     "record_id": "recKegJ9tjhYrcxQ8"
   },
   {
@@ -5933,9 +6062,6 @@
     "linked research as director": [
       "recM1pc4yfYO467i6"
     ],
-    "linked research as participant": [
-      "recM1pc4yfYO467i6"
-    ],
     "events as speaker": [
       "recIzJpBZ9gavulIQ"
     ],
@@ -5949,7 +6075,7 @@
     ],
     "slug formula": "silvia-mejia-estevez",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:40:11.000Z",
     "record_id": "recLK7TT5jEvCrHcc"
   },
   {
@@ -6082,24 +6208,24 @@
     "last": "Patterson",
     "headshot": [
       {
-        "id": "attTXIQkxs998yyYA",
-        "url": "https://dl.airtable.com/.attachments/182fd124b3f5862900fc03ea242d5ac3/2a1d5273/IMG_5244.jpg",
-        "filename": "IMG_5244.jpg",
-        "size": 379719,
+        "id": "attDZ3c4vhkkqRnKn",
+        "url": "https://dl.airtable.com/.attachments/1cbafc746e4c55b18bc4a30860b5a074/8153ab43/Sarah_Patterson__Department_of_English__UMass_Amherst",
+        "filename": "Sarah_Patterson__Department_of_English__UMass_Amherst",
+        "size": 14663,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/10d1960f6588e780d0d09d56694b55cc/8b2eec41",
-            "width": 36,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c24ba54b8c9e646ee200ac4418cbc38c/37c15326",
+            "width": 32,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/65894533e12f1bd9603be2be4a0099f9/00615d2d",
-            "width": 512,
-            "height": 512
+            "url": "https://dl.airtable.com/.attachmentThumbnails/e9a0125d6d61ae94c39633a386eda2c4/8c9a75ac",
+            "width": 239,
+            "height": 270
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/6c8b06a41d52183c2c90d3a7243a4a13/3298503f",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3a236e21d76401b5d3975c5a292e210b/75f94bb1",
             "width": 3000,
             "height": 3000
           }
@@ -6107,7 +6233,7 @@
       }
     ],
     "identity as past": "sarah-patterson-353",
-    "bio": "Sarah Patterson is a PhD candidate in English at the University of Delaware and a Co-coordinator with the Colored Conventions Project. She specializes in nineteenth-century African American (women's) literature, print culture and Black histo-digital studies in the digital humanities. Sarah's dissertation examines Black intellectual cultures and ideals, particularly through the lens of Black women's educational philosophies in literature. \n",
+    "bio": "\n",
     "twitter": "Sarah_Patterson",
     "website": "http://english.udel.edu/people/Pages/bio.aspx?i=232",
     "linked events": "dd-fall-2016-jim-casey-sarah-patterson",
@@ -6127,7 +6253,7 @@
     ],
     "slug formula": "sarah-patterson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:53:45.000Z",
     "record_id": "recLr7B8fBKdTaATy"
   },
   {
@@ -6204,10 +6330,14 @@
       "recpNMWLW3zZZf7uB"
     ],
     "linked research as participant": [
-      "recpNMWLW3zZZf7uB"
+      "recdP0I3lL0t3p6fa"
+    ],
+    "events as participant": [
+      "recFjqIITo06jPpqi"
     ],
     "linked identities": [
-      "recCpNLdJ49p1pGyN"
+      "recCpNLdJ49p1pGyN",
+      "recgYyPvfkkjOhC1n"
     ],
     "name": "Nadja Masura",
     "group type": [
@@ -6215,7 +6345,7 @@
     ],
     "slug formula": "nadja-masura",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:19:56.000Z",
     "record_id": "recLyI0Z11dGPzM2A"
   },
   {
@@ -6247,7 +6377,7 @@
     "first": "Nicole",
     "last": "Saylor",
     "identity as past": "nicole-saylor-405",
-    "bio": "Nicole supervises acquisitions, donor relations, processing of special collections, preservation projects, collections on folklife, ethnomusicology, and documentary media in the American Folklife Center (AFC) at the Library of Congress. She served as head of Digital Research & Publishing (DRP) at the University of Iowa Libraries from 2007-2012. DRP partners with scholars engaged in interdisciplinary digital research by assisting in the creation and delivery of unique digital content and supporting sustainable, open-access publishing. Nicole holds a B.A. in Mass Communication from Iowa State University and an M.A. in Library and Information Studies from the University of Wisconsin-Madison. \n",
+    "bio": "\n",
     "website": "https://works.bepress.com/nicole_saylor",
     "linked events": "allen-renear-letting-go-eliminativist-ontology-digital-world-means-data-curation",
     "people groups": [
@@ -6255,7 +6385,7 @@
     ],
     "new id": 593,
     "events as speaker": [
-      "recN8rEbEm4XHbBI3"
+      "recZe7nfBHsqSJUaK"
     ],
     "linked identities": [
       "recnNkMPL0whAJLg8"
@@ -6266,7 +6396,7 @@
     ],
     "slug formula": "nicole-saylor",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:22:46.000Z",
     "record_id": "recMacocH6hPkeIhB"
   },
   {
@@ -6355,7 +6485,7 @@
       }
     ],
     "identity as speaker": "elissa-frankle-148",
-    "bio": "Elissa Frankle is the Digital Projects Coordinator for Digital Learning and New Media at the United States Holocaust Memorial Museum, where she manages the in-museum digital experience and advocates for the inclusion of visitor voices in the work of the Museum. A longtime cheerleader for citizen history, Elissa served as the community manager for the Holocaust Museum's first citizen history project, _Children of the Lodz Ghetto: A Memorial Research Project_, and is the current project lead for _History Unfolded: US Newspapers and the Holocaust_, a major citizen history undertaking in support of the Museum's upcoming initiative on Americans and the Holocaust. Outside of work, Elissa serves as the Leadership Development and Awards chair for the [American Alliance of Museums' Education Professional Network](www.aam-us.orgresources/professional-networks/edcom) (EdCom), and organizes the DC chapter of [Museum Workers Speak](https://twitter.com/museumworkers), where she fights for paid internships and greater equity in museum labor practices throughout the field. \n",
+    "bio": "\n",
     "twitter": "museums365",
     "linked events": "making-history-with-the-masses-citizen-history-and-radical-trust-in-museums, dd-spring-2016-elissa-frankle",
     "people groups": [
@@ -6375,7 +6505,7 @@
     ],
     "slug formula": "elissa-frankle",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:02:49.000Z",
     "record_id": "recMdrB14Tx6023bc"
   },
   {
@@ -6482,10 +6612,6 @@
       "rec3yYzG8rHF8B5uh",
       "recWLCADyrArLAQxz"
     ],
-    "linked research as participant": [
-      "rec3yYzG8rHF8B5uh",
-      "recWLCADyrArLAQxz"
-    ],
     "events as speaker": [
       "recLoAnhLXZsOAtdU"
     ],
@@ -6500,7 +6626,7 @@
     ],
     "slug formula": "franklin-j-hildy",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:18:58.000Z",
     "record_id": "recN0QDZoEYnkryTE"
   },
   {
@@ -6746,7 +6872,6 @@
       "recVb1pvX7NxxQA2n"
     ],
     "linked research as participant": [
-      "recVb1pvX7NxxQA2n",
       "rec3CEHRtEQxYBrwQ",
       "recUn2Lhho9V4SWPB",
       "recVOeMu42YcKv17k",
@@ -6774,7 +6899,7 @@
     ],
     "slug formula": "dave-lester",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-25T14:01:10.000Z",
+    "modified": "2021-03-26T17:36:04.000Z",
     "record_id": "recNoH02qOawGRF5V"
   },
   {
@@ -6959,13 +7084,14 @@
     "linked research as participant": [
       "rec7ne8B1n18zBqHc",
       "reco4WfMBIkdJrr6B",
-      "recrtZefpfg8IaYa1"
+      "recdP0I3lL0t3p6fa"
     ],
     "events as speaker": [
       "recJ4rAR4yOIvE741"
     ],
     "events as participant": [
-      "recrweQ93zAzXug3v"
+      "recrweQ93zAzXug3v",
+      "recFjqIITo06jPpqi"
     ],
     "linked identities": [
       "recf9lwyVcg1dtHda",
@@ -6980,7 +7106,7 @@
     ],
     "slug formula": "tanya-clement",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T19:38:41.000Z",
+    "modified": "2021-03-29T14:20:09.000Z",
     "record_id": "recORl6yPgLBsS56A"
   },
   {
@@ -7089,9 +7215,6 @@
     "linked research as director": [
       "recX3C3eJkqkYBFs7"
     ],
-    "linked research as participant": [
-      "recX3C3eJkqkYBFs7"
-    ],
     "events as speaker": [
       "rec0WOR1cccncytUH"
     ],
@@ -7106,7 +7229,7 @@
     ],
     "slug formula": "avery-dame",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T17:18:32.000Z",
     "record_id": "recOzp6huBRRa9lgS"
   },
   {
@@ -7333,6 +7456,9 @@
     "slug": "andrew-matusko",
     "new id": 70,
     "wordpress id": 5620,
+    "linked research as participant": [
+      "recjjLQ6LPam2Jt1z"
+    ],
     "linked identities": [
       "recpOTYZUi28vgpNL"
     ],
@@ -7342,7 +7468,7 @@
     ],
     "slug formula": "andrew-matusko",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T16:41:42.000Z",
     "record_id": "recPpzk1BqGBBJNR3"
   },
   {
@@ -7411,7 +7537,8 @@
     "wordpress id": 5619,
     "linked research as participant": [
       "recdP0I3lL0t3p6fa",
-      "rec7ne8B1n18zBqHc"
+      "rec7ne8B1n18zBqHc",
+      "recLi5BnFcqsxlObS"
     ],
     "linked identities": [
       "recLRUIlYFqqEyETb"
@@ -7422,7 +7549,7 @@
     ],
     "slug formula": "jarom-mcdonald",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:24:15.000Z",
     "record_id": "recQfUehku3w1pvae"
   },
   {
@@ -7525,9 +7652,6 @@
     "linked research as director": [
       "recDeyQgtloyhYO7V"
     ],
-    "linked research as participant": [
-      "recDeyQgtloyhYO7V"
-    ],
     "linked identities": [
       "recqNp1vK7e4XAcgG"
     ],
@@ -7537,7 +7661,7 @@
     ],
     "slug formula": "jo-paoletti",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T15:04:42.000Z",
     "record_id": "recRh2MIJvzs1blVj"
   },
   {
@@ -7701,9 +7825,6 @@
     "linked research as director": [
       "rec24Mm7q8z3PoIss"
     ],
-    "linked research as participant": [
-      "rec24Mm7q8z3PoIss"
-    ],
     "events as speaker": [
       "recQ80sOS7tkioT9b"
     ],
@@ -7717,7 +7838,7 @@
     ],
     "slug formula": "regina-harrison",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:43:09.000Z",
     "record_id": "recSD6BHX6pYgbatB"
   },
   {
@@ -7742,9 +7863,8 @@
     ],
     "linked research as participant": [
       "rec7ne8B1n18zBqHc",
-      "recZVFA8MiCbGa9SJ",
-      "recaG1qeqPK4LPM07",
-      "recLi5BnFcqsxlObS"
+      "recxFjcbEiovMs7pb",
+      "recfOQ02Bm8JXYSoq"
     ],
     "events as speaker": [
       "recMeiNpPfY0qwq97"
@@ -7760,7 +7880,7 @@
     ],
     "slug formula": "susan-schreibman",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T17:28:12.000Z",
     "record_id": "recSUbzL5y3vwPYzC"
   },
   {
@@ -7851,7 +7971,7 @@
     "department": "MITH, English Department",
     "institution": "University of Maryland",
     "identity as past": "porter-olsen-334, porter-olsen-335, porter-olsen-336, porter-olsen-337",
-    "bio": "Porter Olsen currently serves as a research faculty member at the Maryland Institute for Technology in the Humanities (MITH) where he is the Community Lead on the [BitCurator project](mith.umd.edu/research/bitcurator/), a Mellon funded project to bring digital forensics tools and techniques to collecting institutions working with born-digital material. Simultaneously, he is a Ph.D. candidate in the English Department at the University of Maryland studying digital humanities and postcolonial literature. His dissertation, titled \"Hacking the Empire: Reading the Digital in Twentieth and Twenty-First Century Postcolonial Literature,\" studies hacker culture in the global south and how the hacker ethos is represented in later 20th and early 21st century postcolonial fiction under the direction of Dr. Matthew Kirschenbaum. Porter teaches classes on electronic literature and globalization and has been recognized for his contributions to the growing online teaching program in the university's English department. Before returning to graduate school, Porter worked as product manager on the United Linux initiative, an effort to create a single Linux platform shared among distributors from Germany, Brazil, the U.S., and Japan. \n",
+    "bio": "\n",
     "email": "polsen@umd.edu",
     "twitter": "pwolsen",
     "website": "https://porterolsen.wordpress.com",
@@ -7871,7 +7991,8 @@
       "recNeJs9no3H5InHB"
     ],
     "events as speaker": [
-      "recnVa4A21HKPr3Ou"
+      "recnVa4A21HKPr3Ou",
+      "recVHsPKTJbRHztr1"
     ],
     "linked identities": [
       "recxlOC3BLl7WFYtr",
@@ -7886,7 +8007,7 @@
     ],
     "slug formula": "porter-olsen",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:48:16.000Z",
     "record_id": "recSctBaXeWtMGsl8"
   },
   {
@@ -7952,24 +8073,24 @@
     "last": "Rambsy",
     "headshot": [
       {
-        "id": "attTxSWbsY39Rdef5",
-        "url": "https://dl.airtable.com/.attachments/db52ae76b07b2c7ff79fe6e205c0a091/68943dcd/IMG_5328.jpg",
-        "filename": "IMG_5328.jpg",
-        "size": 418853,
+        "id": "att5NeaNFcj0pLB1v",
+        "url": "https://dl.airtable.com/.attachments/ae7c35aa725f6a5868a1005a0a2facf2/ab1bc934/1-min_cropped.jpg",
+        "filename": "1-min_cropped.jpg",
+        "size": 297358,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/bf42c735221c80d47ee6fb0f38a79d4e/39ea1ee3",
-            "width": 36,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/b228b1283d4e4b033ab14917184ba8de/e3760e02",
+            "width": 35,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/1d6b485294156a3cfef03d91aa8c6837/45165447",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/b46a213fa4bfafeb501943c1c361e26f/d3e71aef",
             "width": 512,
-            "height": 512
+            "height": 521
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/7caa97fa9f003597c67c1524f1ac2425/f7501aa0",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0d5df966ca54c0c422dd1dfa4d94ca1f/38754e61",
             "width": 3000,
             "height": 3000
           }
@@ -7978,7 +8099,7 @@
     ],
     "identity as past": "kenton-rambsy-374",
     "identity as speaker": "kenton-rambsy-374",
-    "bio": "Kenton Rambsy received his PhD (May 2015) and Masters in English (May 2012) from the University of Kansas. He is a 2010 Magna Cum-Laude, Phi Beta Kappa graduate of Morehouse College. He finished Morehouse as the top ranking scholar in the English department and received the distinction of being named the 2010 William Pickens Scholar. In 2008, he received a UNCF/Mellon-Mays Fellowship, and in 2009, he received Schomburg-Mellon Humanities Fellowship. Having served as a research assistant at both Vanderbilt University's Bishop Joseph Johnson Black Cultural Center in Nashville, Tennessee and Auburn Avenue Research Library on African American Culture and History in Atlanta, Georgia. From 2012- 2014, Kenton served as the Program Academic Committee chair for the Association for the Study of Life and African American History (ASALH). Kenton specializes in African American short stories, social geographies, and digital humanities) text-mining, topic modeling, and mapping softwares). \n",
+    "bio": "\n",
     "twitter": "krambsy",
     "website": "https://uta.edu/profiles/kenton%20-rambsy",
     "linked events": "dd-fall-2016-dana-williams-kenton-rambsy",
@@ -7998,7 +8119,7 @@
     ],
     "slug formula": "kenton-rambsy",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T04:07:17.000Z",
     "record_id": "recSmBF0lCtABOWC2"
   },
   {
@@ -8047,9 +8168,6 @@
     "linked research as director": [
       "recHoxcDv1B4Oq5tC"
     ],
-    "linked research as participant": [
-      "recHoxcDv1B4Oq5tC"
-    ],
     "linked identities": [
       "reckWXD51AxmWSVRj"
     ],
@@ -8059,7 +8177,7 @@
     ],
     "slug formula": "hester-baer",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T17:20:38.000Z",
     "record_id": "recStUtIUAlbf3xot"
   },
   {
@@ -8093,7 +8211,7 @@
       }
     ],
     "identity as speaker": "andrew-johnston-211",
-    "bio": "Lori Emerson is Assistant Professor in the Department of English at the University of Colorado at Boulder. She writes on digital literature, experimental American and Canadian writing from the 20th and 21st century, history of computing, and media theory. You can find some of her published essays [here](loriemerson.net/curriculum-vitae/). In addition to directing the [Media Archaeology Lab](mediaarchaeologylab.com/) she has two forthcoming book projects currently in press. The first is a monograph, [ReadingWriting Interfaces: From the Digital to the Bookbound](loriemerson.net/2012/09/07/reading-writing-interfaces-book-project-description/) (forthcoming from University of Minnesota Press, Spring 2014). The second is _[The Johns Hopkins Guide to Digital Humanities](loriemerson.net/2011/08/10/johns-hopkins-guide-to-digital-humanities/)_, co-edited with Marie-Laure Ryan and Benjamin Robertson (forthcoming 2014). Emerson is also co-editor, with Derek Beaulieu, of _[Writing Surfaces: The Selected Fiction of John Riddell](www.wlupress.wlu.ca/Catalog/beaulieu-emerson.shtml)_ (Wilfred Laurier University Press, 2013) and co-editor, with Darren Wershler, of _[The Alphabet Game: a bpNichol Reader](www.chbooks.com/catalogue/alphabet-game)_ (Coach House Books 2007). \n",
+    "bio": "\n",
     "linked events": "dd-spring-2014-lori-emerson",
     "people groups": [
       "External"
@@ -8111,7 +8229,7 @@
     ],
     "slug formula": "lori-emerson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:33:46.000Z",
     "record_id": "recT8mG0u7h2IlQel"
   },
   {
@@ -8326,7 +8444,6 @@
     ],
     "linked research as participant": [
       "recwm5xrK8ZAZBkoh",
-      "recNeJs9no3H5InHB",
       "rec9lAJZtYUokIwy6",
       "recr52q9xyxZMFkNl",
       "recUrcEcMBropcb0U",
@@ -8337,7 +8454,8 @@
     ],
     "events as speaker": [
       "receB4kvAm4fb2Czh",
-      "rec9GpMSrGn92HvQf"
+      "rec9GpMSrGn92HvQf",
+      "recVHsPKTJbRHztr1"
     ],
     "events as participant": [
       "recLzu5qlGNcIqugP"
@@ -8356,7 +8474,7 @@
     ],
     "slug formula": "ed-summers",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-03-10T17:07:21.000Z",
+    "modified": "2021-03-29T20:48:12.000Z",
     "record_id": "recTjXRwnbTyBl6aV"
   },
   {
@@ -8628,12 +8746,10 @@
     ],
     "linked research as participant": [
       "rec1Upe3EQkJTqQdC",
-      "recZMMK1QHP13BZPH",
       "recarPm7PhkOBSnB6",
       "recM1pc4yfYO467i6",
       "recq64FfJY5vGqecq",
-      "reco4WfMBIkdJrr6B",
-      "recRNg14OM8olZUPW"
+      "reco4WfMBIkdJrr6B"
     ],
     "events as speaker": [
       "recIcOywOGtSv3zk4"
@@ -8650,7 +8766,7 @@
     ],
     "slug formula": "martha-nell-smith",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T17:16:29.000Z",
+    "modified": "2021-03-28T06:05:41.000Z",
     "record_id": "recUXFoOF27p9CdRy"
   },
   {
@@ -8843,13 +8959,11 @@
       "rec5D6Or1Z5awGVXL"
     ],
     "linked research as participant": [
-      "recd0qqILDo4rx1KB",
       "rec3CEHRtEQxYBrwQ",
       "rec3yYzG8rHF8B5uh",
       "rec9U4W4pWBDft0om",
       "recumm4ZSjbrlJMxs",
       "recr52q9xyxZMFkNl",
-      "rec3cSBrwKbuD3gPU",
       "rec2M5EtNxNX7opn2",
       "recNFFgEpr2l6Kaxy",
       "recZ0HGWJHKE7lAAc",
@@ -8874,7 +8988,7 @@
     ],
     "slug formula": "travis-brown",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T22:46:03.000Z",
+    "modified": "2021-03-26T17:33:52.000Z",
     "record_id": "recVCVxnb9vR2O3VU"
   },
   {
@@ -9014,7 +9128,7 @@
     ],
     "identity as past": "james-english-123",
     "identity as speaker": "james-english-123",
-    "bio": "Jim English is John Welsh Centennial Professor of English, director of the Penn Humanities Forum, and founding director of the Price Lab for Digital Humanities at the University of Pennsylvania. His most recent books are _The Economy of Prestige: Prizes, Awards, and the Circulation of Cultural Value_ (2005) and _The Global Future of English Studies_ (2012). A past editor of _Postmodern Culture_, he co-edited with Rita Felski a special 2010 issue of _New Literary History_ on \"New Sociologies of Literature.\" \n",
+    "bio": "\n",
     "website": "http://english.upenn.edu/people/james-english",
     "linked events": "dd-fall-2015-james-english",
     "people groups": [
@@ -9033,7 +9147,7 @@
     ],
     "slug formula": "james-english",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T21:14:35.000Z",
     "record_id": "recVyESDrZkEOJCFk"
   },
   {
@@ -9164,22 +9278,9 @@
       "recxFjcbEiovMs7pb"
     ],
     "linked research as participant": [
-      "rec1dMJqa7mO2QtTB",
-      "recxoNXlpK0ltKA4o",
-      "reclKJOgd0f3iNOhH",
       "recM56LohWcVdTbJs",
-      "recIcdjvGCGJJYfZ5",
-      "recaAGVgmr9tfkNwE",
-      "recwfTazsRu1VZDKJ",
-      "recz8xfGfJfHMMVWb",
       "rec4AJb2rqjd3wGfN",
-      "recUn2Lhho9V4SWPB",
-      "reco4WfMBIkdJrr6B",
-      "recOhObajK8dyxTUU",
-      "recvBNq9tcBGd7yLj",
-      "reciFqPy5D8AMIGCO",
-      "recAz3KE1IckQsdTg",
-      "recxFjcbEiovMs7pb"
+      "rechMqJ7VykqPDG99"
     ],
     "events as speaker": [
       "recxQGg49lDC99BUd",
@@ -9220,7 +9321,7 @@
     ],
     "slug formula": "matthew-kirschenbaum",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T21:59:45.000Z",
+    "modified": "2021-03-26T19:00:08.000Z",
     "record_id": "recX3NdlJAJ9f4mHH"
   },
   {
@@ -9254,7 +9355,7 @@
       }
     ],
     "identity as past": "shannon-mattern-289",
-    "bio": "Shannon Mattern is an Associate Professor in the School of Media Studies at The New School. Her research and teaching address relationships between the forms and materialities of media and the spaces (architectural, urban, conceptual) they create and inhabit. She writes about libraries and archives, media companies' headquarters, place branding, public design projects, urban media art, media acoustics, media infrastructures, and material texts. She's the author of _The New Downtown Library: Designing with Communities_ (2007) and _Deep Mapping the Media City_ (2015), both published by the University of Minnesota Press. You can find her at [wordsinspace.net](wordsinspace.net/). \n",
+    "bio": "\n",
     "twitter": "shannonmattern",
     "website": "https://wordsinspace.net",
     "linked events": "dd_spring-2015-shannon-mattern",
@@ -9274,7 +9375,7 @@
     ],
     "slug formula": "shannon-mattern",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:49:07.000Z",
     "record_id": "recXGou0HlVjKsDoy"
   },
   {
@@ -9317,7 +9418,8 @@
     "new id": 246,
     "wordpress id": 21058,
     "linked research as participant": [
-      "rechMqJ7VykqPDG99"
+      "rechMqJ7VykqPDG99",
+      "recjiQMxXWTQ3vA5q"
     ],
     "events as speaker": [
       "reckdCffMxt5ue5Xs"
@@ -9332,7 +9434,7 @@
     ],
     "slug formula": "daniel-pitti",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T16:38:54.000Z",
     "record_id": "recXdcR1Zii9wmAfi"
   },
   {
@@ -9397,7 +9499,7 @@
     "institution": "Georgetown University",
     "identity as past": "randy-bass-20",
     "identity as speaker": "randy-bass-20",
-    "bio": "RANDY BASS is Assistant Provost for Teaching and Learning Initiatives at Georgetown University, and Executive Director of Georgetown’s Center for New Designs in Learning and Scholarship (CNDLS), a campus-wide center supporting faculty work in new learning and research environments. He has been working with a number of pedagogy and technology projects since 1986, including serving as Director and Principal Investigator of the Visible Knowledge Project, a five-year scholarship of teaching and learning project involving 70 faculty on 21 university and college campuses. He is also a Consulting Scholar for the Carnegie Foundation for the Advancment of Teaching, where he served, in 1998-99, as a Pew Scholar and Carnegie Fellow. In 1999, he won the Educause Medal for outstanding achievement in technology and undergraduate education. Bass is Associate Professor of English and a member of the American Studies Committee at Georgetown University. He is the author of Border Texts: Cultural Readings for Contemporary Writers (Houghton Mifflin, 1998), and with Bret Eynon, co-editor of Intentional Media: The Crossroads Conversations on Teaching and Technology in the American Cultural History Classroom (double issue of Works & Days). He is currently, also with Bret Eynon, co-editing a volume of essays and findings from the Visible Knowledge Project, entitled, The Difference that Inquiry Makes.\n",
+    "bio": "\n",
     "linked events": "visible-evidence-of-invisible-learning",
     "people groups": [
       "External"
@@ -9413,7 +9515,8 @@
     ],
     "linked identities": [
       "recSsRimOZ6p55H9z",
-      "recudguj7bP4iwevL"
+      "recudguj7bP4iwevL",
+      "recq3vFtAeqprFUQf"
     ],
     "name": "Randy Bass",
     "group type": [
@@ -9421,7 +9524,7 @@
     ],
     "slug formula": "randy-bass",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:49:11.000Z",
     "record_id": "recXiQruWFOq1lTxS"
   },
   {
@@ -9440,11 +9543,13 @@
     "linked research as director": [
       "recapWh6QMo7LnpA8"
     ],
-    "linked research as participant": [
-      "recapWh6QMo7LnpA8"
+    "events as participant": [
+      "recXDccjOkoAfC9M8",
+      "recFjqIITo06jPpqi"
     ],
     "linked identities": [
-      "recHiXebamnGypNlg"
+      "recHiXebamnGypNlg",
+      "receecltXsq2neeke"
     ],
     "name": "Carol Burbank",
     "group type": [
@@ -9452,7 +9557,7 @@
     ],
     "slug formula": "carol-burbank",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:38:39.000Z",
     "record_id": "recXp58glXQcxfu0D"
   },
   {
@@ -9563,21 +9668,15 @@
     ],
     "linked research as participant": [
       "recfpgf5Qz4kjZFfQ",
-      "recg6jOlhWPZVbLyV",
       "recsYbAx3cuzDgm0x",
-      "rec0WWWqxVT33BROf",
       "reckogubj1KGcO5JD",
-      "receM6Kq67QWMXvrS",
       "recr52q9xyxZMFkNl",
       "recIzpMSRd6JZvz3K",
-      "recaijHITsZ5Lfh6D",
       "rec4ZB3QtnwIq2JoZ",
-      "recrnEUJqAouyhTkF",
-      "recrrs5FMvQYvAZk3",
       "rec3cSBrwKbuD3gPU",
-      "rec2M5EtNxNX7opn2",
       "recPg0Yv0z0Gz21Ao",
-      "recS9VbejZ4CnjcZg"
+      "recS9VbejZ4CnjcZg",
+      "receM6Kq67QWMXvrS"
     ],
     "events as speaker": [
       "rec0RrwkKlXOmANYd",
@@ -9601,7 +9700,7 @@
     ],
     "slug formula": "jennifer-guiliano",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T21:07:53.000Z",
+    "modified": "2021-03-26T18:00:34.000Z",
     "record_id": "recXzKVuXIuyz6nXt"
   },
   {
@@ -9635,7 +9734,7 @@
       }
     ],
     "title": "Associate Professor of Women’s Studies + MITH Affiliate Associate Professor ",
-    "bio": "Alexis Lothian is a interdisciplinary scholar of queer and feminist media and cultural studies with a focus on speculative fiction, digital media, and online fandom. She lives in the Washington, DC area and is a tenure track Assistant Professor of [Women's Studies](wmst.umd.edu/) at University of Maryland College Park, where she teaches in the [LGBT Studies](lgbts.umd.edu/) program and the undergraduate honors program in [Design | Culture and Creativity.](dcc.umd.edu/) Lothian is presently developing a book manuscript based on her PhD dissertation, \"Deviant Futures: Speculative Fiction and Queer Time,\" while also working on what will become a second monograph on critical and social justice-oriented fan cultures and participating in collaborative work as part of the TransformDH collective. Read more on her [research page](www.queergeektheory.orgwordpress/dissertatio/). Lothian is also a participant in feminist science fiction and media fandom, with a specific interest in the ways fan communities engage in critical theorizing and activism (for example, through [online discussion](journal.transformativeworks.orgindex.php/twc/article/view/172/119) and [fan video](lstein.wordpress.com/2010/06/03/participatory-cultures-and-vidding-a-virtual-rendition-of-our-digital-media-and-learning-2010-workshop-2/)). She uses some of these forms in [her own scholarly work](queergeektheory.orgvidding), in addition to standard academic practices. \n",
+    "bio": "\n",
     "bio external": "wmst.umd.edu/people/core-faculty/alexis-lothian",
     "email": "alothian@umd.edu",
     "twitter": "alothian",
@@ -9666,7 +9765,7 @@
     ],
     "slug formula": "alexis-lothian",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-03-29T20:43:07.000Z",
     "record_id": "recXzMUxiiT5EYra5"
   },
   {
@@ -9786,7 +9885,7 @@
     "department": "MITH",
     "institution": "University of Maryland",
     "identity as past": "purdom-lindblad-266",
-    "bio": "Purdom Lindblad is the Assistant Director of Innovation and Learning at MITH. She coordinates MITH’s growing portfolio of courses and instructional programs and is a member of the AADHum (Synergies Among Digital Humanities and African American History and Culture) team.\nPurdom has an MA in American Studies from Michigan State University and an MS in Information Science from the [School of Information](https://www.si.umich.edu/), University of Michigan. Interested in digital humanities since graduate school, Purdom has worked at Michigan State University’s [Matrix](http://www2.matrix.msu.edu/), [Virginia Tech Libraries](http://www.lib.vt.edu/), and the [Scholars’ Lab ](http://scholarslab.org/)at the University of Virginia Library.\nPurdom is broadly interested in the implicit and explicit effort that digital humanities can do for social, cultural, and environmental justice. Applying principles from Feminist Interface Design, Purdom and her Scholars’ Lab colleague [Jeremy Boggs](http://scholarslab.org/people/jeremy-boggs/), explore how the process of feature development and public documentation shape the experience of users and render the theoretical underpinnings of digital work more accessible. Recent publications include [Praxis](https://digitalpedagogy.commons.mla.org/keywords/praxis/), a keyword in the MLA Commons Digital Pedagogy in the Humanities: Concepts, Models, and Experiments written with [Bethany Nowviskie](http://nowviskie.org/) and Jeremy Boggs as well as a chapter in [Making Humanities Matter](https://github.com/jentery/mhm), edited by Jentery Sayers.\n",
+    "bio": "\n",
     "email": "purdom@umd.edu",
     "twitter": "Purdom_L",
     "research interests": "Advocacy and justice-based digital scholarship; Archives and Archival Processes; Environmental Humanities",
@@ -9814,7 +9913,8 @@
       "recLzu5qlGNcIqugP"
     ],
     "linked identities": [
-      "rec9OYnoWwOiA0yyv"
+      "rec9OYnoWwOiA0yyv",
+      "recLH3AvuXfqMkpVK"
     ],
     "identities as current": [
       "rec9OYnoWwOiA0yyv"
@@ -9826,7 +9926,7 @@
     ],
     "slug formula": "purdom-lindblad",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-03-30T03:41:50.000Z",
     "record_id": "recYD3T6y7WOBN06R"
   },
   {
@@ -9921,6 +10021,9 @@
     "twitter": "lamppostdesign",
     "website": "https://kirstenkeister.com",
     "research interests": "Data and information visualization; Data gathering, analysis and statistics; User Interface (UI) and User Experience (UX) design",
+    "linked featured research": [
+      "recaijHITsZ5Lfh6D"
+    ],
     "people groups": [
       "Staff"
     ],
@@ -9969,7 +10072,7 @@
     ],
     "slug formula": "kirsten-keister",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-03-10T22:24:50.000Z",
+    "modified": "2021-03-26T17:21:04.000Z",
     "record_id": "recYWeU8tULlqVWzj"
   },
   {
@@ -10012,7 +10115,11 @@
     "wordpress id": 5469,
     "linked research as participant": [
       "rec7ne8B1n18zBqHc",
-      "recZVFA8MiCbGa9SJ"
+      "recZVFA8MiCbGa9SJ",
+      "recxFjcbEiovMs7pb",
+      "recfOQ02Bm8JXYSoq",
+      "recLi5BnFcqsxlObS",
+      "recaG1qeqPK4LPM07"
     ],
     "linked identities": [
       "recdrDSx0MrMZPF5B"
@@ -10023,7 +10130,7 @@
     ],
     "slug formula": "amit-kumar",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T17:28:15.000Z",
     "record_id": "recZ4uSUFdXtuFwtj"
   },
   {
@@ -10412,9 +10519,6 @@
     "linked research as director": [
       "recumm4ZSjbrlJMxs"
     ],
-    "linked research as participant": [
-      "recumm4ZSjbrlJMxs"
-    ],
     "events as speaker": [
       "recfRv1ugV0QINaci"
     ],
@@ -10429,7 +10533,7 @@
     ],
     "slug formula": "hayim-lapin",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T17:36:09.000Z",
     "record_id": "recZrYvzobSvAFHFS"
   },
   {
@@ -10735,7 +10839,9 @@
       "recVOeMu42YcKv17k",
       "recCqMxTdRsZ0Ovb1",
       "rec8mO5wbkeBJxI6l",
-      "recR5msoTzAWX1BEg"
+      "recR5msoTzAWX1BEg",
+      "rec4ZB3QtnwIq2JoZ",
+      "recjjLQ6LPam2Jt1z"
     ],
     "events as participant": [
       "recfwJAgqvzDbBsja"
@@ -10749,7 +10855,7 @@
     ],
     "slug formula": "gregory-lord",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-25T14:08:37.000Z",
+    "modified": "2021-03-28T16:41:21.000Z",
     "record_id": "recafKSSV4qtSyxTW"
   },
   {
@@ -10825,9 +10931,6 @@
     "linked research as director": [
       "recNFFgEpr2l6Kaxy"
     ],
-    "linked research as participant": [
-      "recNFFgEpr2l6Kaxy"
-    ],
     "events as speaker": [
       "recDg8kN5iBnxMJvB"
     ],
@@ -10843,7 +10946,7 @@
     ],
     "slug formula": "lisa-marie-antonille-rhody",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T17:33:36.000Z",
     "record_id": "recbKPTtO8hbF5UOR"
   },
   {
@@ -10950,10 +11053,18 @@
     "new id": 76,
     "wordpress id": 5643,
     "linked research as participant": [
-      "recdP0I3lL0t3p6fa"
+      "recdP0I3lL0t3p6fa",
+      "recfOQ02Bm8JXYSoq"
+    ],
+    "events as speaker": [
+      "recpOSRSO7MulHJfp"
+    ],
+    "events as participant": [
+      "recXDccjOkoAfC9M8"
     ],
     "linked identities": [
-      "rec5ee4y7rQQhuTJq"
+      "rec5ee4y7rQQhuTJq",
+      "recJz7sWRLGdMFQas"
     ],
     "name": "Thomas Stanley",
     "group type": [
@@ -10961,7 +11072,7 @@
     ],
     "slug formula": "thomas-stanley",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:16:55.000Z",
     "record_id": "recblO4FctBvByfqP"
   },
   {
@@ -11059,9 +11170,6 @@
       "recUrcEcMBropcb0U",
       "recQrBgXNsDrlSJHt",
       "reclnYy3JRImc7fdJ",
-      "recvR6EgsUHNU7q27",
-      "recybLltnlNUrjFIw",
-      "recjiQMxXWTQ3vA5q",
       "recZWQryQONobmxcK",
       "recS9VbejZ4CnjcZg"
     ],
@@ -11086,7 +11194,7 @@
     ],
     "slug formula": "stephanie-sapienza",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-03-10T21:08:30.000Z",
+    "modified": "2021-03-26T17:14:25.000Z",
     "record_id": "recbuhPlvVzwsxw9O"
   },
   {
@@ -11320,9 +11428,6 @@
     "linked research as director": [
       "rec1Upe3EQkJTqQdC"
     ],
-    "linked research as participant": [
-      "rec1Upe3EQkJTqQdC"
-    ],
     "linked identities": [
       "rec5OvurE41bGrw2a"
     ],
@@ -11332,7 +11437,7 @@
     ],
     "slug formula": "rosemarie-garland-thomson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T21:04:01.000Z",
     "record_id": "recdQrfkzrjE2S9E7"
   },
   {
@@ -11354,8 +11459,7 @@
       "recCqMxTdRsZ0Ovb1"
     ],
     "linked research as participant": [
-      "recbOh33jvyfNelG4",
-      "recCqMxTdRsZ0Ovb1"
+      "recbOh33jvyfNelG4"
     ],
     "events as speaker": [
       "recV1ZauuKNt6spZz"
@@ -11374,7 +11478,7 @@
     ],
     "slug formula": "angel-david-nieves",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:20:43.000Z",
     "record_id": "recdRL3JtcItJRH2F"
   },
   {
@@ -11426,7 +11530,8 @@
     "new id": 71,
     "wordpress id": 5638,
     "linked research as participant": [
-      "rec3cSBrwKbuD3gPU"
+      "rec3cSBrwKbuD3gPU",
+      "recjjLQ6LPam2Jt1z"
     ],
     "linked identities": [
       "recJi1ON6HYdtCkR4"
@@ -11437,7 +11542,7 @@
     ],
     "slug formula": "abhishta-paranjpe",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T16:41:35.000Z",
     "record_id": "recdTpyngbdZEDFKa"
   },
   {
@@ -11767,7 +11872,7 @@
     "department": "MITH",
     "institution": "University of Maryland",
     "identity as past": "raffaele-viglianti-453",
-    "bio": "Raffaele (Raff) Viglianti is a Research Programmer at MITH. He holds a Ph.D. in Digital Musicology from the Department of Digital Humanities at King’s College London, where he also contributed to several major digitization and text encoding projects.\nRaff's research is grounded in digital humanities and textual scholarship, where “text” includes musical notation. More specifically, he seeks to advance textual scholarship by finding new and efficient practices to coherently and digitally model and edit (publish, or make available) text and music notation sources as digital scholarly resources. In adopting and developing new research methods, he deliberately takes a multicultural perspective by engaging with multilingual content, facing the diverse realities of the constraints in accessing and creating digital scholarly content, and by adopting a global approach to teaching and learning.\nRaff is currently an elected member of the Text Encoding Initiative technical council and the Technical Editor of the Scholarly Editing journal.\n",
+    "bio": "\n",
     "email": "rviglian@umd.edu",
     "twitter": "raffazizzi",
     "website": "http://itisnotsound.com",
@@ -11792,17 +11897,12 @@
       "recCG2QMT3eMTL4AW"
     ],
     "linked research as participant": [
-      "recl98pPdGQLS1hd7",
-      "reczC91aCKRdvOX5X",
       "recwm5xrK8ZAZBkoh",
-      "rec0h0YZKLWceat0v",
-      "recwlpdOziZpiW0cL",
-      "recRogsRtxYXZGLaa",
-      "recCG2QMT3eMTL4AW",
       "reclnYy3JRImc7fdJ",
       "recZWQryQONobmxcK",
       "recZ0HGWJHKE7lAAc",
-      "recS9VbejZ4CnjcZg"
+      "recS9VbejZ4CnjcZg",
+      "rec0XdpP6yArEsqD1"
     ],
     "events as speaker": [
       "recMSW6GtHm9OzUWh"
@@ -11811,7 +11911,9 @@
       "recoFfFg1889dnPEm"
     ],
     "linked identities": [
-      "rec0uL9EqWCSL4GUD"
+      "rec0uL9EqWCSL4GUD",
+      "recrwzoyCj3uW8IcV",
+      "recm8gopGgQx4VnBe"
     ],
     "identities as current": [
       "rec0uL9EqWCSL4GUD"
@@ -11823,7 +11925,7 @@
     ],
     "slug formula": "raff-viglianti",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-03-10T21:08:18.000Z",
+    "modified": "2021-03-29T21:03:19.000Z",
     "record_id": "receBYteMvJ9LDupJ"
   },
   {
@@ -11947,9 +12049,6 @@
     "linked research as director": [
       "rec1Jl6CFwBcYeHxq"
     ],
-    "linked research as participant": [
-      "rec1Jl6CFwBcYeHxq"
-    ],
     "linked identities": [
       "rec60GI7WxDOAffFu",
       "rec08PTXBJ13uLscd"
@@ -11960,7 +12059,7 @@
     ],
     "slug formula": "maria-lekic",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T05:59:24.000Z",
     "record_id": "receT24qxQ8vOhFaw"
   },
   {
@@ -12171,9 +12270,6 @@
     "linked research as director": [
       "recgZ2UUXa9IUPXuX"
     ],
-    "linked research as participant": [
-      "recgZ2UUXa9IUPXuX"
-    ],
     "events as speaker": [
       "recM5RCR7CWCW0j0o"
     ],
@@ -12186,7 +12282,7 @@
     ],
     "slug formula": "michele-mason",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T16:37:21.000Z",
     "record_id": "recfMM11T4uUwMDzU"
   },
   {
@@ -12412,8 +12508,34 @@
     "id": "dana-a-williams",
     "first": "Dana A.",
     "last": "Williams",
+    "headshot": [
+      {
+        "id": "attWEf7VXLq0HM5aW",
+        "url": "https://dl.airtable.com/.attachments/1f348c645efc63e5a55a9628d7e8f4bf/9668d3f8/DanaWilliams.jpg",
+        "filename": "Dana Williams.jpg",
+        "size": 67580,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a48d366476bc5fdcef6e256646c28968/0088ebb1",
+            "width": 24,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/8be134f32e80e67cc9f4a7b4b896adde/b78b5244",
+            "width": 512,
+            "height": 767
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/fbf9a3d7e86e39c285fc76aa4d2b2bcc/cd55782b",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "identity as speaker": "dana-a-williams-468",
-    "bio": "A specialist in contemporary African American Literature, Dana A. Williams earned her B.A. in English from Grambling State University in Grambling, LA in 1993, her M.A. in 1995 from Howard University, and her Ph.D. in African American Literature from Howard University in 1998. Before returning to Howard University as a faculty member in 2003, Dr. Williams held a Ford Foundation Post-doc at Northwestern University in Evanston, IL, and taught at Louisiana State University in Baton Rouge for four years. In 2008-09, she was a faculty fellow at the John Hope Franklin Humanities Institute at Duke University, and she assumed the chairmanship of the Department in 2009. Along with Sandra Shannon, she co-edited _August Wilson and Black Aesthetics_, edited _African American Humor, Irony, and Satire: Ishmael Reed, Satirically Speaking, Conversations with Leon Forrest_, and _Contemporary African American Fiction: New Critical Essays_. She is also the author of _Leon Forrest, In the Light of Likeness---Transformed: The Literary Art of Leon Forrest_ (Ohio State UP, 2005). She is the past president of the Association of the Departments of English Executive Committee, Chair of the Black American Literature and Culture Forum for the Modern Languages Association, and Immediate President of the College Language Association--the oldest and largest professional organization for faculty of color who teach languages and literatures. \n",
+    "bio": "\n",
     "linked events": "dd-fall-2016-dana-williams-kenton-rambsy",
     "people groups": [
       "External"
@@ -12423,7 +12545,8 @@
       "recGE1CEs9E7oxrIF"
     ],
     "linked identities": [
-      "rec4wikAFAOdG1kpL"
+      "rec4wikAFAOdG1kpL",
+      "rec649KeVzSPOEaoV"
     ],
     "name": "Dana A. Williams",
     "group type": [
@@ -12431,7 +12554,7 @@
     ],
     "slug formula": "dana-a-williams",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T04:08:16.000Z",
     "record_id": "recg1sX4C7rJ2t0sU"
   },
   {
@@ -12493,8 +12616,34 @@
     "id": "matthew-lincoln",
     "first": "Matthew",
     "last": "Lincoln",
+    "headshot": [
+      {
+        "id": "attfVmndKgJ3aAppE",
+        "url": "https://dl.airtable.com/.attachments/f6f95f08d96d24fade68cf968256d6e9/4f701d15/Matthew_Lincoln.jpg",
+        "filename": "Matthew_Lincoln.jpg",
+        "size": 39240,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0cc177d332656f110850fa18ac55e341/759ca0c5",
+            "width": 30,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/76b5918e28e0b21699b72d24c613f5ef/bc7eaf40",
+            "width": 200,
+            "height": 240
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/69ead06c804dca71cf07dd28ce1eaff2/d9b9553c",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "identity as past": "matthew-lincoln-265",
-    "bio": "Matthew Lincoln is a PhD candidate in Art History at the University of Maryland, College Park, and inaugural recipient of the Arthur K. Wheelock Doctoral Fellowship in Northern European Art. He focuses on sixteenth- and seventeenth-century Dutch and Flemish art, with a particular concentration in the history of prints, and a methodological specialization in digitally-aided analysis. His dissertation uses computational network analysis to explore long-term changes in the organization of print designers, engravers, and publishers in the Netherlands between 1500–1700. During the 2014–2015 academic year, Matthew held the University of Maryland Museum Fellowship at the National Gallery of Art in the Department of Northern Baroque Painting. In the summer of 2015 he will be a fellow at the Harvard MetaLab workshop Beautiful Data, in addition to presenting research at the Alliance for Digital Humanities Organizations' annual international conference in Sydney. In the summer of 2014 he was selected as a Fellow for the Kress Digital Mapping and Art History Summer Institute. Previously, he was a graduate assistant for Digital Humanities at the Michelle Smith Collaboratory for Visual Culture. He has presented research at the Renaissance Society of America, the Sixteenth Century Association, and the College Art Association. [Select talks and projects can be seen on his website.](matthewlincoln.net/) His MA thesis, \"Hendrick Goltzius' Protean Iconography: 1582–1590\", investigated the novel and erudite iconographies invented by the famed Dutch engraver during the crucial early years of his career. \n",
+    "bio": "\n",
     "twitter": "matthewdlincoln",
     "website": "https://matthewlincoln.net",
     "linked events": "dd-fall-2015-matthew-lincoln",
@@ -12514,7 +12663,7 @@
     ],
     "slug formula": "matthew-lincoln",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-26T17:28:12.000Z",
+    "modified": "2021-03-29T21:17:35.000Z",
     "record_id": "recgLvsdhIHSoLBS5"
   },
   {
@@ -12699,9 +12848,6 @@
     "linked research as director": [
       "recJdYQUCogql5ms0"
     ],
-    "linked research as participant": [
-      "recJdYQUCogql5ms0"
-    ],
     "events as speaker": [
       "recUQj3gntJ0Su7am"
     ],
@@ -12717,7 +12863,7 @@
     ],
     "slug formula": "mirona-magearu",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-25T05:09:40.000Z",
+    "modified": "2021-03-26T17:36:51.000Z",
     "record_id": "recgtCikX4zLs1xAa"
   },
   {
@@ -12926,9 +13072,6 @@
     "linked research as director": [
       "recGMizJpbZcg6B64"
     ],
-    "linked research as participant": [
-      "recGMizJpbZcg6B64"
-    ],
     "events as speaker": [
       "recq1oMoiJ1dwtLCf"
     ],
@@ -12943,7 +13086,7 @@
     ],
     "slug formula": "leigh-wilson-smiley",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-03T22:16:48.000Z",
+    "modified": "2021-03-26T17:36:41.000Z",
     "record_id": "rechDnTXWazJOH9sX"
   },
   {
@@ -13318,8 +13461,8 @@
     "linked research as director": [
       "recz3dOlEXB3LKwkM"
     ],
-    "linked research as participant": [
-      "recz3dOlEXB3LKwkM"
+    "events as speaker": [
+      "recnvK4kcNTd9ps5a"
     ],
     "linked identities": [
       "recvKZLDTttuVBEmV",
@@ -13339,7 +13482,7 @@
     ],
     "slug formula": "daryle-williams",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-03-28T06:05:42.000Z",
     "record_id": "recibUxoBhGVXDkP9"
   },
   {
@@ -13547,13 +13690,16 @@
       "recZVFA8MiCbGa9SJ",
       "recaG1qeqPK4LPM07"
     ],
+    "linked identities": [
+      "recuPSzxEjiDTUz5m"
+    ],
     "name": "Christopher Baran",
     "group type": [
       "Past"
     ],
     "slug formula": "christopher-baran",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:19:59.000Z",
+    "modified": "2021-03-28T05:49:52.000Z",
     "record_id": "recj33TlWsR4fw8Aw"
   },
   {
@@ -13663,8 +13809,34 @@
     "id": "andrew-johnston",
     "first": "Andrew",
     "last": "Johnston",
+    "headshot": [
+      {
+        "id": "attT7RMphiIw6g4zi",
+        "url": "https://dl.airtable.com/.attachments/4b92c4d55bedb32b779624b6f1a1a0b2/12988a0b/Andrew-Johnston.jpeg",
+        "filename": "Andrew-Johnston.jpeg",
+        "size": 32796,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/00d00ef99bf4d1b4d878f9edaac1701d/fe27ee2c",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d5bf7297a38aca7ec73c32ed19c9d54c/050d69ed",
+            "width": 256,
+            "height": 256
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/20ce450e322517e8f19afde33b0937a3/57ffb9f6",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "identity as speaker": "andrew-johnston-211",
-    "bio": "Andrew Johnston is an Assistant Professor in the Film Studies Program, the Program in Communication, Rhetoric, and Digital Media, and the Department of English at North Carolina State University. His forthcoming book, _Pulses of Abstraction: Episodes from a History of Animation_ (University of Minnesota Press), is a theoretical and historical investigation of abstract animation in cinema and computational media from the 1950s through the 1970s. His research on film history, aesthetic theory, media archaeology, and avant-garde film has appeared in books and journals such as _Color and the Moving Image_, _Animating Film Theory_, _Animation: Behind the Silver Screen_, _Discourse: Journal for Theoretical Studies in Media and Culture_, and _The Moving Image_. He is currently completing a series of articles about the historical development of Computer-Generated Imagery from the 1960s through the 1980s and methods of archiving and transcoding these works on contemporary platforms. \n",
+    "bio": "\n",
     "twitter": "a_johnston",
     "linked events": "dd_fall-2014-andrew-johnston",
     "people groups": [
@@ -13683,7 +13855,7 @@
     ],
     "slug formula": "andrew-johnston",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:55:50.000Z",
     "record_id": "recjlXb0pCjtNwLc1"
   },
   {
@@ -13783,7 +13955,6 @@
       "recr52q9xyxZMFkNl"
     ],
     "linked research as participant": [
-      "recr52q9xyxZMFkNl",
       "recZWQryQONobmxcK"
     ],
     "linked identities": [
@@ -13795,7 +13966,7 @@
     ],
     "slug formula": "peter-mallios",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T17:07:55.000Z",
+    "modified": "2021-03-26T17:35:46.000Z",
     "record_id": "recjpBpGnZv6osej6"
   },
   {
@@ -13883,7 +14054,7 @@
       }
     ],
     "identity as speaker": "alberto-campagnolo-60",
-    "bio": "Alberto Campagnolo trained as a book conservator (in Spoleto, Italy) and has worked in that capacity in various institutions, including the London Metropolitan Archives, St. Catherine's Monastery (Egypt), and the Vatican Library.He studied Conservation of Library Materials at Ca' Foscari University Venice, and holds an MA in Digital Culture and Technology from King's College London. He pursued a [PhD on an automated visualization of historical bookbinding structures](ualresearchonline.arts.ac.uk/8749/) at the [Ligatus Research Centre](http/www.ligatus.org.uk/) ([University of the Arts, London](www.arts.ac.uk/chelsea/research/)).In July 2016, he has been appointed as [CLIR](www.clir.org)/[DLF](www.clir.orgdlf) [Postdoctoral Fellow in Data Curation for Medieval Studies at the Library of Congress](www.clir.orgfellowships/postdoc/applicants/library-of-congress-preservation-research-and-testing-division-prtd) (Washington, DC).Alberto has served on the [Digital Medievalist](https://digitalmedievalist.wordpress.com/) board since 2014, first as Deputy Director, and as Director since 2015. \n",
+    "bio": "\n",
     "twitter": "acampagnolo",
     "website": "http://linkedin.com/in/acampagnolo",
     "linked events": "dd-fall-2016-alberto-campagnolo",
@@ -13903,7 +14074,7 @@
     ],
     "slug formula": "alberto-campagnolo",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:49:21.000Z",
     "record_id": "reckBOFojNopwR12T"
   },
   {
@@ -13980,7 +14151,6 @@
       "rec7ne8B1n18zBqHc"
     ],
     "linked research as participant": [
-      "rec7ne8B1n18zBqHc",
       "recVOeMu42YcKv17k"
     ],
     "events as speaker": [
@@ -13997,7 +14167,7 @@
     ],
     "slug formula": "ralph-bauer",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T06:01:56.000Z",
     "record_id": "reckD5AzdpMB4mr9c"
   },
   {
@@ -14070,7 +14240,8 @@
       "recaG1qeqPK4LPM07"
     ],
     "linked identities": [
-      "rec1t5LrLNZEYOn2n"
+      "rec1t5LrLNZEYOn2n",
+      "recybypigljni0KWR"
     ],
     "name": "Gretchen Gueguen",
     "group type": [
@@ -14078,7 +14249,7 @@
     ],
     "slug formula": "gretchen-gueguen",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T17:32:02.000Z",
     "record_id": "reckbyy0bJ70fvNXW"
   },
   {
@@ -14271,18 +14442,16 @@
     "new id": 46,
     "wordpress id": 3837,
     "linked research as director": [
-      "recbPWfd29xOUEm9k",
-      "rec6VCNAOG1QeMSdM"
+      "recbPWfd29xOUEm9k"
     ],
     "linked research as participant": [
       "recfpgf5Qz4kjZFfQ",
       "recg6jOlhWPZVbLyV",
       "rec3CEHRtEQxYBrwQ",
       "recsYbAx3cuzDgm0x",
-      "rec6VCNAOG1QeMSdM",
-      "recbPWfd29xOUEm9k",
       "recZ0HGWJHKE7lAAc",
-      "recGMizJpbZcg6B64"
+      "recGMizJpbZcg6B64",
+      "rec6VCNAOG1QeMSdM"
     ],
     "events as speaker": [
       "rec9XvWFMDtHydNaz"
@@ -14298,7 +14467,7 @@
     ],
     "slug formula": "james-smith",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-25T12:51:42.000Z",
+    "modified": "2021-03-26T17:53:13.000Z",
     "record_id": "recl12SKrGtXZnNmE"
   },
   {
@@ -14512,9 +14681,6 @@
     "linked research as director": [
       "rec8gmBZx1v2h8wyG"
     ],
-    "linked research as participant": [
-      "rec8gmBZx1v2h8wyG"
-    ],
     "events as speaker": [
       "recJ1uLfIbRQCKhcH"
     ],
@@ -14530,7 +14696,7 @@
     ],
     "slug formula": "david-silver",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:47:59.000Z",
     "record_id": "reclib6Ob1nCq9UZF"
   },
   {
@@ -14657,9 +14823,6 @@
     "linked research as director": [
       "recfpgf5Qz4kjZFfQ"
     ],
-    "linked research as participant": [
-      "recfpgf5Qz4kjZFfQ"
-    ],
     "events as speaker": [
       "reckkLP0HBOmrmAXo"
     ],
@@ -14672,7 +14835,7 @@
     ],
     "slug formula": "hugh-cayless",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T17:33:24.000Z",
     "record_id": "recmISm02UisBYe9h"
   },
   {
@@ -15099,7 +15262,7 @@
       }
     ],
     "identity as past": "ravon-ruffin-395",
-    "bio": "Ravon Ruffin received her M.A. in American Studies with a concentration in Museums and Material Culture. Ravon's primary academic interests include urban sustainability, digital culture and Black feminist discourse as a means to redefine the museum as a community institution. She is co-creator of [Brown Girls Museum Blog](browngirlsmuseumblog.com/), a site to promote the visibility of minority communities as museum professionals, audiences, and creatives. She is currently an independent contractor, and consults for museums and cultural institutions to aid in social media amplification, greater inclusionary practices, and community engagement. \n",
+    "bio": "\n",
     "twitter": "Ravon_Ashley",
     "website": "https://browngirlsmuseumblog.com",
     "linked events": "dd-fall-2016-ravon-ruffin",
@@ -15119,7 +15282,7 @@
     ],
     "slug formula": "ravon-ruffin",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:48:15.000Z",
     "record_id": "recoHfeD5UUFnYj95"
   },
   {
@@ -15397,7 +15560,7 @@
       }
     ],
     "identity as speaker": "caetlin-benson-allott-25",
-    "bio": "Caetlin Benson-Allott is the author of _Killer Tapes and Shattered Screens: Video Spectatorship from VHS to File Sharing_ (Berkeley: University of California Press, 2013). Her work on film and technology, home video, and spectatorship has appeared in _South Atlantic Quarterly_, _The Journal of Visual Culture_, _Jump Cut_, _Film Quarterly_, _Film Criticism_, _In Media Res_, _The Quarterly Review of Film and Video_, and multiple anthologies. Her dissertation won the Society for the Cinema and Media Studies Best Dissertation Award in 2009. After winning Film Quarterly's 50th Anniversary Review Essay Competition in 2008, she continued to write for the journal and is now a regular columnist and contributing editor. She is currently working on two book projects, a history of the remote control device (to be published in Bloomsbury Press's Object Lessons series), and comparative study of the political impact of stunt work and digital visual effects that focuses on the automotive spectacles of the 1970s and 2000s US car movie cycles. She teaches courses on film history and theory, histories of new media, gender and technology studies, and the horror genre. She spends her spare time playing with her Shih Tzu, Frisco. \n",
+    "bio": "\n",
     "twitter": "VideoPhD",
     "linked events": "dd-spring-2014-caetlin-benson-allott",
     "people groups": [
@@ -15417,7 +15580,7 @@
     ],
     "slug formula": "caetlin-benson-allott",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:37:01.000Z",
     "record_id": "reconNnYQXNuQ2eFC"
   },
   {
@@ -15481,9 +15644,6 @@
     "linked research as director": [
       "recZSpaTpWvNaJx4i"
     ],
-    "linked research as participant": [
-      "recZSpaTpWvNaJx4i"
-    ],
     "events as speaker": [
       "recM5RCR7CWCW0j0o"
     ],
@@ -15498,7 +15658,7 @@
     ],
     "slug formula": "patricia-cossard",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:22:19.000Z",
     "record_id": "recp8PjZVbwm1KHDi"
   },
   {
@@ -15875,9 +16035,6 @@
     "linked research as director": [
       "recjjLQ6LPam2Jt1z"
     ],
-    "linked research as participant": [
-      "recjjLQ6LPam2Jt1z"
-    ],
     "events as speaker": [
       "reciXcUH5jpanjOJc"
     ],
@@ -15892,7 +16049,7 @@
     ],
     "slug formula": "chip-manekin",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-28T05:17:36.000Z",
     "record_id": "recqrZ2OoCwuR8n90"
   },
   {
@@ -16099,7 +16256,7 @@
     ],
     "identity as past": "kimberly-christen-withey-74",
     "identity as speaker": "kimberly-christen-withey-74",
-    "bio": "Kimberly Christen-Withey is an Associate Professor and Associate Director of the Digital Technology and Culture program in the Department of English and Director of Digital Projects at the Plateau Center for American Indian Studies at Washington State University. Her work explores the intersections of cultural heritage, traditional knowledge, intellectual property rights, the ethics of openness, and the use of digital technologies in and by indigenous communities globally. She has worked in Tennant Creek, Northern Territory, Australia over the last decade with Warumungu community members on a range of projects including a book, an interactive website, and a community archive. Her collaborations with the Warumungu focused on alliance-making in cross-cultural projects. Her book, _Aboriginal Business: Alliances in a Remote Australian Town_ was published in 2009 by the School of Advanced Research as part of their Global Indigenous Politics Series. Currently she is working on several digital humanities projects that explore the ethical and practical issues of openness and access in relation to indigenous cultural protocols and digital archives. She is the Director of both the [Plateau Peoples' Web Portal](plateauportal.wsulibs.wsu.edu/), a collaboratively curated website of Plateau cultural materials and [Mukurtu CMS](www.mukurtu.org): an open source indigenous content management system built around the particular needs of indigenous peoples globally. She is also the co-Director of [Local Contexts](www.localcontexts.org), an educational platform for innovative traditional knowledge licensing systems. \n",
+    "bio": "\n",
     "linked events": "dd-spring-2014-kimberly-withey-christen",
     "people groups": [
       "External"
@@ -16117,7 +16274,7 @@
     ],
     "slug formula": "kimberly-christen-withey",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:32:55.000Z",
     "record_id": "recs2Wb0rv2ARLG8N"
   },
   {
@@ -16186,25 +16343,14 @@
       "recZ0HGWJHKE7lAAc"
     ],
     "linked research as participant": [
-      "recPg0Yv0z0Gz21Ao",
-      "recfpgf5Qz4kjZFfQ",
-      "recwm5xrK8ZAZBkoh",
-      "recHEPc8YqTxRwE8o",
       "rec0WWWqxVT33BROf",
       "reckogubj1KGcO5JD",
-      "receM6Kq67QWMXvrS",
       "recNeJs9no3H5InHB",
       "recumm4ZSjbrlJMxs",
-      "rec9lAJZtYUokIwy6",
       "recyYS4iEFZCue8YC",
       "recr52q9xyxZMFkNl",
-      "recaijHITsZ5Lfh6D",
-      "recUrcEcMBropcb0U",
       "recvR6EgsUHNU7q27",
       "recybLltnlNUrjFIw",
-      "recZ0HGWJHKE7lAAc",
-      "recZWQryQONobmxcK",
-      "recybkmkZX58lYMLP",
       "recrrs5FMvQYvAZk3",
       "rec2M5EtNxNX7opn2",
       "recrnEUJqAouyhTkF",
@@ -16235,7 +16381,7 @@
     ],
     "slug formula": "trevor-munoz",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-03-10T21:07:43.000Z",
+    "modified": "2021-03-26T18:00:28.000Z",
     "record_id": "recs8QcLUFxKBS88S"
   },
   {
@@ -16269,7 +16415,7 @@
       }
     ],
     "identity as speaker": "chris-prom-369",
-    "bio": "**Christopher J. Prom** is Associate Director, University Archives, and Professor of Library Administration at the University of Illinois at Urbana-Champaign, where he is responsible for managing digital projects, supervising archival processing, and overseeing records scheduling. His research interests address the ways in which archival users seek information relevant to their needs and how they use electronic tools. Chris was the recipient of a 2003--04 National Historic Publications and Records Commission fellowship and a 1997--98 Fulbright fellow.He holds a PhD in History from the University of Illinois, where he wrote a dissertation regarding mutual aid societies in late-Victorian Britain, and he also studied at the University of York (United Kingdom). He is also Publications Editor for the Society of American Archives. \n",
+    "bio": "\n",
     "linked events": "chris-prom-documenting-science-digital-age-whats-whats-different",
     "people groups": [
       "External"
@@ -16287,7 +16433,7 @@
     ],
     "slug formula": "chris-prom",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:11:42.000Z",
     "record_id": "recsTtg1yGFPovEC5"
   },
   {
@@ -17121,7 +17267,7 @@
       }
     ],
     "identity as speaker": "alison-booth-38",
-    "bio": "Alison Booth is Professor of English at University of Virginia, specializing in narrative, feminist studies in nineteenth-century literature, and digital humanities. Her books include _Greatness Engendered: George Eliot and Virginia Woolf_ (1992); _How to Make It as a Woman: Collective Biographical History from Victoria to the Present_; a Longman Cultural Edition of Wuthering Heights, and an edited collection on gender and narrative closure, _Famous Last Words_. She is completing a book on transatlantic literary tourism, house museums, and reception of authors. A Fellow of ACLS (Digital Innovation) and the Institute for Advanced Technology in the Humanities, she directs the Collective Biographies of Women project. \n",
+    "bio": "\n",
     "twitter": "alison_booth",
     "website": "http://engl.virginia.edu/people/ab6j",
     "linked events": "dd_fall-2014-alison-booth",
@@ -17141,7 +17287,7 @@
     ],
     "slug formula": "alison-booth",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:38:15.000Z",
     "record_id": "recuyqLWKmYO5Ffcb"
   },
   {
@@ -17492,9 +17638,6 @@
     "linked research as director": [
       "recDlBOuJEW3DXBCg"
     ],
-    "linked research as participant": [
-      "recDlBOuJEW3DXBCg"
-    ],
     "linked identities": [
       "recqz8yYZDYbai5e9"
     ],
@@ -17504,7 +17647,7 @@
     ],
     "slug formula": "mitch-lifton",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T15:05:50.000Z",
     "record_id": "recw4DSJ1FkGug724"
   },
   {
@@ -17537,7 +17680,7 @@
     ],
     "slug formula": "ben-shneiderman",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T14:54:49.000Z",
     "record_id": "recwJYzcDIwiKzIy1"
   },
   {
@@ -17604,6 +17747,9 @@
     "slug": "bernard-frischer",
     "new id": 221,
     "wordpress id": 21027,
+    "linked research as participant": [
+      "rechMqJ7VykqPDG99"
+    ],
     "events as speaker": [
       "recYodYw6QBZtIzCa"
     ],
@@ -17616,7 +17762,7 @@
     ],
     "slug formula": "bernard-frischer",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-25T14:41:41.000Z",
     "record_id": "recwUbGPPRioIUCtK"
   },
   {
@@ -17745,9 +17891,6 @@
     "linked research as director": [
       "recdhd7hhS0ys5wbk"
     ],
-    "linked research as participant": [
-      "recdhd7hhS0ys5wbk"
-    ],
     "linked identities": [
       "recRi4F6l4kkVVdOV"
     ],
@@ -17757,7 +17900,7 @@
     ],
     "slug formula": "michael-evans",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:22:04.000Z",
     "record_id": "recwfQEuXushEHi9n"
   },
   {
@@ -17969,8 +18112,34 @@
     "id": "elizabeth-losh",
     "first": "Elizabeth",
     "last": "Losh",
+    "headshot": [
+      {
+        "id": "attpbpHDp8jxVMEBQ",
+        "url": "https://dl.airtable.com/.attachments/f3124c6ce24525753a58447fedc308ef/4b85f10c/Elizabeth_Losh.jpg",
+        "filename": "Elizabeth_Losh.jpg",
+        "size": 24875,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/218702c85136561bba23a95dbb6f679e/e935482c",
+            "width": 46,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/93af0d256ce30dfa45e251f7ce4df592/5eceb777",
+            "width": 500,
+            "height": 392
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/b9b61bad6344fb0bb4beb47883ac8a64/c7f8bb77",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "identity as speaker": "elizabeth-losh-270",
-    "bio": "Elizabeth Losh is the author of _Virtualpolitik: An Electronic History of Government Media-Making in a Time of War, Scandal, Disaster, Miscommunication, and Mistakes_ (MIT Press, 2009) and _The War on Learning: Gaining Ground in the Digital University_ (MIT Press, 2014). She is the co-author of the comic book textbook _Understanding Rhetoric: A Graphic Guide to Writing_ (Bedford/St. Martin's, 2013) with Jonathan Alexander. She is currently working on a new monograph, tentatively entitled _Obama Online: Technology, Masculinity, and Democracy_. She writes about gender and technology, the digital humanities, distance learning, connected learning, media literacy, and the rhetoric surrounding regulatory attempts to limit everyday digital practices. She has written a number of frequently cited essays about communities that produce, consume, and circulate online video, videogames, digital photographs, text postings, and programming code. The diverse range of subject matter analyzed in her scholarship has included coming out videos on YouTube, videogame fan films created by immigrants, combat footage from soldiers in Iraq shot on mobile devices, video evidence created for social media sites by protesters on the Mavi Marmara, remix videos from the Arab Spring, and the use of Twitter and Facebook by Indian activists working for women's rights after the Delhi rape case. Much of this body of work concerns the legitimation of political institutions through visual evidence, representations of war and violence in global news, and discourses about human rights. This work has appeared in edited collections from MIT Press, Routledge, University of Chicago, Minnesota, Oxford, Continuum, and many other presses. \n",
+    "bio": "\n",
     "twitter": "lizlosh",
     "linked events": "dd-fall-2015-elizabeth-losh",
     "people groups": [
@@ -17989,7 +18158,7 @@
     ],
     "slug formula": "elizabeth-losh",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T21:09:44.000Z",
     "record_id": "recyAF6fjvY4wFWxs"
   },
   {
@@ -18110,7 +18279,7 @@
     "institution": "University of Maryland",
     "identity as past": "katie-shilton-414",
     "identity as speaker": "katie-shilton-414",
-    "bio": "**Katie Shilton**'s research focuses on ethics and policy for the design of information technologies, systems, and collections in the College of Information Studies at the University of Maryland. She received a B.A. from Oberlin College in 2003, a Master of Library and Information Science from UCLA in 2007, and a Ph.D. in Information Studies from UCLA in 2011. She teaches courses in information policy, information and technology ethics, and archival studies. \n",
+    "bio": "\n",
     "linked events": "katie-shilton-finding-values-levers-building-ethics-into-emerging-technologies, session-iii-ethics-rights-data management",
     "people groups": [
       "External"
@@ -18125,8 +18294,7 @@
       "recHf8eLtIEMwIrYp"
     ],
     "linked identities": [
-      "recULyc60b1dVR4LX",
-      "recPDDwVEWwlO95ad"
+      "recULyc60b1dVR4LX"
     ],
     "name": "Katie Shilton",
     "group type": [
@@ -18134,7 +18302,7 @@
     ],
     "slug formula": "katie-shilton",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T20:06:11.000Z",
     "record_id": "recyXd1y3vi1wVrjQ"
   },
   {
@@ -18226,24 +18394,24 @@
     "last": "Haigh",
     "headshot": [
       {
-        "id": "attomGwrw7yS4gGB3",
-        "url": "https://dl.airtable.com/.attachments/fd1a0afd3ccf86f454d9c9a7912149e7/858a4c8c/Haigh-Priestley.jpg",
-        "filename": "Haigh-Priestley.jpg",
-        "size": 73644,
+        "id": "attJ3do290ORjpkpE",
+        "url": "https://dl.airtable.com/.attachments/859ffb24b9a6af0efb098a2ee1abc7f6/11d961db/thomas-haigh.jpg",
+        "filename": "thomas-haigh.jpg",
+        "size": 77976,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/87370a1972e6a8a71c5340ca3f5e4d20/3338e44d",
-            "width": 36,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/51fbecb2a089f6943594086e925b7b57/810b148d",
+            "width": 24,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/697a511d8ee72bf1696c6bf17529a8d0/3d1167db",
-            "width": 512,
-            "height": 512
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5ca1697fff06bb42b4a990e8a9b5feca/01838244",
+            "width": 300,
+            "height": 450
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/3de88d3815a496152e540743c1e968b9/1f5cb1e8",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5b2fb96f11865cc2694129bc4965da11/0228f631",
             "width": 3000,
             "height": 3000
           }
@@ -18270,7 +18438,7 @@
     ],
     "slug formula": "thomas-haigh",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:10:54.000Z",
     "record_id": "recymBuk2xu2z6sPC"
   },
   {
@@ -18559,8 +18727,7 @@
       "recTQUdvuJkpiZIa2"
     ],
     "linked research as participant": [
-      "recbOh33jvyfNelG4",
-      "recTQUdvuJkpiZIa2"
+      "recbOh33jvyfNelG4"
     ],
     "events as speaker": [
       "recV1ZauuKNt6spZz",
@@ -18581,7 +18748,7 @@
     ],
     "slug formula": "merle-collins",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-29T15:07:54.000Z",
     "record_id": "recz6Cp7oPgSDyWy3"
   },
   {
@@ -18624,7 +18791,8 @@
     "new id": 226,
     "wordpress id": 21029,
     "linked research as participant": [
-      "recwfTazsRu1VZDKJ"
+      "recwfTazsRu1VZDKJ",
+      "rechMqJ7VykqPDG99"
     ],
     "events as speaker": [
       "recTXPKzcXN3oJFQZ",
@@ -18639,7 +18807,7 @@
     ],
     "slug formula": "brett-bobley",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-25T14:41:24.000Z",
     "record_id": "reczF4AgmHEIDqgyF"
   },
   {
@@ -18674,7 +18842,7 @@
     ],
     "institution": "Brown University",
     "identity as speaker": "andries-van-dam-450",
-    "bio": "Andries van Dam is the Thomas J. Watson Jr. University Professor of Technology and Education and Professor of Computer Science at Brown University. He has been a member of Brown's faculty since 1965, was a co-founder of Brown's Computer Science Department and its first Chairman from 1979 to 1985, and was also Brown's first Vice President for Research from 2002 - 2006. His research includes work on computer graphics, hypermedia systems, post-WIMP and natural user interfaces (NUI), including pen- and touch-computing, and educational software. He has been working for over four decades on systems for creating and reading electronic books with interactive illustrations for use in teaching and research. In 1967 Prof. van Dam co-founded ACM SICGRAPH (the precursor of SIGGRAPH) and from 1985 through 1987 was Chairman of the Computing Research Association. He is a Fellow of ACM, IEEE, and AAAS, a member of the National Academy of Engineering, and the American Academy of Arts & Sciences. He has received the ACM Karl V. Karlstrom Outstanding Educator Award, the SIGGRAPH Steven A. Coons Award for Outstanding Creative Contributions to Computer Graphics, and the IEEE Centennial Medal, and holds four honorary doctorates. He has authored or co-authored over 100 papers and nine books, including \"Fundamentals of Interactive Computer Graphics\" and three editions of \"Computer Graphics: Principles and Practice\". \n",
+    "bio": "\n",
     "website": "https://cs.brown.edu/~avd/",
     "linked events": "dd-spring-2016-andy-van-dam",
     "people groups": [
@@ -18698,7 +18866,7 @@
     ],
     "slug formula": "andy-van-dam",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-30T03:38:28.000Z",
     "record_id": "reczWaIr98Pac2uVu"
   },
   {
@@ -18820,9 +18988,6 @@
     "linked research as director": [
       "recmbcRLPr0Sbl01J"
     ],
-    "linked research as participant": [
-      "recmbcRLPr0Sbl01J"
-    ],
     "linked identities": [
       "recQclIXPzN7jaeY6"
     ],
@@ -18832,7 +18997,7 @@
     ],
     "slug formula": "gretchen-jones",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-03-26T18:42:58.000Z",
     "record_id": "reczzaCAKInGFc0A5"
   }
 ]

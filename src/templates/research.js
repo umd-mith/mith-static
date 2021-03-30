@@ -13,12 +13,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Research = ({ pageContext: item }) => {
 
-  const title = item.fields.image
-    ? <Img 
-      fluid={item.fields.image.childImageSharp.fluid} 
-      alt={item.title} 
-      className="research-image" 
-    /> : <h1 className="title">{item.title}</h1>
+  let title = <h1 className="title">{item.title}</h1>
+  let description = ''
+  if (item.field) {
+    if (item.fields.image) {
+      title = <Img 
+        fluid={item.fields.image.childImageSharp.fluid} 
+        alt={item.title} 
+        className="research-image" 
+      />
+    }
+    if (item.fields.markdownDescription) {
+      description = <div className="description" 
+        dangerouslySetInnerHTML={{ __html: item.fields.markdownDescription.childMarkdownRemark.html }} 
+      />
+    }
+  }
 
   const started = item.year_start ? <span className="started">{item.year_start}</span> : ''
   const ended = item.year_end ? <span className="ended"> &ndash; {item.year_end}</span> : ''
@@ -111,9 +121,7 @@ const Research = ({ pageContext: item }) => {
             {links}
             {sponsors}
           </div>       
-          <div className="description" 
-            dangerouslySetInnerHTML={{ __html: item.fields.markdownDescription ? item.fields.markdownDescription.childMarkdownRemark.html : ''}} 
-          />
+          {description}
         </section>
       </div>
     </Layout>

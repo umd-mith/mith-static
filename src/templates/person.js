@@ -8,7 +8,6 @@ import './person.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Person = ({ pageContext: person }) => {
-  console.log(person)
   const name = person.name
   const photo = person.headshot 
     ? <div className="headshot">

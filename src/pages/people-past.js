@@ -39,6 +39,16 @@ const PeoplePastPage = ({ data }) => {
   //     </div>
   //   </Layout>
   // )
+  return (
+    <Layout>
+      <SEO title="Past People" />
+      <div className="page-people">
+        <section className="leader hidden">
+          <h1 className="page-title text-hidden">Past People</h1>
+        </section>
+      </div>
+    </Layout>
+  )
 }
 
 // export const query = graphql`
