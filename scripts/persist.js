@@ -64,7 +64,7 @@ class Persistor {
 
   get partnersAndSponsor() {
     if (this._partnersAndSponsor) return this._partnersAndSponsor
-    this._partnersAndSponsor = this.getTable(this.mithBase, 'Partners & Sponsors')
+    this._partnersAndSponsor = this.getTable(this.mithBase, 'Partners_Sponsors')
     return this._partnersAndSponsor
   }
 
@@ -218,7 +218,7 @@ class Persistor {
           id => links[id].fields
         )
 
-        // Partners & Sponsors
+        // Partners_Sponsors
         researchItem.fields.partners = (researchItem.get('linked partners') || []).map(
           id => partnersAndSponsor[id].fields
         )
