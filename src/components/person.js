@@ -7,28 +7,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Person = ({ person, showTitle, type }) => {
 
   let pageLocation = null
-  if (person.affiliation_as_current) {
+  if (person.person_group) {
     pageLocation = person.slug ? person.slug : null
   }
-
   let person_name = pageLocation
     ? <Link className="name" key={`p-${person.new_id}`} to={`../../people/${pageLocation}`}>{person.name}</Link>
     : <div className="name">{person.name}</div>
 
   let person_title = null
-  let person_affiliation = null
+  let person_institution = null
   let person_dept = null
-  if (type === "speaker" || type === "participant") {
+  if ( !person.person_group ) { // hide titles for current staff
+    if ( type === "speaker" || type === "participant" || type === "director" ) {
     person_title = person.title 
       ? <span className="title">{person.title}</span>
       : null
       person_dept = person.department 
       ? <span className="dept">{person.department}</span>
       : null
-    person_affiliation = person.affiliation
-      ? <span className="affiliation">{person.affiliation}</span>
+    person_institution = person.institution
+      ? <span className="institution">{person.institution}</span>
       : null
-  } 
+    }
+  }
   let twitter = null
   let headshot = null
   let bio = null
@@ -55,7 +56,7 @@ const Person = ({ person, showTitle, type }) => {
       <span className="details">
         {person_title}
         {person_dept}
-        {person_affiliation}
+        {person_institution}
         {twitter}
       </span>
       {bio}
