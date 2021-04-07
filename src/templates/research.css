@@ -49,8 +49,7 @@
 .research-item .metadata {
   grid-area: sidebar;
   grid-column: 4 / 5;
-  grid-row: 2 / 4;
-  font-size: smaller;
+  grid-row: 2 / 5;
 }
 .research-item .metadata > div {
   margin-bottom: 2rem;
@@ -61,10 +60,13 @@
 .research-item .date {
   font-weight: 600;
 }
+.research-item .ended::before {
+  content: " \2013 "
+}
 .research-item .twitter svg {
   font-size: 1.4rem;
-  margin-right: 0.1rem;
   color: #00aced;
+  margin-right: 0.1rem;
 }
 .research-item .twitter a {
   font-size: 1.1rem;
@@ -77,15 +79,22 @@
 }
 .research-item .person .name {
   font-weight: bold;
-  display: block;
 } 
-.metadata .person span {
-  font-style: italic;
-  font-size: 0.75rem;
+.research-item .person .title::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-.metadata .person span:after {
+.research-item .person .details {
+  font-size: 0.75rem;
+  display: block;
+}
+.research-item .person .details .title {
+  font-style: italic;
+}
+.research-item .person .details span:not(.title)::after {
   content: ", "
 }
-.metadata .person span:last-of-type:after {
+.research-item .person .details span:not(.title):last-of-type::after {
   content: none;
 }

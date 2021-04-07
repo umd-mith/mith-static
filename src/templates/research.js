@@ -1,5 +1,5 @@
 import React from 'react'
-//import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
@@ -31,7 +31,7 @@ const Research = ({ pageContext: item }) => {
   }
 
   const started = item.year_start ? <span className="started">{item.year_start}</span> : ''
-  const ended = item.year_end ? <span className="ended"> &ndash; {item.year_end}</span> : ''
+  const ended = item.year_end ? <span className="ended">{item.year_end}</span> : ''
   //const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
   //const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
 
@@ -44,6 +44,18 @@ const Research = ({ pageContext: item }) => {
     participants = <div className="participants">
       <h2>Participants</h2>
       <ul>{participant_list}</ul>
+    </div>
+  }
+  
+  let director_list = null
+  let directors = null
+  if (item.directors) {
+    director_list = item.directors.map(person => {
+      return <Person person={person} showTitle="true" type="director" />
+    })
+    directors = <div className="directors">
+      <h2>Directors</h2>
+      <ul>{director_list}</ul>
     </div>
   }
 
@@ -95,19 +107,19 @@ const Research = ({ pageContext: item }) => {
   let events = null
   if (item.events) {
     events_list = item.events.map(e => {
-      return <li id={e.data.id}>
-          <h3 className="title" itemProp="name"><Link key={`e-${e.data.id}`} to={`../../events/${e.data.id}`}>{e.data.talk_title || e.data.event_title}</Link></h3>
-          <EventTime start={e.data.start} end={e.data.end} />
-          <div itemProp="location" className="location">{e.data.location}</div>
+      return <li id={e.id}>
+          <h3 className="title" itemProp="name"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
+          <EventTime start={e.start} end={e.end} />
+          <div itemProp="location" className="location">{e.location}</div>
           <div className="description" 
-            dangerouslySetInnerHTML={{ __html: e.data.description ? e.data.description.childMarkdownRemark.excerpt : ''}} 
+            dangerouslySetInnerHTML={{ __html: e.description ? e.description.childMarkdownRemark.excerpt : ''}} 
           />
-          <Link className="button" key={`e-${e.data.id}`} to={`../../events/${e.data.id}`}>View Event Details</Link>
+          <Link className="button" key={`e-${e.id}`} to={`../../events/${e.id}`}>View Event Details</Link>
         </li>
     })
     events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
   }
-*/
+  */
   return (
     <Layout>
       <SEO title={item.title} />
@@ -115,13 +127,17 @@ const Research = ({ pageContext: item }) => {
         <section className="research-item">
           {title}
           <div className="metadata">
-            {started}{ended}
+            <div className="date">
+              {started}{ended}
+            </div>
             {twitter}
+            {directors}
             {participants}
             {links}
             {sponsors}
           </div>       
           {description}
+          {events}
         </section>
       </div>
     </Layout>
