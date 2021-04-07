@@ -280,6 +280,8 @@ async function makeResearch(createPage, graphql) {
             title
             department
             institution
+            start
+            end
             person_group
             slug
           }
@@ -288,6 +290,8 @@ async function makeResearch(createPage, graphql) {
             title
             department
             institution
+            start
+            end
             person_group
             slug
           }
