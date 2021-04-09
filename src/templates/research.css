@@ -92,9 +92,13 @@
 .research-item .person .details .title {
   font-style: italic;
 }
-.research-item .person .details span:not(.title)::after {
+.research-item .person .details .dept::after,
+.research-item .person .details .institution::after {
   content: ", "
 }
 .research-item .person .details span:not(.title):last-of-type::after {
+  content: none;
+}
+.research-item .person .details .date-span span::after {
   content: none;
 }

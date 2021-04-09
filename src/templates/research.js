@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
@@ -64,11 +64,11 @@ const Research = ({ pageContext: item }) => {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     const twitter_acct = item.twitter_account
       ? <span className="twitter_acct">
-          <a href={`https://twitter.com/${item.twitter_account}`}>{item.twitter_account}</a>
+          <a href={`https://twitter.com/${item.twitter_account}`} target="_blank" rel="noreferrer">{item.twitter_account}</a>
         </span> : null
     const twitter_hash = item.twitter_hashtag 
       ? <span className="twitter_hash">
-        <a href={`https://twitter.com/hashtag/${item.twitter_hashtag}`}>#{item.twitter_hashtag}</a>
+        <a href={`https://twitter.com/hashtag/${item.twitter_hashtag}`} target="_blank" rel="noreferrer">#{item.twitter_hashtag}</a>
       </span> : null
     twitter = <div className="twitter">{iconTwitter} {twitter_acct} {twitter_hash}</div>
   }
@@ -81,7 +81,7 @@ const Research = ({ pageContext: item }) => {
         link_url = l.url.startsWith('http') 
           ? l.url 
           : `http://${l.url}`
-        return <li id={l.link_id}><a href={link_url}>{l.title}</a></li>
+        return <li id={l.link_id}><a href={link_url} title={l.title} target="_blank" rel="noreferrer">{l.title}</a></li>
     })
     links = <div className="links"><h2>Links</h2><ul>{links_list}</ul></div>
   }
@@ -94,7 +94,7 @@ const Research = ({ pageContext: item }) => {
         if (s.website) {
           sponsor_name = s.website.startsWith('http') 
             ? s.website
-            : <a href={`http://${s.website}`}>{s.name}</a>
+            : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
         } else {
           sponsor_name = s.name
         }
@@ -102,9 +102,10 @@ const Research = ({ pageContext: item }) => {
     })
     sponsors = <div className="sponsors"><h2>Sponsors</h2><ul>{sponsors_list}</ul></div>
   }
-/*
+
   let events_list = null 
   let events = null
+/*
   if (item.events) {
     events_list = item.events.map(e => {
       return <li id={e.id}>
@@ -119,7 +120,7 @@ const Research = ({ pageContext: item }) => {
     })
     events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
   }
-  */
+*/
   return (
     <Layout>
       <SEO title={item.title} />

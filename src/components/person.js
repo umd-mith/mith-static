@@ -4,15 +4,28 @@ import Img from 'gatsby-image'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Person = ({ person, showTitle, type }) => {
+const Person = ({ person, type }) => {
 
   let pageLocation = null
   if (person.person_group) {
     pageLocation = person.slug ? person.slug : null
   }
   let person_name = pageLocation
-    ? <Link className="name" key={`p-${person.new_id}`} to={`../../people/${pageLocation}`}>{person.name}</Link>
+    ? <Link className="name" key={`p-${person.new_id}`} to={`../../people/${pageLocation}`} aria-label={`View ${person.name}'s Profile`} title={`View ${person.name}'s Profile`}>{person.name}</Link>
     : <div className="name">{person.name}</div>
+
+    let date_span = null
+    if ( type === "director" ) {
+      const start = person.start ? <span className="start">{person.start}</span> : null
+      const end = person.end ? <span className="end">{person.end}</span> : null
+      if (person.start && person.end ) {
+        date_span = <div className="date-span">({start} &ndash; {end})</div>
+    } 
+    if (person.start && !person.end) {
+      const end = person.person_group ?  <> &ndash; <span className="end">present</span></> : null
+      date_span = <div className="date-span">({start}{end})</div>
+    }
+  } 
 
   let person_title = null
   let person_institution = null
@@ -36,7 +49,7 @@ const Person = ({ person, showTitle, type }) => {
   if (type === "speaker") {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     twitter = person.twitter
-      ? <a href={`https://twitter.com/${person.twitter}`} className="twitter">{iconTwitter} {person.twitter}</a> 
+      ? <a href={`https://twitter.com/${person.twitter}`} className="twitter" target="_blank" rel="noreferrer">{iconTwitter} {person.twitter}</a> 
       : null
 
     headshot = person.headshot
@@ -57,6 +70,7 @@ const Person = ({ person, showTitle, type }) => {
         {person_title}
         {person_dept}
         {person_institution}
+        {date_span}
         {twitter}
       </span>
       {bio}
