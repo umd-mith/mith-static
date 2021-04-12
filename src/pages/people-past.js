@@ -6,84 +6,83 @@ import SEO from '../components/seo'
 import './people.css'
 
 const PeoplePastPage = ({ data }) => {
-  // return (
-	// 	<Layout>
-  //     <SEO title="Past People" />
-  //     <div className="page-people">
-  //       <section className="leader hidden">
-  //         <h1 className="page-title text-hidden">Past People</h1>
-  //       </section>
-  //       {data.people.nodes.map(group => {
-  //         return (
-  //           <section key={`g-${group.data.id}`} className={`people-group ${group.data.slug}`} role="group">
-  //             <h2>{group.data.group_name}</h2>
-  //             <> {
-  //               group.data.linked_people ?
-  //                 group.data.linked_people.map(person => (
-  //                   <article className="person" id={person.data.id}>
-  //                     <strong className="name" key={`p-${person.data.id}`}>{person.data.name}</strong>
-  //                     <div className="details">{
-  //                       person.data.date_spans ? 
-  //                       person.data.date_spans.map(dates => (
-  //                         <span key={`d-${dates.data.id}`}>{dates.data.date_span}</span>
-  //                       ))
-  //                       : ''
-  //                     }</div>
-  //                   </article>
-  //                 ))
-  //               : ''
-  //             } </>
-  //           </section>
-  //         )
-  //       })}
-  //     </div>
-  //   </Layout>
-  // )
+  
+  function makePerson(person) {
+    return (
+    <article className="person" id={person.new_id} title={person.name} key={`p-${person.new_id}`}>
+      <h3 className="name">{person.name}</h3>
+      <div className="details">
+        {person.linked_identities.map(identity => (
+          <article className="identity" id={identity.id} key={`i-${identity.id}`}>
+            <span className="title">{identity.title}</span>
+            <span className="date-span">
+              <span className="start">{identity.start}</span>
+              <span className="end">{identity.end}</span>
+            </span>   
+          </article>
+        ))}     
+      </div>
+    </article>
+    )    
+  }
+
+  function makeGroup(people) {
+    return people.nodes.map(person => {
+      return makePerson(person)
+    })
+  }
   return (
     <Layout>
       <SEO title="Past People" />
-      <div className="page-people">
+      <div className="page-past-people">
         <section className="leader hidden">
           <h1 className="page-title text-hidden">Past People</h1>
         </section>
+        <section id="past_directors" className="people-group">
+          <h2>Past Directors</h2>
+          {data.people.group
+            .filter(g => g.fieldValue === 'Past Directors')
+            .map(makeGroup)
+          }
+        </section>
+        <section id="past_staff" className="people-group">
+          <h2>Past Research Faculty &amp; Staff</h2>
+          {data.people.group
+            .filter(g => g.fieldValue === 'Past Research Faculty + Staff')
+            .map(makeGroup)
+          }
+        </section>
+
       </div>
     </Layout>
   )
 }
-
-// export const query = graphql`
-//   query PeoplePastQuery {
-//     people: allAirtableGroupsTable(
-//       filter: {
-//         table: {eq: "Groups"},
-//         data: {group_name: {regex: "/Past/"}}
-//       }, 
-//       sort: {
-//         fields: data___sort
-//       }
-//     ) {
-//       nodes {
-//         data {
-//           id
-//           sort
-//           slug
-//           group_name
-//           linked_people {
-//             data {
-//               new_id
-//               name
-//               slug
-//               date_spans {
-//                 data {
-//                   date_span
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query PeoplePastQuery {
+    people: allPeopleJson(
+      filter: {
+        group_type: {regex: "/Past/"}
+      }, 
+      sort: {
+        fields: last
+      }
+    ) {
+      group(field: people_groups) {
+        fieldValue
+        nodes {
+          name
+          first
+          last
+          linked_identities {
+            title
+            start
+            end
+          }
+          new_id
+        }
+      }
+    }
+  }
+`
  
 export default PeoplePastPage
