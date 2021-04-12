@@ -19,7 +19,7 @@
 .research-item h3 {
   margin-bottom: 0.25rem;
 }
-.research-image {
+.research-item .research-image {
   grid-area: header;
   grid-column: span 4;
   margin-bottom: 2rem;

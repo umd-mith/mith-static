@@ -1,12 +1,14 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby';
+import { graphql, Link } from 'gatsby'
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Paginator from '../components/paginator'
-import ResearchTime from '../components/research-time'
+//import ResearchTime from '../components/research-time'
 
 import './post-index.css'
+import './research-index.css'
 
 const ResearchIndex = ({data}) => {
   const items = data.allResearchJson.nodes
@@ -23,8 +25,20 @@ const ResearchIndex = ({data}) => {
             const active = item.active === 'TRUE' ? <span className="pill">Active</span> : ''
             const started = item.year_start ? <span><time>{item.year_start}</time></span> : ''
             const ended = item.year_end ? <span> &ndash; <time>{item.year_end}</time></span> : ''
-            let excerpt = ''
 
+            let excerpt = ''
+            let image = ''
+            let title = <h2 className="title">
+                <Link to={slug}>{item.title}</Link>
+              </h2>
+            if (item.fields.image) {
+              image = <Img 
+                fluid={item.fields.image.childImageSharp.fluid} 
+                alt={item.title} 
+                className="research-image" 
+              />
+              title = <Link to={slug}>{image}</Link>
+            }
             if (item.fields) {
               excerpt = item.fields.markdownDescription
                 ? item.fields.markdownDescription.childMarkdownRemark.excerpt
@@ -33,9 +47,7 @@ const ResearchIndex = ({data}) => {
 
             return (
               <article className="post research-item-post" key={`research-${item.id}`}>
-                <h2 className="title">
-                  <Link to={slug}>{item.title}</Link>
-                </h2>
+                {title}
                 <div className="meta">
                   {active} {started}{ended}
                 </div>
@@ -75,6 +87,17 @@ export const query = graphql`
             childMarkdownRemark {
                 excerpt(pruneLength: 250)
               }
+          }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 500, srcSetBreakpoints: [200, 250, 500], quality: 100, background: "rgba(255,255,255,0)") {
+                src
+                srcSet
+                aspectRatio
+                sizes
+                base64
+              }
+            }
           }
         }
       }
