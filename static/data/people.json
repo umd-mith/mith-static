@@ -47,8 +47,7 @@
     "slug formula": "beth-plale",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T22:23:09.000Z",
-    "record_id": "rec00pBSAwLZf7JpA",
-    "groupType": "Current"
+    "record_id": "rec00pBSAwLZf7JpA"
   },
   {
     "id": "michael-cummings",
@@ -103,8 +102,7 @@
     "slug formula": "michael-cummings",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec0ASWG8KiDEaCiN",
-    "groupType": "Current"
+    "record_id": "rec0ASWG8KiDEaCiN"
   },
   {
     "id": "kate-singer",
@@ -123,7 +121,8 @@
       {
         "title": "Program Associate",
         "start": 2008,
-        "end": 2009
+        "end": 2009,
+        "id": 418
       }
     ],
     "name": "Kate Singer",
@@ -133,8 +132,7 @@
     "slug formula": "kate-singer",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec0eeqa46HFCjRe1",
-    "groupType": "Past"
+    "record_id": "rec0eeqa46HFCjRe1"
   },
   {
     "id": "nicole-a-cooke",
@@ -160,8 +158,7 @@
     "slug formula": "nicole-a-cooke",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec0hjccIwhJNepbw",
-    "groupType": "Current"
+    "record_id": "rec0hjccIwhJNepbw"
   },
   {
     "id": "maria-velazquez",
@@ -214,7 +211,9 @@
     "linked identities": [
       {
         "title": "Winnemore Digital Humanities Dissertation Fellow",
-        "start": 2011
+        "start": 2011,
+        "end": 2011,
+        "id": 451
       }
     ],
     "name": "Maria Velazquez",
@@ -225,8 +224,7 @@
     "slug formula": "maria-velazquez",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:36:51.000Z",
-    "record_id": "rec0qDKJCTRfh5AbI",
-    "groupType": "Past"
+    "record_id": "rec0qDKJCTRfh5AbI"
   },
   {
     "id": "taschauna-richards",
@@ -270,7 +268,9 @@
     "linked identities": [
       {
         "title": "Student Assistant",
-        "start": 2016
+        "start": 2016,
+        "end": 2016,
+        "id": 387
       }
     ],
     "name": "Taschauna Richards",
@@ -280,8 +280,7 @@
     "slug formula": "taschauna-richards",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec0rYzdcDQRXH3m5",
-    "groupType": "Past"
+    "record_id": "rec0rYzdcDQRXH3m5"
   },
   {
     "id": "marilee-lindemann",
@@ -335,8 +334,7 @@
     "slug formula": "marilee-lindemann",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T05:17:37.000Z",
-    "record_id": "rec0uVsa99sgAZFNo",
-    "groupType": "Current"
+    "record_id": "rec0uVsa99sgAZFNo"
   },
   {
     "id": "trisha-campbell",
@@ -412,8 +410,7 @@
     "slug formula": "trisha-campbell",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:20:21.000Z",
-    "record_id": "rec0zx8Jmk57FRgZB",
-    "groupType": "Current"
+    "record_id": "rec0zx8Jmk57FRgZB"
   },
   {
     "id": "rachel-donahue",
@@ -476,7 +473,8 @@
       {
         "title": "Research Associate",
         "start": 2011,
-        "end": 2013
+        "end": 2013,
+        "id": 112
       }
     ],
     "name": "Rachel Donahue",
@@ -487,8 +485,7 @@
     "slug formula": "rachel-donahue",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T22:32:12.000Z",
-    "record_id": "rec13WYRw8YDH78ss",
-    "groupType": "Past"
+    "record_id": "rec13WYRw8YDH78ss"
   },
   {
     "id": "ian-bogost",
@@ -540,8 +537,7 @@
     "slug formula": "ian-bogost",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:08:57.000Z",
-    "record_id": "rec176lW4DBysqBzE",
-    "groupType": "Current"
+    "record_id": "rec176lW4DBysqBzE"
   },
   {
     "id": "jovonne-bickerstaff",
@@ -586,7 +582,8 @@
       {
         "title": "Postdoctoral Associate, AADHum",
         "start": 2016,
-        "end": 2019
+        "end": 2019,
+        "id": 29
       }
     ],
     "name": "Jovonne Bickerstaff",
@@ -596,8 +593,7 @@
     "slug formula": "jovonne-bickerstaff",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec1G5EiCMdvtcSUt",
-    "groupType": "Past"
+    "record_id": "rec1G5EiCMdvtcSUt"
   },
   {
     "id": "greg-cox",
@@ -621,8 +617,7 @@
     "slug formula": "greg-cox",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec1MwrwC1A0xoep8",
-    "groupType": "Current"
+    "record_id": "rec1MwrwC1A0xoep8"
   },
   {
     "id": "george-williams",
@@ -662,7 +657,8 @@
       {
         "title": "Program Associate",
         "start": 2000,
-        "end": 2001
+        "end": 2001,
+        "id": 473
       }
     ],
     "name": "George Williams",
@@ -673,8 +669,7 @@
     "slug formula": "george-williams",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:07:50.000Z",
-    "record_id": "rec1hjdAVIdyZoEEm",
-    "groupType": "Past"
+    "record_id": "rec1hjdAVIdyZoEEm"
   },
   {
     "id": "jen-golbeck",
@@ -732,8 +727,7 @@
     "slug formula": "jen-golbeck",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec1jfwDl1BHtz7tt",
-    "groupType": "Current"
+    "record_id": "rec1jfwDl1BHtz7tt"
   },
   {
     "id": "david-rettenmaier",
@@ -779,7 +773,8 @@
       {
         "title": "Research Specialist, Shelley-Godwin Archive",
         "start": 2018,
-        "end": 2019
+        "end": 2019,
+        "id": 383
       }
     ],
     "name": "David Rettenmaier",
@@ -789,8 +784,7 @@
     "slug formula": "david-rettenmaier",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec1pZsRHV4MSlaO9",
-    "groupType": "Past"
+    "record_id": "rec1pZsRHV4MSlaO9"
   },
   {
     "id": "miriam-posner",
@@ -842,8 +836,7 @@
     "slug formula": "miriam-posner",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:01:42.000Z",
-    "record_id": "rec23W6ImNBAPkzOy",
-    "groupType": "Current"
+    "record_id": "rec23W6ImNBAPkzOy"
   },
   {
     "id": "nicholas-chen",
@@ -869,8 +862,7 @@
     "slug formula": "nicholas-chen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T04:38:48.000Z",
-    "record_id": "rec2BmTEFSNB8ApbF",
-    "groupType": "Current"
+    "record_id": "rec2BmTEFSNB8ApbF"
   },
   {
     "id": "grant-dickie",
@@ -931,7 +923,9 @@
     "linked identities": [
       {
         "title": "Web Programmer",
-        "start": 2012
+        "start": 2012,
+        "end": 2012,
+        "id": 104
       }
     ],
     "name": "Grant Dickie",
@@ -942,8 +936,7 @@
     "slug formula": "grant-dickie",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec2bsRnL8MbgNzCM",
-    "groupType": "Past"
+    "record_id": "rec2bsRnL8MbgNzCM"
   },
   {
     "id": "mariet-westerman",
@@ -967,8 +960,7 @@
     "slug formula": "mariët-westerman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec2dP1o0ohnEixQw",
-    "groupType": "Current"
+    "record_id": "rec2dP1o0ohnEixQw"
   },
   {
     "id": "chunyuan-liao",
@@ -992,8 +984,7 @@
     "slug formula": "chunyuan-liao",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec2iXim0OGqLxqdT",
-    "groupType": "Current"
+    "record_id": "rec2iXim0OGqLxqdT"
   },
   {
     "id": "elizabeth-martin",
@@ -1017,8 +1008,7 @@
     "slug formula": "elizabeth-martin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec2lIlczihsePZ5e",
-    "groupType": "Current"
+    "record_id": "rec2lIlczihsePZ5e"
   },
   {
     "id": "andrew-smith",
@@ -1062,12 +1052,7 @@
     ],
     "new id": 364,
     "wordpress id": 21188,
-    "linked identities": [
-      {
-        "title": "Research Fellow, AADHum",
-        "start": 2020
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recm4wTWC4BBPTuxa"
     ],
@@ -1081,8 +1066,7 @@
     "record_id": "rec2rOyqXXc25lo6g",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "david-lerner",
@@ -1100,7 +1084,8 @@
       {
         "title": "Program Assistant",
         "start": 2001,
-        "end": 2003
+        "end": 2003,
+        "id": 257
       }
     ],
     "name": "David Lerner",
@@ -1110,8 +1095,7 @@
     "slug formula": "david-lerner",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec38F8CzO7xczTUA",
-    "groupType": "Past"
+    "record_id": "rec38F8CzO7xczTUA"
   },
   {
     "id": "kristin-carlson",
@@ -1162,8 +1146,7 @@
     "slug formula": "kristin-carlson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec3KeeVoTbBtcgEd",
-    "groupType": "Current"
+    "record_id": "rec3KeeVoTbBtcgEd"
   },
   {
     "id": "kyle-bickoff",
@@ -1222,8 +1205,7 @@
     "slug formula": "kyle-bickoff",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T22:03:57.000Z",
-    "record_id": "rec3O1HRc3GA767RC",
-    "groupType": "Current"
+    "record_id": "rec3O1HRc3GA767RC"
   },
   {
     "id": "catherine-phan",
@@ -1240,7 +1222,8 @@
       {
         "title": "Digital and Media Archivist",
         "start": 2021,
-        "end": 2022
+        "end": 2022,
+        "id": 773
       }
     ],
     "name": "Catherine Phan",
@@ -1250,8 +1233,7 @@
     "slug formula": "catherine-phan",
     "created": "2021-03-09T15:12:45.000Z",
     "modified": "2021-03-26T16:39:10.000Z",
-    "record_id": "rec3Rj44VzJ71BKt7",
-    "groupType": "Current"
+    "record_id": "rec3Rj44VzJ71BKt7"
   },
   {
     "id": "mauricio-giraldo",
@@ -1304,8 +1286,7 @@
     "slug formula": "mauricio-giraldo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:51:33.000Z",
-    "record_id": "rec3oGJMmtagRx3p5",
-    "groupType": "Current"
+    "record_id": "rec3oGJMmtagRx3p5"
   },
   {
     "id": "kimberly-bain",
@@ -1332,8 +1313,7 @@
     "slug formula": "kimberly-bain",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec3ob9AM7YgxdrOT",
-    "groupType": "Current"
+    "record_id": "rec3ob9AM7YgxdrOT"
   },
   {
     "id": "marisa-parham",
@@ -1387,16 +1367,7 @@
       "recoFfFg1889dnPEm",
       "recISX8ZczO3bEIks"
     ],
-    "linked identities": [
-      {
-        "title": "Director of AADHum",
-        "start": 2020
-      },
-      {
-        "title": "Associate Director",
-        "start": 2020
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recHZYBFvQwt6bxPo",
       "recsUKkYafsJMfBoq"
@@ -1412,8 +1383,7 @@
     "record_id": "rec4GSBjn9Pccdx9h",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "stephanie-ceraso",
@@ -1465,8 +1435,7 @@
     "slug formula": "stephanie-ceraso",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:56:37.000Z",
-    "record_id": "rec4OsAUlBcYxQtcn",
-    "groupType": "Current"
+    "record_id": "rec4OsAUlBcYxQtcn"
   },
   {
     "id": "sahil-patni",
@@ -1484,7 +1453,8 @@
       {
         "title": "Accounting Assistant",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 351
       }
     ],
     "name": "Sahil Patni",
@@ -1494,8 +1464,7 @@
     "slug formula": "sahil-patni",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec4RTldubxyk6Emi",
-    "groupType": "Past"
+    "record_id": "rec4RTldubxyk6Emi"
   },
   {
     "id": "adeline-koh",
@@ -1546,8 +1515,7 @@
     "slug formula": "adeline-koh",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec4ZzJzoeTO1C4gm",
-    "groupType": "Current"
+    "record_id": "rec4ZzJzoeTO1C4gm"
   },
   {
     "id": "catherine-hays-zabriskie",
@@ -1576,8 +1544,7 @@
     "slug formula": "catherine-hays-zabriskie",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:08:00.000Z",
-    "record_id": "rec4mwyPCoslxS8IZ",
-    "groupType": "Current"
+    "record_id": "rec4mwyPCoslxS8IZ"
   },
   {
     "id": "harold-short",
@@ -1628,8 +1595,7 @@
     "slug formula": "harold-short",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:28:05.000Z",
-    "record_id": "rec5CO5YAcf6Td0IP",
-    "groupType": "Current"
+    "record_id": "rec5CO5YAcf6Td0IP"
   },
   {
     "id": "susan-garfinkel",
@@ -1655,8 +1621,7 @@
     "slug formula": "susan-garfinkel",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec5SjVOSpqhGqiOT",
-    "groupType": "Current"
+    "record_id": "rec5SjVOSpqhGqiOT"
   },
   {
     "id": "kyasia-gray",
@@ -1700,7 +1665,9 @@
     "linked identities": [
       {
         "title": "Event Coordinator",
-        "start": 2012
+        "start": 2012,
+        "end": 2012,
+        "id": 177
       }
     ],
     "name": "Kyasia Gray",
@@ -1710,8 +1677,7 @@
     "slug formula": "kyasia-gray",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec5ThyCvoc55Jupz",
-    "groupType": "Past"
+    "record_id": "rec5ThyCvoc55Jupz"
   },
   {
     "id": "andre-brock",
@@ -1738,8 +1704,7 @@
     "slug formula": "andre-brock",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec5TzOIepdHIdhqx",
-    "groupType": "Current"
+    "record_id": "rec5TzOIepdHIdhqx"
   },
   {
     "id": "kevin-winstead",
@@ -1786,12 +1751,14 @@
       {
         "title": "AADHum Project Manager",
         "start": 2017,
-        "end": 2019
+        "end": 2019,
+        "id": 476
       },
       {
         "title": "AADHum Graduate Assistant",
         "start": 2016,
-        "end": 2017
+        "end": 2017,
+        "id": 477
       }
     ],
     "name": "Kevin Winstead",
@@ -1801,8 +1768,7 @@
     "slug formula": "kevin-winstead",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec5Z0zErdbxzGzUb",
-    "groupType": "Past"
+    "record_id": "rec5Z0zErdbxzGzUb"
   },
   {
     "id": "becca-hale",
@@ -1820,7 +1786,8 @@
       {
         "title": "Accounting Assistant",
         "start": 2009,
-        "end": 2010
+        "end": 2010,
+        "id": 184
       }
     ],
     "name": "Becca Hale",
@@ -1830,8 +1797,7 @@
     "slug formula": "becca-hale",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec5ZX2TpA7hS0LfX",
-    "groupType": "Past"
+    "record_id": "rec5ZX2TpA7hS0LfX"
   },
   {
     "id": "douglas-mcelrath",
@@ -1879,7 +1845,9 @@
     "linked identities": [
       {
         "title": "Digital Humanities Incubator Fellow",
-        "start": 2013
+        "start": 2013,
+        "end": 2013,
+        "id": 294
       }
     ],
     "name": "Douglas McElrath",
@@ -1889,8 +1857,7 @@
     "slug formula": "douglas-mcelrath",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec5l4EaM7SZdmnAV",
-    "groupType": "Past"
+    "record_id": "rec5l4EaM7SZdmnAV"
   },
   {
     "id": "andrew-stauffer",
@@ -1913,8 +1880,7 @@
     "slug formula": "andrew-stauffer",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T04:17:24.000Z",
-    "record_id": "rec64G9EKQmeqFMcd",
-    "groupType": "Current"
+    "record_id": "rec64G9EKQmeqFMcd"
   },
   {
     "id": "julien-roy",
@@ -1961,8 +1927,7 @@
     "slug formula": "julien-roy",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:19:59.000Z",
-    "record_id": "rec65betkM910psGl",
-    "groupType": "Past"
+    "record_id": "rec65betkM910psGl"
   },
   {
     "id": "maxim-romanov",
@@ -2023,8 +1988,7 @@
     "slug formula": "maxim-romanov",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:23:54.000Z",
-    "record_id": "rec6ZnlEjIRIrQj9b",
-    "groupType": "Current"
+    "record_id": "rec6ZnlEjIRIrQj9b"
   },
   {
     "id": "ketan-patil",
@@ -2046,7 +2010,8 @@
       {
         "title": "Program Associate",
         "start": 2009,
-        "end": 2010
+        "end": 2010,
+        "id": 350
       }
     ],
     "name": "Ketan Patil",
@@ -2056,8 +2021,7 @@
     "slug formula": "ketan-patil",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec6e4TmAQCFkMnnd",
-    "groupType": "Past"
+    "record_id": "rec6e4TmAQCFkMnnd"
   },
   {
     "id": "diana-aram",
@@ -2074,7 +2038,9 @@
     "linked identities": [
       {
         "title": "US Institute of Museum and Library Services (IMLS) Intern",
-        "start": 2009
+        "start": 2009,
+        "end": 2009,
+        "id": 8
       }
     ],
     "name": "Diana Aram",
@@ -2084,8 +2050,7 @@
     "slug formula": "diana-aram",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec6t9hfWGnEaGQRt",
-    "groupType": "Past"
+    "record_id": "rec6t9hfWGnEaGQRt"
   },
   {
     "id": "julia-flanders",
@@ -2147,8 +2112,7 @@
     "slug formula": "julia-flanders",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec6uVwlRPoGaGnH5",
-    "groupType": "Current"
+    "record_id": "rec6uVwlRPoGaGnH5"
   },
   {
     "id": "christin-washington",
@@ -2191,12 +2155,7 @@
     ],
     "new id": 363,
     "wordpress id": 21187,
-    "linked identities": [
-      {
-        "title": "Graduate Assistant, AADHum",
-        "start": 2020
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recQHIDa2NKmGKqDZ"
     ],
@@ -2210,8 +2169,7 @@
     "record_id": "rec7Cf1wiymlfSECF",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "neil-fraistat",
@@ -2297,7 +2255,8 @@
       {
         "title": "Director",
         "start": 2006,
-        "end": 2017
+        "end": 2017,
+        "id": 145
       }
     ],
     "name": "Neil Fraistat",
@@ -2308,8 +2267,7 @@
     "slug formula": "neil-fraistat",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "rec7IQrtMhb4Ro8Mc",
-    "groupType": "Past"
+    "record_id": "rec7IQrtMhb4Ro8Mc"
   },
   {
     "id": "zeynep-tufekci",
@@ -2335,8 +2293,7 @@
     "slug formula": "zeynep-tufekci",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec7TFA6WZtC4gGQN",
-    "groupType": "Current"
+    "record_id": "rec7TFA6WZtC4gGQN"
   },
   {
     "id": "alex-wright",
@@ -2388,8 +2345,7 @@
     "slug formula": "alex-wright",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:47:52.000Z",
-    "record_id": "rec7xM3lvdKH8PTAe",
-    "groupType": "Current"
+    "record_id": "rec7xM3lvdKH8PTAe"
   },
   {
     "id": "will-thomas",
@@ -2438,12 +2394,14 @@
       {
         "title": "Graduate Assistant",
         "start": 2018,
-        "end": 2019
+        "end": 2019,
+        "id": 440
       },
       {
         "title": "Graduate Assistant, AADHum",
         "start": 2017,
-        "end": 2018
+        "end": 2018,
+        "id": 441
       }
     ],
     "name": "Will Thomas",
@@ -2453,8 +2411,7 @@
     "slug formula": "will-thomas",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec7ydTBSzfddCi5a",
-    "groupType": "Past"
+    "record_id": "rec7ydTBSzfddCi5a"
   },
   {
     "id": "alejandro-paz",
@@ -2501,8 +2458,7 @@
     "slug formula": "alejandro-paz",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:19:59.000Z",
-    "record_id": "rec86HoNi2DuN85Wm",
-    "groupType": "Past"
+    "record_id": "rec86HoNi2DuN85Wm"
   },
   {
     "id": "jason-morris",
@@ -2519,7 +2475,9 @@
     "linked identities": [
       {
         "title": "Networked Associate",
-        "start": 2004
+        "start": 2004,
+        "end": 2004,
+        "id": 308
       }
     ],
     "name": "Jason Morris",
@@ -2529,8 +2487,7 @@
     "slug formula": "jason-morris",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec8BsCydSLZgxrPu",
-    "groupType": "Past"
+    "record_id": "rec8BsCydSLZgxrPu"
   },
   {
     "id": "ryan-long",
@@ -2575,7 +2532,8 @@
       {
         "title": "Vambery Fellow",
         "start": 2016,
-        "end": 2017
+        "end": 2017,
+        "id": 267
       }
     ],
     "name": "Ryan Long",
@@ -2585,8 +2543,7 @@
     "slug formula": "ryan-long",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec8UwPNikQ0j8bim",
-    "groupType": "Past"
+    "record_id": "rec8UwPNikQ0j8bim"
   },
   {
     "id": "allen-renear",
@@ -2642,8 +2599,7 @@
     "slug formula": "allen-renear",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:54:17.000Z",
-    "record_id": "rec8XeBqlXtZneoXF",
-    "groupType": "Current"
+    "record_id": "rec8XeBqlXtZneoXF"
   },
   {
     "id": "marc-ruppel",
@@ -2667,8 +2623,7 @@
     "slug formula": "marc-ruppel",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec8e93iZjR8P0QHZ",
-    "groupType": "Current"
+    "record_id": "rec8e93iZjR8P0QHZ"
   },
   {
     "id": "tintin-nguyen",
@@ -2686,7 +2641,8 @@
       {
         "title": "IT Assistant",
         "start": 2008,
-        "end": 2009
+        "end": 2009,
+        "id": 324
       }
     ],
     "name": "TinTin Nguyen",
@@ -2696,8 +2652,7 @@
     "slug formula": "tintin-nguyen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec8hyoa3ZoKqEdAB",
-    "groupType": "Past"
+    "record_id": "rec8hyoa3ZoKqEdAB"
   },
   {
     "id": "jason-scott",
@@ -2750,8 +2705,7 @@
     "slug formula": "jason-scott",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec8nDhf5DhrvwK06",
-    "groupType": "Current"
+    "record_id": "rec8nDhf5DhrvwK06"
   },
   {
     "id": "carla-peterson",
@@ -2808,7 +2762,8 @@
       {
         "title": "Resident Fellow (English)",
         "start": 2011,
-        "end": 2012
+        "end": 2012,
+        "id": 353
       }
     ],
     "name": "Carla L. Peterson",
@@ -2819,8 +2774,7 @@
     "slug formula": "carla-l-peterson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:35:59.000Z",
-    "record_id": "rec8xmRd0i75ytMYN",
-    "groupType": "Past"
+    "record_id": "rec8xmRd0i75ytMYN"
   },
   {
     "id": "margo-padilla",
@@ -2873,7 +2827,8 @@
       {
         "title": "National Digital Stewardship Resident",
         "start": 2013,
-        "end": 2014
+        "end": 2014,
+        "id": 339
       }
     ],
     "name": "Margo Padilla",
@@ -2884,8 +2839,7 @@
     "slug formula": "margo-padilla",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:35:21.000Z",
-    "record_id": "rec99as9KYXSorIKv",
-    "groupType": "Past"
+    "record_id": "rec99as9KYXSorIKv"
   },
   {
     "id": "lydia-zvyagintseva",
@@ -2931,7 +2885,9 @@
     "linked identities": [
       {
         "title": "Data Curation Intern",
-        "start": 2013
+        "start": 2013,
+        "end": 2013,
+        "id": 486
       }
     ],
     "name": "Lydia Zvyagintseva",
@@ -2941,8 +2897,7 @@
     "slug formula": "lydia-zvyagintseva",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rec9DyvpR33VittYF",
-    "groupType": "Past"
+    "record_id": "rec9DyvpR33VittYF"
   },
   {
     "id": "brent-seales",
@@ -2993,8 +2948,7 @@
     "slug formula": "brent-seales",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recA3sRcdtlj17PWL",
-    "groupType": "Current"
+    "record_id": "recA3sRcdtlj17PWL"
   },
   {
     "id": "douglas-reside",
@@ -3102,12 +3056,14 @@
       {
         "title": "Associate Director",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 378
       },
       {
         "title": "Assistant Director",
         "start": 2005,
-        "end": 2010
+        "end": 2010,
+        "id": 379
       }
     ],
     "name": "Doug Reside",
@@ -3118,8 +3074,7 @@
     "slug formula": "doug-reside",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T16:41:25.000Z",
-    "record_id": "recAPnvQ5zvVez1MD",
-    "groupType": "Past"
+    "record_id": "recAPnvQ5zvVez1MD"
   },
   {
     "id": "tapan-khatri",
@@ -3141,7 +3096,8 @@
       {
         "title": "Program Associate",
         "start": 2009,
-        "end": 2010
+        "end": 2010,
+        "id": 223
       }
     ],
     "name": "Tapan Khatri",
@@ -3151,8 +3107,7 @@
     "slug formula": "tapan-khatri",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-25T14:00:39.000Z",
-    "record_id": "recAaOfs60dort1Hf",
-    "groupType": "Past"
+    "record_id": "recAaOfs60dort1Hf"
   },
   {
     "id": "anne-balsamo",
@@ -3204,8 +3159,7 @@
     "slug formula": "anne-balsamo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:29:35.000Z",
-    "record_id": "recAfIzqPiAEX1xpr",
-    "groupType": "Current"
+    "record_id": "recAfIzqPiAEX1xpr"
   },
   {
     "id": "tara-mcpherson",
@@ -3232,8 +3186,7 @@
     "slug formula": "tara-mcpherson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:18:43.000Z",
-    "record_id": "recAjTEfjHC7Q2HSE",
-    "groupType": "Current"
+    "record_id": "recAjTEfjHC7Q2HSE"
   },
   {
     "id": "greg-jablonski",
@@ -3252,7 +3205,8 @@
       {
         "title": "Program Associate",
         "start": 2007,
-        "end": 2008
+        "end": 2008,
+        "id": 207
       }
     ],
     "name": "Greg Jablonski",
@@ -3262,8 +3216,7 @@
     "slug formula": "greg-jablonski",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recAl7UbxCnpyebwo",
-    "groupType": "Past"
+    "record_id": "recAl7UbxCnpyebwo"
   },
   {
     "id": "stephan-greene",
@@ -3290,8 +3243,7 @@
     "slug formula": "stephan-greene",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recAuNgbSJynB1EQj",
-    "groupType": "Current"
+    "record_id": "recAuNgbSJynB1EQj"
   },
   {
     "id": "evan-wang",
@@ -3335,7 +3287,8 @@
       {
         "title": "Technical Assistant ",
         "start": 2011,
-        "end": 2012
+        "end": 2012,
+        "id": 457
       }
     ],
     "name": "Evan Wang",
@@ -3345,8 +3298,7 @@
     "slug formula": "evan-wang",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recAvCSfv66mreQFc",
-    "groupType": "Past"
+    "record_id": "recAvCSfv66mreQFc"
   },
   {
     "id": "oluwasayofunmi-akinrodoye",
@@ -3392,7 +3344,9 @@
     "linked identities": [
       {
         "title": "Office Assistant",
-        "start": 2017
+        "start": 2017,
+        "end": 2017,
+        "id": 4
       }
     ],
     "name": "Oluwasayofunmi Akinrodoye",
@@ -3402,8 +3356,7 @@
     "slug formula": "oluwasayofunmi-akinrodoye",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recB14ENPpbbMD7Q4",
-    "groupType": "Past"
+    "record_id": "recB14ENPpbbMD7Q4"
   },
   {
     "id": "abigail-mcewen",
@@ -3453,8 +3406,7 @@
     "slug formula": "abigail-mcewen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recBDfisf3JpjH9OM",
-    "groupType": "Current"
+    "record_id": "recBDfisf3JpjH9OM"
   },
   {
     "id": "tanzina-iman",
@@ -3472,7 +3424,8 @@
       {
         "title": "Office Assistant",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 204
       }
     ],
     "name": "Tanzina Iman",
@@ -3482,8 +3435,7 @@
     "slug formula": "tanzina-iman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recBDi44D85tvr7H6",
-    "groupType": "Past"
+    "record_id": "recBDi44D85tvr7H6"
   },
   {
     "id": "christy-hyman",
@@ -3508,8 +3460,7 @@
     "slug formula": "christy-hyman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recBLihx2BVD7dy0K",
-    "groupType": "Current"
+    "record_id": "recBLihx2BVD7dy0K"
   },
   {
     "id": "matthew-k-gold",
@@ -3565,8 +3516,7 @@
     "slug formula": "matthew-k-gold",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T19:11:11.000Z",
-    "record_id": "recBRlbIlivG2Npao",
-    "groupType": "Current"
+    "record_id": "recBRlbIlivG2Npao"
   },
   {
     "id": "jurretta-jordan-heckscher",
@@ -3592,8 +3542,7 @@
     "slug formula": "jurretta-jordan-heckscher",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recBemlHv4ksvNU93",
-    "groupType": "Current"
+    "record_id": "recBemlHv4ksvNU93"
   },
   {
     "id": "ethan-watrall",
@@ -3644,8 +3593,7 @@
     "slug formula": "ethan-watrall",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:09:03.000Z",
-    "record_id": "recBeyNRWHAtVCJyS",
-    "groupType": "Current"
+    "record_id": "recBeyNRWHAtVCJyS"
   },
   {
     "id": "michelle-pridmore",
@@ -3691,7 +3639,9 @@
     "linked identities": [
       {
         "title": "Assistant Director, Finance and Administration",
-        "start": 2014
+        "start": 2014,
+        "end": 2014,
+        "id": 365
       }
     ],
     "name": "Michelle Pridmore",
@@ -3701,8 +3651,7 @@
     "slug formula": "michelle-pridmore",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recBsmK7GJLd9lVPm",
-    "groupType": "Past"
+    "record_id": "recBsmK7GJLd9lVPm"
   },
   {
     "id": "richard-su",
@@ -3719,7 +3668,9 @@
     "linked identities": [
       {
         "title": "Program Assistant",
-        "start": 2001
+        "start": 2001,
+        "end": 2001,
+        "id": 432
       }
     ],
     "name": "Richard Su",
@@ -3729,8 +3680,7 @@
     "slug formula": "richard-su",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recC3RVY6424EzCfB",
-    "groupType": "Past"
+    "record_id": "recC3RVY6424EzCfB"
   },
   {
     "id": "eric-white",
@@ -3756,12 +3706,14 @@
       {
         "title": "Program Assistant",
         "start": 2000,
-        "end": 2004
+        "end": 2004,
+        "id": 465
       },
       {
         "title": "Graphic Design & Webmaster",
         "start": 2000,
-        "end": 2004
+        "end": 2004,
+        "id": 817
       }
     ],
     "name": "Eric White",
@@ -3771,8 +3723,7 @@
     "slug formula": "eric-white",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T17:29:49.000Z",
-    "record_id": "recCAHlETNTJlOUUL",
-    "groupType": "Past"
+    "record_id": "recCAHlETNTJlOUUL"
   },
   {
     "id": "kishonna-l-gray",
@@ -3825,8 +3776,7 @@
     "slug formula": "kishonna-l-gray",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T04:10:34.000Z",
-    "record_id": "recCFpe8qjIct7FoK",
-    "groupType": "Current"
+    "record_id": "recCFpe8qjIct7FoK"
   },
   {
     "id": "sayan-bhattacharyya",
@@ -3848,7 +3798,9 @@
     "linked identities": [
       {
         "title": "IMLS Intern",
-        "start": 2013
+        "start": 2013,
+        "end": 2013,
+        "id": 28
       }
     ],
     "name": "Sayan Bhattacharyya",
@@ -3858,8 +3810,7 @@
     "slug formula": "sayan-bhattacharyya",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:21:49.000Z",
-    "record_id": "recCQxUqiw3LHTBfR",
-    "groupType": "Past"
+    "record_id": "recCQxUqiw3LHTBfR"
   },
   {
     "id": "laurie-allen",
@@ -3912,8 +3863,7 @@
     "slug formula": "laurie-allen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recCku7xSWzAVpRlZ",
-    "groupType": "Current"
+    "record_id": "recCku7xSWzAVpRlZ"
   },
   {
     "id": "beth-coleman",
@@ -3960,7 +3910,8 @@
       {
         "title": "Assistant Professor of Writing and New Media",
         "start": 2005,
-        "end": 2011
+        "end": 2011,
+        "id": 83
       }
     ],
     "name": "Beth Coleman",
@@ -3970,8 +3921,7 @@
     "slug formula": "beth-coleman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recCq9DuE5p5h2wj9",
-    "groupType": "Current"
+    "record_id": "recCq9DuE5p5h2wj9"
   },
   {
     "id": "alison-langmead",
@@ -4023,8 +3973,7 @@
     "slug formula": "alison-langmead",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recCuy0vv3gtwXJNM",
-    "groupType": "Current"
+    "record_id": "recCuy0vv3gtwXJNM"
   },
   {
     "id": "peter-kay",
@@ -4075,8 +4024,7 @@
     "slug formula": "peter-kay",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recDJmEeRVfHuOcCf",
-    "groupType": "Current"
+    "record_id": "recDJmEeRVfHuOcCf"
   },
   {
     "id": "libi-rose-striegl",
@@ -4100,8 +4048,7 @@
     "slug formula": "libi-rose-striegl",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recDKXbuVU1jqF4jo",
-    "groupType": "Current"
+    "record_id": "recDKXbuVU1jqF4jo"
   },
   {
     "id": "ted-dawson",
@@ -4126,8 +4073,7 @@
     "slug formula": "ted-dawson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recDYTTagJuDkchjU",
-    "groupType": "Current"
+    "record_id": "recDYTTagJuDkchjU"
   },
   {
     "id": "janel-brennan-tillmann",
@@ -4153,8 +4099,7 @@
     "slug formula": "janel-brennan-tillmann",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recDxgRyeJTD4eihc",
-    "groupType": "Current"
+    "record_id": "recDxgRyeJTD4eihc"
   },
   {
     "id": "darius-kazemi",
@@ -4206,8 +4151,7 @@
     "slug formula": "darius-kazemi",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:45:23.000Z",
-    "record_id": "recDxm6x9D4ipDOTd",
-    "groupType": "Current"
+    "record_id": "recDxm6x9D4ipDOTd"
   },
   {
     "id": "melissa-brown",
@@ -4254,7 +4198,8 @@
       {
         "title": "Graduate Assistant, AADHum",
         "start": 2016,
-        "end": 2019
+        "end": 2019,
+        "id": 53
       }
     ],
     "name": "Melissa Brown",
@@ -4264,8 +4209,7 @@
     "slug formula": "melissa-brown",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recDyUMlocZB9EqKd",
-    "groupType": "Past"
+    "record_id": "recDyUMlocZB9EqKd"
   },
   {
     "id": "erik-moore",
@@ -4282,7 +4226,8 @@
       {
         "title": "University Archivist",
         "start": 2021,
-        "end": 2022
+        "end": 2022,
+        "id": 774
       }
     ],
     "name": "Erik Moore",
@@ -4292,8 +4237,7 @@
     "slug formula": "erik-moore",
     "created": "2021-03-09T15:16:10.000Z",
     "modified": "2021-03-26T16:39:17.000Z",
-    "record_id": "recE2M2wPnxpIBTzh",
-    "groupType": "Current"
+    "record_id": "recE2M2wPnxpIBTzh"
   },
   {
     "id": "kevin-fries",
@@ -4311,7 +4255,8 @@
       {
         "title": "Administrative Assistant",
         "start": 2004,
-        "end": 2006
+        "end": 2006,
+        "id": 152
       }
     ],
     "name": "Kevin Fries",
@@ -4321,8 +4266,7 @@
     "slug formula": "kevin-fries",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recE7cEyfga1W6FYf",
-    "groupType": "Past"
+    "record_id": "recE7cEyfga1W6FYf"
   },
   {
     "id": "elizabeth-tobey",
@@ -4344,7 +4288,8 @@
       {
         "title": "Program Associate",
         "start": 2002,
-        "end": 2004
+        "end": 2004,
+        "id": 442
       }
     ],
     "name": "Elizabeth Tobey",
@@ -4354,8 +4299,7 @@
     "slug formula": "elizabeth-tobey",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recE9OqWXqMySlxns",
-    "groupType": "Past"
+    "record_id": "recE9OqWXqMySlxns"
   },
   {
     "id": "fred-gibbs",
@@ -4407,8 +4351,7 @@
     "slug formula": "fred-gibbs",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T20:34:46.000Z",
-    "record_id": "recEDp2EhRkmUOmY3",
-    "groupType": "Current"
+    "record_id": "recEDp2EhRkmUOmY3"
   },
   {
     "id": "eric-hoyt",
@@ -4441,8 +4384,7 @@
     "slug formula": "eric-hoyt",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:16:42.000Z",
-    "record_id": "recEFtLdFX1bEMTgo",
-    "groupType": "Current"
+    "record_id": "recEFtLdFX1bEMTgo"
   },
   {
     "id": "chris-funkhouser",
@@ -4467,8 +4409,7 @@
     "slug formula": "chris-funkhouser",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recEGvfeTkBQHr0Io",
-    "groupType": "Current"
+    "record_id": "recEGvfeTkBQHr0Io"
   },
   {
     "id": "elizabeth-abele",
@@ -4490,7 +4431,8 @@
       {
         "title": "Networked Associate",
         "start": 2001,
-        "end": 2002
+        "end": 2002,
+        "id": 1
       }
     ],
     "name": "Elizabeth Abele",
@@ -4500,8 +4442,7 @@
     "slug formula": "elizabeth-abele",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T15:07:54.000Z",
-    "record_id": "recEPCrLTihGAzgXX",
-    "groupType": "Past"
+    "record_id": "recEPCrLTihGAzgXX"
   },
   {
     "id": "ann-fraistat",
@@ -4524,8 +4465,7 @@
     "slug formula": "ann-fraistat",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T21:43:37.000Z",
-    "record_id": "recEqHCPgaTwAMpDg",
-    "groupType": "Current"
+    "record_id": "recEqHCPgaTwAMpDg"
   },
   {
     "id": "gregory-zinman",
@@ -4578,8 +4518,7 @@
     "slug formula": "gregory-zinman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:46:57.000Z",
-    "record_id": "recEtv30ED0tLlPO2",
-    "groupType": "Current"
+    "record_id": "recEtv30ED0tLlPO2"
   },
   {
     "id": "mark-priestley",
@@ -4630,8 +4569,7 @@
     "slug formula": "mark-priestley",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:11:59.000Z",
-    "record_id": "recF9xf5SsvTl528K",
-    "groupType": "Current"
+    "record_id": "recF9xf5SsvTl528K"
   },
   {
     "id": "rebecca-toov",
@@ -4648,7 +4586,8 @@
       {
         "title": "Collections Archivist",
         "start": 2021,
-        "end": 2022
+        "end": 2022,
+        "id": 775
       }
     ],
     "name": "Rebecca Toov",
@@ -4658,8 +4597,7 @@
     "slug formula": "rebecca-toov",
     "created": "2021-03-09T15:17:52.000Z",
     "modified": "2021-03-26T16:39:20.000Z",
-    "record_id": "recFSjPGO2AVgxNWZ",
-    "groupType": "Current"
+    "record_id": "recFSjPGO2AVgxNWZ"
   },
   {
     "id": "jessica-h-lu",
@@ -4715,12 +4653,14 @@
       {
         "title": "Graduate Assistant, AADHum",
         "start": 2016,
-        "end": 2017
+        "end": 2017,
+        "id": 273
       },
       {
         "title": "Postdoctoral Associate, AADHum",
         "start": 2017,
-        "end": 2019
+        "end": 2019,
+        "id": 274
       }
     ],
     "identities as current": [
@@ -4734,8 +4674,7 @@
     "slug formula": "jessica-h-lu",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:43:39.000Z",
-    "record_id": "recFZI2jUE5mb6JQJ",
-    "groupType": "Past"
+    "record_id": "recFZI2jUE5mb6JQJ"
   },
   {
     "id": "josh-shepperd",
@@ -4794,8 +4733,7 @@
     "slug formula": "josh-shepperd",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recFrjx8TjdUKSXcl",
-    "groupType": "Current"
+    "record_id": "recFrjx8TjdUKSXcl"
   },
   {
     "id": "marlene-mayo",
@@ -4825,8 +4763,7 @@
     "slug formula": "marlene-mayo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:43:09.000Z",
-    "record_id": "recFscZ6x0sChmT9O",
-    "groupType": "Past"
+    "record_id": "recFscZ6x0sChmT9O"
   },
   {
     "id": "ysaye-maria-barnwell",
@@ -4848,7 +4785,8 @@
       {
         "title": "Networked Associate",
         "start": 2001,
-        "end": 2002
+        "end": 2002,
+        "id": 19
       }
     ],
     "name": "Ysaye Maria Barnwell",
@@ -4858,8 +4796,7 @@
     "slug formula": "ysaye-maria-barnwell",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T17:17:24.000Z",
-    "record_id": "recFtdjAH2NXMOy2I",
-    "groupType": "Past"
+    "record_id": "recFtdjAH2NXMOy2I"
   },
   {
     "id": "paul-jaskot",
@@ -4912,8 +4849,7 @@
     "slug formula": "paul-jaskot",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:06:35.000Z",
-    "record_id": "recFtrtfa3Chiw1Z4",
-    "groupType": "Current"
+    "record_id": "recFtrtfa3Chiw1Z4"
   },
   {
     "id": "katie-king",
@@ -4940,7 +4876,9 @@
     "linked identities": [
       {
         "title": "Resident Fellow (Women's Studies)",
-        "start": 2000
+        "start": 2000,
+        "end": 2000,
+        "id": 229
       }
     ],
     "name": "Katie King",
@@ -4951,8 +4889,7 @@
     "slug formula": "katie-king",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T15:07:54.000Z",
-    "record_id": "recFuRmzQpIwsupcc",
-    "groupType": "Past"
+    "record_id": "recFuRmzQpIwsupcc"
   },
   {
     "id": "lynn-cazabon",
@@ -5002,8 +4939,7 @@
     "slug formula": "lynn-cazabon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T22:25:32.000Z",
-    "record_id": "recGjPoJk71BxsJuX",
-    "groupType": "Current"
+    "record_id": "recGjPoJk71BxsJuX"
   },
   {
     "id": "lesley-azike",
@@ -5048,7 +4984,8 @@
       {
         "title": "Office Assistant",
         "start": 2017,
-        "end": 2018
+        "end": 2018,
+        "id": 11
       }
     ],
     "name": "Lesley Azike",
@@ -5058,8 +4995,7 @@
     "slug formula": "lesley-azike",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recGzJsSpZpqMyPPf",
-    "groupType": "Past"
+    "record_id": "recGzJsSpZpqMyPPf"
   },
   {
     "id": "david-mimno",
@@ -5111,8 +5047,7 @@
     "slug formula": "david-mimno",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:27:01.000Z",
-    "record_id": "recH8BtQNwlZS889R",
-    "groupType": "Current"
+    "record_id": "recH8BtQNwlZS889R"
   },
   {
     "id": "kim-gallon",
@@ -5166,8 +5101,7 @@
     "slug formula": "kim-gallon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recHN62x4sR97FtMJ",
-    "groupType": "Current"
+    "record_id": "recHN62x4sR97FtMJ"
   },
   {
     "id": "linda-frueh",
@@ -5221,8 +5155,7 @@
     "slug formula": "linda-frueh",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recHNMGNEakMOCpDJ",
-    "groupType": "Current"
+    "record_id": "recHNMGNEakMOCpDJ"
   },
   {
     "id": "queenita-barnes",
@@ -5240,7 +5173,8 @@
       {
         "title": "Accounting Assistant",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 18
       }
     ],
     "name": "Queenita Barnes",
@@ -5250,8 +5184,7 @@
     "slug formula": "queenita-barnes",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recHvf9Ab9lvgayCL",
-    "groupType": "Past"
+    "record_id": "recHvf9Ab9lvgayCL"
   },
   {
     "id": "cory-bohon",
@@ -5304,7 +5237,8 @@
       {
         "title": "Web Developer",
         "start": 2012,
-        "end": 2013
+        "end": 2013,
+        "id": 35
       }
     ],
     "name": "Cory Bohon",
@@ -5314,8 +5248,7 @@
     "slug formula": "cory-bohon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recIEADNSFRhULz2v",
-    "groupType": "Past"
+    "record_id": "recIEADNSFRhULz2v"
   },
   {
     "id": "lisa-m-snyder",
@@ -5339,8 +5272,7 @@
     "slug formula": "lisa-m-snyder",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T22:27:58.000Z",
-    "record_id": "recINtJtnkJHMfqc8",
-    "groupType": "Current"
+    "record_id": "recINtJtnkJHMfqc8"
   },
   {
     "id": "henry-lovejoy",
@@ -5391,8 +5323,7 @@
     "slug formula": "henry-lovejoy",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:25:30.000Z",
-    "record_id": "recIO64uw1aV7pxTW",
-    "groupType": "Current"
+    "record_id": "recIO64uw1aV7pxTW"
   },
   {
     "id": "tara-mcclelland",
@@ -5411,7 +5342,8 @@
       {
         "title": "Program Associate",
         "start": 2005,
-        "end": 2006
+        "end": 2006,
+        "id": 291
       }
     ],
     "name": "Tara McClelland",
@@ -5421,8 +5353,7 @@
     "slug formula": "tara-mcclelland",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recIXOWYBGAkBGUYv",
-    "groupType": "Past"
+    "record_id": "recIXOWYBGAkBGUYv"
   },
   {
     "id": "thomas-gideon",
@@ -5448,8 +5379,7 @@
     "slug formula": "thomas-gideon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-27T03:06:17.000Z",
-    "record_id": "recJ1IJjIlLx1lbpp",
-    "groupType": "Current"
+    "record_id": "recJ1IJjIlLx1lbpp"
   },
   {
     "id": "catherine-knight-steele",
@@ -5509,17 +5439,10 @@
     ],
     "linked identities": [
       {
-        "title": "MITH Affiliate Assistant Professor",
-        "start": 2018
-      },
-      {
         "title": "Director of AADHum",
         "start": 2016,
-        "end": 2018
-      },
-      {
-        "title": "Assistant Professor of Communication",
-        "start": 2016
+        "end": 2018,
+        "id": 236
       }
     ],
     "identities as current": [
@@ -5535,8 +5458,7 @@
     "slug formula": "catherine-knight-steele",
     "created": "2021-02-11T20:19:52.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recJB9khC3kthEB0k",
-    "groupType": "Past"
+    "record_id": "recJB9khC3kthEB0k"
   },
   {
     "id": "richard-freedman",
@@ -5593,8 +5515,7 @@
     "slug formula": "richard-freedman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:18:12.000Z",
-    "record_id": "recJCIMlM4X49LMkR",
-    "groupType": "Current"
+    "record_id": "recJCIMlM4X49LMkR"
   },
   {
     "id": "carolina-robertson",
@@ -5617,7 +5538,8 @@
       {
         "title": "Resident Fellow (Ethnomusicology)",
         "start": 2002,
-        "end": 2003
+        "end": 2003,
+        "id": 388
       }
     ],
     "name": "Carolina Robertson",
@@ -5627,8 +5549,7 @@
     "slug formula": "carolina-robertson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:44:24.000Z",
-    "record_id": "recJVzOIFyKGIFLWw",
-    "groupType": "Past"
+    "record_id": "recJVzOIFyKGIFLWw"
   },
   {
     "id": "amanda-visconti",
@@ -5705,21 +5626,26 @@
       {
         "title": "Winnemore Digital Humanities Dissertation Fellow",
         "start": 2014,
-        "end": 2015
+        "end": 2015,
+        "id": 453
       },
       {
         "title": "US Institute of Museum and Library Services (IMLS) Model Digital Humanities Intern",
-        "start": 2009
+        "start": 2009,
+        "end": 2009,
+        "id": 454
       },
       {
         "title": "Graduate Assistant, BitCurator Project",
         "start": 2013,
-        "end": 2014
+        "end": 2014,
+        "id": 455
       },
       {
         "title": "Webmaster",
         "start": 2009,
-        "end": 2013
+        "end": 2013,
+        "id": 456
       }
     ],
     "name": "Amanda Visconti",
@@ -5730,8 +5656,7 @@
     "slug formula": "amanda-visconti",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:08:23.000Z",
-    "record_id": "recJZoV1BNBC8352X",
-    "groupType": "Past"
+    "record_id": "recJZoV1BNBC8352X"
   },
   {
     "id": "francena-turner",
@@ -5775,12 +5700,7 @@
     ],
     "new id": 362,
     "wordpress id": 21186,
-    "linked identities": [
-      {
-        "title": "Postdoctoral Associate for Data Curation, AADHum/MITH",
-        "start": 2020
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recovFfE6IdbhKkJY"
     ],
@@ -5794,8 +5714,7 @@
     "record_id": "recJw6zduU3Qsq1VG",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "david-kirsch",
@@ -5820,8 +5739,7 @@
     "slug formula": "david-kirsch",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recJzqLIn1K1ZvZUk",
-    "groupType": "Current"
+    "record_id": "recJzqLIn1K1ZvZUk"
   },
   {
     "id": "jeremy-dibbell",
@@ -5873,8 +5791,7 @@
     "slug formula": "jeremy-dibbell",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recKUBVCyXsxcj1or",
-    "groupType": "Current"
+    "record_id": "recKUBVCyXsxcj1or"
   },
   {
     "id": "cheryl-ball",
@@ -5927,8 +5844,7 @@
     "slug formula": "cheryl-ball",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:12:23.000Z",
-    "record_id": "recKVtxsux63uiBsb",
-    "groupType": "Current"
+    "record_id": "recKVtxsux63uiBsb"
   },
   {
     "id": "jim-casey",
@@ -5981,8 +5897,7 @@
     "slug formula": "jim-casey",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:52:14.000Z",
-    "record_id": "recKegJ9tjhYrcxQ8",
-    "groupType": "Current"
+    "record_id": "recKegJ9tjhYrcxQ8"
   },
   {
     "id": "tsahai-crawlle",
@@ -6025,7 +5940,9 @@
     "linked identities": [
       {
         "title": "Program Assistant",
-        "start": 2018
+        "start": 2018,
+        "end": 2018,
+        "id": 95
       }
     ],
     "name": "Tsahai Crawlle",
@@ -6035,8 +5952,7 @@
     "slug formula": "tsahai-crawlle",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recKh9UBSD4EJPdVt",
-    "groupType": "Past"
+    "record_id": "recKh9UBSD4EJPdVt"
   },
   {
     "id": "julie-huang",
@@ -6054,7 +5970,8 @@
       {
         "title": "Program Assistant",
         "start": 2001,
-        "end": 2003
+        "end": 2003,
+        "id": 200
       }
     ],
     "name": "Julie Huang",
@@ -6064,8 +5981,7 @@
     "slug formula": "julie-huang",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recKh9uUAOHFm9L2B",
-    "groupType": "Past"
+    "record_id": "recKh9uUAOHFm9L2B"
   },
   {
     "id": "david-saltz",
@@ -6117,8 +6033,7 @@
     "slug formula": "david-saltz",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recKoiIkf5UattFRY",
-    "groupType": "Current"
+    "record_id": "recKoiIkf5UattFRY"
   },
   {
     "id": "lisa-gitelman",
@@ -6143,8 +6058,7 @@
     "slug formula": "lisa-gitelman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T23:13:26.000Z",
-    "record_id": "recKqgKumncULpOpL",
-    "groupType": "Current"
+    "record_id": "recKqgKumncULpOpL"
   },
   {
     "id": "christina-lambert",
@@ -6188,12 +6102,14 @@
       {
         "title": "Assistant Director, Finance and Administration",
         "start": 2012,
-        "end": 2013
+        "end": 2013,
+        "id": 247
       },
       {
         "title": "Business Manager",
         "start": 2008,
-        "end": 2012
+        "end": 2012,
+        "id": 248
       }
     ],
     "name": "Christina Lambert",
@@ -6203,8 +6119,7 @@
     "slug formula": "christina-lambert",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recL8sIQawdvNhzPV",
-    "groupType": "Past"
+    "record_id": "recL8sIQawdvNhzPV"
   },
   {
     "id": "justin-hosbey",
@@ -6250,7 +6165,8 @@
       {
         "title": "Postdoctoral Associate, AADHum",
         "start": 2016,
-        "end": 2017
+        "end": 2017,
+        "id": 198
       }
     ],
     "name": "Justin Hosbey",
@@ -6260,8 +6176,7 @@
     "slug formula": "justin-hosbey",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recLJpviffGJCMM3g",
-    "groupType": "Past"
+    "record_id": "recLJpviffGJCMM3g"
   },
   {
     "id": "silvia-mejia-estevez",
@@ -6288,7 +6203,8 @@
       {
         "title": "Vambery Fellow",
         "start": 2005,
-        "end": 2006
+        "end": 2006,
+        "id": 298
       }
     ],
     "name": "Silvia Mejía Estévez",
@@ -6298,8 +6214,7 @@
     "slug formula": "silvia-mejia-estevez",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:40:11.000Z",
-    "record_id": "recLK7TT5jEvCrHcc",
-    "groupType": "Past"
+    "record_id": "recLK7TT5jEvCrHcc"
   },
   {
     "id": "irene-eleta",
@@ -6350,8 +6265,7 @@
     "slug formula": "irene-eleta",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recLLmbbAAToP4FHA",
-    "groupType": "Current"
+    "record_id": "recLLmbbAAToP4FHA"
   },
   {
     "id": "matthew-thomas-miller",
@@ -6406,12 +6320,7 @@
     "events as speaker": [
       "recvTrMAIfmqkkPKQ"
     ],
-    "linked identities": [
-      {
-        "title": "MITH Affiliate Assistant Professor",
-        "start": 2018
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "rec2cQCDZhg6lptpU",
       "recvdjvgZmsix6lpH"
@@ -6423,8 +6332,7 @@
     "slug formula": "matthew-thomas-miller",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recLnT2ZjBy8DpEBW",
-    "groupType": "Current"
+    "record_id": "recLnT2ZjBy8DpEBW"
   },
   {
     "id": "sarah-patterson",
@@ -6476,8 +6384,7 @@
     "slug formula": "sarah-patterson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:53:45.000Z",
-    "record_id": "recLr7B8fBKdTaATy",
-    "groupType": "Current"
+    "record_id": "recLr7B8fBKdTaATy"
   },
   {
     "id": "gisele-audrey-mills",
@@ -6499,7 +6406,8 @@
       {
         "title": "Program Associate",
         "start": 2000,
-        "end": 2002
+        "end": 2002,
+        "id": 9
       }
     ],
     "name": "Gisele Audrey-Mills",
@@ -6509,8 +6417,7 @@
     "slug formula": "gisele-audrey-mills",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recLx4re5Bz57VyZn",
-    "groupType": "Past"
+    "record_id": "recLx4re5Bz57VyZn"
   },
   {
     "id": "kristen-waters",
@@ -6532,7 +6439,8 @@
       {
         "title": "Program Assistant ",
         "start": 2001,
-        "end": 2003
+        "end": 2003,
+        "id": 459
       }
     ],
     "name": "Kristen Waters",
@@ -6542,8 +6450,7 @@
     "slug formula": "kristen-waters",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recLxTOCjoEq0Mq2e",
-    "groupType": "Past"
+    "record_id": "recLxTOCjoEq0Mq2e"
   },
   {
     "id": "nadja-masura",
@@ -6576,8 +6483,7 @@
     "slug formula": "nadja-masura",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:19:56.000Z",
-    "record_id": "recLyI0Z11dGPzM2A",
-    "groupType": "Past"
+    "record_id": "recLyI0Z11dGPzM2A"
   },
   {
     "id": "missy-waters",
@@ -6595,7 +6501,8 @@
       {
         "title": "Administrative Assistant",
         "start": 2001,
-        "end": 2003
+        "end": 2003,
+        "id": 460
       }
     ],
     "name": "Missy Waters",
@@ -6605,8 +6512,7 @@
     "slug formula": "missy-waters",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recMAjXLBEMtNlsmM",
-    "groupType": "Past"
+    "record_id": "recMAjXLBEMtNlsmM"
   },
   {
     "id": "nicole-saylor",
@@ -6631,8 +6537,7 @@
     "slug formula": "nicole-saylor",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:22:46.000Z",
-    "record_id": "recMacocH6hPkeIhB",
-    "groupType": "Current"
+    "record_id": "recMacocH6hPkeIhB"
   },
   {
     "id": "ann-weeks",
@@ -6684,8 +6589,7 @@
     "slug formula": "ann-weeks",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recMbU0XY4AH6PtXD",
-    "groupType": "Current"
+    "record_id": "recMbU0XY4AH6PtXD"
   },
   {
     "id": "elissa-frankle",
@@ -6737,8 +6641,7 @@
     "slug formula": "elissa-frankle",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:02:49.000Z",
-    "record_id": "recMdrB14Tx6023bc",
-    "groupType": "Current"
+    "record_id": "recMdrB14Tx6023bc"
   },
   {
     "id": "mary-flanagan",
@@ -6792,8 +6695,7 @@
     "slug formula": "mary-flanagan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recMsUOwlkysRrVNl",
-    "groupType": "Current"
+    "record_id": "recMsUOwlkysRrVNl"
   },
   {
     "id": "joanne-archer",
@@ -6819,8 +6721,7 @@
     "slug formula": "joanne-archer",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T17:13:46.000Z",
-    "record_id": "recMyG5yaJDlXRfsk",
-    "groupType": "Current"
+    "record_id": "recMyG5yaJDlXRfsk"
   },
   {
     "id": "franklin-j-hildy",
@@ -6848,7 +6749,8 @@
       {
         "title": "Resident Fellow (Theatre)",
         "start": 2009,
-        "end": 2011
+        "end": 2011,
+        "id": 196
       }
     ],
     "name": "Franklin J. Hildy",
@@ -6859,8 +6761,7 @@
     "slug formula": "franklin-j-hildy",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:18:58.000Z",
-    "record_id": "recN0QDZoEYnkryTE",
-    "groupType": "Past"
+    "record_id": "recN0QDZoEYnkryTE"
   },
   {
     "id": "max-symuleski",
@@ -6885,8 +6786,7 @@
     "slug formula": "max-symuleski",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recNAkyk5HW0uDVsC",
-    "groupType": "Current"
+    "record_id": "recNAkyk5HW0uDVsC"
   },
   {
     "id": "elisabeth-kvernen",
@@ -6918,7 +6818,8 @@
       {
         "title": "Web Designer",
         "start": 2009,
-        "end": 2011
+        "end": 2011,
+        "id": 244
       }
     ],
     "name": "Elisabeth Kvernen",
@@ -6928,8 +6829,7 @@
     "slug formula": "elisabeth-kvernen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recNPnoYN7o0AB6GT",
-    "groupType": "Past"
+    "record_id": "recNPnoYN7o0AB6GT"
   },
   {
     "id": "jason-farman",
@@ -6991,11 +6891,8 @@
       {
         "title": "MITH Affiliate Associate Professor",
         "start": 2018,
-        "end": 2020
-      },
-      {
-        "title": "MITH Affiliate Professor",
-        "start": 2020
+        "end": 2020,
+        "id": 126
       }
     ],
     "identities as current": [
@@ -7011,8 +6908,7 @@
     "slug formula": "jason-farman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recNbzdr63uVx3Szs",
-    "groupType": "Current"
+    "record_id": "recNbzdr63uVx3Szs"
   },
   {
     "id": "natasha-jones",
@@ -7030,7 +6926,8 @@
       {
         "title": "Business Services Specialist",
         "start": 2007,
-        "end": 2008
+        "end": 2008,
+        "id": 212
       }
     ],
     "name": "Natasha Jones",
@@ -7040,8 +6937,7 @@
     "slug formula": "natasha-jones",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recNmjhjSoggZs3m8",
-    "groupType": "Past"
+    "record_id": "recNmjhjSoggZs3m8"
   },
   {
     "id": "dave-lester",
@@ -7136,12 +7032,14 @@
       {
         "title": "Creative Lead",
         "start": 2011,
-        "end": 2012
+        "end": 2012,
+        "id": 258
       },
       {
         "title": "Assistant Director",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 259
       }
     ],
     "name": "Dave Lester",
@@ -7152,8 +7050,7 @@
     "slug formula": "dave-lester",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recNoH02qOawGRF5V",
-    "groupType": "Past"
+    "record_id": "recNoH02qOawGRF5V"
   },
   {
     "id": "paul-evans",
@@ -7203,7 +7100,8 @@
       {
         "title": "Research Assistant (Active OCR)",
         "start": 2011,
-        "end": 2013
+        "end": 2013,
+        "id": 124
       }
     ],
     "name": "Paul Evans",
@@ -7213,8 +7111,7 @@
     "slug formula": "paul-evans",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recNxMTD7J7eycnid",
-    "groupType": "Past"
+    "record_id": "recNxMTD7J7eycnid"
   },
   {
     "id": "alex-quinn",
@@ -7233,7 +7130,8 @@
       {
         "title": "Program Associate",
         "start": 2009,
-        "end": 2010
+        "end": 2010,
+        "id": 371
       }
     ],
     "name": "Alex Quinn",
@@ -7243,8 +7141,7 @@
     "slug formula": "alex-quinn",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recO3mPmWY5AZM8Kh",
-    "groupType": "Past"
+    "record_id": "recO3mPmWY5AZM8Kh"
   },
   {
     "id": "walter-forsberg",
@@ -7295,8 +7192,7 @@
     "slug formula": "walter-forsberg",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recOO1BxD45VJrE7u",
-    "groupType": "Current"
+    "record_id": "recOO1BxD45VJrE7u"
   },
   {
     "id": "tanya-clement",
@@ -7359,16 +7255,20 @@
       {
         "title": "Graduate Research Assistant",
         "start": 2002,
-        "end": 2006
+        "end": 2006,
+        "id": 78
       },
       {
         "title": "Program Associate",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 79
       },
       {
         "title": "Winnemore Digital Humanities Dissertation Fellow",
-        "start": 2008
+        "start": 2008,
+        "end": 2008,
+        "id": 80
       }
     ],
     "name": "Tanya Clement",
@@ -7379,8 +7279,7 @@
     "slug formula": "tanya-clement",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:20:09.000Z",
-    "record_id": "recORl6yPgLBsS56A",
-    "groupType": "Past"
+    "record_id": "recORl6yPgLBsS56A"
   },
   {
     "id": "william-noel",
@@ -7406,8 +7305,7 @@
     "slug formula": "william-noel",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recOZDbckHrW7LLCw",
-    "groupType": "Current"
+    "record_id": "recOZDbckHrW7LLCw"
   },
   {
     "id": "walker-sampson",
@@ -7428,7 +7326,9 @@
     "linked identities": [
       {
         "title": "IMLS Intern",
-        "start": 2010
+        "start": 2010,
+        "end": 2010,
+        "id": 398
       }
     ],
     "name": "Walker Sampson",
@@ -7438,8 +7338,7 @@
     "slug formula": "walker-sampson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recOfiA42LO3sANbr",
-    "groupType": "Past"
+    "record_id": "recOfiA42LO3sANbr"
   },
   {
     "id": "avery-dame",
@@ -7498,7 +7397,8 @@
       {
         "title": "Winnemore Digital Humanities Dissertation Fellow",
         "start": 2016,
-        "end": 2017
+        "end": 2017,
+        "id": 98
       }
     ],
     "name": "Avery Dame",
@@ -7509,8 +7409,7 @@
     "slug formula": "avery-dame",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:18:32.000Z",
-    "record_id": "recOzp6huBRRa9lgS",
-    "groupType": "Past"
+    "record_id": "recOzp6huBRRa9lgS"
   },
   {
     "id": "alexandrina-agloro",
@@ -7565,8 +7464,7 @@
     "slug formula": "alexandrina-agloro",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recPCR2XxJAeSICjF",
-    "groupType": "Current"
+    "record_id": "recPCR2XxJAeSICjF"
   },
   {
     "id": "diana-kim",
@@ -7609,7 +7507,9 @@
     "linked identities": [
       {
         "title": "Office Assistant",
-        "start": 2012
+        "start": 2012,
+        "end": 2012,
+        "id": 228
       }
     ],
     "name": "Diana Kim",
@@ -7619,8 +7519,7 @@
     "slug formula": "diana-kim",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recPIigf2rIfpS6Pf",
-    "groupType": "Past"
+    "record_id": "recPIigf2rIfpS6Pf"
   },
   {
     "id": "kaiama-glover",
@@ -7674,8 +7573,7 @@
     "slug formula": "kaiama-glover",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recPUunBqNPd50cgc",
-    "groupType": "Current"
+    "record_id": "recPUunBqNPd50cgc"
   },
   {
     "id": "morgan-hrab",
@@ -7722,8 +7620,7 @@
     "slug formula": "morgan-hrab",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:19:59.000Z",
-    "record_id": "recPk4gwK0dkdz0PP",
-    "groupType": "Past"
+    "record_id": "recPk4gwK0dkdz0PP"
   },
   {
     "id": "andrew-matusko",
@@ -7745,7 +7642,8 @@
       {
         "title": "Program Associate",
         "start": 2006,
-        "end": 2007
+        "end": 2007,
+        "id": 289
       }
     ],
     "name": "Andrew Matusko",
@@ -7755,8 +7653,7 @@
     "slug formula": "andrew-matusko",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T16:41:42.000Z",
-    "record_id": "recPpzk1BqGBBJNR3",
-    "groupType": "Past"
+    "record_id": "recPpzk1BqGBBJNR3"
   },
   {
     "id": "michael-quilligan",
@@ -7780,8 +7677,7 @@
     "slug formula": "michael-quilligan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recQHrzsgc33WXr7a",
-    "groupType": "Current"
+    "record_id": "recQHrzsgc33WXr7a"
   },
   {
     "id": "karen-obrien",
@@ -7799,7 +7695,8 @@
       {
         "title": "Business Assistant",
         "start": 2011,
-        "end": 2013
+        "end": 2013,
+        "id": 331
       }
     ],
     "name": "Karen O'Brien",
@@ -7809,8 +7706,7 @@
     "slug formula": "karen-obrien",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T20:19:14.000Z",
-    "record_id": "recQcfmXHgpc65GYk",
-    "groupType": "Past"
+    "record_id": "recQcfmXHgpc65GYk"
   },
   {
     "id": "jarom-mcdonald",
@@ -7834,7 +7730,8 @@
       {
         "title": "Program Associate",
         "start": 2000,
-        "end": 2005
+        "end": 2005,
+        "id": 293
       }
     ],
     "name": "Jarom McDonald",
@@ -7844,8 +7741,7 @@
     "slug formula": "jarom-mcdonald",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:24:15.000Z",
-    "record_id": "recQfUehku3w1pvae",
-    "groupType": "Past"
+    "record_id": "recQfUehku3w1pvae"
   },
   {
     "id": "jarred-young",
@@ -7870,8 +7766,7 @@
     "slug formula": "jarred-young",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recR4kMiMmlK2JsH3",
-    "groupType": "Current"
+    "record_id": "recR4kMiMmlK2JsH3"
   },
   {
     "id": "julie-meloni",
@@ -7896,8 +7791,7 @@
     "slug formula": "julie-meloni",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recRX54HuoUzDAknm",
-    "groupType": "Current"
+    "record_id": "recRX54HuoUzDAknm"
   },
   {
     "id": "chris-apple",
@@ -7925,8 +7819,7 @@
     "slug formula": "chris-apple",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recRgBapMS8lkyY3q",
-    "groupType": "Current"
+    "record_id": "recRgBapMS8lkyY3q"
   },
   {
     "id": "jo-paoletti",
@@ -7952,8 +7845,7 @@
     "slug formula": "jo-paoletti",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T15:04:42.000Z",
-    "record_id": "recRh2MIJvzs1blVj",
-    "groupType": "Past"
+    "record_id": "recRh2MIJvzs1blVj"
   },
   {
     "id": "ricardo-punzalan",
@@ -8010,7 +7902,8 @@
       {
         "title": "MITH Affiliate Assistant Professor",
         "start": 2018,
-        "end": 2020
+        "end": 2020,
+        "id": 369
       }
     ],
     "name": "Ricardo Punzalan",
@@ -8020,8 +7913,7 @@
     "slug formula": "ricardo-punzalan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recRiCywUlURgLhet",
-    "groupType": "Past"
+    "record_id": "recRiCywUlURgLhet"
   },
   {
     "id": "anna-kijas",
@@ -8073,8 +7965,7 @@
     "slug formula": "anna-kijas",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recRs6YYJHPDpZiHm",
-    "groupType": "Current"
+    "record_id": "recRs6YYJHPDpZiHm"
   },
   {
     "id": "adam-minakowski",
@@ -8092,7 +7983,8 @@
       {
         "title": "US Institute of Museum and Library Services (IMLS) Intern",
         "start": 2009,
-        "end": 2010
+        "end": 2010,
+        "id": 305
       }
     ],
     "name": "Adam Minakowski",
@@ -8102,8 +7994,7 @@
     "slug formula": "adam-minakowski",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recSCGRkBym0uXTU6",
-    "groupType": "Past"
+    "record_id": "recSCGRkBym0uXTU6"
   },
   {
     "id": "regina-harrison",
@@ -8130,7 +8021,8 @@
       {
         "title": "Resident Fellow (Comparative Literature)",
         "start": 2003,
-        "end": 2004
+        "end": 2004,
+        "id": 187
       }
     ],
     "name": "Regina Harrison",
@@ -8141,8 +8033,7 @@
     "slug formula": "regina-harrison",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:43:09.000Z",
-    "record_id": "recSD6BHX6pYgbatB",
-    "groupType": "Past"
+    "record_id": "recSD6BHX6pYgbatB"
   },
   {
     "id": "susan-schreibman",
@@ -8176,7 +8067,8 @@
       {
         "title": "Assistant Director",
         "start": 2001,
-        "end": 2004
+        "end": 2004,
+        "id": 407
       }
     ],
     "name": "Susan Schreibman",
@@ -8187,8 +8079,7 @@
     "slug formula": "susan-schreibman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T17:28:12.000Z",
-    "record_id": "recSUbzL5y3vwPYzC",
-    "groupType": "Past"
+    "record_id": "recSUbzL5y3vwPYzC"
   },
   {
     "id": "jarrett-drake",
@@ -8240,8 +8131,7 @@
     "slug formula": "jarrett-drake",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recSaqBRtipXypcZE",
-    "groupType": "Current"
+    "record_id": "recSaqBRtipXypcZE"
   },
   {
     "id": "porter-olsen",
@@ -8304,12 +8194,14 @@
       {
         "title": "BitCurator Community Lead",
         "start": 2013,
-        "end": 2014
+        "end": 2014,
+        "id": 333
       },
       {
         "title": "Research Assistant",
         "start": 2012,
-        "end": 2013
+        "end": 2013,
+        "id": 334
       }
     ],
     "name": "Porter Olsen",
@@ -8320,8 +8212,7 @@
     "slug formula": "porter-olsen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:48:16.000Z",
-    "record_id": "recSctBaXeWtMGsl8",
-    "groupType": "Past"
+    "record_id": "recSctBaXeWtMGsl8"
   },
   {
     "id": "david-durden",
@@ -8370,7 +8261,9 @@
     "linked identities": [
       {
         "title": "Intern, Audiovisual Data Curation",
-        "start": 2016
+        "start": 2016,
+        "end": 2016,
+        "id": 117
       }
     ],
     "name": "David Durden",
@@ -8380,8 +8273,7 @@
     "slug formula": "david-durden",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recSfjFEKtc6OY9UT",
-    "groupType": "Past"
+    "record_id": "recSfjFEKtc6OY9UT"
   },
   {
     "id": "kenton-rambsy",
@@ -8434,8 +8326,7 @@
     "slug formula": "kenton-rambsy",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T04:07:17.000Z",
-    "record_id": "recSmBF0lCtABOWC2",
-    "groupType": "Current"
+    "record_id": "recSmBF0lCtABOWC2"
   },
   {
     "id": "hester-baer",
@@ -8487,7 +8378,8 @@
       {
         "title": "Vambery Distinguished Professor of Comparative Studies",
         "start": 2014,
-        "end": 2015
+        "end": 2015,
+        "id": 14
       }
     ],
     "name": "Hester Baer",
@@ -8497,8 +8389,7 @@
     "slug formula": "hester-baer",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:20:38.000Z",
-    "record_id": "recStUtIUAlbf3xot",
-    "groupType": "Past"
+    "record_id": "recStUtIUAlbf3xot"
   },
   {
     "id": "lori-emerson",
@@ -8548,8 +8439,7 @@
     "slug formula": "lori-emerson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:33:46.000Z",
-    "record_id": "recT8mG0u7h2IlQel",
-    "groupType": "Current"
+    "record_id": "recT8mG0u7h2IlQel"
   },
   {
     "id": "sayeed-choudhury",
@@ -8625,8 +8515,7 @@
     "slug formula": "sayeed-choudhury",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T04:34:25.000Z",
-    "record_id": "recTNvjd4Wy8OSSEK",
-    "groupType": "Current"
+    "record_id": "recTNvjd4Wy8OSSEK"
   },
   {
     "id": "aditi-muralidharan",
@@ -8677,8 +8566,7 @@
     "slug formula": "aditi-muralidharan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recTSafxwlqSbY9CC",
-    "groupType": "Current"
+    "record_id": "recTSafxwlqSbY9CC"
   },
   {
     "id": "kathleen-fitzpatrick",
@@ -8703,8 +8591,7 @@
     "slug formula": "kathleen-fitzpatrick",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recTa1xHHi8qYfbxZ",
-    "groupType": "Current"
+    "record_id": "recTa1xHHi8qYfbxZ"
   },
   {
     "id": "ed-summers",
@@ -8775,12 +8662,7 @@
     "events as participant": [
       "recLzu5qlGNcIqugP"
     ],
-    "linked identities": [
-      {
-        "title": "Research Faculty",
-        "start": 2014
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recdklUrsUJbUsbCZ"
     ],
@@ -8795,8 +8677,7 @@
     "record_id": "recTjXRwnbTyBl6aV",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "john-murray",
@@ -8821,7 +8702,9 @@
     "linked identities": [
       {
         "title": "Intern",
-        "start": 2007
+        "start": 2007,
+        "end": 2007,
+        "id": 316
       }
     ],
     "name": "John Murray",
@@ -8832,8 +8715,7 @@
     "slug formula": "john-murray",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recTqHFODU9u22Pg0",
-    "groupType": "Past"
+    "record_id": "recTqHFODU9u22Pg0"
   },
   {
     "id": "kari-kraus",
@@ -8896,8 +8778,7 @@
     "slug formula": "kari-kraus",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T20:16:45.000Z",
-    "record_id": "recTrL6fAc4KAH8XE",
-    "groupType": "Current"
+    "record_id": "recTrL6fAc4KAH8XE"
   },
   {
     "id": "grace-babukiika",
@@ -8959,8 +8840,7 @@
     "record_id": "recU1lvfyUmho8Gx7",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "craig-saper",
@@ -9010,8 +8890,7 @@
     "slug formula": "craig-saper",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recUFT26w8LGao6FK",
-    "groupType": "Current"
+    "record_id": "recUFT26w8LGao6FK"
   },
   {
     "id": "martha-nell-smith",
@@ -9079,7 +8958,8 @@
       {
         "title": "Founding Director",
         "start": 1999,
-        "end": 2005
+        "end": 2005,
+        "id": 320
       }
     ],
     "name": "Martha Nell Smith",
@@ -9090,8 +8970,7 @@
     "slug formula": "martha-nell-smith",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T06:05:41.000Z",
-    "record_id": "recUXFoOF27p9CdRy",
-    "groupType": "Past"
+    "record_id": "recUXFoOF27p9CdRy"
   },
   {
     "id": "jason-nelson",
@@ -9144,8 +9023,7 @@
     "slug formula": "jason-nelson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recUY9Vh5wC6kv8CG",
-    "groupType": "Current"
+    "record_id": "recUY9Vh5wC6kv8CG"
   },
   {
     "id": "jimmy-lin",
@@ -9198,8 +9076,7 @@
     "slug formula": "jimmy-lin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recUs8dR4svKPumI1",
-    "groupType": "Current"
+    "record_id": "recUs8dR4svKPumI1"
   },
   {
     "id": "arik-lubkin",
@@ -9221,7 +9098,8 @@
       {
         "title": "Program Associate",
         "start": 2008,
-        "end": 2009
+        "end": 2009,
+        "id": 276
       }
     ],
     "name": "Arik Lubkin",
@@ -9231,8 +9109,7 @@
     "slug formula": "arik-lubkin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recV11t7q9BAfVdTT",
-    "groupType": "Past"
+    "record_id": "recV11t7q9BAfVdTT"
   },
   {
     "id": "travis-brown",
@@ -9307,12 +9184,14 @@
       {
         "title": "Assistant Director of Research and Development",
         "start": 2012,
-        "end": 2014
+        "end": 2014,
+        "id": 54
       },
       {
         "title": "Research & Development Software Developer",
         "start": 2011,
-        "end": 2012
+        "end": 2012,
+        "id": 55
       }
     ],
     "name": "Travis Brown",
@@ -9323,8 +9202,7 @@
     "slug formula": "travis-brown",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:33:52.000Z",
-    "record_id": "recVCVxnb9vR2O3VU",
-    "groupType": "Past"
+    "record_id": "recVCVxnb9vR2O3VU"
   },
   {
     "id": "donald-brinkman",
@@ -9375,8 +9253,7 @@
     "slug formula": "donald-brinkman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recVEePsvAkjxXWhn",
-    "groupType": "Current"
+    "record_id": "recVEePsvAkjxXWhn"
   },
   {
     "id": "dave-williams",
@@ -9394,7 +9271,8 @@
       {
         "title": "Program Assistant",
         "start": 2000,
-        "end": 2002
+        "end": 2002,
+        "id": 472
       }
     ],
     "name": "Dave Williams",
@@ -9404,8 +9282,7 @@
     "slug formula": "dave-williams",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recVPfmh3iSwxiEZ0",
-    "groupType": "Past"
+    "record_id": "recVPfmh3iSwxiEZ0"
   },
   {
     "id": "oni-buchanan",
@@ -9431,8 +9308,7 @@
     "slug formula": "oni-buchanan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recVWm7m7hGCF5xRZ",
-    "groupType": "Current"
+    "record_id": "recVWm7m7hGCF5xRZ"
   },
   {
     "id": "james-english",
@@ -9484,8 +9360,7 @@
     "slug formula": "james-english",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:14:35.000Z",
-    "record_id": "recVyESDrZkEOJCFk",
-    "groupType": "Current"
+    "record_id": "recVyESDrZkEOJCFk"
   },
   {
     "id": "kola-heyward-rotimi",
@@ -9530,12 +9405,7 @@
     ],
     "new id": 361,
     "wordpress id": 21185,
-    "linked identities": [
-      {
-        "title": "Faculty Assistant, AADHum",
-        "start": 2020
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recBUJfFff9BorBS1"
     ],
@@ -9549,8 +9419,7 @@
     "record_id": "recWNY8qjdXdpmK4k",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "matthew-kirschenbaum",
@@ -9645,7 +9514,8 @@
       {
         "title": "Associate Director",
         "start": 2006,
-        "end": 2016
+        "end": 2016,
+        "id": 231
       }
     ],
     "identities as current": [
@@ -9662,8 +9532,7 @@
     "slug formula": "matthew-kirschenbaum",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recX3NdlJAJ9f4mHH",
-    "groupType": "Past"
+    "record_id": "recX3NdlJAJ9f4mHH"
   },
   {
     "id": "shannon-mattern",
@@ -9715,8 +9584,7 @@
     "slug formula": "shannon-mattern",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:49:07.000Z",
-    "record_id": "recXGou0HlVjKsDoy",
-    "groupType": "Current"
+    "record_id": "recXGou0HlVjKsDoy"
   },
   {
     "id": "kristin-cesario",
@@ -9735,7 +9603,8 @@
       {
         "title": "Office Assistant",
         "start": 2009,
-        "end": 2012
+        "end": 2012,
+        "id": 71
       }
     ],
     "name": "Kristin Cesario",
@@ -9745,8 +9614,7 @@
     "slug formula": "kristin-cesario",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recXUNygTrwfZeGZE",
-    "groupType": "Past"
+    "record_id": "recXUNygTrwfZeGZE"
   },
   {
     "id": "daniel-pitti",
@@ -9773,7 +9641,8 @@
       {
         "title": "Associate Director",
         "start": 1997,
-        "end": 2017
+        "end": 2017,
+        "id": 547
       }
     ],
     "name": "Daniel Pitti",
@@ -9783,8 +9652,7 @@
     "slug formula": "daniel-pitti",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T16:38:54.000Z",
-    "record_id": "recXdcR1Zii9wmAfi",
-    "groupType": "Current"
+    "record_id": "recXdcR1Zii9wmAfi"
   },
   {
     "id": "janet-murray",
@@ -9836,8 +9704,7 @@
     "slug formula": "janet-murray",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recXfO2NPk9Bnv22f",
-    "groupType": "Current"
+    "record_id": "recXfO2NPk9Bnv22f"
   },
   {
     "id": "randy-bass",
@@ -9869,8 +9736,7 @@
     "slug formula": "randy-bass",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:49:11.000Z",
-    "record_id": "recXiQruWFOq1lTxS",
-    "groupType": "Current"
+    "record_id": "recXiQruWFOq1lTxS"
   },
   {
     "id": "carol-burbank",
@@ -9896,7 +9762,8 @@
       {
         "title": "Resident Fellow (Theatre)",
         "start": 2003,
-        "end": 2004
+        "end": 2004,
+        "id": 58
       }
     ],
     "name": "Carol Burbank",
@@ -9906,8 +9773,7 @@
     "slug formula": "carol-burbank",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:38:39.000Z",
-    "record_id": "recXp58glXQcxfu0D",
-    "groupType": "Past"
+    "record_id": "recXp58glXQcxfu0D"
   },
   {
     "id": "fiona-dolan",
@@ -9952,7 +9818,8 @@
       {
         "title": "Research Assistant",
         "start": 2019,
-        "end": 2020
+        "end": 2020,
+        "id": 111
       }
     ],
     "name": "Fiona Dolan",
@@ -9962,8 +9829,7 @@
     "slug formula": "fiona-dolan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recXv6bTe0HQMeVlF",
-    "groupType": "Past"
+    "record_id": "recXv6bTe0HQMeVlF"
   },
   {
     "id": "jennifer-guiliano",
@@ -10046,7 +9912,8 @@
       {
         "title": "Assistant Director",
         "start": 2011,
-        "end": 2014
+        "end": 2014,
+        "id": 181
       }
     ],
     "name": "Jennifer Guiliano",
@@ -10057,8 +9924,7 @@
     "slug formula": "jennifer-guiliano",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:00:34.000Z",
-    "record_id": "recXzKVuXIuyz6nXt",
-    "groupType": "Past"
+    "record_id": "recXzKVuXIuyz6nXt"
   },
   {
     "id": "alexis-lothian",
@@ -10107,12 +9973,7 @@
     "events as speaker": [
       "recZoeB23LgIIPnYT"
     ],
-    "linked identities": [
-      {
-        "title": "MITH Affiliate Assistant Professor",
-        "start": 2018
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recKaDN3hx8SqzdOy",
       "recz4GOcP9iEIAfpP"
@@ -10125,8 +9986,7 @@
     "slug formula": "alexis-lothian",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recXzMUxiiT5EYra5",
-    "groupType": "Current"
+    "record_id": "recXzMUxiiT5EYra5"
   },
   {
     "id": "richard-grusin",
@@ -10153,8 +10013,7 @@
     "slug formula": "richard-grusin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recXzqu8V5JtESvha",
-    "groupType": "Current"
+    "record_id": "recXzqu8V5JtESvha"
   },
   {
     "id": "nancy-proctor",
@@ -10201,7 +10060,8 @@
       {
         "title": "Head of Mobile Strategy and Initiative",
         "start": 2010,
-        "end": 2014
+        "end": 2014,
+        "id": 771
       }
     ],
     "name": "Nancy Proctor",
@@ -10211,8 +10071,7 @@
     "slug formula": "nancy-proctor",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T22:02:16.000Z",
-    "record_id": "recY0bp8DNEGloH60",
-    "groupType": "Current"
+    "record_id": "recY0bp8DNEGloH60"
   },
   {
     "id": "purdom-lindblad",
@@ -10290,8 +10149,7 @@
     "record_id": "recYD3T6y7WOBN06R",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "zoltan-komives",
@@ -10337,7 +10195,9 @@
     "linked identities": [
       {
         "title": "GSoC Intern",
-        "start": 2013
+        "start": 2013,
+        "end": 2013,
+        "id": 239
       }
     ],
     "name": "Zoltan Komives",
@@ -10347,8 +10207,7 @@
     "slug formula": "zoltan-komives",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recYLKyXT8eCPl6hM",
-    "groupType": "Past"
+    "record_id": "recYLKyXT8eCPl6hM"
   },
   {
     "id": "kirsten-keister",
@@ -10431,11 +10290,8 @@
       {
         "title": "Designer",
         "start": 2011,
-        "end": 2018
-      },
-      {
-        "title": "Senior Designer",
-        "start": 2018
+        "end": 2018,
+        "id": 220
       }
     ],
     "identities as current": [
@@ -10451,8 +10307,7 @@
     "record_id": "recYWeU8tULlqVWzj",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "elana-boteach",
@@ -10469,7 +10324,9 @@
     "linked identities": [
       {
         "title": "Program Assistant",
-        "start": 2001
+        "start": 2001,
+        "end": 2001,
+        "id": 39
       }
     ],
     "name": "Elana Boteach",
@@ -10479,8 +10336,7 @@
     "slug formula": "elana-boteach",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recYhr7CX9S4NU2HK",
-    "groupType": "Past"
+    "record_id": "recYhr7CX9S4NU2HK"
   },
   {
     "id": "amit-kumar",
@@ -10508,7 +10364,8 @@
       {
         "title": "Programmer/Analyst",
         "start": 2002,
-        "end": 2004
+        "end": 2004,
+        "id": 243
       }
     ],
     "name": "Amit Kumar",
@@ -10518,8 +10375,7 @@
     "slug formula": "amit-kumar",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T17:28:15.000Z",
-    "record_id": "recZ4uSUFdXtuFwtj",
-    "groupType": "Past"
+    "record_id": "recZ4uSUFdXtuFwtj"
   },
   {
     "id": "nitya-vashishtha",
@@ -10563,7 +10419,8 @@
       {
         "title": "Technical Assistant",
         "start": 2013,
-        "end": 2014
+        "end": 2014,
+        "id": 450
       }
     ],
     "name": "Nitya Vashishtha",
@@ -10573,8 +10430,7 @@
     "slug formula": "nitya-vashishtha",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recZ5hHugYnOCkWh0",
-    "groupType": "Past"
+    "record_id": "recZ5hHugYnOCkWh0"
   },
   {
     "id": "anne-collins-goodyear",
@@ -10624,8 +10480,7 @@
     "slug formula": "anne-collins-goodyear",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recZJmqhu3bMa2RmR",
-    "groupType": "Current"
+    "record_id": "recZJmqhu3bMa2RmR"
   },
   {
     "id": "tim-carmody",
@@ -10676,8 +10531,7 @@
     "slug formula": "tim-carmody",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recZRb7I8W5FdqMhL",
-    "groupType": "Current"
+    "record_id": "recZRb7I8W5FdqMhL"
   },
   {
     "id": "kate-murray",
@@ -10704,8 +10558,7 @@
     "slug formula": "kate-murray",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recZgH98ZKPndJTyO",
-    "groupType": "Current"
+    "record_id": "recZgH98ZKPndJTyO"
   },
   {
     "id": "beth-bonsignore",
@@ -10761,7 +10614,8 @@
       {
         "title": "Program Associate",
         "start": 2008,
-        "end": 2010
+        "end": 2010,
+        "id": 36
       }
     ],
     "name": "Beth Bonsignore",
@@ -10772,8 +10626,7 @@
     "slug formula": "beth-bonsignore",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T21:49:38.000Z",
-    "record_id": "recZjubmlokIFyTvs",
-    "groupType": "Past"
+    "record_id": "recZjubmlokIFyTvs"
   },
   {
     "id": "christina-painton",
@@ -10792,7 +10645,8 @@
       {
         "title": "Program Associate",
         "start": 2003,
-        "end": 2004
+        "end": 2004,
+        "id": 341
       }
     ],
     "name": "Christina Painton",
@@ -10802,8 +10656,7 @@
     "slug formula": "christina-painton",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recZlvNHCp35Ys0GD",
-    "groupType": "Past"
+    "record_id": "recZlvNHCp35Ys0GD"
   },
   {
     "id": "kelsey-corlett-rivera",
@@ -10852,12 +10705,7 @@
     "events as speaker": [
       "recqkrBq7HGLvOj92"
     ],
-    "linked identities": [
-      {
-        "title": "MITH Affiliate Associate Professor",
-        "start": 2018
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recGsDSzDTTTABH5y"
     ],
@@ -10868,8 +10716,7 @@
     "slug formula": "kelsey-corlett-rivera",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recZrAePEOKPx2S8n",
-    "groupType": "Current"
+    "record_id": "recZrAePEOKPx2S8n"
   },
   {
     "id": "hayim-lapin",
@@ -10927,7 +10774,8 @@
       {
         "title": "Resident Fellow (History)",
         "start": 2011,
-        "end": 2013
+        "end": 2013,
+        "id": 251
       }
     ],
     "name": "Hayim Lapin",
@@ -10938,8 +10786,7 @@
     "slug formula": "hayim-lapin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:36:09.000Z",
-    "record_id": "recZrYvzobSvAFHFS",
-    "groupType": "Past"
+    "record_id": "recZrYvzobSvAFHFS"
   },
   {
     "id": "jen-serventi",
@@ -10964,8 +10811,7 @@
     "slug formula": "jen-serventi",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reca1AXoCrTI9oBft",
-    "groupType": "Current"
+    "record_id": "reca1AXoCrTI9oBft"
   },
   {
     "id": "suzanne-bach",
@@ -10983,7 +10829,9 @@
     "linked identities": [
       {
         "title": "Assistant Director, Finance and Administration",
-        "start": 2014
+        "start": 2014,
+        "end": 2014,
+        "id": 13
       }
     ],
     "name": "Suzanne Bach",
@@ -10993,8 +10841,7 @@
     "slug formula": "suzanne-bach",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reca3AsZhPnhSXRHx",
-    "groupType": "Past"
+    "record_id": "reca3AsZhPnhSXRHx"
   },
   {
     "id": "isabela-carvalho",
@@ -11011,7 +10858,9 @@
     "linked identities": [
       {
         "title": "Intern",
-        "start": 2010
+        "start": 2010,
+        "end": 2010,
+        "id": 65
       }
     ],
     "name": "Isabela Carvalho",
@@ -11021,8 +10870,7 @@
     "slug formula": "isabela-carvalho",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reca6F8EorAbmAg2n",
-    "groupType": "Past"
+    "record_id": "reca6F8EorAbmAg2n"
   },
   {
     "id": "brandon-morse",
@@ -11073,8 +10921,7 @@
     "slug formula": "brandon-morse",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reca89kQmS9TImHzg",
-    "groupType": "Current"
+    "record_id": "reca89kQmS9TImHzg"
   },
   {
     "id": "aleia-brown",
@@ -11130,7 +10977,9 @@
     "linked identities": [
       {
         "title": "African American History, Culture and Digital Humanities (AADHum) Initiative",
-        "start": 2019
+        "start": 2019,
+        "end": 2019,
+        "id": 50
       }
     ],
     "identities as current": [
@@ -11147,8 +10996,7 @@
     "record_id": "recaHTd3vSFituxZw",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "roberta-lavine",
@@ -11170,8 +11018,7 @@
     "slug formula": "roberta-lavine",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recacCs2nBzsWrfLJ",
-    "groupType": "Past"
+    "record_id": "recacCs2nBzsWrfLJ"
   },
   {
     "id": "sunil-iyengar",
@@ -11195,8 +11042,7 @@
     "slug formula": "sunil-iyengar",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recacl0ueRnyYLxIi",
-    "groupType": "Current"
+    "record_id": "recacl0ueRnyYLxIi"
   },
   {
     "id": "mills-kelly",
@@ -11224,8 +11070,7 @@
     "slug formula": "mills-kelly",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T04:25:13.000Z",
-    "record_id": "recadJEDBYitO4eVI",
-    "groupType": "Current"
+    "record_id": "recadJEDBYitO4eVI"
   },
   {
     "id": "gregory-lord",
@@ -11260,7 +11105,8 @@
       {
         "title": "Web Designer & Software Engineer",
         "start": 2005,
-        "end": 2010
+        "end": 2010,
+        "id": 268
       }
     ],
     "name": "Gregory Lord",
@@ -11270,8 +11116,7 @@
     "slug formula": "gregory-lord",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T16:41:21.000Z",
-    "record_id": "recafKSSV4qtSyxTW",
-    "groupType": "Past"
+    "record_id": "recafKSSV4qtSyxTW"
   },
   {
     "id": "neha-dua",
@@ -11289,7 +11134,9 @@
     "linked identities": [
       {
         "title": "Program Associate",
-        "start": 2005
+        "start": 2005,
+        "end": 2005,
+        "id": 116
       }
     ],
     "name": "Neha Dua",
@@ -11299,8 +11146,7 @@
     "slug formula": "neha-dua",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recafhMAfr7xysFW0",
-    "groupType": "Past"
+    "record_id": "recafhMAfr7xysFW0"
   },
   {
     "id": "lisa-marie-antonille-rhody",
@@ -11356,12 +11202,15 @@
     "linked identities": [
       {
         "title": "Winnemore Digital Humanities Dissertation Fellow (English)",
-        "start": 2012
+        "start": 2012,
+        "end": 2012,
+        "id": 384
       },
       {
         "title": "Program Associate",
         "start": 1999,
-        "end": 2003
+        "end": 2003,
+        "id": 385
       }
     ],
     "name": "Lisa Marie Antonille Rhody",
@@ -11372,8 +11221,7 @@
     "slug formula": "lisa-marie-antonille-rhody",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:33:36.000Z",
-    "record_id": "recbKPTtO8hbF5UOR",
-    "groupType": "Past"
+    "record_id": "recbKPTtO8hbF5UOR"
   },
   {
     "id": "jessica-worley",
@@ -11421,7 +11269,8 @@
       {
         "title": "XML Editing Intern (Shelley-Godwin Archive)",
         "start": 2011,
-        "end": 2013
+        "end": 2013,
+        "id": 480
       }
     ],
     "name": "Jessica Worley",
@@ -11431,8 +11280,7 @@
     "slug formula": "jessica-worley",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recbQdgb2EbpbMgFJ",
-    "groupType": "Past"
+    "record_id": "recbQdgb2EbpbMgFJ"
   },
   {
     "id": "sarah-bowen-savant",
@@ -11466,8 +11314,7 @@
     "slug formula": "sarah-bowen-savant",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recbTFiQtCnjDPsLV",
-    "groupType": "Current"
+    "record_id": "recbTFiQtCnjDPsLV"
   },
   {
     "id": "thomas-stanley",
@@ -11496,7 +11343,8 @@
       {
         "title": "Program Associate",
         "start": 2000,
-        "end": 2001
+        "end": 2001,
+        "id": 426
       }
     ],
     "name": "Thomas Stanley",
@@ -11506,8 +11354,7 @@
     "slug formula": "thomas-stanley",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:16:55.000Z",
-    "record_id": "recblO4FctBvByfqP",
-    "groupType": "Past"
+    "record_id": "recblO4FctBvByfqP"
   },
   {
     "id": "richard-kuhta",
@@ -11536,8 +11383,7 @@
     "slug formula": "richard-kuhta",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recbtsFjnJZIr7EPu",
-    "groupType": "Current"
+    "record_id": "recbtsFjnJZIr7EPu"
   },
   {
     "id": "stephanie-sapienza",
@@ -11614,18 +11460,16 @@
     ],
     "linked identities": [
       {
-        "title": "Digital Humanities Archivist",
-        "start": 2020
-      },
-      {
         "title": "Project Manager",
         "start": 2013,
-        "end": 2018
+        "end": 2018,
+        "id": 401
       },
       {
         "title": "Research Faculty",
         "start": 2018,
-        "end": 2020
+        "end": 2020,
+        "id": 402
       }
     ],
     "identities as current": [
@@ -11641,8 +11485,7 @@
     "record_id": "recbuhPlvVzwsxw9O",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "john-tolva",
@@ -11695,8 +11538,7 @@
     "slug formula": "john-tolva",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T16:57:11.000Z",
-    "record_id": "reccMgAjDUcYzT6VX",
-    "groupType": "Current"
+    "record_id": "reccMgAjDUcYzT6VX"
   },
   {
     "id": "bini-tecle",
@@ -11718,7 +11560,8 @@
       {
         "title": "Program Associate",
         "start": 2006,
-        "end": 2009
+        "end": 2009,
+        "id": 438
       }
     ],
     "name": "Bini Tecle",
@@ -11728,8 +11571,7 @@
     "slug formula": "bini-tecle",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reccRsxLLP7FnLDmM",
-    "groupType": "Past"
+    "record_id": "reccRsxLLP7FnLDmM"
   },
   {
     "id": "bill-ferster",
@@ -11779,8 +11621,7 @@
     "slug formula": "bill-ferster",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reccjXEgjcFlKAQFI",
-    "groupType": "Current"
+    "record_id": "reccjXEgjcFlKAQFI"
   },
   {
     "id": "sheila-brennan",
@@ -11856,8 +11697,7 @@
     "slug formula": "sheila-brennan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:32:26.000Z",
-    "record_id": "recclJbwlmJvdHKMU",
-    "groupType": "Current"
+    "record_id": "recclJbwlmJvdHKMU"
   },
   {
     "id": "rosemarie-garland-thomson",
@@ -11878,7 +11718,9 @@
     "linked identities": [
       {
         "title": "Resident Fellow (Women's Studies)",
-        "start": 2002
+        "start": 2002,
+        "end": 2002,
+        "id": 160
       }
     ],
     "name": "Rosemarie Garland-Thomson",
@@ -11888,8 +11730,7 @@
     "slug formula": "rosemarie-garland-thomson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T21:04:01.000Z",
-    "record_id": "recdQrfkzrjE2S9E7",
-    "groupType": "Past"
+    "record_id": "recdQrfkzrjE2S9E7"
   },
   {
     "id": "angel-david-nieves",
@@ -11922,7 +11763,8 @@
       {
         "title": "Resident Fellow (Architecture)",
         "start": 2006,
-        "end": 2008
+        "end": 2008,
+        "id": 325
       }
     ],
     "name": "Angel David Nieves",
@@ -11933,8 +11775,7 @@
     "slug formula": "angel-david-nieves",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:20:43.000Z",
-    "record_id": "recdRL3JtcItJRH2F",
-    "groupType": "Past"
+    "record_id": "recdRL3JtcItJRH2F"
   },
   {
     "id": "carl-stahmer",
@@ -11961,7 +11802,8 @@
       {
         "title": "Associate Director (Acting)",
         "start": 2005,
-        "end": 2006
+        "end": 2006,
+        "id": 424
       }
     ],
     "name": "Carl Stahmer",
@@ -11972,8 +11814,7 @@
     "slug formula": "carl-stahmer",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-25T14:03:04.000Z",
-    "record_id": "recdRyLQyXCLulvPj",
-    "groupType": "Past"
+    "record_id": "recdRyLQyXCLulvPj"
   },
   {
     "id": "abhishta-paranjpe",
@@ -11996,7 +11837,8 @@
       {
         "title": "Program Associate",
         "start": 2005,
-        "end": 2007
+        "end": 2007,
+        "id": 344
       }
     ],
     "name": "Abhishta Paranjpe",
@@ -12006,8 +11848,7 @@
     "slug formula": "abhishta-paranjpe",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T16:41:35.000Z",
-    "record_id": "recdTpyngbdZEDFKa",
-    "groupType": "Past"
+    "record_id": "recdTpyngbdZEDFKa"
   },
   {
     "id": "rachel-frick",
@@ -12058,8 +11899,7 @@
     "slug formula": "rachel-frick",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recdVOdZ712OHfCSk",
-    "groupType": "Current"
+    "record_id": "recdVOdZ712OHfCSk"
   },
   {
     "id": "jennifer-fleeger",
@@ -12111,8 +11951,7 @@
     "slug formula": "jennifer-fleeger",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recdZjdz1G7ihnM7v",
-    "groupType": "Current"
+    "record_id": "recdZjdz1G7ihnM7v"
   },
   {
     "id": "david-prager-branner",
@@ -12135,7 +11974,8 @@
       {
         "title": "Resident Fellow (Hebrew and East Asian)",
         "start": 2004,
-        "end": 2005
+        "end": 2005,
+        "id": 42
       }
     ],
     "name": "David Prager Branner",
@@ -12146,8 +11986,7 @@
     "slug formula": "david-prager-branner",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recdb2DsYHF799U4x",
-    "groupType": "Past"
+    "record_id": "recdb2DsYHF799U4x"
   },
   {
     "id": "nkem-nwogbo",
@@ -12191,7 +12030,9 @@
     "linked identities": [
       {
         "title": "Accounting Assistant",
-        "start": 2012
+        "start": 2012,
+        "end": 2012,
+        "id": 330
       }
     ],
     "name": "Nkem Nwogbo",
@@ -12201,8 +12042,7 @@
     "slug formula": "nkem-nwogbo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recddPEv2GTDWSkEJ",
-    "groupType": "Past"
+    "record_id": "recddPEv2GTDWSkEJ"
   },
   {
     "id": "joseph-jaja",
@@ -12253,8 +12093,7 @@
     "slug formula": "joseph-jaja",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recdipmrUTa5PG8a7",
-    "groupType": "Current"
+    "record_id": "recdipmrUTa5PG8a7"
   },
   {
     "id": "david-mcclure",
@@ -12278,8 +12117,7 @@
     "slug formula": "david-mcclure",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recdmWrOjVK5v3kHG",
-    "groupType": "Current"
+    "record_id": "recdmWrOjVK5v3kHG"
   },
   {
     "id": "mark-engleson",
@@ -12297,7 +12135,9 @@
     "linked identities": [
       {
         "title": "Program Associate",
-        "start": 2008
+        "start": 2008,
+        "end": 2008,
+        "id": 121
       }
     ],
     "name": "Mark Engleson",
@@ -12307,8 +12147,7 @@
     "slug formula": "mark-engleson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recdmo3E8bjNcdNzJ",
-    "groupType": "Past"
+    "record_id": "recdmo3E8bjNcdNzJ"
   },
   {
     "id": "raffaele-viglianti",
@@ -12382,12 +12221,7 @@
     "events as participant": [
       "recoFfFg1889dnPEm"
     ],
-    "linked identities": [
-      {
-        "title": "Research Programmer",
-        "start": 2013
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "rec0uL9EqWCSL4GUD"
     ],
@@ -12402,8 +12236,7 @@
     "record_id": "receBYteMvJ9LDupJ",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "susan-l-wiesner",
@@ -12448,12 +12281,7 @@
     "wordpress nicename": "susanwiesner",
     "new id": 10,
     "wordpress id": 20698,
-    "linked identities": [
-      {
-        "title": "Principal Faculty Specialist for the Performing Arts",
-        "start": 2019
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recXQXw5nIl5XZzPr"
     ],
@@ -12467,8 +12295,7 @@
     "record_id": "receGG1TyCzvcyaFG",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "jonathan-reyes",
@@ -12515,8 +12342,7 @@
     "slug formula": "jonathan-reyes",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:19:59.000Z",
-    "record_id": "receSaa99kkl2y013",
-    "groupType": "Past"
+    "record_id": "receSaa99kkl2y013"
   },
   {
     "id": "maria-lekic",
@@ -12537,7 +12363,9 @@
     "linked identities": [
       {
         "title": "Resident Fellow",
-        "start": 2002
+        "start": 2002,
+        "end": 2002,
+        "id": 255
       }
     ],
     "name": "Maria Lekic",
@@ -12547,8 +12375,7 @@
     "slug formula": "maria-lekic",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T05:59:24.000Z",
-    "record_id": "receT24qxQ8vOhFaw",
-    "groupType": "Past"
+    "record_id": "receT24qxQ8vOhFaw"
   },
   {
     "id": "nathan-dize",
@@ -12599,8 +12426,7 @@
     "slug formula": "nathan-dize",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "receWMyc577oqw8MT",
-    "groupType": "Current"
+    "record_id": "receWMyc577oqw8MT"
   },
   {
     "id": "ann-m-hanlon",
@@ -12621,7 +12447,9 @@
     "linked identities": [
       {
         "title": "Program Associate",
-        "start": 2004
+        "start": 2004,
+        "end": 2004,
+        "id": 186
       }
     ],
     "name": "Ann M. Hanlon",
@@ -12631,8 +12459,7 @@
     "slug formula": "ann-m-hanlon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recebjRHmMl7pMUoq",
-    "groupType": "Past"
+    "record_id": "recebjRHmMl7pMUoq"
   },
   {
     "id": "ben-bederson",
@@ -12686,8 +12513,7 @@
     "slug formula": "ben-bederson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recekl1wh6BT14sJk",
-    "groupType": "Current"
+    "record_id": "recekl1wh6BT14sJk"
   },
   {
     "id": "melanie-kill",
@@ -12738,8 +12564,7 @@
     "slug formula": "melanie-kill",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recerBEvPrIp8oFSG",
-    "groupType": "Current"
+    "record_id": "recerBEvPrIp8oFSG"
   },
   {
     "id": "michele-mason",
@@ -12770,8 +12595,7 @@
     "slug formula": "michele-mason",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T16:37:21.000Z",
-    "record_id": "recfMM11T4uUwMDzU",
-    "groupType": "Past"
+    "record_id": "recfMM11T4uUwMDzU"
   },
   {
     "id": "robin-pike",
@@ -12821,8 +12645,7 @@
     "slug formula": "robin-pike",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recfMvIPjFYBz7TUw",
-    "groupType": "Current"
+    "record_id": "recfMvIPjFYBz7TUw"
   },
   {
     "id": "emma-millon",
@@ -12872,7 +12695,8 @@
       {
         "title": "Community Lead",
         "start": 2011,
-        "end": 2012
+        "end": 2012,
+        "id": 303
       }
     ],
     "name": "Emma Millon",
@@ -12882,8 +12706,7 @@
     "slug formula": "emma-millon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recfc7Lfr80RJReYO",
-    "groupType": "Past"
+    "record_id": "recfc7Lfr80RJReYO"
   },
   {
     "id": "marya-mcquirter",
@@ -12935,8 +12758,7 @@
     "slug formula": "marya-mcquirter",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T17:27:26.000Z",
-    "record_id": "recfiHVeDRwKSUxcl",
-    "groupType": "Current"
+    "record_id": "recfiHVeDRwKSUxcl"
   },
   {
     "id": "tom-scheinfeldt",
@@ -12989,8 +12811,7 @@
     "slug formula": "tom-scheinfeldt",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recfmXMzJddVA2Wls",
-    "groupType": "Current"
+    "record_id": "recfmXMzJddVA2Wls"
   },
   {
     "id": "dana-a-williams",
@@ -13040,8 +12861,7 @@
     "slug formula": "dana-a-williams",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T04:08:16.000Z",
-    "record_id": "recg1sX4C7rJ2t0sU",
-    "groupType": "Current"
+    "record_id": "recg1sX4C7rJ2t0sU"
   },
   {
     "id": "stanley-katz",
@@ -13093,8 +12913,7 @@
     "slug formula": "stanley-katz",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recgKU5Vz72ZKqyfH",
-    "groupType": "Current"
+    "record_id": "recgKU5Vz72ZKqyfH"
   },
   {
     "id": "matthew-lincoln",
@@ -13146,8 +12965,7 @@
     "slug formula": "matthew-lincoln",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:17:35.000Z",
-    "record_id": "recgLvsdhIHSoLBS5",
-    "groupType": "Current"
+    "record_id": "recgLvsdhIHSoLBS5"
   },
   {
     "id": "tsey-haye-preaster",
@@ -13196,17 +13014,21 @@
     "linked identities": [
       {
         "title": "Project Manager, Research Initiatives",
-        "start": 2019
+        "start": 2019,
+        "end": 2019,
+        "id": 363
       },
       {
         "title": "Community Engagement Associate, AADHum",
         "start": 2020,
-        "end": 2021
+        "end": 2021,
+        "id": 364
       },
       {
         "title": "Project Coordinator, Documenting the Now",
         "start": 2018,
-        "end": 2019
+        "end": 2019,
+        "id": 362
       }
     ],
     "name": "T'Sey-Haye Preaster",
@@ -13219,8 +13041,7 @@
     "record_id": "recgm0PkASHit3gZt",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "devin-doherty",
@@ -13264,7 +13085,9 @@
     "linked identities": [
       {
         "title": "Intern, Shelley-Godwin Archive",
-        "start": 2016
+        "start": 2016,
+        "end": 2016,
+        "id": 110
       }
     ],
     "name": "Devin Doherty",
@@ -13274,8 +13097,7 @@
     "slug formula": "devin-doherty",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recgpFYlcYZemRj9E",
-    "groupType": "Past"
+    "record_id": "recgpFYlcYZemRj9E"
   },
   {
     "id": "rita-raley",
@@ -13326,8 +13148,7 @@
     "slug formula": "rita-raley",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:39:11.000Z",
-    "record_id": "recgsgmHQ9FGkPwsa",
-    "groupType": "Current"
+    "record_id": "recgsgmHQ9FGkPwsa"
   },
   {
     "id": "mirona-magearu",
@@ -13354,12 +13175,15 @@
     "linked identities": [
       {
         "title": "Winnemore Digital Humanities Dissertation Fellow (Comparative Literature)",
-        "start": 2010
+        "start": 2010,
+        "end": 2010,
+        "id": 278
       },
       {
         "title": "Vambery Fellow",
         "start": 2006,
-        "end": 2007
+        "end": 2007,
+        "id": 279
       }
     ],
     "name": "Mirona Magearu",
@@ -13370,8 +13194,7 @@
     "slug formula": "mirona-magearu",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:36:51.000Z",
-    "record_id": "recgtCikX4zLs1xAa",
-    "groupType": "Past"
+    "record_id": "recgtCikX4zLs1xAa"
   },
   {
     "id": "jennifer-garcon",
@@ -13424,8 +13247,7 @@
     "slug formula": "jennifer-garcon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recgvLtZgnjx14ZMj",
-    "groupType": "Current"
+    "record_id": "recgvLtZgnjx14ZMj"
   },
   {
     "id": "sylvia-fernandez",
@@ -13476,8 +13298,7 @@
     "slug formula": "sylvia-fernandez",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rech7rESGdQtUR9n6",
-    "groupType": "Current"
+    "record_id": "rech7rESGdQtUR9n6"
   },
   {
     "id": "amanda-starling-gould",
@@ -13530,8 +13351,7 @@
     "slug formula": "amanda-starling-gould",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rechC0NmNiThbwtQJ",
-    "groupType": "Current"
+    "record_id": "rechC0NmNiThbwtQJ"
   },
   {
     "id": "leigh-wilson-smiley",
@@ -13582,7 +13402,9 @@
     "linked identities": [
       {
         "title": "Resident Fellow (Theatre)",
-        "start": 2011
+        "start": 2011,
+        "end": 2011,
+        "id": 419
       }
     ],
     "name": "Leigh Wilson Smiley",
@@ -13593,8 +13415,7 @@
     "slug formula": "leigh-wilson-smiley",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:36:41.000Z",
-    "record_id": "rechDnTXWazJOH9sX",
-    "groupType": "Past"
+    "record_id": "rechDnTXWazJOH9sX"
   },
   {
     "id": "hasan-elahi",
@@ -13646,8 +13467,7 @@
     "slug formula": "hasan-elahi",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rechW5d1GV6Xc9WFo",
-    "groupType": "Current"
+    "record_id": "rechW5d1GV6Xc9WFo"
   },
   {
     "id": "april-householder",
@@ -13671,8 +13491,7 @@
     "slug formula": "april-householder",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rechf1E16HgVHZN5K",
-    "groupType": "Current"
+    "record_id": "rechf1E16HgVHZN5K"
   },
   {
     "id": "emily-frazier",
@@ -13717,7 +13536,8 @@
       {
         "title": "Graduate Research Assistant",
         "start": 2021,
-        "end": 2022
+        "end": 2022,
+        "id": 772
       }
     ],
     "identities as current": [
@@ -13733,8 +13553,7 @@
     "record_id": "rechjhwTnRXvMF3Fy",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "oliver-gaycken",
@@ -13781,7 +13600,8 @@
       {
         "title": "Vambery Distinguished Professor of Comparative Studies",
         "start": 2015,
-        "end": 2016
+        "end": 2016,
+        "id": 162
       }
     ],
     "name": "Oliver Gaycken",
@@ -13791,8 +13611,7 @@
     "slug formula": "oliver-gaycken",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rechkJTduGaCPWmAv",
-    "groupType": "Past"
+    "record_id": "rechkJTduGaCPWmAv"
   },
   {
     "id": "despina-kakoudaki",
@@ -13843,8 +13662,7 @@
     "slug formula": "despina-kakoudaki",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T16:20:23.000Z",
-    "record_id": "rechknrgK2uEreNag",
-    "groupType": "Current"
+    "record_id": "rechknrgK2uEreNag"
   },
   {
     "id": "elisa-beshero-bondar",
@@ -13897,8 +13715,7 @@
     "slug formula": "elisa-beshero-bondar",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rechsSOZOVwGDV8NY",
-    "groupType": "Current"
+    "record_id": "rechsSOZOVwGDV8NY"
   },
   {
     "id": "philip-resnik",
@@ -13925,8 +13742,7 @@
     "slug formula": "philip-resnik",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reciIxoA6LFabzKYn",
-    "groupType": "Current"
+    "record_id": "reciIxoA6LFabzKYn"
   },
   {
     "id": "daryle-williams",
@@ -13983,11 +13799,8 @@
       {
         "title": "Resident Fellow (History)",
         "start": 2001,
-        "end": 2002
-      },
-      {
-        "title": "MITH Affiliate Associate Professor",
-        "start": 2018
+        "end": 2002,
+        "id": 468
       }
     ],
     "identities as current": [
@@ -14003,8 +13816,7 @@
     "slug formula": "daryle-williams",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recibUxoBhGVXDkP9",
-    "groupType": "Past"
+    "record_id": "recibUxoBhGVXDkP9"
   },
   {
     "id": "joyce-ray",
@@ -14054,8 +13866,7 @@
     "slug formula": "joyce-ray",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recibbH7hEF4Ara4s",
-    "groupType": "Current"
+    "record_id": "recibbH7hEF4Ara4s"
   },
   {
     "id": "jeffrey-schnapp",
@@ -14106,8 +13917,7 @@
     "slug formula": "jeffrey-schnapp",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T22:36:49.000Z",
-    "record_id": "recieyKWmFoZCFRFe",
-    "groupType": "Current"
+    "record_id": "recieyKWmFoZCFRFe"
   },
   {
     "id": "zach-whalen",
@@ -14159,8 +13969,7 @@
     "slug formula": "zach-whalen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T18:58:41.000Z",
-    "record_id": "recimcduV7nte46e7",
-    "groupType": "Current"
+    "record_id": "recimcduV7nte46e7"
   },
   {
     "id": "douglas-oard",
@@ -14187,8 +13996,7 @@
     "slug formula": "douglas-oard",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reciw6j4o3bFzV349",
-    "groupType": "Current"
+    "record_id": "reciw6j4o3bFzV349"
   },
   {
     "id": "christopher-baran",
@@ -14208,7 +14016,9 @@
     "linked identities": [
       {
         "title": "Research Assistant",
-        "start": 2002
+        "start": 2002,
+        "end": 2002,
+        "id": 814
       }
     ],
     "name": "Christopher Baran",
@@ -14218,8 +14028,7 @@
     "slug formula": "christopher-baran",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T05:49:52.000Z",
-    "record_id": "recj33TlWsR4fw8Aw",
-    "groupType": "Past"
+    "record_id": "recj33TlWsR4fw8Aw"
   },
   {
     "id": "xiaoyu-tai",
@@ -14263,7 +14072,9 @@
     "linked identities": [
       {
         "title": "Intern, IIIF Newspaper Project",
-        "start": 2016
+        "start": 2016,
+        "end": 2016,
+        "id": 437
       }
     ],
     "name": "Xiaoyu Tai",
@@ -14273,8 +14084,7 @@
     "slug formula": "xiaoyu-tai",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recjTQObBrQCz5p1z",
-    "groupType": "Past"
+    "record_id": "recjTQObBrQCz5p1z"
   },
   {
     "id": "brittany-graham",
@@ -14292,7 +14102,8 @@
       {
         "title": "Intern",
         "start": 2006,
-        "end": 2008
+        "end": 2008,
+        "id": 175
       }
     ],
     "name": "Brittany Graham",
@@ -14302,8 +14113,7 @@
     "slug formula": "brittany-graham",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recjWz7Ex6ErD5Je5",
-    "groupType": "Past"
+    "record_id": "recjWz7Ex6ErD5Je5"
   },
   {
     "id": "nick-montfort",
@@ -14329,8 +14139,7 @@
     "slug formula": "nick-montfort",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recjbkZs21qZKplNf",
-    "groupType": "Current"
+    "record_id": "recjbkZs21qZKplNf"
   },
   {
     "id": "andrew-johnston",
@@ -14381,8 +14190,7 @@
     "slug formula": "andrew-johnston",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:55:50.000Z",
-    "record_id": "recjlXb0pCjtNwLc1",
-    "groupType": "Current"
+    "record_id": "recjlXb0pCjtNwLc1"
   },
   {
     "id": "lara-otis",
@@ -14426,7 +14234,9 @@
     "linked identities": [
       {
         "title": "Digital Humanities Incubator Fellow",
-        "start": 2013
+        "start": 2013,
+        "end": 2013,
+        "id": 337
       }
     ],
     "name": "Lara Otis",
@@ -14436,8 +14246,7 @@
     "slug formula": "lara-otis",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recjoEzlhLgND3mZN",
-    "groupType": "Past"
+    "record_id": "recjoEzlhLgND3mZN"
   },
   {
     "id": "peter-mallios",
@@ -14490,7 +14299,9 @@
     "linked identities": [
       {
         "title": "Resident Fellow (English and American Studies)",
-        "start": 2012
+        "start": 2012,
+        "end": 2012,
+        "id": 281
       }
     ],
     "name": "Peter Mallios",
@@ -14500,8 +14311,7 @@
     "slug formula": "peter-mallios",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:35:46.000Z",
-    "record_id": "recjpBpGnZv6osej6",
-    "groupType": "Past"
+    "record_id": "recjpBpGnZv6osej6"
   },
   {
     "id": "wayne-graham",
@@ -14553,8 +14363,7 @@
     "slug formula": "wayne-graham",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T05:29:00.000Z",
-    "record_id": "recjtm5rmUucNcgcC",
-    "groupType": "Current"
+    "record_id": "recjtm5rmUucNcgcC"
   },
   {
     "id": "alberto-campagnolo",
@@ -14606,8 +14415,7 @@
     "slug formula": "alberto-campagnolo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:49:21.000Z",
-    "record_id": "reckBOFojNopwR12T",
-    "groupType": "Current"
+    "record_id": "reckBOFojNopwR12T"
   },
   {
     "id": "jim-brown",
@@ -14659,8 +14467,7 @@
     "slug formula": "jim-brown",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reckBeW4KYx3NNSRo",
-    "groupType": "Current"
+    "record_id": "reckBeW4KYx3NNSRo"
   },
   {
     "id": "ralph-bauer",
@@ -14691,7 +14498,8 @@
       {
         "title": "Resident Fellow (English)",
         "start": 2002,
-        "end": 2003
+        "end": 2003,
+        "id": 21
       }
     ],
     "name": "Ralph Bauer",
@@ -14702,8 +14510,7 @@
     "slug formula": "ralph-bauer",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T06:01:56.000Z",
-    "record_id": "reckD5AzdpMB4mr9c",
-    "groupType": "Past"
+    "record_id": "reckD5AzdpMB4mr9c"
   },
   {
     "id": "andrew-ferguson",
@@ -14754,8 +14561,7 @@
     "slug formula": "andrew-ferguson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reckMXyFh3nhrN7qe",
-    "groupType": "Current"
+    "record_id": "reckMXyFh3nhrN7qe"
   },
   {
     "id": "gretchen-gueguen",
@@ -14776,7 +14582,9 @@
     "linked identities": [
       {
         "title": "Program Associate",
-        "start": 2004
+        "start": 2004,
+        "end": 2004,
+        "id": 180
       }
     ],
     "name": "Gretchen Gueguen",
@@ -14786,8 +14594,7 @@
     "slug formula": "gretchen-gueguen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T17:32:02.000Z",
-    "record_id": "reckbyy0bJ70fvNXW",
-    "groupType": "Past"
+    "record_id": "reckbyy0bJ70fvNXW"
   },
   {
     "id": "sarah-florini",
@@ -14839,8 +14646,7 @@
     "slug formula": "sarah-florini",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reckjkz6j25NSpfjV",
-    "groupType": "Current"
+    "record_id": "reckjkz6j25NSpfjV"
   },
   {
     "id": "jeremy-boggs",
@@ -14869,8 +14675,7 @@
     "slug formula": "jeremy-boggs",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reckkztGPSti6106Y",
-    "groupType": "Current"
+    "record_id": "reckkztGPSti6106Y"
   },
   {
     "id": "jordan-boyd-graber",
@@ -14923,8 +14728,7 @@
     "slug formula": "jordan-boyd-graber",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:24:21.000Z",
-    "record_id": "reckxk6sDU4g46OyA",
-    "groupType": "Current"
+    "record_id": "reckxk6sDU4g46OyA"
   },
   {
     "id": "james-smith",
@@ -14992,7 +14796,8 @@
       {
         "title": "Software Architect",
         "start": 2011,
-        "end": 2014
+        "end": 2014,
+        "id": 421
       }
     ],
     "name": "James Smith",
@@ -15003,8 +14808,7 @@
     "slug formula": "james-smith",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:53:13.000Z",
-    "record_id": "recl12SKrGtXZnNmE",
-    "groupType": "Past"
+    "record_id": "recl12SKrGtXZnNmE"
   },
   {
     "id": "tim-clarke",
@@ -15023,7 +14827,8 @@
       {
         "title": "Program Associate",
         "start": 2005,
-        "end": 2006
+        "end": 2006,
+        "id": 76
       }
     ],
     "name": "Tim Clarke",
@@ -15033,8 +14838,7 @@
     "slug formula": "tim-clarke",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recl4LqOnWjqSs4os",
-    "groupType": "Past"
+    "record_id": "recl4LqOnWjqSs4os"
   },
   {
     "id": "bethany-nowviskie",
@@ -15060,8 +14864,7 @@
     "slug formula": "bethany-nowviskie",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recl9K3TscioZ6OHG",
-    "groupType": "Current"
+    "record_id": "recl9K3TscioZ6OHG"
   },
   {
     "id": "leonardo-flores",
@@ -15112,8 +14915,7 @@
     "slug formula": "leonardo-flores",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reclPkFxgfzhZWcaU",
-    "groupType": "Current"
+    "record_id": "reclPkFxgfzhZWcaU"
   },
   {
     "id": "clay-templeton",
@@ -15136,7 +14938,9 @@
     "linked identities": [
       {
         "title": "US Institute of Museum and Library Services (IMLS) Intern",
-        "start": 2010
+        "start": 2010,
+        "end": 2010,
+        "id": 439
       }
     ],
     "name": "Clay Templeton",
@@ -15146,8 +14950,7 @@
     "slug formula": "clay-templeton",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reclYZaN0bGKLyOUb",
-    "groupType": "Past"
+    "record_id": "reclYZaN0bGKLyOUb"
   },
   {
     "id": "heather-hart",
@@ -15198,8 +15001,7 @@
     "slug formula": "heather-hart",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recliS5E1YQyw5slc",
-    "groupType": "Current"
+    "record_id": "recliS5E1YQyw5slc"
   },
   {
     "id": "david-silver",
@@ -15227,7 +15029,8 @@
       {
         "title": "Program Associate",
         "start": 1999,
-        "end": 2000
+        "end": 2000,
+        "id": 417
       }
     ],
     "name": "David Silver",
@@ -15238,8 +15041,7 @@
     "slug formula": "david-silver",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:47:59.000Z",
-    "record_id": "reclib6Ob1nCq9UZF",
-    "groupType": "Past"
+    "record_id": "reclib6Ob1nCq9UZF"
   },
   {
     "id": "stephanie-clarke-graham",
@@ -15263,8 +15065,7 @@
     "slug formula": "stephanie-clarke-graham",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reclmfXd0EgC253QH",
-    "groupType": "Current"
+    "record_id": "reclmfXd0EgC253QH"
   },
   {
     "id": "cindy-woo",
@@ -15282,7 +15083,8 @@
       {
         "title": "Business Manager",
         "start": 2007,
-        "end": 2008
+        "end": 2008,
+        "id": 479
       }
     ],
     "name": "Cindy Woo",
@@ -15292,8 +15094,7 @@
     "slug formula": "cindy-woo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reclq6IQ94Z8y8DGx",
-    "groupType": "Past"
+    "record_id": "reclq6IQ94Z8y8DGx"
   },
   {
     "id": "nathan-jurgenson",
@@ -15321,8 +15122,7 @@
     "slug formula": "nathan-jurgenson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recmFgoJo2ZdTdvHv",
-    "groupType": "Current"
+    "record_id": "recmFgoJo2ZdTdvHv"
   },
   {
     "id": "hugh-cayless",
@@ -15379,8 +15179,7 @@
     "slug formula": "hugh-cayless",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T17:33:24.000Z",
-    "record_id": "recmISm02UisBYe9h",
-    "groupType": "Current"
+    "record_id": "recmISm02UisBYe9h"
   },
   {
     "id": "chris-mustazza",
@@ -15431,8 +15230,7 @@
     "slug formula": "chris-mustazza",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recmSWOCQpxa591lG",
-    "groupType": "Current"
+    "record_id": "recmSWOCQpxa591lG"
   },
   {
     "id": "douglas-eyman",
@@ -15457,8 +15255,7 @@
     "slug formula": "douglas-eyman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recmbv6GXVfQZUjBD",
-    "groupType": "Current"
+    "record_id": "recmbv6GXVfQZUjBD"
   },
   {
     "id": "john-fuegi",
@@ -15489,8 +15286,7 @@
     "slug formula": "john-fuegi",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recmhP3dC1c59inDI",
-    "groupType": "Past"
+    "record_id": "recmhP3dC1c59inDI"
   },
   {
     "id": "charles-pinnix",
@@ -15511,7 +15307,9 @@
     "linked identities": [
       {
         "title": "Intern",
-        "start": 2010
+        "start": 2010,
+        "end": 2010,
+        "id": 357
       }
     ],
     "name": "Charles Pinnix",
@@ -15521,8 +15319,7 @@
     "slug formula": "charles-pinnix",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recn9vO0tWO7F3TQJ",
-    "groupType": "Past"
+    "record_id": "recn9vO0tWO7F3TQJ"
   },
   {
     "id": "michael-witmore",
@@ -15572,8 +15369,7 @@
     "slug formula": "michael-witmore",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recnYIy7HQZ89L5pT",
-    "groupType": "Current"
+    "record_id": "recnYIy7HQZ89L5pT"
   },
   {
     "id": "paul-e-ceruzzi",
@@ -15599,8 +15395,7 @@
     "slug formula": "paul-e-ceruzzi",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T17:31:51.000Z",
-    "record_id": "recnfKLPafbzlHgbz",
-    "groupType": "Current"
+    "record_id": "recnfKLPafbzlHgbz"
   },
   {
     "id": "daniel-cohen",
@@ -15659,8 +15454,7 @@
     "slug formula": "daniel-cohen",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-03T22:43:57.000Z",
-    "record_id": "recnnraRTb0ERSZyS",
-    "groupType": "Current"
+    "record_id": "recnnraRTb0ERSZyS"
   },
   {
     "id": "nikki-stewart",
@@ -15684,8 +15478,7 @@
     "slug formula": "nikki-stewart",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reco4TT6v6tycXWXo",
-    "groupType": "Current"
+    "record_id": "reco4TT6v6tycXWXo"
   },
   {
     "id": "tara-rodgers",
@@ -15737,8 +15530,7 @@
     "slug formula": "tara-rodgers",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reco9L1lG7Kku3ZU7",
-    "groupType": "Current"
+    "record_id": "reco9L1lG7Kku3ZU7"
   },
   {
     "id": "kevin-bertram",
@@ -15764,8 +15556,7 @@
     "slug formula": "kevin-bertram",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recoGNXi47eXdfy47",
-    "groupType": "Current"
+    "record_id": "recoGNXi47eXdfy47"
   },
   {
     "id": "ravon-ruffin",
@@ -15817,8 +15608,7 @@
     "slug formula": "ravon-ruffin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:48:15.000Z",
-    "record_id": "recoHfeD5UUFnYj95",
-    "groupType": "Current"
+    "record_id": "recoHfeD5UUFnYj95"
   },
   {
     "id": "emad-khazraee",
@@ -15870,8 +15660,7 @@
     "slug formula": "emad-khazraee",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recoIvVpdQQKZy5Jc",
-    "groupType": "Current"
+    "record_id": "recoIvVpdQQKZy5Jc"
   },
   {
     "id": "wendell-piez",
@@ -15899,8 +15688,7 @@
     "slug formula": "wendell-piez",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recoJ9pK8oxPxcPf6",
-    "groupType": "Current"
+    "record_id": "recoJ9pK8oxPxcPf6"
   },
   {
     "id": "siva-vaidhyanathan",
@@ -15951,8 +15739,7 @@
     "slug formula": "siva-vaidhyanathan",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recoNcyAsYwJ8GWnS",
-    "groupType": "Current"
+    "record_id": "recoNcyAsYwJ8GWnS"
   },
   {
     "id": "daniel-stokl-ben-ezra",
@@ -16004,8 +15791,7 @@
     "slug formula": "daniel-stokl-ben-ezra",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recoQ10X2wHy4XGr8",
-    "groupType": "Current"
+    "record_id": "recoQ10X2wHy4XGr8"
   },
   {
     "id": "daniel-byrnes",
@@ -16049,7 +15835,9 @@
     "linked identities": [
       {
         "title": "Intern",
-        "start": 2017
+        "start": 2017,
+        "end": 2017,
+        "id": 59
       }
     ],
     "name": "Daniel Byrnes",
@@ -16059,8 +15847,7 @@
     "slug formula": "daniel-byrnes",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recoZeuXNGB3iUIeU",
-    "groupType": "Past"
+    "record_id": "recoZeuXNGB3iUIeU"
   },
   {
     "id": "caetlin-benson-allott",
@@ -16112,8 +15899,7 @@
     "slug formula": "caetlin-benson-allott",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:37:01.000Z",
-    "record_id": "reconNnYQXNuQ2eFC",
-    "groupType": "Current"
+    "record_id": "reconNnYQXNuQ2eFC"
   },
   {
     "id": "zita-nunes",
@@ -16152,8 +15938,7 @@
     "slug formula": "zita-nunes",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T04:31:44.000Z",
-    "record_id": "recp8DaTnjLyX5Jpw",
-    "groupType": "Past"
+    "record_id": "recp8DaTnjLyX5Jpw"
   },
   {
     "id": "patricia-cossard",
@@ -16181,7 +15966,8 @@
       {
         "title": "Resident Fellow (UMD Libraries)",
         "start": 2005,
-        "end": 2006
+        "end": 2006,
+        "id": 90
       }
     ],
     "name": "Patricia Cossard",
@@ -16192,8 +15978,7 @@
     "slug formula": "patricia-cossard",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:22:19.000Z",
-    "record_id": "recp8PjZVbwm1KHDi",
-    "groupType": "Past"
+    "record_id": "recp8PjZVbwm1KHDi"
   },
   {
     "id": "melissa-henry",
@@ -16213,8 +15998,7 @@
     "slug formula": "melissa-henry",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:19:59.000Z",
-    "record_id": "recpAAeJ4LR5QVs66",
-    "groupType": "Past"
+    "record_id": "recpAAeJ4LR5QVs66"
   },
   {
     "id": "scott-rettberg",
@@ -16238,8 +16022,7 @@
     "slug formula": "scott-rettberg",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T17:38:51.000Z",
-    "record_id": "recpAb8RDoGk2dJLZ",
-    "groupType": "Current"
+    "record_id": "recpAb8RDoGk2dJLZ"
   },
   {
     "id": "james-neal",
@@ -16259,7 +16042,8 @@
       {
         "title": "US Institute of Museum and Library Services (IMLS) Intern",
         "start": 2009,
-        "end": 2010
+        "end": 2010,
+        "id": 319
       }
     ],
     "name": "James Neal",
@@ -16269,8 +16053,7 @@
     "slug formula": "james-neal",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recpE3qOY5yPJMrtI",
-    "groupType": "Past"
+    "record_id": "recpE3qOY5yPJMrtI"
   },
   {
     "id": "mith",
@@ -16318,8 +16101,7 @@
     "slug formula": "mith-",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:19:59.000Z",
-    "record_id": "recpQaxENGKK8aZLu",
-    "groupType": "Current"
+    "record_id": "recpQaxENGKK8aZLu"
   },
   {
     "id": "karen-cariani",
@@ -16340,8 +16122,7 @@
     "slug formula": "karen-cariani",
     "created": "2021-02-12T17:35:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recpl6jjzkjTG9EpG",
-    "groupType": "Current"
+    "record_id": "recpl6jjzkjTG9EpG"
   },
   {
     "id": "alex-gil",
@@ -16368,8 +16149,7 @@
     "slug formula": "alex-gil",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recps0Xhd3bcUwJyg",
-    "groupType": "Current"
+    "record_id": "recps0Xhd3bcUwJyg"
   },
   {
     "id": "emily-adamo",
@@ -16386,7 +16166,9 @@
     "linked identities": [
       {
         "title": "Web Developer",
-        "start": 2008
+        "start": 2008,
+        "end": 2008,
+        "id": 2
       }
     ],
     "name": "Emily Adamo",
@@ -16396,8 +16178,7 @@
     "slug formula": "emily-adamo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recpzYGjase6fw33J",
-    "groupType": "Past"
+    "record_id": "recpzYGjase6fw33J"
   },
   {
     "id": "trevor-owens",
@@ -16448,8 +16229,7 @@
     "slug formula": "trevor-owens",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recq1DeREyCuwG0XO",
-    "groupType": "Current"
+    "record_id": "recq1DeREyCuwG0XO"
   },
   {
     "id": "lorena-gauthereau",
@@ -16475,8 +16255,7 @@
     "slug formula": "lorena-gauthereau",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recqAhaoKsblFj0P1",
-    "groupType": "Current"
+    "record_id": "recqAhaoKsblFj0P1"
   },
   {
     "id": "fahad-ismail",
@@ -16494,7 +16273,8 @@
       {
         "title": "Accounting Assistant",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 205
       }
     ],
     "name": "Fahad Ismail",
@@ -16504,8 +16284,7 @@
     "slug formula": "fahad-ismail",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recqDs5OlZjcqwu9k",
-    "groupType": "Past"
+    "record_id": "recqDs5OlZjcqwu9k"
   },
   {
     "id": "joanna-swafford",
@@ -16558,8 +16337,7 @@
     "slug formula": "joanna-swafford",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recqFr2YjWpDmD8W7",
-    "groupType": "Current"
+    "record_id": "recqFr2YjWpDmD8W7"
   },
   {
     "id": "charles-manekin",
@@ -16586,7 +16364,8 @@
       {
         "title": "Resident Fellow",
         "start": 2004,
-        "end": 2006
+        "end": 2006,
+        "id": 282
       }
     ],
     "name": "Chip Manekin",
@@ -16597,8 +16376,7 @@
     "slug formula": "chip-manekin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-28T05:17:36.000Z",
-    "record_id": "recqrZ2OoCwuR8n90",
-    "groupType": "Past"
+    "record_id": "recqrZ2OoCwuR8n90"
   },
   {
     "id": "stuart-moulthrop",
@@ -16624,8 +16402,7 @@
     "slug formula": "stuart-moulthrop",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T17:22:26.000Z",
-    "record_id": "recquZI4oQ7N5Mfss",
-    "groupType": "Current"
+    "record_id": "recquZI4oQ7N5Mfss"
   },
   {
     "id": "katrina-fenlon",
@@ -16673,12 +16450,7 @@
     "linked research as participant": [
       "recUrcEcMBropcb0U"
     ],
-    "linked identities": [
-      {
-        "title": "MITH Affiliate Assistant Professor",
-        "start": 2018
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recvQq4wFUTvM8Sd9",
       "recT9KYoEgdDtgvjT"
@@ -16690,8 +16462,7 @@
     "slug formula": "katrina-fenlon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-09T16:58:53.000Z",
-    "record_id": "recrIx9XiNqgWi7eW",
-    "groupType": "Current"
+    "record_id": "recrIx9XiNqgWi7eW"
   },
   {
     "id": "joe-gilbert",
@@ -16718,8 +16489,7 @@
     "slug formula": "joe-gilbert",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T05:22:23.000Z",
-    "record_id": "recreuhZNHibzudPf",
-    "groupType": "Current"
+    "record_id": "recreuhZNHibzudPf"
   },
   {
     "id": "georgina-goodlander",
@@ -16772,8 +16542,7 @@
     "slug formula": "georgina-goodlander",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recrmThmrOCWgvE6o",
-    "groupType": "Current"
+    "record_id": "recrmThmrOCWgvE6o"
   },
   {
     "id": "kimberly-christen-withey",
@@ -16824,8 +16593,7 @@
     "slug formula": "kimberly-christen-withey",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:32:55.000Z",
-    "record_id": "recs2Wb0rv2ARLG8N",
-    "groupType": "Current"
+    "record_id": "recs2Wb0rv2ARLG8N"
   },
   {
     "id": "trevor-munoz",
@@ -16918,18 +16686,16 @@
     ],
     "linked identities": [
       {
-        "title": "Director",
-        "start": 2020
-      },
-      {
         "title": "Associate Director",
         "start": 2012,
-        "end": 2017
+        "end": 2017,
+        "id": 312
       },
       {
         "title": "Interim Director",
         "start": 2017,
-        "end": 2020
+        "end": 2020,
+        "id": 313
       }
     ],
     "identities as current": [
@@ -16946,8 +16712,7 @@
     "record_id": "recs8QcLUFxKBS88S",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "chris-prom",
@@ -16997,8 +16762,7 @@
     "slug formula": "chris-prom",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:11:42.000Z",
-    "record_id": "recsTtg1yGFPovEC5",
-    "groupType": "Current"
+    "record_id": "recsTtg1yGFPovEC5"
   },
   {
     "id": "kris-corbett",
@@ -17015,7 +16779,9 @@
     "linked identities": [
       {
         "title": "Program Assistant",
-        "start": 2001
+        "start": 2001,
+        "end": 2001,
+        "id": 87
       }
     ],
     "name": "Kris Corbett",
@@ -17025,8 +16791,7 @@
     "slug formula": "kris-corbett",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recsbGUpNtSg8A40x",
-    "groupType": "Past"
+    "record_id": "recsbGUpNtSg8A40x"
   },
   {
     "id": "mark-sample",
@@ -17078,8 +16843,7 @@
     "slug formula": "mark-sample",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recshcrKESH61XecJ",
-    "groupType": "Current"
+    "record_id": "recshcrKESH61XecJ"
   },
   {
     "id": "amanda-french",
@@ -17136,8 +16900,7 @@
     "slug formula": "amanda-french",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T17:44:27.000Z",
-    "record_id": "recsnUumLJSiYrlGO",
-    "groupType": "Current"
+    "record_id": "recsnUumLJSiYrlGO"
   },
   {
     "id": "jeffrey-moro",
@@ -17183,12 +16946,7 @@
     "slug": "jeffrey-moro",
     "new id": 180,
     "wordpress id": 20997,
-    "linked identities": [
-      {
-        "title": "Winnemore Digital Humanities Dissertation Fellow",
-        "start": 2020
-      }
-    ],
+    "linked identities": [],
     "identities as current": [
       "recZ7pEhEy1AS6uIv"
     ],
@@ -17202,8 +16960,7 @@
     "record_id": "rect4XPdHKVIk2cPn",
     "status": [
       "current"
-    ],
-    "groupType": "Current"
+    ]
   },
   {
     "id": "ray-siemens",
@@ -17229,8 +16986,7 @@
     "slug formula": "ray-siemens",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rect7ERyvXfwdlap0",
-    "groupType": "Current"
+    "record_id": "rect7ERyvXfwdlap0"
   },
   {
     "id": "seth-denbo",
@@ -17289,7 +17045,8 @@
       {
         "title": "Project Coordinator (Project Bamboo)",
         "start": 2010,
-        "end": 2012
+        "end": 2012,
+        "id": 101
       }
     ],
     "name": "Seth Denbo",
@@ -17300,8 +17057,7 @@
     "slug formula": "seth-denbo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-27T03:16:41.000Z",
-    "record_id": "rect9fmrhm1khYvMo",
-    "groupType": "Past"
+    "record_id": "rect9fmrhm1khYvMo"
   },
   {
     "id": "shravya-reddy",
@@ -17320,7 +17076,8 @@
       {
         "title": "Program Associate",
         "start": 2007,
-        "end": 2008
+        "end": 2008,
+        "id": 376
       }
     ],
     "name": "Shravya Reddy",
@@ -17330,8 +17087,7 @@
     "slug formula": "shravya-reddy",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rectAwIiVjAY7ckFC",
-    "groupType": "Past"
+    "record_id": "rectAwIiVjAY7ckFC"
   },
   {
     "id": "craig-dietrich",
@@ -17358,8 +17114,7 @@
     "slug formula": "craig-dietrich",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rectQBhMVHPKTzNbj",
-    "groupType": "Current"
+    "record_id": "rectQBhMVHPKTzNbj"
   },
   {
     "id": "meei-ching-ma",
@@ -17377,7 +17132,8 @@
       {
         "title": "Business Services Specialist",
         "start": 2010,
-        "end": 2011
+        "end": 2011,
+        "id": 277
       }
     ],
     "name": "Meei-Ching Ma",
@@ -17387,8 +17143,7 @@
     "slug formula": "meei-ching-ma",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "rectqSCNrrPgfaW5B",
-    "groupType": "Past"
+    "record_id": "rectqSCNrrPgfaW5B"
   },
   {
     "id": "vika-zafrin",
@@ -17439,8 +17194,7 @@
     "slug formula": "vika-zafrin",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recu33gARTgSr9Kf6",
-    "groupType": "Current"
+    "record_id": "recu33gARTgSr9Kf6"
   },
   {
     "id": "brad-pasanek",
@@ -17492,8 +17246,7 @@
     "slug formula": "brad-pasanek",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recu7kDIUAjX1CRFj",
-    "groupType": "Current"
+    "record_id": "recu7kDIUAjX1CRFj"
   },
   {
     "id": "sharon-leon",
@@ -17547,8 +17300,7 @@
     "slug formula": "sharon-leon",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T05:05:29.000Z",
-    "record_id": "recuJ20ycI1RXI8sk",
-    "groupType": "Current"
+    "record_id": "recuJ20ycI1RXI8sk"
   },
   {
     "id": "mark-matienzo",
@@ -17599,8 +17351,7 @@
     "slug formula": "mark-matienzo",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recuMf4ux5RJ4sErw",
-    "groupType": "Current"
+    "record_id": "recuMf4ux5RJ4sErw"
   },
   {
     "id": "jina-valentine",
@@ -17651,8 +17402,7 @@
     "slug formula": "jina-valentine",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recuUG1woRh87p2Iu",
-    "groupType": "Current"
+    "record_id": "recuUG1woRh87p2Iu"
   },
   {
     "id": "david-brookshire",
@@ -17702,7 +17452,8 @@
       {
         "title": "Manuscripts Transcription Editor (Shelley-Godwin Archive)",
         "start": 2011,
-        "end": 2013
+        "end": 2013,
+        "id": 49
       }
     ],
     "name": "David Brookshire",
@@ -17712,8 +17463,7 @@
     "slug formula": "david-brookshire",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recufF5UBHikYhv8e",
-    "groupType": "Past"
+    "record_id": "recufF5UBHikYhv8e"
   },
   {
     "id": "alex-fredericks",
@@ -17731,7 +17481,8 @@
       {
         "title": "Program Assistant",
         "start": 2000,
-        "end": 2003
+        "end": 2003,
+        "id": 148
       }
     ],
     "name": "Alex Fredericks",
@@ -17741,8 +17492,7 @@
     "slug formula": "alex-fredericks",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recujZoMtWHSBZhgJ",
-    "groupType": "Past"
+    "record_id": "recujZoMtWHSBZhgJ"
   },
   {
     "id": "james-hesla",
@@ -17761,7 +17511,8 @@
       {
         "title": "Program Associate",
         "start": 2008,
-        "end": 2009
+        "end": 2009,
+        "id": 194
       }
     ],
     "name": "James Hesla",
@@ -17771,8 +17522,7 @@
     "slug formula": "james-hesla",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recusjJQVzI3kD05Z",
-    "groupType": "Past"
+    "record_id": "recusjJQVzI3kD05Z"
   },
   {
     "id": "timothy-stinson",
@@ -17822,8 +17572,7 @@
     "slug formula": "timothy-stinson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recuxBYNQ0yfFFAmp",
-    "groupType": "Current"
+    "record_id": "recuxBYNQ0yfFFAmp"
   },
   {
     "id": "alison-booth",
@@ -17875,8 +17624,7 @@
     "slug formula": "alison-booth",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:38:15.000Z",
-    "record_id": "recuyqLWKmYO5Ffcb",
-    "groupType": "Current"
+    "record_id": "recuyqLWKmYO5Ffcb"
   },
   {
     "id": "asim-ali",
@@ -17901,8 +17649,7 @@
     "slug formula": "asim-ali",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recvBx5jxhNPcU0Q1",
-    "groupType": "Current"
+    "record_id": "recvBx5jxhNPcU0Q1"
   },
   {
     "id": "setsuko-yokoyama",
@@ -17953,8 +17700,7 @@
     "slug formula": "setsuko-yokoyama",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recvNDBnlcySqCyKf",
-    "groupType": "Current"
+    "record_id": "recvNDBnlcySqCyKf"
   },
   {
     "id": "bill-lefurgy",
@@ -18008,8 +17754,7 @@
     "slug formula": "bill-lefurgy",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T19:36:46.000Z",
-    "record_id": "recvYgDUROIKBmXlA",
-    "groupType": "Current"
+    "record_id": "recvYgDUROIKBmXlA"
   },
   {
     "id": "jonathan-auerbach",
@@ -18062,8 +17807,7 @@
     "slug formula": "jonathan-auerbach",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recvab5M9xjU9Z7wc",
-    "groupType": "Current"
+    "record_id": "recvab5M9xjU9Z7wc"
   },
   {
     "id": "byron-hawk",
@@ -18113,8 +17857,7 @@
     "slug formula": "byron-hawk",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recvfPJsZytISNX56",
-    "groupType": "Current"
+    "record_id": "recvfPJsZytISNX56"
   },
   {
     "id": "bryan-carter",
@@ -18198,8 +17941,7 @@
     "slug formula": "bryan-carter",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T03:59:07.000Z",
-    "record_id": "recvfZYGNk2c4x41C",
-    "groupType": "Current"
+    "record_id": "recvfZYGNk2c4x41C"
   },
   {
     "id": "mitch-lifton",
@@ -18222,7 +17964,8 @@
       {
         "title": "Resident Fellow (Faculty/Comparative Literature)",
         "start": 2000,
-        "end": 2001
+        "end": 2001,
+        "id": 262
       }
     ],
     "name": "Mitch Lifton",
@@ -18232,8 +17975,7 @@
     "slug formula": "mitch-lifton",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T15:05:50.000Z",
-    "record_id": "recw4DSJ1FkGug724",
-    "groupType": "Past"
+    "record_id": "recw4DSJ1FkGug724"
   },
   {
     "id": "ben-shneiderman",
@@ -18264,8 +18006,7 @@
     "slug formula": "ben-shneiderman",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:54:49.000Z",
-    "record_id": "recwJYzcDIwiKzIy1",
-    "groupType": "Current"
+    "record_id": "recwJYzcDIwiKzIy1"
   },
   {
     "id": "bernard-frischer",
@@ -18345,8 +18086,7 @@
     "slug formula": "bernard-frischer",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-25T14:41:41.000Z",
-    "record_id": "recwUbGPPRioIUCtK",
-    "groupType": "Current"
+    "record_id": "recwUbGPPRioIUCtK"
   },
   {
     "id": "marcy-gouri",
@@ -18390,7 +18130,9 @@
     "linked identities": [
       {
         "title": "Student Assistant",
-        "start": 2016
+        "start": 2016,
+        "end": 2016,
+        "id": 174
       }
     ],
     "name": "Marcy Gouri",
@@ -18400,8 +18142,7 @@
     "slug formula": "marcy-gouri",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recwcl01epIjiaaT5",
-    "groupType": "Past"
+    "record_id": "recwcl01epIjiaaT5"
   },
   {
     "id": "lael-hughes-watkins",
@@ -18456,8 +18197,7 @@
     "slug formula": "lael-hughes-watkins",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:43:39.000Z",
-    "record_id": "recwcqmw8GIdRG3D0",
-    "groupType": "Current"
+    "record_id": "recwcqmw8GIdRG3D0"
   },
   {
     "id": "michael-evans",
@@ -18484,8 +18224,7 @@
     "slug formula": "michael-evans",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:22:04.000Z",
-    "record_id": "recwfQEuXushEHi9n",
-    "groupType": "Past"
+    "record_id": "recwfQEuXushEHi9n"
   },
   {
     "id": "christina-boyles",
@@ -18537,8 +18276,7 @@
     "slug formula": "christina-boyles",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recwhqpFwnFlWCtfM",
-    "groupType": "Current"
+    "record_id": "recwhqpFwnFlWCtfM"
   },
   {
     "id": "jim-kuhn",
@@ -18566,8 +18304,7 @@
     "slug formula": "jim-kuhn",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recwpToUylbEckK6R",
-    "groupType": "Current"
+    "record_id": "recwpToUylbEckK6R"
   },
   {
     "id": "caitlin-pollock",
@@ -18619,8 +18356,7 @@
     "slug formula": "caitlin-pollock",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recxHo5HIRft8nKem",
-    "groupType": "Current"
+    "record_id": "recxHo5HIRft8nKem"
   },
   {
     "id": "kate-dohe",
@@ -18658,8 +18394,7 @@
     "slug formula": "kate-dohe",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:43:39.000Z",
-    "record_id": "recxPq9Vz5mj9bXCI",
-    "groupType": "Current"
+    "record_id": "recxPq9Vz5mj9bXCI"
   },
   {
     "id": "jean-dryden",
@@ -18683,8 +18418,7 @@
     "slug formula": "jean-dryden",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recxmwHjunLRWUcxS",
-    "groupType": "Current"
+    "record_id": "recxmwHjunLRWUcxS"
   },
   {
     "id": "elizabeth-losh",
@@ -18735,8 +18469,7 @@
     "slug formula": "elizabeth-losh",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T21:09:44.000Z",
-    "record_id": "recyAF6fjvY4wFWxs",
-    "groupType": "Current"
+    "record_id": "recyAF6fjvY4wFWxs"
   },
   {
     "id": "roy-rosenzweig",
@@ -18764,8 +18497,7 @@
     "slug formula": "roy-rosenzweig",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T17:22:46.000Z",
-    "record_id": "recyIw0oAj6Unw35O",
-    "groupType": "Current"
+    "record_id": "recyIw0oAj6Unw35O"
   },
   {
     "id": "columba-stewart",
@@ -18817,8 +18549,7 @@
     "slug formula": "columba-stewart",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recyRoHI0BNKPpFcI",
-    "groupType": "Current"
+    "record_id": "recyRoHI0BNKPpFcI"
   },
   {
     "id": "katie-shilton",
@@ -18876,8 +18607,7 @@
     "slug formula": "katie-shilton",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T20:06:11.000Z",
-    "record_id": "recyXd1y3vi1wVrjQ",
-    "groupType": "Current"
+    "record_id": "recyXd1y3vi1wVrjQ"
   },
   {
     "id": "howard-rambsy-ii",
@@ -18930,8 +18660,7 @@
     "slug formula": "howard-rambsy-ii",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recyaHWDa9AnJflyK",
-    "groupType": "Current"
+    "record_id": "recyaHWDa9AnJflyK"
   },
   {
     "id": "robert-k-nelson",
@@ -18957,8 +18686,7 @@
     "slug formula": "robert-k-nelson",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:23:49.000Z",
-    "record_id": "recylneJkKk78oGzB",
-    "groupType": "Current"
+    "record_id": "recylneJkKk78oGzB"
   },
   {
     "id": "thomas-haigh",
@@ -19009,8 +18737,7 @@
     "slug formula": "thomas-haigh",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:10:54.000Z",
-    "record_id": "recymBuk2xu2z6sPC",
-    "groupType": "Current"
+    "record_id": "recymBuk2xu2z6sPC"
   },
   {
     "id": "selvam-palanimalai",
@@ -19056,7 +18783,9 @@
     "linked identities": [
       {
         "title": "GSoC Intern",
-        "start": 2013
+        "start": 2013,
+        "end": 2013,
+        "id": 342
       }
     ],
     "name": "Selvam Palanimalai",
@@ -19066,8 +18795,7 @@
     "slug formula": "selvam-palanimalai",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recyuExsVWuBQlGxQ",
-    "groupType": "Past"
+    "record_id": "recyuExsVWuBQlGxQ"
   },
   {
     "id": "chuck-henry",
@@ -19118,8 +18846,7 @@
     "slug formula": "chuck-henry",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recyvBRLcDAvQxXRv",
-    "groupType": "Current"
+    "record_id": "recyvBRLcDAvQxXRv"
   },
   {
     "id": "megan-fitzmaurice",
@@ -19162,11 +18889,15 @@
     "linked identities": [
       {
         "title": "Postdoctoral Associate, AADHum",
-        "start": 2018
+        "start": 2018,
+        "end": 2018,
+        "id": 135
       },
       {
         "title": "Graduate Assistant, AADHum",
-        "start": 2018
+        "start": 2018,
+        "end": 2018,
+        "id": 136
       }
     ],
     "name": "Megan Fitzmaurice",
@@ -19176,8 +18907,7 @@
     "slug formula": "megan-fitzmaurice",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recywls681qvH6foP",
-    "groupType": "Past"
+    "record_id": "recywls681qvH6foP"
   },
   {
     "id": "nikolas-coukouma",
@@ -19196,7 +18926,8 @@
       {
         "title": "Program Associate",
         "start": 2009,
-        "end": 2010
+        "end": 2010,
+        "id": 92
       }
     ],
     "name": "Nikolas Coukouma",
@@ -19206,8 +18937,7 @@
     "slug formula": "nikolas-coukouma",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recz28bOflrGPbIp2",
-    "groupType": "Past"
+    "record_id": "recz28bOflrGPbIp2"
   },
   {
     "id": "kimberlee-staking",
@@ -19232,8 +18962,7 @@
     "slug formula": "kimberlee-staking",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recz4UF5ftLlwWnSN",
-    "groupType": "Current"
+    "record_id": "recz4UF5ftLlwWnSN"
   },
   {
     "id": "greg-crane",
@@ -19287,8 +19016,7 @@
     "slug formula": "greg-crane",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "recz5i682gTV49Ozw",
-    "groupType": "Current"
+    "record_id": "recz5i682gTV49Ozw"
   },
   {
     "id": "merle-collins",
@@ -19328,8 +19056,7 @@
     "slug formula": "merle-collins",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T15:07:54.000Z",
-    "record_id": "recz6Cp7oPgSDyWy3",
-    "groupType": "Past"
+    "record_id": "recz6Cp7oPgSDyWy3"
   },
   {
     "id": "elizabeth-bearden",
@@ -19354,8 +19081,7 @@
     "slug formula": "elizabeth-bearden",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reczERwEsXzpxtcX4",
-    "groupType": "Current"
+    "record_id": "reczERwEsXzpxtcX4"
   },
   {
     "id": "brett-bobley",
@@ -19385,8 +19111,7 @@
     "slug formula": "brett-bobley",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-25T14:41:24.000Z",
-    "record_id": "reczF4AgmHEIDqgyF",
-    "groupType": "Current"
+    "record_id": "reczF4AgmHEIDqgyF"
   },
   {
     "id": "andries-van-dam",
@@ -19443,8 +19168,7 @@
     "slug formula": "andy-van-dam",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:38:28.000Z",
-    "record_id": "reczWaIr98Pac2uVu",
-    "groupType": "Current"
+    "record_id": "reczWaIr98Pac2uVu"
   },
   {
     "id": "kevin-hamilton",
@@ -19497,8 +19221,7 @@
     "slug formula": "kevin-hamilton",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reczaihhYTQPOqBRe",
-    "groupType": "Current"
+    "record_id": "reczaihhYTQPOqBRe"
   },
   {
     "id": "jordan-rosenzweig",
@@ -19516,7 +19239,8 @@
       {
         "title": "Office Assistant",
         "start": 2011,
-        "end": 2012
+        "end": 2012,
+        "id": 392
       }
     ],
     "name": "Jordan Rosenzweig",
@@ -19526,8 +19250,7 @@
     "slug formula": "jordan-rosenzweig",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reczhsAwzQuqlR88N",
-    "groupType": "Past"
+    "record_id": "reczhsAwzQuqlR88N"
   },
   {
     "id": "kevin-hawkins",
@@ -19545,7 +19268,8 @@
       {
         "title": "Program Assistant",
         "start": 2000,
-        "end": 2001
+        "end": 2001,
+        "id": 191
       }
     ],
     "name": "Kevin Hawkins",
@@ -19555,8 +19279,7 @@
     "slug formula": "kevin-hawkins",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
-    "record_id": "reczrBFXygSZJ8fTU",
-    "groupType": "Past"
+    "record_id": "reczrBFXygSZJ8fTU"
   },
   {
     "id": "gretchen-jones",
@@ -19582,7 +19305,6 @@
     "slug formula": "gretchen-jones",
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:42:58.000Z",
-    "record_id": "reczzaCAKInGFc0A5",
-    "groupType": "Past"
+    "record_id": "reczzaCAKInGFc0A5"
   }
 ]

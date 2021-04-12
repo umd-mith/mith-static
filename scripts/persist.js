@@ -143,11 +143,12 @@ class Persistor {
           const resolvedLinkedIdentities = linkedIdentities.reduce((acc, identityId) => {
             const identity = identities[identityId]
             const title = identity.get('title')
-            if (!acc[title] && identity.get('start')) {
+            if (!acc[title] && identity.get('start') && identity.get('end')) {
               acc[title] = {
                 title,
                 start: identity.get('start'),
-                end: identity.get('end')
+                end: identity.get('end'),
+                id: identity.get('id')
               }
             }
             return acc
