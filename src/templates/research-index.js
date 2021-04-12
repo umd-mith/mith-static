@@ -28,17 +28,17 @@ const ResearchIndex = ({data}) => {
 
             let excerpt = ''
             let image = ''
-            let title = <h2 className="title">
-                <Link to={slug}>{item.title}</Link>
-              </h2>
             if (item.fields.image) {
               image = <Img 
                 fluid={item.fields.image.childImageSharp.fluid} 
                 alt={item.title} 
                 className="research-image" 
               />
-              title = <Link to={slug}>{image}</Link>
-            }
+            }   
+            const title = item.fields.image 
+              ? <Link to={slug}>{image}</Link> 
+              : <h2 className="title"><Link to={slug}>{item.title}</Link>
+              </h2>
             if (item.fields) {
               excerpt = item.fields.markdownDescription
                 ? item.fields.markdownDescription.childMarkdownRemark.excerpt
@@ -90,7 +90,7 @@ export const query = graphql`
           }
           image {
             childImageSharp {
-              fluid(maxWidth: 500, srcSetBreakpoints: [200, 250, 500], quality: 100, background: "rgba(255,255,255,0)") {
+              fluid(maxWidth: 500, srcSetBreakpoints: [500], quality: 100, background: "rgba(255,255,255,0)") {
                 src
                 srcSet
                 aspectRatio
