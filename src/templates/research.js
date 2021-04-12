@@ -138,7 +138,7 @@ const Research = ({ pageContext: item }) => {
             {sponsors}
           </div>       
           {description}
-          {events}
+          {/* {events} */}
         </section>
       </div>
     </Layout>
