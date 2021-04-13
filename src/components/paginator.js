@@ -1,16 +1,16 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import paginatorStyles from './paginator.module.css'
+import './paginator.module.css'
 
 const Paginator = ({count, path}) => {
   return(
-    <section className={`pagination ${paginatorStyles.pagination}`}>
-      <span className={paginatorStyles.label}>Pages:</span>
+    <section className="pagination">
+      <span className="label">Pages:</span>
       {Array.from({ length: count }, (_, i) => (
         <Link
-          activeClassName={paginatorStyles.active} 
-          className={paginatorStyles.pageLink}
+          activeClassName="active" 
+          className="pageLink"
           key={`pagination-number${i + 1}`}
           to={`/${path}/${i === 0 ? "" : i + 1}`}>
           {i + 1}

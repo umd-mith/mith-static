@@ -14,11 +14,24 @@ const toImage = {
 }
 
 exports.onCreateNode = async ({
-    node, actions, store, cache, createContentDigest, createNodeId
+    node, getNode, actions, store, cache, createContentDigest, createNodeId
   }) => {
 
   const { createNode, createNodeField } = actions
 
+  // Add source name to Markdown nodes.
+
+  if (node.internal.type === `MarkdownRemark`) {
+    const parent = getNode(node.parent)
+
+    createNodeField({
+      node,
+      name: 'sourceName',
+      value: parent.sourceInstanceName,
+    })
+  }
+
+  // Set mediaTypes.
   for (const table in toImage) {
     if (node.internal.type === `${table}Json`) {
       for (const key of toImage[table]) {

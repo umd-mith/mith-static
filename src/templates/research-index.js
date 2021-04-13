@@ -63,6 +63,7 @@ export const query = graphql`
       }
     ) {
       nodes{
+        id
         title
         slug
         year_start
