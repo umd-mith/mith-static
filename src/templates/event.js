@@ -10,18 +10,18 @@ import Person from '../components/person'
 import './event.css'
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Event = ({ pageContext: event }) => {
-  const title = event.image
-  ? <GatsbyImage 
-    image={event.image.localFiles[0].childImageSharp.gatsbyImageData} 
-    alt={event.event_title} 
+const Event = ({ pageContext: item }) => {
+  const title = item.image
+  ? <Img 
+    fluid={item.image.localFiles[0].childImageSharp.fluid} 
+    alt={item.event_title} 
     className="event-image" 
-  /> : <h1 className="title" itemProp="name">{event.talk_title || event.event_title}</h1>
+  /> : <h1 className="title" itemProp="name">{item.talk_title || item.event_title}</h1>
 
   let speakers_list = null
   let speakers = null
-  const speakers_data = event.speakers ? event.speakers : []
-  if (event.speakers) {
+  const speakers_data = item.speakers ? item.speakers : []
+  if (item.speakers) {
     speakers_list = speakers_data.map(p => {
       return <Person person={p.data} showTitle="true" type="speaker" />
     })
@@ -32,7 +32,7 @@ const Event = ({ pageContext: event }) => {
   }
 
   let dd_info = null
-  if (event.type === "Digital Dialogue") {
+  if (item.type === "Digital Dialogue") {
     dd_info = <section className="dd-info">
       A continuously updated schedule of talks is also available on the Digital Dialogues webpage.
 
@@ -46,17 +46,14 @@ const Event = ({ pageContext: event }) => {
 
   return (
     <Layout>
-      <SEO title={event.title} />
+      <SEO title={item.title} />
       <div className="page-event">
         <section className="event" itemProp="event" itemScope itemType="https://schema.org/Event">
           {title}
           <div className="metadata">
-            <EventTime start={event.start} end={event.end} />
-            <div itemProp="location" className="location">{event.location}</div>
+            <EventTime start={item.start} end={item.end} />
+            <div itemProp="location" className="location">{item.location}</div>
           </div>
-          <div className="description abstract" 
-            dangerouslySetInnerHTML={{ __html: event.description ? event.description.childMarkdownRemark.html : ''}} 
-          />
           {speakers}
         </section>
         {dd_info}

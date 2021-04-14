@@ -4,13 +4,15 @@ const {createRemoteFileNode} = require('gatsby-source-filesystem')
 // When creating nodes, set the following fields with a markdown mediaType.
 const toMarkdown = {
   'People' : ['bio'],
-  'Research' : ['description', 'excerpt']
+  'Research' : ['description', 'excerpt'],
+  //'Events' : ['description']
 }
 
 // When creating nodes, set the following fields with an Image type.
 const toImage = {
   'People' : ['headshot'],
-  'Research' : ['image']
+  'Research' : ['image'],
+  'Events' : ['image'],
 }
 
 exports.onCreateNode = async ({
@@ -98,7 +100,7 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makePostIndex(createPage, graphql, pathPrefix)
   await makeResearch(createPage, graphql, pathPrefix)
   await makeResearchIndex(createPage, graphql, pathPrefix)
-  //await makeEvents(createPage, graphql, pathPrefix)
+  await makeEvents(createPage, graphql, pathPrefix)
   //await makeEventIndex(createPage, graphql, pathPrefix)
 }
 
@@ -309,9 +311,10 @@ async function makeResearch(createPage, graphql) {
           }
           events {
             id
-            event_type
             event_title
-            type: talk_title
+            talk_title
+            talk_subtitle
+            type: event_type
             start: start_date
             end: end_date
             location
@@ -337,7 +340,7 @@ async function makeResearch(createPage, graphql) {
 async function makeEventIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allAirtableEvents(
+      allEventsJson(
         filter: {
           table: {eq: "Events"}
         }
@@ -349,7 +352,7 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  const numItems = results.data.allAirtableEvents.pageInfo.itemCount
+  const numItems = results.data.allEventsJson.pageInfo.itemCount
   const itemsPerPage = 25
   const numPages = Math.ceil(numItems / itemsPerPage)
 
@@ -366,80 +369,68 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
     })
   })
 }
+*/
 
 async function makeEvents(createPage, graphql) {
   const results = await graphql(`
     query {
-      allAirtableEvents(
-        filter: {table: {eq: "Events"}}
-      ) {
+      allEventsJson {
         nodes {
-          data {
-            id
-            slug
-            event_title
-            talk_title
-            type: event_type
-            description {
-              childMarkdownRemark {
-                html
-              }
-            }
-            start: start_date
-            end: end_date
-            location
-            vimeoId: vimeo_id
-            storifyUrl: storify_url
-            sutoriEmbed: sutori_embed
-            twitterMoment: twitter_moment
-            speakers {
-              data {
-                id
-                name
-                title
-                affiliation
-                affiliation_as_speaker
-                twitter
-                website
-                headshot {
-                  localFiles {
-                    childImageSharp {
-                      fluid(maxHeight: 200, maxWidth: 200, fit: COVER, srcSetBreakpoints: [200, 400], quality: 100, background: "rgba(255,255,255,0)") {
-                        src
-                        srcSet
-                        aspectRatio
-                        sizes
-                        base64
-                      }
-                    }
-                  }
+          id
+          fields {
+            image {
+              childImageSharp {
+                fluid(maxWidth:1400, srcSetBreakpoints: [1400], quality: 100, background: "rgba(255,255,255,0)") {
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                  base64
                 }
-                bio
               }
             }
-            research_items: linked_research_item {
-              data {
-                id
-                title
-              }
-            }
+          }
+          event_title
+          talk_title
+          talk_subtitle
+          type: event_type
+          start: start_date
+          end: end_date
+          location
+          speakers {
+            name
+            title
+            department
+            institution
+            start
+            end
+            person_group
+            slug
+          }
+          participants {
+            name
+            title
+            department
+            institution
+            start
+            end
+            person_group
+            slug
           }
         }
       }
     }  
   `)
 
-  for (const node of results.data.allAirtableEvents.nodes) {
-    const event = node.data
-    if (event.slug) {
-      createPage({
-        path: `/events/${event.slug}/`,
-        component: require.resolve(`./src/templates/event.js`),
-        context: {
-          ...event
-        }
-      })
-    }
+  for (const node of results.data.allEventsJson.nodes) {
+    const item = node
+    createPage({
+      path: `/events/${item.id}/`,
+      component: require.resolve(`./src/templates/event.js`),
+      context: {
+        ...item
+      }
+    })
   }
 }
-*/
+

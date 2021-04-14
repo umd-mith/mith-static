@@ -62,10 +62,10 @@ class Persistor {
     return this._links
   }
 
-  get partnersAndSponsor() {
-    if (this._partnersAndSponsor) return this._partnersAndSponsor
-    this._partnersAndSponsor = this.getTable(this.mithBase, 'Partners_Sponsors')
-    return this._partnersAndSponsor
+  get partnersAndSponsors() {
+    if (this._partnersAndSponsors) return this._partnersAndSponsors
+    this._partnersAndSponsors = this.getTable(this.mithBase, 'Partners_Sponsors')
+    return this._partnersAndSponsors
   }
 
   get events() {
@@ -191,7 +191,7 @@ class Persistor {
       const people = await this.people
       const identities = await this.identities
       const links = await this.links
-      const partnersAndSponsor = await this.partnersAndSponsor
+      const partnersAndSponsors = await this.partnersAndSponsors
       const events = await this.events
   
       const research = []
@@ -199,7 +199,7 @@ class Persistor {
       for (const researchItemId in researchItems) {
         const researchItem = researchItems[researchItemId]
   
-        // Get internal and external participants
+        // Internal and External Participants
         const intParticipants = (researchItem.get('linked internal participant affiliations') || []).map(
           id => identities[id].fields
         )
@@ -221,7 +221,7 @@ class Persistor {
   
         researchItem.fields.participants = intParticipants.concat(extParticipants)
 
-        // get directors
+        // Directors
         const directors = (researchItem.get('linked director affiliations') || []).map(
           id => identities[id].fields
         )
@@ -241,11 +241,11 @@ class Persistor {
 
         // Partners_Sponsors
         researchItem.fields.partners = (researchItem.get('linked partners') || []).map(
-          id => partnersAndSponsor[id].fields
+          id => partnersAndSponsors[id].fields
         )
 
         researchItem.fields.sponsors = (researchItem.get('linked sponsors') || []).map(
-          id => partnersAndSponsor[id].fields
+          id => partnersAndSponsors[id].fields
         )
 
         // Events
@@ -257,6 +257,80 @@ class Persistor {
       }
   
       this.writeJson(research, 'research.json')
+    } catch(e) {
+      throw new Error(e)
+    }
+  }
+
+  async persistEvents() {
+    try {
+      const eventsItems = await this.events
+      const research = await this.research
+      const people = await this.people
+      const identities = await this.identities
+      const links = await this.links
+      const partnersAndSponsors = await this.partnersAndSponsors
+      //const types = await this.types
+  
+      const events = []
+      
+      for (const eventsItemId in eventsItems) {
+        const eventsItem = eventsItems[eventsItemId]
+
+        // Speakers
+        const speakers = (eventsItem.get('speaker affiliations') || []).map(
+          id => identities[id].fields
+        )
+
+        for (const speaker of speakers) {
+          const person = people[speaker['linked person'][0]]
+          speaker.name = person.get('name')
+          speaker.slug = person.get('id')
+        }
+
+        eventsItem.fields.speakers = speakers
+
+        // Participants
+        const participants = (eventsItem.get('linked participant affiliations') || []).map(
+          id => identities[id].fields
+        )
+
+        for (const participant of participants) {
+          const person = people[participant['linked person'][0]]
+          participant.name = person.get('name')
+          participant.slug = person.get('id')
+        }
+  
+        eventsItem.fields.participants = participants
+
+        // Links
+        eventsItem.fields.links = (eventsItem.get('linked links') || []).map(
+          id => links[id].fields
+        )
+
+        // Partners_Sponsors
+        eventsItem.fields.partners = (eventsItem.get('partners') || []).map(
+          id => partnersAndSponsors[id].fields
+        )
+
+        eventsItem.fields.sponsors = (eventsItem.get('sponsors') || []).map(
+          id => partnersAndSponsors[id].fields
+        )
+
+        // Research Items
+        eventsItem.fields.research = (eventsItem.get('linked research item') || []).map(
+          id => research[id].fields
+        )
+  
+        // Types
+        //eventsItem.fields.types = (eventsItem.get('event types') || []).map(
+        //  id => types[id].fields
+        //)
+
+        events.push(eventsItem.fields)
+      }
+  
+      this.writeJson(events, 'events.json')
     } catch(e) {
       throw new Error(e)
     }
@@ -275,8 +349,12 @@ switch (process.argv[2]) {
   case 'research':
     persistor.persistResearch()
     break
+  case 'events':
+    persistor.persistEvents()
+    break
   default:
     persistor.persistPeople()
     persistor.persistPosts()
     persistor.persistResearch()
+    persistor.persistEvents()
 }

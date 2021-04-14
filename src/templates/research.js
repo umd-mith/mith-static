@@ -5,7 +5,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 //import ResearchTime from '../components/research-time'
-//import EventTime from '../components/event-time'
+import EventTime from '../components/event-time'
 import Person from '../components/person'
 
 import './research.css'
@@ -105,22 +105,20 @@ const Research = ({ pageContext: item }) => {
 
   let events_list = null 
   let events = null
-/*
+
   if (item.events) {
     events_list = item.events.map(e => {
       return <li id={e.id}>
           <h3 className="title" itemProp="name"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
           <EventTime start={e.start} end={e.end} />
           <div itemProp="location" className="location">{e.location}</div>
-          <div className="description" 
-            dangerouslySetInnerHTML={{ __html: e.description ? e.description.childMarkdownRemark.excerpt : ''}} 
-          />
+          <div className="description"></div>
           <Link className="button" key={`e-${e.id}`} to={`../../events/${e.id}`}>View Event Details</Link>
         </li>
     })
     events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
   }
-*/
+
   return (
     <Layout>
       <SEO title={item.title} />
@@ -138,7 +136,7 @@ const Research = ({ pageContext: item }) => {
             {sponsors}
           </div>       
           {description}
-          {/* {events} */}
+          {events}
         </section>
       </div>
     </Layout>
