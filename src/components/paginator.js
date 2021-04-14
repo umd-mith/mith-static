@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import paginatorStyles from './paginator.module.css'
+import * as paginatorStyles from './paginator.module.css'
 
 const Paginator = ({count, path}) => {
   return(

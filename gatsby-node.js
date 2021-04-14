@@ -16,11 +16,24 @@ const toImage = {
 }
 
 exports.onCreateNode = async ({
-    node, actions, store, cache, createContentDigest, createNodeId
+    node, getNode, actions, store, cache, createContentDigest, createNodeId
   }) => {
 
   const { createNode, createNodeField } = actions
 
+  // Add source name to Markdown nodes.
+
+  if (node.internal.type === `MarkdownRemark`) {
+    const parent = getNode(node.parent)
+
+    createNodeField({
+      node,
+      name: 'sourceName',
+      value: parent.sourceInstanceName,
+    })
+  }
+
+  // Set mediaTypes.
   for (const table in toImage) {
     if (node.internal.type === `${table}Json`) {
       for (const key of toImage[table]) {
@@ -104,13 +117,7 @@ async function makePeople(createPage, graphql) {
             }
             headshot {
               childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 500, fit: COVER, srcSetBreakpoints: [200, 250, 500], quality: 100, background: "rgba(255,255,255,0)") {
-                  src
-                  srcSet
-                  aspectRatio
-                  sizes
-                  base64
-                }
+                gatsbyImageData(width: 500, height: 500, transformOptions: {fit: COVER}, quality: 100, backgroundColor: "rgba(255,255,255,0)")
               }
               publicURL
             }
@@ -135,9 +142,6 @@ async function makePeople(createPage, graphql) {
     // Simplify fields
     if (person.fields) {
       person.bio = person.fields.markdownBio ? person.fields.markdownBio.childMarkdownRemark.html : person.bio
-      if (person.fields.headshot) {
-        person.headshot = person.fields.headshot.childImageSharp ? person.fields.headshot.childImageSharp.fluid : person.fields.headshot.publicURL
-      }
     }
     createPage({
       path: `/people/${person.id}/`,
@@ -259,13 +263,7 @@ async function makeResearch(createPage, graphql) {
             }
             image {
               childImageSharp {
-                fluid(maxWidth:1400, srcSetBreakpoints: [1400], quality: 100, background: "rgba(255,255,255,0)") {
-                  src
-                  srcSet
-                  aspectRatio
-                  sizes
-                  base64
-                }
+                gatsbyImageData(width: 1400, quality: 100, backgroundColor: "rgba(255,255,255,0)")
               }
             }
           }

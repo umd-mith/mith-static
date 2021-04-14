@@ -45,9 +45,9 @@ module.exports = {
     ]
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
-    `gatsby-remark-source-name`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,

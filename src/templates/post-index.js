@@ -73,6 +73,7 @@ export const query = graphql`
       sort: {fields: post_date, order: DESC}
     ) {
       nodes {
+        id
         slug
         author_name
         post_title

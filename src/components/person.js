@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -53,8 +53,8 @@ const Person = ({ person, type }) => {
       : null
 
     headshot = person.headshot
-      ? <Img 
-        fluid={person.headshot.localFiles[0].childImageSharp.fluid} 
+      ? <GatsbyImage 
+        image={person.headshot.localFiles[0].childImageSharp.gatsbyImageData} 
         alt={person.name} 
         className="headshot" 
       /> : null

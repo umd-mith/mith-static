@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -12,8 +12,8 @@ import './event.css'
 
 const Event = ({ pageContext: item }) => {
   const title = item.image
-  ? <Img 
-    fluid={item.image.localFiles[0].childImageSharp.fluid} 
+  ? <GatsbyImage 
+    fluid={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
     alt={item.event_title} 
     className="event-image" 
   /> : <h1 className="title" itemProp="name">{item.talk_title || item.event_title}</h1>
