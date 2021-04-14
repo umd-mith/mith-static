@@ -1,19 +1,4 @@
-.people-group {
-  margin-bottom: 3rem;
-}
-.people-group span {
-  display: inline-block;
-  font-size: 90%;
-  line-height: 1.5;
-  margin-bottom: 0.1rem;
-}
-.people-group .person {
-  margin-bottom: 1.5rem;
-}
-.people-group .person .name {
-  margin-bottom: 0.5rem;
-  margin-top: 1rem;
-}
+
 .people-group .person .title {
   line-height: 1.5;
   font-family: var(--font-stack);
@@ -22,4 +7,37 @@
 }
 .people-group .person .name a {
   color: inherit;
+}
+
+/* Current People */
+.page-people .person {
+  margin-bottom: 1.5rem;
+}
+.page-people .person .name {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Past People */
+.page-past-people .person .identity {
+  display: block;
+  margin-top: var(--content-spacing-xs);
+  line-height: 1.2;
+}
+.page-past-people .person span {
+  font-size: 0.8rem;
+  display: inline;
+}
+.page-past-people .person .title {
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+.page-past-people .person .date-span::before {
+  content: ", ";
+}
+.page-past-people .person .date-span .end::before {
+  content: " \2013 ";
+}
+.page-past-people .people-group {
+  margin-bottom: 3rem;
 }

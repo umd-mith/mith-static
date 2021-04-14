@@ -1,0 +1,7 @@
+.page-research .research-image {
+  max-width: 500px;
+} 
+.page-research a,
+.page-research a:hover {
+  border-bottom: 0;
+}

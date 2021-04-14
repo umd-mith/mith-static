@@ -87,7 +87,14 @@ const PeoplePage = ({ data }) => {
 
 export const query = graphql`
   query PeopleQuery {
-    people: allPeopleJson(sort: {fields: last}, filter: {group_type: {in: ["Staff", "Affiliates"]}}) {
+    people: allPeopleJson(
+      sort: {
+        fields: last
+      }, 
+      filter: {
+        group_type: {in: ["Staff", "Affiliates"]}
+      }
+    ) {
       group(field: group_type) {
         fieldValue
         nodes {

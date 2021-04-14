@@ -122,20 +122,41 @@ class Persistor {
     try {
       const people = await this.people
       const groups = await this.groups
+      const identities = await this.identities
   
       const staff = []
   
       for (const persId in people) {
         const person = people[persId]
+        const persInfo = person.fields
   
         const persGroups = person.get('people groups')
         if (!persGroups) continue
         const resolvedGroups = persGroups.map(groupId => {
-          return groups[groupId].get('type')
+          return groups[groupId].get('group name')
         })
   
-        const persInfo = person.fields
         persInfo['people groups'] = resolvedGroups
+
+        const linkedIdentities = person.get('linked identities')
+        if (linkedIdentities) {
+          const resolvedLinkedIdentities = linkedIdentities.reduce((acc, identityId) => {
+            const identity = identities[identityId]
+            const title = identity.get('title')
+            if (!acc[title] && identity.get('start') && identity.get('end')) {
+              acc[title] = {
+                title,
+                start: identity.get('start'),
+                end: identity.get('end'),
+                id: identity.get('id')
+              }
+            }
+            return acc
+          }, {})
+          
+          persInfo['linked identities'] = Object.values(resolvedLinkedIdentities)
+        }
+
         staff.push(persInfo)
       }
   
