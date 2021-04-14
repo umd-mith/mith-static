@@ -380,13 +380,7 @@ async function makeEvents(createPage, graphql) {
           fields {
             image {
               childImageSharp {
-                fluid(maxWidth:1400, srcSetBreakpoints: [1400], quality: 100, background: "rgba(255,255,255,0)") {
-                  src
-                  srcSet
-                  aspectRatio
-                  sizes
-                  base64
-                }
+                gatsbyImageData(width: 1400, quality: 100, backgroundColor: "rgba(255,255,255,0)")
               }
             }
           }

@@ -28,21 +28,19 @@ const ResearchIndex = ({data}) => {
 
             let excerpt = ''
             let image = ''
-            if (item.fields.image) {
-              image = <GatsbyImage 
-                image={item.fields.image.childImageSharp.gatsbyImageData}
-                alt={item.title} 
-                className="research-image" 
-              />
-            }   
-            const title = item.fields.image 
-              ? <Link to={slug}>{image}</Link> 
-              : <h2 className="title"><Link to={slug}>{item.title}</Link>
-              </h2>
+            let title = <h2 className="title"><Link to={slug}>{item.title}</Link></h2>
             if (item.fields) {
-              excerpt = item.fields.markdownDescription
-                ? item.fields.markdownDescription.childMarkdownRemark.excerpt
-                : ''
+              if (item.fields.image) {
+                image = <GatsbyImage 
+                  image={item.fields.image.childImageSharp.gatsbyImageData}
+                  alt={item.title} 
+                  className="research-image" 
+                />
+              title = <Link to={slug}>{image}</Link>
+              }
+              if (item.fields.markdownDescription) {
+                excerpt = item.fields.markdownDescription.childMarkdownRemark.excerpt
+              }
             }
 
             return (

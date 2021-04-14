@@ -13,7 +13,7 @@ import './event.css'
 const Event = ({ pageContext: item }) => {
   const title = item.image
   ? <GatsbyImage 
-    fluid={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
+    image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
     alt={item.event_title} 
     className="event-image" 
   /> : <h1 className="title" itemProp="name">{item.talk_title || item.event_title}</h1>
@@ -23,7 +23,7 @@ const Event = ({ pageContext: item }) => {
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers) {
     speakers_list = speakers_data.map(p => {
-      return <Person person={p.data} showTitle="true" type="speaker" />
+      return <Person key={p.data.id} person={p.data} showTitle="true" type="speaker" />
     })
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>
