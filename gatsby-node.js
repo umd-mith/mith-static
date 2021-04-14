@@ -263,7 +263,7 @@ async function makeResearch(createPage, graphql) {
             }
             image {
               childImageSharp {
-                gatsbyImageData(width: 1300, quality: 100, backgroundColor: "rgba(255,255,255,0)")
+                gatsbyImageData(width: 1400, quality: 100, backgroundColor: "rgba(255,255,255,0)")
               }
             }
           }
