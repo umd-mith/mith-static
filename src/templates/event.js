@@ -22,8 +22,8 @@ const Event = ({ pageContext: item }) => {
   let speakers = null
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers) {
-    speakers_list = speakers_data.map(p => {
-      return <Person key={p.data.id} person={p.data} showTitle="true" type="speaker" />
+    speakers_list = speakers_data.map((p, i) => {
+      return <Person key={`p${i}`} person={p} showTitle="true" type="speaker" />
     })
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>

@@ -38,8 +38,8 @@ const Research = ({ pageContext: item }) => {
   let participant_list = null
   let participants = null
   if (item.participants) {
-    participant_list = item.participants.map(person => {
-      return <Person person={person} showTitle="true" type="participant" />
+    participant_list = item.participants.map((p, i) => {
+      return <Person key={`p${i}`} person={p} showTitle="true" type="participant" />
     })
     participants = <div className="participants">
       <h2>Participants</h2>
