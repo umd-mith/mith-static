@@ -20,7 +20,7 @@
 .post .inline-list div {
   display: inline-block;
 }
-.post ul {
+.post ul:not(.inline-list) {
   list-style: unset;
   padding: revert;
 }

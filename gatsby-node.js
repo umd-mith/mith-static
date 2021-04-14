@@ -101,7 +101,7 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makeResearch(createPage, graphql, pathPrefix)
   await makeResearchIndex(createPage, graphql, pathPrefix)
   await makeEvents(createPage, graphql, pathPrefix)
-  //await makeEventIndex(createPage, graphql, pathPrefix)
+  await makeEventIndex(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql) {
@@ -336,15 +336,11 @@ async function makeResearch(createPage, graphql) {
   }
 }
 
-/*
+
 async function makeEventIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allEventsJson(
-        filter: {
-          table: {eq: "Events"}
-        }
-      ) {
+      allEventsJson {
         pageInfo {
           itemCount
         }
@@ -369,7 +365,7 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
     })
   })
 }
-*/
+
 
 async function makeEvents(createPage, graphql) {
   const results = await graphql(`

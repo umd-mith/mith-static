@@ -11,6 +11,7 @@ import './event.css'
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Event = ({ pageContext: item }) => {
+  
   const subtitle = item.talk_subtitle 
     ? <h2 className="subtitle">{item.talk_subtitle}</h2> : ''
   const title = <h1 className="title" itemProp="name">{item.talk_title || item.event_title}</h1>
@@ -22,7 +23,7 @@ const Event = ({ pageContext: item }) => {
       className="event-image" 
     /> : <>{title}{subtitle}</>
   
-    let speakers_list = null
+  let speakers_list = null
   let speakers = null
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers) {
