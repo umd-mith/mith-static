@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -29,8 +29,8 @@ const ResearchIndex = ({data}) => {
             let excerpt = ''
             let image = ''
             if (item.fields.image) {
-              image = <Img 
-                fluid={item.fields.image.childImageSharp.fluid} 
+              image = <GatsbyImage 
+                image={item.fields.image.childImageSharp.gatsbyImageData}
                 alt={item.title} 
                 className="research-image" 
               />
@@ -91,13 +91,7 @@ export const query = graphql`
           }
           image {
             childImageSharp {
-              fluid(maxWidth: 500, srcSetBreakpoints: [500], quality: 100, background: "rgba(255,255,255,0)") {
-                src
-                srcSet
-                aspectRatio
-                sizes
-                base64
-              }
+              gatsbyImageData(width: 500, quality: 100, backgroundColor: "rgba(255,255,255,0)")
             }
           }
         }

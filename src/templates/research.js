@@ -1,6 +1,6 @@
 import React from 'react'
 //import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -17,8 +17,8 @@ const Research = ({ pageContext: item }) => {
   let description = ''
   if (item.fields) {
     if (item.fields.image) {
-      title = <Img 
-        fluid={item.fields.image.childImageSharp.fluid} 
+      title = <GatsbyImage 
+        image={item.fields.image.childImageSharp.gatsbyImageData}
         alt={item.title} 
         className="research-image" 
       />

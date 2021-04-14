@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -22,14 +22,13 @@ const PeoplePage = ({ data }) => {
     }
     let img = ''
       if (person.fields.headshot) {
-        const el = <Img 
-            fluid={person.fields.headshot.childImageSharp.fluid} 
+        const el = <GatsbyImage 
+            image={person.fields.headshot.childImageSharp.gatsbyImageData}
             alt={`Headshot of ${person.name}`} 
             className="headshot" 
             imgStyle={{
               objectFit: "cover",
             }}
-            role="img"
           />
         img = pageLocation
           ? <Link key={`p-${person.id}`} to={pageLocation}>{el}</Link>
@@ -107,9 +106,7 @@ export const query = graphql`
           fields {
             headshot {
               childImageSharp {
-                fluid( maxHeight: 500, maxWidth: 500, fit: COVER, background: "rgba(255,255,255,0)" ) {
-                      ...GatsbyImageSharpFluid_noBase64
-                    }
+                gatsbyImageData(height: 500, width: 500, transformOptions: {fit: COVER}, backgroundColor: "rgba(255,255,255,0)")
               }
             }
           }

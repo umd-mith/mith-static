@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -9,17 +9,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Person = ({ pageContext: person }) => {
   const name = person.name
-  const photo = person.headshot 
-    ? <div className="headshot">
-        <Img 
-          fluid={person.headshot} 
+  let photo = ''
+  if (person.fields) {
+    if (person.fields.headshot.childImageSharp) {
+      photo = <div className="headshot">
+        <GatsbyImage 
+          image={person.fields.headshot.childImageSharp.gatsbyImageData}
           alt={`Headshot of ${person.name}`} 
           imgStyle={{
             objectFit: "cover",
           }}
         />
       </div>
-    : ''
+    } else {
+      photo = <div className="headshot">
+        <img
+          src={person.headshot.publicURL}
+          alt={`Headshot of ${person.name}`} 
+          style={{
+            objectFit: "cover",
+          }} />
+      </div>
+    }
+  }
   const iconEmail = <FontAwesomeIcon icon="envelope" />
   const email = person.email
     ? <span className="meta email">
