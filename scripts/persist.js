@@ -74,6 +74,12 @@ class Persistor {
     return this._events
   }
 
+  get types() {
+    if(this._types) return this._types
+    this._types = this.getTable(this.mithBase, 'Types')
+    return this._types
+  }
+
   get postsBase() {
     const baseId = process.env.AIRTABLE_POSTS_BASE_ID
     if (! baseId) {
@@ -270,7 +276,7 @@ class Persistor {
       const identities = await this.identities
       const links = await this.links
       const partnersAndSponsors = await this.partnersAndSponsors
-      //const types = await this.types
+      const types = await this.types
   
       const events = []
       
@@ -286,6 +292,8 @@ class Persistor {
           const person = people[speaker['linked person'][0]]
           speaker.name = person.get('name')
           speaker.slug = person.get('id')
+          speaker.twitter = person.get('twitter')
+          speaker.website = person.get('website')
         }
 
         eventsItem.fields.speakers = speakers
@@ -323,9 +331,9 @@ class Persistor {
         )
   
         // Types
-        //eventsItem.fields.types = (eventsItem.get('event types') || []).map(
-        //  id => types[id].fields
-        //)
+        eventsItem.fields.types = (eventsItem.get('event types') || []).map(
+          id => types[id].fields
+        )
 
         events.push(eventsItem.fields)
       }
