@@ -43,7 +43,7 @@
     "gatsby-plugin-sharp": "^3.2.1",
     "gatsby-remark-images": "^4.2.0",
     "gatsby-remark-source-name": "^1.0.0",
-    "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-source-filesystem": "^3.3.0",
     "gatsby-transformer-json": "^3.2.0",
     "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
