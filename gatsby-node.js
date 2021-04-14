@@ -257,7 +257,7 @@ async function makeResearch(createPage, graphql) {
             }
             image {
               childImageSharp {
-                fluid(maxWidth:1300, srcSetBreakpoints: [500, 800, 1300], quality: 100, background: "rgba(255,255,255,0)") {
+                fluid(maxWidth:1300, srcSetBreakpoints: [1400], quality: 100, background: "rgba(255,255,255,0)") {
                   src
                   srcSet
                   aspectRatio
