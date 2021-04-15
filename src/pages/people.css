@@ -17,6 +17,13 @@
   margin-bottom: 0.5rem;
   margin-top: 1rem;
 }
+.page-people .person a {
+  border-bottom-color: transparent;
+}
+.page-people .person a:not(.headshot):hover,
+.page-people .person a:not(.headshot):active {
+  border-bottom-color: inherit;
+}
 
 /* Past People */
 .page-past-people .person .identity {

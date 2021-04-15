@@ -25,13 +25,12 @@ const PeoplePage = ({ data }) => {
         const el = <GatsbyImage 
             image={person.fields.headshot.childImageSharp.gatsbyImageData}
             alt={`Headshot of ${person.name}`} 
-            className="headshot" 
             imgStyle={{
               objectFit: "cover",
             }}
           />
         img = pageLocation
-          ? <Link key={`p-${person.id}`} to={pageLocation}>{el}</Link>
+          ? <Link key={`p-${person.id}`} to={pageLocation} className="headshot">{el}</Link>
           : el
       }
       let persName = pageLocation 
