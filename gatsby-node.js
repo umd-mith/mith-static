@@ -5,7 +5,7 @@ const {createRemoteFileNode} = require('gatsby-source-filesystem')
 const toMarkdown = {
   'People' : ['bio'],
   'Research' : ['description', 'excerpt'],
-  //'Events' : ['description']
+  'Events' : ['description']
 }
 
 // When creating nodes, set the following fields with an Image type.
@@ -69,12 +69,13 @@ exports.onCreateNode = async ({
       for (const key of toMarkdown[table]) {
         if (node[key]) {
           const capKey = key.charAt(0).toUpperCase() + key.slice(1)
+          const tableName = table.toLowerCase()
           const textNode = {
-            id: `${node.id}-Markdown${capKey}`,
+            id: `${node.id}-Markdown${tableName}${capKey}`,
             parent: node.id,
             dir: path.resolve("./"),
             internal: {
-              type: `${node.internal.type}Markdown${capKey}`,
+              type: `${node.internal.type}Markdown${tableName}${capKey}`,
               mediaType: "text/markdown",
               content: node[key],
               contentDigest: createContentDigest(node[key])
@@ -85,7 +86,7 @@ exports.onCreateNode = async ({
           // Create markdownBio___NODE field
           createNodeField({
             node,
-            name: `markdown${capKey}___NODE`,
+            name: `${tableName}${capKey}___NODE`,
             value: textNode.id,
           })
         }
@@ -111,7 +112,7 @@ async function makePeople(createPage, graphql) {
       allPeopleJson(filter: {group_type: {eq: "Staff"}}) {
         nodes {
           fields {
-            markdownBio {
+            peopleBio {
               childMarkdownRemark {
                 html
               }
@@ -142,7 +143,7 @@ async function makePeople(createPage, graphql) {
     const person = node
     // Simplify fields
     if (person.fields) {
-      person.bio = person.fields.markdownBio ? person.fields.markdownBio.childMarkdownRemark.html : person.bio
+      person.bio = person.fields.peopleBio ? person.fields.peopleBio.childMarkdownRemark.html : person.bio
     }
     createPage({
       path: `/people/${person.id}/`,
@@ -252,12 +253,12 @@ async function makeResearch(createPage, graphql) {
         nodes {
           id
           fields {
-            markdownDescription {
+            researchDescription {
               childMarkdownRemark {
                 html
               }
             }
-            markdownExcerpt {
+            researchExcerpt {
               childMarkdownRemark {
                 html
               }

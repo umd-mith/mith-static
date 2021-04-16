@@ -38,8 +38,8 @@ const ResearchIndex = ({data}) => {
                 />
               title = <Link to={slug}>{image}</Link>
               }
-              if (item.fields.markdownDescription) {
-                excerpt = item.fields.markdownDescription.childMarkdownRemark.excerpt
+              if (item.fields.researchDescription) {
+                excerpt = item.fields.researchDescription.childMarkdownRemark.excerpt
               }
             }
 
@@ -82,7 +82,7 @@ export const query = graphql`
         month_end
         active
         fields {
-          markdownDescription {
+          researchDescription {
             childMarkdownRemark {
                 excerpt(pruneLength: 250)
               }

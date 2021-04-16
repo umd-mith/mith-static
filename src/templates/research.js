@@ -23,9 +23,9 @@ const Research = ({ pageContext: item }) => {
         className="research-image" 
       />
     }
-    if (item.fields.markdownDescription) {
+    if (item.fields.researchDescription) {
       description = <div className="description" 
-        dangerouslySetInnerHTML={{ __html: item.fields.markdownDescription.childMarkdownRemark.html }} 
+        dangerouslySetInnerHTML={{ __html: item.fields.researchDescription.childMarkdownRemark.html }} 
       />
     }
   }
