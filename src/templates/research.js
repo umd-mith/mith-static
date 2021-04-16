@@ -125,6 +125,7 @@ const Research = ({ pageContext: item }) => {
       <div className="page-research-item">
         <section className="research-item">
           {title}
+          {description}
           <div className="metadata">
             <div className="date">
               {started}{ended}
@@ -135,7 +136,6 @@ const Research = ({ pageContext: item }) => {
             {links}
             {sponsors}
           </div>       
-          {description}
           {events}
         </section>
       </div>
