@@ -8,86 +8,94 @@ import SEO from '../components/seo'
 import EventTime from '../components/event-time'
 import Person from '../components/person'
 
-const EventIndex = ({data}) => {
-  // const events = data.allAirtableEvents.nodes.map(n => n.data)
-  // const pageCount = data.allAirtableEvents.pageInfo.pageCount
+import './event-index.css'
 
-  // return (
-  //   <Layout>
-  //     <SEO title="MITH Events" />
-  //     <div className="page-events">
-  //       <section className="posts events">
-  //         <h1 className="page-title">
-  //           Events &nbsp;
-  //           <a href="/events/feed.xml">
-  //             <FontAwesomeIcon title="Event RSS Feed" icon="rss" />
-  //           </a>
-  //         </h1>
-  //         {events.map(event => {
-  //           const speakers = event.speakers || []
-  //           return (
-  //             <article className="post event-post" key={event.slug}>
-  //               <h2 className="post-title event-title">
-  //                 <FontAwesomeIcon icon="calendar" /> &nbsp; 
-  //                 <Link to={`/events/${event.slug}/`}>{event.talk_title || event.event_title}</Link>
-  //               </h2>
-  //               <div className="meta">
-  //                 <ul className="inline-list speakers">
-  //                   {speakers.map(s => (
-  //                     <Person person={s.data} showTitle="false" type="index" />
-  //                   ))}
-  //                 </ul>
-  //                 <span className="pill event-type">{event.type}</span>
-  //                 <EventTime start={event.start} end={event.end} />
-  //               </div>
-  //               <div className="post-excerpt">{event.description ? event.description.childMarkdownRemark.excerpt : ''}</div>
-  //             </article>
-  //           )
-  //         })}
-  //       </section>
-  //       <Paginator count={pageCount} path="events" />
-  //     </div>
-  //   </Layout>
-  // )
+const EventIndex = ({data}) => {
+  const items = data.allEventsJson.nodes
+  const pageCount = data.allEventsJson.pageInfo.pageCount
+
+  return (
+    <Layout>
+      <SEO title="MITH Events" />
+      <div className="page-events">
+        <section className="posts events">
+          <h1 className="page-title">Events</h1>
+          {items.map(item => {
+
+            const slug = '/events/' + item.id + '/'
+            
+            const event_title = item.event_title
+            const talk_title = item.talk_title
+            const title_text = talk_title ? talk_title : event_title
+            const title = item.talk_subtitle
+              ? <Link to={slug}><h2 className="title">{title_text}<span className="subtitle">{item.talk_subtitle}</span></h2></Link> 
+              : <Link to={slug}><h2 className="title">{title_text}</h2></Link>
+          
+            let speakers_list = null
+            let speakers = null
+            const speakers_data = item.speakers ? item.speakers : []
+            if (item.speakers) {
+              speakers_list = speakers_data.map((p, i) => {
+                return <Person key={`p${i}`} person={p} showTitle="false" type="index" />
+              })
+              speakers = <ul className="inline-list">
+                {speakers_list}
+              </ul>
+            }
+            return (
+              <article className="post event-item-post" key={`event-${item.id}`}>
+                {title}
+                <div className="meta">
+                  <span className="pill event-type">{item.type}</span>
+                  {speakers}
+                  <EventTime start={item.start} end={item.end} />
+                </div>
+                <div className="post-excerpt">
+                  
+                </div>
+              </article>
+            )
+          })}
+        </section>
+        <Paginator count={pageCount} path="events" />
+      </div>
+    </Layout>
+  )
 }
 
-// export const query = graphql`
-//   query EventsQuery($skip: Int!, $limit: Int!) {
-//     allAirtableEvents (
-//       filter: {
-//         table: {eq: "Events"}
-//       }
-//       limit: $limit
-//       skip: $skip
-//       sort: {fields: [data___start_date], order: [DESC]}
-//     ) {
-//       nodes {
-//         data {
-//           slug
-//           event_title
-//           talk_title
-//           type: event_type
-//           speakers {
-//             data {
-//               name
-//               affiliation_as_speaker
-//             }
-//           }
-//           description {
-//             childMarkdownRemark {
-//               excerpt(pruneLength: 250)
-//             }
-//           }
-//           start: start_date
-//           end: end_date
-//           location
-//         }
-//       }
-//       pageInfo {
-//         pageCount
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query EventsQuery($skip: Int!, $limit: Int!) {
+    allEventsJson (
+      limit: $limit
+      skip: $skip
+      sort: {
+        fields: [start_date], 
+        order: [DESC]
+      }
+    ) {
+      nodes {
+        id
+        event_title
+        talk_title
+        talk_subtitle
+        type: event_type
+        start: start_date
+        end: end_date
+        location
+        speakers {
+          name
+          title
+          department
+          institution
+          person_group
+          slug
+        }
+      }
+      pageInfo {
+        pageCount
+      }
+    }
+  }
+`
  
 export default EventIndex
