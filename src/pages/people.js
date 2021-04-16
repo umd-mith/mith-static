@@ -20,29 +20,46 @@ const PeoplePage = ({ data }) => {
         pageLocation = null
       }
     }
+
     let img = ''
-      if (person.fields.headshot) {
-        const el = <GatsbyImage 
-            image={person.fields.headshot.childImageSharp.gatsbyImageData}
-            alt={`Headshot of ${person.name}`} 
-            imgStyle={{
-              objectFit: "cover",
-            }}
-          />
-        img = pageLocation
-          ? <Link key={`p-${person.id}`} to={pageLocation} className="headshot">{el}</Link>
-          : el
-      }
-      let persName = pageLocation 
-        ? <Link key={`p-${person.id}`} to={pageLocation}>{person.name}</Link>
-        : person.name
-      return (
+    if (person.fields.headshot) {
+      const el = <GatsbyImage 
+        image={person.fields.headshot.childImageSharp.gatsbyImageData}
+        alt={`Headshot of ${person.name}`} 
+        imgStyle={{
+          objectFit: "cover",
+        }}
+      />
+      img = pageLocation
+        ? <Link key={`p-${person.id}`} to={pageLocation} className="headshot">{el}</Link>
+        : el
+    }
+
+    let persName = pageLocation 
+      ? <Link key={`p-${person.id}`} to={pageLocation}>{person.name}</Link>
+      : person.name
+
+    let identities = ''
+    if (person.current_identities) {
+      identities = person.current_identities.map(identity => {
+        return (identity.department === 'MITH' || identity.department === 'Maryland Institute for Technology in the Humanities' || identity.department === null)
+          ? <div className="identity" id={identity.id} key={`i-${identity.id}`}>
+            <span className="title">{identity.title}</span>
+          </div>
+          : <div className="identity" id={identity.id} key={`i-${identity.id}`}>
+            <span className="title">{identity.title}</span>
+            <span className="department">{identity.department}</span>
+          </div>
+      })
+    }
+
+    return (
       <article className="person" id={person.id} title={person.name} key={`p-${person.id}`}>
         {img}
         <h3 className="name">{persName}</h3>
-        <div className="title">{person.title}</div>
+        {identities}
       </article>
-      )    
+    )    
   }
 
   function makeStaff(people) {    
@@ -101,7 +118,13 @@ export const query = graphql`
           name
           first
           last
-          title
+          current_identities {
+            id
+            title
+            department
+            institution
+            person_bio
+          }
           fields {
             headshot {
               childImageSharp {
