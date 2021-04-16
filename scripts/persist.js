@@ -135,7 +135,8 @@ class Persistor {
       for (const persId in people) {
         const person = people[persId]
         const persInfo = person.fields
-  
+        
+        // People Groups
         const persGroups = person.get('people groups')
         if (!persGroups) continue
         const resolvedGroups = persGroups.map(groupId => {
@@ -144,6 +145,7 @@ class Persistor {
   
         persInfo['people groups'] = resolvedGroups
 
+        // Past Identities - Date Spans
         const linkedIdentities = person.get('linked identities')
         if (linkedIdentities) {
           const resolvedLinkedIdentities = linkedIdentities.reduce((acc, identityId) => {
@@ -162,6 +164,13 @@ class Persistor {
           
           persInfo['linked identities'] = Object.values(resolvedLinkedIdentities)
         }
+
+        // Current Identities
+        const currentIdentities = (person.get('identities as current') || []).map(
+          id => identities[id].fields
+        )
+
+        persInfo['current identities'] = currentIdentities
 
         staff.push(persInfo)
       }
@@ -292,6 +301,7 @@ class Persistor {
           const person = people[speaker['linked person'][0]]
           speaker.name = person.get('name')
           speaker.slug = person.get('id')
+          speaker.headshot = person.get('headshot')
           speaker.twitter = person.get('twitter')
           speaker.website = person.get('website')
         }
