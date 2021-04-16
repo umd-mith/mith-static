@@ -42,11 +42,12 @@ exports.onCreateNode = async ({
           try {
             fileNode = await createRemoteFileNode({
               url: node[key][0].url,
+              parentNodeId: node.id,
               store,
               cache,
               createNode,
               createNodeId,
-            });
+            })
           } catch (e) {
             console.error('Error downloading image:', e);
           }
