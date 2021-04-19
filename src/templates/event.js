@@ -21,7 +21,7 @@ const Event = ({ pageContext: item }) => {
       image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
       alt={item.event_title} 
       className="event-image" 
-    /> : <>{title}{subtitle}</>
+    /> : <div className="header">{title}{subtitle}</div>
     
   const description = item.fields.eventsDescription 
     ? <div className="description" 
@@ -35,7 +35,7 @@ const Event = ({ pageContext: item }) => {
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      return <Person key={`p${i}`} person={p} showTitle="true" type="speaker" />
+      return <Person key={`p${i}`} person={p} type="speaker" />
     })
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>
