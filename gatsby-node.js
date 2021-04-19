@@ -376,6 +376,11 @@ async function makeEvents(createPage, graphql) {
         nodes {
           id
           fields {
+            eventsDescription {
+              childMarkdownRemark {
+                html
+              }
+            }
             image {
               childImageSharp {
                 gatsbyImageData(width: 1400, quality: 100, backgroundColor: "rgba(255,255,255,0)")
@@ -394,6 +399,7 @@ async function makeEvents(createPage, graphql) {
             title
             department
             institution
+            bio: person_bio
             start
             end
             person_group
@@ -404,9 +410,20 @@ async function makeEvents(createPage, graphql) {
             title
             department
             institution
+            bio: person_bio
             start
             end
             person_group
+            slug
+          }
+          sponsors {
+            name
+            website
+            slug
+          }
+          partners {
+            name
+            website
             slug
           }
         }
