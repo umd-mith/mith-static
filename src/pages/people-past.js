@@ -14,7 +14,7 @@ const PeoplePastPage = ({ data }) => {
       <h3 className="name">{person.name}</h3>
       <div className="details">
         {identities
-        .sort((a, b) => a.start > b.start)
+        .sort((a, b) => a.start - b.start)
         .map(identity => {
           const end = identity.start === identity.end ? '' : <span className="end">{identity.end}</span>
           return (<article className="identity" id={identity.id} key={`i-${identity.id}`}>
@@ -39,7 +39,7 @@ const PeoplePastPage = ({ data }) => {
         </section>
         {
           data.people.group.filter(g => g.fieldValue.startsWith('Past'))
-          .sort((a, b) => data.groups.nodes.filter(g => g.group_name === a.fieldValue)[0].sort > data.groups.nodes.filter(g => g.group_name === b.fieldValue)[0].sort)
+          .sort((a, b) => data.groups.nodes.filter(g => g.group_name === a.fieldValue)[0].sort - data.groups.nodes.filter(g => g.group_name === b.fieldValue)[0].sort)
           .map(people => {
             return (
               <section id={people.fieldValue.toLowerCase().replace(' ', '_')} className="people-group">
