@@ -45,7 +45,7 @@ const Person = ({ person, type }) => {
   }
   let twitter = null
   let headshot = null
-  let bio = null
+  //let bio = null
   if (type === "speaker") {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     twitter = person.twitter
@@ -59,7 +59,7 @@ const Person = ({ person, type }) => {
         className="headshot" 
       /> : null
 
-    bio = person.bio ? <div className="bio">{person.bio}</div> : null
+    //bio = person.bio ? <div className="bio">{person.bio}</div> : null
   }
 
   return (
@@ -73,7 +73,6 @@ const Person = ({ person, type }) => {
         {date_span}
         {twitter}
       </span>
-      {bio}
     </li>
   )
 }

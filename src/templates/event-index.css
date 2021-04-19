@@ -4,3 +4,6 @@
 .events .pill {
   float: right;
 }
+.events .title .subtitle::before {
+  content: ': ';
+}
