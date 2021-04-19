@@ -51,13 +51,24 @@ const Person = ({ person, type }) => {
     twitter = person.twitter
       ? <a href={`https://twitter.com/${person.twitter}`} className="twitter" target="_blank" rel="noreferrer">{iconTwitter} {person.twitter}</a> 
       : null
-
-    headshot = person.headshot
-      ? <GatsbyImage 
-        image={person.headshot.localFiles[0].childImageSharp.gatsbyImageData} 
-        alt={person.name} 
-        className="headshot" 
-      /> : null
+    if (person.headshot) {
+      if (person.headshot.childImageSharp) {
+        headshot = <GatsbyImage 
+          image={person.headshot.localFiles[0].childImageSharp.gatsbyImageData} 
+          alt={person.name} 
+          className="headshot" 
+        />
+      } else {
+        headshot = <img
+          src={person.headshot.url}
+          alt={`Headshot of ${person.name}`} 
+          className="headshot"
+          style={{
+            objectFit: "cover",
+          }} 
+        />
+      }
+    }
 
     //bio = person.bio ? <div className="bio">{person.bio}</div> : null
   }
