@@ -180,6 +180,30 @@ class Persistor {
       throw new Error(e)
     }
   }
+
+  async persistGroups() {
+    try {
+      const groupsData = await this.groups
+  
+      const groups = []
+  
+      for (const groupId in groupsData) {
+        const group = groupsData[groupId]
+  
+        const groupInfo = {
+          group_name: group.get('group name'),
+          type: group.get('type'),
+          sort: group.get('sort'),
+          slug: group.get('slug')
+        }
+        groups.push(groupInfo)
+      }
+  
+      this.writeJson(groups, 'groups.json')
+    } catch(e) {
+      throw new Error(e)
+    }
+  }
   
   async persistPosts() {
     try {
@@ -361,6 +385,9 @@ switch (process.argv[2]) {
   case 'people':
     persistor.persistPeople()
     break
+  case 'groups':
+    persistor.persistGroups()
+    break
   case 'posts':
     persistor.persistPosts()
     break
@@ -372,6 +399,7 @@ switch (process.argv[2]) {
     break
   default:
     persistor.persistPeople()
+    persistor.persistGroups()
     persistor.persistPosts()
     persistor.persistResearch()
     persistor.persistEvents()
