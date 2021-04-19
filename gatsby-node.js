@@ -400,6 +400,9 @@ async function makeEvents(createPage, graphql) {
             department
             institution
             bio: person_bio
+            headshot {
+              url
+            }
             start
             end
             person_group
@@ -410,7 +413,6 @@ async function makeEvents(createPage, graphql) {
             title
             department
             institution
-            bio: person_bio
             start
             end
             person_group
