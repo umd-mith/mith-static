@@ -22,17 +22,71 @@ const Event = ({ pageContext: item }) => {
       alt={item.event_title} 
       className="event-image" 
     /> : <>{title}{subtitle}</>
+    
+  const description = item.fields.eventsDescription 
+    ? <div className="description" 
+      dangerouslySetInnerHTML={{ __html: item.fields.eventsDescription.childMarkdownRemark.html }} 
+    /> : ''
   
   let speakers_list = null
   let speakers = null
+  let speaker_bios_list = null
+  let speaker_bios = null
   const speakers_data = item.speakers ? item.speakers : []
-  if (item.speakers) {
+  if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
       return <Person key={`p${i}`} person={p} showTitle="true" type="speaker" />
     })
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>
       <ul>{speakers_list}</ul>
+    </div>
+    speaker_bios_list = speakers_data.map(b => {
+      return <div id={b.id} className="speaker-bio">{b.bio}</div>
+    })
+    speaker_bios = <div className="bios">
+      <h2 className="hidden">Speaker Bios</h2>
+      {speaker_bios_list}
+    </div>
+  }
+
+  let sponsors_list = null
+  let sponsors = null
+  let sponsor_name = null
+  if (item.sponsors.length > 0) {
+    sponsors_list = item.sponsors.map(s => {
+        if (s.website) {
+          sponsor_name = s.website.startsWith('http') 
+            ? s.website
+            : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
+        } else {
+          sponsor_name = s.name
+        }
+      return <li id={s.slug}>{sponsor_name}</li>
+    })
+    sponsors = <div className="sponsors">
+      <h2>Sponsors</h2>
+      <ul>{sponsors_list}</ul>
+    </div>
+  }
+
+  let partners_list = null
+  let partners = null
+  let partner_name = null
+  if (item.partners.length > 0) {
+    partners_list = item.partners.map(s => {
+        if (s.website) {
+          partner_name = s.website.startsWith('http') 
+            ? s.website
+            : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
+        } else {
+          partner_name = s.name
+        }
+      return <li id={s.slug}>{partner_name}</li>
+    })
+    partners = <div className="partners">
+      <h2>Partners</h2>
+      <ul>{partners_list}</ul>
     </div>
   }
 
@@ -57,6 +111,10 @@ const Event = ({ pageContext: item }) => {
             <div itemProp="location" className="location">{item.location}</div>
           </div>
           {speakers}
+          {description}
+          {speaker_bios}
+          {sponsors}
+          {partners}
         </section>
         {dd_info}
       </div>
