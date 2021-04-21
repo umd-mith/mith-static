@@ -24,7 +24,7 @@ const Person = ({ pageContext: person }) => {
     } else {
       photo = <div className="headshot">
         <img
-          src={person.headshot.publicURL}
+          src={person.fields.headshot.publicURL}
           alt={`Headshot of ${person.name}`} 
           style={{
             objectFit: "cover",
