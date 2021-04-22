@@ -7,6 +7,12 @@
   font-style: italic;
   letter-spacing: 1px;
 }
+@media screen and (min-width: 67em) {
+  #main-content > div section.people-group {
+    margin-bottom: var(--content-spacing-xl);
+  }
+}
+
 /* Current People */
 .page-people .person {
   margin-bottom: 1.5rem;

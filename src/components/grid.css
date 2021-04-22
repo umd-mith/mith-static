@@ -1,5 +1,3 @@
-@import 'variables.css';
-
 .outerWrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
@@ -23,7 +21,8 @@ footer {
   grid-area: footer;
 }
 
-/* Media queries for grid layouts */
+/** Media queries for grid layouts **/
+
 /* medium to large screens */
 @media screen and (min-width: 45em) {
   .page-people > section,
@@ -98,8 +97,5 @@ footer {
     grid-column: none;
     max-width: 1080px;
     margin: 0 auto;
-  }
-  #main-content > div section.people-group {
-    margin-bottom: var(--content-spacing-xl);
   }
 }
