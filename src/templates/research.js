@@ -37,7 +37,7 @@ const Research = ({ pageContext: item }) => {
 
   let participant_list = null
   let participants = null
-  if (item.participants) {
+  if (item.participants.length > 0) {
     participant_list = item.participants.map((p, i) => {
       return <Person key={`p${i}`} person={p} showTitle="true" type="participant" />
     })
@@ -49,7 +49,7 @@ const Research = ({ pageContext: item }) => {
   
   let director_list = null
   let directors = null
-  if (item.directors) {
+  if (item.directors.length > 0) {
     director_list = item.directors.map(person => {
       return <Person person={person} showTitle="true" type="director" />
     })
@@ -105,8 +105,7 @@ const Research = ({ pageContext: item }) => {
 
   let events_list = null 
   let events = null
-
-  if (item.events) {
+  if (item.events.length > 0) {
     events_list = item.events.map(e => {
       return <li id={e.id}>
           <h3 className="title" itemProp="name"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
