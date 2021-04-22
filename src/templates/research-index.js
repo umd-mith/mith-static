@@ -36,7 +36,7 @@ const ResearchIndex = ({data}) => {
                   alt={item.title} 
                   className="research-image" 
                 />
-              title = <Link to={slug}>{image}</Link>
+              title = <Link to={slug} className="header">{image}</Link>
               }
               if (item.fields.researchDescription) {
                 excerpt = item.fields.researchDescription.childMarkdownRemark.excerpt
@@ -68,8 +68,8 @@ export const query = graphql`
       limit: $limit
       skip: $skip
       sort: {
-        fields: [active, slug], 
-        order: [DESC, ASC]
+        fields: [active, year_start], 
+        order: [DESC, DESC]
       }
     ) {
       nodes{
