@@ -8,7 +8,6 @@ import EventTime from '../components/event-time'
 import Person from '../components/person'
 
 import './event.css'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Event = ({ pageContext: item }) => {
   
@@ -42,7 +41,9 @@ const Event = ({ pageContext: item }) => {
       <ul>{speakers_list}</ul>
     </div>
     speaker_bios_list = speakers_data.map(b => {
-      return <div id={b.id} className="speaker-bio">{b.bio}</div>
+      if (b.bio != null) {
+        return <div id={b.id} className="speaker-bio">{b.bio}</div>
+      }
     })
     speaker_bios = <div className="bios">
       <h2 className="hidden">Speaker Bios</h2>
@@ -74,15 +75,15 @@ const Event = ({ pageContext: item }) => {
   let partners = null
   let partner_name = null
   if (item.partners.length > 0) {
-    partners_list = item.partners.map(s => {
-        if (s.website) {
-          partner_name = s.website.startsWith('http') 
-            ? s.website
-            : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
+    partners_list = item.partners.map(p => {
+        if (p.website) {
+          partner_name = p.website.startsWith('http') 
+            ? p.website
+            : <a href={`http://${p.website}`} target="_blank" rel="noreferrer">{p.name}</a>
         } else {
-          partner_name = s.name
+          partner_name = p.name
         }
-      return <li id={s.slug}>{partner_name}</li>
+      return <li id={p.slug}>{partner_name}</li>
     })
     partners = <div className="partners">
       <h2>Partners</h2>
