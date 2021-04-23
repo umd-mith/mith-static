@@ -12,13 +12,16 @@
       "header"
       "content"
       "sidebar"
-      "footer"
+      "footer";
   }
   .research-item h1,
   .research-item .research-image {
     grid-area: header;
     grid-column: span 4;
     grid-row: 1;
+  }
+  .research-item .research-image {
+    margin-bottom: var(--base-content-spacing);
   }
   .research-item .description {
     grid-area: content;
@@ -44,7 +47,6 @@
   margin-bottom: var(--content-spacing-xs);
 }
 .research-item .research-image {
-  margin-bottom: var(--base-content-spacing);
   text-align: left;
 }
 /* Events */
