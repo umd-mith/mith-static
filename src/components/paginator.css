@@ -23,7 +23,8 @@
   border-bottom: 0;
   border-radius: 4px;
 }
-.pagination a:hover {
+.pagination a:hover,
+.pagination a.active {
   color: #fff;
   text-decoration: none;
   background-color: var(--color-gray-dk);
