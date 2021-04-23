@@ -28,8 +28,8 @@ const EventIndex = ({data}) => {
             const talk_title = item.talk_title
             const title_text = talk_title ? talk_title : event_title
             const title = item.talk_subtitle
-              ? <Link to={slug}><h2 className="title">{title_text}<span className="subtitle">{item.talk_subtitle}</span></h2></Link> 
-              : <Link to={slug}><h2 className="title">{title_text}</h2></Link>
+              ? <h2 className="title"><Link to={slug}>{title_text}<span className="subtitle">{item.talk_subtitle}</span></Link></h2> 
+              : <h2 className="title"><Link to={slug}>{title_text}</Link></h2>
           
             let speakers_list = null
             let speakers = null
@@ -42,8 +42,11 @@ const EventIndex = ({data}) => {
                 {speakers_list}
               </ul>
             }
+
+            const itemId = item.id.replace(/-/g, '_')
+
             return (
-              <article className="post event-item-post" key={`event-${item.id}`}>
+              <article className="post event-item-post" key={`event-${item.id}`} id={itemId}>
                 {title}
                 <div className="meta">
                   <span className="pill event-type">{item.type}</span>
