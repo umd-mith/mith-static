@@ -42,9 +42,11 @@ const ResearchIndex = ({data}) => {
                 excerpt = item.fields.researchDescription.childMarkdownRemark.excerpt
               }
             }
+            
+            const itemId = item.id.replace(/-/g, '_')
 
             return (
-              <article className="post research-item-post" key={`research-${item.id}`}>
+              <article className="post research-item-post" key={`research-${item.id}`} id={itemId}>
                 {title}
                 <div className="meta">
                   {active} {started}{ended}
