@@ -91,16 +91,6 @@ const Event = ({ pageContext: item }) => {
     </div>
   }
 
-  let dd_info = null
-  if (item.type === "Digital Dialogue") {
-    dd_info = <section className="dd-info">
-      <p>A continuously updated schedule of talks is also available on the Digital Dialogues webpage.</p>
-      <p>Unable to attend the events in person? Archived podcasts can be found on the MITH website, and you can follow our Digital Dialogues Twitter account <a href="https://twitter.com/@digdialog">@digdialog</a> as well as the Twitter hashtag <a href="https://twitter.com/hashtag/#mithdd">#mithdd</a> to keep up with live tweets from our sessions. Viewers can watch the live stream as well.</p>
-      <p>All talks free and open to the public. Attendees are welcome to bring their own lunches.</p>
-      <p>Contact: MITH (<a href="http://mith.umd.edu">mith.umd.edu</a>, <a href="mailto:mith@umd.edu">mith@umd.edu</a>, 301.405.8927).</p>
-    </section>
-  }
-
   return (
     <Layout>
       <SEO title={item.title} />
@@ -117,7 +107,6 @@ const Event = ({ pageContext: item }) => {
           {sponsors}
           {partners}
         </section>
-        {dd_info}
       </div>
     </Layout>
   )
