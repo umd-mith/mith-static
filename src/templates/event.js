@@ -58,7 +58,7 @@ const Event = ({ pageContext: item }) => {
     sponsors_list = item.sponsors.map(s => {
         if (s.website) {
           sponsor_name = s.website.startsWith('http') 
-            ? s.website
+            ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
             : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
         } else {
           sponsor_name = s.name
@@ -78,7 +78,7 @@ const Event = ({ pageContext: item }) => {
     partners_list = item.partners.map(p => {
         if (p.website) {
           partner_name = p.website.startsWith('http') 
-            ? p.website
+            ? <a href={p.website} target="_blank" rel="noreferrer">{p.name}</a>
             : <a href={`http://${p.website}`} target="_blank" rel="noreferrer">{p.name}</a>
         } else {
           partner_name = p.name
@@ -88,6 +88,26 @@ const Event = ({ pageContext: item }) => {
     partners = <div className="partners">
       <h2>Partners</h2>
       <ul>{partners_list}</ul>
+    </div>
+  }
+  
+  let links_list = null
+  let links = null
+  let link_name = null
+  if (item.links.length > 0) {
+    links_list = item.links.map(l => {
+        if (l.url) {
+          link_name = l.url.startsWith('http') 
+            ? <a href={l.url} rel="noreferrer">{l.title}</a>
+            : <a href={`http://${l.url}`} title={l.title} target="_blank" rel="noreferrer">{l.title}</a>
+        } else {
+          link_name = l.title
+        }
+      return <li className={l.type}>{link_name}</li>
+    })
+    links = <div className="links">
+      <h2>Links</h2>
+      <ul>{links_list}</ul>
     </div>
   }
 
