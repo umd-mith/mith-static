@@ -104,12 +104,18 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makeResearchIndex(createPage, graphql, pathPrefix)
   await makeEvents(createPage, graphql, pathPrefix)
   await makeEventIndex(createPage, graphql, pathPrefix)
+  await makeDialogues(createPage, graphql, pathPrefix)
+  await makeDialogueIndex(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql) {
   const results = await graphql(`
     query {
-      allPeopleJson(filter: {group_type: {eq: "Staff"}}) {
+      allPeopleJson(
+        filter: {
+          group_type: {eq: "Staff"}
+        }
+      ) {
         nodes {
           fields {
             peopleBio {
@@ -229,7 +235,7 @@ async function makeResearchIndex(createPage, graphql, pathPrefix) {
   `)
 
   const numItems = results.data.allResearchJson.pageInfo.itemCount
-  const itemsPerPage = 25
+  const itemsPerPage = 30
   const numPages = Math.ceil(numItems / itemsPerPage)
 
   Array.from({ length: numItems }).forEach((_, i) => {
@@ -300,6 +306,7 @@ async function makeResearch(createPage, graphql) {
           links {
             title
             url
+            type
           }
           sponsors {
             name
@@ -351,7 +358,7 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
   `)
 
   const numItems = results.data.allEventsJson.pageInfo.itemCount
-  const itemsPerPage = 25
+  const itemsPerPage = 30
   const numPages = Math.ceil(numItems / itemsPerPage)
 
   Array.from({ length: numItems }).forEach((_, i) => {
@@ -418,6 +425,11 @@ async function makeEvents(createPage, graphql) {
             person_group
             slug
           }
+          links {
+            title
+            url
+            type
+          }
           sponsors {
             name
             website
@@ -445,3 +457,107 @@ async function makeEvents(createPage, graphql) {
   }
 }
 
+
+async function makeDialogueIndex(createPage, graphql, pathPrefix) {
+  const results = await graphql(`
+    query {
+      allEventsJson {
+        pageInfo {
+          itemCount
+        }
+      }
+    }  
+  `)
+
+  const numItems = results.data.allEventsJson.pageInfo.itemCount
+  const itemsPerPage = 10
+  const numPages = Math.ceil(numItems / itemsPerPage)
+
+  Array.from({ length: numItems }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/digital-dialogues/` : `/digital-dialogues/${i + 1}/`,
+      component: path.resolve("./src/templates/dialogue-index.js"),
+      context: {
+        limit: itemsPerPage,
+        skip: i * itemsPerPage,
+        numPages,
+        currentPage: i + 1
+      }
+    })
+  })
+}
+
+
+async function makeDialogues(createPage, graphql) {
+  const results = await graphql(`
+    query {
+      allEventsJson(
+        filter: {event_type: {eq: "Digital Dialogue"}}
+        sort: {fields: [start_date], order: [DESC]}
+      ) {
+        nodes {
+          id
+          fields {
+            eventsDescription {
+              childMarkdownRemark {
+                html
+              }
+            }
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 1400, quality: 100, backgroundColor: "rgba(255,255,255,0)")
+              }
+            }
+          }
+          event_title
+          talk_title
+          talk_subtitle
+          type: event_type
+          start: start_date
+          end: end_date
+          location
+          speakers {
+            name
+            title
+            department
+            institution
+            bio: person_bio
+            headshot {
+              url
+            }
+            website
+            twitter
+            slug
+          }
+          sponsors {
+            name
+            website
+            slug
+          }
+          partners {
+            name
+            website
+            slug
+          }
+          links {
+            id
+            title
+            url
+            type
+          }
+        }
+      }
+    }  
+  `)
+
+  for (const node of results.data.allEventsJson.nodes) {
+    const item = node
+    createPage({
+      path: `/digital-dialogues/${item.id}/`,
+      component: require.resolve(`./src/templates/dialogue.js`),
+      context: {
+        ...item
+      }
+    })
+  }
+}

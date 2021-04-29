@@ -1,0 +1,56 @@
+/* Dialogue Index */
+.page-dialogues .dialogue {
+  display: grid;
+}
+.page-dialogues .post.dialogue .speakers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Dialogue Post */
+#main-content section.dialogue {
+  grid-template-columns: calc(100% - 23% - 80px) 23%;
+  grid-gap: var(--content-spacing-lg);
+}
+.dialogue .header {
+  grid-column: 1/-1;
+  padding-bottom: var(--content-spacing-md);
+  border-bottom: 1px solid var(--color-gray-lt);
+}
+.dialogue :not(.header) h2 {
+  margin-bottom: var(--base-content-spacing);
+}
+.dialogue-content {
+  display: grid;
+  grid-row-gap: var(--base-content-spacing);
+}
+.dialogue .speakers {
+  border-top: none;
+  padding-top: 0;
+}
+.dialogue .speakers .person {
+  grid-template-columns: minmax(150px, 50%) 1fr;
+  grid-column-gap: var(--base-content-spacing);
+}
+.dialogue .speakers .details > * {
+  display: block;
+}
+.event .speakers .person .details {
+  font-size: 0.8rem;
+}
+#main-content .dd-info {
+  font-size: 0.8rem;
+  color: #000;
+  margin-top: var(--content-spacing-lg);
+  padding: var(--base-content-spacing);
+  background-color: #ccc;
+}
+.dd-info a {
+  color: rgba(0,0,0,0.8);
+}
+.dd-info p:last-child {
+  margin-bottom: 0;
+}

@@ -46,7 +46,8 @@ const Person = ({ person, type }) => {
   let twitter = null
   let headshot = null
   //let bio = null
-  if (type === "speaker") {
+  let website = null
+  if (type === "speaker" || type === "dialogue") {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     twitter = person.twitter
       ? <a href={`https://twitter.com/${person.twitter}`} className="twitter" target="_blank" rel="noreferrer">{iconTwitter} {person.twitter}</a> 
@@ -69,23 +70,51 @@ const Person = ({ person, type }) => {
         />
       }
     }
-
     //bio = person.bio ? <div className="bio">{person.bio}</div> : null
   }
+  if (person.website) {
+    const website_url = person.website.startsWith('http') ? person.website : `http://${person.website}`
+    website = <a href={website_url} target="_blank" rel="noreferrer">Website</a>
+  }
 
-  return (
-    <li className="person" id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
-      {headshot}
-      {person_name}
-      <span className="details">
-        {person_title}
-        {person_dept}
+  if (type === "dialogue-index") {
+    return (
+      <li className="speaker person" id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+        {person_name}
         {person_institution}
-        {date_span}
-        {twitter}
+      </li>
+    )
+  }
+  if (type === "dialogue") {
+    return (
+      <span className="speaker" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+        {headshot}
+        {person_name}
+        <span className="details">
+          {person_title}
+          {person_dept}
+          {person_institution}
+          {twitter}
+          {website}
+        </span>
       </span>
-    </li>
-  )
+    )
+  } 
+  if (type !== "dialogue-index" && type !== "dialogue") {
+    return (
+      <li className="person" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+        {headshot}
+        {person_name}
+        <span className="details">
+          {person_title}
+          {person_dept}
+          {person_institution}
+          {date_span}
+          {twitter}
+        </span>
+      </li>
+    )
+  }
 }
 
 export default Person
