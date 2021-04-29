@@ -20,7 +20,9 @@ library.add(
   fas.faBars,
   fas.faGlobe,
   fas.faCalendar,
-  fas.faRss
+  fas.faRss,
+  fas.faPlayCircle,
+  fas.faPlay
 )
 
 const Layout = ({ children }) => {

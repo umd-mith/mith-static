@@ -9,7 +9,7 @@ import Person from '../components/person'
 
 import './event.css'
 import './dialogue.css'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Dialogue = ({ pageContext: item }) => {
   
@@ -113,6 +113,24 @@ const Dialogue = ({ pageContext: item }) => {
     </div>
   }
 
+  const iconVideo = <FontAwesomeIcon icon="play-circle" />
+  const video_id = item.video_id ? item.video_id : ''
+  const video_link = video_id
+    ? <div className="video-link">
+        <a className="button" href={`https://vimeo.com/${video_id}`} target="_blank" rel="noreferrer">
+          {iconVideo} Watch Video
+        </a>
+      </div> : ''
+
+  const video = video_id
+    ? <div className="video">
+        <h2>Media</h2>
+        <div className="video-wrapper">
+          <iframe src={`https://player.vimeo.com/video/${video_id}?color=afbc21&title=0&byline=0&portrait=0`} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </div> : ''
+
   const dd_info = <section className="dd-info">
     <p>A continuously updated schedule of talks is also available on the Digital Dialogues webpage.</p>
     <p>Unable to attend the events in person? Archived podcasts can be found on the MITH website, and you can follow our Digital Dialogues Twitter account <a href="https://twitter.com/@digdialog">@digdialog</a> as well as the Twitter hashtag <a href="https://twitter.com/hashtag/#mithdd">#mithdd</a> to keep up with live tweets from our sessions. Viewers can watch the live stream as well.</p>
@@ -135,10 +153,10 @@ const Dialogue = ({ pageContext: item }) => {
             </div>
             {description}
             {speaker_bios}
+            {video}
             {sponsors}
             {partners}
-          </div>
-          <div className="sidebar">
+            {video_link}
             {links}
           </div>
         </section>

@@ -529,6 +529,14 @@ async function makeDialogues(createPage, graphql) {
             twitter
             slug
           }
+          links {
+            id
+            title
+            url
+            type
+          }
+          video_id: vimeo_id
+          video_url: vimeo_url
           sponsors {
             name
             website
@@ -538,12 +546,6 @@ async function makeDialogues(createPage, graphql) {
             name
             website
             slug
-          }
-          links {
-            id
-            title
-            url
-            type
           }
         }
       }
