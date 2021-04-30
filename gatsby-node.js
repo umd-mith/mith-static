@@ -328,6 +328,14 @@ async function makeResearch(createPage, graphql) {
             end: end_date
             location
           }
+          disciplines {
+            term: name
+            type: method_or_discipline
+          }
+          methods {
+            term: name
+            type: method_or_discipline
+          }
         }
       } 
     }
@@ -439,6 +447,21 @@ async function makeEvents(createPage, graphql) {
             name
             website
             slug
+          }
+          research {
+            id
+            title
+            image {
+              url
+            }
+          }
+          disciplines {
+            term: name
+            type: method_or_discipline
+          }
+          methods {
+            term: name
+            type: method_or_discipline
           }
         }
       }
