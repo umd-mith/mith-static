@@ -50,6 +50,9 @@
 .event .speakers .person .details {
   font-size: 0.8rem;
 }
+.dialogue .speakers .details .bio-link {
+  margin-top: var(--content-spacing-sm);
+}
 .dialogue-content .video-wrapper {
   padding: 56.25% 0 0 0;
   position: relative;

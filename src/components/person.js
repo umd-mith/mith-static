@@ -10,19 +10,27 @@ const Person = ({ person, type }) => {
   if (person.person_group) {
     pageLocation = person.slug ? person.slug : null
   }
-  let person_name = pageLocation
-    ? <Link className="name" key={`p-${person.new_id}`} to={`../../people/${pageLocation}`} aria-label={`View ${person.name}'s Profile`} title={`View ${person.name}'s Profile`}>{person.name}</Link>
+  let person_name = pageLocation // link current staff names to profile
+    ? <Link 
+      className="name" 
+      key={`p-${person.new_id}`} 
+      to={`../../people/${pageLocation}`} 
+      aria-label={`View ${person.name}'s Profile`} 
+      title={`View ${person.name}'s Profile`}>{person.name}</Link>
     : <div className="name">{person.name}</div>
 
     let date_span = null
     if ( type === "director" ) {
-      const start = person.start ? <span className="start">{person.start}</span> : null
-      const end = person.end ? <span className="end">{person.end}</span> : null
+      const start = person.start 
+        ? <span className="start">{person.start}</span> : null
+      const end = person.end 
+        ? <span className="end">{person.end}</span> : null
       if (person.start && person.end ) {
         date_span = <div className="date-span">({start} &ndash; {end})</div>
     } 
     if (person.start && !person.end) {
-      const end = person.person_group ?  <> &ndash; <span className="end">present</span></> : null
+      const end = person.person_group 
+        ?  <> &ndash; <span className="end">present</span></> : null
       date_span = <div className="date-span">({start}{end})</div>
     }
   } 
@@ -31,7 +39,7 @@ const Person = ({ person, type }) => {
   let person_institution = null
   let person_dept = null
   if ( !person.person_group ) { // hide titles for current staff
-    if ( type === "speaker" || type === "participant" || type === "director" ) {
+    if ( type === "speaker" || type === "dialogue" || type === "participant" || type === "director" ) {
     person_title = person.title 
       ? <span className="title">{person.title}</span>
       : null
@@ -45,7 +53,6 @@ const Person = ({ person, type }) => {
   }
   let twitter = null
   let headshot = null
-  //let bio = null
   let website = null
   if (type === "speaker" || type === "dialogue") {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
@@ -70,10 +77,12 @@ const Person = ({ person, type }) => {
         />
       }
     }
-    //bio = person.bio ? <div className="bio">{person.bio}</div> : null
   }
+  const bio = person.bio ? <a href={`#${person.slug}`} className="bio-link">Read Bio</a> : null
+
   if (person.website) {
-    const website_url = person.website.startsWith('http') ? person.website : `http://${person.website}`
+    const website_url = person.website.startsWith('http') 
+      ? person.website : `http://${person.website}`
     website = <a href={website_url} target="_blank" rel="noreferrer">Website</a>
   }
 
@@ -87,7 +96,7 @@ const Person = ({ person, type }) => {
   }
   if (type === "dialogue") {
     return (
-      <span className="speaker" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+      <span className="speaker person" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
         {person_name}
         <span className="details">
@@ -96,6 +105,7 @@ const Person = ({ person, type }) => {
           {person_institution}
           {twitter}
           {website}
+          {bio}
         </span>
       </span>
     )
