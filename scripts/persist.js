@@ -68,6 +68,12 @@ class Persistor {
     return this._partnersAndSponsors
   }
 
+  get taxonomy() {
+    if (this._taxonomy) return this._taxonomy
+    this._taxonomy = this.getTable(this.mithBase, 'Taxonomy')
+    return this._taxonomy
+  }
+
   get events() {
     if (this._events) return this._events
     this._events = this.getTable(this.mithBase, 'Events')
@@ -310,6 +316,7 @@ class Persistor {
       const links = await this.links
       const partnersAndSponsors = await this.partnersAndSponsors
       const types = await this.types
+      const taxonomy = await this.taxonomy
   
       const events = []
       
@@ -367,6 +374,16 @@ class Persistor {
         // Types
         eventsItem.fields.types = (eventsItem.get('event types') || []).map(
           id => types[id].fields
+        )
+
+        // Disciplines
+        eventsItem.fields.disciplines = (eventsItem.get('disciplines') || []).map(
+          id => taxonomy[id].fields
+        )
+
+        // Methods
+        eventsItem.fields.methods = (eventsItem.get('methods') || []).map(
+          id => taxonomy[id].fields
         )
 
         events.push(eventsItem.fields)
