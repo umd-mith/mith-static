@@ -238,6 +238,7 @@ class Persistor {
       const links = await this.links
       const partnersAndSponsors = await this.partnersAndSponsors
       const events = await this.events
+      const taxonomy = await this.taxonomy
   
       const research = []
   
@@ -296,6 +297,16 @@ class Persistor {
         // Events
         researchItem.fields.events = (researchItem.get('linked events') || []).map(
           id => events[id].fields
+        )
+
+        // Disciplines
+        researchItem.fields.disciplines = (researchItem.get('disciplines') || []).map(
+          id => taxonomy[id].fields
+        )
+
+        // Methods
+        researchItem.fields.methods = (researchItem.get('methods') || []).map(
+          id => taxonomy[id].fields
         )
   
         research.push(researchItem.fields)
