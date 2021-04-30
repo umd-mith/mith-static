@@ -28,16 +28,16 @@
 .dialogue :not(.header) h2 {
   margin-bottom: var(--base-content-spacing);
 }
-.content {
+.dialogue .content {
   grid-area: content;
   display: grid;
   grid-row-gap: var(--content-spacing-md);
 }
-.content .speakers, 
-.content .description, 
-.content .bios,
-.content .metadata,
-.content .video {
+.dialogue .content .speakers, 
+.dialogue .content .description, 
+.dialogue .content .bios,
+.dialogue .content .metadata,
+.dialogue .content .video {
   grid-column: 1 / 2;
   align-self: start;
 }
@@ -58,26 +58,34 @@
 .dialogue .speakers .details .bio-link {
   margin-top: var(--content-spacing-sm);
 }
-.content .video-wrapper {
+.dialogue .content .video-wrapper {
   padding: 56.25% 0 0 0;
   position: relative;
 }
-.content .video-wrapper iframe {
+.dialogue .content .video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.sidebar {
+.dialogue .sidebar {
   grid-area: sidebar;
   display: grid;
   grid-auto-rows: min-content;
   grid-row-gap: var(--content-spacing-md);
 }
-.sidebar .vidoe-link a {
+.dialogue .sidebar .video-link a {
   border-bottom: 0;
-
+}
+.dialogue .sidebar .disciplines li,
+.dialogue .sidebar .methods li {
+  display: inline-block;
+  text-transform: unset;
+  font-weight: normal;
+  margin: 0 0 var(--content-spacing-xs) var(--content-spacing-xs);
+  padding: 3px 10px 5px;
+  background-color: var(--color-gray-dk);
 }
 #main-content .dd-info {
   font-size: 0.8rem;

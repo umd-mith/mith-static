@@ -109,7 +109,7 @@ const Dialogue = ({ pageContext: item }) => {
       return <li className={l.type}>{link_name}</li>
     })
     links = <div className="links">
-      <h2>Links</h2>
+      <h2>Resources</h2>
       <ul>{links_list}</ul>
     </div>
   }
@@ -117,8 +117,8 @@ const Dialogue = ({ pageContext: item }) => {
   let disciplines_list = null
   let disciplines = null
   if (item.disciplines.length > 0) {
-    disciplines_list = item.taxonomy.map(l => {
-      return <li className={l.type}>{l.term}</li>
+    disciplines_list = item.disciplines.map(l => {
+      return <li className="pill">{l.term}</li>
     })
     disciplines = <div className="disciplines">
       <h2>Disciplines</h2>
@@ -129,8 +129,8 @@ const Dialogue = ({ pageContext: item }) => {
   let methods_list = null
   let methods = null
   if (item.methods.length > 0) {
-    methods_list = item.taxonomy.map(l => {
-      return <li className={l.type}>{l.term}</li>
+    methods_list = item.methods.map(l => {
+      return <li className="pill">{l.term}</li>
     })
     methods = <div className="methods">
       <h2>Methods</h2>

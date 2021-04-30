@@ -492,8 +492,12 @@ async function makeDialogues(createPage, graphql) {
   const results = await graphql(`
     query {
       allEventsJson(
-        filter: {event_type: {eq: "Digital Dialogue"}}
-        sort: {fields: [start_date], order: [DESC]}
+        filter: {
+          event_type: {eq: "Digital Dialogue"}
+        }
+        sort: {
+          fields: [start_date], order: [DESC]
+        }
       ) {
         nodes {
           id
@@ -537,6 +541,7 @@ async function makeDialogues(createPage, graphql) {
           }
           video_id: vimeo_id
           video_url: vimeo_url
+          livestream: livestream_link
           sponsors {
             name
             website
@@ -546,6 +551,14 @@ async function makeDialogues(createPage, graphql) {
             name
             website
             slug
+          }
+          disciplines {
+            term: name
+            type: method_or_discipline
+          }
+          methods {
+            term: name
+            type: method_or_discipline
           }
         }
       }
