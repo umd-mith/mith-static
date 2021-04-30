@@ -4,7 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-//import ResearchTime from '../components/research-time'
+import ResearchTime from '../components/research-time'
 import EventTime from '../components/event-time'
 import Person from '../components/person'
 
@@ -30,10 +30,12 @@ const Research = ({ pageContext: item }) => {
     }
   }
 
-  const started = item.year_start ? <span className="started">{item.year_start}</span> : ''
-  const ended = item.year_end ? <span className="ended">{item.year_end}</span> : ''
-  //const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
-  //const end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
+  const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
+  let end = ''
+  if (item.year_end) {
+    end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
+  }
+  const dates = <ResearchTime start={start} end={end} active={item.active} />
 
   let participant_list = null
   let participants = null
@@ -78,10 +80,10 @@ const Research = ({ pageContext: item }) => {
   let link_url = null
   if (item.links.length > 0) {
     links_list = item.links.map(l => {
-        link_url = l.url.startsWith('http') 
-          ? l.url 
-          : `http://${l.url}`
-        return <li id={l.link_id}><a href={link_url} title={l.title} target="_blank" rel="noreferrer">{l.title}</a></li>
+      link_url = l.url.startsWith('http') 
+        ? l.url 
+        : `http://${l.url}`
+      return <li id={l.link_id}><a href={link_url} title={l.title} target="_blank" rel="noreferrer">{l.title}</a></li>
     })
     links = <div className="links"><h2>Links</h2><ul>{links_list}</ul></div>
   }
@@ -91,13 +93,13 @@ const Research = ({ pageContext: item }) => {
   let sponsor_name = null
   if (item.sponsors.length > 0) {
     sponsors_list = item.sponsors.map(s => {
-        if (s.website) {
-          sponsor_name = s.website.startsWith('http') 
-            ? s.website
-            : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-        } else {
-          sponsor_name = s.name
-        }
+      if (s.website) {
+        sponsor_name = s.website.startsWith('http') 
+          ? s.website
+          : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
+      } else {
+        sponsor_name = s.name
+      }
       return <li id={s.slug}>{sponsor_name}</li>
     })
     sponsors = <div className="sponsors"><h2>Sponsors</h2><ul>{sponsors_list}</ul></div>
@@ -108,12 +110,12 @@ const Research = ({ pageContext: item }) => {
   if (item.events.length > 0) {
     events_list = item.events.map(e => {
       return <li id={e.id}>
-          <h3 className="title" itemProp="name"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
-          <EventTime start={e.start} end={e.end} />
-          <div itemProp="location" className="location">{e.location}</div>
-          <div className="description"></div>
-          <Link className="button" key={`e-${e.id}`} to={`../../events/${e.id}`}>View Event Details</Link>
-        </li>
+        <h3 className="title" itemProp="name"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
+        <EventTime start={e.start} end={e.end} />
+        <div itemProp="location" className="location">{e.location}</div>
+        <div className="description"></div>
+        <Link className="button" key={`e-${e.id}`} to={`../../events/${e.id}`}>View Event Details</Link>
+      </li>
     })
     events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
   }
@@ -126,9 +128,7 @@ const Research = ({ pageContext: item }) => {
           {title}
           {description}
           <div className="metadata">
-            <div className="date">
-              {started}{ended}
-            </div>
+            {dates}
             {twitter}
             {directors}
             {participants}
