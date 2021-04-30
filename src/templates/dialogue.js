@@ -47,10 +47,11 @@ const Dialogue = ({ pageContext: item }) => {
         return <div id={b.slug} className="speaker-bio">{b.bio}</div>
       }
     })
-    speaker_bios = <div className="bios">
-      <h2 className="hidden">Speaker Bios</h2>
-      {speaker_bios_list}
-    </div>
+    speaker_bios = speaker_bios_list 
+      ? <div className="bios">
+        <h2 className="hidden">Speaker Bios</h2>
+        {speaker_bios_list}
+      </div> : ''
   }
 
   let sponsors_list = null
@@ -63,13 +64,13 @@ const Dialogue = ({ pageContext: item }) => {
             ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
             : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
         } else {
-          sponsor_name = s.name
+          sponsor_name = <span>s.name</span>
         }
       return <li id={s.slug}>{sponsor_name}</li>
     })
     sponsors = <div className="sponsors">
-      <h2>Sponsors</h2>
-      <ul>{sponsors_list}</ul>
+      <h2 className="hidden">Sponsors</h2>
+      <ul>Sponsored by {sponsors_list}</ul>
     </div>
   }
 
@@ -113,12 +114,43 @@ const Dialogue = ({ pageContext: item }) => {
     </div>
   }
 
+  let disciplines_list = null
+  let disciplines = null
+  if (item.disciplines.length > 0) {
+    disciplines_list = item.taxonomy.map(l => {
+      return <li className={l.type}>{l.term}</li>
+    })
+    disciplines = <div className="disciplines">
+      <h2>Disciplines</h2>
+      <ul>{disciplines_list}</ul>
+    </div>
+  }
+
+  let methods_list = null
+  let methods = null
+  if (item.methods.length > 0) {
+    methods_list = item.taxonomy.map(l => {
+      return <li className={l.type}>{l.term}</li>
+    })
+    methods = <div className="methods">
+      <h2>Methods</h2>
+      <ul>{methods_list}</ul>
+    </div>
+  }
+
   const iconVideo = <FontAwesomeIcon icon="play-circle" />
   const video_id = item.video_id ? item.video_id : ''
   const video_link = video_id
     ? <div className="video-link">
         <a className="button" href={`https://vimeo.com/${video_id}`} target="_blank" rel="noreferrer">
-          {iconVideo} Watch Video
+          {iconVideo} Watch Dialogue Video
+        </a>
+      </div> : ''
+
+  const livestream = item.livestream
+    ? <div className="livestream-link">
+        <a className="button" href={livestream} target="_blank" rel="noreferrer">
+          Watch Livestream
         </a>
       </div> : ''
 
@@ -145,7 +177,7 @@ const Dialogue = ({ pageContext: item }) => {
       <div className="page-dialogue">
         <section className="dialogue event" itemProp="event" itemScope itemType="https://schema.org/Event">
           {header}
-          <div className="dialogue-content">
+          <div className="content">
             {speakers}
             <div className="metadata">
               <EventTime start={item.start} end={item.end} />
@@ -154,10 +186,14 @@ const Dialogue = ({ pageContext: item }) => {
             {description}
             {speaker_bios}
             {video}
+          </div>
+          <div className="sidebar">
             {sponsors}
             {partners}
             {video_link}
             {links}
+            {disciplines}
+            {methods}
           </div>
         </section>
         {dd_info}
