@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Layout from '../components/layout'
 import Paginator from '../components/paginator'

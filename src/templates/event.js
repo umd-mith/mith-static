@@ -29,8 +29,6 @@ const Event = ({ pageContext: item }) => {
   
   let speakers_list = null
   let speakers = null
-  let speaker_bios_list = null
-  let speaker_bios = null
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
@@ -39,15 +37,6 @@ const Event = ({ pageContext: item }) => {
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>
       <ul>{speakers_list}</ul>
-    </div>
-    speaker_bios_list = speakers_data.map(b => {
-      if (b.bio != null) {
-        return <div id={b.id} className="speaker-bio">{b.bio}</div>
-      }
-    })
-    speaker_bios = <div className="bios">
-      <h2 className="hidden">Speaker Bios</h2>
-      {speaker_bios_list}
     </div>
   }
 
@@ -106,8 +95,32 @@ const Event = ({ pageContext: item }) => {
       return <li className={l.type}>{link_name}</li>
     })
     links = <div className="links">
-      <h2>Links</h2>
+      <h2>Resources</h2>
       <ul>{links_list}</ul>
+    </div>
+  }
+
+  let disciplines_list = null
+  let disciplines = null
+  if (item.disciplines.length > 0) {
+    disciplines_list = item.disciplines.map(l => {
+      return <li className="pill">{l.term}</li>
+    })
+    disciplines = <div className="disciplines">
+      <h2>Disciplines</h2>
+      <ul>{disciplines_list}</ul>
+    </div>
+  }
+
+  let methods_list = null
+  let methods = null
+  if (item.methods.length > 0) {
+    methods_list = item.methods.map(l => {
+      return <li className="pill">{l.term}</li>
+    })
+    methods = <div className="methods">
+      <h2>Methods</h2>
+      <ul>{methods_list}</ul>
     </div>
   }
 
@@ -117,15 +130,21 @@ const Event = ({ pageContext: item }) => {
       <div className="page-event">
         <section className="event" itemProp="event" itemScope itemType="https://schema.org/Event">
           {header}
-          <div className="metadata">
-            <EventTime start={item.start} end={item.end} />
-            <div itemProp="location" className="location">{item.location}</div>
+          <div className="content">
+            <div className="metadata">
+              <EventTime start={item.start} end={item.end} />
+              <div itemProp="location" className="location">{item.location}</div>
+            </div>
+            {description}
+            {speakers}
           </div>
-          {speakers}
-          {description}
-          {speaker_bios}
-          {sponsors}
-          {partners}
+          <div className="sidebar">
+            {methods}
+            {disciplines}
+            {links}
+            {sponsors}
+            {partners}
+          </div>
         </section>
       </div>
     </Layout>

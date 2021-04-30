@@ -6,15 +6,20 @@
   "content sidebar";
   grid-row-gap: var(--content-spacing-md);
   grid-column-gap: var(--content-spacing-lg);
+  align-items: flex-start;
 }
 .event .header {
   grid-area: header;
   grid-column: 1/-1;
+  padding-bottom: var(--content-spacing-md);
+  border-bottom: 1px solid var(--color-gray-lt);
 }
 .event h1 {
-  margin-bottom: var(--content-spacing-md);
+  margin-bottom: 0;
 }
-.event h2,
+.event h2 {
+  margin-bottom: var(--base-content-spacing);
+}
 .event-image {
   margin-bottom: var(--content-spacing-lg);
   text-align: left;
@@ -32,17 +37,19 @@
   grid-column: 1 / 2;
   align-self: start;
 }
-.event .date {
+.event .content .date {
   font-weight: 600;
 }
-.event .location {
+.event .content .location {
   font-style: italic;
+}
+.event .content .description p:last-child {
+  margin-bottom: 0;
 }
 .event .sidebar {
   grid-area: sidebar;
   display: grid;
   grid-row-gap: var(--content-spacing-md);
-  grid-auto-rows: min-content;
 }
 .event .sidebar .disciplines li,
 .event .sidebar .methods li {
@@ -53,8 +60,6 @@
   padding: 3px 10px 5px;
   background-color: var(--color-gray-dk);
 }
-
-/* Speakers */
 .event .speakers {
   border-top: 1px dashed #ccc;
   padding-top: var(--base-content-spacing);
@@ -64,6 +69,7 @@
   grid-template-columns: none;
   grid-column-gap: var(--content-spacing-lg);
   grid-row-gap: var(--base-content-spacing);
+  align-items: flex-start;
 }
 @media screen and (min-width: 45em) {
   .event .speakers ul {
@@ -72,9 +78,14 @@
 }
 .event .speakers .person {
   display: grid;
+  grid-template-areas: 
+    "headshot name"
+    "headshot details"
+    "bio bio";
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: var(--content-spacing-md);
   grid-row-gap: var(--content-spacing-xs);
+  align-items: flex-start;
 }
 .event .speakers .person .headshot {
   grid-row: 1 / 3;
@@ -107,18 +118,13 @@
 .event .speakers .person .details span:not(.title):last-of-type::after {
   content: none;
 }
-.event .speaker-bio {
-  grid-column: 1 / 3;
-  font-size: 0.9rem;
-  margin-top: var(--base-content-spacing);
-  padding-top: var(--base-content-spacing);
-  border-top: 1px dashed var(--color-gray-lt);
-}
-.event .bios div:first-of-type {
-  margin-top: 0;
-}
 .event .speakers a,
 .event .speakers a:hover,
 .event .speakers a:active {
   border-bottom-width: 0;
+}
+.event .speakers .person .bio {
+  grid-area: bio;
+  padding-top: var(--content-spacing-sm);
+  font-size: 0.9rem;
 }

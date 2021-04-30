@@ -78,7 +78,11 @@ const Person = ({ person, type }) => {
       }
     }
   }
-  const bio = person.bio ? <a href={`#${person.slug}`} className="bio-link">Read Bio</a> : null
+  const bio_link = person.bio 
+    ? <a href={`#${person.slug}`} className="bio-link">Read Bio</a> : null
+  
+  const bio = person.bio 
+    ? <div className="bio">{person.bio}</div> : ''
 
   if (person.website) {
     const website_url = person.website.startsWith('http') 
@@ -105,8 +109,24 @@ const Person = ({ person, type }) => {
           {person_institution}
           {twitter}
           {website}
-          {bio}
+          {bio_link}
         </span>
+      </span>
+    )
+  } 
+  if (type === "speaker") {
+    return (
+      <span className="speaker person" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+        {headshot}
+        {person_name}
+        <span className="details">
+          {person_title}
+          {person_dept}
+          {person_institution}
+          {twitter}
+          {website}
+        </span>
+        {bio}
       </span>
     )
   } 

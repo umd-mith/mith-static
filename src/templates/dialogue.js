@@ -178,11 +178,11 @@ const Dialogue = ({ pageContext: item }) => {
         <section className="dialogue event" itemProp="event" itemScope itemType="https://schema.org/Event">
           {header}
           <div className="content">
-            {speakers}
             <div className="metadata">
               <EventTime start={item.start} end={item.end} />
               <div itemProp="location" className="location">{item.location}</div>
             </div>
+            {speakers}
             {description}
             {speaker_bios}
             {video}
