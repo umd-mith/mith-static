@@ -11,35 +11,16 @@
 }
 
 /* Dialogue Post */
-#main-content section.dialogue {
-  grid-template-columns: calc(100% - 23% - 80px) 1fr;
-  grid-template-areas: 
-  "header header"
-  "content sidebar";
-  grid-row-gap: var(--content-spacing-md);
-  grid-column-gap: var(--content-spacing-lg);
-}
 .dialogue .header {
-  grid-area: header;
-  grid-column: 1/-1;
   padding-bottom: var(--content-spacing-md);
+  margin-bottom: var(--content-spacing-md);
   border-bottom: 1px solid var(--color-gray-lt);
+}
+.dialogue h1 {
+  margin-bottom: 0;
 }
 .dialogue :not(.header) h2 {
   margin-bottom: var(--base-content-spacing);
-}
-.dialogue .content {
-  grid-area: content;
-  display: grid;
-  grid-row-gap: var(--content-spacing-md);
-}
-.dialogue .content .speakers, 
-.dialogue .content .description, 
-.dialogue .content .bios,
-.dialogue .content .metadata,
-.dialogue .content .video {
-  grid-column: 1 / 2;
-  align-self: start;
 }
 .dialogue .speakers {
   border-top: none;
@@ -69,23 +50,8 @@
   width: 100%;
   height: 100%;
 }
-.dialogue .sidebar {
-  grid-area: sidebar;
-  display: grid;
-  grid-auto-rows: min-content;
-  grid-row-gap: var(--content-spacing-md);
-}
 .dialogue .sidebar .video-link a {
   border-bottom: 0;
-}
-.dialogue .sidebar .disciplines li,
-.dialogue .sidebar .methods li {
-  display: inline-block;
-  text-transform: unset;
-  font-weight: normal;
-  margin: 0 0 var(--content-spacing-xs) var(--content-spacing-xs);
-  padding: 3px 10px 5px;
-  background-color: var(--color-gray-dk);
 }
 #main-content .dd-info {
   font-size: 0.8rem;

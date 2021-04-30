@@ -1,20 +1,57 @@
-.event {
+#main-content section.event {
   display: grid;
-  grid-row-gap: var(--base-content-spacing);
+  grid-template-columns: calc(100% - 23% - 80px) 1fr;
+  grid-template-areas: 
+  "header header"
+  "content sidebar";
+  grid-row-gap: var(--content-spacing-md);
+  grid-column-gap: var(--content-spacing-lg);
 }
-.event h1, .event h2 {
-  margin-bottom: 0;
+.event .header {
+  grid-area: header;
+  grid-column: 1/-1;
 }
-.event h2
+.event h1 {
+  margin-bottom: var(--content-spacing-md);
+}
+.event h2,
 .event-image {
   margin-bottom: var(--content-spacing-lg);
   text-align: left;
+}
+.event .content {
+  grid-area: content;
+  display: grid;
+  grid-row-gap: var(--content-spacing-md);
+}
+.event .content .speakers, 
+.event .content .description, 
+.event .content .bios,
+.event .content .metadata,
+.event .content .video {
+  grid-column: 1 / 2;
+  align-self: start;
 }
 .event .date {
   font-weight: 600;
 }
 .event .location {
   font-style: italic;
+}
+.event .sidebar {
+  grid-area: sidebar;
+  display: grid;
+  grid-row-gap: var(--content-spacing-md);
+  grid-auto-rows: min-content;
+}
+.event .sidebar .disciplines li,
+.event .sidebar .methods li {
+  display: inline-block;
+  text-transform: unset;
+  font-weight: normal;
+  margin: 0 0 var(--content-spacing-xs) var(--content-spacing-xs);
+  padding: 3px 10px 5px;
+  background-color: var(--color-gray-dk);
 }
 
 /* Speakers */
@@ -40,19 +77,20 @@
   grid-row-gap: var(--content-spacing-xs);
 }
 .event .speakers .person .headshot {
+  grid-row: 1 / 3;
+  align-self: start;
   max-width: 200px;
   min-width: 150px;
-  grid-row: 1 / 3;
   font-size: small;
   background-color: #f9f9f9;
 }
 .event .speakers .person .name {
-  font-weight: 600;
   grid-row: 1 / 2;
+  font-weight: 600;
 }
 .event .speakers .person .details {
-  font-size: smaller;
   grid-row: 2 / 3;
+  font-size: smaller;
 }
 .event .speakers .person .title {
   font-style: italic;
@@ -75,6 +113,9 @@
   margin-top: var(--base-content-spacing);
   padding-top: var(--base-content-spacing);
   border-top: 1px dashed var(--color-gray-lt);
+}
+.event .bios div:first-of-type {
+  margin-top: 0;
 }
 .event .speakers a,
 .event .speakers a:hover,
