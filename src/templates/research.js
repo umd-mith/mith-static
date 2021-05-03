@@ -13,11 +13,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Research = ({ pageContext: item }) => {
 
-  let title = <h1 className="title">{item.title}</h1>
+  let header = <h1 className="title">{item.title}</h1>
   let description = ''
   if (item.fields) {
     if (item.fields.image) {
-      title = <GatsbyImage 
+      header = <GatsbyImage 
         image={item.fields.image.childImageSharp.gatsbyImageData}
         alt={item.title} 
         className="research-image" 
@@ -125,9 +125,12 @@ const Research = ({ pageContext: item }) => {
       <SEO title={item.title} />
       <div className="page-research-item">
         <section className="research-item">
-          {title}
-          {description}
-          <div className="metadata">
+          {header}
+          <div className="content">
+            {description}
+            {events}
+          </div>
+          <div className="sidebar metadata">
             {dates}
             {twitter}
             {directors}
@@ -135,7 +138,6 @@ const Research = ({ pageContext: item }) => {
             {links}
             {sponsors}
           </div>       
-          {events}
         </section>
       </div>
     </Layout>

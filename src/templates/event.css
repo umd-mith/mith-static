@@ -1,16 +1,25 @@
 #main-content section.event {
   display: grid;
-  grid-template-columns: calc(100% - 23% - 80px) 1fr;
+  grid-template-columns: 100%;
   grid-template-areas: 
-  "header header"
-  "content sidebar";
+    "header"
+    "content"
+    "sidebar";
   grid-row-gap: var(--content-spacing-md);
   grid-column-gap: var(--content-spacing-lg);
   align-items: flex-start;
+  align-content: flex-start;
+}
+@media screen and (min-width: 45em) {
+  #main-content section.event {
+    grid-template-columns: calc(100% - 23% - 4rem) 1fr;
+    grid-template-areas: 
+      "header header"
+      "content sidebar";
+  }
 }
 .event .header {
   grid-area: header;
-  grid-column: 1/-1;
   padding-bottom: var(--content-spacing-md);
   border-bottom: 1px solid var(--color-gray-lt);
 }
@@ -60,8 +69,11 @@
   padding: 3px 10px 5px;
   background-color: var(--color-gray-dk);
 }
+.event .sidebar .sponsors .internal:not(#umdlib)::before,
+.event .sidebar .partners .internal:not(#umdlib)::before {
+  content: "University of Maryland ";
+}
 .event .speakers {
-  border-top: 1px dashed #ccc;
   padding-top: var(--base-content-spacing);
 }
 .event .speakers ul {

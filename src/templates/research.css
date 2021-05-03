@@ -1,44 +1,36 @@
 .research-item {
   display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+    "header"
+    "content"
+    "sidebar";
   grid-row-gap: var(--base-content-spacing);
+  align-items: flex-start;
+  align-content: flex-start;
 }
 @media screen and (min-width: 45em) {
   .research-item {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: calc(100% - 23% - 4rem) 1fr;
     grid-column-gap: var(--content-spacing-lg);
     grid-row-gap: var(--base-content-spacing);
     grid-template-areas:
-      "header"
-      "content"
-      "sidebar"
-      "footer";
-  }
-  .research-item h1,
-  .research-item .research-image {
-    grid-area: header;
-    grid-column: span 4;
-    grid-row: 1;
+      "header header"
+      "content sidebar";
   }
   .research-item .research-image {
     margin-bottom: var(--base-content-spacing);
   }
-  .research-item .description {
-    grid-area: content;
-    grid-column: 1 / 4;
-    grid-row: 2;
-  }
-  /* Events */
-  .research-item .events {
-    grid-column: 1 / 4;
-    grid-row: 3;
-  }
-  /* Metadata */
-  .research-item .metadata {
-    grid-area: sidebar;
-    grid-column: 4 / 5;
-    grid-row: 2 / 5;
-  }
+}
+.research-item h1,
+.research-item .research-image {
+  grid-area: header;
+  text-align: left;
+}
+.research-item .description {
+  grid-area: content;
+  align-self: start;
 }
 .research-item h2 {
   margin-bottom: var(--base-content-spacing);
@@ -46,10 +38,11 @@
 .research-item h3 {
   margin-bottom: var(--content-spacing-xs);
 }
-.research-item .research-image {
-  text-align: left;
-}
 /* Events */
+.research-item .events {
+  grid-area: events;
+  align-self: start;
+}
 .research-item .events ul {
   display: grid;
   grid-row-gap: var(--base-content-spacing);
@@ -61,11 +54,12 @@
   margin-top: var(--content-spacing-sm);
 }
 /* Metadata */
-.research-item .metadata {
+.research-item .sidebar {
+  grid-area: sidebar;
   display:grid;
   grid-row-gap: var(--base-content-spacing);
 }
-.research-item .metadata a {
+.research-item .sidebar a {
   border-bottom-width: 0;
 }
 .research-item .date {
