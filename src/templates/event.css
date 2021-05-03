@@ -46,8 +46,11 @@
   grid-column: 1 / 2;
   align-self: start;
 }
-.event .content .date {
+.event .content .event-date {
   font-weight: 600;
+}
+.event .content .start .time::before {
+  content: " \00A0 | \00A0"
 }
 .event .content .location {
   font-style: italic;

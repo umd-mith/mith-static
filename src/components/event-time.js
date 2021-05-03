@@ -9,25 +9,34 @@ const EventTime = ({start, end}) => {
 
   let startEl = ''
   if (start.hour() === 0) {
-    startEl = <time itemProp="startDate" dateTime={start.format('YYYY-MM-DD')}>{start.format('LL')}</time>
+    startEl = <time itemProp="startDate" className="start" dateTime={start.format('YYYY-MM-DD')}>
+      <span className="date">{start.format('LL')}</span>
+    </time>
   } else {
-    startEl = <time itemProp="startDate" dateTime={start.format()}>{start.format('LLL')}</time>
+    startEl = <time itemProp="startDate" className="start" dateTime={start.format()}>
+      <span className="date">{start.format('LL')}</span>
+      <span className="time">{start.format('LT')}</span>
+    </time>
   }
 
   let endEl = ''
   if (end) {
     end = dayjs(end)
     if (end.hour() === 0) {
-      endEl = <time itemProp="endDate" dateTime={end.format('YYYY-MM-DD')}>{end.format('LL')}</time>
+      endEl = <time itemProp="endDate" className="end" dateTime={end.format('YYYY-MM-DD')}>
+        <span class="date">{end.format('LL')}</span>
+    </time>
     } else {
-      endEl = <time itemProp="endDate" dateTime={end.format()}>{end.format('LT')}</time>
+      endEl = <time itemProp="endDate" className="end" dateTime={end.format()}>
+        <span class="time">{end.format('LT')}</span>
+      </time>
     }
   }
 
   if (startEl && endEl) {
-    return <span className="date event-date">{startEl} &ndash; {endEl}</span>
+    return <span className="event-date">{startEl} &ndash; {endEl}</span>
   } else {
-    return <span className="date event-date">{startEl}</span>
+    return <span className="event-date">{startEl}</span>
   }
 }
 

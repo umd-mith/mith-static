@@ -7,3 +7,6 @@
 .events .title .subtitle::before {
   content: ': ';
 }
+.events .start .time::before {
+  content: " \00A0 | \00A0"
+}
