@@ -35,7 +35,7 @@ const Event = ({ pageContext: item }) => {
       return <Person key={`p${i}`} person={p} type="speaker" />
     })
     speakers = <div className="speakers">
-      <h2 className="hidden">Speakers</h2>
+      <h2>Speakers</h2>
       <ul>{speakers_list}</ul>
     </div>
   }
@@ -45,14 +45,15 @@ const Event = ({ pageContext: item }) => {
   let sponsor_name = null
   if (item.sponsors.length > 0) {
     sponsors_list = item.sponsors.map(s => {
-        if (s.website) {
-          sponsor_name = s.website.startsWith('http') 
-            ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-            : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-        } else {
-          sponsor_name = s.name
-        }
-      return <li id={s.slug}>{sponsor_name}</li>
+      if (s.website) {
+        sponsor_name = s.website.startsWith('http') 
+          ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
+          : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
+      } else {
+        sponsor_name = s.name
+      }
+      const type = s.type.toLowerCase()
+      return <li id={s.slug} className={type}>{sponsor_name}</li>
     })
     sponsors = <div className="sponsors">
       <h2>Sponsors</h2>
@@ -65,14 +66,15 @@ const Event = ({ pageContext: item }) => {
   let partner_name = null
   if (item.partners.length > 0) {
     partners_list = item.partners.map(p => {
-        if (p.website) {
-          partner_name = p.website.startsWith('http') 
-            ? <a href={p.website} target="_blank" rel="noreferrer">{p.name}</a>
-            : <a href={`http://${p.website}`} target="_blank" rel="noreferrer">{p.name}</a>
-        } else {
-          partner_name = p.name
-        }
-      return <li id={p.slug}>{partner_name}</li>
+      if (p.website) {
+        partner_name = p.website.startsWith('http') 
+          ? <a href={p.website} target="_blank" rel="noreferrer">{p.name}</a>
+          : <a href={`http://${p.website}`} target="_blank" rel="noreferrer">{p.name}</a>
+      } else {
+        partner_name = p.name
+      }
+      const type = p.type.toLowerCase()
+      return <li id={p.slug} className={type}>{partner_name}</li>
     })
     partners = <div className="partners">
       <h2>Partners</h2>

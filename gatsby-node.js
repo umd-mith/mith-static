@@ -311,11 +311,13 @@ async function makeResearch(createPage, graphql) {
           sponsors {
             name
             website
+            type
             slug
           }
           partners {
             name
             website
+            type
             slug
           }
           events {
@@ -441,11 +443,13 @@ async function makeEvents(createPage, graphql) {
           sponsors {
             name
             website
+            type
             slug
           }
           partners {
             name
             website
+            type
             slug
           }
           research {
@@ -568,11 +572,13 @@ async function makeDialogues(createPage, graphql) {
           sponsors {
             name
             website
+            type
             slug
           }
           partners {
             name
             website
+            type
             slug
           }
           disciplines {
