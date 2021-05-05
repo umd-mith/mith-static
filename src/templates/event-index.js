@@ -43,13 +43,22 @@ const EventIndex = ({data}) => {
               </ul>
             }
 
+            let types = null
+            let types_list = null 
+            if (item.type) {
+              types_list = item.type.map(t => {
+                return <span className="pill event-type" key={`t${t}`}>{t}</span>
+              })
+              types = <span className="event-types">{types_list}</span>
+            }
+
             const itemId = item.id.replace(/-/g, '_')
 
             return (
               <article className="post event-item-post" key={`event-${item.id}`} id={itemId}>
                 {title}
                 <div className="meta">
-                  <span className="pill event-type">{item.type}</span>
+                  {types}
                   {speakers}
                   <EventTime start={item.start} end={item.end} />
                 </div>
