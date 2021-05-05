@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
@@ -126,6 +126,20 @@ const Event = ({ pageContext: item }) => {
     </div>
   }
 
+  let research = null
+  let research_list = null
+  if (item.research.length > 0) {
+    research_list = item.research.map(r => {
+      if (r.image) {
+        const research_img = <img src={r.image.url} alt={r.title} />
+        return <Link className="research-item" to={`../research/${r.id}`}>{research_img}</Link>
+      } else {
+        return <Link className="research-item" to={`../research/${r.id}`}>{r.title}</Link>
+      }
+    })
+    research = <div class="linked-research">{research_list}</div>
+  }
+
   return (
     <Layout>
       <SEO title={item.title} />
@@ -146,6 +160,7 @@ const Event = ({ pageContext: item }) => {
             {links}
             {sponsors}
             {partners}
+            {research}
           </div>
         </section>
       </div>
