@@ -20,6 +20,10 @@ library.add(
   fas.faBars,
   fas.faGlobe,
   fas.faCalendar,
+  fas.faCalendarAlt,
+  fas.faClock,
+  fas.faMapMarker,
+  fas.faMapMarkerAlt,
   fas.faRss,
   fas.faPlayCircle,
   fas.faPlay

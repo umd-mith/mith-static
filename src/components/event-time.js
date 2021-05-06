@@ -1,10 +1,15 @@
 import React from 'react'
 import dayjs from 'dayjs'
 import localizedFormat from 'dayjs/plugin/localizedFormat'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 dayjs.extend(localizedFormat)
 
-const EventTime = ({start, end}) => {
+const EventTime = ({start, end, icon}) => {
+
+  const iconCalendar = icon ? <FontAwesomeIcon icon="calendar-alt" /> : ''
+  const iconClock = icon ? <FontAwesomeIcon icon="clock" /> : ''
+
   start = dayjs(start)
 
   let startEl = ''
@@ -15,7 +20,7 @@ const EventTime = ({start, end}) => {
   } else {
     startEl = <time itemProp="startDate" className="start" dateTime={start.format()}>
       <span className="date">{start.format('LL')}</span>
-      <span className="time">{start.format('LT')}</span>
+      <span className="time">{iconClock} {start.format('LT')}</span>
     </time>
   }
 
@@ -34,9 +39,9 @@ const EventTime = ({start, end}) => {
   }
 
   if (startEl && endEl) {
-    return <span className="event-date">{startEl} &ndash; {endEl}</span>
+    return <span className="event-date">{iconCalendar} {startEl}{endEl}</span>
   } else {
-    return <span className="event-date">{startEl}</span>
+    return <span className="event-date">{iconCalendar} {startEl}</span>
   }
 }
 
