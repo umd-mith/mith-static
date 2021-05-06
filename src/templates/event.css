@@ -52,6 +52,9 @@
 .event .content .start .time::before {
   content: " \00A0 | \00A0"
 }
+.event .content .end::before {
+  content: " \2013 \00A0 ";
+}
 .event .content .location {
   font-style: italic;
 }
@@ -62,6 +65,9 @@
   grid-area: sidebar;
   display: grid;
   grid-row-gap: var(--content-spacing-md);
+}
+.event .sidebar .pill {
+  background-color: var(--color-gray-dk);
 }
 .event .sidebar .disciplines li,
 .event .sidebar .methods li {

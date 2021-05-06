@@ -1,6 +1,7 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { graphql, Link } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Layout from '../components/layout'
 import Paginator from '../components/paginator'
@@ -9,6 +10,7 @@ import EventTime from '../components/event-time'
 import Person from '../components/person'
 
 import './event-index.css'
+import { icon } from '@fortawesome/fontawesome-svg-core'
 
 const EventIndex = ({data}) => {
   const items = data.allEventsJson.nodes
@@ -30,6 +32,24 @@ const EventIndex = ({data}) => {
             const title = item.talk_subtitle
               ? <h2 className="title"><Link to={slug}>{title_text}<span className="subtitle">{item.talk_subtitle}</span></Link></h2> 
               : <h2 className="title"><Link to={slug}>{title_text}</Link></h2>
+
+            let image = ''
+            let excerpt = '' 
+            if (item.fields) {
+              if (item.fields.image) {
+                image = <Link to={slug} className="image">
+                  <GatsbyImage 
+                    image={item.fields.image.childImageSharp.gatsbyImageData}
+                    alt={item.title} 
+                    className="event-image" 
+                /></Link>
+              }
+              if (item.fields.eventsDescription) {
+                excerpt = <div className="excerpt">
+                  {item.fields.eventsDescription.childMarkdownRemark.excerpt}
+                </div>
+              }
+            }
           
             let speakers_list = null
             let speakers = null
@@ -38,32 +58,44 @@ const EventIndex = ({data}) => {
               speakers_list = speakers_data.map((p, i) => {
                 return <Person key={`p${i}`} person={p} showTitle="false" type="index" />
               })
-              speakers = <ul className="inline-list">
-                {speakers_list}
-              </ul>
+              speakers = <div className="speakers hidden">
+                <ul className="inline-list">
+                  {speakers_list}
+                </ul>
+              </div>
             }
-
+            const status = item.status === 'canceled' ? <span className={`pill event-status ${item.status}`}>{item.status}</span> : ''
             let types = null
             let types_list = null 
             if (item.type) {
               types_list = item.type.map(t => {
                 return <span className="pill event-type" key={`t${t}`}>{t}</span>
               })
-              types = <span className="event-types">{types_list}</span>
+              
+              types = <div className="event-types">{types_list}{status}</div>
             }
 
             const itemId = item.id.replace(/-/g, '_')
+            const iconLocation = <FontAwesomeIcon icon="map-marker-alt" />
+            const location = item.location 
+              ? <span className="location">{iconLocation} {item.location}</span> : ''
+            const details = <Link className="button" to={slug}>Event Details</Link>
 
             return (
-              <article className="post event-item-post" key={`event-${item.id}`} id={itemId}>
-                {title}
-                <div className="meta">
+              <article className="event-item" key={`event-${item.id}`} id={itemId}>
+                {image}
+                <div className="content">
+                  {title}
                   {types}
+                  {excerpt}
                   {speakers}
-                  <EventTime start={item.start} end={item.end} />
                 </div>
-                <div className="post-excerpt">
-                  
+                <div className="meta">
+                  <EventTime start={item.start} end={item.end} icon="yes" />
+                  {location}
+                </div>
+                <div className="details">
+                  {details}
                 </div>
               </article>
             )
@@ -84,6 +116,9 @@ export const query = graphql`
         fields: [start_date], 
         order: [DESC]
       }
+      filter: {
+        event_type: {ne: "Digital Dialogue"}
+      }
     ) {
       nodes {
         id
@@ -94,6 +129,7 @@ export const query = graphql`
         start: start_date
         end: end_date
         location
+        status
         speakers {
           name
           title
@@ -101,6 +137,18 @@ export const query = graphql`
           institution
           person_group
           slug
+        }
+        fields {
+          eventsDescription {
+            childMarkdownRemark {
+                excerpt(pruneLength: 250)
+              }
+          }
+          image {
+            childImageSharp {
+              gatsbyImageData(width: 600, quality: 100, backgroundColor: "rgba(255,255,255,0)")
+            }
+          }
         }
       }
       pageInfo {

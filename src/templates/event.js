@@ -40,6 +40,15 @@ const Event = ({ pageContext: item }) => {
     </div>
   }
 
+  let types = null
+  let types_list = null 
+  if (item.type) {
+    types_list = item.type.map(t => {
+      return <span className="pill event-type" key={`t${t}`}>{t}</span>
+    })
+    types = <span className="event-types">{types_list}</span>
+  }
+
   let sponsors_list = null
   let sponsors = null
   let sponsor_name = null
@@ -132,12 +141,15 @@ const Event = ({ pageContext: item }) => {
     research_list = item.research.map(r => {
       if (r.image) {
         const research_img = <img src={r.image.url} alt={r.title} />
-        return <Link className="research-item" to={`../research/${r.id}`}>{research_img}</Link>
+        return <Link className="research-item" to={`../../research/${r.id}`}>{research_img}</Link>
       } else {
-        return <Link className="research-item" to={`../research/${r.id}`}>{r.title}</Link>
+        return <Link className="research-item" to={`../../research/${r.id}`}>{r.title}</Link>
       }
     })
-    research = <div class="linked-research">{research_list}</div>
+    research = <div class="linked-research">
+        <h2>Related Research</h2>
+        {research_list}
+      </div>
   }
 
   return (
@@ -155,6 +167,7 @@ const Event = ({ pageContext: item }) => {
             {speakers}
           </div>
           <div className="sidebar">
+            {types}
             {methods}
             {disciplines}
             {links}
