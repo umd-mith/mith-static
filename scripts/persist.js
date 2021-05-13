@@ -335,20 +335,39 @@ class Persistor {
         const eventsItem = eventsItems[eventsItemId]
 
         // Speakers
-        const speakers = (eventsItem.get('speaker affiliations') || []).map(
-          id => identities[id].fields
-        )
+        const speakers = (eventsItem.get('speaker affiliations') || []).reduce((acc, id) => {
+          // Merge affiliations into one speaker when 'linked person' is the same
+            const speaker = identities[id]
+            const person = speaker.get('linked person')
+            if (!acc[person]) {
+              acc[person] = {}
+              acc[person].affiliations = []              
+            }
+            acc[person].affiliations.push(
+              {
+                title: speaker.get('title'),
+                department: speaker.get('department'),
+                institution: speaker.get('institution')
+              }
+            )
+            acc[person].linked_person = person
+            acc[person].person_group = speaker.get('person group')
+            return acc
+          },
+        {})
 
-        for (const speaker of speakers) {
-          const person = people[speaker['linked person'][0]]
+        const speakerIds = Object.keys(speakers)
+
+        for (const speakerId of speakerIds) {
+          const speaker = speakers[speakerId]
+          const person = people[speaker['linked_person'][0]]
           speaker.name = person.get('name')
           speaker.slug = person.get('id')
-          speaker.headshot = person.get('headshot')
           speaker.twitter = person.get('twitter')
           speaker.website = person.get('website')
         }
 
-        eventsItem.fields.speakers = speakers
+        eventsItem.fields.speakers = speakerIds.map(i => speakers[i])
 
         // Participants
         const participants = (eventsItem.get('linked participant affiliations') || []).map(
@@ -406,6 +425,24 @@ class Persistor {
     }
   }
 
+  async persistIdentities() {
+    try {
+      const identityData = await this.identities
+  
+      const identities = []
+  
+      for (const identityId in identityData) {
+        const identity = identityData[identityId]
+  
+        const identityInfo = identity.fields
+        identities.push(identityInfo)
+      }
+  
+      this.writeJson(identities, 'identities.json')
+    } catch(e) {
+      throw new Error(e)
+    }
+  }
 }
 
 const persistor = new Persistor()
@@ -425,10 +462,14 @@ switch (process.argv[2]) {
   case 'events':
     persistor.persistEvents()
     break
+  case 'identities':
+    persistor.persistIdentities()
+    break
   default:
     persistor.persistPeople()
     persistor.persistGroups()
     persistor.persistPosts()
     persistor.persistResearch()
     persistor.persistEvents()
+    persistor.persistIdentities()
 }

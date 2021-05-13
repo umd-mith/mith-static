@@ -889,6 +889,29 @@
     "current identities": []
   },
   {
+    "id": "raymond-yee",
+    "first": "Raymond",
+    "last": "Yee",
+    "new id": 579,
+    "events as speaker": [
+      "rec0tOBrWUCYirZYc"
+    ],
+    "linked identities": [],
+    "name": "Raymond Yee",
+    "group type": [
+      "External"
+    ],
+    "slug": "raymond-yee",
+    "slug formula": "raymond-yee",
+    "created": "2021-02-26T19:58:30.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec274gssWEkx7Z0M",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "nicholas-chen",
     "first": "Nicholas",
     "last": "Chen",
@@ -914,6 +937,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-25T04:38:48.000Z",
     "record_id": "rec2BmTEFSNB8ApbF",
+    "current identities": []
+  },
+  {
+    "id": "seb-chan",
+    "first": "Seb",
+    "last": "Chan",
+    "new id": 604,
+    "events as speaker": [
+      "recVAeEbEVSnquk1C"
+    ],
+    "linked identities": [],
+    "name": "Seb Chan",
+    "group type": [
+      "External"
+    ],
+    "slug": "seb-chan",
+    "slug formula": "seb-chan",
+    "created": "2021-03-10T19:53:10.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec2PtCP44wEWAVeh",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -989,6 +1035,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "rec2bsRnL8MbgNzCM",
+    "current identities": []
+  },
+  {
+    "id": "kenneth-thibodeau",
+    "first": "Kenneth",
+    "last": "Thibodeau",
+    "new id": 608,
+    "events as speaker": [
+      "recTxAq0Rqh9Ug59z"
+    ],
+    "linked identities": [],
+    "name": "Kenneth Thibodeau",
+    "group type": [
+      "External"
+    ],
+    "slug": "kenneth-thibodeau",
+    "slug formula": "kenneth-thibodeau",
+    "created": "2021-03-25T14:23:24.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec2cnygikS2yKVQc",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -1145,17 +1214,17 @@
         "id": 420,
         "person bio": "Andrew W Smith is a research fellow and graduate assistant with the University of Maryland’s (UMD) African-American Digital Humanities center (AADHum). He is pursuing a Masters of Science in Human Computer Interaction at UMD’s iSchool (HCIM). His work is supported by the Immersive Realities Lab for the Humanities (irLh), where he has been a team member creating digital projects since 2016. Previously he was the Communications Fellow at Amherst College during the 2019-2020 academic year.\nAndrew works at the intersection of creative practices, digital technology, and scholarly research. His current projects consider memory, Afrofuturism, photography, and speculative fiction. His technological skill set includes game design, web development, VR/AR development, and audio/visual production. He is a sometimes hobbyist, sometimes professional photographer and musician.\nAndrew is an alumni of Amherst College where he majored in Political Science and graduated in May 2018. He is also a graduate of the International Baccalaureate Program where he received his IB Diploma in May 2014.\n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "andrew-smith-current-420",
-        "person name": [
-          "Andrew Smith"
-        ],
         "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
         "slug": "andrew-smith-420",
         "date span": "Research Fellow, AADHum, 2020",
+        "person name": [
+          "Andrew Smith"
+        ],
         "linked person bio": [
           "Andrew W Smith is a research fellow and graduate assistant with the University of Maryland’s (UMD) African-American Digital Humanities center (AADHum). He is pursuing a Masters of Science in Human Computer Interaction at UMD’s iSchool (HCIM). His work is supported by the Immersive Realities Lab for the Humanities (irLh), where he has been a team member creating digital projects since 2016. Previously he was the Communications Fellow at Amherst College during the 2019-2020 academic year.\nAndrew works at the intersection of creative practices, digital technology, and scholarly research. His current projects consider memory, Afrofuturism, photography, and speculative fiction. His technological skill set includes game design, web development, VR/AR development, and audio/visual production. He is a sometimes hobbyist, sometimes professional photographer and musician.\nAndrew is an alumni of Amherst College where he majored in Political Science and graduated in May 2018. He is also a graduate of the International Baccalaureate Program where he received his IB Diploma in May 2014."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "att9vbV52TGlUDf84",
@@ -1363,6 +1432,32 @@
     "current identities": []
   },
   {
+    "id": "jessica-marie-johnson",
+    "first": "Jessica Marie",
+    "last": "Johnson",
+    "title": "Assistant Professor of History",
+    "institution": "Johns Hopkins University",
+    "identity as speaker": "jessica-marie-johnson-491, jessica-marie-johnson-492",
+    "new id": 568,
+    "events as speaker": [
+      "recuNCzrNxzfkRXFZ"
+    ],
+    "linked identities": [],
+    "name": "Jessica Marie Johnson",
+    "group type": [
+      "External"
+    ],
+    "slug": "jessica-marie-johnson",
+    "slug formula": "jessica-marie-johnson",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec3aUKEBB2i8ixDE",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "mauricio-giraldo",
     "first": "Mauricio",
     "last": "Giraldo",
@@ -1557,17 +1652,17 @@
         "id": 347,
         "person bio": "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst.\n",
         "identity id": 3,
-        "identity group": "current",
         "identity": "marisa-parham-current-347",
-        "person name": [
-          "Marisa Parham"
-        ],
         "full affiliation": "Associate Director, MITH, University of Maryland",
         "slug": "marisa-parham-347",
         "date span": "Associate Director, 2020",
+        "person name": [
+          "Marisa Parham"
+        ],
         "linked person bio": [
           "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attBTIP6EbdsSocQo",
@@ -1616,17 +1711,17 @@
         "id": 345,
         "person bio": "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst.\n",
         "identity id": 2,
-        "identity group": "current",
         "identity": "marisa-parham-current-345",
-        "person name": [
-          "Marisa Parham"
-        ],
         "full affiliation": "Director of AADHum, MITH, University of Maryland",
         "slug": "marisa-parham-345",
         "date span": "Director of AADHum, 2020",
+        "person name": [
+          "Marisa Parham"
+        ],
         "linked person bio": [
           "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attBTIP6EbdsSocQo",
@@ -1797,6 +1892,43 @@
     "current identities": []
   },
   {
+    "id": "ann-sneesby-koch",
+    "first": "Ann",
+    "last": "Sneesby-Koch",
+    "title": "Program Analyst",
+    "department": "Office of Digital Humanities",
+    "institution": "National Endowment for the Humanities",
+    "new id": 207,
+    "wordpress id": 21050,
+    "linked research as participant": [
+      "recwfTazsRu1VZDKJ"
+    ],
+    "events as speaker": [
+      "recfPm4J59FphpkVM"
+    ],
+    "linked identities": [
+      {
+        "title": "Program Analyst",
+        "start": 2014,
+        "end": 2016,
+        "id": 622
+      }
+    ],
+    "name": "Ann Sneesby-Koch",
+    "group type": [
+      "External"
+    ],
+    "slug": "ann-sneesby-koch",
+    "slug formula": "ann-sneesby-koch",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:00.000Z",
+    "record_id": "rec4dGBjOp7KpZQM7",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "catherine-hays-zabriskie",
     "first": "Catherine",
     "last": "Hays Zabriskie",
@@ -1825,6 +1957,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T14:08:00.000Z",
     "record_id": "rec4mwyPCoslxS8IZ",
+    "current identities": []
+  },
+  {
+    "id": "whitney-trettien",
+    "first": "Whitney",
+    "last": "Trettien",
+    "new id": 623,
+    "events as speaker": [
+      "recm9YLJ4jP4WOgTO"
+    ],
+    "linked identities": [],
+    "name": "Whitney Trettien",
+    "group type": [
+      "External"
+    ],
+    "slug": "whitney-trettien",
+    "slug formula": "whitney-trettien",
+    "created": "2021-03-29T16:00:00.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec4pIdATy1xFxXHC",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -1878,6 +2033,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-30T03:28:05.000Z",
     "record_id": "rec5CO5YAcf6Td0IP",
+    "current identities": []
+  },
+  {
+    "id": "patricia-fumerton",
+    "first": "Patricia",
+    "last": "Fumerton",
+    "new id": 621,
+    "events as speaker": [
+      "recm9YLJ4jP4WOgTO"
+    ],
+    "linked identities": [],
+    "name": "Patricia Fumerton",
+    "group type": [
+      "External"
+    ],
+    "slug": "patricia-fumerton",
+    "slug formula": "patricia-fumerton",
+    "created": "2021-03-29T15:58:22.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec5PFhVhic35sldj",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -2020,6 +2198,31 @@
     "current identities": []
   },
   {
+    "id": "stan-ruecker",
+    "first": "Stan",
+    "last": "Ruecker",
+    "institution": "University of Alberta",
+    "bio": "\n",
+    "new id": 577,
+    "events as speaker": [
+      "recdM7UK4NXImKdb4"
+    ],
+    "linked identities": [],
+    "name": "Stan Ruecker",
+    "group type": [
+      "External"
+    ],
+    "slug": "stan-ruecker",
+    "slug formula": "stan-ruecker",
+    "created": "2021-02-16T21:04:52.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec5YBFyu0tsInXbx",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "kevin-winstead",
     "first": "Kevin",
     "last": "Winstead",
@@ -2115,6 +2318,29 @@
     "current identities": []
   },
   {
+    "id": "ryan-cordell",
+    "first": "Ryan",
+    "last": "Cordell",
+    "new id": 593,
+    "events as speaker": [
+      "recGDhqtOWE4gaO2o"
+    ],
+    "linked identities": [],
+    "name": "Ryan Cordell",
+    "group type": [
+      "External"
+    ],
+    "slug": "ryan-cordell",
+    "slug formula": "ryan-cordell",
+    "created": "2021-03-10T17:37:58.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec5giizaMN0IqDCy",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "douglas-mcelrath",
     "first": "Douglas",
     "last": "McElrath",
@@ -2173,6 +2399,65 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "rec5l4EaM7SZdmnAV",
+    "current identities": []
+  },
+  {
+    "id": "abdul-alkalimat",
+    "first": "Abdul",
+    "last": "Alkalimat",
+    "headshot": [
+      {
+        "id": "attVDucXaKoQ1oN0n",
+        "url": "https://dl.airtable.com/.attachments/ab4b438e34f2707574360acbc6ca5039/b66e8b90/Abdul_Alkalimat.jpg",
+        "filename": "Abdul_Alkalimat.jpg",
+        "size": 86983,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c476ba92a709519bd42cfbbcd4910ae5/5d529057",
+            "width": 26,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/8b4e081e5d32cd6b8eb7c49e394ac7b7/34847c06",
+            "width": 512,
+            "height": 699
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7b3399df70ad171c992b1ea48574f5a5/453d2077",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "institution": "University of Illinois",
+    "bio": "**Abdul Alkalimat **is an American professor of African-American studies and library and information science at the University of Illinois at Urbana–Champaign. He is the author of several books, including _Introduction to Afro-American Studies_, _The African American Experience in Cyberspace_, and _Malcolm X for Beginners_. He curates two websites related to African-American history, \"Malcolm X: A Research Site\" and \"eBlack Studies\".\n",
+    "linked events": "digital-humanities-and-african-american-african-diaspora-studies",
+    "new id": 190,
+    "wordpress id": 21017,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as speaker": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Abdul Alkalimat",
+    "group type": [
+      "External"
+    ],
+    "slug": "abdul-alkalimat",
+    "slug formula": "abdul-alkalimat",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:50:33.000Z",
+    "record_id": "rec5u3V81l8lNBs0Z",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -2514,17 +2799,17 @@
         "id": 458,
         "person bio": "Christin Washington is a Graduate Assistant for the African-American History, Culture, and Digital Humanities center (AADHUM), first year PhD student in the Department of American Studies, and Flagship Fellow at the University of Maryland, College Park. She is also a member of the Immersive Realities Lab for the Humanities (irLh).\nFocusing on digitality’s place in Black and American life, she explores how digital technologies stretch and remodel the present limits of storytelling and memorialization, warp time, shrink space, and democratize resources. She remains attuned to the ways it can reproduce marginalization and obstruct access in the United States. As a result, she feels called to helping create digital tools that are equitable and humanistic at its core.\nPrior to joining the team, Christin was a Community Partnerships Associate at DonorsChoose, an edtech company that provides learning materials to public school students across the United States. Christin is an alumna of Amherst College where she received a B.A. with the highest distinction in Black Studies and Political Science.\n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "christin-washington-current-458",
-        "person name": [
-          "Christin Washington"
-        ],
         "full affiliation": "Graduate Assistant, AADHum, MITH, University of Maryland",
         "slug": "christin-washington-458",
         "date span": "Graduate Assistant, AADHum, 2020",
+        "person name": [
+          "Christin Washington"
+        ],
         "linked person bio": [
           "Christin Washington is a Graduate Assistant for the African-American History, Culture, and Digital Humanities center (AADHUM), first year PhD student in the Department of American Studies, and Flagship Fellow at the University of Maryland, College Park. She is also a member of the Immersive Realities Lab for the Humanities (irLh).\nFocusing on digitality’s place in Black and American life, she explores how digital technologies stretch and remodel the present limits of storytelling and memorialization, warp time, shrink space, and democratize resources. She remains attuned to the ways it can reproduce marginalization and obstruct access in the United States. As a result, she feels called to helping create digital tools that are equitable and humanistic at its core.\nPrior to joining the team, Christin was a Community Partnerships Associate at DonorsChoose, an edtech company that provides learning materials to public school students across the United States. Christin is an alumna of Amherst College where she received a B.A. with the highest distinction in Black Studies and Political Science."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attd9jrScdaYo3OQU",
@@ -2682,6 +2967,62 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "rec7TFA6WZtC4gGQN",
+    "current identities": []
+  },
+  {
+    "id": "alex-stinson",
+    "first": "Alex",
+    "last": "Stinson",
+    "institution": "Wikimedia Foundation",
+    "new id": 194,
+    "wordpress id": 21015,
+    "linked research as director": [
+      "recybLltnlNUrjFIw"
+    ],
+    "events as speaker": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "events as participant": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "linked identities": [],
+    "name": "Alex Stinson",
+    "group type": [
+      "External"
+    ],
+    "slug": "alex-stinson",
+    "slug formula": "alex-stinson",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:52:56.000Z",
+    "record_id": "rec7TTLlouHEIl6nS",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "barbara-weinstein",
+    "first": "Barbara",
+    "last": "Weinstein",
+    "title": "Professor",
+    "institution": "New York University",
+    "new id": 572,
+    "events as speaker": [
+      "recyptyl37GnEaxNt"
+    ],
+    "linked identities": [],
+    "name": "Barbara Weinstein",
+    "group type": [
+      "External"
+    ],
+    "slug": "barbara-weinstein",
+    "slug formula": "barbara-weinstein",
+    "created": "2021-02-13T07:43:54.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec7kspCeYZ0eAU4y",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -3025,6 +3366,36 @@
     "current identities": []
   },
   {
+    "id": "nicolas-diakopoulos",
+    "first": "Nicolas",
+    "last": "Diakopoulos",
+    "department": "Journalism",
+    "institution": "University of Maryland",
+    "linked events": "session-v-advanced-analytical-techniques",
+    "new id": 325,
+    "wordpress id": 21145,
+    "linked research as participant": [
+      "recNeJs9no3H5InHB"
+    ],
+    "events as speaker": [
+      "recqj8yhnkaZqJHhw"
+    ],
+    "linked identities": [],
+    "name": "Nicolas Diakopoulos",
+    "group type": [
+      "External"
+    ],
+    "slug": "nicolas-diakopoulos",
+    "slug formula": "nicolas-diakopoulos",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:50:36.000Z",
+    "record_id": "rec8fhM07kkziHSJr",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "tintin-nguyen",
     "first": "TinTin",
     "last": "Nguyen",
@@ -3302,6 +3673,41 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "rec9DyvpR33VittYF",
+    "current identities": []
+  },
+  {
+    "id": "jason-rhody",
+    "first": "Jason",
+    "last": "Rhody",
+    "institution": "University of Maryland",
+    "new id": 267,
+    "wordpress id": 21070,
+    "linked research as participant": [
+      "recdP0I3lL0t3p6fa",
+      "recZVFA8MiCbGa9SJ",
+      "recuo0xeTS4XALdWR",
+      "recq64FfJY5vGqecq",
+      "recfOQ02Bm8JXYSoq"
+    ],
+    "events as speaker": [
+      "recpOSRSO7MulHJfp"
+    ],
+    "events as participant": [
+      "recXDccjOkoAfC9M8"
+    ],
+    "linked identities": [],
+    "name": "Jason Rhody",
+    "group type": [
+      "External"
+    ],
+    "slug": "jason-rhody",
+    "slug formula": "jason-rhody",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "rec9TuJnd6FcZYwCk",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -3776,6 +4182,29 @@
     "current identities": []
   },
   {
+    "id": "ted-underwood",
+    "first": "Ted",
+    "last": "Underwood",
+    "new id": 605,
+    "events as speaker": [
+      "recNl0aZfY8apRgon"
+    ],
+    "linked identities": [],
+    "name": "Ted Underwood",
+    "group type": [
+      "External"
+    ],
+    "slug": "ted-underwood",
+    "slug formula": "ted-underwood",
+    "created": "2021-03-10T20:12:06.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recB1oAVA5v1CnogH",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "abigail-mcewen",
     "first": "Abigail",
     "last": "McEwen",
@@ -4187,24 +4616,24 @@
     "last": "L Gray",
     "headshot": [
       {
-        "id": "attVZi8j1CYymUONP",
-        "url": "https://dl.airtable.com/.attachments/96aa46ad160dcf1d6a08298c524d6a3b/d62efb31/Kishonna-Gray-photo.jpeg",
-        "filename": "Kishonna-Gray-photo.jpeg",
-        "size": 554878,
+        "id": "attYO7AMU0U8WnJU1",
+        "url": "https://dl.airtable.com/.attachments/8c5eb0cfdb8244f51702bed741249edb/57d9cb5a/Kishonna_Gray.jpg",
+        "filename": "Kishonna_Gray.jpg",
+        "size": 296343,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/91d7d4194ab91262aa83fb781bf3f483/5402bada",
-            "width": 29,
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6f03b6b16d4c6b180a7964b22b7ae5b6/e82fcf03",
+            "width": 54,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/515dca1dd3d6416062f39074a629fac9/920cc6e7",
-            "width": 512,
-            "height": 631
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9c4d54039407b8b0380db4f4b5edf948/656f6a2c",
+            "width": 768,
+            "height": 512
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/8d6f33c664c6653fbb90b04b2bd7ffd7/c7599af1",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/bef42f9bf3a73c05fa90ee330c8d51d5/9a9a5580",
             "width": 3000,
             "height": 3000
           }
@@ -4232,7 +4661,7 @@
     "slug": "kishonna-l-gray",
     "slug formula": "kishonna-l-gray",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-30T04:10:34.000Z",
+    "modified": "2021-05-13T15:23:12.000Z",
     "record_id": "recCFpe8qjIct7FoK",
     "current identities": []
   },
@@ -4244,7 +4673,8 @@
     "identity as past": "sayan-bhattacharyya-28",
     "email": "bhattach@umich.edu",
     "people groups": [
-      "Past Interns + Assistants"
+      "Past Interns + Assistants",
+      "Collaborator"
     ],
     "wordpress nicename": "sayanbhattacharyya",
     "new id": 104,
@@ -4262,12 +4692,13 @@
     ],
     "name": "Sayan Bhattacharyya",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "sayan-bhattacharyya",
     "slug formula": "sayan-bhattacharyya",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-10T04:21:49.000Z",
+    "modified": "2021-05-13T15:55:19.000Z",
     "record_id": "recCQxUqiw3LHTBfR",
     "current identities": []
   },
@@ -4323,6 +4754,32 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-16T15:42:17.000Z",
     "record_id": "recCku7xSWzAVpRlZ",
+    "current identities": []
+  },
+  {
+    "id": "rick-tharp",
+    "first": "Rick",
+    "last": "Tharp",
+    "new id": 616,
+    "linked research as participant": [
+      "recdP0I3lL0t3p6fa"
+    ],
+    "events as participant": [
+      "recXDccjOkoAfC9M8"
+    ],
+    "linked identities": [],
+    "name": "Rick Tharp",
+    "group type": [
+      "External"
+    ],
+    "slug": "rick-tharp",
+    "slug formula": "rick-tharp",
+    "created": "2021-03-29T14:11:32.000Z",
+    "modified": "2021-05-13T15:55:05.000Z",
+    "record_id": "recCn5kGxUllEtitN",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -4543,6 +5000,31 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recDYTTagJuDkchjU",
+    "current identities": []
+  },
+  {
+    "id": "ira-berlin",
+    "first": "Ira",
+    "last": "Berlin",
+    "bio": "Ira Berlin has written extensively on American history and the larger Atlantic world in the eighteenth and nineteenth centuries, particularly the history of slavery. His first book, _[Slaves Without Masters: The Free Negro in the Antebellum South](http://www.thenewpress.com/index.php?option=com_title&task=view_title&metaproductid=1537)_ (1975) won the Best First Book Prize awarded by the National Historical Society. Berlin is the founding editor of the Freedmen and Southern Society Project, which he directed until 1991. The project's multi-volume Freedom: A Documentary history of Emancipation (1982, 1985, 1990, 1993) has twice been awarded the Thomas Jefferson Prize of the Society for History in the Federal Government, as well as the J. Franklin Jameson Prize of the American Historical Association for outstanding editorial achievement, and the Abraham Lincoln Prize for excellence in Civil-War studies by the Lincoln and Soldiers Institute of Gettysburg College. In 1999, his study of African-American life between 1619 and 1819, entitled _[Many Thousands Gone: The First Two Centuries of Slavery in Mainland North America](http://www.hup.harvard.edu/catalog/BERMAN.html)_ was awarded the Bancroft Prize for the best book in American history by Columbia University; Frederick Douglass Prize by the Gilder-Lehrman Institute; Owsley Prize by the Southern Historical Association, and the Rudwick Prize by the Organization of American Historians. In 2002, _[Generations of Captivity: A History of Slaves in the United States](http://www.hup.harvard.edu/catalog/BERGEN.html)_[ ](http://www.hup.harvard.edu/catalog/BERGEN.html)was awarded the Albert Beveridge Prize by the American Historical Association and the Ansfield Wolf Award.\nBerlin has been awarded grants by the National Endowment for the Humanities, the Ford Foundation, the Rockefeller Foundation, the Arco Foundation, the National Historical Publication and Records Commission, and the University of Maryland. He was Bi-Centennial Professor (Fulbright) at Centre de Recherche sur l'Histoire des Etats-Unis, Universite Paris VII (Institut D'Anglais Charles V), Cardozo Professor of History at Yale University, and Mellon Distinguished Professor at the University of Illinois. In 2002, same year, he was inaugurated as president of the Organization of American Historians and in 2004 he was elected a member of the American Academy of Arts and Sciences.\n",
+    "bio external": "https://history.umd.edu/users/iberlin",
+    "new id": 575,
+    "events as speaker": [
+      "recVUqNL7HuHmqEHE"
+    ],
+    "linked identities": [],
+    "name": "Ira Berlin",
+    "group type": [
+      "External"
+    ],
+    "slug": "ira-berlin",
+    "slug formula": "ira-berlin",
+    "created": "2021-02-13T07:52:28.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recDbi1kjH9jciwNN",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -4839,7 +5321,8 @@
     "last": "Hoyt",
     "institution": "University of Wisconsin-Madison",
     "people groups": [
-      "Collaborator"
+      "Collaborator",
+      "Speaker"
     ],
     "new id": 251,
     "wordpress id": 21068,
@@ -4864,7 +5347,7 @@
     "slug": "eric-hoyt",
     "slug formula": "eric-hoyt",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-26T17:16:42.000Z",
+    "modified": "2021-05-13T15:53:18.000Z",
     "record_id": "recEFtLdFX1bEMTgo",
     "current identities": []
   },
@@ -4926,6 +5409,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T15:07:54.000Z",
     "record_id": "recEPCrLTihGAzgXX",
+    "current identities": []
+  },
+  {
+    "id": "gabriela-redwine",
+    "first": "Gabriela",
+    "last": "Redwine",
+    "new id": 606,
+    "events as participant": [
+      "recHnhO9G81d6Tfia"
+    ],
+    "linked identities": [],
+    "name": "Gabriela Redwine",
+    "group type": [
+      "External"
+    ],
+    "slug": "gabriela-redwine",
+    "slug formula": "gabriela-redwine",
+    "created": "2021-03-10T22:31:27.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recEd4MjijsYc9g4L",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -5062,6 +5568,29 @@
     "current identities": []
   },
   {
+    "id": "anne-wootton",
+    "first": "Anne",
+    "last": "Wootton",
+    "new id": 597,
+    "events as speaker": [
+      "recGDhqtOWE4gaO2o"
+    ],
+    "linked identities": [],
+    "name": "Anne Wootton",
+    "group type": [
+      "External"
+    ],
+    "slug": "anne-wootton",
+    "slug formula": "anne-wootton",
+    "created": "2021-03-10T17:40:14.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recFCHNyVwQzU4OeK",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "rebecca-toov",
     "first": "Rebecca",
     "last": "Toov",
@@ -5184,16 +5713,16 @@
         ],
         "person bio": "Jessica H. Lu earned her Ph.D. in Communication and Graduate Certificate in Women’s Studies from the University of Maryland, College Park, where she now serves as the Associate Director of Design Cultures & Creativity (DCC) in the Honors College.\nTrained as a rhetorical critic, she is concerned with how we can practice greater care for past, present, and future humans—especially those whose lives are shaped by precarity and state-sanctioned violence—in the ways we use language to create, design, and destroy our worlds. She examines, in particular, the ideas and rhetorical practices that form, advance, and disrupt racist logics in public discourse in the United States. Her work is further positioned at the intersections of African American history, archives, and digital humanities, as she specializes in adapting the Text Encoding Initiative (TEI) standard of scholarly markup to critically model, analyze, and amplify Black people’s practices of rhetorical invention and innovation.\n",
         "identity id": 3,
-        "identity group": "current",
         "identity": "jessica-h-lu-current-275",
+        "full affiliation": "Associate Director, Design Cultures & Creativity (DCC), Honors College, University of Maryland",
+        "slug": "jessica-h-lu-275",
         "person name": [
           "Jessica H. Lu"
         ],
-        "full affiliation": "Associate Director, Design Cultures & Creativity (DCC), Honors College, University of Maryland",
-        "slug": "jessica-h-lu-275",
         "linked person bio": [
           "Jessica H. Lu earned her Ph.D. in Communication and Graduate Certificate in Women's Studies from the University of Maryland, College Park, where she now serves as the Associate Director of Design Cultures & Creativity (DCC) in the Honors College. Trained as a rhetorical critic, she is concerned with how we can practice greater care for past, present, and future humans---especially those whose lives are shaped by precarity and state-sanctioned violence---in the ways we use language to create, design, and destroy our worlds. She examines, in particular, the ideas and rhetorical practices that form, advance, and disrupt racist logics in public discourse in the United States. Her work is further positioned at the intersections of African American history, archives, and digital humanities, as she specializes in adapting the Text Encoding Initiative (TEI) standard of scholarly markup to critically model, analyze, and amplify Black people's practices of rhetorical invention and innovation. "
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attTqX0eZtv2FggLj",
@@ -5293,7 +5822,8 @@
     "identity as past": "marlene-mayo-291, marlene-mayo-757",
     "linked events": "fellows-presentations-4",
     "people groups": [
-      "Past Resident Fellows"
+      "Past Resident Fellows",
+      "Speaker"
     ],
     "new id": 140,
     "wordpress id": 5809,
@@ -5306,12 +5836,13 @@
     "linked identities": [],
     "name": "Marlene Mayo",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "marlene-mayo",
     "slug formula": "marlene-mayo",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-26T18:43:09.000Z",
+    "modified": "2021-05-13T15:50:29.000Z",
     "record_id": "recFscZ6x0sChmT9O",
     "current identities": []
   },
@@ -5443,6 +5974,34 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-29T15:07:54.000Z",
     "record_id": "recFuRmzQpIwsupcc",
+    "current identities": []
+  },
+  {
+    "id": "syd-bauman",
+    "first": "Syd",
+    "last": "Bauman",
+    "institution": "Brown University",
+    "new id": 352,
+    "wordpress id": 21180,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Syd Bauman",
+    "group type": [
+      "External"
+    ],
+    "slug": "syd-bauman",
+    "slug formula": "syd-bauman",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recGHzbpIPA44TJ1U",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -5609,6 +6168,29 @@
     "current identities": []
   },
   {
+    "id": "nancy-wicker",
+    "first": "Nancy",
+    "last": "Wicker",
+    "new id": 594,
+    "events as speaker": [
+      "recGDhqtOWE4gaO2o"
+    ],
+    "linked identities": [],
+    "name": "Nancy Wicker",
+    "group type": [
+      "External"
+    ],
+    "slug": "nancy-wicker",
+    "slug formula": "nancy-wicker",
+    "created": "2021-03-10T17:38:39.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recHLWmUCwDDiIRaN",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "kim-gallon",
     "first": "Kim",
     "last": "Gallon",
@@ -5716,6 +6298,37 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recHNMGNEakMOCpDJ",
+    "current identities": []
+  },
+  {
+    "id": "joshua-westgard",
+    "first": "Joshua",
+    "last": "Westgard",
+    "department": "University Libraries",
+    "institution": "University of Maryland",
+    "linked events": "session-iv-basic-navigation-and-analysis-of-your-data",
+    "new id": 287,
+    "wordpress id": 21140,
+    "linked research as participant": [
+      "recNeJs9no3H5InHB",
+      "recyYS4iEFZCue8YC"
+    ],
+    "events as speaker": [
+      "rec9GpMSrGn92HvQf"
+    ],
+    "linked identities": [],
+    "name": "Joshua Westgard",
+    "group type": [
+      "External"
+    ],
+    "slug": "joshua-westgard",
+    "slug formula": "joshua-westgard",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:50:36.000Z",
+    "record_id": "recHo5IFOaTUGGuWb",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -5951,6 +6564,29 @@
     "current identities": []
   },
   {
+    "id": "nikki-silva",
+    "first": "Nikki",
+    "last": "Silva",
+    "new id": 596,
+    "events as speaker": [
+      "recGDhqtOWE4gaO2o"
+    ],
+    "linked identities": [],
+    "name": "Nikki Silva",
+    "group type": [
+      "External"
+    ],
+    "slug": "nikki-silva",
+    "slug formula": "nikki-silva",
+    "created": "2021-03-10T17:40:07.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recJ2P2TR8DIf5GeV",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "catherine-knight-steele",
     "first": "Catherine",
     "last": "Knight Steele",
@@ -6047,17 +6683,17 @@
         "id": 235,
         "person bio": "Catherine Knight Steele is a native Chicagoan who received her doctorate in Communication from the University of Illinois at Chicago in 2014. She previously served as an assistant professor at Colorado State University. Her research focuses on African American culture and discourse in mass and new media, and publications have appeared in the _Howard Journal of Communications and Intersectional Internet: Race, Sex, Class, and Culture Online_(Peter Lang, 2016). Her dissertation, \"Digital Barbershops: The Politics of African American Oral Culture in Online Blog Communities,\" explored the politics of African American blogs as contributing to online counterpublics and secondary orality. She is currently working on a monograph about digital black feminism and new media technologies.\nSteele is the first Project Director of [African American History, Culture and Digital Humanities (AADHum)](http://mith.umd.edu/research/aadhum/), for which she will lead up initiatives to prepare a diverse cadre of scholars and students whose work in African American History & Culture and the Digital Humanities will enrich arts and humanities research and teaching with new methods, archives, and tools.\n",
         "identity id": 2,
-        "identity group": "current",
         "identity": "catherine-knight-steele-current-235",
-        "person name": [
-          "Catherine Knight Steele"
-        ],
         "full affiliation": "MITH Affiliate Assistant Professor, MITH, University of Maryland",
         "slug": "catherine-knight-steele-235",
         "date span": "MITH Affiliate Assistant Professor, 2018",
+        "person name": [
+          "Catherine Knight Steele"
+        ],
         "linked person bio": [
           null
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attr85qMwUIMN9enp",
@@ -6106,17 +6742,17 @@
         ],
         "person bio": "Catherine Knight Steele is a native Chicagoan who received her doctorate in Communication from the University of Illinois at Chicago in 2014. She previously served as an assistant professor at Colorado State University. Her research focuses on African American culture and discourse in mass and new media, and publications have appeared in the _Howard Journal of Communications and Intersectional Internet: Race, Sex, Class, and Culture Online_(Peter Lang, 2016). Her dissertation, \"Digital Barbershops: The Politics of African American Oral Culture in Online Blog Communities,\" explored the politics of African American blogs as contributing to online counterpublics and secondary orality. She is currently working on a monograph about digital black feminism and new media technologies.\nSteele is the first Project Director of [African American History, Culture and Digital Humanities (AADHum)](http://mith.umd.edu/research/aadhum/), for which she will lead up initiatives to prepare a diverse cadre of scholars and students whose work in African American History & Culture and the Digital Humanities will enrich arts and humanities research and teaching with new methods, archives, and tools.\n",
         "identity id": 3,
-        "identity group": "current",
         "identity": "catherine-knight-steele-current-237",
-        "person name": [
-          "Catherine Knight Steele"
-        ],
         "full affiliation": "Assistant Professor of Communication, University of Maryland",
         "slug": "catherine-knight-steele-237",
         "date span": "Assistant Professor of Communication, 2016",
+        "person name": [
+          "Catherine Knight Steele"
+        ],
         "linked person bio": [
           null
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attr85qMwUIMN9enp",
@@ -6349,6 +6985,55 @@
     "current identities": []
   },
   {
+    "id": "vinton-cerf",
+    "first": "Vint",
+    "last": "Cerf",
+    "headshot": [
+      {
+        "id": "attbG4iao7Xo0Wm3C",
+        "url": "https://dl.airtable.com/.attachments/b20c5f2f2c8cdff3e2692a0c73483b95/8b1ce390/V.-Cerf-Official-Photo-5-1_horizontal.jpg",
+        "filename": "V.-Cerf-Official-Photo-5-1_horizontal.jpg",
+        "size": 114291,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/cda6a5671abdbe210e19b949c5fcedc0/ee587c65",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/46a465e07b1190025ca46e8e89588b35/f0492fda",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/2458193c1c2114a4d8fb52ae896f0269/a070dfd4",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "new id": 610,
+    "events as speaker": [
+      "recfFkT3jRi0roG5K"
+    ],
+    "linked identities": [],
+    "name": "Vint Cerf",
+    "group type": [
+      "External"
+    ],
+    "slug": "vinton-cerf",
+    "slug formula": "vint-cerf",
+    "created": "2021-03-25T14:49:46.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recJkJT6FfY9K1alr",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "francena-turner",
     "first": "Francena",
     "last": "Turner",
@@ -6424,17 +7109,17 @@
         "id": 445,
         "person bio": "Francena Turner is a CLIR Fellow and Postdoctoral Associate for Data Curation in African American History and Culture for the University of Maryland Restorative Justice Project where her archival and oral history work sits at the intersection of African American History, Culture, and Digital Humanities (AADHum), oral history, and the University of Maryland Libraries faculty.\nFrancena uses oral history methodology as excavation work in an effort to bridge the past and present. That is, her research has a decidedly social justice centered purpose and end goal. Her research interests include histories of Black education, Black women’s higher education, activist scholars, Black Feminisms. She is most interested in historical and contemporary issues of equity, agency, and thriving in education. In her dissertation research for example, she used oral history methodology to explore the organizing and activism experiences of Black women who attended a Southeastern historically Black university during the Civil Rights/Black Power Era. Such scholarship provides valuable information and possibilities for current organizers and activists.\nTurner holds a Ph.D. in Education Policy, Organization & Leadership with a concentration in History of Education from the University of Illinois at Urbana-Champaign and degrees from Fayetteville State University (B.A. History) and Fayetteville Technical Community College (A.A.S. Respiratory Care, General Education).\n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "francena-turner-current-445",
-        "person name": [
-          "Francena Turner"
-        ],
         "full affiliation": "Postdoctoral Associate for Data Curation, AADHum/MITH, Maryland Institute for Technology in the Humanities, University of Maryland",
         "slug": "francena-turner-445",
         "date span": "Postdoctoral Associate for Data Curation, AADHum/MITH, 2020",
+        "person name": [
+          "Francena Turner"
+        ],
         "linked person bio": [
           "Francena Turner is a CLIR Fellow and Postdoctoral Associate for Data Curation in African American History and Culture for the University of Maryland Restorative Justice Project where her archival and oral history work sits at the intersection of African American History, Culture, and Digital Humanities (AADHum), oral history, and the University of Maryland Libraries faculty.\nFrancena uses oral history methodology as excavation work in an effort to bridge the past and present. That is, her research has a decidedly social justice centered purpose and end goal. Her research interests include histories of Black education, Black women’s higher education, activist scholars, Black Feminisms. She is most interested in historical and contemporary issues of equity, agency, and thriving in education. In her dissertation research for example, she used oral history methodology to explore the organizing and activism experiences of Black women who attended a Southeastern historically Black university during the Civil Rights/Black Power Era. Such scholarship provides valuable information and possibilities for current organizers and activists.\nTurner holds a Ph.D. in Education Policy, Organization & Leadership with a concentration in History of Education from the University of Illinois at Urbana-Champaign and degrees from Fayetteville State University (B.A. History) and Fayetteville Technical Community College (A.A.S. Respiratory Care, General Education)."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attdpurLbRq0nXqa1",
@@ -6744,6 +7429,31 @@
     "current identities": []
   },
   {
+    "id": "elsa-barkley-brown",
+    "first": "Elsa",
+    "last": "Barkley Brown",
+    "bio": "Professor Barkley Brown joined the Department in 1997. She holds a joint appointment with history and women's studies and is an affiliate faculty in African American Studies and American Studies. Professor Barkley Brown is co-editor of the two-volume Major Problems in African-American History (2000) and the two-volume Black Women in America: An Historical Encyclopedia (1993). Her articles have appeared in Signs, Feminist Studies, History Workshop, Sage, Public Culture, and The Journal of Urban History. \nShe has twice been awarded the Letitia Woods Brown Memorial Publication Prize for best article in African-American Women's History. She has also won the A. Elizabeth Taylor Prize for best article in southern women's history, the Martin Luther King, Jr. Prize for best article in African-American History, and the Anna Julia Cooper Award for Distinguished Scholarship in Black Women's Studies. Barkley Brown has held fellowships from the W.E.B. DuBois Institute, Harvard University, and The American Philosophical Society. A past president of the Southern Association for Women Historians, Professor Barkley Brown currently serves on the Editorial Board of Women and U.S. Social Movements, 1600-2000. F\nor more information, please visit the following link [www.barkleyb.com](http://www.barkleyb.com/).\n",
+    "bio external": "https://history.umd.edu/users/barkleyb",
+    "new id": 574,
+    "events as speaker": [
+      "recw3u150icXQA3a7"
+    ],
+    "linked identities": [],
+    "name": "Elsa Barkley Brown",
+    "group type": [
+      "External"
+    ],
+    "slug": "elsa-barkley-brown",
+    "slug formula": "elsa-barkley-brown",
+    "created": "2021-02-13T07:50:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recKkRKY0OylzJ7XC",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "david-saltz",
     "first": "David",
     "last": "Saltz",
@@ -6953,7 +7663,8 @@
     "bio": "**Silvia Mejía Estévez** is a doctoral candidate in Comparative Literature and a MITH fellow. \n",
     "linked events": "ecuadorian-migration-nostalgia-and-technology-in-transnational-times",
     "people groups": [
-      "Past Resident Fellows"
+      "Past Resident Fellows",
+      "Speaker"
     ],
     "new id": 141,
     "wordpress id": 5811,
@@ -6973,12 +7684,13 @@
     ],
     "name": "Silvia Mejía Estévez",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "silvia-mejia-estevez",
     "slug formula": "silvia-mejia-estevez",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-26T18:40:11.000Z",
+    "modified": "2021-05-13T15:47:51.000Z",
     "record_id": "recLK7TT5jEvCrHcc",
     "current identities": []
   },
@@ -7036,6 +7748,81 @@
     "current identities": []
   },
   {
+    "id": "david-b-searls",
+    "first": "David B.",
+    "last": "Searls",
+    "bio": "David B. Searls was until recently a Senior Vice President at GlaxoSmithKline, where he led the bioinformatics group for 13 years. He is now an independent consultant and serves on a number of scientific advisory boards. He holds an adjunct appointment at the University of Pennsylvania, USA, where he was formerly Research Associate Professor of Genetics. He received undergraduate degrees in Life Sciences and Philosophy from the Massachusetts Institute of Technology, USA, a Ph.D. in biology from the Johns Hopkins University, Maryland, USA, and an MSE in computer science from the University of Pennsylvania. His research interests include systems biology, macromolecular linguistics and data integration. For more information including a list of recent publications, please visit his [academic homepage](http://www.med.upenn.edu/apps/faculty/index.php/g306/c425/p6363).\n",
+    "new id": 600,
+    "events as speaker": [
+      "rec4Ew7YAVS0RP5h9"
+    ],
+    "linked identities": [],
+    "name": "David B. Searls",
+    "group type": [
+      "External"
+    ],
+    "slug": "david-b-searls",
+    "slug formula": "david-b-searls",
+    "created": "2021-03-10T19:02:58.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recLSuZUgVii6ro8b",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "carmen-balthrop",
+    "first": "Carmen",
+    "last": "Balthrop",
+    "new id": 611,
+    "events as participant": [
+      "recqD6JFUxqQBbXhN"
+    ],
+    "linked identities": [],
+    "name": "Carmen Balthrop",
+    "group type": [
+      "External"
+    ],
+    "slug": "carmen-balthrop",
+    "slug formula": "carmen-balthrop",
+    "created": "2021-03-26T18:29:21.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recLaMDilqwa4ZJ4z",
+    "people groups": [
+      "Collaborator"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "anna-everett",
+    "first": "Anna",
+    "last": "Everett",
+    "institution": "Independent Scholar",
+    "new id": 208,
+    "wordpress id": 21039,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Anna Everett",
+    "group type": [
+      "External"
+    ],
+    "slug": "anna-everett",
+    "slug formula": "anna-everett",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recLn1rfnnExtb4vF",
+    "people groups": [
+      "Collaborator"
+    ],
+    "current identities": []
+  },
+  {
     "id": "matthew-thomas-miller",
     "first": "Matthew Thomas",
     "last": "Miller",
@@ -7074,7 +7861,8 @@
     "twitter": "M_T_Miller",
     "website": "https://sllc.umd.edu/persian/facultyandstaff%3B%20Roshan%20Institute",
     "people groups": [
-      "Affiliates"
+      "Affiliates",
+      "Speaker"
     ],
     "new id": 14,
     "wordpress id": 20226,
@@ -7094,12 +7882,13 @@
     ],
     "name": "Matthew Thomas Miller",
     "group type": [
-      "Affiliates"
+      "Affiliates",
+      "External"
     ],
     "slug": "matthew-thomas-miller",
     "slug formula": "matthew-thomas-miller",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-04-09T16:58:53.000Z",
+    "modified": "2021-05-13T15:53:21.000Z",
     "record_id": "recLnT2ZjBy8DpEBW",
     "current identities": [
       {
@@ -7119,14 +7908,14 @@
         "linked people as past": "matthew-thomas-miller",
         "id": 301,
         "identity id": 2,
-        "identity group": "current",
         "identity": "matthew-thomas-miller-current-301",
-        "person name": [
-          "Matthew Thomas Miller"
-        ],
         "full affiliation": "MITH Affiliate Assistant Professor, MITH, University of Maryland",
         "slug": "matthew-thomas-miller-301",
         "date span": "MITH Affiliate Assistant Professor, 2018",
+        "person name": [
+          "Matthew Thomas Miller"
+        ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "att0HkfO1noMwg1nP",
@@ -7173,13 +7962,13 @@
           "recCG2QMT3eMTL4AW"
         ],
         "identity id": 3,
-        "identity group": "current",
         "identity": "matthew-thomas-miller-current-302",
+        "full affiliation": "Assistant Professor of Persian Literature and Digital Humanities, School of Languages, Literatures, and Cultures, University of Maryland",
+        "slug": "matthew-thomas-miller-302",
         "person name": [
           "Matthew Thomas Miller"
         ],
-        "full affiliation": "Assistant Professor of Persian Literature and Digital Humanities, School of Languages, Literatures, and Cultures, University of Maryland",
-        "slug": "matthew-thomas-miller-302",
+        "identity group": "current",
         "headshot": [
           {
             "id": "att0HkfO1noMwg1nP",
@@ -7340,7 +8129,8 @@
     "institution": "University of Maryland",
     "identity as past": "nadja-masura-287",
     "people groups": [
-      "Past Resident Fellows"
+      "Past Resident Fellows",
+      "Collaborator"
     ],
     "new id": 149,
     "wordpress id": 6567,
@@ -7356,12 +8146,13 @@
     "linked identities": [],
     "name": "Nadja Masura",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "nadja-masura",
     "slug formula": "nadja-masura",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-29T14:19:56.000Z",
+    "modified": "2021-05-13T15:55:13.000Z",
     "record_id": "recLyI0Z11dGPzM2A",
     "current identities": []
   },
@@ -7821,14 +8612,14 @@
         ],
         "linked people as past": "jason-farman",
         "id": 127,
-        "identity group": "current",
         "identity": "jason-farman-current-127",
-        "person name": [
-          "Jason Farman"
-        ],
         "full affiliation": "MITH Affiliate Professor, MITH, University of Maryland",
         "slug": "jason-farman-127",
         "date span": "MITH Affiliate Professor, 2020",
+        "person name": [
+          "Jason Farman"
+        ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attPgmeTBkxqIj6il",
@@ -7870,13 +8661,13 @@
         ],
         "linked people as past": "jason-farman",
         "id": 128,
-        "identity group": "current",
         "identity": "jason-farman-current-128",
+        "full affiliation": "Professor of American Studies, University of Maryland",
+        "slug": "jason-farman-128",
         "person name": [
           "Jason Farman"
         ],
-        "full affiliation": "Professor of American Studies, University of Maryland",
-        "slug": "jason-farman-128",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attPgmeTBkxqIj6il",
@@ -7925,13 +8716,13 @@
         "linked events as participant": [
           "recmOAn9vHgNdDNtM"
         ],
-        "identity group": "current",
         "identity": "jason-farman-current-129",
+        "full affiliation": "Director, Design | Cultures + Creativity, University of Maryland",
+        "slug": "jason-farman-129",
         "person name": [
           "Jason Farman"
         ],
-        "full affiliation": "Director, Design | Cultures + Creativity, University of Maryland",
-        "slug": "jason-farman-129",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attPgmeTBkxqIj6il",
@@ -8196,6 +8987,30 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recO3mPmWY5AZM8Kh",
+    "current identities": []
+  },
+  {
+    "id": "claire-moses",
+    "first": "Claire",
+    "last": "Moses",
+    "identity as speaker": "claire-moses-755",
+    "new id": 576,
+    "events as speaker": [
+      "recHowEGJoJu4XQw7"
+    ],
+    "linked identities": [],
+    "name": "Claire Moses",
+    "group type": [
+      "External"
+    ],
+    "slug": "claire-moses",
+    "slug formula": "claire-moses",
+    "created": "2021-02-16T20:48:39.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recO9jZCEhwuZPeyY",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -8749,6 +9564,34 @@
     "current identities": []
   },
   {
+    "id": "alexander-weheliye",
+    "first": "Alexander",
+    "last": "Weheliye",
+    "institution": "Northwestern University",
+    "new id": 195,
+    "wordpress id": 21012,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Alexander Weheliye",
+    "group type": [
+      "External"
+    ],
+    "slug": "alexander-weheliye",
+    "slug formula": "alexander-weheliye",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recQXIM8YhiChfefS",
+    "people groups": [
+      "Collaborator"
+    ],
+    "current identities": []
+  },
+  {
     "id": "karen-obrien",
     "first": "Karen",
     "last": "O'Brien",
@@ -8839,6 +9682,66 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recR4kMiMmlK2JsH3",
+    "current identities": []
+  },
+  {
+    "id": "rodney-petersen",
+    "first": "Rodney",
+    "last": "Petersen",
+    "institution": "Project Nethics",
+    "new id": 339,
+    "wordpress id": 21156,
+    "linked research as participant": [
+      "recdP0I3lL0t3p6fa"
+    ],
+    "events as speaker": [
+      "recpOSRSO7MulHJfp"
+    ],
+    "linked identities": [],
+    "name": "Rodney Petersen",
+    "group type": [
+      "External"
+    ],
+    "slug": "rodney-petersen",
+    "slug formula": "rodney-petersen",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recRQb21eBlcw1Rex",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "meredith-j-gill",
+    "first": "Meredith J.",
+    "last": "Gill",
+    "department": "Department of Art History",
+    "institution": "University of Maryland",
+    "new id": 318,
+    "wordpress id": 21108,
+    "linked research as director": [
+      "receRoq1QIw6xR0NG"
+    ],
+    "linked research as participant": [
+      "receRoq1QIw6xR0NG"
+    ],
+    "events as participant": [
+      "recjsR8BcSAZCmOCs"
+    ],
+    "linked identities": [],
+    "name": "Meredith J. Gill",
+    "group type": [
+      "External"
+    ],
+    "slug": "meredith-j-gill",
+    "slug formula": "meredith-j-gill",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recRVOZeXissJbjNg",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -8963,7 +9866,8 @@
     "twitter": "archivalflip",
     "website": "http://ischool.umd.edu/faculty-staff/ricardo-punzalan",
     "people groups": [
-      "Past Affiliates"
+      "Past Affiliates",
+      "Speaker"
     ],
     "new id": 17,
     "wordpress id": 20280,
@@ -8984,12 +9888,13 @@
     ],
     "name": "Ricardo Punzalan",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "ricardo-punzalan",
     "slug formula": "ricardo-punzalan",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-04-09T16:58:53.000Z",
+    "modified": "2021-05-13T15:53:31.000Z",
     "record_id": "recRiCywUlURgLhet",
     "current identities": []
   },
@@ -9045,6 +9950,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recRs6YYJHPDpZiHm",
+    "current identities": []
+  },
+  {
+    "id": "matthew-jockers",
+    "first": "Matthew",
+    "last": "Jockers",
+    "new id": 587,
+    "events as speaker": [
+      "recF7g7awCqoQLFrF"
+    ],
+    "linked identities": [],
+    "name": "Matthew Jockers",
+    "group type": [
+      "External"
+    ],
+    "slug": "matthew-jockers",
+    "slug formula": "matthew-jockers",
+    "created": "2021-03-10T04:23:00.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recS5ZHqmPxwg6eG0",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -9692,6 +10620,35 @@
     "current identities": []
   },
   {
+    "id": "richard-ovenden",
+    "first": "Richard",
+    "last": "Ovenden",
+    "institution": "Oxford University",
+    "new id": 335,
+    "wordpress id": 21161,
+    "linked research as participant": [
+      "rec8mO5wbkeBJxI6l",
+      "recS9VbejZ4CnjcZg"
+    ],
+    "events as participant": [
+      "recHnhO9G81d6Tfia"
+    ],
+    "linked identities": [],
+    "name": "Richard Ovenden",
+    "group type": [
+      "External"
+    ],
+    "slug": "richard-ovenden",
+    "slug formula": "richard-ovenden",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recTbM3Unhwc42LbO",
+    "people groups": [
+      "Collaborator"
+    ],
+    "current identities": []
+  },
+  {
     "id": "ed-summers",
     "first": "Ed",
     "last": "Summers",
@@ -9811,17 +10768,17 @@
         ],
         "person bio": "Ed is a researcher and software developer working at the intersection of information technology and memory studies. His work is informed by a sociotechnical approach which emphasizes the role that communities of practice play in the development of infrastructure for libraries and archives, with a particular focus on web archives and social media. He has worked for the last two decades in academia, government and business.\nPrior to joining MITH Ed helped build the Repository Development Center (RDC) at the Library of Congress. There he led the design and implementation of the NEH funded National Digital Newspaper Program’s web application Chronicling America. Ed designed digital curation services for social media archiving and image quality analysis. He also served as a member of the W3C Semantic Web Deployment Group where he helped standardize SKOS, and implemented the initial version of LC’s Linked Data service.\n",
         "identity id": 2,
-        "identity group": "current",
         "identity": "ed-summers-current-433",
-        "person name": [
-          "Ed Summers"
-        ],
         "full affiliation": "Research Faculty, MITH, University of Maryland",
         "slug": "ed-summers-433",
         "date span": "Research Faculty, 2014",
+        "person name": [
+          "Ed Summers"
+        ],
         "linked person bio": [
           "Ed is a researcher and software developer working at the intersection of information technology and memory studies. His work is informed by a sociotechnical approach which emphasizes the role that communities of practice play in the development of infrastructure for libraries and archives, with a particular focus on web archives and social media. He has worked for the last two decades in academia, government and business.\nPrior to joining MITH Ed helped build the Repository Development Center (RDC) at the Library of Congress. There he led the design and implementation of the NEH funded National Digital Newspaper Program’s web application Chronicling America. Ed designed digital curation services for social media archiving and image quality analysis. He also served as a member of the W3C Semantic Web Deployment Group where he helped standardize SKOS, and implemented the initial version of LC’s Linked Data service."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attvY7hmcH4dy7G0i",
@@ -10039,16 +10996,16 @@
         ],
         "person bio": "As Assistant Director for Finance and Administration, Grace Babukiika is responsible for the direction, execution and management of the unit’s business, personnel, and research administration functions. This includes strategic planning as part of the management team, direct oversight of human resource and personnel activities, budget formulation and execution, payroll administration, procurement; facilities and space management; supervision of administrative personnel and students; and review of University and sponsored research reporting. Ms. Babukiika has an extensive background in Accounting and Finance. Prior to joining MITH in 2014, Ms. Babukiika gained University experience by working as a Business Services Coordinator and Business Manager at the University of Maryland, College Park and as an Accountant at the University of New Haven. She has also held senior-level financial positions in Banking and Manufacturing firms. Ms. Babukiika holds an M.B.A. from Southern Connecticut State University and a B.B.A. from Baruch College, City University of New York.\n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "grace-babukiika-current-12",
+        "full affiliation": "Assistant Director of Finance and Administration, MITH, University of Maryland",
+        "slug": "grace-babukiika-12",
         "person name": [
           "Grace Babukiika"
         ],
-        "full affiliation": "Assistant Director of Finance and Administration, MITH, University of Maryland",
-        "slug": "grace-babukiika-12",
         "linked person bio": [
           "As Assistant Director for Finance and Administration, Grace Babukiika is responsible for the direction, execution and management of the unit’s business, personnel, and research administration functions. This includes strategic planning as part of the management team, direct oversight of human resource and personnel activities, budget formulation and execution, payroll administration, procurement; facilities and space management; supervision of administrative personnel and students; and review of University and sponsored research reporting. Ms. Babukiika has an extensive background in Accounting and Finance. Prior to joining MITH in 2014, Ms. Babukiika gained University experience by working as a Business Services Coordinator and Business Manager at the University of Maryland, College Park and as an Accountant at the University of New Haven. She has also held senior-level financial positions in Banking and Manufacturing firms. Ms. Babukiika holds an M.B.A. from Southern Connecticut State University and a B.B.A. from Baruch College, City University of New York."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "atteEFITYuTg4bTQV",
@@ -10080,6 +11037,38 @@
         ]
       }
     ]
+  },
+  {
+    "id": "robyn-muncy",
+    "first": "Robyn",
+    "last": "Muncy",
+    "title": "Professor",
+    "department": "Department of History",
+    "institution": "University of Maryland",
+    "bio": "Robyn Muncy is Professor of History at the University of Maryland, College Park, where she has taught US women’s history, the history of progressive reform, and twentieth-century U.S. history since 1990. She earned a Ph.D. in U.S. history from Northwestern University in 1987. She has served as Interim Chair of the Department of Women’s Studies at the University of Maryland and is currently on the Board of Directors of the Labor and Working-Class History Association. She is a contributing editor of _Labor: Studies in Working-Class History, _and she is co-curating an exhibit on the struggle for women’s suffrage at the National Archives in Washington, DC. She is also on the advisory committee for the National Votes for Women Trail, a project sponsoring historical markers in all 50 states, commemorating the long and diverse history of American women’s struggle for the franchise.\n",
+    "bio external": "https://history.umd.edu/users/rmuncy",
+    "new id": 338,
+    "wordpress id": 21157,
+    "linked research as director": [
+      "recfaaTLC134l1tZC"
+    ],
+    "events as speaker": [
+      "recWfHj2EzYRmelPP"
+    ],
+    "linked identities": [],
+    "name": "Robyn Muncy",
+    "group type": [
+      "External"
+    ],
+    "slug": "robyn-muncy",
+    "slug formula": "robyn-muncy",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recUBnwViIjWZLHA6",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
   },
   {
     "id": "craig-saper",
@@ -10131,6 +11120,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recUFT26w8LGao6FK",
+    "current identities": []
+  },
+  {
+    "id": "anne-mcgrail",
+    "first": "Anne",
+    "last": "McGrail",
+    "new id": 599,
+    "events as speaker": [
+      "recGDhqtOWE4gaO2o"
+    ],
+    "linked identities": [],
+    "name": "Anne McGrail",
+    "group type": [
+      "External"
+    ],
+    "slug": "anne-mcgrail",
+    "slug formula": "anne-mcgrail",
+    "created": "2021-03-10T17:40:24.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recUINPZ56HEJ2vxZ",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -10270,6 +11282,30 @@
     "current identities": []
   },
   {
+    "id": "george-sanger",
+    "first": "George",
+    "last": "Sanger",
+    "bio": "**George Sanger**, also known as “The Fat Man”, is a composer of over 200 different computer and video games. His best-known works include _The 7th Guest, Wing Commander, Hard Nova, Maniac Mansion (NES version), Loom, and Tux Racer._ Sanger leads the band _Team Fat_, which also includes fellow video game music composers Dave Govett, Joe McDermott and Kevin Weston Phelan. He created the first General MIDI soundtrack for a game, the first direct-to-MIDI live recording of musicians, the first redbook soundtrack included with the game as a separate disk, the first music for a game that was considered a “work of art,” and the first soundtrack that was considered a selling point for the game. Sanger is on the board of advisors for Game Developer Magazine, and Full Sail’s Game Development Degree program. He is on the Board of Directors of the BEAM Foundation.In 1995, he was the first music producer to be accepted into the National Recording Academy based on his work in games rather than in CD’s, film, or movies. He worked toward the goal of establishing a Grammy category for games, first alone, then years later in the group led by Chance Thomas that achieved this goal.\n",
+    "new id": 601,
+    "events as speaker": [
+      "recfuDeV1yoAhSPFQ"
+    ],
+    "linked identities": [],
+    "name": "George Sanger",
+    "group type": [
+      "External"
+    ],
+    "slug": "george-sanger",
+    "slug formula": "george-sanger",
+    "created": "2021-03-10T19:34:33.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recUlG3Bfw6dtCSLf",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "jimmy-lin",
     "first": "Jimmy",
     "last": "Lin",
@@ -10356,6 +11392,36 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recV11t7q9BAfVdTT",
+    "current identities": []
+  },
+  {
+    "id": "carole-palmer",
+    "first": "Carole",
+    "last": "Palmer",
+    "department": "Center for Informatics Research in Science and Scholarship,Graduate School of Library and Information Science (GSLIS)",
+    "institution": "University of Illinois at Urbana-Champaign",
+    "new id": 221,
+    "wordpress id": 21034,
+    "linked research as participant": [
+      "recHEPc8YqTxRwE8o",
+      "rec6VCNAOG1QeMSdM"
+    ],
+    "events as speaker": [
+      "recNl0aZfY8apRgon"
+    ],
+    "linked identities": [],
+    "name": "Carole Palmer",
+    "group type": [
+      "External"
+    ],
+    "slug": "carole-palmer",
+    "slug formula": "carole-palmer",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:00.000Z",
+    "record_id": "recV7n1Khbjo6ejWb",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -10691,17 +11757,17 @@
         "id": 195,
         "person bio": "Kola Heyward-Rotimi is a Faculty Assistant at the University of Maryland's African-American History, Culture, and Digital Humanities initiative (AADHum). He's originally from Durham, NC and he spent four years of his adolescence in Ile-Ife, Nigeria—his father’s birthplace and one of the cultural touchstones that he incorporates into his scholarship and genre-blending creative writing.\nIn the digital humanities, Kola is focused on exploring the dynamics of emerging technologies in relation to marginalized communities within the US and abroad. His undergraduate thesis specifically looked at how these communities used virtual spaces and technology in ways that subverted their mainstream, intended use. These moments of disruption are his primary interest and Kola continues to expand on this work through his position at AADHum.\nHis fiction is also inspired by these cultural and technological intersections—the new ways that the material world changes how people engage with each other. Though these narratives tend to manifest through prose, Kola has also developed mixed media projects implementing video, glitch art, and prose fiction. Kola’s speculative short stories can be found in Clarkesworld and FIYAH, and he was a writer-in-residence at Beijing's Red Gate Gallery in 2019.\nKola has degrees in Computer Science and English from Amherst College, and he is currently represented by Matt Belford at the Tobias Literary Agency. You can find him on Twitter at @KolaHR or at [kolaheywardrotimi.com](http://kolaheywardrotimi.com).\n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "kola-heyward-rotimi-current-195",
-        "person name": [
-          "Kola Heyward-Rotimi"
-        ],
         "full affiliation": "Faculty Assistant, AADHum, MITH, University of Maryland",
         "slug": "kola-heyward-rotimi-195",
         "date span": "Faculty Assistant, AADHum, 2020",
+        "person name": [
+          "Kola Heyward-Rotimi"
+        ],
         "linked person bio": [
           "Kola Heyward-Rotimi is a Faculty Assistant at the University of Maryland's African-American History, Culture, and Digital Humanities initiative (AADHum). He's originally from Durham, NC and he spent four years of his adolescence in Ile-Ife, Nigeria—his father’s birthplace and one of the cultural touchstones that he incorporates into his scholarship and genre-blending creative writing.\nIn the digital humanities, Kola is focused on exploring the dynamics of emerging technologies in relation to marginalized communities within the US and abroad. His undergraduate thesis specifically looked at how these communities used virtual spaces and technology in ways that subverted their mainstream, intended use. These moments of disruption are his primary interest and Kola continues to expand on this work through his position at AADHum.\nHis fiction is also inspired by these cultural and technological intersections—the new ways that the material world changes how people engage with each other. Though these narratives tend to manifest through prose, Kola has also developed mixed media projects implementing video, glitch art, and prose fiction. Kola’s speculative short stories can be found in Clarkesworld and FIYAH, and he was a writer-in-residence at Beijing's Red Gate Gallery in 2019.\nKola has degrees in Computer Science and English from Amherst College, and he is currently represented by Matt Belford at the Tobias Literary Agency. You can find him on Twitter at @KolaHR or at kolaheywardrotimi.com."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attJhjpN6o0iVm2JX",
@@ -10733,6 +11799,30 @@
         ]
       }
     ]
+  },
+  {
+    "id": "maddie-clybourn",
+    "first": "Maddie",
+    "last": "Clybourn",
+    "institution": "Prince George’s County Memorial Public Library System",
+    "new id": 565,
+    "events as speaker": [
+      "recvTrMAIfmqkkPKQ"
+    ],
+    "linked identities": [],
+    "name": "Maddie Clybourn",
+    "group type": [
+      "External"
+    ],
+    "slug": "maddie-clybourn",
+    "slug formula": "maddie-clybourn",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recWjvom9r1YtWfxh",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
   },
   {
     "id": "matthew-kirschenbaum",
@@ -10860,16 +11950,16 @@
         "linked people as past": "matthew-kirschenbaum",
         "id": 233,
         "identity id": 7,
-        "identity group": "current",
         "identity": "matthew-kirschenbaum-current-233",
+        "full affiliation": "MITH Affiliate Professor, MITH, University of Maryland",
+        "slug": "matthew-kirschenbaum-233",
         "person name": [
           "Matthew Kirschenbaum"
         ],
-        "full affiliation": "MITH Affiliate Professor, MITH, University of Maryland",
-        "slug": "matthew-kirschenbaum-233",
         "linked person bio": [
           null
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "att2ErTPSIiaYRc0N",
@@ -10916,16 +12006,16 @@
           "recM56LohWcVdTbJs"
         ],
         "identity id": 8,
-        "identity group": "current",
         "identity": "matthew-kirschenbaum-current-234",
+        "full affiliation": "Director, Graduate Certificate in Digital Studies, University of Maryland",
+        "slug": "matthew-kirschenbaum-234",
         "person name": [
           "Matthew Kirschenbaum"
         ],
-        "full affiliation": "Director, Graduate Certificate in Digital Studies, University of Maryland",
-        "slug": "matthew-kirschenbaum-234",
         "linked person bio": [
           null
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "att2ErTPSIiaYRc0N",
@@ -10972,16 +12062,16 @@
           "recM56LohWcVdTbJs"
         ],
         "identity id": 6,
-        "identity group": "current",
         "identity": "matthew-kirschenbaum-current-232",
+        "full affiliation": "Professor of English, University of Maryland",
+        "slug": "matthew-kirschenbaum-232",
         "person name": [
           "Matthew Kirschenbaum"
         ],
-        "full affiliation": "Professor of English, University of Maryland",
-        "slug": "matthew-kirschenbaum-232",
         "linked person bio": [
           null
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "att2ErTPSIiaYRc0N",
@@ -11231,7 +12321,8 @@
     "institution": "University of Maryland",
     "identity as past": "carol-burbank-58",
     "people groups": [
-      "Past Resident Fellows"
+      "Past Resident Fellows",
+      "Collaborator"
     ],
     "new id": 129,
     "wordpress id": 5782,
@@ -11252,12 +12343,13 @@
     ],
     "name": "Carol Burbank",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "carol-burbank",
     "slug formula": "carol-burbank",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-29T14:38:39.000Z",
+    "modified": "2021-05-13T15:55:15.000Z",
     "record_id": "recXp58glXQcxfu0D",
     "current identities": []
   },
@@ -11493,17 +12585,17 @@
         "id": 270,
         "person bio": "Alexis Lothian is a interdisciplinary scholar of queer and feminist media and cultural studies with a focus on speculative fiction, digital media, and online fandom. She lives in the Washington, DC area and is a tenure track Assistant Professor of [Women's Studies](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/wmst.umd.edu/) at University of Maryland College Park, where she teaches in the [LGBT Studies](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/lgbts.umd.edu/) program and the undergraduate honors program in [Design | Culture and Creativity.](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/dcc.umd.edu/)\nLothian is presently developing a book manuscript based on her PhD dissertation, \"Deviant Futures: Speculative Fiction and Queer Time,\" while also working on what will become a second monograph on critical and social justice-oriented fan cultures and participating in collaborative work as part of the TransformDH collective. Read more on her [research page](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/www.queergeektheory.orgwordpress/dissertatio/).\nLothian is also a participant in feminist science fiction and media fandom, with a specific interest in the ways fan communities engage in critical theorizing and activism (for example, through [online discussion](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/journal.transformativeworks.orgindex.php/twc/article/view/172/119) and [fan video](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/lstein.wordpress.com/2010/06/03/participatory-cultures-and-vidding-a-virtual-rendition-of-our-digital-media-and-learning-2010-workshop-2/)). She uses some of these forms in [her own scholarly work](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/queergeektheory.orgvidding), in addition to standard academic practices.\n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "alexis-lothian-current-270",
-        "person name": [
-          "Alexis Lothian"
-        ],
         "full affiliation": "MITH Affiliate Assistant Professor, MITH, University of Maryland",
         "slug": "alexis-lothian-270",
         "date span": "MITH Affiliate Assistant Professor, 2018",
+        "person name": [
+          "Alexis Lothian"
+        ],
         "linked person bio": [
           null
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "att3GQ02sHwc8JLdh",
@@ -11548,17 +12640,17 @@
           "recZoeB23LgIIPnYT"
         ],
         "person bio": "Alexis Lothian is a interdisciplinary scholar of queer and feminist media and cultural studies with a focus on speculative fiction, digital media, and online fandom. She lives in the Washington, DC area and is a tenure track Assistant Professor of [Women's Studies](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/wmst.umd.edu/) at University of Maryland College Park, where she teaches in the [LGBT Studies](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/lgbts.umd.edu/) program and the undergraduate honors program in [Design | Culture and Creativity.](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/dcc.umd.edu/)\nLothian is presently developing a book manuscript based on her PhD dissertation, \"Deviant Futures: Speculative Fiction and Queer Time,\" while also working on what will become a second monograph on critical and social justice-oriented fan cultures and participating in collaborative work as part of the TransformDH collective. Read more on her [research page](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/www.queergeektheory.orgwordpress/dissertatio/).\nLothian is also a participant in feminist science fiction and media fandom, with a specific interest in the ways fan communities engage in critical theorizing and activism (for example, through [online discussion](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/journal.transformativeworks.orgindex.php/twc/article/view/172/119) and [fan video](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/lstein.wordpress.com/2010/06/03/participatory-cultures-and-vidding-a-virtual-rendition-of-our-digital-media-and-learning-2010-workshop-2/)). She uses some of these forms in [her own scholarly work](https://airtable.com/tbl6CURONRn8ML6le/viwTn1PNeQrTTNh3A/queergeektheory.orgvidding), in addition to standard academic practices.\n",
-        "identity id": 1,
-        "identity group": "current",
+        "identity id": 2,
         "identity": "alexis-lothian-current-271",
+        "full affiliation": "Assistant Professor of Women’s Studies, University of Maryland",
+        "slug": "alexis-lothian-271",
         "person name": [
           "Alexis Lothian"
         ],
-        "full affiliation": "Assistant Professor of Women’s Studies, University of Maryland",
-        "slug": "alexis-lothian-271",
         "linked person bio": [
           null
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "att3GQ02sHwc8JLdh",
@@ -11780,16 +12872,16 @@
           "recLzu5qlGNcIqugP"
         ],
         "person bio": "Purdom Lindblad is the Assistant Director of Innovation and Learning at MITH. She coordinates MITH’s growing portfolio of courses and instructional programs and is a member of the AADHum (Synergies Among Digital Humanities and African American History and Culture) team.\nPurdom has an MA in American Studies from Michigan State University and an MS in Information Science from the [School of Information](https://www.si.umich.edu/), University of Michigan. Interested in digital humanities since graduate school, Purdom has worked at Michigan State University’s [Matrix](http://www2.matrix.msu.edu/), [Virginia Tech Libraries](http://www.lib.vt.edu/), and the [Scholars’ Lab ](http://scholarslab.org/)at the University of Virginia Library.\nPurdom is broadly interested in the implicit and explicit effort that digital humanities can do for social, cultural, and environmental justice. Applying principles from Feminist Interface Design, Purdom and her Scholars’ Lab colleague [Jeremy Boggs](http://scholarslab.org/people/jeremy-boggs/), explore how the process of feature development and public documentation shape the experience of users and render the theoretical underpinnings of digital work more accessible. Recent publications include [Praxis](https://digitalpedagogy.commons.mla.org/keywords/praxis/), a keyword in the MLA Commons Digital Pedagogy in the Humanities: Concepts, Models, and Experiments written with [Bethany Nowviskie](http://nowviskie.org/) and Jeremy Boggs as well as a chapter in [Making Humanities Matter](https://github.com/jentery/mhm), edited by Jentery Sayers.\n",
-        "identity group": "current",
         "identity": "purdom-lindblad-current-265",
+        "full affiliation": "Assistant Director of Innovation and Learning, MITH, University of Maryland",
+        "slug": "purdom-lindblad-265",
         "person name": [
           "Purdom Lindblad"
         ],
-        "full affiliation": "Assistant Director of Innovation and Learning, MITH, University of Maryland",
-        "slug": "purdom-lindblad-265",
         "linked person bio": [
           "Purdom Lindblad is the Assistant Director of Innovation and Learning at MITH. She coordinates MITH’s growing portfolio of courses and instructional programs and is a member of the AADHum (Synergies Among Digital Humanities and African American History and Culture) team.\nPurdom has an MA in American Studies from Michigan State University and an MS in Information Science from the School of Information, University of Michigan. Interested in digital humanities since graduate school, Purdom has worked at Michigan State University’s Matrix, Virginia Tech Libraries, and the Scholars’ Lab at the University of Virginia Library.\nPurdom is broadly interested in the implicit and explicit effort that digital humanities can do for social, cultural, and environmental justice. Applying principles from Feminist Interface Design, Purdom and her Scholars’ Lab colleague Jeremy Boggs, explore how the process of feature development and public documentation shape the experience of users and render the theoretical underpinnings of digital work more accessible. Recent publications include Praxis, a keyword in the MLA Commons Digital Pedagogy in the Humanities: Concepts, Models, and Experiments written with Bethany Nowviskie and Jeremy Boggs as well as a chapter in Making Humanities Matter, edited by Jentery Sayers."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attZ04HO7Lh24xPvF",
@@ -11924,7 +13016,8 @@
       "recaijHITsZ5Lfh6D"
     ],
     "people groups": [
-      "Research Faculty + Staff"
+      "Research Faculty + Staff",
+      "Collaborator"
     ],
     "new id": 5,
     "wordpress id": 3778,
@@ -11970,12 +13063,13 @@
     ],
     "name": "Kirsten Keister",
     "group type": [
-      "Staff"
+      "Staff",
+      "External"
     ],
     "slug": "kirsten-keister",
     "slug formula": "kirsten-keister",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-04-09T16:58:53.000Z",
+    "modified": "2021-05-13T15:55:33.000Z",
     "record_id": "recYWeU8tULlqVWzj",
     "status": [
       "current"
@@ -12001,17 +13095,17 @@
         ],
         "person bio": "As the senior designer, Kirsten Keister provides design and graphics support for all research, projects and events at MITH. She also facilitates project management by creating and adapting workflows, practices and processes for the team. She received her Masters of Professional Studies in Information Visualization from Maryland Institute College of Art (MICA) and holds a Bachelor of Art in Graphic Design from Gordon College, where she acquired a strong background in fine art and photography. \nIn 2008, she founded Lamppost Creative, a sole proprietorship that offers a wide range of graphic design and data visualization services to clients in across the country. \nWhen she’s not in front of the computer digging into data or creating fresh, smart and meaningful designs and visualizations for clients, she is either in her art studio or out taking photographs. \n",
         "identity id": 2,
-        "identity group": "current",
         "identity": "kirsten-keister-current-221",
-        "person name": [
-          "Kirsten Keister"
-        ],
         "full affiliation": "Senior Designer, MITH, University of Maryland",
         "slug": "kirsten-keister-221",
         "date span": "Senior Designer, 2018",
+        "person name": [
+          "Kirsten Keister"
+        ],
         "linked person bio": [
           "As the senior designer, Kirsten Keister provides design and graphics support for all research, projects and events at MITH. She also facilitates project management by creating and adapting workflows, practices and processes for the team. She received her Masters of Professional Studies in Information Visualization from Maryland Institute College of Art (MICA) and holds a Bachelor of Art in Graphic Design from Gordon College, where she acquired a strong background in fine art and photography. \nIn 2008, she founded Lamppost Creative, a sole proprietorship that offers a wide range of graphic design and data visualization services to clients in across the country. \nWhen she’s not in front of the computer digging into data or creating fresh, smart and meaningful designs and visualizations for clients, she is either in her art studio or out taking photographs. "
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attaMNqbakanYAZhG",
@@ -12072,6 +13166,37 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recYhr7CX9S4NU2HK",
+    "current identities": []
+  },
+  {
+    "id": "andrew-lih",
+    "first": "Andrew",
+    "last": "Lih",
+    "title": "Independent Scholar/Author",
+    "new id": 203,
+    "wordpress id": 21031,
+    "linked research as participant": [
+      "recybLltnlNUrjFIw"
+    ],
+    "events as speaker": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "events as participant": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "linked identities": [],
+    "name": "Andrew Lih",
+    "group type": [
+      "External"
+    ],
+    "slug": "andrew-lih",
+    "slug formula": "andrew-lih",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:00.000Z",
+    "record_id": "recYqs2wtApsbCB3L",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -12168,6 +13293,90 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recZ5hHugYnOCkWh0",
+    "current identities": []
+  },
+  {
+    "id": "laura-wrubel",
+    "first": "Laura",
+    "last": "Wrubel",
+    "headshot": [
+      {
+        "id": "attrjpPs4sbc8rMyH",
+        "url": "https://dl.airtable.com/.attachments/d5798cc20d5f081ee4c9158eab251db5/b6edfd84/image.png",
+        "filename": "image.png",
+        "size": 306740,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1db9f34b39ab3e27405795f9347d0e39/e3e7ef2f",
+            "width": 33,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/bd25eb8382511b244d1c1f61aba3ebff/48cb8bc1",
+            "width": 353,
+            "height": 390
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d22707975e0256e33cd0c4b922188f77/b348eed2",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "title": "Software Development Librarian",
+    "institution": "George Washington University",
+    "twitter": "liblaura",
+    "new id": 302,
+    "wordpress id": 21146,
+    "linked research as participant": [
+      "recNeJs9no3H5InHB"
+    ],
+    "events as speaker": [
+      "recVHsPKTJbRHztr1"
+    ],
+    "linked identities": [],
+    "name": "Laura Wrubel",
+    "group type": [
+      "External"
+    ],
+    "slug": "laura-wrubel",
+    "slug formula": "laura-wrubel",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recZ99k9fLYif6hSi",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "jerome-handler",
+    "first": "Jerome",
+    "last": "Handler",
+    "institution": "Virginia Foundation for the Humanities",
+    "new id": 274,
+    "wordpress id": 21084,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Jerome Handler",
+    "group type": [
+      "External"
+    ],
+    "slug": "jerome-handler",
+    "slug formula": "jerome-handler",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recZAoqDiw1ErGAm5",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -12482,17 +13691,17 @@
         "id": 88,
         "person bio": "Kelsey Corlett-Rivera is the head of the Research Commons and Librarian for the School of Languages, Literatures, and Cultures at the University of Maryland, where she is also Affiliate Associate Professor at the Maryland Institute for Technology in the Humanities. As Head, she is responsible for the majority of the University Libraries' initiatives targeting faculty members, graduate students, and researchers on campus. This includes campus partnership building, program development, and space planning, along with coordination among internal Library divisions providing services to this population. She is designer and editor of A Colony in Crisis, a digital history site featuring translated and curated French pamphlets from Saint Domingue. Kelsey has published in portal: Libraries and the Academy, sx archipelagos, and presented at ACRL, caribbean digital, and AADHum's African American History, Culture, and Digital Humanities Conference. Most recently, she published a book chapter entitled \"Virtual Peer-Mentoring Programs\" in the well-received book The Globalized Library: American Academic Libraries and International Students, Collections, and Practices. \n",
         "identity id": 2,
-        "identity group": "current",
         "identity": "kelsey-corlett-rivera-current-88",
-        "person name": [
-          "Kelsey Corlett-Rivera"
-        ],
         "full affiliation": "MITH Affiliate Associate Professor, MITH, University of Maryland",
         "slug": "kelsey-corlett-rivera-88",
         "date span": "MITH Affiliate Associate Professor, 2018",
+        "person name": [
+          "Kelsey Corlett-Rivera"
+        ],
         "linked person bio": [
           "Kelsey Corlett-Rivera is the head of the Research Commons and Librarian for the School of Languages, Literatures, and Cultures at the University of Maryland, where she is also Affiliate Associate Professor at the Maryland Institute for Technology in the Humanities. As Head, she is responsible for the majority of the University Libraries' initiatives targeting faculty members, graduate students, and researchers on campus. This includes campus partnership building, program development, and space planning, along with coordination among internal Library divisions providing services to this population. She is designer and editor of A Colony in Crisis, a digital history site featuring translated and curated French pamphlets from Saint Domingue. Kelsey has published in portal: Libraries and the Academy, sx archipelagos, and presented at ACRL, caribbean digital, and AADHum's African American History, Culture, and Digital Humanities Conference. Most recently, she published a book chapter entitled \"Virtual Peer-Mentoring Programs\" in the well-received book The Globalized Library: American Academic Libraries and International Students, Collections, and Practices. "
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attxGw9lkPlafK5YQ",
@@ -12602,7 +13811,8 @@
     "identity as past": "jen-serventi-412",
     "linked events": "what-counts-as-data-interdisciplinary-panel-",
     "people groups": [
-      "Collaborator"
+      "Collaborator",
+      "Speaker"
     ],
     "new id": 552,
     "events as speaker": [
@@ -12616,7 +13826,7 @@
     "slug": "jen-serventi",
     "slug formula": "jen-serventi",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-05-13T15:50:44.000Z",
     "record_id": "reca1AXoCrTI9oBft",
     "current identities": []
   },
@@ -12828,17 +14038,17 @@
         "id": 50,
         "person bio": "Aleia M. Brown serves as the Assistant Director of the African American History, Culture and Digital Humanities (AADHum) Initiative where she co-directs the Restorative Justice Project and leads research, teaching, and programmatic initiatives. She was the recipient of the 2017-2019 Mellon-ACLS public fellowship, working as program manager at the Humanities Action Lab at Rutgers University-Newark. There she launched the multi-media installation Climates of Inequality: Stories of Environmental Justice. As Curator of African American History and Culture at the Michigan State University Museum she worked with the Desmond & Leah Tutu Legacy Foundation in Cape Town, SA to co-curate the traveling exhibition Ubuntutu: Life Legacies of Love and Action, and co-author the companion catalog. She has written and given talks on her two digital projects #BlkTwitterstorians and #MuseumsRespondtoFerguson. The desire to surface how Black folks have imagined and crafted liberation animates her exploration in un/merging material culture and virtual environments.\nHer current manuscript in progress reckons with the historic mishandling of Black women’s textile art and illuminates the sophisticated ways that makers have visualized Black political thought.\nBrown holds a Ph.D. in Public History from Middle Tennessee State University, an M.A. in Public History from Northern Kentucky University, and a B.S. in History from the Honors College at Coppin State University.\n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "aleia-brown-current-50",
-        "person name": [
-          "Aleia Brown"
-        ],
         "full affiliation": "Assistant Director, African American History, Culture and Digital Humanities (AADHum) Initiative, MITH, University of Maryland",
         "slug": "aleia-brown-50",
         "date span": "Assistant Director, African American History, Culture and Digital Humanities (AADHum) Initiative, 2019 – 2019",
+        "person name": [
+          "Aleia Brown"
+        ],
         "linked person bio": [
           "Aleia M. Brown serves as the Assistant Director of the African American History, Culture and Digital Humanities (AADHum) Initiative where she co-directs the Restorative Justice Project and leads research, teaching, and programmatic initiatives. She was the recipient of the 2017-2019 Mellon-ACLS public fellowship, working as program manager at the Humanities Action Lab at Rutgers University-Newark. There she launched the multi-media installation Climates of Inequality: Stories of Environmental Justice. As Curator of African American History and Culture at the Michigan State University Museum she worked with the Desmond & Leah Tutu Legacy Foundation in Cape Town, SA to co-curate the traveling exhibition Ubuntutu: Life Legacies of Love and Action, and co-author the companion catalog. She has written and given talks on her two digital projects #BlkTwitterstorians and #MuseumsRespondtoFerguson. The desire to surface how Black folks have imagined and crafted liberation animates her exploration in un/merging material culture and virtual environments.\nHer current manuscript in progress reckons with the historic mishandling of Black women’s textile art and illuminates the sophisticated ways that makers have visualized Black political thought.\nBrown holds a Ph.D. in Public History from Middle Tennessee State University, an M.A. in Public History from Northern Kentucky University, and a B.S. in History from the Honors College at Coppin State University."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "atttBfK9Oagl4X48H",
@@ -12870,6 +14080,37 @@
         ]
       }
     ]
+  },
+  {
+    "id": "effie-kapsalis",
+    "first": "Effie",
+    "last": "Kapsalis",
+    "institution": "Smithsonian Institution Archives",
+    "new id": 248,
+    "wordpress id": 21076,
+    "linked research as participant": [
+      "recybLltnlNUrjFIw"
+    ],
+    "events as speaker": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "events as participant": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "linked identities": [],
+    "name": "Effie Kapsalis",
+    "group type": [
+      "External"
+    ],
+    "slug": "effie-kapsalis",
+    "slug formula": "effie-kapsalis",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:00.000Z",
+    "record_id": "recaWvDzarHMXlMoo",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
   },
   {
     "id": "roberta-lavine",
@@ -12963,16 +14204,16 @@
         "id": 222,
         "person bio": " \n",
         "identity id": 1,
-        "identity group": "current",
         "identity": "mills-kelly-current-222",
+        "full affiliation": "Doctoral Candidate, Communication Department, University of Maryland",
+        "slug": "mills-kelly-222",
         "person name": [
           "Mills Kelly"
         ],
-        "full affiliation": "Doctoral Candidate, Communication Department, University of Maryland",
-        "slug": "mills-kelly-222",
         "linked person bio": [
           " "
-        ]
+        ],
+        "identity group": "current"
       },
       {
         "title": "Winnemore Digital Humanities Dissertation Fellow",
@@ -12988,16 +14229,16 @@
         "id": 743,
         "person bio": " \n",
         "identity id": 2,
-        "identity group": "current",
         "identity": "mills-kelly-current-743",
+        "full affiliation": "Winnemore Digital Humanities Dissertation Fellow, MITH, University of Maryland",
+        "slug": "mills-kelly-743",
         "person name": [
           "Mills Kelly"
         ],
-        "full affiliation": "Winnemore Digital Humanities Dissertation Fellow, MITH, University of Maryland",
-        "slug": "mills-kelly-743",
         "linked person bio": [
           " "
-        ]
+        ],
+        "identity group": "current"
       }
     ]
   },
@@ -13010,7 +14251,8 @@
     "institution": "University of Maryland",
     "identity as past": "gregory-lord-269",
     "people groups": [
-      "Past Research Faculty + Staff"
+      "Past Research Faculty + Staff",
+      "Collaborator"
     ],
     "new id": 53,
     "wordpress id": 5471,
@@ -13039,12 +14281,13 @@
     ],
     "name": "Gregory Lord",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "gregory-lord",
     "slug formula": "gregory-lord",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-28T16:41:21.000Z",
+    "modified": "2021-05-13T15:55:21.000Z",
     "record_id": "recafKSSV4qtSyxTW",
     "current identities": []
   },
@@ -13077,6 +14320,57 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recafhMAfr7xysFW0",
+    "current identities": []
+  },
+  {
+    "id": "dene-grigar",
+    "first": "Dene",
+    "last": "Grigar",
+    "headshot": [
+      {
+        "id": "attvUk6vT86KeHNjI",
+        "url": "https://dl.airtable.com/.attachments/6d75b61540aba8ed393e3499ee6bda2d/549edde4/image.png",
+        "filename": "image.png",
+        "size": 127972,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d833d2636854f0c7e917f8b5e34e7c55/185bfafb",
+            "width": 24,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d93a67977b3bcc8e4492c396cb62a829/e2f55839",
+            "width": 200,
+            "height": 300
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c68f7e5fef91c047a8b0bff7f6ca511c/15d8381e",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "bio": "Dene Grigar, Professor and Director of The Creative Media & Digital Culture Program at Washington State University Vancouver (WSUV) who works in the area of electronic literature, emergent technology and cognition, and ephemera. She is the author of net art works, like “Fallow Field: A Story in Two Parts,” and multimedia performances and installations, like _[When Ghosts Will Die](http://www.telebody.ws/ghosts/)_ (with Canadian multimedia artist Steve Gibson). She has co-authored, with Brett Oppegaard, “Fort Vancouver Mobile” and The Grand Emporium of the West,” projects funded by the National Endowment for the Humanities, and is a recipient, with Stuart Moulthrop, of a 2013 NEH Start Up grant for a digital preservation project for early electronic literature, entitled _Pathfinders_. She has curated exhibits at the Library of Congress and for organizations, including the Electronic Literature Organization and Modern Language Association, and teaches curating at WSUV and the Digital Humanities Summer Institute at the University of Victoria. She is President of the Electronic Literature Organization and Associate Editor of _[Leonardo Reviews](http://www.leonardo.info/ldr.php)_.\n",
+    "bio external": "https://english.wsu.edu/dene-grigar/",
+    "new id": 592,
+    "events as speaker": [
+      "recA0BmUbtkwn2Rei"
+    ],
+    "linked identities": [],
+    "name": "Dene Grigar",
+    "group type": [
+      "External"
+    ],
+    "slug": "dene-grigar",
+    "slug formula": "dene-grigar",
+    "created": "2021-03-10T17:17:00.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recb3ZDhYuavIaH0b",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -13258,7 +14552,8 @@
     "institution": "University of Maryland",
     "identity as past": "thomas-stanley-427",
     "people groups": [
-      "Past Research Associates"
+      "Past Research Associates",
+      "Speaker"
     ],
     "new id": 75,
     "wordpress id": 5643,
@@ -13282,12 +14577,13 @@
     ],
     "name": "Thomas Stanley",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "thomas-stanley",
     "slug formula": "thomas-stanley",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-29T14:16:55.000Z",
+    "modified": "2021-05-13T15:53:27.000Z",
     "record_id": "recblO4FctBvByfqP",
     "current identities": []
   },
@@ -13363,7 +14659,8 @@
     "website": "https://www.stephaniesapienza.com",
     "research interests": "Archival initiatives utilizing audiovisual media, with an emphasis on broadcasting, oral history, and orphan film collections;\nStewardship of digital humanities research data;\nDeveloping collaborative partnerships which merge digital humanities methods, library & archival education, and digital library initiatives",
     "people groups": [
-      "Research Faculty + Staff"
+      "Research Faculty + Staff",
+      "Collaborator"
     ],
     "wordpress nicename": "stephaniesapienza",
     "new id": 7,
@@ -13413,12 +14710,13 @@
     ],
     "name": "Stephanie Sapienza",
     "group type": [
-      "Staff"
+      "Staff",
+      "External"
     ],
     "slug": "stephanie-sapienza",
     "slug formula": "stephanie-sapienza",
     "created": "2021-02-11T20:19:52.000Z",
-    "modified": "2021-04-09T16:58:53.000Z",
+    "modified": "2021-05-13T15:55:31.000Z",
     "record_id": "recbuhPlvVzwsxw9O",
     "status": [
       "current"
@@ -13447,17 +14745,17 @@
         ],
         "person bio": "Stephanie develops, coordinates and implements digital research projects which foster collaborations between MITH and other library, archival, or cultural heritage organizations. This includes working directly with UMD Libraries on special projects, as well as with other UMD departments and outside institutions on developing new projects and partnerships.\nStephanie’s research revolves around the intersections between digital humanities, libraries, and audiovisual archives: how archival audiovisual media objects function as primary historical documents, and what kind of digital resources and user interfaces facilitate the means for exploring that media in the context of its original production and reception. As MITH’s former Project Manager, she is also interested in the stewardship of digital humanities projects and research data, including streamlining project management, documentation, and sustainability processes.\nShe has a bachelor’s degree in Film Studies and English from the University of Kansas, and a master’s degree in Moving Image Archive Studies from UCLA.\nIn the past, Stephanie was the Project Manager for the [American Archive of Public Broadcasting](http://americanarchive.org/about-the-american-archive) at the Corporation for Public Broadcasting, where she managed strategic operational planning for metadata and digitization initiatives. Before moving to DC in 2010, she was the Project Director on a Getty-funded grant for Los Angeles Filmforum entitled _[Alternative Projections: Experimental Film in LA 1945 -1980](http://www.alternativeprojections.com/)_, a historical survey and preservation project resulting in over 35 new oral histories, an academic symposium, a media-rich website and database and a 16+screening exhibition series. The project was part of the Getty’s _Pacific Standard Time_ initiative showcasing postwar art in Los Angeles. She also served as Managing Director of [iotaCenter](http://www.iotacenter.org/), a small nonprofit film archive of experimental film and abstract animation. Before graduate school, Stephanie worked for six years as a researcher and producer on documentaries and television shows, and specialized in finding and licensing archival footage and photos for use in productions.\n",
         "identity id": 3,
-        "identity group": "current",
         "identity": "stephanie-sapienza-current-400",
-        "person name": [
-          "Stephanie Sapienza"
-        ],
         "full affiliation": "Digital Humanities Archivist, MITH, University of Maryland",
         "slug": "stephanie-sapienza-400",
         "date span": "Digital Humanities Archivist, 2020",
+        "person name": [
+          "Stephanie Sapienza"
+        ],
         "linked person bio": [
           "Stephanie develops, coordinates and implements digital research projects which foster collaborations between MITH and other library, archival, or cultural heritage organizations. This includes working directly with UMD Libraries on special projects, as well as with other UMD departments and outside institutions on developing new projects and partnerships.\nStephanie’s research revolves around the intersections between digital humanities, libraries, and audiovisual archives: how archival audiovisual media objects function as primary historical documents, and what kind of digital resources and user interfaces facilitate the means for exploring that media in the context of its original production and reception. As MITH’s former Project Manager, she is also interested in the stewardship of digital humanities projects and research data, including streamlining project management, documentation, and sustainability processes.\nShe has a bachelor’s degree in Film Studies and English from the University of Kansas, and a master’s degree in Moving Image Archive Studies from UCLA.\nIn the past, Stephanie was the Project Manager for the American Archive of Public Broadcasting at the Corporation for Public Broadcasting, where she managed strategic operational planning for metadata and digitization initiatives. Before moving to DC in 2010, she was the Project Director on a Getty-funded grant for Los Angeles Filmforum entitled Alternative Projections: Experimental Film in LA 1945 -1980, a historical survey and preservation project resulting in over 35 new oral histories, an academic symposium, a media-rich website and database and a 16+screening exhibition series. The project was part of the Getty’s Pacific Standard Time initiative showcasing postwar art in Los Angeles. She also served as Managing Director of iotaCenter, a small nonprofit film archive of experimental film and abstract animation. Before graduate school, Stephanie worked for six years as a researcher and producer on documentaries and television shows, and specialized in finding and licensing archival footage and photos for use in productions."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attf9iLqwcY0fCimm",
@@ -13546,6 +14844,56 @@
     "current identities": []
   },
   {
+    "id": "jeremy-douglass",
+    "first": "Jeremy",
+    "last": "Douglass",
+    "headshot": [
+      {
+        "id": "attIfI06PCVWxhmjY",
+        "url": "https://dl.airtable.com/.attachments/8de995033135bb8dbf51180ae9d5e12e/10ab7f8d/image.png",
+        "filename": "image.png",
+        "size": 499795,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/718c93b28b3a3cea747cc5207edefb29/ade13c28",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c05b5b885c9bec0785cba019d8743db3/06a06625",
+            "width": 706,
+            "height": 470
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/bfb51bfc9f0151139b977f0fdf38ee8c/9d40f363",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "bio external": "http://about.jeremydouglass.com/about.html",
+    "new id": 591,
+    "events as speaker": [
+      "recA0BmUbtkwn2Rei"
+    ],
+    "linked identities": [],
+    "name": "Jeremy Douglass",
+    "group type": [
+      "External"
+    ],
+    "slug": "jeremy-douglass",
+    "slug formula": "jeremy-douglass",
+    "created": "2021-03-10T17:14:05.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "reccRa2u1mfwQg6Pc",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "bini-tecle",
     "first": "Bini",
     "last": "Tecle",
@@ -13577,6 +14925,35 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "reccRsxLLP7FnLDmM",
+    "current identities": []
+  },
+  {
+    "id": "nancy-oneill",
+    "first": "Nancy",
+    "last": "O'Neill",
+    "department": "UMD Career Center",
+    "institution": "University of Maryland",
+    "new id": 323,
+    "wordpress id": 21148,
+    "linked research as participant": [
+      "recdP0I3lL0t3p6fa"
+    ],
+    "events as speaker": [
+      "recpOSRSO7MulHJfp"
+    ],
+    "linked identities": [],
+    "name": "Nancy O'Neill",
+    "group type": [
+      "External"
+    ],
+    "slug": "nancy-oneill",
+    "slug formula": "nancy-oneill",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "reccftSNJUMzBM7R2",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -13707,6 +15084,34 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T04:32:26.000Z",
     "record_id": "recclJbwlmJvdHKMU",
+    "current identities": []
+  },
+  {
+    "id": "david-driskell",
+    "first": "David",
+    "last": "Driskell",
+    "institution": "University of Maryland",
+    "new id": 238,
+    "wordpress id": 21060,
+    "linked research as participant": [
+      "recarPm7PhkOBSnB6"
+    ],
+    "events as participant": [
+      "recqD6JFUxqQBbXhN"
+    ],
+    "linked identities": [],
+    "name": "David Driskell",
+    "group type": [
+      "External"
+    ],
+    "slug": "david-driskell",
+    "slug formula": "david-driskell",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "reccuoQoVYdn1FDvR",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -14295,17 +15700,17 @@
           "recoFfFg1889dnPEm"
         ],
         "person bio": "Raffaele (Raff) Viglianti is a Research Programmer at MITH. He holds a Ph.D. in Digital Musicology from the Department of Digital Humanities at King’s College London, where he also contributed to several major digitization and text encoding projects.\nRaff's research is grounded in digital humanities and textual scholarship, where “text” includes musical notation. More specifically, he seeks to advance textual scholarship by finding new and efficient practices to coherently and digitally model and edit (publish, or make available) text and music notation sources as digital scholarly resources. In adopting and developing new research methods, he deliberately takes a multicultural perspective by engaging with multilingual content, facing the diverse realities of the constraints in accessing and creating digital scholarly content, and by adopting a global approach to teaching and learning.\nRaff is currently an elected member of the Text Encoding Initiative technical council and the Technical Editor of the Scholarly Editing journal.\n",
-        "identity group": "current",
         "identity": "raffaele-viglianti-current-452",
-        "person name": [
-          "Raff Viglianti"
-        ],
         "full affiliation": "Research Programmer, MITH, University of Maryland",
         "slug": "raffaele-viglianti-452",
         "date span": "Research Programmer, 2013",
+        "person name": [
+          "Raff Viglianti"
+        ],
         "linked person bio": [
           "Raffaele (Raff) Viglianti is a Research Programmer at MITH. He holds a Ph.D. in Digital Musicology from the Department of Digital Humanities at King’s College London, where he also contributed to several major digitization and text encoding projects.\nRaff's research is grounded in digital humanities and textual scholarship, where “text” includes musical notation. More specifically, he seeks to advance textual scholarship by finding new and efficient practices to coherently and digitally model and edit (publish, or make available) text and music notation sources as digital scholarly resources. In adopting and developing new research methods, he deliberately takes a multicultural perspective by engaging with multilingual content, facing the diverse realities of the constraints in accessing and creating digital scholarly content, and by adopting a global approach to teaching and learning.\nRaff is currently an elected member of the Text Encoding Initiative technical council and the Technical Editor of the Scholarly Editing journal."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attWoOQRxSY4wx0cD",
@@ -14411,17 +15816,17 @@
         "linked people as past": "susan-l-wiesner",
         "id": 466,
         "person bio": "Susan L. Wiesner received her BA in Dance from Goucher College and her MA and PhD from the University of Surrey, England. Dr. Wiesner was granted two CLIR (Council for Library and Information Resources) postdoctoral fellowships to the University of Virginia and the University of North Carolina–Greensboro where she managed digital projects in the libraries and lectured in dance history and research methods. Her ongoing project, ARTeFACT, has been presented at several academic conferences (both Dance and Digital Humanities), been awarded an NEH Digital Start-up Grant, and has been featured in book chapters and journal articles. Dr. Wiesner was awarded an ACLS Digital Innovation Fellowship for 2011 to pursue research into movements representative of conceptual metaphor. She has conducted research into metadata and the development of ontologies for the performing arts using Digital Humanities methodologies and has developed a database of dance publications. A choreographer and dancer, Dr. Wiesner has presented her work in both the US and the UK, written as a dance critic, taught technique and theory at several universities, and continues to work with intersections of language and movement in an attempt to develop automated tagging of movement in dance film. Her current research focuses on movement and notation systems as a means of machine learning and transfer of data between artistic forms.\nIn her spare time, she works with adult dancers with special needs as she remains dedicated to the belief that all people can dance. Wiesner earned her Certification in Movement Analysis (CMA) from the Laban/Bartenieff Institute of Movement Studies and is the LIMS Archivist/Historian. At MITH, Wiesner is Principal Faculty Specialist for the Performing Arts where she works with the DocNow project and manages other projects which relate to the performing arts.\n",
-        "identity group": "current",
         "identity": "susan-l-wiesner-current-466",
-        "person name": [
-          "Susan L. Wiesner"
-        ],
         "full affiliation": "Principal Faculty Specialist for the Performing Arts, MITH, University of Maryland",
         "slug": "susan-l-wiesner-466",
         "date span": "Principal Faculty Specialist for the Performing Arts, 2019",
+        "person name": [
+          "Susan L. Wiesner"
+        ],
         "linked person bio": [
           "Susan L. Wiesner received her BA in Dance from Goucher College and her MA and PhD from the University of Surrey, England. Dr. Wiesner was granted two CLIR (Council for Library and Information Resources) postdoctoral fellowships to the University of Virginia and the University of North Carolina–Greensboro where she managed digital projects in the libraries and lectured in dance history and research methods. Her ongoing project, ARTeFACT, has been presented at several academic conferences (both Dance and Digital Humanities), been awarded an NEH Digital Start-up Grant, and has been featured in book chapters and journal articles. Dr. Wiesner was awarded an ACLS Digital Innovation Fellowship for 2011 to pursue research into movements representative of conceptual metaphor. She has conducted research into metadata and the development of ontologies for the performing arts using Digital Humanities methodologies and has developed a database of dance publications. A choreographer and dancer, Dr. Wiesner has presented her work in both the US and the UK, written as a dance critic, taught technique and theory at several universities, and continues to work with intersections of language and movement in an attempt to develop automated tagging of movement in dance film. Her current research focuses on movement and notation systems as a means of machine learning and transfer of data between artistic forms.\nIn her spare time, she works with adult dancers with special needs as she remains dedicated to the belief that all people can dance. Wiesner earned her Certification in Movement Analysis (CMA) from the Laban/Bartenieff Institute of Movement Studies and is the LIMS Archivist/Historian. At MITH, Wiesner is Principal Faculty Specialist for the Performing Arts where she works with the DocNow project and manages other projects which relate to the performing arts."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attU5fey5oFmZlR7g",
@@ -14741,7 +16146,8 @@
     "identity as past": "michele-mason-286",
     "linked events": "fellows-presentations-3",
     "people groups": [
-      "Past Resident Fellows"
+      "Past Resident Fellows",
+      "Speaker"
     ],
     "new id": 139,
     "wordpress id": 5806,
@@ -14754,12 +16160,13 @@
     "linked identities": [],
     "name": "Michele Mason",
     "group type": [
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "michele-mason",
     "slug formula": "michele-mason",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-26T16:37:21.000Z",
+    "modified": "2021-05-13T15:47:48.000Z",
     "record_id": "recfMM11T4uUwMDzU",
     "current identities": []
   },
@@ -15659,6 +17066,34 @@
     "current identities": []
   },
   {
+    "id": "howard-dodson",
+    "first": "Howard",
+    "last": "Dodson",
+    "institution": "New York Public Library",
+    "new id": 261,
+    "wordpress id": 21067,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Howard Dodson",
+    "group type": [
+      "External"
+    ],
+    "slug": "howard-dodson",
+    "slug formula": "howard-dodson",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "rechZw2Fhuv5HphPv",
+    "people groups": [
+      "Collaborator"
+    ],
+    "current identities": []
+  },
+  {
     "id": "april-householder",
     "first": "April",
     "last": "Householder",
@@ -15763,17 +17198,17 @@
         "linked research as internal": [
           "recjiQMxXWTQ3vA5q"
         ],
-        "identity group": "current",
         "identity": "emily-frazier-current-772",
-        "person name": [
-          "Emily Frazier"
-        ],
         "full affiliation": "Graduate Research Assistant, MITH, University of Maryland",
         "slug": "emily-frazier-772",
         "date span": "Graduate Research Assistant, 2021 – 2022",
+        "person name": [
+          "Emily Frazier"
+        ],
         "linked person bio": [
           "Emily Frazier is a Research Assistant for MITH's Unlocking the Airwaves and Broadcasting Audiovisual Data projects. She is a History MA and Master of Library & Information Science graduate student at the University of Maryland. Her research interests include discoverability in archives and linked data, as well as maps, cartography, and digital humanities. Outside of school and work, she enjoys needlepoint embroidery and spending time with her cat. Emily is a graduate of the University of Texas at Austin, where she earned her BA in Linguistics, Spanish, and the Plan II Honors Program. During undergrad, she worked with museum and archival collections doing cataloging and processing.\n"
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attVpcEvl0k0dB41A",
@@ -16041,7 +17476,8 @@
     "website": "http://faculty.history.umd.edu/DWilliams",
     "people groups": [
       "Affiliates",
-      "Past Resident Fellows"
+      "Past Resident Fellows",
+      "Speaker"
     ],
     "new id": 12,
     "wordpress id": 5819,
@@ -16067,12 +17503,13 @@
     "name": "Daryle Williams",
     "group type": [
       "Affiliates",
-      "Past"
+      "Past",
+      "External"
     ],
     "slug": "daryle-williams",
     "slug formula": "daryle-williams",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-04-09T16:58:53.000Z",
+    "modified": "2021-05-13T15:52:53.000Z",
     "record_id": "recibUxoBhGVXDkP9",
     "current identities": [
       {
@@ -16089,14 +17526,14 @@
         "linked people as past": "daryle-williams",
         "id": 469,
         "identity id": 2,
-        "identity group": "current",
         "identity": "daryle-williams-current-469",
-        "person name": [
-          "Daryle Williams"
-        ],
         "full affiliation": "MITH Affiliate Associate Professor, MITH, University of Maryland",
         "slug": "daryle-williams-469",
         "date span": "MITH Affiliate Associate Professor, 2018",
+        "person name": [
+          "Daryle Williams"
+        ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attFlFd0WAZlKVGpG",
@@ -16137,13 +17574,13 @@
         "linked people as past": "daryle-williams",
         "id": 470,
         "identity id": 3,
-        "identity group": "current",
         "identity": "daryle-williams-current-470",
+        "full affiliation": "Associate Dean for Faculty Affairs, ARHU, University of Maryland",
+        "slug": "daryle-williams-470",
         "person name": [
           "Daryle Williams"
         ],
-        "full affiliation": "Associate Dean for Faculty Affairs, ARHU, University of Maryland",
-        "slug": "daryle-williams-470",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attFlFd0WAZlKVGpG",
@@ -16186,13 +17623,13 @@
           "recnvK4kcNTd9ps5a"
         ],
         "identity id": 4,
-        "identity group": "current",
         "identity": "daryle-williams-current-471",
+        "full affiliation": "Associate Professor of History, University of Maryland",
+        "slug": "daryle-williams-471",
         "person name": [
           "Daryle Williams"
         ],
-        "full affiliation": "Associate Professor of History, University of Maryland",
-        "slug": "daryle-williams-471",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attFlFd0WAZlKVGpG",
@@ -16444,6 +17881,34 @@
     "current identities": []
   },
   {
+    "id": "john-unsworth",
+    "first": "John",
+    "last": "Unsworth",
+    "institution": "University of Maryland",
+    "new id": 282,
+    "wordpress id": 21097,
+    "linked research as participant": [
+      "rechMqJ7VykqPDG99"
+    ],
+    "events as speaker": [
+      "recfFkT3jRi0roG5K"
+    ],
+    "linked identities": [],
+    "name": "John Unsworth",
+    "group type": [
+      "External"
+    ],
+    "slug": "john-unsworth",
+    "slug formula": "john-unsworth",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recjTLRFXmjBCL0bX",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "xiaoyu-tai",
     "first": "Xiaoyu",
     "last": "Tai",
@@ -16498,6 +17963,58 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recjTQObBrQCz5p1z",
+    "current identities": []
+  },
+  {
+    "id": "dorothea-salo",
+    "first": "Dorothea",
+    "last": "Salo",
+    "department": "School of Library and Information Studies",
+    "institution": "University of Wisconsin at Madison",
+    "new id": 243,
+    "wordpress id": 21080,
+    "linked research as participant": [
+      "recHEPc8YqTxRwE8o"
+    ],
+    "events as speaker": [
+      "recJJNrDku2LEEAfO"
+    ],
+    "linked identities": [],
+    "name": "Dorothea Salo",
+    "group type": [
+      "External"
+    ],
+    "slug": "dorothea-salo",
+    "slug formula": "dorothea-salo",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:00.000Z",
+    "record_id": "recjVQEB8zLXpXHM1",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "kirrily-robert",
+    "first": "Kirrily",
+    "last": "Robert",
+    "new id": 580,
+    "events as speaker": [
+      "rec0tOBrWUCYirZYc"
+    ],
+    "linked identities": [],
+    "name": "Kirrily Robert",
+    "group type": [
+      "External"
+    ],
+    "slug": "kirrily-robert",
+    "slug formula": "kirrily-robert",
+    "created": "2021-02-26T19:59:58.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recjWXaDW240ZRFOB",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -16993,6 +18510,34 @@
     "current identities": []
   },
   {
+    "id": "kara-keeling",
+    "first": "Kara",
+    "last": "Keeling",
+    "institution": "University of Southern California",
+    "new id": 292,
+    "wordpress id": 21152,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Kara Keeling",
+    "group type": [
+      "External"
+    ],
+    "slug": "kara-keeling",
+    "slug formula": "kara-keeling",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "reckaxyngIBnTAFW7",
+    "people groups": [
+      "Collaborator"
+    ],
+    "current identities": []
+  },
+  {
     "id": "gretchen-gueguen",
     "first": "Gretchen",
     "last": "Gueguen",
@@ -17307,6 +18852,34 @@
     "current identities": []
   },
   {
+    "id": "dj-spooky",
+    "first": "DJ",
+    "last": "Spooky",
+    "institution": "Independent Artist",
+    "new id": 242,
+    "wordpress id": 21071,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "DJ Spooky",
+    "group type": [
+      "External"
+    ],
+    "slug": "dj-spooky",
+    "slug formula": "dj-spooky",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "reclKyLgS4RcjYlnm",
+    "people groups": [
+      "Collaborator"
+    ],
+    "current identities": []
+  },
+  {
     "id": "leonardo-flores",
     "first": "Leonardo",
     "last": "Flores",
@@ -17546,6 +19119,55 @@
     "current identities": []
   },
   {
+    "id": "mano-marks",
+    "first": "Mano",
+    "last": "Marks",
+    "headshot": [
+      {
+        "id": "attuZ8AXGxwMKMF3T",
+        "url": "https://dl.airtable.com/.attachments/47aa47df987d018bcd7fa5ba21008ee8/7d48ff14/ManoMarks_Mano_Marks__GitHub",
+        "filename": "ManoMarks_(Mano_Marks)__GitHub",
+        "size": 32270,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7c9cac78adf4e4011307237331107213/93eae72e",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/beb5b0b90e88c9449bf1d89fcdf1e25c/8c1f6390",
+            "width": 460,
+            "height": 460
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9791bbddda2cb435b25b6f2e67cea4bf/4a658f66",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "new id": 578,
+    "events as speaker": [
+      "rec0tOBrWUCYirZYc"
+    ],
+    "linked identities": [],
+    "name": "Mano Marks",
+    "group type": [
+      "External"
+    ],
+    "slug": "mano-marks",
+    "slug formula": "mano-marks",
+    "created": "2021-02-26T19:55:59.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recm59opLTTeJ3Mxp",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "nathan-jurgenson",
     "first": "Nathan",
     "last": "Jurgenson",
@@ -17687,6 +19309,29 @@
     "current identities": []
   },
   {
+    "id": "george-oates",
+    "first": "George",
+    "last": "Oates",
+    "new id": 589,
+    "events as speaker": [
+      "rec0tOBrWUCYirZYc"
+    ],
+    "linked identities": [],
+    "name": "George Oates",
+    "group type": [
+      "External"
+    ],
+    "slug": "george-oates",
+    "slug formula": "george-oates",
+    "created": "2021-02-26T19:53:58.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recmV9FetaDZ2OqLI",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "douglas-eyman",
     "first": "Douglas",
     "last": "Eyman",
@@ -17743,6 +19388,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recmhP3dC1c59inDI",
+    "current identities": []
+  },
+  {
+    "id": "gary-gerstle",
+    "first": "Gary",
+    "last": "Gerstle",
+    "new id": 613,
+    "events as speaker": [
+      "recy9fjl6GPqySAYe"
+    ],
+    "linked identities": [],
+    "name": "Gary Gerstle",
+    "group type": [
+      "External"
+    ],
+    "slug": "gary-gerstle",
+    "slug formula": "gary-gerstle",
+    "created": "2021-03-28T05:37:56.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recmpxfcVc1a7KXNM",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -17857,6 +19525,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T17:31:51.000Z",
     "record_id": "recnfKLPafbzlHgbz",
+    "current identities": []
+  },
+  {
+    "id": "clifford-anderson",
+    "first": "Clifford",
+    "last": "Anderson",
+    "new id": 598,
+    "events as speaker": [
+      "recGDhqtOWE4gaO2o"
+    ],
+    "linked identities": [],
+    "name": "Clifford Anderson",
+    "group type": [
+      "External"
+    ],
+    "slug": "clifford-anderson",
+    "slug formula": "clifford-anderson",
+    "created": "2021-03-10T17:40:19.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recngnnE56OXEicIU",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -18270,6 +19961,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-16T16:14:16.000Z",
     "record_id": "recoQ10X2wHy4XGr8",
+    "current identities": []
+  },
+  {
+    "id": "jo-guldi",
+    "first": "Jo",
+    "last": "Guldi",
+    "new id": 588,
+    "events as speaker": [
+      "recF7g7awCqoQLFrF"
+    ],
+    "linked identities": [],
+    "name": "Jo Guldi",
+    "group type": [
+      "External"
+    ],
+    "slug": "jo-guldi",
+    "slug formula": "jo-guldi",
+    "created": "2021-03-10T04:25:02.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recoVXpAEGUPycQaF",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -18804,6 +20518,36 @@
     "current identities": []
   },
   {
+    "id": "cody-buntain",
+    "first": "Cody",
+    "last": "Buntain",
+    "department": "Computer Science",
+    "institution": "UMD",
+    "linked events": "session-v-advanced-analytical-techniques",
+    "new id": 232,
+    "wordpress id": 21036,
+    "linked research as participant": [
+      "recNeJs9no3H5InHB"
+    ],
+    "events as speaker": [
+      "recqj8yhnkaZqJHhw"
+    ],
+    "linked identities": [],
+    "name": "Cody Buntain",
+    "group type": [
+      "External"
+    ],
+    "slug": "cody-buntain",
+    "slug formula": "cody-buntain",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:50:36.000Z",
+    "record_id": "recqDYBpPgX1xEbzh",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "fahad-ismail",
     "first": "Fahad",
     "last": "Ismail",
@@ -18886,6 +20630,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-16T15:03:07.000Z",
     "record_id": "recqFr2YjWpDmD8W7",
+    "current identities": []
+  },
+  {
+    "id": "amanda-eubanks-winkler",
+    "first": "Amanda",
+    "last": "Eubanks Winkler",
+    "new id": 622,
+    "events as speaker": [
+      "recm9YLJ4jP4WOgTO"
+    ],
+    "linked identities": [],
+    "name": "Amanda Eubanks Winkler",
+    "group type": [
+      "External"
+    ],
+    "slug": "amanda-eubanks-winkler",
+    "slug formula": "amanda-eubanks-winkler",
+    "created": "2021-03-29T15:59:03.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recqp9UbaazqBkEhe",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -19033,14 +20800,14 @@
         "linked people as past": "katrina-fenlon",
         "id": 130,
         "identity id": 1,
-        "identity group": "current",
         "identity": "katrina-fenlon-current-130",
-        "person name": [
-          "Katrina Fenlon"
-        ],
         "full affiliation": "MITH Affiliate Assistant Professor, MITH, University of Maryland",
         "slug": "katrina-fenlon-130",
         "date span": "MITH Affiliate Assistant Professor, 2018",
+        "person name": [
+          "Katrina Fenlon"
+        ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attg90bWK7PDw83jW",
@@ -19081,13 +20848,13 @@
         "linked people as past": "katrina-fenlon",
         "id": 131,
         "identity id": 2,
-        "identity group": "current",
         "identity": "katrina-fenlon-current-131",
+        "full affiliation": "Assistant Professor, iSchool, University of Maryland",
+        "slug": "katrina-fenlon-131",
         "person name": [
           "Katrina Fenlon"
         ],
-        "full affiliation": "Assistant Professor, iSchool, University of Maryland",
-        "slug": "katrina-fenlon-131",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attg90bWK7PDw83jW",
@@ -19197,6 +20964,78 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recrmThmrOCWgvE6o",
+    "current identities": []
+  },
+  {
+    "id": "sally-bedell-smith",
+    "first": "Sally",
+    "last": "Bedell Smith",
+    "new id": 603,
+    "events as speaker": [
+      "recfuDeV1yoAhSPFQ"
+    ],
+    "linked identities": [],
+    "name": "Sally Bedell Smith",
+    "group type": [
+      "External"
+    ],
+    "slug": "sally-bedell-smith",
+    "slug formula": "sally-bedell-smith",
+    "created": "2021-03-10T19:35:42.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recrtkxC55zGdkLSK",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "irvin-kershner",
+    "first": "Irvin",
+    "last": "Kershner",
+    "headshot": [
+      {
+        "id": "attGWzIyoYHtEPwoa",
+        "url": "https://dl.airtable.com/.attachments/79c911d926b2ec9ba9fbe7d46eed1ef0/b4e74198/kershner-0ba7c2b5b3a39cb1508a8f19d957dbaaafcff8c4-s800-c85.jpg",
+        "filename": "kershner-0ba7c2b5b3a39cb1508a8f19d957dbaaafcff8c4-s800-c85.jpg",
+        "size": 77196,
+        "type": "image/JPEG",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7fe190ce381d9c5c6d6b28dd1148b3d0/4a0862c0.png",
+            "width": 48,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0979fbfbe429c7e8b7c4be865885b3b4/a62b1faa.png",
+            "width": 684,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7eb53cd4aa6886b354eab5f202f546bf/5ed69682.png",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "new id": 612,
+    "events as participant": [
+      "recqD6JFUxqQBbXhN"
+    ],
+    "linked identities": [],
+    "name": "Irvin Kershner",
+    "group type": [
+      "External"
+    ],
+    "slug": "irvin-kershner",
+    "slug formula": "irvin-kershner",
+    "created": "2021-03-26T18:31:35.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "recs1wgIeBlwtZSfg",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -19390,17 +21229,17 @@
         ],
         "person bio": "Trevor Muñoz is the Director of the Maryland Institute for Technology in the Humanities (MITH). In this role, he provides management and strategic direction for MITH's portfolio of digital humanities research, community building, and teaching activities. His own current research is centered in a community-university collaborative dedicated to preserving and sharing the heritage of the historic African American community of Lakeland in College Park, Maryland, through community members' own voices.\nHis previous work has focused on [humanities approaches to data curation](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51), the [strategic opportunities and challenges of doing digital humanities work within the institutional and cultural structures of academic research libraries](https://acrl.ala.org/dh/2013/06/19/in-service-a-further-provocation-on-digital-humanities-research-in-libraries/), and on the design and sustainability of interdisciplinary research collaborations. Muñoz is a member of the founding team of the [African American History and Culture and Digital Humanities (AADHum) Initiative](https://aadhum.umd.edu/) and has served, since 2017, as a Co-Principal Investigator for the major grant from The Andrew W. Mellon Foundation that supports AADHum. With Jennifer Guiliano, he serves as Co-Director of the [Humanities Intensive Learning + Teaching (HILT) Institute](http://dhtraining.org/hilt/).\nBefore assuming the full-time leadership role at MITH, Muñoz previously served as the center's Associate Director and also as Assistant Dean for Digital Humanities Research in the University of Maryland Libraries. Muñoz holds an MA in Digital Humanities from the Department of Digital Humanities at King’s College London and an MS in Library and Information Science from the School of Information Sciences at the University of Illinois, Urbana-Champaign.\n",
         "identity id": 3,
-        "identity group": "current",
         "identity": "trevor-munoz-current-311",
-        "person name": [
-          "Trevor Muñoz"
-        ],
         "full affiliation": "Director, Maryland Institute for Technology in the Humanities, University of Maryland",
         "slug": "trevor-munoz-311",
         "date span": "Director, 2020",
+        "person name": [
+          "Trevor Muñoz"
+        ],
         "linked person bio": [
           "Trevor Muñoz is the Director of the Maryland Institute for Technology in the Humanities (MITH). In this role, he provides management and strategic direction for MITH's portfolio of digital humanities research, community building, and teaching activities. His own current research is centered in a community-university collaborative dedicated to preserving and sharing the heritage of the historic African American community of Lakeland in College Park, Maryland, through community members' own voices.\nHis previous work has focused on humanities approaches to data curation, the strategic opportunities and challenges of doing digital humanities work within the institutional and cultural structures of academic research libraries, and on the design and sustainability of interdisciplinary research collaborations. Muñoz is a member of the founding team of the African American History and Culture and Digital Humanities (AADHum) Initiative and has served, since 2017, as a Co-Principal Investigator for the major grant from The Andrew W. Mellon Foundation that supports AADHum. With Jennifer Guiliano, he serves as Co-Director of the Humanities Intensive Learning + Teaching (HILT) Institute.\nBefore assuming the full-time leadership role at MITH, Muñoz previously served as the center's Associate Director and also as Assistant Dean for Digital Humanities Research in the University of Maryland Libraries. Muñoz holds an MA in Digital Humanities from the Department of Digital Humanities at King’s College London and an MS in Library and Information Science from the School of Information Sciences at the University of Illinois, Urbana-Champaign."
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attrBpgPpudPbB5D1",
@@ -19432,6 +21271,29 @@
         ]
       }
     ]
+  },
+  {
+    "id": "peter-keane",
+    "first": "Peter",
+    "last": "Keane",
+    "new id": 581,
+    "events as speaker": [
+      "rec0tOBrWUCYirZYc"
+    ],
+    "linked identities": [],
+    "name": "Peter Keane",
+    "group type": [
+      "External"
+    ],
+    "slug": "peter-keane",
+    "slug formula": "peter-keane",
+    "created": "2021-02-26T20:02:47.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recsOmzL2qhJXMCEo",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
   },
   {
     "id": "chris-prom",
@@ -19702,17 +21564,17 @@
         "linked people as past": "jeffrey-moro",
         "id": 307,
         "person bio": "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland, College Park. His interdisciplinary research bridges media studies, digital humanities, and the environmental humanities to study how media technologies facilitate our cultural understanding of the natural world. His dissertation, \"Atmospheric Media: Computation and the Environmental Imagination,\" explores how artists, technologists, and critics imagine digital media in terms of atmospheres, both literal and otherwise—and how in turn, these media atmospheres condition the possibilities for sustainable human life on our planet. His writing has appeared or will soon appear in _\\*Amodern\\*_, _\\*Media Fields\\*_, _\\*Qui Parle\\*_, and the _\\*Los Angeles Review of Books\\*_. Past lives include work as site manager for _\\*Romantic Circles\\*_, a born-digital journal of Romantic literature, and as Post-Baccalaureate Resident with Five College Digital Humanities, a Mellon-funded DH program at the Five Colleges of Western Massachusetts. He holds BAs in English and Theater & Dance from Amherst College. \n",
-        "identity group": "current",
         "identity": "jeffrey-moro-current-307",
-        "person name": [
-          "Jeffrey Moro"
-        ],
         "full affiliation": "Winnemore Digital Humanities Dissertation Fellow, MITH, University of Maryland",
         "slug": "jeffrey-moro-307",
         "date span": "Winnemore Digital Humanities Dissertation Fellow, 2020",
+        "person name": [
+          "Jeffrey Moro"
+        ],
         "linked person bio": [
           "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland, College Park. His interdisciplinary research bridges media studies, digital humanities, and the environmental humanities to study how media technologies facilitate our cultural understanding of the natural world. His dissertation, \"Atmospheric Media: Computation and the Environmental Imagination,\" explores how artists, technologists, and critics imagine digital media in terms of atmospheres, both literal and otherwise—and how in turn, these media atmospheres condition the possibilities for sustainable human life on our planet. His writing has appeared or will soon appear in *Amodern*, *Media Fields*, *Qui Parle*, and the *Los Angeles Review of Books*. Past lives include work as site manager for *Romantic Circles*, a born-digital journal of Romantic literature, and as Post-Baccalaureate Resident with Five College Digital Humanities, a Mellon-funded DH program at the Five Colleges of Western Massachusetts. He holds BAs in English and Theater & Dance from Amherst College. "
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attcLD6hAgr9IUkIe",
@@ -19877,6 +21739,33 @@
     "current identities": []
   },
   {
+    "id": "angus-murphy",
+    "first": "Angus",
+    "last": "Murphy",
+    "title": "Professor",
+    "department": "Department of Plant Science & Landscape Architecture",
+    "institution": "University of Maryland",
+    "linked events": "what-counts-as-data-interdisciplinary-panel-",
+    "new id": 553,
+    "events as speaker": [
+      "recgbqtyUa6Pv4Dpm"
+    ],
+    "linked identities": [],
+    "name": "Angus Murphy",
+    "group type": [
+      "External"
+    ],
+    "slug": "angus-murphy",
+    "slug formula": "angus-murphy",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:50:39.000Z",
+    "record_id": "rectECkva4L9ebBmP",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "craig-dietrich",
     "first": "Craig",
     "last": "Dietrich",
@@ -19903,6 +21792,34 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-04-16T15:48:33.000Z",
     "record_id": "rectQBhMVHPKTzNbj",
+    "current identities": []
+  },
+  {
+    "id": "pamela-z",
+    "first": "Pamela",
+    "last": "Z",
+    "institution": "Independent Artist",
+    "new id": 326,
+    "wordpress id": 21136,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Pamela Z",
+    "group type": [
+      "External"
+    ],
+    "slug": "pamela-z",
+    "slug formula": "pamela-z",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:55:10.000Z",
+    "record_id": "rectpHHFenhcgzAKX",
+    "people groups": [
+      "Collaborator"
+    ],
     "current identities": []
   },
   {
@@ -20151,6 +22068,31 @@
     "current identities": []
   },
   {
+    "id": "mary-kay-vaughan",
+    "first": "Mary Kay",
+    "last": "Vaughan",
+    "bio": "Professor Vaughan specializes in the cultural, gender, and educational history of modern Mexico. Her book, _[Cultural Politics in Revolution: Teachers, Peasants, and Schools in Mexico, 1930-1940](http://www.uapress.arizona.edu/BOOKS/bid1020.htm)_ received the Herbert Eugene Bolton Prize as the most outstanding book in Latin American history in 1997 and the Bryce Wood Award of the Latin American Studies Association for best book on Latin America published in English. She is also the author of _The State, Education and Social Class in Mexico, 1880-1928_ (1982) and coeditor of several collections including _[Women of the Mexican Countryside, 1850-1990: Creating Spaces, Shaping Transitions](http://www.uapress.arizona.edu/BOOKS/bid144.htm)_ (1994), _Escuela y sociedad en el periodo cardenista_ (1998). Her most recent publications are _[The Eagle and the Virgin: Cultural Revolution and National Identity in Mexico, 1920-1940](http://www.dukeupress.edu/books.php3?isbn=3668-5)_ (2006) coedited with Stephen Lewis, and _[Sex in Revolution: Gender, Politics and Power in Modern Mexico](http://www.dukeupress.edu/cgibin/forwardsql/search.cgi?template0=nomatch.htm&template2=books/book_detail_page.htm&user_id=6916236613&Bmain.item_option=1&Bmain.item=9347)_[ ](http://www.dukeupress.edu/cgibin/forwardsql/search.cgi?template0=nomatch.htm&template2=books/book_detail_page.htm&user_id=6916236613&Bmain.item_option=1&Bmain.item=9347) (2006) coedited with Jocelyn Olcott and Gabriela Cano. \nShe is former editor of the _Hispanic American Historical Review_ and current president of the Conference on Latin American History. She has received fellowships from the John Simon Guggenheim Foundation, the National Endowment for the Humanities, the Council for the International Exchange of Scholars (Fulbright) and the Social Science Research Council and grants from the MacArthur Foundation, the Fulbright Hays Program, and the Illinois Humanities Council. She has been visiting professor at the Benemerita Universidad Autonoma de Puebla and the Departamento de Investigaciones Educativas in Mexico City. \nShe is currently completing the life history of painter Jose Zuniga, a biographical approach to understanding the Mexico City youth rebellion of the 1960s.\n",
+    "bio external": "https://history.umd.edu/users/mkv",
+    "new id": 573,
+    "events as speaker": [
+      "rec8RL6tQQO2uU1to"
+    ],
+    "linked identities": [],
+    "name": "Mary Kay Vaughan",
+    "group type": [
+      "External"
+    ],
+    "slug": "mary-kay-vaughan",
+    "slug formula": "mary-kay-vaughan",
+    "created": "2021-02-13T07:50:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recuTLitJmiP71B1Z",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "jina-valentine",
     "first": "Jina",
     "last": "Valentine",
@@ -20334,7 +22276,7 @@
       {
         "id": "attbvaX0niwyBAIla",
         "url": "https://dl.airtable.com/.attachments/636a535d714ec0c4cf3c007ecf87c4c6/853d180e/thumbnail.php",
-        "filename": "thumbnail.php",
+        "filename": "timothy-stinson",
         "size": 266998,
         "type": "image/png",
         "thumbnails": {
@@ -20374,7 +22316,7 @@
     "slug": "timothy-stinson",
     "slug formula": "timothy-stinson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:33:13.000Z",
+    "modified": "2021-05-13T15:20:14.000Z",
     "record_id": "recuxBYNQ0yfFFAmp",
     "current identities": []
   },
@@ -20512,6 +22454,34 @@
     "current identities": []
   },
   {
+    "id": "gina-calia",
+    "first": "Gina",
+    "last": "Calia",
+    "institution": "UMD Libraries",
+    "new id": 257,
+    "wordpress id": 21103,
+    "linked research as participant": [
+      "recdP0I3lL0t3p6fa"
+    ],
+    "events as speaker": [
+      "recpOSRSO7MulHJfp"
+    ],
+    "linked identities": [],
+    "name": "Gina Calia",
+    "group type": [
+      "External"
+    ],
+    "slug": "gina-calia",
+    "slug formula": "gina-calia",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recvVZ16EHOgEKh1I",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "bill-lefurgy",
     "first": "Bill",
     "last": "Lefurgy",
@@ -20565,6 +22535,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-10T19:36:46.000Z",
     "record_id": "recvYgDUROIKBmXlA",
+    "current identities": []
+  },
+  {
+    "id": "christopher-johnson-roberson",
+    "first": "Christopher",
+    "last": "Johnson-Roberson",
+    "new id": 590,
+    "events as speaker": [
+      "recF7g7awCqoQLFrF"
+    ],
+    "linked identities": [],
+    "name": "Christopher Johnson-Roberson",
+    "group type": [
+      "External"
+    ],
+    "slug": "christopher-johnson-roberson",
+    "slug formula": "christopher-johnson-roberson",
+    "created": "2021-03-10T04:26:21.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recvZPtv5muzEDq4F",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -20681,7 +22674,7 @@
       {
         "id": "att6q7XtVqRtvxITS",
         "url": "https://dl.airtable.com/.attachments/5f7e8fdd5d91591f0346b126218df5ed/f32c1ee0/Dr._Bryan_Carter.BryanCarter",
-        "filename": "Dr._Bryan_Carter. Bryan Carter",
+        "filename": "Dr._Bryan_Carter",
         "size": 128922,
         "type": "image/jpeg",
         "thumbnails": {
@@ -20755,7 +22748,7 @@
     "slug": "bryan-carter",
     "slug formula": "bryan-carter",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-25T03:59:07.000Z",
+    "modified": "2021-05-13T15:21:06.000Z",
     "record_id": "recvfZYGNk2c4x41C",
     "current identities": []
   },
@@ -21034,13 +23027,13 @@
         "linked people as past": "lael-hughes-watkins",
         "id": 201,
         "identity id": 1,
-        "identity group": "current",
         "identity": "lael-hughes-watkins-current-201",
+        "full affiliation": "University Archivist, University Libraries, University of Maryland",
+        "slug": "lael-hughes-watkins-201",
         "person name": [
           "Lae'l Hughes-Watkins"
         ],
-        "full affiliation": "University Archivist, University Libraries, University of Maryland",
-        "slug": "lael-hughes-watkins-201",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attMuvamdKeY6vUxw",
@@ -21081,13 +23074,13 @@
         "linked people as past": "lael-hughes-watkins",
         "id": 202,
         "identity id": 2,
-        "identity group": "current",
         "identity": "lael-hughes-watkins-current-202",
+        "full affiliation": "MITH Affiliate Librarian, MITH, University of Maryland",
+        "slug": "lael-hughes-watkins-202",
         "person name": [
           "Lae'l Hughes-Watkins"
         ],
-        "full affiliation": "MITH Affiliate Librarian, MITH, University of Maryland",
-        "slug": "lael-hughes-watkins-202",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attMuvamdKeY6vUxw",
@@ -21118,6 +23111,35 @@
     ]
   },
   {
+    "id": "amy-wickner",
+    "first": "Amy",
+    "last": "Wickner",
+    "department": "University Libraries",
+    "institution": "University of Maryland",
+    "new id": 200,
+    "wordpress id": 21021,
+    "linked research as participant": [
+      "recyYS4iEFZCue8YC"
+    ],
+    "events as speaker": [
+      "recvTrMAIfmqkkPKQ"
+    ],
+    "linked identities": [],
+    "name": "Amy Wickner",
+    "group type": [
+      "External"
+    ],
+    "slug": "amy-wickner",
+    "slug formula": "amy-wickner",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:00.000Z",
+    "record_id": "recwd7O9esfHNFfnG",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "michael-evans",
     "first": "Michael",
     "last": "Evans",
@@ -21143,6 +23165,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-03-26T18:22:04.000Z",
     "record_id": "recwfQEuXushEHi9n",
+    "current identities": []
+  },
+  {
+    "id": "john-rink",
+    "first": "John",
+    "last": "Rink",
+    "new id": 569,
+    "events as speaker": [
+      "recmSskDscHXOq3xl"
+    ],
+    "linked identities": [],
+    "name": "John Rink",
+    "group type": [
+      "External"
+    ],
+    "slug": "john-rink",
+    "slug formula": "john-rink",
+    "created": "2021-02-12T16:50:03.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recwfzzxuELlIZW21",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -21200,6 +23245,31 @@
     "current identities": []
   },
   {
+    "id": "kelley-oneal",
+    "first": "Kelley",
+    "last": "O'Neal",
+    "institution": "University of Maryland Libraries",
+    "linked events": "response-abilities-to-data-lightning-talks",
+    "new id": 564,
+    "events as speaker": [
+      "recvTrMAIfmqkkPKQ"
+    ],
+    "linked identities": [],
+    "name": "Kelley O'Neal",
+    "group type": [
+      "External"
+    ],
+    "slug": "kelley-oneal",
+    "slug formula": "kelley-oneal",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:50:39.000Z",
+    "record_id": "recwoZGHr8rO2o0sZ",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
     "id": "jim-kuhn",
     "first": "Jim",
     "last": "Kuhn",
@@ -21227,6 +23297,53 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recwpToUylbEckK6R",
+    "current identities": []
+  },
+  {
+    "id": "susan-brown",
+    "first": "Susan",
+    "last": "Brown",
+    "title": "Professor of English",
+    "institution": "University of Guelph",
+    "new id": 571,
+    "events as speaker": [
+      "recoFfFg1889dnPEm"
+    ],
+    "linked identities": [],
+    "name": "Susan Brown",
+    "group type": [
+      "External"
+    ],
+    "slug": "susan-brown",
+    "slug formula": "susan-brown",
+    "created": "2021-02-12T20:19:09.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recx5hIoRvySPiiAG",
+    "people groups": [
+      "Speaker"
+    ],
+    "current identities": []
+  },
+  {
+    "id": "bill-bly",
+    "first": "Bill",
+    "last": "Bly",
+    "new id": 602,
+    "events as speaker": [
+      "recA0BmUbtkwn2Rei"
+    ],
+    "name": "Bill Bly",
+    "group type": [
+      "External"
+    ],
+    "slug": "bill-bly",
+    "slug formula": "bill-bly",
+    "created": "2021-03-10T17:25:10.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recxHaLA6bJgHGMAu",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -21334,13 +23451,13 @@
         ],
         "linked people as past": "kate-dohe",
         "id": 108,
-        "identity group": "current",
         "identity": "kate-dohe-current-108",
+        "full affiliation": "MITH Affiliate Librarian, MITH, University of Maryland",
+        "slug": "kate-dohe-108",
         "person name": [
           "Kate Dohe"
         ],
-        "full affiliation": "MITH Affiliate Librarian, MITH, University of Maryland",
-        "slug": "kate-dohe-108",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attCefpm8HgrZLmQc",
@@ -21363,13 +23480,13 @@
         ],
         "linked people as past": "kate-dohe",
         "id": 109,
-        "identity group": "current",
         "identity": "kate-dohe-current-109",
+        "full affiliation": "Manager, Digital Programs & Initiatives, University Libraries, University of Maryland",
+        "slug": "kate-dohe-109",
         "person name": [
           "Kate Dohe"
         ],
-        "full affiliation": "Manager, Digital Programs & Initiatives, University Libraries, University of Maryland",
-        "slug": "kate-dohe-109",
+        "identity group": "current",
         "headshot": [
           {
             "id": "attCefpm8HgrZLmQc",
@@ -21406,6 +23523,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recxmwHjunLRWUcxS",
+    "current identities": []
+  },
+  {
+    "id": "katherine-hayles",
+    "first": "Katherine",
+    "last": "Hayles",
+    "new id": 609,
+    "events as speaker": [
+      "recTxAq0Rqh9Ug59z"
+    ],
+    "linked identities": [],
+    "name": "Katherine Hayles",
+    "group type": [
+      "External"
+    ],
+    "slug": "katherine-hayles",
+    "slug formula": "katherine-hayles",
+    "created": "2021-03-25T14:24:45.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recy1U3GHAfU0e6W1",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -21489,6 +23629,29 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-26T17:22:46.000Z",
     "record_id": "recyIw0oAj6Unw35O",
+    "current identities": []
+  },
+  {
+    "id": "lilla-kopár",
+    "first": "Lilla",
+    "last": "Kopár",
+    "new id": 595,
+    "events as speaker": [
+      "recGDhqtOWE4gaO2o"
+    ],
+    "linked identities": [],
+    "name": "Lilla Kopár",
+    "group type": [
+      "External"
+    ],
+    "slug": "lilla-kopár",
+    "slug formula": "lilla-kopar",
+    "created": "2021-03-10T17:39:20.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recyM0usgCqmBWOmr",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -21658,6 +23821,60 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-02-24T19:33:13.000Z",
     "record_id": "recyaHWDa9AnJflyK",
+    "current identities": []
+  },
+  {
+    "id": "andrew-blum",
+    "first": "Andrew",
+    "last": "Blum",
+    "headshot": [
+      {
+        "id": "atts23JqBsVsOIP58",
+        "url": "https://dl.airtable.com/.attachments/9cbff611f93f73034a60c529e355872c/8ddafcce/The_Internet_A_Series_Of_Tubes_And_Then_Some__NPR",
+        "filename": "The_Internet_A_Series_Of_Tubes_(And_Then_Some)__NPR",
+        "size": 299053,
+        "type": "image/JPEG",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/99a3fdb1e7477664ea1d3294d964f11c/6db8b44e.png",
+            "width": 64,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4b813d5e0a7c4af1bc6a7482028ff3d4/a0efd575.png",
+            "width": 910,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7a75a1258fce6236469021b2556fb0ee/e9431c21.png",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "title": "Journalist",
+    "bio": "Andrew Blum is a journalist and the author of _Tubes: A Journey to the Center of the Internet_, the first book-length look at the physical heart of the Internet itself. _Tubes_ was first published in June 2012 by Ecco/Harpercollins in the US and Viking/Penguin in the UK. It was a national bestseller, and met with wide acclaim from _The New York Times_, _The Wall Street Journal_, _The Boston Globe_, _Salon_, _The Guardian_, _The Economist, The Independent, Kirkus Reviews, Bookforum, Scientific American, New Scientist, Brain Pickings, Ars Technica, Science News_ and many others. Blum discussed _Tubes_ with Terry Gross on NPR’s _Fresh Air_; BBC 4 presented it as a “Book of the Week”; and Blum spoke about his research on the stages of TED Global and the London School of Economics, among dozens of other venues. Design Observer named Tubes its 2012 “Book of the Year,” and London’s Independent called it “The year’s most stimulating and original ‘travel’ book.” When the Edward Snowden/NSA revelations made the Internet’s infrastructure a vital diplomatic question, journalists from Washington to London to Frankfurt to São Paulo relied on _Tubes_ as a crucial reference. It has been translated into nine languages.\n",
+    "new id": 566,
+    "linked research as participant": [
+      "rec1dMJqa7mO2QtTB"
+    ],
+    "events as speaker": [
+      "recmOAn9vHgNdDNtM"
+    ],
+    "linked identities": [],
+    "name": "Andrew Blum",
+    "group type": [
+      "External"
+    ],
+    "slug": "andrew-blum",
+    "slug formula": "andrew-blum",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:14.000Z",
+    "record_id": "recyhZK9FssmOXsHv",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {
@@ -22104,7 +24321,8 @@
     "identity as speaker": "brett-bobley-32",
     "linked events": "a-candid-chat-about-the-nehs-digital-humanities-initiative",
     "people groups": [
-      "Collaborator"
+      "Collaborator",
+      "Speaker"
     ],
     "new id": 218,
     "wordpress id": 21029,
@@ -22124,8 +24342,40 @@
     "slug": "brett-bobley",
     "slug formula": "brett-bobley",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-03-25T14:41:24.000Z",
+    "modified": "2021-05-13T15:50:41.000Z",
     "record_id": "reczF4AgmHEIDqgyF",
+    "current identities": []
+  },
+  {
+    "id": "casey-davis-kaufman",
+    "first": "Casey",
+    "last": "Davis Kaufman",
+    "title": "Associate Director",
+    "institution": "WGBH Media Archives",
+    "new id": 223,
+    "wordpress id": 21049,
+    "linked research as participant": [
+      "recybLltnlNUrjFIw"
+    ],
+    "events as speaker": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "events as participant": [
+      "rec73tYlqDdhuXggl"
+    ],
+    "linked identities": [],
+    "name": "Casey Davis Kaufman",
+    "group type": [
+      "External"
+    ],
+    "slug": "casey-davis-kaufman",
+    "slug formula": "casey-davis-kaufman",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-13T15:53:00.000Z",
+    "record_id": "reczS6Qmu0RHJFNML",
+    "people groups": [
+      "Speaker"
+    ],
     "current identities": []
   },
   {

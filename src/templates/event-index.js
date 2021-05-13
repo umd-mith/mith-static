@@ -132,9 +132,11 @@ export const query = graphql`
         status
         speakers {
           name
-          title
-          department
-          institution
+          affiliations {
+            title
+            department
+            institution
+          }
           person_group
           slug
         }

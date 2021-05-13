@@ -35,22 +35,30 @@ const Person = ({ person, type }) => {
     }
   } 
 
-  let person_title = null
-  let person_institution = null
-  let person_dept = null
-  if ( !person.person_group ) { // hide titles for current staff
-    if ( type === "speaker" || type === "dialogue" || type === "participant" || type === "director" ) {
-    person_title = person.title 
-      ? <span className="title">{person.title}</span>
-      : null
-      person_dept = person.department 
-      ? <span className="dept">{person.department}</span>
-      : null
-    person_institution = person.institution
-      ? <span className="institution">{person.institution}</span>
-      : null
+  const affiliations = person.affiliations.map(aff => {
+    let person_title = null
+    let person_institution = null
+    let person_dept = null
+    if ( !person.person_group ) { // hide titles for current staff
+      if ( type === "speaker" || type === "dialogue" || type === "participant" || type === "director" ) {
+      person_title = aff.title 
+        ? <span className="title">{aff.title}</span>
+        : null
+        person_dept = aff.department 
+        ? <span className="dept">{aff.department}</span>
+        : null
+      person_institution = aff.institution
+        ? <span className="institution">{aff.institution}</span>
+        : null
+      }
     }
-  }
+    return (<>
+      {person_title}
+      {person_dept}
+      {person_institution}
+    </>)
+  })
+
   let twitter = null
   let headshot = null
   let website = null
@@ -62,7 +70,7 @@ const Person = ({ person, type }) => {
     if (person.headshot) {
       if (person.headshot.childImageSharp) {
         headshot = <GatsbyImage 
-          image={person.headshot.localFiles[0].childImageSharp.gatsbyImageData} 
+          image={person.headshot.childImageSharp.gatsbyImageData} 
           alt={person.name} 
           className="headshot" 
         />
@@ -93,8 +101,7 @@ const Person = ({ person, type }) => {
   if (type === "dialogue-index") {
     return (
       <li className="speaker person" id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
-        {person_name}
-        {person_institution}
+        {affiliations}
       </li>
     )
   }
@@ -104,9 +111,7 @@ const Person = ({ person, type }) => {
         {headshot}
         {person_name}
         <span className="details">
-          {person_title}
-          {person_dept}
-          {person_institution}
+          {affiliations}
           {twitter}
           {website}
           {bio_link}
@@ -120,9 +125,7 @@ const Person = ({ person, type }) => {
         {headshot}
         {person_name}
         <span className="details">
-          {person_title}
-          {person_dept}
-          {person_institution}
+          {affiliations}
           {twitter}
           {website}
         </span>
@@ -136,9 +139,7 @@ const Person = ({ person, type }) => {
         {headshot}
         {person_name}
         <span className="details">
-          {person_title}
-          {person_dept}
-          {person_institution}
+          {affiliations}
           {date_span}
           {twitter}
         </span>

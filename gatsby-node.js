@@ -5,7 +5,8 @@ const {createRemoteFileNode} = require('gatsby-source-filesystem')
 const toMarkdown = {
   'People' : ['bio'],
   'Research' : ['description', 'excerpt'],
-  'Events' : ['description']
+  'Events' : ['description'],
+  'Identities' : ['person bio']
 }
 
 // When creating nodes, set the following fields with an Image type.
@@ -68,14 +69,14 @@ exports.onCreateNode = async ({
     if (node.internal.type === `${table}Json`) {
       for (const key of toMarkdown[table]) {
         if (node[key]) {
-          const capKey = key.charAt(0).toUpperCase() + key.slice(1)
+          const formattedKey = (key.charAt(0).toUpperCase() + key.slice(1)).replace(/\s/g, '_')
           const tableName = table.toLowerCase()
           const textNode = {
-            id: `${node.id}-Markdown${tableName}${capKey}`,
+            id: `${node.id}-Markdown${tableName}${formattedKey}`,
             parent: node.id,
             dir: path.resolve("./"),
             internal: {
-              type: `${node.internal.type}Markdown${tableName}${capKey}`,
+              type: `${node.internal.type}Markdown${tableName}${formattedKey}`,
               mediaType: "text/markdown",
               content: node[key],
               contentDigest: createContentDigest(node[key])
@@ -86,7 +87,7 @@ exports.onCreateNode = async ({
           // Create markdownBio___NODE field
           createNodeField({
             node,
-            name: `${tableName}${capKey}___NODE`,
+            name: `${tableName}${formattedKey}___NODE`,
             value: textNode.id,
           })
         }
@@ -413,15 +414,11 @@ async function makeEvents(createPage, graphql) {
           location
           speakers {
             name
-            title
-            department
-            institution
-            bio: person_bio
-            headshot {
-              url
+            affiliations {
+              title
+              department
+              institution
             }
-            start
-            end
             person_group
             slug
           }
@@ -469,16 +466,60 @@ async function makeEvents(createPage, graphql) {
           }
         }
       }
+      allIdentitiesJson {
+        nodes {
+          slug
+          fields {
+            identitiesPerson_bio {
+              childMarkdownRemark {
+                html
+              }
+            }
+          }
+        }
+      }
+      allPeopleJson(
+        filter: {
+          events_as_speaker: {ne: null}
+        }
+      ) {
+        nodes {
+          slug
+          fields {
+            headshot {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
     }  
   `)
 
   for (const node of results.data.allEventsJson.nodes) {
-    const item = node
+    // Attach headshot and speakers bio from people and identities table
+    node.speakers.forEach(sp => {
+      results.data.allPeopleJson.nodes.map(pers => {
+        if (pers.slug === sp.slug) {
+          if (pers.fields) {
+            sp.headshot = pers.fields.headshot
+          }
+        }
+      })
+      results.data.allIdentitiesJson.nodes.map(pers => {
+        if (pers.slug === sp.slug) {
+          if (pers.fields) {
+            sp.bio = pers.fields.identitiesPerson_bio
+          }
+        }
+      })
+    })
     createPage({
-      path: `/events/${item.id}/`,
+      path: `/events/${node.id}/`,
       component: require.resolve(`./src/templates/event.js`),
       context: {
-        ...item
+        ...node
       }
     })
   }
@@ -549,12 +590,10 @@ async function makeDialogues(createPage, graphql) {
           location
           speakers {
             name
-            title
-            department
-            institution
-            bio: person_bio
-            headshot {
-              url
+            affiliations {
+              title
+              department
+              institution
             }
             website
             twitter
@@ -591,16 +630,41 @@ async function makeDialogues(createPage, graphql) {
           }
         }
       }
-    }  
+      allPeopleJson(
+        filter: {
+          events_as_speaker: {ne: null}
+        }
+      ) {
+        nodes {
+          slug
+          fields {
+            headshot {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+    }
   `)
 
   for (const node of results.data.allEventsJson.nodes) {
-    const item = node
+    // Attach headshot from people table
+    node.speakers.forEach(sp => {
+      results.data.allPeopleJson.nodes.map(pers => {
+        if (pers.slug === sp.slug) {
+          if (pers.fields) {
+            sp.headshot = pers.fields.headshot
+          }
+        }
+      })
+    })    
     createPage({
-      path: `/digital-dialogues/${item.id}/`,
+      path: `/digital-dialogues/${node.id}/`,
       component: require.resolve(`./src/templates/dialogue.js`),
       context: {
-        ...item
+        ...node
       }
     })
   }

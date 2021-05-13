@@ -85,11 +85,10 @@ export const query = graphql`
         location
         speakers {
           name
-          title
-          department
-          institution
-          headshot {
-            url
+          affiliations {
+            title
+            department
+            institution
           }
           person_group
           slug
