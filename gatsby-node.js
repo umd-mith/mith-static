@@ -286,9 +286,11 @@ async function makeResearch(createPage, graphql) {
           month_end
           participants {
             name
-            title
-            department
-            institution
+            affiliations {
+              title
+              department
+              institution
+            }
             start
             end
             person_group
@@ -296,9 +298,11 @@ async function makeResearch(createPage, graphql) {
           }
           directors {
             name
-            title
-            department
-            institution
+            affiliations {              
+              title
+              department
+              institution
+            }
             start
             end
             person_group

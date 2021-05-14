@@ -37,21 +37,26 @@ const Person = ({ person, type }) => {
 
   let affiliations = ""
   if (person.affiliations) {
-    person.affiliations.map(aff => {
+    affiliations = person.affiliations.map(aff => {
       let person_title = null
       let person_institution = null
       let person_dept = null
       if ( !person.person_group ) { // hide titles for current staff
         if ( type === "speaker" || type === "dialogue" || type === "participant" || type === "director" ) {
-        person_title = aff.title 
-          ? <span className="title">{aff.title}</span>
-          : null
+          person_title = aff.title 
+            ? <span className="title">{aff.title}</span>
+            : null
           person_dept = aff.department 
-          ? <span className="dept">{aff.department}</span>
-          : null
-        person_institution = aff.institution
-          ? <span className="institution">{aff.institution}</span>
-          : null
+            ? <span className="dept">{aff.department}</span>
+            : null
+          person_institution = aff.institution
+            ? <span className="institution">{aff.institution}</span>
+            : null
+        }
+        if ( type === "dialogue-index") {
+          person_institution = aff.institution
+            ? <span className="institution">{aff.institution}</span>
+            : null
         }
       }
       return (<>
@@ -104,7 +109,10 @@ const Person = ({ person, type }) => {
   if (type === "dialogue-index") {
     return (
       <li className="speaker person" id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
-        {affiliations}
+        {person_name}
+        <span className="details">
+          {affiliations}
+        </span>
       </li>
     )
   }

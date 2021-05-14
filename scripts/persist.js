@@ -246,39 +246,115 @@ class Persistor {
         const researchItem = researchItems[researchItemId]
   
         // Internal and External Participants
-        const intParticipants = (researchItem.get('linked internal participant affiliations') || []).map(
-          id => identities[id].fields
-        )
+        const intParticipants = (researchItem.get('linked internal participant affiliations') || []).reduce((acc, id) => {
+          
+          const participant = identities[id]
+          const person = participant.get('linked person')
+          if (!acc[person]) {
+            acc[person] = {}
+            acc[person].affiliations = []              
+          }
+          acc[person].affiliations.push(
+            {
+              title: participant.get('title'),
+              department: participant.get('department'),
+              institution: participant.get('institution')
+            }
+          )
+          acc[person].linked_person = person
+          acc[person].name = participant.get('name')
+          acc[person].start = participant.get('start')
+          acc[person].end = participant.get('end')
+          acc[person].person_group = participant.get('person group')
+          acc[person].slug = participant.get('slug')
+          return acc
+          },
+        {})
 
-        for (const participant of intParticipants) {
-          const person = people[participant['linked person'][0]]
-          participant.name = person.get('name')
-          participant.slug = person.get('id')
+        const intParticipantIds = Object.keys(intParticipants)
+
+        for (const intParticipantId of intParticipantIds) {
+          const intParticipant = intParticipants[intParticipantId]
+          const person = people[intParticipant['linked_person'][0]]
+          intParticipant.name = person.get('name')
+          intParticipant.slug = person.get('id')
         }
-  
-        const extParticipants = (researchItem.get('linked external participant affiliations') || []).map(
-          id => identities[id].fields
-        )
-  
-        for (const participant of extParticipants) {
-          const person = people[participant['linked person'][0]]
-          participant.name = person.get('name')          
+
+        const allIntParticipants = intParticipantIds.map(i => intParticipants[i])
+
+        const extParticipants = (researchItem.get('linked external participant affiliations') || []).reduce((acc, id) => {
+        
+          const participant = identities[id]
+          const person = participant.get('linked person')
+          if (!acc[person]) {
+            acc[person] = {}
+            acc[person].affiliations = []              
+          }
+          acc[person].affiliations.push(
+            {
+              title: participant.get('title'),
+              department: participant.get('department'),
+              institution: participant.get('institution')
+            }
+          )
+          acc[person].linked_person = person
+          acc[person].name = participant.get('name')
+          acc[person].start = participant.get('start')
+          acc[person].end = participant.get('end')
+          acc[person].person_group = participant.get('person group')
+          acc[person].slug = participant.get('slug')
+          return acc
+          },
+        {})
+
+        const extParticipantIds = Object.keys(extParticipants)
+
+        for (const extParticipantId of extParticipantIds) {
+          const extParticipant = extParticipants[extParticipantId]
+          const person = people[extParticipant['linked_person'][0]]
+          extParticipant.name = person.get('name')
+          extParticipant.slug = person.get('id')
         }
-  
-        researchItem.fields.participants = intParticipants.concat(extParticipants)
+
+        const allExtParticipants = extParticipantIds.map(i => extParticipants[i])
+          
+        researchItem.fields.participants = allIntParticipants.concat(allExtParticipants)
 
         // Directors
-        const directors = (researchItem.get('linked director affiliations') || []).map(
-          id => identities[id].fields
-        )
+        const directors = (researchItem.get('linked director affiliations') || []).reduce((acc, id) => {
+            const director = identities[id]
+            const person = director.get('linked person')
+            if (!acc[person]) {
+              acc[person] = {}
+              acc[person].affiliations = []              
+            }
+            acc[person].affiliations.push(
+              {
+                title: director.get('title'),
+                department: director.get('department'),
+                institution: director.get('institution')
+              }
+            )
+            acc[person].linked_person = person
+            acc[person].name = director.get('name')
+            acc[person].start = director.get('start')
+            acc[person].end = director.get('end')
+            acc[person].person_group = director.get('person group')
+            acc[person].slug = director.get('slug')
+            return acc
+          },
+        {})
+        
+        const directorIds = Object.keys(directors)
 
-        for (const director of directors) {
-          const person = people[director['linked person'][0]]
+        for (const directorId of directorIds) {
+          const director = directors[directorId]
+          const person = people[director['linked_person'][0]]
           director.name = person.get('name')
           director.slug = person.get('id')
         }
 
-        researchItem.fields.directors = directors
+        researchItem.fields.directors = directorIds.map(i => directors[i])
 
         // Links
         researchItem.fields.links = (researchItem.get('linked links') || []).map(
@@ -341,7 +417,7 @@ class Persistor {
             const person = speaker.get('linked person')
             if (!acc[person]) {
               acc[person] = {}
-              acc[person].affiliations = []              
+              acc[person].affiliations = []
             }
             acc[person].affiliations.push(
               {
