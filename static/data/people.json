@@ -892,6 +892,9 @@
     "id": "raymond-yee",
     "first": "Raymond",
     "last": "Yee",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 579,
     "events as speaker": [
       "rec0tOBrWUCYirZYc"
@@ -906,9 +909,6 @@
     "created": "2021-02-26T19:58:30.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec274gssWEkx7Z0M",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -943,6 +943,9 @@
     "id": "seb-chan",
     "first": "Seb",
     "last": "Chan",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 604,
     "events as speaker": [
       "recVAeEbEVSnquk1C"
@@ -957,9 +960,6 @@
     "created": "2021-03-10T19:53:10.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec2PtCP44wEWAVeh",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -1041,6 +1041,9 @@
     "id": "kenneth-thibodeau",
     "first": "Kenneth",
     "last": "Thibodeau",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 608,
     "events as speaker": [
       "recTxAq0Rqh9Ug59z"
@@ -1055,9 +1058,6 @@
     "created": "2021-03-25T14:23:24.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec2cnygikS2yKVQc",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -1438,6 +1438,9 @@
     "title": "Assistant Professor of History",
     "institution": "Johns Hopkins University",
     "identity as speaker": "jessica-marie-johnson-491, jessica-marie-johnson-492",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 568,
     "events as speaker": [
       "recuNCzrNxzfkRXFZ"
@@ -1452,9 +1455,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec3aUKEBB2i8ixDE",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -1898,6 +1898,9 @@
     "title": "Program Analyst",
     "department": "Office of Digital Humanities",
     "institution": "National Endowment for the Humanities",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 207,
     "wordpress id": 21050,
     "linked research as participant": [
@@ -1923,9 +1926,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:00.000Z",
     "record_id": "rec4dGBjOp7KpZQM7",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -1963,6 +1963,9 @@
     "id": "whitney-trettien",
     "first": "Whitney",
     "last": "Trettien",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 623,
     "events as speaker": [
       "recm9YLJ4jP4WOgTO"
@@ -1977,9 +1980,6 @@
     "created": "2021-03-29T16:00:00.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec4pIdATy1xFxXHC",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -2039,6 +2039,9 @@
     "id": "patricia-fumerton",
     "first": "Patricia",
     "last": "Fumerton",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 621,
     "events as speaker": [
       "recm9YLJ4jP4WOgTO"
@@ -2053,9 +2056,6 @@
     "created": "2021-03-29T15:58:22.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec5PFhVhic35sldj",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -2203,6 +2203,9 @@
     "last": "Ruecker",
     "institution": "University of Alberta",
     "bio": "\n",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 577,
     "events as speaker": [
       "recdM7UK4NXImKdb4"
@@ -2217,9 +2220,6 @@
     "created": "2021-02-16T21:04:52.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec5YBFyu0tsInXbx",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -2321,6 +2321,9 @@
     "id": "ryan-cordell",
     "first": "Ryan",
     "last": "Cordell",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 593,
     "events as speaker": [
       "recGDhqtOWE4gaO2o"
@@ -2335,9 +2338,6 @@
     "created": "2021-03-10T17:37:58.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec5giizaMN0IqDCy",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -2434,6 +2434,9 @@
     "institution": "University of Illinois",
     "bio": "**Abdul Alkalimat **is an American professor of African-American studies and library and information science at the University of Illinois at Urbana–Champaign. He is the author of several books, including _Introduction to Afro-American Studies_, _The African American Experience in Cyberspace_, and _Malcolm X for Beginners_. He curates two websites related to African-American history, \"Malcolm X: A Research Site\" and \"eBlack Studies\".\n",
     "linked events": "digital-humanities-and-african-american-african-diaspora-studies",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 190,
     "wordpress id": 21017,
     "linked research as participant": [
@@ -2455,9 +2458,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:50:33.000Z",
     "record_id": "rec5u3V81l8lNBs0Z",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -2974,6 +2974,9 @@
     "first": "Alex",
     "last": "Stinson",
     "institution": "Wikimedia Foundation",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 194,
     "wordpress id": 21015,
     "linked research as director": [
@@ -2995,9 +2998,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:52:56.000Z",
     "record_id": "rec7TTLlouHEIl6nS",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -3006,6 +3006,9 @@
     "last": "Weinstein",
     "title": "Professor",
     "institution": "New York University",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 572,
     "events as speaker": [
       "recyptyl37GnEaxNt"
@@ -3020,9 +3023,6 @@
     "created": "2021-02-13T07:43:54.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec7kspCeYZ0eAU4y",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -3372,6 +3372,9 @@
     "department": "Journalism",
     "institution": "University of Maryland",
     "linked events": "session-v-advanced-analytical-techniques",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 325,
     "wordpress id": 21145,
     "linked research as participant": [
@@ -3390,9 +3393,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:50:36.000Z",
     "record_id": "rec8fhM07kkziHSJr",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -3680,6 +3680,9 @@
     "first": "Jason",
     "last": "Rhody",
     "institution": "University of Maryland",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 267,
     "wordpress id": 21070,
     "linked research as participant": [
@@ -3705,9 +3708,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "rec9TuJnd6FcZYwCk",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -4185,6 +4185,9 @@
     "id": "ted-underwood",
     "first": "Ted",
     "last": "Underwood",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 605,
     "events as speaker": [
       "recNl0aZfY8apRgon"
@@ -4199,9 +4202,6 @@
     "created": "2021-03-10T20:12:06.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recB1oAVA5v1CnogH",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -4760,6 +4760,9 @@
     "id": "rick-tharp",
     "first": "Rick",
     "last": "Tharp",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 616,
     "linked research as participant": [
       "recdP0I3lL0t3p6fa"
@@ -4777,9 +4780,6 @@
     "created": "2021-03-29T14:11:32.000Z",
     "modified": "2021-05-13T15:55:05.000Z",
     "record_id": "recCn5kGxUllEtitN",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -5008,6 +5008,9 @@
     "last": "Berlin",
     "bio": "Ira Berlin has written extensively on American history and the larger Atlantic world in the eighteenth and nineteenth centuries, particularly the history of slavery. His first book, _[Slaves Without Masters: The Free Negro in the Antebellum South](http://www.thenewpress.com/index.php?option=com_title&task=view_title&metaproductid=1537)_ (1975) won the Best First Book Prize awarded by the National Historical Society. Berlin is the founding editor of the Freedmen and Southern Society Project, which he directed until 1991. The project's multi-volume Freedom: A Documentary history of Emancipation (1982, 1985, 1990, 1993) has twice been awarded the Thomas Jefferson Prize of the Society for History in the Federal Government, as well as the J. Franklin Jameson Prize of the American Historical Association for outstanding editorial achievement, and the Abraham Lincoln Prize for excellence in Civil-War studies by the Lincoln and Soldiers Institute of Gettysburg College. In 1999, his study of African-American life between 1619 and 1819, entitled _[Many Thousands Gone: The First Two Centuries of Slavery in Mainland North America](http://www.hup.harvard.edu/catalog/BERMAN.html)_ was awarded the Bancroft Prize for the best book in American history by Columbia University; Frederick Douglass Prize by the Gilder-Lehrman Institute; Owsley Prize by the Southern Historical Association, and the Rudwick Prize by the Organization of American Historians. In 2002, _[Generations of Captivity: A History of Slaves in the United States](http://www.hup.harvard.edu/catalog/BERGEN.html)_[ ](http://www.hup.harvard.edu/catalog/BERGEN.html)was awarded the Albert Beveridge Prize by the American Historical Association and the Ansfield Wolf Award.\nBerlin has been awarded grants by the National Endowment for the Humanities, the Ford Foundation, the Rockefeller Foundation, the Arco Foundation, the National Historical Publication and Records Commission, and the University of Maryland. He was Bi-Centennial Professor (Fulbright) at Centre de Recherche sur l'Histoire des Etats-Unis, Universite Paris VII (Institut D'Anglais Charles V), Cardozo Professor of History at Yale University, and Mellon Distinguished Professor at the University of Illinois. In 2002, same year, he was inaugurated as president of the Organization of American Historians and in 2004 he was elected a member of the American Academy of Arts and Sciences.\n",
     "bio external": "https://history.umd.edu/users/iberlin",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 575,
     "events as speaker": [
       "recVUqNL7HuHmqEHE"
@@ -5022,9 +5025,6 @@
     "created": "2021-02-13T07:52:28.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recDbi1kjH9jciwNN",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -5415,6 +5415,9 @@
     "id": "gabriela-redwine",
     "first": "Gabriela",
     "last": "Redwine",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 606,
     "events as participant": [
       "recHnhO9G81d6Tfia"
@@ -5429,9 +5432,6 @@
     "created": "2021-03-10T22:31:27.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recEd4MjijsYc9g4L",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -5571,6 +5571,9 @@
     "id": "anne-wootton",
     "first": "Anne",
     "last": "Wootton",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 597,
     "events as speaker": [
       "recGDhqtOWE4gaO2o"
@@ -5585,9 +5588,6 @@
     "created": "2021-03-10T17:40:14.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recFCHNyVwQzU4OeK",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -5981,6 +5981,9 @@
     "first": "Syd",
     "last": "Bauman",
     "institution": "Brown University",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 352,
     "wordpress id": 21180,
     "linked research as participant": [
@@ -5999,9 +6002,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recGHzbpIPA44TJ1U",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -6171,6 +6171,9 @@
     "id": "nancy-wicker",
     "first": "Nancy",
     "last": "Wicker",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 594,
     "events as speaker": [
       "recGDhqtOWE4gaO2o"
@@ -6185,9 +6188,6 @@
     "created": "2021-03-10T17:38:39.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recHLWmUCwDDiIRaN",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -6307,6 +6307,9 @@
     "department": "University Libraries",
     "institution": "University of Maryland",
     "linked events": "session-iv-basic-navigation-and-analysis-of-your-data",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 287,
     "wordpress id": 21140,
     "linked research as participant": [
@@ -6326,9 +6329,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:50:36.000Z",
     "record_id": "recHo5IFOaTUGGuWb",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -6567,6 +6567,9 @@
     "id": "nikki-silva",
     "first": "Nikki",
     "last": "Silva",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 596,
     "events as speaker": [
       "recGDhqtOWE4gaO2o"
@@ -6581,9 +6584,6 @@
     "created": "2021-03-10T17:40:07.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recJ2P2TR8DIf5GeV",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -7014,6 +7014,9 @@
         }
       }
     ],
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 610,
     "events as speaker": [
       "recfFkT3jRi0roG5K"
@@ -7028,9 +7031,6 @@
     "created": "2021-03-25T14:49:46.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recJkJT6FfY9K1alr",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -7434,6 +7434,9 @@
     "last": "Barkley Brown",
     "bio": "Professor Barkley Brown joined the Department in 1997. She holds a joint appointment with history and women's studies and is an affiliate faculty in African American Studies and American Studies. Professor Barkley Brown is co-editor of the two-volume Major Problems in African-American History (2000) and the two-volume Black Women in America: An Historical Encyclopedia (1993). Her articles have appeared in Signs, Feminist Studies, History Workshop, Sage, Public Culture, and The Journal of Urban History. \nShe has twice been awarded the Letitia Woods Brown Memorial Publication Prize for best article in African-American Women's History. She has also won the A. Elizabeth Taylor Prize for best article in southern women's history, the Martin Luther King, Jr. Prize for best article in African-American History, and the Anna Julia Cooper Award for Distinguished Scholarship in Black Women's Studies. Barkley Brown has held fellowships from the W.E.B. DuBois Institute, Harvard University, and The American Philosophical Society. A past president of the Southern Association for Women Historians, Professor Barkley Brown currently serves on the Editorial Board of Women and U.S. Social Movements, 1600-2000. F\nor more information, please visit the following link [www.barkleyb.com](http://www.barkleyb.com/).\n",
     "bio external": "https://history.umd.edu/users/barkleyb",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 574,
     "events as speaker": [
       "recw3u150icXQA3a7"
@@ -7448,9 +7451,6 @@
     "created": "2021-02-13T07:50:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recKkRKY0OylzJ7XC",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -7752,6 +7752,9 @@
     "first": "David B.",
     "last": "Searls",
     "bio": "David B. Searls was until recently a Senior Vice President at GlaxoSmithKline, where he led the bioinformatics group for 13 years. He is now an independent consultant and serves on a number of scientific advisory boards. He holds an adjunct appointment at the University of Pennsylvania, USA, where he was formerly Research Associate Professor of Genetics. He received undergraduate degrees in Life Sciences and Philosophy from the Massachusetts Institute of Technology, USA, a Ph.D. in biology from the Johns Hopkins University, Maryland, USA, and an MSE in computer science from the University of Pennsylvania. His research interests include systems biology, macromolecular linguistics and data integration. For more information including a list of recent publications, please visit his [academic homepage](http://www.med.upenn.edu/apps/faculty/index.php/g306/c425/p6363).\n",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 600,
     "events as speaker": [
       "rec4Ew7YAVS0RP5h9"
@@ -7766,15 +7769,15 @@
     "created": "2021-03-10T19:02:58.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recLSuZUgVii6ro8b",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
     "id": "carmen-balthrop",
     "first": "Carmen",
     "last": "Balthrop",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 611,
     "events as participant": [
       "recqD6JFUxqQBbXhN"
@@ -7789,9 +7792,6 @@
     "created": "2021-03-26T18:29:21.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recLaMDilqwa4ZJ4z",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -7799,6 +7799,9 @@
     "first": "Anna",
     "last": "Everett",
     "institution": "Independent Scholar",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 208,
     "wordpress id": 21039,
     "linked research as participant": [
@@ -7817,9 +7820,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recLn1rfnnExtb4vF",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -8994,6 +8994,9 @@
     "first": "Claire",
     "last": "Moses",
     "identity as speaker": "claire-moses-755",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 576,
     "events as speaker": [
       "recHowEGJoJu4XQw7"
@@ -9008,9 +9011,6 @@
     "created": "2021-02-16T20:48:39.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recO9jZCEhwuZPeyY",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -9568,6 +9568,9 @@
     "first": "Alexander",
     "last": "Weheliye",
     "institution": "Northwestern University",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 195,
     "wordpress id": 21012,
     "linked research as participant": [
@@ -9586,9 +9589,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recQXIM8YhiChfefS",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -9689,6 +9689,9 @@
     "first": "Rodney",
     "last": "Petersen",
     "institution": "Project Nethics",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 339,
     "wordpress id": 21156,
     "linked research as participant": [
@@ -9707,9 +9710,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recRQb21eBlcw1Rex",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -9718,6 +9718,9 @@
     "last": "Gill",
     "department": "Department of Art History",
     "institution": "University of Maryland",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 318,
     "wordpress id": 21108,
     "linked research as director": [
@@ -9739,9 +9742,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recRVOZeXissJbjNg",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -9956,6 +9956,9 @@
     "id": "matthew-jockers",
     "first": "Matthew",
     "last": "Jockers",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 587,
     "events as speaker": [
       "recF7g7awCqoQLFrF"
@@ -9970,9 +9973,6 @@
     "created": "2021-03-10T04:23:00.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recS5ZHqmPxwg6eG0",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -10624,6 +10624,9 @@
     "first": "Richard",
     "last": "Ovenden",
     "institution": "Oxford University",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 335,
     "wordpress id": 21161,
     "linked research as participant": [
@@ -10643,9 +10646,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recTbM3Unhwc42LbO",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -11047,6 +11047,9 @@
     "institution": "University of Maryland",
     "bio": "Robyn Muncy is Professor of History at the University of Maryland, College Park, where she has taught US women’s history, the history of progressive reform, and twentieth-century U.S. history since 1990. She earned a Ph.D. in U.S. history from Northwestern University in 1987. She has served as Interim Chair of the Department of Women’s Studies at the University of Maryland and is currently on the Board of Directors of the Labor and Working-Class History Association. She is a contributing editor of _Labor: Studies in Working-Class History, _and she is co-curating an exhibit on the struggle for women’s suffrage at the National Archives in Washington, DC. She is also on the advisory committee for the National Votes for Women Trail, a project sponsoring historical markers in all 50 states, commemorating the long and diverse history of American women’s struggle for the franchise.\n",
     "bio external": "https://history.umd.edu/users/rmuncy",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 338,
     "wordpress id": 21157,
     "linked research as director": [
@@ -11065,9 +11068,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recUBnwViIjWZLHA6",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -11126,6 +11126,9 @@
     "id": "anne-mcgrail",
     "first": "Anne",
     "last": "McGrail",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 599,
     "events as speaker": [
       "recGDhqtOWE4gaO2o"
@@ -11140,9 +11143,6 @@
     "created": "2021-03-10T17:40:24.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recUINPZ56HEJ2vxZ",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -11286,6 +11286,9 @@
     "first": "George",
     "last": "Sanger",
     "bio": "**George Sanger**, also known as “The Fat Man”, is a composer of over 200 different computer and video games. His best-known works include _The 7th Guest, Wing Commander, Hard Nova, Maniac Mansion (NES version), Loom, and Tux Racer._ Sanger leads the band _Team Fat_, which also includes fellow video game music composers Dave Govett, Joe McDermott and Kevin Weston Phelan. He created the first General MIDI soundtrack for a game, the first direct-to-MIDI live recording of musicians, the first redbook soundtrack included with the game as a separate disk, the first music for a game that was considered a “work of art,” and the first soundtrack that was considered a selling point for the game. Sanger is on the board of advisors for Game Developer Magazine, and Full Sail’s Game Development Degree program. He is on the Board of Directors of the BEAM Foundation.In 1995, he was the first music producer to be accepted into the National Recording Academy based on his work in games rather than in CD’s, film, or movies. He worked toward the goal of establishing a Grammy category for games, first alone, then years later in the group led by Chance Thomas that achieved this goal.\n",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 601,
     "events as speaker": [
       "recfuDeV1yoAhSPFQ"
@@ -11300,9 +11303,6 @@
     "created": "2021-03-10T19:34:33.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recUlG3Bfw6dtCSLf",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -11400,6 +11400,9 @@
     "last": "Palmer",
     "department": "Center for Informatics Research in Science and Scholarship,Graduate School of Library and Information Science (GSLIS)",
     "institution": "University of Illinois at Urbana-Champaign",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 221,
     "wordpress id": 21034,
     "linked research as participant": [
@@ -11419,9 +11422,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:00.000Z",
     "record_id": "recV7n1Khbjo6ejWb",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -11805,6 +11805,9 @@
     "first": "Maddie",
     "last": "Clybourn",
     "institution": "Prince George’s County Memorial Public Library System",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 565,
     "events as speaker": [
       "recvTrMAIfmqkkPKQ"
@@ -11819,9 +11822,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recWjvom9r1YtWfxh",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -13173,6 +13173,9 @@
     "first": "Andrew",
     "last": "Lih",
     "title": "Independent Scholar/Author",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 203,
     "wordpress id": 21031,
     "linked research as participant": [
@@ -13194,9 +13197,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:00.000Z",
     "record_id": "recYqs2wtApsbCB3L",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -13328,6 +13328,9 @@
     "title": "Software Development Librarian",
     "institution": "George Washington University",
     "twitter": "liblaura",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 302,
     "wordpress id": 21146,
     "linked research as participant": [
@@ -13346,9 +13349,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recZ99k9fLYif6hSi",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -13356,6 +13356,9 @@
     "first": "Jerome",
     "last": "Handler",
     "institution": "Virginia Foundation for the Humanities",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 274,
     "wordpress id": 21084,
     "linked research as participant": [
@@ -13374,9 +13377,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recZAoqDiw1ErGAm5",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -14086,6 +14086,9 @@
     "first": "Effie",
     "last": "Kapsalis",
     "institution": "Smithsonian Institution Archives",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 248,
     "wordpress id": 21076,
     "linked research as participant": [
@@ -14107,9 +14110,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:00.000Z",
     "record_id": "recaWvDzarHMXlMoo",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -14354,6 +14354,9 @@
     ],
     "bio": "Dene Grigar, Professor and Director of The Creative Media & Digital Culture Program at Washington State University Vancouver (WSUV) who works in the area of electronic literature, emergent technology and cognition, and ephemera. She is the author of net art works, like “Fallow Field: A Story in Two Parts,” and multimedia performances and installations, like _[When Ghosts Will Die](http://www.telebody.ws/ghosts/)_ (with Canadian multimedia artist Steve Gibson). She has co-authored, with Brett Oppegaard, “Fort Vancouver Mobile” and The Grand Emporium of the West,” projects funded by the National Endowment for the Humanities, and is a recipient, with Stuart Moulthrop, of a 2013 NEH Start Up grant for a digital preservation project for early electronic literature, entitled _Pathfinders_. She has curated exhibits at the Library of Congress and for organizations, including the Electronic Literature Organization and Modern Language Association, and teaches curating at WSUV and the Digital Humanities Summer Institute at the University of Victoria. She is President of the Electronic Literature Organization and Associate Editor of _[Leonardo Reviews](http://www.leonardo.info/ldr.php)_.\n",
     "bio external": "https://english.wsu.edu/dene-grigar/",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 592,
     "events as speaker": [
       "recA0BmUbtkwn2Rei"
@@ -14368,9 +14371,6 @@
     "created": "2021-03-10T17:17:00.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recb3ZDhYuavIaH0b",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -14874,6 +14874,9 @@
       }
     ],
     "bio external": "http://about.jeremydouglass.com/about.html",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 591,
     "events as speaker": [
       "recA0BmUbtkwn2Rei"
@@ -14888,9 +14891,6 @@
     "created": "2021-03-10T17:14:05.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "reccRa2u1mfwQg6Pc",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -14933,6 +14933,9 @@
     "last": "O'Neill",
     "department": "UMD Career Center",
     "institution": "University of Maryland",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 323,
     "wordpress id": 21148,
     "linked research as participant": [
@@ -14951,9 +14954,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "reccftSNJUMzBM7R2",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -15091,6 +15091,9 @@
     "first": "David",
     "last": "Driskell",
     "institution": "University of Maryland",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 238,
     "wordpress id": 21060,
     "linked research as participant": [
@@ -15109,9 +15112,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "reccuoQoVYdn1FDvR",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -17070,6 +17070,9 @@
     "first": "Howard",
     "last": "Dodson",
     "institution": "New York Public Library",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 261,
     "wordpress id": 21067,
     "linked research as participant": [
@@ -17088,9 +17091,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "rechZw2Fhuv5HphPv",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -17885,6 +17885,9 @@
     "first": "John",
     "last": "Unsworth",
     "institution": "University of Maryland",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 282,
     "wordpress id": 21097,
     "linked research as participant": [
@@ -17903,9 +17906,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recjTLRFXmjBCL0bX",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -17971,6 +17971,9 @@
     "last": "Salo",
     "department": "School of Library and Information Studies",
     "institution": "University of Wisconsin at Madison",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 243,
     "wordpress id": 21080,
     "linked research as participant": [
@@ -17989,15 +17992,15 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:00.000Z",
     "record_id": "recjVQEB8zLXpXHM1",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
     "id": "kirrily-robert",
     "first": "Kirrily",
     "last": "Robert",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 580,
     "events as speaker": [
       "rec0tOBrWUCYirZYc"
@@ -18012,9 +18015,6 @@
     "created": "2021-02-26T19:59:58.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recjWXaDW240ZRFOB",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -18514,6 +18514,9 @@
     "first": "Kara",
     "last": "Keeling",
     "institution": "University of Southern California",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 292,
     "wordpress id": 21152,
     "linked research as participant": [
@@ -18532,9 +18535,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "reckaxyngIBnTAFW7",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -18856,6 +18856,9 @@
     "first": "DJ",
     "last": "Spooky",
     "institution": "Independent Artist",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 242,
     "wordpress id": 21071,
     "linked research as participant": [
@@ -18874,9 +18877,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "reclKyLgS4RcjYlnm",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -19148,6 +19148,9 @@
         }
       }
     ],
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 578,
     "events as speaker": [
       "rec0tOBrWUCYirZYc"
@@ -19162,9 +19165,6 @@
     "created": "2021-02-26T19:55:59.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recm59opLTTeJ3Mxp",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -19312,6 +19312,9 @@
     "id": "george-oates",
     "first": "George",
     "last": "Oates",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 589,
     "events as speaker": [
       "rec0tOBrWUCYirZYc"
@@ -19326,9 +19329,6 @@
     "created": "2021-02-26T19:53:58.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recmV9FetaDZ2OqLI",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -19394,6 +19394,9 @@
     "id": "gary-gerstle",
     "first": "Gary",
     "last": "Gerstle",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 613,
     "events as speaker": [
       "recy9fjl6GPqySAYe"
@@ -19408,9 +19411,6 @@
     "created": "2021-03-28T05:37:56.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recmpxfcVc1a7KXNM",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -19531,6 +19531,9 @@
     "id": "clifford-anderson",
     "first": "Clifford",
     "last": "Anderson",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 598,
     "events as speaker": [
       "recGDhqtOWE4gaO2o"
@@ -19545,9 +19548,6 @@
     "created": "2021-03-10T17:40:19.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recngnnE56OXEicIU",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -19967,6 +19967,9 @@
     "id": "jo-guldi",
     "first": "Jo",
     "last": "Guldi",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 588,
     "events as speaker": [
       "recF7g7awCqoQLFrF"
@@ -19981,9 +19984,6 @@
     "created": "2021-03-10T04:25:02.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recoVXpAEGUPycQaF",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -20524,6 +20524,9 @@
     "department": "Computer Science",
     "institution": "UMD",
     "linked events": "session-v-advanced-analytical-techniques",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 232,
     "wordpress id": 21036,
     "linked research as participant": [
@@ -20542,9 +20545,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:50:36.000Z",
     "record_id": "recqDYBpPgX1xEbzh",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -20636,6 +20636,9 @@
     "id": "amanda-eubanks-winkler",
     "first": "Amanda",
     "last": "Eubanks Winkler",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 622,
     "events as speaker": [
       "recm9YLJ4jP4WOgTO"
@@ -20650,9 +20653,6 @@
     "created": "2021-03-29T15:59:03.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recqp9UbaazqBkEhe",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -20970,6 +20970,9 @@
     "id": "sally-bedell-smith",
     "first": "Sally",
     "last": "Bedell Smith",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 603,
     "events as speaker": [
       "recfuDeV1yoAhSPFQ"
@@ -20984,9 +20987,6 @@
     "created": "2021-03-10T19:35:42.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recrtkxC55zGdkLSK",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -21019,6 +21019,9 @@
         }
       }
     ],
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 612,
     "events as participant": [
       "recqD6JFUxqQBbXhN"
@@ -21033,9 +21036,6 @@
     "created": "2021-03-26T18:31:35.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "recs1wgIeBlwtZSfg",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -21276,6 +21276,9 @@
     "id": "peter-keane",
     "first": "Peter",
     "last": "Keane",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 581,
     "events as speaker": [
       "rec0tOBrWUCYirZYc"
@@ -21290,9 +21293,6 @@
     "created": "2021-02-26T20:02:47.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recsOmzL2qhJXMCEo",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -21746,6 +21746,9 @@
     "department": "Department of Plant Science & Landscape Architecture",
     "institution": "University of Maryland",
     "linked events": "what-counts-as-data-interdisciplinary-panel-",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 553,
     "events as speaker": [
       "recgbqtyUa6Pv4Dpm"
@@ -21760,9 +21763,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:50:39.000Z",
     "record_id": "rectECkva4L9ebBmP",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -21799,6 +21799,9 @@
     "first": "Pamela",
     "last": "Z",
     "institution": "Independent Artist",
+    "people groups": [
+      "Collaborator"
+    ],
     "new id": 326,
     "wordpress id": 21136,
     "linked research as participant": [
@@ -21817,9 +21820,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:55:10.000Z",
     "record_id": "rectpHHFenhcgzAKX",
-    "people groups": [
-      "Collaborator"
-    ],
     "current identities": []
   },
   {
@@ -22073,6 +22073,9 @@
     "last": "Vaughan",
     "bio": "Professor Vaughan specializes in the cultural, gender, and educational history of modern Mexico. Her book, _[Cultural Politics in Revolution: Teachers, Peasants, and Schools in Mexico, 1930-1940](http://www.uapress.arizona.edu/BOOKS/bid1020.htm)_ received the Herbert Eugene Bolton Prize as the most outstanding book in Latin American history in 1997 and the Bryce Wood Award of the Latin American Studies Association for best book on Latin America published in English. She is also the author of _The State, Education and Social Class in Mexico, 1880-1928_ (1982) and coeditor of several collections including _[Women of the Mexican Countryside, 1850-1990: Creating Spaces, Shaping Transitions](http://www.uapress.arizona.edu/BOOKS/bid144.htm)_ (1994), _Escuela y sociedad en el periodo cardenista_ (1998). Her most recent publications are _[The Eagle and the Virgin: Cultural Revolution and National Identity in Mexico, 1920-1940](http://www.dukeupress.edu/books.php3?isbn=3668-5)_ (2006) coedited with Stephen Lewis, and _[Sex in Revolution: Gender, Politics and Power in Modern Mexico](http://www.dukeupress.edu/cgibin/forwardsql/search.cgi?template0=nomatch.htm&template2=books/book_detail_page.htm&user_id=6916236613&Bmain.item_option=1&Bmain.item=9347)_[ ](http://www.dukeupress.edu/cgibin/forwardsql/search.cgi?template0=nomatch.htm&template2=books/book_detail_page.htm&user_id=6916236613&Bmain.item_option=1&Bmain.item=9347) (2006) coedited with Jocelyn Olcott and Gabriela Cano. \nShe is former editor of the _Hispanic American Historical Review_ and current president of the Conference on Latin American History. She has received fellowships from the John Simon Guggenheim Foundation, the National Endowment for the Humanities, the Council for the International Exchange of Scholars (Fulbright) and the Social Science Research Council and grants from the MacArthur Foundation, the Fulbright Hays Program, and the Illinois Humanities Council. She has been visiting professor at the Benemerita Universidad Autonoma de Puebla and the Departamento de Investigaciones Educativas in Mexico City. \nShe is currently completing the life history of painter Jose Zuniga, a biographical approach to understanding the Mexico City youth rebellion of the 1960s.\n",
     "bio external": "https://history.umd.edu/users/mkv",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 573,
     "events as speaker": [
       "rec8RL6tQQO2uU1to"
@@ -22087,9 +22090,6 @@
     "created": "2021-02-13T07:50:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recuTLitJmiP71B1Z",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -22272,32 +22272,6 @@
     "id": "timothy-stinson",
     "first": "Timothy",
     "last": "Stinson",
-    "headshot": [
-      {
-        "id": "attbvaX0niwyBAIla",
-        "url": "https://dl.airtable.com/.attachments/636a535d714ec0c4cf3c007ecf87c4c6/853d180e/thumbnail.php",
-        "filename": "timothy-stinson",
-        "size": 266998,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/70ba0192d927037ae6ff76b5faa59472/bcaf0028",
-            "width": 24,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/16dc6c7d763df2ddb56eebca697ab20d/71677f85",
-            "width": 325,
-            "height": 487
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/71d0d1bfa092de787513381d97e3ef64/ae3fb2e8",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      }
-    ],
     "identity as past": "timothy-stinson-431",
     "bio": " \n",
     "linked events": "everything-old-is-new-again-the-re-emergence-of-medieval-polyvocality-in-digital-manuscript-archives",
@@ -22316,8 +22290,34 @@
     "slug": "timothy-stinson",
     "slug formula": "timothy-stinson",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-05-13T15:20:14.000Z",
+    "modified": "2021-05-14T04:26:50.000Z",
     "record_id": "recuxBYNQ0yfFFAmp",
+    "headshot": [
+      {
+        "id": "attsjKkx3JaI4RpVM",
+        "url": "https://dl.airtable.com/.attachments/429cc2412e460f2aa96f29b94499f680/8fa2e60a/timothy-stinson.png",
+        "filename": "timothy-stinson.png",
+        "size": 266998,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/2ed9b1d8c024d2c35547762a451d10f7/4d522e15",
+            "width": 24,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9fc847af0dcecf0651631cfb9cf2ad70/23a52b12",
+            "width": 325,
+            "height": 487
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/be98b14cbd6df676d9d43573fc96f3a3/ae814d28",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "current identities": []
   },
   {
@@ -22458,6 +22458,9 @@
     "first": "Gina",
     "last": "Calia",
     "institution": "UMD Libraries",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 257,
     "wordpress id": 21103,
     "linked research as participant": [
@@ -22476,9 +22479,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recvVZ16EHOgEKh1I",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -22541,6 +22541,9 @@
     "id": "christopher-johnson-roberson",
     "first": "Christopher",
     "last": "Johnson-Roberson",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 590,
     "events as speaker": [
       "recF7g7awCqoQLFrF"
@@ -22555,9 +22558,6 @@
     "created": "2021-03-10T04:26:21.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recvZPtv5muzEDq4F",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -22670,56 +22670,6 @@
     "id": "bryan-carter",
     "first": "Bryan",
     "last": "Carter",
-    "headshot": [
-      {
-        "id": "att6q7XtVqRtvxITS",
-        "url": "https://dl.airtable.com/.attachments/5f7e8fdd5d91591f0346b126218df5ed/f32c1ee0/Dr._Bryan_Carter.BryanCarter",
-        "filename": "Dr._Bryan_Carter",
-        "size": 128922,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/e74b9bbafc1f59eac9389cf4c322d319/6a8bab59",
-            "width": 32,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/7a64d350d3d7052ee96d7dbf9270de7b/a7c20e42",
-            "width": 400,
-            "height": 454
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/bce52f5b72f5f6367b5a5904f7f8ba85/6875d10f",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      },
-      {
-        "id": "attVVnqrzkrXTaUy9",
-        "url": "https://dl.airtable.com/.attachments/f1be910733038cce2801458f523e00b8/95312cd5/carterrightsideup.jpg",
-        "filename": "carterrightsideup.jpg",
-        "size": 55260,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/7ff59a5cbbe32816c13cea515a276668/04ffa96c",
-            "width": 24,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/8857b3add8f30e0813b890380d7320a8/717d9bd4",
-            "width": 340,
-            "height": 510
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/13f8bf8b59ee5f544cdfadbfb2333272/b4c63507",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      }
-    ],
     "institution": "Central Missouri State University",
     "identity as speaker": "bryan-carter-64",
     "bio": "**Bryan Carter** is an Associate Professor of literature at the University of Central Missouri. He specializes in African American literature of the 20th Century with a primary focus on the Harlem Renaissance and has a secondary emphasis on visual culture. He has published numerous articles on his project, Virtual Harlem, an educational sim in Second Life representing Harlem as it existed during the Harlem Renaissance of the 1920s, and has presented it at locations around the world. \n",
@@ -22748,8 +22698,58 @@
     "slug": "bryan-carter",
     "slug formula": "bryan-carter",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-05-13T15:21:06.000Z",
+    "modified": "2021-05-14T04:27:33.000Z",
     "record_id": "recvfZYGNk2c4x41C",
+    "headshot": [
+      {
+        "id": "attGBSprRr8ozBgz4",
+        "url": "https://dl.airtable.com/.attachments/31ca727292abc42e6229ffce34f4b9e0/33975846/Dr_Bryan_Carter.jpg",
+        "filename": "Dr_Bryan_Carter.jpg",
+        "size": 128922,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/debbfaf78650066788c69c4a43ba0b8c/a03716d7",
+            "width": 32,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0836e156e346402fa6651df4eeac1a63/407a87ba",
+            "width": 400,
+            "height": 454
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a813f2f8a153731a58165d64f3173c7c/8c79ca32",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      },
+      {
+        "id": "attsrIw83CMiehLtQ",
+        "url": "https://dl.airtable.com/.attachments/b7ec67fb0541bd474f70665ffff5e9e1/48895a10/carterrightsideup.jpg",
+        "filename": "carterrightsideup.jpg",
+        "size": 55260,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/2f4e98526ee870fa90c118504c046502/88998aae",
+            "width": 24,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/50cfefeac6dcfb6ffc4ec9214597a324/d11fcaa5",
+            "width": 340,
+            "height": 510
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a20226210128fc01acf31599c58d57ce/3b5df183",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "current identities": []
   },
   {
@@ -23116,6 +23116,9 @@
     "last": "Wickner",
     "department": "University Libraries",
     "institution": "University of Maryland",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 200,
     "wordpress id": 21021,
     "linked research as participant": [
@@ -23134,9 +23137,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:00.000Z",
     "record_id": "recwd7O9esfHNFfnG",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -23171,6 +23171,9 @@
     "id": "john-rink",
     "first": "John",
     "last": "Rink",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 569,
     "events as speaker": [
       "recmSskDscHXOq3xl"
@@ -23185,9 +23188,6 @@
     "created": "2021-02-12T16:50:03.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recwfzzxuELlIZW21",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -23250,6 +23250,9 @@
     "last": "O'Neal",
     "institution": "University of Maryland Libraries",
     "linked events": "response-abilities-to-data-lightning-talks",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 564,
     "events as speaker": [
       "recvTrMAIfmqkkPKQ"
@@ -23264,9 +23267,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:50:39.000Z",
     "record_id": "recwoZGHr8rO2o0sZ",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -23305,6 +23305,9 @@
     "last": "Brown",
     "title": "Professor of English",
     "institution": "University of Guelph",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 571,
     "events as speaker": [
       "recoFfFg1889dnPEm"
@@ -23319,15 +23322,15 @@
     "created": "2021-02-12T20:19:09.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recx5hIoRvySPiiAG",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
     "id": "bill-bly",
     "first": "Bill",
     "last": "Bly",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 602,
     "events as speaker": [
       "recA0BmUbtkwn2Rei"
@@ -23341,9 +23344,6 @@
     "created": "2021-03-10T17:25:10.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recxHaLA6bJgHGMAu",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -23529,6 +23529,9 @@
     "id": "katherine-hayles",
     "first": "Katherine",
     "last": "Hayles",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 609,
     "events as speaker": [
       "recTxAq0Rqh9Ug59z"
@@ -23543,9 +23546,6 @@
     "created": "2021-03-25T14:24:45.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recy1U3GHAfU0e6W1",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -23635,6 +23635,9 @@
     "id": "lilla-kopár",
     "first": "Lilla",
     "last": "Kopár",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 595,
     "events as speaker": [
       "recGDhqtOWE4gaO2o"
@@ -23649,9 +23652,6 @@
     "created": "2021-03-10T17:39:20.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recyM0usgCqmBWOmr",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -23855,6 +23855,9 @@
     ],
     "title": "Journalist",
     "bio": "Andrew Blum is a journalist and the author of _Tubes: A Journey to the Center of the Internet_, the first book-length look at the physical heart of the Internet itself. _Tubes_ was first published in June 2012 by Ecco/Harpercollins in the US and Viking/Penguin in the UK. It was a national bestseller, and met with wide acclaim from _The New York Times_, _The Wall Street Journal_, _The Boston Globe_, _Salon_, _The Guardian_, _The Economist, The Independent, Kirkus Reviews, Bookforum, Scientific American, New Scientist, Brain Pickings, Ars Technica, Science News_ and many others. Blum discussed _Tubes_ with Terry Gross on NPR’s _Fresh Air_; BBC 4 presented it as a “Book of the Week”; and Blum spoke about his research on the stages of TED Global and the London School of Economics, among dozens of other venues. Design Observer named Tubes its 2012 “Book of the Year,” and London’s Independent called it “The year’s most stimulating and original ‘travel’ book.” When the Edward Snowden/NSA revelations made the Internet’s infrastructure a vital diplomatic question, journalists from Washington to London to Frankfurt to São Paulo relied on _Tubes_ as a crucial reference. It has been translated into nine languages.\n",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 566,
     "linked research as participant": [
       "rec1dMJqa7mO2QtTB"
@@ -23872,9 +23875,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:14.000Z",
     "record_id": "recyhZK9FssmOXsHv",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
@@ -24352,6 +24352,9 @@
     "last": "Davis Kaufman",
     "title": "Associate Director",
     "institution": "WGBH Media Archives",
+    "people groups": [
+      "Speaker"
+    ],
     "new id": 223,
     "wordpress id": 21049,
     "linked research as participant": [
@@ -24373,9 +24376,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-05-13T15:53:00.000Z",
     "record_id": "reczS6Qmu0RHJFNML",
-    "people groups": [
-      "Speaker"
-    ],
     "current identities": []
   },
   {
