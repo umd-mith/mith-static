@@ -36,7 +36,6 @@ const Dialogue = ({ pageContext: item }) => {
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      console.log(p)
       return <Person key={`p${i}`} person={p} type="dialogue" />
     })
     speakers = <div className="speakers">
