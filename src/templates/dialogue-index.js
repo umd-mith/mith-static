@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby';
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Paginator from '../components/paginator'
@@ -27,30 +27,34 @@ const DialogueIndex = ({data}) => {
             const talk_title = item.talk_title
             const title_text = talk_title ? talk_title : event_title
             const title = item.talk_subtitle
-              ? <h2 className="title"><Link to={slug}>{title_text}<span className="subtitle">{item.talk_subtitle}</span></Link></h2>
-              : <h2 className="title"><Link to={slug}>{title_text}</Link></h2>
+            ? <h2 className="title">
+                <Link to={slug}>{title_text}<span className="subtitle">{item.talk_subtitle}</span></Link>
+              </h2>
+            : <h2 className="title">
+                <Link to={slug}>{title_text}</Link>
+              </h2>
 
-            const location = item.location ? item.location : ''
+            const location = item.location ? <div className="location">{item.location}</div> : ''
           
             let speakers_list = null
             let speakers = null
             const speakers_data = item.speakers ? item.speakers : []
-            if (item.speakers) {
+            if (item.speakers.length > 0) {
               speakers_list = speakers_data.map((p, i) => {
-                return <Person key={`p${i}`} person={p} showTitle="false" type="dialogue-index" />
+                return <Person key={`p${i}`} person={p} type="dialogue-index" />
               })
-              speakers = <ul className="speakers">
-                {speakers_list}
-              </ul>
+              speakers = <div className="speakers">
+                  <ul>{speakers_list}</ul>
+                </div>
             }
 
             return (
-              <article className="post dialogue event-item-post" key={`dialogue-${item.id}`}>
+              <article className="post dialogue event-item-post" id={item.id.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.id}`}>
                 {title}
                 <div className="meta">
                   {speakers}
-                  <EventTime start={item.start} end={item.end} />
                   {location}
+                  <EventTime start={item.start} />
                 </div>
               </article>
             )
@@ -68,10 +72,11 @@ export const query = graphql`
     allEventsJson (
       limit: $limit
       skip: $skip
-      filter: {event_type: {eq: "Digital Dialogue"}}
+      filter: {
+        event_type: {eq: "Digital Dialogue"}
+      }
       sort: {
-        fields: [start_date], 
-        order: [DESC]
+        fields: [start_date], order: [DESC]
       }
     ) {
       nodes {

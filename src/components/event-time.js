@@ -15,11 +15,11 @@ const EventTime = ({start, end, icon}) => {
   let startEl = ''
   if (start.hour() === 0) {
     startEl = <time itemProp="startDate" className="start" dateTime={start.format('YYYY-MM-DD')}>
-      <span className="date">{start.format('LL')}</span>
+      <span className="date">{iconCalendar} {start.format('LL')}</span>
     </time>
   } else {
     startEl = <time itemProp="startDate" className="start" dateTime={start.format()}>
-      <span className="date">{start.format('LL')}</span>
+      <span className="date">{iconCalendar} {start.format('LL')}</span>
       <span className="time">{iconClock} {start.format('LT')}</span>
     </time>
   }
@@ -39,9 +39,9 @@ const EventTime = ({start, end, icon}) => {
   }
 
   if (startEl && endEl) {
-    return <span className="event-date">{iconCalendar} {startEl}{endEl}</span>
+    return <span className="event-date">{startEl}{endEl}</span>
   } else {
-    return <span className="event-date">{iconCalendar} {startEl}</span>
+    return <span className="event-date">{startEl}</span>
   }
 }
 

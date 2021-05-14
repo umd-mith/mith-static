@@ -44,7 +44,7 @@ const Dialogue = ({ pageContext: item }) => {
       <ul>{speakers_list}</ul>
     </div>
     speaker_bios_list = speakers_data.map(b => {
-      if (b.bio != null) {
+      if (b.bio) {
         return <div id={b.slug} className="speaker-bio">{b.bio}</div>
       }
     })
@@ -150,7 +150,7 @@ const Dialogue = ({ pageContext: item }) => {
 
   const livestream = item.livestream
     ? <div className="livestream-link">
-        <a className="button" href={livestream} target="_blank" rel="noreferrer">
+        <a className="button" href={item.livestream} target="_blank" rel="noreferrer">
           Watch Livestream
         </a>
       </div> : ''
@@ -159,7 +159,7 @@ const Dialogue = ({ pageContext: item }) => {
     ? <div className="video">
         <h2>Media</h2>
         <div className="video-wrapper">
-          <iframe src={`https://player.vimeo.com/video/${video_id}?color=afbc21&title=0&byline=0&portrait=0`} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe title={`${title} Video`} src={`https://player.vimeo.com/video/${video_id}?color=afbc21&title=0&byline=0&portrait=0`} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
       </div> : ''
@@ -192,6 +192,7 @@ const Dialogue = ({ pageContext: item }) => {
             {sponsors}
             {partners}
             {video_link}
+            {livestream}
             {links}
             {disciplines}
             {methods}
