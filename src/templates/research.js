@@ -51,12 +51,13 @@ const Research = ({ pageContext: item }) => {
   
   let director_list = null
   let directors = null
+  const directors_title = item.directors.length > 1 ? "Directors" : "Director"
   if (item.directors.length > 0) {
     director_list = item.directors.map(person => {
       return <Person person={person} showTitle="true" type="director" />
     })
     directors = <div className="directors">
-      <h2>Directors</h2>
+      <h2>{directors_title}</h2>
       <ul>{director_list}</ul>
     </div>
   }
@@ -91,6 +92,7 @@ const Research = ({ pageContext: item }) => {
   let sponsors_list = null
   let sponsors = null
   let sponsor_name = null
+  const sponsors_title = item.sponsors.length > 1 ? "Sponsors" : "Sponsor"
   if (item.sponsors.length > 0) {
     sponsors_list = item.sponsors.map(s => {
       if (s.website) {
@@ -102,7 +104,25 @@ const Research = ({ pageContext: item }) => {
       }
       return <li id={s.slug}>{sponsor_name}</li>
     })
-    sponsors = <div className="sponsors"><h2>Sponsors</h2><ul>{sponsors_list}</ul></div>
+    sponsors = <div className="sponsors"><h2>{sponsors_title}</h2><ul>{sponsors_list}</ul></div>
+  }
+
+  let partners_list = null
+  let partners = null
+  let partner_name = null
+  const partners_title = item.partners.length > 1 ? "Partners" : "Partner"
+  if (item.partners.length > 0) {
+    partners_list = item.partners.map(p => {
+      if (p.website) {
+        partner_name = p.website.startsWith('http') 
+          ? p.website
+          : <a href={`http://${p.website}`} title={p.name} target="_blank" rel="noreferrer">{p.name}</a>
+      } else {
+        partner_name = p.name
+      }
+      return <li id={p.slug}>{partner_name}</li>
+    })
+    partners = <div className="partners"><h2>{partners_title}</h2><ul>{partners_list}</ul></div>
   }
 
   let events_list = null 
@@ -136,6 +156,7 @@ const Research = ({ pageContext: item }) => {
             {directors}
             {participants}
             {links}
+            {partners}
             {sponsors}
           </div>       
         </section>
