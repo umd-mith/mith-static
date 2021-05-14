@@ -5,7 +5,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Paginator from '../components/paginator'
-//import ResearchTime from '../components/research-time'
+import ResearchTime from '../components/research-time'
 
 import './post-index.css'
 import './research-index.css'
@@ -23,8 +23,12 @@ const ResearchIndex = ({data}) => {
           {items.map(item => {
             const slug = '/research/' + item.slug + '/'
             const active = item.active === 'TRUE' ? <span className="pill">Active</span> : ''
-            const started = item.year_start ? <span><time>{item.year_start}</time></span> : ''
-            const ended = item.year_end ? <span> &ndash; <time>{item.year_end}</time></span> : ''
+            const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
+            let end = ''
+            if (item.year_end) {
+              end = item.month_end ? `${item.year_end}-${item.month_end}` : item.year_end
+            }
+            const dates = <ResearchTime start={start} end={end} active={item.active} />
 
             let excerpt = ''
             let image = ''
@@ -49,7 +53,7 @@ const ResearchIndex = ({data}) => {
               <article className="post research-item-post" key={`research-${item.id}`} id={itemId}>
                 {title}
                 <div className="meta">
-                  {active} {started}{ended}
+                  {dates}
                 </div>
                 <div className="post-excerpt">
                   {excerpt}
