@@ -97,9 +97,10 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: 
-    "headshot name"
-    "headshot details"
-    "bio bio";
+    "headshot"
+    "name"
+    "details"
+    "bio";
   grid-column-gap: var(--content-spacing-md);
   grid-row-gap: var(--content-spacing-xs);
   align-items: flex-start;
@@ -110,10 +111,9 @@
   }
   .event .speakers .person {
     grid-template-areas: 
-      "headshot"
-      "name"
-      "details"
-      "bio"
+      "headshot name"
+      "headshot details"
+      "bio bio";
   }
 }
 .event .speakers .person .headshot {
