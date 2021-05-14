@@ -35,29 +35,32 @@ const Person = ({ person, type }) => {
     }
   } 
 
-  const affiliations = person.affiliations.map(aff => {
-    let person_title = null
-    let person_institution = null
-    let person_dept = null
-    if ( !person.person_group ) { // hide titles for current staff
-      if ( type === "speaker" || type === "dialogue" || type === "participant" || type === "director" ) {
-      person_title = aff.title 
-        ? <span className="title">{aff.title}</span>
-        : null
-        person_dept = aff.department 
-        ? <span className="dept">{aff.department}</span>
-        : null
-      person_institution = aff.institution
-        ? <span className="institution">{aff.institution}</span>
-        : null
+  let affiliations = ""
+  if (person.affiliations) {
+    person.affiliations.map(aff => {
+      let person_title = null
+      let person_institution = null
+      let person_dept = null
+      if ( !person.person_group ) { // hide titles for current staff
+        if ( type === "speaker" || type === "dialogue" || type === "participant" || type === "director" ) {
+        person_title = aff.title 
+          ? <span className="title">{aff.title}</span>
+          : null
+          person_dept = aff.department 
+          ? <span className="dept">{aff.department}</span>
+          : null
+        person_institution = aff.institution
+          ? <span className="institution">{aff.institution}</span>
+          : null
+        }
       }
-    }
-    return (<>
-      {person_title}
-      {person_dept}
-      {person_institution}
-    </>)
-  })
+      return (<>
+        {person_title}
+        {person_dept}
+        {person_institution}
+      </>)
+    })
+  }
 
   let twitter = null
   let headshot = null

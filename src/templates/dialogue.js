@@ -36,7 +36,6 @@ const Dialogue = ({ pageContext: item }) => {
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      console.log(p)
       return <Person key={`p${i}`} person={p} type="dialogue" />
     })
     speakers = <div className="speakers">
@@ -150,7 +149,7 @@ const Dialogue = ({ pageContext: item }) => {
 
   const livestream = item.livestream
     ? <div className="livestream-link">
-        <a className="button" href={livestream} target="_blank" rel="noreferrer">
+        <a className="button" href={item.livestream} target="_blank" rel="noreferrer">
           Watch Livestream
         </a>
       </div> : ''
