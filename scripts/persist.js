@@ -101,11 +101,11 @@ class Persistor {
     return this._posts
   }
 
-  get researchSyncedPosts() {
+  get syncedPosts() {
     // This data is derived from a synced table of posts. Use this.posts in most other cases.
-    if (this._researchSyncedPosts) return this._researchSyncedPosts
-    this._researchSyncedPosts = this.getTable(this.mithBase, 'Posts')
-    return this._researchSyncedPosts
+    if (this._syncedPosts) return this._syncedPosts
+    this._syncedPosts = this.getTable(this.mithBase, 'Posts')
+    return this._syncedPosts
   }
 
   writeJson(o, filename) {
@@ -246,7 +246,7 @@ class Persistor {
       const partnersAndSponsors = await this.partnersAndSponsors
       const events = await this.events
       const taxonomy = await this.taxonomy
-      const researchSyncedPosts  = await this.researchSyncedPosts
+      const syncedPosts  = await this.syncedPosts
   
       const research = []
   
@@ -395,7 +395,7 @@ class Persistor {
 
         // Posts
         researchItem.fields.posts = (researchItem.get('linked posts') || []).map(
-          id => researchSyncedPosts[id].fields
+          id => syncedPosts[id].fields
         )
   
         research.push(researchItem.fields)
