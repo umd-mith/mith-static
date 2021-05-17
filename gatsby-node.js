@@ -118,28 +118,28 @@ async function makePeople(createPage, graphql) {
         }
       ) {
         nodes {
+          name
           fields {
-            peopleBio {
-              childMarkdownRemark {
-                html
-              }
-            }
             headshot {
               childImageSharp {
                 gatsbyImageData(width: 500, height: 500, transformOptions: {fit: COVER}, quality: 100, backgroundColor: "rgba(255,255,255,0)")
               }
               publicURL
             }
+            peopleBio {
+              childMarkdownRemark {
+                html
+              }
+            }
           }
+          title
           website
           twitter
-          title
-          people_groups
-          research_interests
           phone
-          name
           email
           bio_external
+          research_interests
+          people_groups
           id
         }
       }
@@ -334,6 +334,13 @@ async function makeResearch(createPage, graphql) {
             start: start_date
             end: end_date
             location
+          }
+          posts {
+            post_title
+            author
+            author_name
+            post_date
+            slug
           }
           disciplines {
             term: name

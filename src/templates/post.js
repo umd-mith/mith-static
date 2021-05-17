@@ -9,6 +9,7 @@ import './post.css'
 const Post = ({ data, pageContext: post }) => {
   const metadata = data.postInfo.nodes[0]
   if (!metadata) return null
+
   return (
     <Layout>
       <SEO title={metadata.post_title} />
@@ -31,8 +32,13 @@ const Post = ({ data, pageContext: post }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    postInfo: allPostsJson(filter: {
-      DD_Post: {eq: null}, Event_Post: {eq: null}, slug: {eq: $slug}}) {
+    postInfo: allPostsJson(
+      filter: {
+        DD_Post: {eq: null}, 
+        Event_Post: {eq: null}, 
+        slug: {eq: $slug}
+      }
+    ) {
       nodes {
         slug
         author_name

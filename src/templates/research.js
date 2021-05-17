@@ -97,7 +97,7 @@ const Research = ({ pageContext: item }) => {
     sponsors_list = item.sponsors.map(s => {
       if (s.website) {
         sponsor_name = s.website.startsWith('http') 
-          ? s.website
+          ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
           : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
       } else {
         sponsor_name = s.name
@@ -115,7 +115,7 @@ const Research = ({ pageContext: item }) => {
     partners_list = item.partners.map(p => {
       if (p.website) {
         partner_name = p.website.startsWith('http') 
-          ? p.website
+          ? <a href={p.website} title={p.name} target="_blank" rel="noreferrer">{p.name}</a>
           : <a href={`http://${p.website}`} title={p.name} target="_blank" rel="noreferrer">{p.name}</a>
       } else {
         partner_name = p.name
@@ -130,7 +130,7 @@ const Research = ({ pageContext: item }) => {
   if (item.events.length > 0) {
     events_list = item.events.map(e => {
       return <li id={e.id}>
-        <h3 className="title" itemProp="name"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
+        <h3 className="title"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
         <EventTime start={e.start} end={e.end} />
         <div itemProp="location" className="location">{e.location}</div>
         <div className="description"></div>
@@ -138,6 +138,21 @@ const Research = ({ pageContext: item }) => {
       </li>
     })
     events = <div className="events"><h2>Events</h2><ul>{events_list}</ul></div>
+  }
+
+  let news_list = null 
+  let news = null
+  if (item.posts.length > 0) {
+    news_list = item.posts.map(n => {
+      return <li id={n.slug.toLowerCase().replace(/-/g, '_')}>
+        <div className="post-title"><Link key={`n-${n.record_id}`} to={`../../news/${n.slug}`}>{n.post_title}</Link></div>
+        <div className="meta">
+          <time>{n.post_date}</time>
+          <div className="author hidden">{n.author_name}</div>
+        </div>
+      </li>
+    })
+    news = <div className="news"><h2>News</h2><ul>{news_list}</ul></div>
   }
 
   return (
@@ -156,6 +171,7 @@ const Research = ({ pageContext: item }) => {
             {directors}
             {participants}
             {links}
+            {news}
             {partners}
             {sponsors}
           </div>       
