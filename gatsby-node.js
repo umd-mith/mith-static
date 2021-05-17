@@ -467,6 +467,13 @@ async function makeEvents(createPage, graphql) {
               url
             }
           }
+          posts {
+            post_title
+            author
+            author_name
+            post_date
+            slug
+          }
           disciplines {
             term: name
             type: method_or_discipline

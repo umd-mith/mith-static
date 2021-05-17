@@ -417,6 +417,7 @@ class Persistor {
       const partnersAndSponsors = await this.partnersAndSponsors
       const types = await this.types
       const taxonomy = await this.taxonomy
+      const syncedPosts = await this.syncedPosts
   
       const events = []
       
@@ -503,6 +504,11 @@ class Persistor {
         // Methods
         eventsItem.fields.methods = (eventsItem.get('methods') || []).map(
           id => taxonomy[id].fields
+        )
+        
+        // Posts
+        eventsItem.fields.posts = (eventsItem.get('linked posts') || []).map(
+          id => syncedPosts[id].fields
         )
 
         events.push(eventsItem.fields)
