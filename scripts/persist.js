@@ -101,6 +101,13 @@ class Persistor {
     return this._posts
   }
 
+  get researchSyncedPosts() {
+    // This data is derived from a synced table of posts. Use this.posts in most other cases.
+    if (this._researchSyncedPosts) return this._researchSyncedPosts
+    this._researchSyncedPosts = this.getTable(this.mithBase, 'Posts')
+    return this._researchSyncedPosts
+  }
+
   writeJson(o, filename) {
     const fullPath = path.resolve(__dirname, '../static/data/', filename)
     fs.writeFileSync(fullPath, JSON.stringify(o, null, 2) + '\n')
@@ -239,6 +246,7 @@ class Persistor {
       const partnersAndSponsors = await this.partnersAndSponsors
       const events = await this.events
       const taxonomy = await this.taxonomy
+      const researchSyncedPosts  = await this.researchSyncedPosts
   
       const research = []
   
@@ -383,6 +391,11 @@ class Persistor {
         // Methods
         researchItem.fields.methods = (researchItem.get('methods') || []).map(
           id => taxonomy[id].fields
+        )
+
+        // Posts
+        researchItem.fields.posts = (researchItem.get('linked posts') || []).map(
+          id => researchSyncedPosts[id].fields
         )
   
         research.push(researchItem.fields)
