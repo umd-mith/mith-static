@@ -484,7 +484,12 @@ async function makeEvents(createPage, graphql) {
           }
         }
       }
-      allIdentitiesJson {
+      allIdentitiesJson(
+        filter: {
+          person_bio: {ne: null}, 
+          fields: {identitiesPerson_bio: {childMarkdownRemark: {html: {ne: ""} } } }
+        }
+      ) {
         nodes {
           slug
           fields {
@@ -648,6 +653,23 @@ async function makeDialogues(createPage, graphql) {
           }
         }
       }
+      allIdentitiesJson(
+        filter: {
+          person_bio: {ne: null}, 
+          fields: {identitiesPerson_bio: {childMarkdownRemark: {html: {ne: ""} } } }
+        }
+      ) {
+        nodes {
+          slug
+          fields {
+            identitiesPerson_bio {
+              childMarkdownRemark {
+                html
+              }
+            }
+          }
+        }
+      }
       allPeopleJson(
         filter: {
           events_as_speaker: {ne: null}
@@ -668,7 +690,7 @@ async function makeDialogues(createPage, graphql) {
   `)
 
   for (const node of results.data.allEventsJson.nodes) {
-    // Attach headshot from people table
+    // Attach headshot and speakers bio from people and identities table
     node.speakers.forEach(sp => {
       results.data.allPeopleJson.nodes.map(pers => {
         if (pers.slug === sp.slug) {
@@ -677,7 +699,14 @@ async function makeDialogues(createPage, graphql) {
           }
         }
       })
-    })    
+      results.data.allIdentitiesJson.nodes.map(pers => {
+        if (pers.slug === sp.slug) {
+          if (pers.fields) {
+            sp.bio = pers.fields.identitiesPerson_bio
+          }
+        }
+      })
+    })
     createPage({
       path: `/digital-dialogues/${node.id}/`,
       component: require.resolve(`./src/templates/dialogue.js`),
