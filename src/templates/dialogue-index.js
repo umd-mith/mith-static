@@ -46,13 +46,11 @@ const DialogueIndex = ({data, pageContext}) => {
                 p.headshot = headshots[p.slug]
                 return <Person key={`p${i}`} person={p} type="dialogue-index" />
               })
-              speakers = <div className="speakers">
-                  <ul>{speakers_list}</ul>
-                </div>
+              speakers = <div className="speakers">{speakers_list}</div>
             }
 
             return (
-              <article className="post dialogue event-item-post" id={item.id.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.id}`}>
+              <article className="post dialogue event" id={item.id.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.id}`}>
                 {title}
                 <div className="meta">
                   {speakers}

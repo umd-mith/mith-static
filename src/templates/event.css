@@ -43,7 +43,6 @@
 .event .content .bios,
 .event .content .metadata,
 .event .content .video {
-  grid-column: 1 / 2;
   align-self: start;
 }
 .event .content .event-date {
@@ -83,57 +82,63 @@
   content: "University of Maryland ";
 }
 .event .speakers {
-  padding-top: var(--base-content-spacing);
-}
-.event .speakers ul {
   display: grid;
   grid-template-columns: none;
   grid-column-gap: var(--content-spacing-lg);
   grid-row-gap: var(--base-content-spacing);
-  align-items: flex-start;
+  align-items: start;
+  padding: var(--base-content-spacing) 0;
 }
-
 .event .speakers .person {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: 
     "headshot"
-    "name"
     "details"
     "bio";
   grid-column-gap: var(--content-spacing-md);
   grid-row-gap: var(--content-spacing-xs);
-  align-items: flex-start;
 }
 @media screen and (min-width: 45em) {
-  .event .speakers ul {
+  .event .speakers {
     grid-template-columns: repeat(2, 1fr);
   }
   .event .speakers .person {
     grid-template-areas: 
-      "headshot name"
       "headshot details"
       "bio bio";
+    grid-template-rows: max-content;
+    align-items: start;
+  }
+  .event .speakers .person:not(.has-headshot) {
+    grid-template-areas: 
+      "details"
+      "bio";
+  }
+  .event .speakers .person .headshot {
+    margin-bottom: 0;
   }
 }
 .event .speakers .person .headshot {
   grid-area: headshot;
-  grid-row: 1 / 3;
   align-self: start;
   max-width: 200px;
   min-width: 150px;
   font-size: small;
   background-color: #f9f9f9;
-}
-.event .speakers .person .name {
-  grid-area: name;
-  grid-row-start: 1;
-  font-weight: 600;
+  margin-bottom: var(--content-spacing-sm);
 }
 .event .speakers .person .details {
   grid-area: details;
-  grid-row-start: 2;
+}
+.event .speakers .person .name {
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: var(--content-spacing-sm);
+}
+.event .speakers .person .info {
   font-size: smaller;
+  display: block;
 }
 .event .speakers .person .title {
   font-style: italic;
@@ -143,11 +148,11 @@
   clear: both;
   display: table;
 }
-.event .speakers .person .details .dept::after,
-.event .speakers .person .details .institution::after {
+.event .speakers .person .info .dept::after,
+.event .speakers .person .info .institution::after {
   content: ", "
 }
-.event .speakers .person .details span:not(.title):last-of-type::after {
+.event .speakers .person .info span:not(.title):last-of-type::after {
   content: none;
 }
 .event .speakers a,

@@ -70,6 +70,7 @@ const Person = ({ person, type }) => {
   let twitter = null
   let headshot = null
   let website = null
+  let hasImg = ""
   if (type === "speaker" || type === "dialogue" || type === "dialogue-index") {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     twitter = person.twitter
@@ -92,12 +93,13 @@ const Person = ({ person, type }) => {
           }} 
         />
       }
+      hasImg = "has-headshot"
     }
   }
   const bio_link = person.bio 
     ? <a href={`#${person.slug}`} className="bio-link">Read Bio</a> : null
   
-  const bio = person.bio 
+  const person_bio = person.bio 
     ? <div className="bio">{person.bio}</div> : ''
 
   if (person.website) {
@@ -108,54 +110,63 @@ const Person = ({ person, type }) => {
 
   if (type === "dialogue-index") {
     return (
-      <li className="speaker person" id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+      <div className={`speaker person ${hasImg}`} id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
-        {person_name}
-        <span className="details">
-          {affiliations}
-        </span>
-      </li>
+        <div className="details">
+          {person_name}
+          <div className="info">
+            {affiliations}
+          </div>
+        </div>
+      </div>
     )
   }
   if (type === "dialogue") {
     return (
-      <span className="speaker person" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+      <span className={`speaker person ${hasImg}`} id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
-        {person_name}
-        <span className="details">
-          {affiliations}
-          {twitter}
-          {website}
-          {bio_link}
-        </span>
+        <div className="details">
+          {person_name}
+          <div className="info">
+            {affiliations}
+            {twitter}
+            {website}
+            {bio_link}
+          </div>
+        </div>
       </span>
     )
   } 
   if (type === "speaker") {
     return (
-      <span className="speaker person" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+      <span className={`speaker person ${hasImg}`} id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
-        {person_name}
-        <span className="details">
-          {affiliations}
-          {twitter}
-          {website}
-        </span>
-        {bio}
+        <div className="details">
+          {person_name}
+          <div className="info">
+            {affiliations}
+            {twitter}
+            {website}
+          </div>
+        </div>
+        {person_bio}
       </span>
     )
   } 
   if (type !== "dialogue-index" && type !== "dialogue") {
     return (
-      <li className="person" id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+      <div className={`person ${hasImg}`} id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
-        {person_name}
-        <span className="details">
-          {affiliations}
-          {date_span}
-          {twitter}
-        </span>
-      </li>
+        <div className="details">
+          {person_name}
+          <div className="info">
+            {affiliations}
+            {date_span}
+            {twitter}
+            {website}
+          </div>
+        </div>
+      </div>
     )
   }
 }

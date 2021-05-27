@@ -16,7 +16,7 @@
   border-bottom: 1px dashed var(--color-gray-lt);
   margin-bottom: var(--content-spacing-sm);
 }
-.page-dialogues .dialogue .speakers .person .details {
+.page-dialogues .dialogue .speakers .person .info {
   font-size: 1rem;
 }
 
@@ -32,16 +32,16 @@
   padding-top: 0;
 }
 .dialogue .speakers .person {
-  grid-template-columns: minmax(150px, 50%) 1fr;
+  grid-template-columns: minmax(150px, 200px) 1fr;
   grid-column-gap: var(--base-content-spacing);
 }
-.dialogue .speakers .details > * {
+.dialogue .speakers .info > * {
   display: block;
 }
-.dialogue .speakers .person .details {
+.dialogue .speakers .person .info {
   font-size: 0.8rem;
 }
-.dialogue .speakers .details .bio-link {
+.dialogue .speakers .info .bio-link {
   margin-top: var(--content-spacing-sm);
 }
 .dialogue .speaker-bio {

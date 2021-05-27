@@ -33,6 +33,7 @@ const Dialogue = ({ pageContext: item }) => {
   let speakers = null
   let speaker_bios_list = null
   let speaker_bios = null
+  let speaker_bio = null
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
@@ -40,12 +41,13 @@ const Dialogue = ({ pageContext: item }) => {
     })
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>
-      <ul>{speakers_list}</ul>
+      {speakers_list}
     </div>
     speaker_bios_list = speakers_data.map(b => {
       if (b.bio) {
-        return <div id={b.slug} className="speaker-bio">{b.bio}</div>
+        speaker_bio = <div id={b.slug} className="speaker-bio">{b.bio}</div>
       }
+      return <>{speaker_bio}</>
     })
     speaker_bios = speaker_bios_list 
       ? <div className="bios">

@@ -34,9 +34,9 @@ const Event = ({ pageContext: item }) => {
     speakers_list = speakers_data.map((p, i) => {
       return <Person key={`p${i}`} person={p} type="speaker" />
     })
-    speakers = <div className="speakers">
+    speakers = <div className="speakers-wrapper">
       <h2>Speakers</h2>
-      <ul>{speakers_list}</ul>
+      <div className="speakers">{speakers_list}</div>
     </div>
   }
 
