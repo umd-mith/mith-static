@@ -557,12 +557,33 @@ async function makeDialogueIndex(createPage, graphql, pathPrefix) {
           itemCount
         }
       }
-    }  
+      allPeopleJson(
+        filter: {
+          events_as_speaker: {ne: null}
+        }
+      ) {
+        nodes {
+          slug
+          fields {
+            headshot {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
+    }
   `)
 
   const numItems = results.data.allEventsJson.pageInfo.itemCount
   const itemsPerPage = 10
   const numPages = Math.ceil(numItems / itemsPerPage)
+
+  const headshots = results.data.allPeopleJson.nodes.reduce((people, node) => {    
+    people[node.slug] = node.fields ? node.fields.headshot : undefined
+    return people
+  }, {})
 
   Array.from({ length: numItems }).forEach((_, i) => {
     createPage({
@@ -572,7 +593,8 @@ async function makeDialogueIndex(createPage, graphql, pathPrefix) {
         limit: itemsPerPage,
         skip: i * itemsPerPage,
         numPages,
-        currentPage: i + 1
+        currentPage: i + 1,
+        headshots
       }
     })
   })

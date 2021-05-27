@@ -70,7 +70,7 @@ const Person = ({ person, type }) => {
   let twitter = null
   let headshot = null
   let website = null
-  if (type === "speaker" || type === "dialogue") {
+  if (type === "speaker" || type === "dialogue" || type === "dialogue-index") {
     const iconTwitter = <FontAwesomeIcon icon={['fab', 'twitter']} />
     twitter = person.twitter
       ? <a href={`https://twitter.com/${person.twitter}`} className="twitter" target="_blank" rel="noreferrer">{iconTwitter} {person.twitter}</a> 
@@ -109,6 +109,7 @@ const Person = ({ person, type }) => {
   if (type === "dialogue-index") {
     return (
       <li className="speaker person" id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
+        {headshot}
         {person_name}
         <span className="details">
           {affiliations}
