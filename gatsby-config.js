@@ -19,6 +19,10 @@ module.exports = {
       },
       */
       {
+        name: "Our Values",
+        link: "/values/"
+      },
+      {
         name: "News",
         link: "/news/"
       },
@@ -35,8 +39,10 @@ module.exports = {
         name: "Events",
         link: "/events/"
       },
-      */
-      /*
+      {
+        name: "Digital Dialogues",
+        link: "/digital-dialogues/"
+      },
       {
         name: "Partner With Us",
         link: "/partner-with-us/"
