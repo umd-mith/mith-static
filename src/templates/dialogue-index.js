@@ -9,9 +9,10 @@ import Person from '../components/person'
 
 import './event-index.css'
 
-const DialogueIndex = ({data}) => {
+const DialogueIndex = ({data, pageContext}) => {
   const items = data.allEventsJson.nodes
   const pageCount = data.allEventsJson.pageInfo.pageCount
+  const headshots = pageContext.headshots
 
   return (
     <Layout>
@@ -41,6 +42,8 @@ const DialogueIndex = ({data}) => {
             const speakers_data = item.speakers ? item.speakers : []
             if (item.speakers.length > 0) {
               speakers_list = speakers_data.map((p, i) => {
+                // find headshot                
+                p.headshot = headshots[p.slug]
                 return <Person key={`p${i}`} person={p} type="dialogue-index" />
               })
               speakers = <div className="speakers">
