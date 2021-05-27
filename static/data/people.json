@@ -22272,26 +22272,6 @@
     "id": "timothy-stinson",
     "first": "Timothy",
     "last": "Stinson",
-    "identity as past": "timothy-stinson-431",
-    "bio": " \n",
-    "linked events": "everything-old-is-new-again-the-re-emergence-of-medieval-polyvocality-in-digital-manuscript-archives",
-    "people groups": [
-      "Speaker"
-    ],
-    "new id": 543,
-    "events as speaker": [
-      "rechN8vQZuJNlFIBu"
-    ],
-    "linked identities": [],
-    "name": "Timothy Stinson",
-    "group type": [
-      "External"
-    ],
-    "slug": "timothy-stinson",
-    "slug formula": "timothy-stinson",
-    "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-05-14T04:26:50.000Z",
-    "record_id": "recuxBYNQ0yfFFAmp",
     "headshot": [
       {
         "id": "attsjKkx3JaI4RpVM",
@@ -22318,6 +22298,26 @@
         }
       }
     ],
+    "identity as past": "timothy-stinson-431",
+    "bio": " \n",
+    "linked events": "everything-old-is-new-again-the-re-emergence-of-medieval-polyvocality-in-digital-manuscript-archives",
+    "people groups": [
+      "Speaker"
+    ],
+    "new id": 543,
+    "events as speaker": [
+      "rechN8vQZuJNlFIBu"
+    ],
+    "linked identities": [],
+    "name": "Timothy Stinson",
+    "group type": [
+      "External"
+    ],
+    "slug": "timothy-stinson",
+    "slug formula": "timothy-stinson",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-14T04:26:50.000Z",
+    "record_id": "recuxBYNQ0yfFFAmp",
     "current identities": []
   },
   {
@@ -22670,36 +22670,6 @@
     "id": "bryan-carter",
     "first": "Bryan",
     "last": "Carter",
-    "institution": "Central Missouri State University",
-    "identity as speaker": "bryan-carter-64",
-    "bio": "**Bryan Carter** is an Associate Professor of literature at the University of Central Missouri. He specializes in African American literature of the 20th Century with a primary focus on the Harlem Renaissance and has a secondary emphasis on visual culture. He has published numerous articles on his project, Virtual Harlem, an educational sim in Second Life representing Harlem as it existed during the Harlem Renaissance of the 1920s, and has presented it at locations around the world. \n",
-    "twitter": "bcmin",
-    "website": "http://ibryancarter.com",
-    "linked events": "the-harlem-renaissance-in-second-life",
-    "people groups": [
-      "Speaker"
-    ],
-    "new id": 220,
-    "wordpress id": 21028,
-    "linked research as participant": [
-      "recbOh33jvyfNelG4"
-    ],
-    "events as speaker": [
-      "recsezKk1IfLDm1ul"
-    ],
-    "events as participant": [
-      "recfwJAgqvzDbBsja"
-    ],
-    "linked identities": [],
-    "name": "Bryan Carter",
-    "group type": [
-      "External"
-    ],
-    "slug": "bryan-carter",
-    "slug formula": "bryan-carter",
-    "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-05-14T04:27:33.000Z",
-    "record_id": "recvfZYGNk2c4x41C",
     "headshot": [
       {
         "id": "attGBSprRr8ozBgz4",
@@ -22750,6 +22720,36 @@
         }
       }
     ],
+    "institution": "Central Missouri State University",
+    "identity as speaker": "bryan-carter-64",
+    "bio": "**Bryan Carter** is an Associate Professor of literature at the University of Central Missouri. He specializes in African American literature of the 20th Century with a primary focus on the Harlem Renaissance and has a secondary emphasis on visual culture. He has published numerous articles on his project, Virtual Harlem, an educational sim in Second Life representing Harlem as it existed during the Harlem Renaissance of the 1920s, and has presented it at locations around the world. \n",
+    "twitter": "bcmin",
+    "website": "http://ibryancarter.com",
+    "linked events": "the-harlem-renaissance-in-second-life",
+    "people groups": [
+      "Speaker"
+    ],
+    "new id": 220,
+    "wordpress id": 21028,
+    "linked research as participant": [
+      "recbOh33jvyfNelG4"
+    ],
+    "events as speaker": [
+      "recsezKk1IfLDm1ul"
+    ],
+    "events as participant": [
+      "recfwJAgqvzDbBsja"
+    ],
+    "linked identities": [],
+    "name": "Bryan Carter",
+    "group type": [
+      "External"
+    ],
+    "slug": "bryan-carter",
+    "slug formula": "bryan-carter",
+    "created": "2021-02-12T09:45:32.000Z",
+    "modified": "2021-05-14T04:27:33.000Z",
+    "record_id": "recvfZYGNk2c4x41C",
     "current identities": []
   },
   {
