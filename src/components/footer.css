@@ -1,15 +1,15 @@
 @import 'variables.css';
 
 footer {
-  padding: 0 var(--base-content-spacing);
-  margin-top: var(--base-content-spacing);
+  padding: 0 var(--content-spacing-md);
+  margin-top: var(--content-spacing-lg);
   background-color: #282a2b;
   border-color: var(--color-gray);
   font-size: 0.789rem;
   color: var(--color-gray);
 }
 .small-print {
-  padding: var(--base-content-spacing) 0 var(--content-spacing-xl) 0;
+  padding: var(--content-spacing-md) 0 var(--content-spacing-xl) 0;
 }
 footer a {
   color: var(--color-gray);
