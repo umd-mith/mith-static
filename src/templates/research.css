@@ -23,6 +23,9 @@
     margin-bottom: var(--base-content-spacing);
   }
 }
+.related-research a {
+  border-bottom: 0px;
+}
 .research-item h1,
 .research-item .research-image {
   grid-area: header;

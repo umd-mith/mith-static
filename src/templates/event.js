@@ -137,16 +137,29 @@ const Event = ({ pageContext: item }) => {
 
   let research = null
   let research_list = null
+  let research_img = null
   if (item.research.length > 0) {
     research_list = item.research.map(r => {
       if (r.image) {
-        const research_img = <img src={r.image.url} alt={r.title} />
-        return <Link className="research-item" to={`../../research/${r.id}`}>{research_img}</Link>
+        if (r.image.childImageSharp) {
+          research_img = <GatsbyImage
+            image={r.image.childImageSharp.gatsbyImageData}
+            alt={r.title}
+            className="related-research-item"
+          />
+        } else {
+          research_img = <img
+            src={r.image.url}
+            alt={r.title}
+            className="related-research-item"
+          />
+        }
+        return <Link className="related-research-item" to={`../../research/${r.id}`}>{research_img}</Link>
       } else {
-        return <Link className="research-item" to={`../../research/${r.id}`}>{r.title}</Link>
+        return <Link className="related-research-item" to={`../../research/${r.id}`}>{r.title}</Link>
       }
     })
-    research = <div class="linked-research">
+    research = <div class="related-research">
         <h2>Related Research</h2>
         {research_list}
       </div>

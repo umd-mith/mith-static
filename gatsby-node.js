@@ -14,6 +14,7 @@ const toImage = {
   'People' : ['headshot'],
   'Research' : ['image'],
   'Events' : ['image'],
+  'Partners_Sponsors' : ['logo']
 }
 
 exports.onCreateNode = async ({
@@ -517,6 +518,23 @@ async function makeEvents(createPage, graphql) {
           }
         }
       }
+      allResearchJson(
+        filter: {
+          linked_events: {ne: null}, 
+          image: {elemMatch: {url: {ne: null}}}
+        }
+      ) {
+        nodes {
+          id
+          fields {
+            image  {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+          }
+        }
+      }
     }  
   `)
 
@@ -534,6 +552,15 @@ async function makeEvents(createPage, graphql) {
         if (pers.slug === sp.slug) {
           if (pers.fields) {
             sp.bio = pers.fields.identitiesPerson_bio
+          }
+        }
+      })
+    })
+    node.research.forEach(rr => {
+      results.data.allResearchJson.nodes.map(research => {
+        if (research.id === rr.id) {
+          if (research.fields) {
+            rr.image = research.fields.image
           }
         }
       })
