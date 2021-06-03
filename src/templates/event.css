@@ -63,6 +63,7 @@
 .event .content .description p:last-child {
   margin-bottom: 0;
 }
+/* Sidebar */
 .event .sidebar {
   grid-area: sidebar;
   display: grid;
@@ -84,6 +85,7 @@
 .event .sidebar .partners .internal:not(#umdlib)::before {
   content: "University of Maryland ";
 }
+/* Speakers */
 .event .speakers {
   display: grid;
   grid-template-columns: none;

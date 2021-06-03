@@ -129,7 +129,7 @@ const Research = ({ pageContext: item }) => {
   let events = null
   if (item.events.length > 0) {
     events_list = item.events.map(e => {
-      return <li id={e.id}>
+      return <li id={e.id} className="event">
         <h3 className="title"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
         <EventTime start={e.start} end={e.end} />
         <div itemProp="location" className="location">{e.location}</div>
