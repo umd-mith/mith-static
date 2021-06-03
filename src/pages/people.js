@@ -31,12 +31,12 @@ const PeoplePage = ({ data }) => {
         }}
       />
       img = pageLocation
-        ? <Link key={`p-${person.id}`} to={pageLocation} className="headshot">{el}</Link>
+        ? <Link key={`p-${person.new_id}`} to={pageLocation} className="headshot">{el}</Link>
         : el
     }
 
     let persName = pageLocation 
-      ? <Link key={`p-${person.id}`} to={pageLocation}>{person.name}</Link>
+      ? <Link key={`p-${person.new_id}`} to={pageLocation}>{person.name}</Link>
       : person.name
 
     let identities = ''
@@ -54,7 +54,7 @@ const PeoplePage = ({ data }) => {
     }
 
     return (
-      <article className="person" id={person.id} title={person.name} key={`p-${person.id}`}>
+      <article className="person" id={person.id} title={person.name} key={`p-${person.new_id}`}>
         {img}
         <h3 className="name">{persName}</h3>
         {identities}
