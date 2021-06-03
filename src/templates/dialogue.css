@@ -72,6 +72,18 @@
 .dialogue .sidebar .video-link a {
   border-bottom: 0;
 }
+.dialogue .sidebar .terms {
+  font-size: 0.8rem;
+  overflow: auto;
+}
+.dialogue .sidebar .terms .term {
+  float: left;
+  margin-right: var(--content-spacing-xs);
+  margin-bottom: var(--content-spacing-sm);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 #main-content .dd-info {
   font-size: 0.8rem;
   color: #000;

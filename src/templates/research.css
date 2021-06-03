@@ -84,6 +84,18 @@
   color: #00aced;
   font-weight: 600;
 }
+.research-item .sidebar .terms {
+  font-size: 0.8rem;
+  overflow: auto;
+}
+.research-item .sidebar .terms .term {
+  float: left;
+  margin-right: var(--content-spacing-xs);
+  margin-bottom: var(--content-spacing-sm);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 /* People */
 .research-item .person {
   margin: var(--content-spacing-sm) 0;
@@ -96,7 +108,7 @@
   clear: both;
   display: table;
 }
-.research-item .person .details {
+.research-item .person .info {
   font-size: 0.75rem;
   display: block;
 }

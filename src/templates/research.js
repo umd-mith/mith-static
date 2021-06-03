@@ -7,6 +7,8 @@ import SEO from '../components/seo'
 import ResearchTime from '../components/research-time'
 import EventTime from '../components/event-time'
 import Person from '../components/person'
+import TaxonomyList from '../components/taxonomy-list'
+import SupporterList from '../components/supporter-list'
 
 import './research.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -89,41 +91,12 @@ const Research = ({ pageContext: item }) => {
     links = <div className="links"><h2>Links</h2><ul>{links_list}</ul></div>
   }
 
-  let sponsors_list = null
-  let sponsors = null
-  let sponsor_name = null
-  const sponsors_title = item.sponsors.length > 1 ? "Sponsors" : "Sponsor"
-  if (item.sponsors.length > 0) {
-    sponsors_list = item.sponsors.map(s => {
-      if (s.website) {
-        sponsor_name = s.website.startsWith('http') 
-          ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-          : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-      } else {
-        sponsor_name = s.name
-      }
-      return <li id={s.slug}>{sponsor_name}</li>
-    })
-    sponsors = <div className="sponsors"><h2>{sponsors_title}</h2><ul>{sponsors_list}</ul></div>
-  }
-
-  let partners_list = null
-  let partners = null
-  let partner_name = null
-  const partners_title = item.partners.length > 1 ? "Partners" : "Partner"
-  if (item.partners.length > 0) {
-    partners_list = item.partners.map(p => {
-      if (p.website) {
-        partner_name = p.website.startsWith('http') 
-          ? <a href={p.website} title={p.name} target="_blank" rel="noreferrer">{p.name}</a>
-          : <a href={`http://${p.website}`} title={p.name} target="_blank" rel="noreferrer">{p.name}</a>
-      } else {
-        partner_name = p.name
-      }
-      return <li id={p.slug}>{partner_name}</li>
-    })
-    partners = <div className="partners"><h2>{partners_title}</h2><ul>{partners_list}</ul></div>
-  }
+  const sponsors = item.sponsors.length > 0 
+    ? <SupporterList supporters={item.sponsors} type="sponsor" />
+    : ''
+  const partners = item.partners.length > 0 
+    ? <SupporterList supporters={item.partners} type="partner" />
+    : ''
 
   let events_list = null 
   let events = null
@@ -154,6 +127,14 @@ const Research = ({ pageContext: item }) => {
     })
     news = <div className="news"><h2>News</h2><ul>{news_list}</ul></div>
   }
+
+  const disciplines = item.disciplines.length > 0 
+  ? <TaxonomyList terms={item.disciplines} type="disciplines" />
+  : ''
+
+  const methods = item.methods.length > 0 
+  ? <TaxonomyList terms={item.methods} type="methods" />
+  : ''
 
   return (
     <Layout>
