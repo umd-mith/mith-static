@@ -523,6 +523,7 @@ class Persistor {
   async persistIdentities() {
     try {
       const identityData = await this.identities
+      const people = await this.people
   
       const identities = []
   
@@ -530,8 +531,18 @@ class Persistor {
         const identity = identityData[identityId]
   
         const identityInfo = identity.fields
+
+        // Linked Person
+        const linkedPerson = identity.get('linked person')
+        if (!linkedPerson) continue
+        const resolvedPerson = linkedPerson.map(personId => {
+          return people[personId].get('slug')
+        })
+        identityInfo.person_slug = resolvedPerson[0]
+
         identities.push(identityInfo)
       }
+
   
       this.writeJson(identities, 'identities.json')
     } catch(e) {
