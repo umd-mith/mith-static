@@ -488,11 +488,14 @@ async function makeEvents(createPage, graphql) {
       allIdentitiesJson(
         filter: {
           person_bio: {ne: null}, 
-          fields: {identitiesPerson_bio: {childMarkdownRemark: {html: {ne: ""} } } }
+          fields: {identitiesPerson_bio: {
+            childMarkdownRemark: {html: {ne: ""} } 
+          } }
         }
       ) {
         nodes {
           slug
+          person_slug
           fields {
             identitiesPerson_bio {
               childMarkdownRemark {
@@ -548,10 +551,11 @@ async function makeEvents(createPage, graphql) {
           }
         }
       })
-      results.data.allIdentitiesJson.nodes.map(pers => {
-        if (pers.slug === sp.slug) {
-          if (pers.fields) {
-            sp.bio = pers.fields.identitiesPerson_bio
+      results.data.allIdentitiesJson.nodes.map(ident => {
+        //console.log(ident)
+        if (ident.person_slug === sp.slug) {
+          if (ident.fields) {
+            sp.bio = ident.fields.identitiesPerson_bio
           }
         }
       })
