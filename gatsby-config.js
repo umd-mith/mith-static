@@ -34,7 +34,6 @@ module.exports = {
         name: "Research",
         link: "/research/"
       },
-      /*
       {
         name: "Events",
         link: "/events/"
@@ -43,6 +42,7 @@ module.exports = {
         name: "Digital Dialogues",
         link: "/digital-dialogues/"
       },
+      /*
       {
         name: "Partner With Us",
         link: "/partner-with-us/"
