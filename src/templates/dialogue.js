@@ -47,7 +47,7 @@ const Dialogue = ({ pageContext: item }) => {
     </div>
     speaker_bios_list = speakers_data.map(b => {
       if (b.bio) {
-        speaker_bio = <div id={b.slug} className="speaker-bio">{b.bio}</div>
+        speaker_bio = <div dangerouslySetInnerHTML={{ __html: b.bio.childMarkdownRemark.html }} id={b.slug} className="speaker-bio" />
       }
       return <>{speaker_bio}</>
     })
