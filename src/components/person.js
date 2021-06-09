@@ -13,11 +13,12 @@ const Person = ({ person, type }) => {
   let person_name = pageLocation // link current staff names to profile
     ? <Link 
       className="name" 
+      id={person.new_id} 
       key={`p-${person.new_id}`} 
       to={`../../people/${pageLocation}`} 
       aria-label={`View ${person.name}'s Profile`} 
       title={`View ${person.name}'s Profile`}>{person.name}</Link>
-    : <div className="name">{person.name}</div>
+    : <div className="name" id={person.new_id} >{person.name}</div>
 
     let date_span = null
     if ( type === "director" ) {

@@ -10,7 +10,6 @@ import EventTime from '../components/event-time'
 import Person from '../components/person'
 
 import './event-index.css'
-import { icon } from '@fortawesome/fontawesome-svg-core'
 
 const EventIndex = ({data}) => {
   const items = data.allEventsJson.nodes
@@ -88,7 +87,6 @@ const EventIndex = ({data}) => {
                   {title}
                   {types}
                   {excerpt}
-                  {speakers}
                 </div>
                 <div className="meta">
                   <EventTime start={item.start} end={item.end} icon="yes" />
@@ -139,6 +137,7 @@ export const query = graphql`
           }
           person_group
           slug
+          new_id
         }
         fields {
           eventsDescription {

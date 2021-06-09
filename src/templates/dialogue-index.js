@@ -98,6 +98,7 @@ export const query = graphql`
           }
           person_group
           slug
+          new_id
         }
       }
       pageInfo {

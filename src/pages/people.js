@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import { GatsbyImage } from 'gatsby-plugin-image';
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -31,12 +31,12 @@ const PeoplePage = ({ data }) => {
         }}
       />
       img = pageLocation
-        ? <Link key={`p-${person.new_id}`} to={pageLocation} className="headshot">{el}</Link>
+        ? <Link key={`p-${person.new_id}`} id={person.new_id} to={pageLocation} className="headshot">{el}</Link>
         : el
     }
 
     let persName = pageLocation 
-      ? <Link key={`p-${person.new_id}`} to={pageLocation}>{person.name}</Link>
+      ? <Link key={`p-${person.new_id}`} id={person.new_id} to={pageLocation}>{person.name}</Link>
       : person.name
 
     let identities = ''
@@ -54,7 +54,7 @@ const PeoplePage = ({ data }) => {
     }
 
     return (
-      <article className="person" id={person.id} title={person.name} key={`p-${person.new_id}`}>
+      <article className="person" id={person.new_id} title={person.name} key={`p-${person.new_id}`}>
         {img}
         <h3 className="name">{persName}</h3>
         {identities}
@@ -113,11 +113,13 @@ export const query = graphql`
       group(field: group_type) {
         fieldValue
         nodes {
-          website
           id
+          new_id
           name
           first
           last
+          website
+          twitter
           current_identities {
             id
             title

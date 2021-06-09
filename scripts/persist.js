@@ -286,6 +286,7 @@ class Persistor {
           const person = people[intParticipant['linked_person'][0]]
           intParticipant.name = person.get('name')
           intParticipant.slug = person.get('id')
+          intParticipant.new_id = person.get('new id')
         }
 
         const allIntParticipants = intParticipantIds.map(i => intParticipants[i])
@@ -322,6 +323,7 @@ class Persistor {
           const person = people[extParticipant['linked_person'][0]]
           extParticipant.name = person.get('name')
           extParticipant.slug = person.get('id')
+          extParticipant.new_id = person.get('new id')
         }
 
         const allExtParticipants = extParticipantIds.map(i => extParticipants[i])
@@ -360,6 +362,7 @@ class Persistor {
           const person = people[director['linked_person'][0]]
           director.name = person.get('name')
           director.slug = person.get('id')
+          director.new_id = person.get('new id')
         }
 
         researchItem.fields.directors = directorIds.map(i => directors[i])
@@ -455,6 +458,7 @@ class Persistor {
           speaker.slug = person.get('id')
           speaker.twitter = person.get('twitter')
           speaker.website = person.get('website')
+          speaker.new_id = person.get('new id')
         }
 
         eventsItem.fields.speakers = speakerIds.map(i => speakers[i])
@@ -468,6 +472,7 @@ class Persistor {
           const person = people[participant['linked person'][0]]
           participant.name = person.get('name')
           participant.slug = person.get('id')
+          participant.new_id = person.get('new id')
         }
   
         eventsItem.fields.participants = participants

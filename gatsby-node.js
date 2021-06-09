@@ -141,6 +141,7 @@ async function makePeople(createPage, graphql) {
           bio_external
           research_interests
           people_groups
+          new_id
           id
         }
       }
@@ -296,6 +297,7 @@ async function makeResearch(createPage, graphql) {
             end
             person_group
             slug
+            new_id
           }
           directors {
             name
@@ -308,6 +310,7 @@ async function makeResearch(createPage, graphql) {
             end
             person_group
             slug
+            new_id
           }
           links {
             title
@@ -433,6 +436,7 @@ async function makeEvents(createPage, graphql) {
             }
             person_group
             slug
+            new_id
           }
           participants {
             name
@@ -443,6 +447,7 @@ async function makeEvents(createPage, graphql) {
             end
             person_group
             slug
+            new_id
           }
           links {
             title
@@ -594,6 +599,7 @@ async function makeDialogueIndex(createPage, graphql, pathPrefix) {
       ) {
         nodes {
           slug
+          new_id
           fields {
             headshot {
               childImageSharp {
@@ -673,6 +679,7 @@ async function makeDialogues(createPage, graphql) {
             website
             twitter
             slug
+            new_id
           }
           links {
             id
@@ -730,6 +737,7 @@ async function makeDialogues(createPage, graphql) {
       ) {
         nodes {
           slug
+          new_id
           fields {
             headshot {
               childImageSharp {
