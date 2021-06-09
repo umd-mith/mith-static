@@ -340,7 +340,7 @@ async function makeResearch(createPage, graphql) {
             post_title
             author
             author_name
-            post_date
+            post_date(formatString: "MMMM D, YYYY")
             slug
           }
           disciplines {
@@ -472,7 +472,7 @@ async function makeEvents(createPage, graphql) {
             post_title
             author
             author_name
-            post_date
+            post_date(formatString: "MMMM D, YYYY")
             slug
           }
           disciplines {
@@ -552,7 +552,6 @@ async function makeEvents(createPage, graphql) {
         }
       })
       results.data.allIdentitiesJson.nodes.map(ident => {
-        //console.log(ident)
         if (ident.person_slug === sp.slug) {
           if (ident.fields) {
             sp.bio = ident.fields.identitiesPerson_bio
@@ -714,6 +713,7 @@ async function makeDialogues(createPage, graphql) {
       ) {
         nodes {
           slug
+          person_slug
           fields {
             identitiesPerson_bio {
               childMarkdownRemark {
@@ -753,7 +753,8 @@ async function makeDialogues(createPage, graphql) {
         }
       })
       results.data.allIdentitiesJson.nodes.map(pers => {
-        if (pers.slug === sp.slug) {
+        //console.log(pers)
+        if (pers.person_slug === sp.slug) {
           if (pers.fields) {
             sp.bio = pers.fields.identitiesPerson_bio
           }
