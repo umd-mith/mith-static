@@ -120,7 +120,7 @@ const Research = ({ pageContext: item }) => {
       return <li id={n.slug.toLowerCase().replace(/-/g, '_')}>
         <div className="post-title"><Link key={`n-${n.record_id}`} to={`../../news/${n.slug}`}>{n.post_title}</Link></div>
         <div className="meta">
-          <time>{n.post_date}</time>
+          <time className="post-date">{n.post_date}</time>
           <div className="author hidden">{n.author_name}</div>
         </div>
       </li>

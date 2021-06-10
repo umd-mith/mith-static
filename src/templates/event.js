@@ -6,6 +6,8 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import EventTime from '../components/event-time'
 import Person from '../components/person'
+import TaxonomyList from '../components/taxonomy-list'
+import SupporterList from '../components/supporter-list'
 
 import './event.css'
 
@@ -49,47 +51,12 @@ const Event = ({ pageContext: item }) => {
     types = <span className="event-types">{types_list}</span>
   }
 
-  let sponsors_list = null
-  let sponsors = null
-  let sponsor_name = null
-  if (item.sponsors.length > 0) {
-    sponsors_list = item.sponsors.map(s => {
-      if (s.website) {
-        sponsor_name = s.website.startsWith('http') 
-          ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-          : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-      } else {
-        sponsor_name = s.name
-      }
-      const type = s.type.toLowerCase()
-      return <li id={s.slug} className={type}>{sponsor_name}</li>
-    })
-    sponsors = <div className="sponsors">
-      <h2>Sponsors</h2>
-      <ul>{sponsors_list}</ul>
-    </div>
-  }
-
-  let partners_list = null
-  let partners = null
-  let partner_name = null
-  if (item.partners.length > 0) {
-    partners_list = item.partners.map(p => {
-      if (p.website) {
-        partner_name = p.website.startsWith('http') 
-          ? <a href={p.website} target="_blank" rel="noreferrer">{p.name}</a>
-          : <a href={`http://${p.website}`} target="_blank" rel="noreferrer">{p.name}</a>
-      } else {
-        partner_name = p.name
-      }
-      const type = p.type.toLowerCase()
-      return <li id={p.slug} className={type}>{partner_name}</li>
-    })
-    partners = <div className="partners">
-      <h2>Partners</h2>
-      <ul>{partners_list}</ul>
-    </div>
-  }
+  const sponsors = item.sponsors.length > 0 
+    ? <SupporterList supporters={item.sponsors} type="sponsor" />
+    : ''
+  const partners = item.partners.length > 0 
+    ? <SupporterList supporters={item.partners} type="partner" />
+    : ''
   
   let links_list = null
   let links = null
@@ -111,29 +78,13 @@ const Event = ({ pageContext: item }) => {
     </div>
   }
 
-  let disciplines_list = null
-  let disciplines = null
-  if (item.disciplines.length > 0) {
-    disciplines_list = item.disciplines.map(l => {
-      return <li className="pill">{l.term}</li>
-    })
-    disciplines = <div className="disciplines">
-      <h2>Disciplines</h2>
-      <ul>{disciplines_list}</ul>
-    </div>
-  }
+  const disciplines = item.disciplines.length > 0 
+  ? <TaxonomyList terms={item.disciplines} type="disciplines" />
+  : ''
 
-  let methods_list = null
-  let methods = null
-  if (item.methods.length > 0) {
-    methods_list = item.methods.map(l => {
-      return <li className="pill">{l.term}</li>
-    })
-    methods = <div className="methods">
-      <h2>Methods</h2>
-      <ul>{methods_list}</ul>
-    </div>
-  }
+  const methods = item.methods.length > 0 
+  ? <TaxonomyList terms={item.methods} type="methods" />
+  : ''
 
   let research = null
   let research_list = null
@@ -164,6 +115,20 @@ const Event = ({ pageContext: item }) => {
         {research_list}
       </div>
   }
+  let news_list = null 
+  let news = null
+  if (item.posts.length > 0) {
+    news_list = item.posts.map(n => {
+      return <li id={n.slug.toLowerCase().replace(/-/g, '_')}>
+        <div className="post-title"><Link key={`n-${n.record_id}`} to={`../../news/${n.slug}`}>{n.post_title}</Link></div>
+        <div className="meta">
+          <time className="post-date">{n.post_date}</time>
+          <div className="author hidden">{n.author_name}</div>
+        </div>
+      </li>
+    })
+    news = <div className="news"><h2>News</h2><ul>{news_list}</ul></div>
+  }
 
   return (
     <Layout>
@@ -181,11 +146,10 @@ const Event = ({ pageContext: item }) => {
           </div>
           <div className="sidebar">
             {types}
-            {methods}
-            {disciplines}
             {links}
             {sponsors}
             {partners}
+            {news}
             {research}
           </div>
         </section>

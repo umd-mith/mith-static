@@ -12,12 +12,14 @@ const SupporterList = ({supporters, type}) => {
       <h2>{title}</h2>
       <ul>
         {supporters.map(s => {
+          const umd = (s.slug !== "umdlib" && s.type === "Internal") 
+            ? "University of Maryland " : ""
           const supporter_name = s.website 
             ? s.website.startsWith('http') 
-              ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
-              : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{s.name}</a>
+              ? <a href={s.website} title={s.name} target="_blank" rel="noreferrer">{umd}{s.name}</a>
+              : <a href={`http://${s.website}`} title={s.name} target="_blank" rel="noreferrer">{umd}{s.name}</a>
             : s.name
-          return <li id={s.slug}>{supporter_name}</li>
+          return <li id={s.slug} className={s.type.toLowerCase()}>{supporter_name}</li>
         })}
       </ul>
     </div>
