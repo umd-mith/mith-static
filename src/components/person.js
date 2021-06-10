@@ -99,9 +99,9 @@ const Person = ({ person, type }) => {
   }
   const bio_link = person.bio 
     ? <a href={`#${person.slug}`} className="bio-link">Read Bio</a> : null
-  
-  const person_bio = person.bio 
-    ? <div className="bio">{person.bio}</div> : ''
+
+  const person_bio = person.bio
+    ? <div className="bio" dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''
 
   if (person.website) {
     const website_url = person.website.startsWith('http') 
