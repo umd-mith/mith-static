@@ -8,7 +8,7 @@
   margin-bottom: var(--content-spacing-sm);
 }
 .page-research .research-item-post {
-  align-content: baseline;
+  align-content: flex-start;
   padding: var(--base-content-spacing);
   margin-bottom: var(--base-content-spacing);
   border: 1px solid #dadada;
