@@ -1,10 +1,10 @@
-require("dotenv").config();
+require("dotenv").config()
 
 module.exports = {
   pathPrefix: `mith-static`,
   siteMetadata: {
     title: `MITH`,
-    siteUrl: 'https://mith.umd.edu',
+    siteUrl: "https://mith.umd.edu",
     description: `Maryland Institute for Technology in the Humanities`,
     author: `@UMD_MITH`,
     navLinks: [
@@ -20,27 +20,27 @@ module.exports = {
       */
       {
         name: "Our Values",
-        link: "/values/"
+        link: "/values/",
       },
       {
         name: "News",
-        link: "/news/"
+        link: "/news/",
       },
       {
         name: "People",
-        link: "/people/"
+        link: "/people/",
       },
       {
         name: "Research",
-        link: "/research/"
-      },
-      {
-        name: "Events",
-        link: "/events/"
+        link: "/research/",
       },
       {
         name: "Digital Dialogues",
-        link: "/digital-dialogues/"
+        link: "/digital-dialogues/",
+      },
+      {
+        name: "More Events",
+        link: "/events/",
       },
       /*
       {
@@ -48,7 +48,7 @@ module.exports = {
         link: "/partner-with-us/"
       }
       */
-    ]
+    ],
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -64,22 +64,22 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-24127640-1`
-      }
+        trackingId: `UA-24127640-1`,
+      },
     },
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
-        stripMetadata: false
-      }
+        stripMetadata: false,
+      },
     },
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         name: `svg`,
         path: `${__dirname}/src/svg/`,
-      }
-    },    
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -95,10 +95,10 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
-            }
-          }
-        ]
-      }
+            },
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -210,8 +210,8 @@ module.exports = {
               }
             `
           }*/
-        ]
-      }
-    }
-  ]
+        ],
+      },
+    },
+  ],
 }
