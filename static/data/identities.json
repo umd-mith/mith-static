@@ -20682,13 +20682,14 @@
       "recKebgqP0nkoWAte"
     ],
     "id": 857,
-    "identity": " masha-solomon-857",
+    "identity": "masha-solomon-current-857",
     "full affiliation": "Assistant Professor, French and Francophone Studies, University of Maryland",
-    "slug": " masha-solomon-857",
+    "slug": "masha-solomon-857",
     "date span": "Assistant Professor, 2020",
     "person name": [
-      "Maria Beliaeva  Solomon"
+      "Maria Beliaeva Solomon"
     ],
+    "identity group": "current",
     "headshot": [
       {
         "id": "attkC75ICBnQ7KYZA",
@@ -20715,7 +20716,13 @@
         }
       }
     ],
-    "person_slug": " masha-solomon"
+    "group": [
+      "recLGWBbAoT1l1tfN"
+    ],
+    "linked people as current": [
+      "recKebgqP0nkoWAte"
+    ],
+    "person_slug": "masha-solomon"
   },
   {
     "title": "Professor",
