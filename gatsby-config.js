@@ -65,6 +65,7 @@ module.exports = {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `mith.umd.edu`,
+        excludePaths: ["/mith-static/*"]
       },
     },
     {
