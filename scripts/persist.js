@@ -114,6 +114,32 @@ class Persistor {
     console.log(`wrote ${fullPath}`)
   }
 
+  clone(obj) {
+    let copy
+    let i
+  
+    if (typeof obj !== 'object' || !obj) {
+      return obj
+    }
+  
+    if (Object.prototype.toString.apply(obj) === '[object Array]') {
+      copy = []
+      const len = obj.length
+      for (i = 0; i < len; i++) {
+        copy[i] = this.clone(obj[i])
+      }
+      return copy
+    }
+  
+    copy = {}
+    for (i in obj) {
+      if (obj.hasOwnProperty(i)) {
+        copy[i] = this.clone(obj[i])
+      }
+    }
+    return copy
+  }  
+
   getTable(base, table) {
     return new Promise((resolve, reject) => {
       const things = {}
@@ -248,10 +274,11 @@ class Persistor {
       const taxonomy = await this.taxonomy
       const syncedPosts  = await this.syncedPosts
   
-      const research = []
+      const allResearch = []
   
       for (const researchItemId in researchItems) {
         const researchItem = researchItems[researchItemId]
+        const research = this.clone(researchItem)
   
         // Internal and External Participants
         const intParticipants = (researchItem.get('linked internal participant affiliations') || []).reduce((acc, id) => {
@@ -328,7 +355,7 @@ class Persistor {
 
         const allExtParticipants = extParticipantIds.map(i => extParticipants[i])
           
-        researchItem.fields.participants = allIntParticipants.concat(allExtParticipants)
+        research.fields.participants = allIntParticipants.concat(allExtParticipants)
 
         // Directors
         const directors = (researchItem.get('linked director affiliations') || []).reduce((acc, id) => {
@@ -365,46 +392,46 @@ class Persistor {
           director.new_id = person.get('new id')
         }
 
-        researchItem.fields.directors = directorIds.map(i => directors[i])
+        research.fields.directors = directorIds.map(i => directors[i])
 
         // Links
-        researchItem.fields.links = (researchItem.get('linked links') || []).map(
+        research.fields.links = (researchItem.get('linked links') || []).map(
           id => links[id].fields
         )
 
         // Partners_Sponsors
-        researchItem.fields.partners = (researchItem.get('linked partners') || []).map(
+        research.fields.partners = (researchItem.get('linked partners') || []).map(
           id => partnersAndSponsors[id].fields
         )
 
-        researchItem.fields.sponsors = (researchItem.get('linked sponsors') || []).map(
+        research.fields.sponsors = (researchItem.get('linked sponsors') || []).map(
           id => partnersAndSponsors[id].fields
         )
 
         // Events
-        researchItem.fields.events = (researchItem.get('linked events') || []).map(
+        research.fields.events = (researchItem.get('linked events') || []).map(
           id => events[id].fields
         )
 
         // Disciplines
-        researchItem.fields.disciplines = (researchItem.get('disciplines') || []).map(
+        research.fields.disciplines = (researchItem.get('disciplines') || []).map(
           id => taxonomy[id].fields
         )
 
         // Methods
-        researchItem.fields.methods = (researchItem.get('methods') || []).map(
+        research.fields.methods = (researchItem.get('methods') || []).map(
           id => taxonomy[id].fields
         )
 
         // Posts
-        researchItem.fields.posts = (researchItem.get('linked posts') || []).map(
+        research.fields.posts = (researchItem.get('linked posts') || []).map(
           id => syncedPosts[id].fields
         )
   
-        research.push(researchItem.fields)
+        allResearch.push(research)
       }
   
-      this.writeJson(research, 'research.json')
+      this.writeJson(allResearch, 'research.json')
     } catch(e) {
       throw new Error(e)
     }
@@ -426,6 +453,7 @@ class Persistor {
       
       for (const eventsItemId in eventsItems) {
         const eventsItem = eventsItems[eventsItemId]
+        const event = this.clone(eventsItem)
 
         // Speakers
         const speakers = (eventsItem.get('speaker affiliations') || []).reduce((acc, id) => {
@@ -461,7 +489,7 @@ class Persistor {
           speaker.new_id = person.get('new id')
         }
 
-        eventsItem.fields.speakers = speakerIds.map(i => speakers[i])
+        event.fields.speakers = speakerIds.map(i => speakers[i])
 
         // Participants
         const participants = (eventsItem.get('linked participant affiliations') || []).map(
@@ -475,48 +503,48 @@ class Persistor {
           participant.new_id = person.get('new id')
         }
   
-        eventsItem.fields.participants = participants
+        event.fields.participants = participants
 
         // Links
-        eventsItem.fields.links = (eventsItem.get('linked links') || []).map(
+        event.fields.links = (eventsItem.get('linked links') || []).map(
           id => links[id].fields
         )
 
         // Partners_Sponsors
-        eventsItem.fields.partners = (eventsItem.get('partners') || []).map(
+        event.fields.partners = (eventsItem.get('partners') || []).map(
           id => partnersAndSponsors[id].fields
         )
 
-        eventsItem.fields.sponsors = (eventsItem.get('sponsors') || []).map(
+        event.fields.sponsors = (eventsItem.get('sponsors') || []).map(
           id => partnersAndSponsors[id].fields
         )
 
         // Research Items
-        eventsItem.fields.research = (eventsItem.get('linked research item') || []).map(
+        event.fields.research = (eventsItem.get('linked research item') || []).map(
           id => research[id].fields
         )
   
         // Types
-        eventsItem.fields.types = (eventsItem.get('event types') || []).map(
+        event.fields.types = (eventsItem.get('event types') || []).map(
           id => types[id].fields
         )
 
         // Disciplines
-        eventsItem.fields.disciplines = (eventsItem.get('disciplines') || []).map(
+        event.fields.disciplines = (eventsItem.get('disciplines') || []).map(
           id => taxonomy[id].fields
         )
 
         // Methods
-        eventsItem.fields.methods = (eventsItem.get('methods') || []).map(
+        event.fields.methods = (eventsItem.get('methods') || []).map(
           id => taxonomy[id].fields
         )
         
         // Posts
-        eventsItem.fields.posts = (eventsItem.get('linked posts') || []).map(
+        event.fields.posts = (eventsItem.get('linked posts') || []).map(
           id => syncedPosts[id].fields
         )
 
-        events.push(eventsItem.fields)
+        events.push(event.fields)
       }
   
       this.writeJson(events, 'events.json')
