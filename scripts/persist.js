@@ -428,7 +428,7 @@ class Persistor {
           id => syncedPosts[id].fields
         )
   
-        allResearch.push(research)
+        allResearch.push(research.fields)
       }
   
       this.writeJson(allResearch, 'research.json')
