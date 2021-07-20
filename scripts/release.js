@@ -89,7 +89,6 @@ async function build(release) {
   const buildDir = getBuildDir(release)
   log.info(`building release in ${buildDir}`)
   await run('npm install', buildDir)
-  await run('npm run persist', buildDir)
   await run('npm run build', buildDir)
   log.info(`built release ${release.fields.id}`)
 }
