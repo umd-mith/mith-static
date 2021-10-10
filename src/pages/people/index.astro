@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import PersonPreview from '../../components/PersonPreview.astro'
+
+import peopleJson from '../../../public/data/people.json'
+
+// For the index page we only need a subset of a person's data
+const currentPeople = peopleJson.filter((person) => person['current identities'].length)
+const peopleData = currentPeople.map((persObj) => {
+    const type = persObj['group type']
+    const { id, first, last, headshot } = persObj
+    const externalLink = persObj.website
+    if (type.includes('Staff') || type.includes('Affiliates')) {
+        const identities = persObj['current identities']
+        let titles = identities.map((i) => {
+            if (i.department) {
+                // This hack can be removed if data gets cleaned up
+                if (i.department != 'MITH' && i.department != 'Maryland Institute for Technology in the Humanities') {
+                    return `${i.title}, ${i.department}`
+                }
+            }
+
+            return i.title
+        })
+
+        return { id, first, last, titles, type, headshot, externalLink }
+    }
+}).filter(Boolean) // This final filter should be removed when erroneous data is cleaned up 
+
+const pageContent = {
+    title: "People"
+}
+---
+<style>
+    @media screen and (min-width: 700px) {
+        .page-people {
+            --flow-space: var(--size-7);
+        }
+
+        .gallery-people {
+            display: grid;
+            grid-template-columns: repeat( auto-fit, minmax(275px, 1fr));
+            column-gap: var(--spacing-large);
+            row-gap: var(--size-4);
+        }
+    }
+</style>
+
+<BaseLayout pageContent={pageContent}>
+    <div class="page-people flow">
+        <h1>{pageContent.title}</h1>
+        <section id="facstaff" class="flow">
+            <h2>Faculty &amp; Staff</h2>
+            <div class="gallery-people">
+                {peopleData
+                    .filter((p) => p.type.includes('Staff'))
+                    .sort((a,b) => a.last.localeCompare(b.last))
+                    .map((staff) => <PersonPreview name={`${staff.first} ${staff.last}`} titles={staff.titles} headshot={staff.headshot[0]} url={`/people/${staff.id}`} />
+                )}
+            </div>
+        </section>
+        <section id="affiliates" class="flow">
+            <h2>Affiliates</h2>
+            <div class="gallery-people">
+                {peopleData
+                    .filter((p) => p.type.includes('Affiliates'))
+                    .sort((a,b) => a.last.localeCompare(b.last))
+                    .map((aff) => <PersonPreview name={`${aff.first} ${aff.last}`} titles={aff.titles} headshot={aff.headshot[0]} url={aff.externalLink} />
+                )}
+            </div>
+        </section>
+    </div>
+</BaseLayout>

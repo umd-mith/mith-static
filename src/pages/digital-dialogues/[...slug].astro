@@ -1,0 +1,60 @@
+---
+import { Markdown } from 'astro/components';
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import BreadcrumbNav from '../../components/BreadcrumbNav.astro'
+import RelatedPerson from '../../components/RelatedPerson.astro'
+import { readableDateTime } from '../../utils/dateHandlers.ts'
+
+import eventsJson from '../../../public/data/events.json'
+
+export async function getStaticPaths() {
+    const dialogueData = eventsJson.filter((e) => e['event type'].includes("Digital Dialogue"))
+
+    const paths = dialogueData.map((dd) => {
+        return {
+            params: { slug: dd.id },
+            props: { dd }
+        }
+    })
+
+    return paths
+}
+
+const { slug } = Astro.request.params
+const { dd } = Astro.props
+const subPaths = {
+    pathName: Astro.request.url.pathname, 
+    current: dd['talk title']
+}
+---
+<BaseLayout pageContent={{ title: dd['talk title'] }}>
+    <div class="page-dialogue wrapper">
+        <BreadcrumbNav pathInfo={subPaths} />
+        <div class="flow" itemscope itemtype="https://schema.org/Event">
+            <h1 class="title">{dd['talk title']}</h1>
+            {dd['talk subtitle'] ? <h2 class="subtitle">{dd['talk subtitle']}</h2> : ""}
+            <div class="dialogue-meta">
+                {readableDateTime(dd['start date'])}
+            </div>
+            <div class="speakers">
+                {dd.speakers.map((speaker) => (
+                    <div class="speaker">
+                        <RelatedPerson person={speaker} />
+                        <div class="twitter">
+                            {speaker.twitter ? <a href={`https://twitter.com/${speaker.twitter}`}>{ `@${speaker.twitter}` }</a> : ""}
+                        </div>
+                        <div class="website">
+                            {speaker.website ? <a href={speaker.website}>{speaker.website}</a>: ""}
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <div class="dialogue-desc">
+                <Markdown content={dd.description} />
+            </div>
+            <div class="media">
+            {dd['vimeo id'] ? <iframe title={dd['event title']} src={`https://player.vimeo.com/video/${dd['vimeo id']}`} height="360" width="640" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe> : ""}
+            </div>
+        </div>
+    </div>
+</BaseLayout>

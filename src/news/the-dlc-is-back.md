@@ -1,1 +1,0 @@
-[The Deena Larsen Collection (DLC)](http://mith.umd.edu/larsen/) is back up and running. Thank you for your patience while we fixed the website.

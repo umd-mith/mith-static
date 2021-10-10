@@ -1,0 +1,40 @@
+---
+const { pathInfo } = Astro.props
+const fmtPaths = (pathStr:string):string[] => {
+    const pathParts = pathStr.split('/')
+    // pathParts[0] will be empty because paths always start with /
+    if (pathParts.length === 3) {
+        return [pathParts[1], pathParts[2]]
+    } else if (pathParts.length === 4) {
+        return [pathParts[1], pathParts[3]]
+    } else {
+        return []
+    }
+}
+const [parent, current] = fmtPaths(pathInfo.pathName) 
+---
+<style>
+    nav {
+        font-size: var(--size-0);
+        margin-bottom: var(--flow-space, 1em);
+    }
+
+    .ancestor > a {
+        text-transform: capitalize;
+    }
+
+    .ancestor::after {
+        content: "\00A0/\00A0"; /* Non-breaking space! */
+    }
+
+    span:last-child {
+        color: hsl(var(--color-gray-600));
+    }
+</style>
+
+<nav>
+    <span class="ancestor">
+        { parent ? <a href={`/${parent}/`}>{parent.replace(/\W/g, " ")}</a> : ""}
+    </span>
+    <span>{pathInfo.current}</span>
+</nav>

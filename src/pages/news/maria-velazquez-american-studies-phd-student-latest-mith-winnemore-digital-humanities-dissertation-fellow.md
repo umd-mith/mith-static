@@ -1,0 +1,15 @@
+---
+author:
+- 'MITH '
+date: '2011-02-05T00:33:00.000Z'
+layout: ../../layouts/PostLayout.astro
+slug: maria-velazquez-american-studies-phd-student-latest-mith-winnemore-digital-humanities-dissertation-fellow
+title: Maria Velazquez, American Studies PhD student, latest MITH Winnemore Digital
+  Humanities Dissertation Fellow
+---
+
+MITH is proud to announce that Maria Velazquez, a University of Maryland, College Park PhD student in American Studies, as our spring 2011 member for MITH's Winnemore Digital Humanities Dissertation Fellows program.
+
+Each spring semester MITH provides support to a graduate student whose dissertation engages the intersections between new media and the traditional concerns of the Arts and Humanities, offering a stipend equivalent to a semester-long Graduate Assistantship, including tuition and remission. The successful applicant also receives server space, consultations on the dissertation work, and technical support when needed.
+
+Maria Velazquez will be working at MITH on her dissertation project: “Electronic Skin: Community Building and Virtual Embodiment.” Congratulations to Maria and we look forward to welcoming you to MITH this semester as well as a presenter in our Digital Dialogue series.

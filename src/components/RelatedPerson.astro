@@ -1,0 +1,22 @@
+---
+const { person } = Astro.props
+---
+<style>
+    .identities span:not(:last-child)::after {
+        content: ", \A"
+    }
+    .related-person-details .name {
+        font-weight: bolder;
+    }
+</style>
+
+<div class="related-person-details">
+    {person.affiliations.filter((a) => a.department === "MITH").length ? <a class="name" href={`/people/${person.slug}`}>{person.name}</a>: <div class="name">{person.name}</div>}
+    {person.affiliations.map((a) => (
+        <div class="identities">
+            {a.title ? <span class="title">{a.title}</span> : ""}
+            {a.department ? <span>{a.department}</span> : ""}
+            <span>{a.institution}</span>
+        </div>
+    ))}
+</div>
