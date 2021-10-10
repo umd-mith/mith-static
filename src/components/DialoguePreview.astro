@@ -1,0 +1,56 @@
+---
+import RelatedPerson from './RelatedPerson.astro'
+import { readableDateTime } from '../utils/dateHandlers.ts'
+
+const { dd } = Astro.props
+---
+<style>
+    article {
+        --flow-space: var(--size-1);
+        display: flex;
+        flex-flow: column;
+        margin-top: var(--size-2);
+    }
+
+    header {
+        flex: 1 0 40%;
+    }
+
+    header > div:first-child {
+        font-size: var(--size-0);
+    }
+
+    header h4 {
+        color: hsl(var(--color-gray-600));
+        line-height: 1.1;
+    }
+
+    header a {
+        text-decoration: none;
+    }
+
+    .speakers {
+        flex: 0 1 45%;
+    }
+
+    @media screen and (min-width: 1000px) {
+        article {
+            margin-top: revert;
+        }
+    }
+</style>
+
+<article class="card-dialogue-summary flow">
+    <header>
+        <div>{readableDateTime(dd['start date'])}</div>
+        <h3><a href={dd.id}>{dd['talk title']}</a></h3>
+        {dd['talk subtitle'] ? <h4 class="subtitle">{dd['talk subtitle']}</h4> : ""}
+    </header>
+    <div class="speakers">
+        {dd.speakers.map((speaker) => (
+            <div class="speaker">
+                <RelatedPerson person={speaker} />
+            </div>
+        ))}
+    </div>
+</article>

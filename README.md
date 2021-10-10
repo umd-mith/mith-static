@@ -1,7 +1,7 @@
 # MITH (Static) Website
 
-This is the Gatsby static site for https://mith.umd.edu. It builds pages based
-on data stored in several Airtable bases.
+This is the source code for for https://mith.umd.edu. It builds pages based
+on data stored in several Airtable (data)bases.
 
 ## Deploy
 
@@ -21,8 +21,8 @@ been added to the Releases Airtable table. This job is contained here in the
 
 To build the site you will need to install a few things:
 
-* [Node]: a JavaScript programming environment
-* [Git]: version control software
+- [Node]: a JavaScript programming environment
+- [Git]: version control software
 
 Then you will need to get this repository:
 
@@ -41,8 +41,8 @@ Ask a MITH team member for the correct values to add to your .env file.
 
 Now you are ready to start the development server:
 
-    npm run develop
+    npm run start
 
-[Node]: https://nodejs.org
-[Git]: https://git-scm.com/
+[node]: https://nodejs.org
+[git]: https://git-scm.com/
 [mith-ansible]: https://github.com/umd-mith/mith-ansible

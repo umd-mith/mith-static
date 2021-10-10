@@ -1,0 +1,30 @@
+---
+const { pagesInfo } = Astro.props
+const [current, total, urlObj] = pagesInfo
+---
+<style>
+    .paginator {
+        margin-top: var(--size-7);
+        text-align: center;
+    }
+    .control-pages {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: var(--spacing-large);
+        justify-content: space-between;
+        margin-top: var(--size-0);
+        width: 50%;
+    }
+</style>
+
+<div class="paginator">
+    Page {current} of {total}
+    <div class="control-pages wrapper">
+        <span class="prev">
+            {urlObj.prev ? <a href={urlObj.prev}>Previous page</a> : ""}
+        </span>
+        <span class="next">
+            {urlObj.next ? <a href={urlObj.next}>Next page</a> : ""}
+        </span>
+    </div>
+</div>

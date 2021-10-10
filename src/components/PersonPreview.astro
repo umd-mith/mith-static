@@ -1,0 +1,28 @@
+---
+const { name, titles, headshot, url } = Astro.props
+const imgW = 320
+---
+<style>
+    .person {
+        margin-top: var(--size-3);
+    }
+    img {
+        
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    @media screen and (min-width: 700px) {
+        .person {
+            margin-top: revert;
+        }
+    }
+</style>
+
+<div class="person">
+    <a href={url}>
+        <img src={headshot.url} alt={name} width={imgW} />
+    </a>
+    <h3><a href={url}>{name}</a></h3>
+    {titles.map((t) => <div class="title">{t}</div>)}
+</div>

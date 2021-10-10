@@ -1,0 +1,22 @@
+---
+import { Markdown } from 'astro/components';
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const postContents = Astro.fetchContent('../pages/news/*.md')
+const latestPosts = postContents.slice(0,3)
+---
+<BaseLayout>
+    <section class="intro-site flow wrapper">
+        <Markdown>
+            # Maryland Institute for Technology in the Humanities
+
+            We are an interdisciplinary group of researchers who collaboratively advance the study of cultural heritage and arts using computational technologies while also training the insights and approaches of the humanities on the computational technologies that shape our world.
+
+            As a center within the [College of Arts and Humanities](https://arhu.umd.edu) at the University of Maryland, College Park, MITH has served as a world-class concentration of expertise for more than 20 years. We also teach courses and hosts events for campus and public communities in support of our core research mission.
+
+            You might know us through our work on the [African American History, Culture and Digital Humanities (AADHum) Initiative](https://aadhum.umd.edu), the [Documenting the Now](https://docnow.io) project, the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/), or the other work of one of our [faculty and staff members](/people/).
+
+            The MITH website is currently being redeveloped in public. If you are looking for content that was previously here, it's in [the archive](https://archive.mith.umd.edu/mith-2020/).
+        </Markdown>
+    </section>
+</BaseLayout>

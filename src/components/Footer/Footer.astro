@@ -1,0 +1,75 @@
+---
+import RequiredNotices from './RequiredNotices.astro'
+import ContactInfo from './ContactInfo.astro'
+import Logo from './Logo.astro' 
+import * as CONFIG from '../../config.ts'
+---
+<style>
+    footer {
+        background-color: hsl(var(--color-gray-800));
+        color: hsl(var(--color-gray-200));
+        font-size: var(--size-0);
+        padding-top: var(--spacing-base);
+        padding-bottom: var(--spacing-large);
+    }
+
+    .inner-footer {
+        display: flex;
+        flex-flow: column;
+    }
+
+    ul {
+        margin-block: 0;
+        padding-left: 0;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: var(--spacing-base);
+    }
+
+    @media screen and (min-width: 1000px) {
+        .inner-footer {
+            display: grid;
+            grid-template-columns:
+                2fr
+                1fr;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .inner-footer {
+            grid-template-columns:
+                1fr
+                min(55rem, 100%)
+                1fr;
+        }
+    }
+</style>
+
+<footer>
+    <div class="inner-footer flow">
+        <div class="logo-container">
+            <a href="/"><Logo /></a>
+        </div>
+        <nav class="nav-container">
+            <ul role="list">
+                {
+                    CONFIG.MENU.en
+                        .filter((page) => page.group === 'main')
+                        .map((page) => <li><a href={page.link}>{page.label}</a></li>)
+                }
+            </ul>
+            <ul role="list">
+                {
+                    CONFIG.MENU.en
+                        .filter((page) => page.group != 'main')
+                        .map((page) => <li><a href={page.link}>{page.label}</a></li>)
+                }
+            </ul>
+        </nav>   
+        <ContactInfo />
+        <RequiredNotices />
+    </div>
+</footer>

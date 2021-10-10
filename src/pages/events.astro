@@ -1,0 +1,20 @@
+---
+import { Markdown } from "astro/components"
+import BaseLayout from "../layouts/BaseLayout.astro"
+
+const pageContent = {
+    title: "Events"
+}
+---
+<BaseLayout pageContent={ pageContent }>
+    <div class="page-events wrapper">
+        <h1>{pageContent.title}</h1>
+        <div class="flow">
+            <Markdown>
+                Due to the ongoing COVID-19 pandemic, we are not holding in-person events right now and our calendar of virtual events is also limited. We will announce any virtual events through our [Twitter feed](https://twitter.com/UMD_MITH/) and [blog](/news/).
+
+                If you are looking for information about past events, please check out the [archive](https://archive.mith.umd.edu/mith-2020/). 
+            </Markdown>
+        </div>
+    </div>
+</BaseLayout>
