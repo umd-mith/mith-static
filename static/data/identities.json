@@ -5181,7 +5181,7 @@
     "person_slug": "regina-harrison"
   },
   {
-    "title": "Assistant Director of Innovation and Learning",
+    "title": "Assistant Director for Innovation and Learning",
     "department": "MITH",
     "institution": "University of Maryland",
     "linked person": [
@@ -5207,7 +5207,7 @@
     ],
     "person bio": "Purdom Lindblad is the Assistant Director of Innovation and Learning at MITH. She coordinates MITH’s growing portfolio of courses and instructional programs and is a member of the AADHum (Synergies Among Digital Humanities and African American History and Culture) team.\nPurdom has an MA in American Studies from Michigan State University and an MS in Information Science from the [School of Information](https://www.si.umich.edu/), University of Michigan. Interested in digital humanities since graduate school, Purdom has worked at Michigan State University’s [Matrix](http://www2.matrix.msu.edu/), [Virginia Tech Libraries](http://www.lib.vt.edu/), and the [Scholars’ Lab ](http://scholarslab.org/)at the University of Virginia Library.\nPurdom is broadly interested in the implicit and explicit effort that digital humanities can do for social, cultural, and environmental justice. Applying principles from Feminist Interface Design, Purdom and her Scholars’ Lab colleague [Jeremy Boggs](http://scholarslab.org/people/jeremy-boggs/), explore how the process of feature development and public documentation shape the experience of users and render the theoretical underpinnings of digital work more accessible. Recent publications include [Praxis](https://digitalpedagogy.commons.mla.org/keywords/praxis/), a keyword in the MLA Commons Digital Pedagogy in the Humanities: Concepts, Models, and Experiments written with [Bethany Nowviskie](http://nowviskie.org/) and Jeremy Boggs as well as a chapter in [Making Humanities Matter](https://github.com/jentery/mhm), edited by Jentery Sayers.\n",
     "identity": "purdom-lindblad-current-265",
-    "full affiliation": "Assistant Director of Innovation and Learning, MITH, University of Maryland",
+    "full affiliation": "Assistant Director for Innovation and Learning, MITH, University of Maryland",
     "slug": "purdom-lindblad-265",
     "person name": [
       "Purdom Lindblad"
@@ -12808,7 +12808,7 @@
     "person_slug": "jennifer-guiliano"
   },
   {
-    "title": "Graduate Assistant, AADHum",
+    "title": "Research Fellow, AADHum",
     "department": "MITH",
     "institution": "University of Maryland",
     "start": 2020,
@@ -12825,9 +12825,9 @@
     "person bio": "Christin Washington is a Graduate Assistant for the African-American History, Culture, and Digital Humanities center (AADHUM), first year PhD student in the Department of American Studies, and Flagship Fellow at the University of Maryland, College Park. She is also a member of the Immersive Realities Lab for the Humanities (irLh).\nFocusing on digitality’s place in Black and American life, she explores how digital technologies stretch and remodel the present limits of storytelling and memorialization, warp time, shrink space, and democratize resources. She remains attuned to the ways it can reproduce marginalization and obstruct access in the United States. As a result, she feels called to helping create digital tools that are equitable and humanistic at its core.\nPrior to joining the team, Christin was a Community Partnerships Associate at DonorsChoose, an edtech company that provides learning materials to public school students across the United States. Christin is an alumna of Amherst College where she received a B.A. with the highest distinction in Black Studies and Political Science.\n",
     "identity id": 1,
     "identity": "christin-washington-current-458",
-    "full affiliation": "Graduate Assistant, AADHum, MITH, University of Maryland",
+    "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
     "slug": "christin-washington-458",
-    "date span": "Graduate Assistant, AADHum, 2020",
+    "date span": "Research Fellow, AADHum, 2020",
     "person name": [
       "Christin Washington"
     ],
@@ -16612,7 +16612,7 @@
     "person_slug": "mark-priestley"
   },
   {
-    "title": "Assistant Director of Finance and Administration",
+    "title": "Assistant Director for Finance and Administration",
     "department": "MITH",
     "institution": "University of Maryland",
     "linked person": [
@@ -16631,7 +16631,7 @@
     "person bio": "As Assistant Director for Finance and Administration, Grace Babukiika is responsible for the direction, execution and management of the unit’s business, personnel, and research administration functions. This includes strategic planning as part of the management team, direct oversight of human resource and personnel activities, budget formulation and execution, payroll administration, procurement; facilities and space management; supervision of administrative personnel and students; and review of University and sponsored research reporting. Ms. Babukiika has an extensive background in Accounting and Finance. Prior to joining MITH in 2014, Ms. Babukiika gained University experience by working as a Business Services Coordinator and Business Manager at the University of Maryland, College Park and as an Accountant at the University of New Haven. She has also held senior-level financial positions in Banking and Manufacturing firms. Ms. Babukiika holds an M.B.A. from Southern Connecticut State University and a B.B.A. from Baruch College, City University of New York.\n",
     "identity id": 1,
     "identity": "grace-babukiika-current-12",
-    "full affiliation": "Assistant Director of Finance and Administration, MITH, University of Maryland",
+    "full affiliation": "Assistant Director for Finance and Administration, MITH, University of Maryland",
     "slug": "grace-babukiika-12",
     "person name": [
       "Grace Babukiika"
@@ -17550,23 +17550,19 @@
     "linked person": [
       "rect4XPdHKVIk2cPn"
     ],
-    "linked people as current": [
-      "rect4XPdHKVIk2cPn"
-    ],
     "linked people as past": "jeffrey-moro",
     "id": 307,
     "person bio": "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland, College Park. His interdisciplinary research bridges media studies, digital humanities, and the environmental humanities to study how media technologies facilitate our cultural understanding of the natural world. His dissertation, \"Atmospheric Media: Computation and the Environmental Imagination,\" explores how artists, technologists, and critics imagine digital media in terms of atmospheres, both literal and otherwise—and how in turn, these media atmospheres condition the possibilities for sustainable human life on our planet. His writing has appeared or will soon appear in _\\*Amodern\\*_, _\\*Media Fields\\*_, _\\*Qui Parle\\*_, and the _\\*Los Angeles Review of Books\\*_. Past lives include work as site manager for _\\*Romantic Circles\\*_, a born-digital journal of Romantic literature, and as Post-Baccalaureate Resident with Five College Digital Humanities, a Mellon-funded DH program at the Five Colleges of Western Massachusetts. He holds BAs in English and Theater & Dance from Amherst College. \n",
-    "identity": "jeffrey-moro-current-307",
+    "identity": "jeffrey-moro-307",
     "full affiliation": "Winnemore Digital Humanities Dissertation Fellow, MITH, University of Maryland",
     "slug": "jeffrey-moro-307",
-    "date span": "Winnemore Digital Humanities Dissertation Fellow, 2020",
+    "date span": "Winnemore Digital Humanities Dissertation Fellow, 2020 – 2021",
     "person name": [
       "Jeffrey Moro"
     ],
     "linked person bio": [
       "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland. His interdisciplinary research explores how media technologies facilitate our cultural understanding of the natural world. He works as a research assistant with the African American History, Culture, and Digital Humanities (AADHum) Initiative at the Maryland Institute for Technology in the Humanities, where he previously served as their Winnemore Digital Humanities Dissertation Fellow. His dissertation, “Atmospheric Media: Computation and the Environmental Imagination,” is a cultural study of atmospheric data, exploring the technologies that record it, the creative and critical uses to which it’s put, and its role in addressing our climate crisis. His writing has appeared in Media Fields, Amodern, ISLE, Qui Parle, and the Los Angeles Review of Books. Past lives include work as site manager for Romantic Circles, a born-digital journal of Romantic Literature, and as Post-Baccalaureate Resident with Five College Digital Humanities. He holds BAs in English and Theater & Dance from Amherst College. "
     ],
-    "identity group": "current",
     "headshot": [
       {
         "id": "attcLD6hAgr9IUkIe",
@@ -17595,6 +17591,7 @@
         }
       }
     ],
+    "end": 2021,
     "person group": [
       "current"
     ],
@@ -17826,6 +17823,62 @@
       }
     ],
     "person_slug": "emad-khazraee"
+  },
+  {
+    "id": 861,
+    "identity group": "current",
+    "identity": "jeffrey-moro-current-861",
+    "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
+    "slug": "jeffrey-moro-861",
+    "date span": "Research Fellow, AADHum, 2021",
+    "start": 2021,
+    "linked person": [
+      "rect4XPdHKVIk2cPn"
+    ],
+    "person name": [
+      "Jeffrey Moro"
+    ],
+    "linked person bio": [
+      "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland. His interdisciplinary research explores how media technologies facilitate our cultural understanding of the natural world. He works as a research assistant with the African American History, Culture, and Digital Humanities (AADHum) Initiative at the Maryland Institute for Technology in the Humanities, where he previously served as their Winnemore Digital Humanities Dissertation Fellow. His dissertation, “Atmospheric Media: Computation and the Environmental Imagination,” is a cultural study of atmospheric data, exploring the technologies that record it, the creative and critical uses to which it’s put, and its role in addressing our climate crisis. His writing has appeared in Media Fields, Amodern, ISLE, Qui Parle, and the Los Angeles Review of Books. Past lives include work as site manager for Romantic Circles, a born-digital journal of Romantic Literature, and as Post-Baccalaureate Resident with Five College Digital Humanities. He holds BAs in English and Theater & Dance from Amherst College. "
+    ],
+    "headshot": [
+      {
+        "id": "attcLD6hAgr9IUkIe",
+        "width": 1000,
+        "height": 1127,
+        "url": "https://dl.airtable.com/.attachments/6cbdcefb3d08844e57ba309fd2667bca/9e59545a/jmoro-selfie-website-cropped.jpg",
+        "filename": "jmoro-selfie-website-cropped.jpg",
+        "size": 666208,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/07bb1f6eb242508b8f35f4b5b6ee71e4/e0ac80eb",
+            "width": 32,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/98ad5e57bfd34e5209008b00f79374a4/1e2b58f3",
+            "width": 512,
+            "height": 577
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/54ddb076264903610ce0edcb14e7462a/5cea87c6",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "title": "Research Fellow, AADHum",
+    "department": "MITH",
+    "institution": "University of Maryland",
+    "linked people as current": [
+      "rect4XPdHKVIk2cPn"
+    ],
+    "person group": [
+      "current"
+    ],
+    "person_slug": "jeffrey-moro"
   },
   {
     "title": "Director",
@@ -25639,7 +25692,7 @@
     "person_slug": "george-williams"
   },
   {
-    "title": "Postdoctoral Associate for Data Curation, AADHum/MITH",
+    "title": "Postdoctoral Associate for Data Curation",
     "department": "Maryland Institute for Technology in the Humanities",
     "institution": "University of Maryland",
     "start": 2020,
@@ -25656,9 +25709,9 @@
     "person bio": "Francena Turner is a CLIR Fellow and Postdoctoral Associate for Data Curation in African American History and Culture for the University of Maryland Restorative Justice Project where her archival and oral history work sits at the intersection of African American History, Culture, and Digital Humanities (AADHum), oral history, and the University of Maryland Libraries faculty.\nFrancena uses oral history methodology as excavation work in an effort to bridge the past and present. That is, her research has a decidedly social justice centered purpose and end goal. Her research interests include histories of Black education, Black women’s higher education, activist scholars, Black Feminisms. She is most interested in historical and contemporary issues of equity, agency, and thriving in education. In her dissertation research for example, she used oral history methodology to explore the organizing and activism experiences of Black women who attended a Southeastern historically Black university during the Civil Rights/Black Power Era. Such scholarship provides valuable information and possibilities for current organizers and activists.\nTurner holds a Ph.D. in Education Policy, Organization & Leadership with a concentration in History of Education from the University of Illinois at Urbana-Champaign and degrees from Fayetteville State University (B.A. History) and Fayetteville Technical Community College (A.A.S. Respiratory Care, General Education).\n",
     "identity id": 1,
     "identity": "francena-turner-current-445",
-    "full affiliation": "Postdoctoral Associate for Data Curation, AADHum/MITH, Maryland Institute for Technology in the Humanities, University of Maryland",
+    "full affiliation": "Postdoctoral Associate for Data Curation, Maryland Institute for Technology in the Humanities, University of Maryland",
     "slug": "francena-turner-445",
-    "date span": "Postdoctoral Associate for Data Curation, AADHum/MITH, 2020",
+    "date span": "Postdoctoral Associate for Data Curation, 2020",
     "person name": [
       "Francena Turner"
     ],
