@@ -17900,9 +17900,9 @@
     "twitter": "DaryleWilliams",
     "website": "http://faculty.history.umd.edu/DWilliams",
     "people groups": [
-      "Affiliates",
       "Past Resident Fellows",
-      "Speaker"
+      "Speaker",
+      "Past Affiliates"
     ],
     "new id": 12,
     "wordpress id": 5819,
@@ -17926,178 +17926,17 @@
         "id": 469
       }
     ],
-    "identities as current": [
-      "recovZfOzCiKOcpok",
-      "recxKo48A9G7FCMwm",
-      "recJbYZh8utoxju4z"
-    ],
     "name": "Daryle Williams",
     "group type": [
-      "Affiliates",
       "Past",
       "External"
     ],
     "slug": "daryle-williams",
     "slug formula": "daryle-williams",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-05-13T15:52:53.000Z",
+    "modified": "2021-10-21T15:20:19.000Z",
     "record_id": "recibUxoBhGVXDkP9",
-    "current identities": [
-      {
-        "title": "MITH Affiliate Associate Professor",
-        "department": "MITH",
-        "institution": "University of Maryland",
-        "start": 2018,
-        "linked person": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as current": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as past": "daryle-williams",
-        "id": 469,
-        "identity id": 2,
-        "identity": "daryle-williams-current-469",
-        "full affiliation": "MITH Affiliate Associate Professor, MITH, University of Maryland",
-        "slug": "daryle-williams-469",
-        "date span": "MITH Affiliate Associate Professor, 2018 – 2021",
-        "person name": [
-          "Daryle Williams"
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "attFlFd0WAZlKVGpG",
-            "width": 1400,
-            "height": 933,
-            "url": "https://dl.airtable.com/.attachments/17daf1a1e3d0ceab98ec607181060b4f/bb91912a/daryle-williams.jpg",
-            "filename": "daryle-williams.jpg",
-            "size": 582423,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/699163d487f671e527854fd4dcb794fd/2777a985",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/e86f560efffbf155629aa056f194153c/4286e910",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/625674e7305d5bb9116ab3d0489adeba/b74f188d",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ],
-        "end": 2021
-      },
-      {
-        "title": "Associate Dean for Faculty Affairs",
-        "department": "ARHU",
-        "institution": "University of Maryland",
-        "linked person": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as current": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as past": "daryle-williams",
-        "id": 470,
-        "identity id": 3,
-        "identity": "daryle-williams-current-470",
-        "full affiliation": "Associate Dean for Faculty Affairs, ARHU, University of Maryland",
-        "slug": "daryle-williams-470",
-        "person name": [
-          "Daryle Williams"
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "attFlFd0WAZlKVGpG",
-            "width": 1400,
-            "height": 933,
-            "url": "https://dl.airtable.com/.attachments/17daf1a1e3d0ceab98ec607181060b4f/bb91912a/daryle-williams.jpg",
-            "filename": "daryle-williams.jpg",
-            "size": 582423,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/699163d487f671e527854fd4dcb794fd/2777a985",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/e86f560efffbf155629aa056f194153c/4286e910",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/625674e7305d5bb9116ab3d0489adeba/b74f188d",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ],
-        "end": 2021
-      },
-      {
-        "title": "Associate Professor of History",
-        "institution": "University of Maryland",
-        "linked person": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as current": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as past": "daryle-williams",
-        "id": 471,
-        "linked events as speaker": [
-          "recnvK4kcNTd9ps5a"
-        ],
-        "identity id": 4,
-        "identity": "daryle-williams-current-471",
-        "full affiliation": "Associate Professor of History, University of Maryland",
-        "slug": "daryle-williams-471",
-        "person name": [
-          "Daryle Williams"
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "attFlFd0WAZlKVGpG",
-            "width": 1400,
-            "height": 933,
-            "url": "https://dl.airtable.com/.attachments/17daf1a1e3d0ceab98ec607181060b4f/bb91912a/daryle-williams.jpg",
-            "filename": "daryle-williams.jpg",
-            "size": 582423,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/699163d487f671e527854fd4dcb794fd/2777a985",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/e86f560efffbf155629aa056f194153c/4286e910",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/625674e7305d5bb9116ab3d0489adeba/b74f188d",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ],
-        "end": 2021
-      }
-    ]
+    "current identities": []
   },
   {
     "id": "joyce-ray",
