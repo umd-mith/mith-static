@@ -44,6 +44,10 @@ const { currentPage } = Astro.props
 </header>
 
 <style>
+  header{
+    margin-bottom: var(--spacing-base);
+  }
+
   .header-inner-wrapper {
     line-height: 1.1;
     margin: var(--spacing-base) var(--spacing-small);
@@ -55,12 +59,6 @@ const { currentPage } = Astro.props
 
   .logo-container {
     padding-bottom: var(--spacing-base);
-  }
-
-  .nav-container {
-    margin-left: 1ch;
-    padding-left: 1ch;
-    max-width: 50vmin;
   }
 
   .logo {
@@ -139,10 +137,18 @@ const { currentPage } = Astro.props
     z-index: 300;
   }
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 27em) {
+    .header-inner-wrapper {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    .logo-container {
+      flex: 1 0 auto;
+    }
+
     .nav-container {
-      min-height: 12vmin;
-      margin-bottom: var(--spacing-base);
+      flex-shrink: 0;
     }
 
     .menu {
@@ -152,9 +158,6 @@ const { currentPage } = Astro.props
       font-size: var(--size-0);
       margin-block: 0;
       padding-top: 1ex;
-      position: absolute;
-      top: calc(var(--spacing-base) + 56px);
-      right: var(--spacing-small);
       text-align: justify;
     }
 
@@ -163,11 +166,7 @@ const { currentPage } = Astro.props
     }
   }
 
-  @media screen and (min-width: 1000px) {
-    .nav-container {
-      min-height: 4vmin;
-    }
-
+  @media screen and (min-width: 62em) {
     .menu {
       --flow-space: 0;
       flex-flow: row nowrap;
@@ -183,7 +182,9 @@ const { currentPage } = Astro.props
       padding-inline: 0.5ex;
     }
   }
-</style><style global>
+</style>
+
+<style global>
   #menu-toggle {
     background-color: transparent;
     border: 1px solid hsl(var(--color-gray-200));
@@ -212,7 +213,7 @@ const { currentPage } = Astro.props
     border: none;
   }
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 27em) {
     #menu-toggle {
       display: none;
     }
