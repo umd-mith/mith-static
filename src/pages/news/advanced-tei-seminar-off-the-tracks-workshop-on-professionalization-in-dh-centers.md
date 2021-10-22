@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-01-19T16:51:00.000Z'
+  - "MITH "
+date: "2011-01-19T16:51:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: advanced-tei-seminar-off-the-tracks-workshop-on-professionalization-in-dh-centers
 title: Advanced TEI Seminar & Workshop on Professionalization in DH Centers

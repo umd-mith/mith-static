@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2018-10-11T14:08:00.000Z'
+  - Trevor Muñoz
+date: "2018-10-11T14:08:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-appoints-affiliate-faculty
 title: MITH Appoints Affiliate Faculty

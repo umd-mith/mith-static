@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2015-01-22T19:03:00.000Z'
+  - Stephanie Sapienza
+date: "2015-01-22T19:03:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mark-calendars-miths-spring-2015-digital-dialogue
 title: Mark your calendars ... MITH's Spring 2015 Digital Dialogues are coming up!

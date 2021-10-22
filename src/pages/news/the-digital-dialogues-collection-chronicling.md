@@ -1,10 +1,11 @@
 ---
 author:
-- David Durden
-date: '2016-08-08T13:30:00.000Z'
+  - David Durden
+date: "2016-08-08T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-digital-dialogues-collection-chronicling
-title: The Digital Dialogues Collection, chronicling a slice of the digital humanities
+title:
+  The Digital Dialogues Collection, chronicling a slice of the digital humanities
   since 2005
 ---
 

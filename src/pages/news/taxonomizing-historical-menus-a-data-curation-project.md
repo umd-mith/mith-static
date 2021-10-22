@@ -1,10 +1,10 @@
 ---
 author:
-- Lydia Zvyagintseva
-date: '2013-06-21T14:00:00.000Z'
+  - Lydia Zvyagintseva
+date: "2013-06-21T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: taxonomizing-historical-menus-a-data-curation-project
-title: 'Organizing historical menus: a data curation experiment'
+title: "Organizing historical menus: a data curation experiment"
 ---
 
 During the weeks of April 14 - May 3, I was fortunate to spend my MLIS practicum at MITH under the supervision of Trevor Munoz. My main reason for applying to MITH as a potential practicum site was my background in the digital humanities and library and information studies, as well as my interest in data curation and research data management in the humanities. I also wanted to apply the skills I learned in the “Data Curation for Digital Humanists” course at the Digital Humanities Winter Institute hosted by MITH and the University of Maryland in January of 2013 (taught by Trevor and Dorothea Salo from UW-Madison.) I was pleased, then, to discover what a unique project Trevor chose for us during my time at MITH.

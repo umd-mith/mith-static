@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2016-06-22T20:16:00.000Z'
+  - "MITH "
+date: "2016-06-22T20:16:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: please-join-mith-welcoming-purdom-lindblad-team
 title: Please join MITH in welcoming Purdom Lindblad to our team!

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-01-03T16:50:00.000Z'
+  - "MITH "
+date: "2012-01-03T16:50:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: miths-associate-director-in-the-new-york-times
 title: MITH’s Associate Director in The New York Times

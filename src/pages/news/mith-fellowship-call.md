@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-03-31T12:05:00.000Z'
+  - "MITH "
+date: "2010-03-31T12:05:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-fellowship-call
 title: MITH Fellowship Call

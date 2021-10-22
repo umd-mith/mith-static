@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-10-25T14:41:00.000Z'
+  - "MITH "
+date: "2011-10-25T14:41:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: seeking-applications-for-winnemore-dissertation-fellowship
 title: Seeking Applications for Winnemore Dissertation Fellowship

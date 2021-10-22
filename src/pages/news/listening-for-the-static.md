@@ -1,7 +1,7 @@
 ---
 author:
-- Avery Dame
-date: '2016-12-09T18:11:00.000Z'
+  - Avery Dame
+date: "2016-12-09T18:11:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: listening-for-the-static
 title: Listening for the Static

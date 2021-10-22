@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2009-11-04T22:38:00.000Z'
+  - Digital Dialogues
+date: "2009-11-04T22:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: fall-digital-dialogues-now-available
 title: Fall Digital Dialogues Now Available

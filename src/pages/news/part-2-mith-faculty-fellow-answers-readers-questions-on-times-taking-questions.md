@@ -1,11 +1,11 @@
 ---
 author:
-- Emma Millon
-date: '2012-02-20T18:02:00.000Z'
+  - Emma Millon
+date: "2012-02-20T18:02:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: part-2-mith-faculty-fellow-answers-readers-questions-on-times-taking-questions
-title: 'Part 2: MITH Faculty Fellow Answers Readers'' Questions on Times’ “Taking
-  Questions”'
+title: "Part 2: MITH Faculty Fellow Answers Readers' Questions on Times’ “Taking
+  Questions”"
 ---
 
 Last week, Carla Peterson, professor of English and a MITH Faculty Fellow, was featured by [The New York Times City Room "Taking Questions" series](http://cityroom.blogs.nytimes.com/2012/02/13/taking-questions-carla-l-peterson/) on her book, _Black Gotham: A Family History of African Americans in Nineteenth-Century New York City_ (Yale University Press, 2011). Over the course of the week, readers submitted their questions to Dr. Peterson about nineteenth-century black New York. She has taken the time to respond to questions. One of her responses appears here. Visit the ["Taking Questions"](http://cityroom.blogs.nytimes.com/2012/02/15/answers-about-black-history-in-19th-century-new-york-part-1/) page to read more.

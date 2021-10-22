@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-05-15T12:59:00.000Z'
+  - "MITH "
+date: "2012-05-15T12:59:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcingdhwi
 title: Announcing the Digital Humanities Winter Institute

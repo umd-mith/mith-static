@@ -1,11 +1,12 @@
 ---
 author:
-- Amanda Visconti
-date: '2015-03-10T21:30:00.000Z'
+  - Amanda Visconti
+date: "2015-03-10T21:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: come-read-us-update-infinite-ulysses-participatory-digital-edition
-title: 'Come read with us!: an update on the Infinite Ulysses participatory digital
-  edition'
+title:
+  "Come read with us!: an update on the Infinite Ulysses participatory digital
+  edition"
 ---
 
 Since my [last post](http://mith.umd.edu/invitation-beta-test-infinite-ulysses-digital-edition/ "An Invitation to Beta-Test the Infinite Ulysses Digital Edition") in January, I've used feedback from generous beta-testers to bring [the Infinite Ulysses participatory digital edition](http://www.infiniteulysses.com) up to where I'd hoped it would be by the end of my dissertation. In the past, I invited users in small batches from a list of readers who signed up to beta-test. I wanted to continue testing early and often, slowly ramping up the formality of my testing from the informal conversations I used during the previous year to formal survey metrics.

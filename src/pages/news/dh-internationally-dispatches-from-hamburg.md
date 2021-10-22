@@ -1,10 +1,10 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-07-24T13:45:00.000Z'
+  - Jennifer Guiliano
+date: "2012-07-24T13:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: dh-internationally-dispatches-from-hamburg
-title: 'DH Internationally: Dispatches from Hamburg'
+title: "DH Internationally: Dispatches from Hamburg"
 ---
 
 Digital Humanists from across the globe gathered last week at our annual conference, [DH2012](http://www.dh2012.uni-hamburg.de/), hosted in the lovely city of Hamburg, Germany. While the weather felt tremendously cold to those of us who've spent the last few weeks in the US with 100 plus degree temps, the conference itself could not have had a warmer reception. From keynotes that explored the intersections of cultural studies, internationality, and digitality to the variety of conference presentations and events, DH2012 lived up to its efforts to capture digital culture and the current state of the field. And Hamburg itself was welcoming to a large number of us who spoke no German beyond simple phrases.

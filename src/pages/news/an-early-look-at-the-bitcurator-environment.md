@@ -1,7 +1,7 @@
 ---
 author:
-- Porter Olsen
-date: '2012-11-09T13:30:00.000Z'
+  - Porter Olsen
+date: "2012-11-09T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: an-early-look-at-the-bitcurator-environment
 title: An Early Look at the BitCurator Environment

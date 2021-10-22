@@ -1,7 +1,7 @@
 ---
 author:
-- Raff Viglianti
-date: '2017-09-06T17:14:00.000Z'
+  - Raff Viglianti
+date: "2017-09-06T17:14:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: dramatic-reading-percy-shelleys-prometheus-unbound
 title: Dramatic Reading of Percy Shelley's Prometheus Unbound

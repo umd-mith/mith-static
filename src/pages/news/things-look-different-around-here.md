@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2020-11-09T21:09:53.000Z'
+  - Trevor Muñoz
+date: "2020-11-09T21:09:53.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: things-look-different-around-here
 title: Things look different around here

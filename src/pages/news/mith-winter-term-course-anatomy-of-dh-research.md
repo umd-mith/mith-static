@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2017-11-14T17:22:00.000Z'
+  - "MITH "
+date: "2017-11-14T17:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-winter-term-course-anatomy-of-dh-research
-title: 'MITH Winter Term Course: Anatomy of DH Research'
+title: "MITH Winter Term Course: Anatomy of DH Research"
 ---
 
 ## **MITH 498: Anatomy of DH Research**

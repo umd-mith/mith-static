@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2008-04-28T00:30:00.000Z'
+  - Digital Dialogues
+date: "2008-04-28T00:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: greg-cranes-digital-dialogue-canceled
 title: Greg Crane's Digital Dialogue Canceled

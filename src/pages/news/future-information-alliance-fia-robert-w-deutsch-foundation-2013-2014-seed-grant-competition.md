@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2013-09-11T12:30:00.000Z'
+  - "MITH "
+date: "2013-09-11T12:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: future-information-alliance-fia-robert-w-deutsch-foundation-2013-2014-seed-grant-competition
-title: The Future of Information Alliance (FIA)  Robert W. Deutsch Foundation  2013-2014
+title:
+  The Future of Information Alliance (FIA)  Robert W. Deutsch Foundation  2013-2014
   Seed Grant Competition
 ---
 

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-10-30T16:28:00.000Z'
+  - "MITH "
+date: "2006-10-30T16:28:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: electronic-literature-collection-volume-1-released
 title: Electronic Literature Collection, Volume 1 Released

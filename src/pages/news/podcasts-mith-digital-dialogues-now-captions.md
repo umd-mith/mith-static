@@ -1,10 +1,10 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2014-10-21T13:42:00.000Z'
+  - Stephanie Sapienza
+date: "2014-10-21T13:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: podcasts-mith-digital-dialogues-now-captions
-title: 'Podcasts for MITH Digital Dialogues: Now with captions!'
+title: "Podcasts for MITH Digital Dialogues: Now with captions!"
 ---
 
 In an attempt to make our Digital Dialogues podcast videos more accessible, MITH has begun to add captions to the videos on our [Vimeo site](https://vimeo.com/mithinmd). All previous podcast videos prior to the current season currently have captions, and as we move into the Fall 2014 season we will be adding them as we get them back from our vendor, [Amara](http://www.amara.org/en/).

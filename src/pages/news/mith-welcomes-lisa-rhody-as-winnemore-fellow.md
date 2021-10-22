@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-01-18T14:18:00.000Z'
+  - "MITH "
+date: "2012-01-18T14:18:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-lisa-rhody-as-winnemore-fellow
 title: MITH Welcomes Lisa Rhody as Winnemore Fellow

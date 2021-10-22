@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2011-12-23T17:13:00.000Z'
+  - Hayim Lapin
+date: "2011-12-23T17:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: beginning-to-have-something-to-show-for-it
 title: Beginning to Have Something to Show for It

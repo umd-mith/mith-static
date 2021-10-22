@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-04-10T18:13:00.000Z'
+  - "MITH "
+date: "2006-04-10T18:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: nebraska-digital-workshop
 title: Nebraska Digital Workshop

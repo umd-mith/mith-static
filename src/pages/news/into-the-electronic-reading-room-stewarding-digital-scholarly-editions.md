@@ -1,10 +1,10 @@
 ---
 author:
-- Wendy Hagenmaier
-date: '2012-03-02T19:57:00.000Z'
+  - Wendy Hagenmaier
+date: "2012-03-02T19:57:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: into-the-electronic-reading-room-stewarding-digital-scholarly-editions
-title: 'Into the Electronic Reading Room: Stewarding Digital Scholarly Editions'
+title: "Into the Electronic Reading Room: Stewarding Digital Scholarly Editions"
 ---
 
 _The "editor-narrator" of an electronic text "must also become an editor-narrator-librarian of the fluid text 'reading room' wherein all full texts of all versions of a work are stored…Editors need to create a text lab \[fusion_builder_container hundred_percent="yes" overflow="visible"]\[fusion_builder_row]\[fusion_builder_column type="1_1" background_position="left top" background_color="" border_size="" border_color="" border_style="solid" spacing="yes" background_image="" background_repeat="no-repeat" padding="" margin_top="0px" margin_bottom="0px" class="" id="" animation_type="" animation_speed="0.3" animation_direction="left" hide_on_mobile="no" center_content="no" min_height="none"]\[that]…would allow users to search texts, collate versions, assemble variants, craft concordances, and make editions\_\_."_

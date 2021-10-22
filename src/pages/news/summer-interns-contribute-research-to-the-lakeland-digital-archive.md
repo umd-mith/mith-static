@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2018-07-18T13:04:00.000Z'
+  - Trevor Muñoz
+date: "2018-07-18T13:04:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: summer-interns-contribute-research-to-the-lakeland-digital-archive
 title: Summer Interns Contribute Research to the Lakeland Digital Archive

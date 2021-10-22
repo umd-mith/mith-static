@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2016-07-06T16:55:00.000Z'
+  - "MITH "
+date: "2016-07-06T16:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: job-processing-archivist
-title: 'Job: Processing Archivist (Term Contract)'
+title: "Job: Processing Archivist (Term Contract)"
 ---
 
 The University of Maryland Libraries are seeking a Processing Archivist for a term contract as part of the “[Synergies among Digital Humanities and African American History and Culture](http://go.umd.edu/aadhum-exec-summary)” (AADHum) project. See below for more information about this opportunity. From the job ad:

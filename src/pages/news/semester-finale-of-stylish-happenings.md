@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-05-05T19:04:00.000Z'
+  - "MITH "
+date: "2011-05-05T19:04:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: semester-finale-of-stylish-happenings
 title: Semester Finale of Stylish Happenings

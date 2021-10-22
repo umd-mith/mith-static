@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-01-30T21:11:00.000Z'
+  - "MITH "
+date: "2007-01-30T21:11:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-winnemore-dissertation-fellows
 title: MITH Welcomes Winnemore Dissertation Fellows

@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2014-07-21T15:02:00.000Z'
+  - Stephanie Sapienza
+date: "2014-07-21T15:02:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: save-the-dates-here-are-miths-fall-2014-digital-dialogues-speakers
 title: Save the Dates!  Here are MITH's Fall 2014 Digital Dialogues speakers

@@ -1,10 +1,10 @@
 ---
 author:
-- Wendy Hagenmaier
-date: '2012-03-26T17:15:00.000Z'
+  - Wendy Hagenmaier
+date: "2012-03-26T17:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: archives-and-algorithms-thinking-about-encoding-digital-scholarly-editions
-title: 'Archives and Algorithms: Thinking about Encoding Digital Scholarly Editions'
+title: "Archives and Algorithms: Thinking about Encoding Digital Scholarly Editions"
 ---
 
 Over the past several weeks since my first blog post about researching digital scholarly editions, I have begun to consider how I could apply the lessons learned from my literature review to a digital scholarly edition of Katherine Anne Porter's correspondence. As I draft several key pieces of documentation for such an edition—a name authority index and gazetteer and a TEI keying specification—I find myself preoccupied with thoughts about the relationship between textual creativity and technology, between the language of literature and the language of encoding, metaphor and algorithm.

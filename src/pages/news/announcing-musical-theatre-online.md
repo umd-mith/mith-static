@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-03-07T14:44:00.000Z'
+  - "MITH "
+date: "2010-03-07T14:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-musical-theatre-online
 title: Announcing Musical Theatre Online!

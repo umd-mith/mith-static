@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-01-03T14:58:00.000Z'
+  - Hayim Lapin
+date: "2012-01-03T14:58:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: new-output
 title: New Output

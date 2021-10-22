@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2013-09-10T15:00:00.000Z'
+  - Stephanie Sapienza
+date: "2013-09-10T15:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-fall-2013-digital-dialogues
 title: Announcing Fall 2013 Digital Dialogues!

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-01-10T18:23:00.000Z'
+  - "MITH "
+date: "2011-01-10T18:23:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-digital-humanities-mentioned-in-chronicle-coverage-from-mla-2011
 title: MITH and Digital Humanities coverage in Chronicle from MLA 2011

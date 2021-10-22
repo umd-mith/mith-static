@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2018-10-16T21:01:00.000Z'
+  - Ed Summers
+date: "2018-10-16T21:01:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: documenting-the-now-phase-2
 title: Documenting the Now Phase 2

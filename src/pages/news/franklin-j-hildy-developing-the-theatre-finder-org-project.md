@@ -1,11 +1,12 @@
 ---
 author:
-- Digital Dialogues
-date: '2010-11-27T03:25:00.000Z'
+  - Digital Dialogues
+date: "2010-11-27T03:25:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: franklin-j-hildy-developing-the-theatre-finder-org-project
-title: '11/30 MITH Digital Dialogue: Franklin J. Hildy, Developing the theatre-finder.org
-  Project'
+title:
+  "11/30 MITH Digital Dialogue: Franklin J. Hildy, Developing the theatre-finder.org
+  Project"
 ---
 
 A MITH Digital Dialogue Tuesday, November 30, 12:30-1:45 MITH Conference Room, McKeldin Library B0135

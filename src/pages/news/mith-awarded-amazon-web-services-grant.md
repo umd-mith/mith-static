@@ -1,7 +1,7 @@
 ---
 author:
-- Travis Brown
-date: '2011-07-15T13:06:00.000Z'
+  - Travis Brown
+date: "2011-07-15T13:06:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-awarded-amazon-web-services-grant
 title: MITH Awarded Amazon Web Services Grant

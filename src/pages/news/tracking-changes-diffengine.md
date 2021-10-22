@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2017-01-25T17:00:00.000Z'
+  - Ed Summers
+date: "2017-01-25T17:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: tracking-changes-diffengine
 title: Tracking Changes With diffengine

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-03-27T14:25:00.000Z'
+  - "MITH "
+date: "2008-03-27T14:25:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: april-1st-digital-dialgue-sunil-iyengar-to-read-or-not-to-read
 title: '4/1 MITH Digital Dialogue: Sunil Iyengar, "To Read or Not to Read"'

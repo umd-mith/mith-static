@@ -1,10 +1,10 @@
 ---
 author:
-- Grant Dickie
-date: '2012-01-02T21:23:00.000Z'
+  - Grant Dickie
+date: "2012-01-02T21:23:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: report-workshop-on-tools-for-digital-scholarly-editions-cologne-germany
-title: 'Report: Workshop on Tools for Digital Scholarly Editions (Cologne, Germany)'
+title: "Report: Workshop on Tools for Digital Scholarly Editions (Cologne, Germany)"
 ---
 
 [Link to the Event](http://www.i-d-e.de/workshop-tools-for-the-digital-edition-2011)

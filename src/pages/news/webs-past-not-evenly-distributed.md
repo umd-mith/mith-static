@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2016-05-27T14:36:00.000Z'
+  - Ed Summers
+date: "2016-05-27T14:36:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: webs-past-not-evenly-distributed
 title: The Web's Past is Not Evenly Distributed

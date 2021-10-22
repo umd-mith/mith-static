@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-10-22T14:41:00.000Z'
+  - "MITH "
+date: "2008-10-22T14:41:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: tools-for-data-driven-scholarship
 title: Tools for Data-Driven Scholarship

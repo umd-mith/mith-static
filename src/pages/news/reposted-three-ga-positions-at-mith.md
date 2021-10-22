@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2007-12-04T17:00:00.000Z'
+  - "MITH "
+date: "2007-12-04T17:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reposted-three-ga-positions-at-mith
-title: 'Reposted: Three GA Positions at MITH'
+title: "Reposted: Three GA Positions at MITH"
 ---
 
 We are currently looking to hire three GA positions at MITH, with a wide variety of skill sets. Please read each of the three ads below carefully, and clearly indicate which position you're applying for. MGK

@@ -1,7 +1,7 @@
 ---
 author:
-- Selvam Palanimalai
-date: '2013-11-12T18:36:00.000Z'
+  - Selvam Palanimalai
+date: "2013-11-12T18:36:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: wrapping-gsoc-work-mithgrid
 title: Wrapping up GSoC Work on MITHgrid

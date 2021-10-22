@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-04-09T18:27:00.000Z'
+  - "MITH "
+date: "2014-04-09T18:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: miths-research-collections-featured-nprs-things-considered
 title: MITH's Research & Collections featured on NPR's All Things Considered

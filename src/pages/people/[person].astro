@@ -1,81 +1,85 @@
 ---
-import { Markdown } from 'astro/components';
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import BreadcrumbNav from '../../components/BreadcrumbNav.astro'
+import { Markdown } from "astro/components"
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import BreadcrumbNav from "../../components/BreadcrumbNav.astro"
 
 import peopleJson from "../../../public/data/people.json"
 
 export async function getStaticPaths() {
-    const currentPeople = peopleJson.filter((person) => person['current identities'].length)
-    const paths = currentPeople.map((personData) => {
-        const result = {
-            params: { person: personData.id },
-            props: { personData }
-        };
-        return result
-    })
-    
-    return paths
+  const currentPeople = peopleJson.filter(
+    person => person["current identities"].length
+  )
+  const paths = currentPeople.map(personData => {
+    const result = {
+      params: { person: personData.id },
+      props: { personData },
+    }
+    return result
+  })
+
+  return paths
 }
 
 const { person } = Astro.request.params
 const { personData } = Astro.props
 const fullName = `${personData.first} ${personData.last}`
 const pageContent = {
-    title: fullName
+  title: fullName,
 }
 const subPaths = {
-    pathName: Astro.request.url.pathname, 
-    current: fullName
+  pathName: Astro.request.url.pathname,
+  current: fullName,
 }
 ---
-<style>
-    .phone::before {
-        content: 'Phone: ';
-    }
 
-    .email::before {
-        content: 'Email: ';
-    }
-
-    .website::before {
-        content: 'Website: ';
-    }
-
-    .twitter::before {
-        content: 'Twitter: ';
-    }
-</style>
-
-<BaseLayout pageContent={pageContent}>
-    <div class="page-person wrapper">
-        <BreadcrumbNav pathInfo={subPaths} />
-        <div class="flow" itemscope itemtype="https://schema.org/Person">
-            <h1 itemprop="name">{`${personData.first} ${personData.last}`}</h1>
-            <h2 itemprop="jobTitle">{personData['current identities'][0].title}</h2>
-            <img itemprop="image" src={personData.headshot ? personData.headshot[0].url : ""} alt={`${personData.first} ${personData.last}`} width=320/>
-            <div class="person-meta">
-                {personData.phone ? <div class="phone" itemprop="telephone">{personData.phone}</div> : ""}
-                {personData.email ? (
-                    <div class="email">
-                        <a href={`mailto:${personData.email}`} itemprop="email">
-                {personData.email}</a>
-                    </div>
-                ) : "" }
-                {personData.website ? (
-                    <div class="website">
-                        <a href={personData.website}>{personData.website}</a>
-                    </div>
-                ): ""}
-                {personData.twitter ? (
-                    <div class="twitter">
-                        <a href={`https://twitter.com/${personData.twitter}`}>{ `@${personData.twitter}` }</a>
-                    </div>
-                ) : ""}
-            </div>
-            <div class="bio">
-                {personData.bio ? <Markdown content={personData.bio.replace(/(?:\n)/g,'<br>')} /> : ""}
-            </div>
-        </div>
+<BaseLayout {pageContent}>
+  <div class="page-person wrapper">
+    <BreadcrumbNav pathInfo={subPaths} />
+    <div class="flow" itemscope itemtype="https://schema.org/Person">
+      <h1 itemprop="name">{`${personData.first} ${personData.last}`}</h1>
+      <h2 itemprop="jobTitle">{personData["current identities"][0].title}</h2>
+      <img
+        itemprop="image"
+        src={personData.headshot ? personData.headshot[0].url : ""}
+        alt={`${personData.first} ${personData.last}`}
+        width="320" />
+      <div class="person-meta">
+        {personData.phone ? <div class="phone" itemprop="telephone">
+            {personData.phone}
+          </div> : ""}
+        {personData.email ? <div class="email">
+            <a href={`mailto:${personData.email}`} itemprop="email">
+              {personData.email}
+            </a>
+          </div> : ""}
+        {personData.website ? <div class="website">
+            <a href={personData.website}>{personData.website}</a>
+          </div> : ""}
+        {personData.twitter ? <div class="twitter">
+            <a href={`https://twitter.com/${personData.twitter}`}>{`@${personData.twitter}`}</a>
+          </div> : ""}
+      </div>
+      <div class="bio">
+        {personData.bio ? <Markdown content={personData.bio.replace(/(?:\n)/g, "<br>")} /> : ""}
+      </div>
     </div>
+  </div>
 </BaseLayout>
+
+<style>
+  .phone::before {
+    content: "Phone: ";
+  }
+
+  .email::before {
+    content: "Email: ";
+  }
+
+  .website::before {
+    content: "Website: ";
+  }
+
+  .twitter::before {
+    content: "Twitter: ";
+  }
+</style>

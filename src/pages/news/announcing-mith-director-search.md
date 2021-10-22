@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-03-04T17:54:00.000Z'
+  - "MITH "
+date: "2006-03-04T17:54:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-mith-director-search
 title: Announcing MITH Director Search

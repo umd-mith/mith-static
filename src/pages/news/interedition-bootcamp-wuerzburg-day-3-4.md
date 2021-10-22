@@ -1,10 +1,10 @@
 ---
 author:
-- Grant Dickie
-date: '2011-10-10T14:43:00.000Z'
+  - Grant Dickie
+date: "2011-10-10T14:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: interedition-bootcamp-wuerzburg-day-3-4
-title: 'Interedition Bootcamp Wuerzburg: Day 3 & 4'
+title: "Interedition Bootcamp Wuerzburg: Day 3 & 4"
 ---
 
 The past two days have been a flurry of coding, sometimes even going on to 1-2 in the morning. This group is highly enthusiastic about making progress in their individual groups. This energy has been pretty contagious and I've had less time for blogging. Regardless, here's some reports from the Interedition Bootcamp weekend:

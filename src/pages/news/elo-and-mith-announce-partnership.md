@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2005-12-29T07:00:00.000Z'
+  - "MITH "
+date: "2005-12-29T07:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: elo-and-mith-announce-partnership
 title: ELO and MITH Announce Partnership

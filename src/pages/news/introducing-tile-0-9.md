@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-02-14T20:37:00.000Z'
+  - "MITH "
+date: "2011-02-14T20:37:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: introducing-tile-0-9
 title: Introducing TILE 0.9

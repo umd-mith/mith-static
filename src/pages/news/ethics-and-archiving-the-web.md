@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2018-02-19T19:47:00.000Z'
+  - Ed Summers
+date: "2018-02-19T19:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: ethics-and-archiving-the-web
 title: Ethics and Archiving the Web

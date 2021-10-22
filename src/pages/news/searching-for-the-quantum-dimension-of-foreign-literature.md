@@ -1,7 +1,7 @@
 ---
 author:
-- Rebecca Borden
-date: '2011-12-21T22:45:00.000Z'
+  - Rebecca Borden
+date: "2011-12-21T22:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: searching-for-the-quantum-dimension-of-foreign-literature
 title: Searching for the Quantum Dimension of Foreign Literature

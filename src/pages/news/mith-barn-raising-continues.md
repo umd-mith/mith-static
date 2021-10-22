@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-01-05T15:56:00.000Z'
+  - "MITH "
+date: "2011-01-05T15:56:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-barn-raising-continues
 title: MITH barn raising continues

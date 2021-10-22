@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2011-06-14T15:41:00.000Z'
+  - "MITH "
+date: "2011-06-14T15:41:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: nea-grant-to-build-music-theater-online-1866-1923
-title: 'NEA Grant to Build Music Theater Online: 1866-1923'
+title: "NEA Grant to Build Music Theater Online: 1866-1923"
 ---
 
 The Maryland Institute for Technology in the Humanities (MITH) continues to produce groundbreaking work in the performing arts. We are pleased to announce that we have received a grant from the Access to Artistic Excellence program of the [National Endowment for the Arts](http://www.nea.gov) to build Music Theater Online: 1866-1923.

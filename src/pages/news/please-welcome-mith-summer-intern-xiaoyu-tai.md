@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2016-06-06T22:14:00.000Z'
+  - "MITH "
+date: "2016-06-06T22:14:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: please-welcome-mith-summer-intern-xiaoyu-tai
 title: Please welcome MITH summer intern Xiaoyu Tai!

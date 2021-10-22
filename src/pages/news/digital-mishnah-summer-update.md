@@ -1,10 +1,10 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-07-24T11:55:00.000Z'
+  - Hayim Lapin
+date: "2012-07-24T11:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-mishnah-summer-update
-title: 'Digital Mishnah: Summer Update'
+title: "Digital Mishnah: Summer Update"
 ---
 
 In addition to getting the demo ready to go live–it’s ready to go!–this summer’s agenda has been to add texts and add reference material. We now have two sets of reference data ready to implement. The heavy lifting for this was done by Atara Siegel, an undergraduate at Stern College, who worked for me for several weeks this summer. Atara prepared the lists, and, for the newly expanded sample text (tractates Bava Qamma, Bava Metsi’a and Bava Batra) also linked the relevant words in the reference text to the names list.

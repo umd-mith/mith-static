@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-12-01T16:47:00.000Z'
+  - "MITH "
+date: "2009-12-01T16:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-dave-lester
 title: MITH Welcomes Dave Lester

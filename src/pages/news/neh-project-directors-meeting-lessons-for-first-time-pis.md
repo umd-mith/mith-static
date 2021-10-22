@@ -1,10 +1,10 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-09-20T18:20:00.000Z'
+  - Jennifer Guiliano
+date: "2012-09-20T18:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: neh-project-directors-meeting-lessons-for-first-time-pis
-title: 'NEH Project Director''s Meeting: Lessons for Promoting your Project'
+title: "NEH Project Director's Meeting: Lessons for Promoting your Project"
 ---
 
 Today, the National Endowment for the Humanities' Office of Digital Humanities hosted project directors from 34 different projects representing recent awards from the Institutes for Advanced Topics in the Digital Humanities, the Digital Humanities Start-Up Grants, and the new Digital Humanities Implementation Grants. Three minutes, three powerpoint slides, and one project: it was a whirlwind of cutting-edge digital humanities highlights from across the country. MITH represented its recently awarded projects: Active OCR, led by Travis Brown, ANGLES and the Digital Humanities Data Curation Institutes, led by Trevor Muñoz, and Topic Modeling for Humanities Research.

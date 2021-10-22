@@ -1,7 +1,7 @@
 ---
 author:
-- James Smith
-date: '2013-04-09T18:27:00.000Z'
+  - James Smith
+date: "2013-04-09T18:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-participating-in-google-summer-of-code-2013
 title: MITH Participating in Google Summer of Code 2013

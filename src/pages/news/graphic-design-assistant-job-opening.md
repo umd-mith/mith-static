@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-08-22T18:25:00.000Z'
+  - "MITH "
+date: "2013-08-22T18:25:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: graphic-design-assistant-job-opening
 title: Graphic Design Assistant Job Opening

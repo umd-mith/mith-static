@@ -1,10 +1,11 @@
 ---
 author:
-- Trevor Muñoz
-date: '2012-07-26T21:06:00.000Z'
+  - Trevor Muñoz
+date: "2012-07-26T21:06:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-awarded-institutes-for-advanced-topics-in-the-digital-humanities-neh-grant-to-lead-digital-humanities-data-curation-institutes
-title: MITH awarded Institutes for Advanced Topics in the Digital Humanities NEH grant
+title:
+  MITH awarded Institutes for Advanced Topics in the Digital Humanities NEH grant
   to lead Digital Humanities Data Curation institutes
 ---
 

@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2018-10-10T13:06:00.000Z'
+  - Purdom Lindblad
+date: "2018-10-10T13:06:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-nominations-spring-2019-digital-dialogues
 title: Call for Nominations, Spring 2019 Digital Dialogues

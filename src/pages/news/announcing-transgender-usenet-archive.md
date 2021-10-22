@@ -1,7 +1,7 @@
 ---
 author:
-- Avery Dame
-date: '2017-03-13T18:29:00.000Z'
+  - Avery Dame
+date: "2017-03-13T18:29:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-transgender-usenet-archive
 title: Announcing the Transgender Usenet Archive!

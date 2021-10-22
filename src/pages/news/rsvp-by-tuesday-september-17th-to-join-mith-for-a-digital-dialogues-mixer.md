@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2015-09-08T13:17:00.000Z'
+  - Stephanie Sapienza
+date: "2015-09-08T13:17:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: rsvp-by-tuesday-september-17th-to-join-mith-for-a-digital-dialogues-mixer
 title: RSVP by Tuesday September 17th to join MITH for a Digital Dialogues mixer!

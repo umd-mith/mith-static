@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-12-15T20:47:00.000Z'
+  - "MITH "
+date: "2010-12-15T20:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-new-mith-hires
 title: Four New MITH Hires

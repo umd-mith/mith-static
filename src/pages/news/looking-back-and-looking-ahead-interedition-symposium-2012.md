@@ -1,10 +1,10 @@
 ---
 author:
-- Grant Dickie
-date: '2012-04-10T19:08:00.000Z'
+  - Grant Dickie
+date: "2012-04-10T19:08:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: looking-back-and-looking-ahead-interedition-symposium-2012
-title: 'Looking Back and Looking Ahead: Interedition Symposium 2012'
+title: "Looking Back and Looking Ahead: Interedition Symposium 2012"
 ---
 
 Why do informal hackathons matter in the Digital Humanities community? I argue that the answer can be found by reading the (soon to be written and released) proceedings of the [Interedition Symposium](http://www.interedition.eu/?page_id=192#middle): Scholarly Digital Editions, Tools and Infrastructure. Joris Van Zundert, a member of the Huygens Institut in The Hague, Netherlands, played host to over 40 scholars, researchers, and programmers this past March. I got to meet Joris last year when I was invited through former MITH project lead Doug Reside and my work on the [TILE](http://mith.umd.edu/research/text-image-linking-environment/ "Text-Image Linking Environment") project. The well-spoken and incredibly intelligent Van Zundert has been working on the Interedition project since 2008 to promote interdisciplinary, inter-collegial, and inter-departmental work in the Digital Humanities. To quote their website's advert for the Symposium, Interedition sponsors groups of programmer-scholars (such as Doug, MITH Software Architect Jim Smith, and myself) to gather and develop interoperable tools as well as generate "roadmaps" toward crossing institutional boundaries and research schedules to get DH centers to work collaboratively. March 2012 not only marked the ending of the general funding for Interedition but also a celebration of its efforts.

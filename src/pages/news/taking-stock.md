@@ -1,7 +1,7 @@
 ---
 author:
-- Carla L. Peterson
-date: '2012-04-23T19:21:00.000Z'
+  - Carla L. Peterson
+date: "2012-04-23T19:21:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: taking-stock
 title: Taking Stock

@@ -1,26 +1,27 @@
 ---
-import { Markdown } from 'astro/components';
-import { makeDateRange } from '../utils/dateHandlers.ts';
+import { Markdown } from "astro/components"
+import { makeDateRange } from "../utils/dateHandlers.ts"
 
 const { title, dates, excerpt, url } = Astro.props
 ---
-<style>
-    article {
-        --flow-space: var(--size-1);
-        margin-top: var(--size-2);
-    }
-
-    @media screen and (min-width: 1000px) {
-        article {
-            margin-top: revert;
-        }
-    }
-</style>
 
 <article class="card-project flow">
-    <h2><a href={url}>{title}</a></h2>
-    <div>{makeDateRange(dates)}</div>
-    <div class="short-desc">
-        {excerpt ? <Markdown content={excerpt.replace(/(?:\n)/g,'<br>')} /> : ""}
-    </div>
+  <h2><a href={url}>{title}</a></h2>
+  <div>{makeDateRange(dates)}</div>
+  <div class="short-desc">
+    {excerpt ? <Markdown content={excerpt.replace(/(?:\n)/g, "<br>")} /> : ""}
+  </div>
 </article>
+
+<style>
+  article {
+    --flow-space: var(--size-1);
+    margin-top: var(--size-2);
+  }
+
+  @media screen and (min-width: 1000px) {
+    article {
+      margin-top: revert;
+    }
+  }
+</style>

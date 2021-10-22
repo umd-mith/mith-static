@@ -1,7 +1,7 @@
 ---
 author:
-- Kyle Bickoff
-date: '2019-06-18T14:00:00.000Z'
+  - Kyle Bickoff
+date: "2019-06-18T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: my-time-as-a-mith-winnemore-dissertation-fellow
 title: My Time as a MITH Winnemore Dissertation Fellow

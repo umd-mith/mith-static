@@ -1,10 +1,10 @@
 ---
 author:
-- Neil Fraistat
-date: '2014-01-24T14:30:00.000Z'
+  - Neil Fraistat
+date: "2014-01-24T14:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: shelley-godwin-archive-textual-digital-condition
-title: 'The Shelley-Godwin Archive: From a Textual to a Digital Condition'
+title: "The Shelley-Godwin Archive: From a Textual to a Digital Condition"
 ---
 
 At MITH we have been experimenting with the networked, distributed transcription and encoding of manuscripts during the first phase of our work on the [Shelley-Godwin Archive](http://shelleygodwinarchive.org/), a project that aims to provide the digitized manuscripts of Percy Bysshe Shelley, Mary Wollstonecraft Shelley, William Godwin, and Mary Wollstonecraft. The Archive will thus bring together for the first time ever the widely dispersed handwritten legacy of this uniquely gifted [family of writers](http://shelleygodwinarchive.org/about#firstfamily). The result of a partnership between the New York Public Library and MITH, in cooperation with Oxford’s Bodleian Library, the Archive also includes key contributions from the Huntington Library, the British Library, and the Houghton Library. In total, these partner libraries contain over 90% of all known relevant manuscripts.

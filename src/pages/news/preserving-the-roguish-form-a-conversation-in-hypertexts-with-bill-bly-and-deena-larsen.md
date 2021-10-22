@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2011-05-25T02:40:00.000Z'
+  - "MITH "
+date: "2011-05-25T02:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: preserving-the-roguish-form-a-conversation-in-hypertexts-with-bill-bly-and-deena-larsen
-title: 'Preserving the Roguish Form: A Conversation in Hypertexts with Bill Bly and
-  Deena Larsen'
+title:
+  "Preserving the Roguish Form: A Conversation in Hypertexts with Bill Bly and
+  Deena Larsen"
 ---
 
 In 2007, MITH acquired the [Deena Larsen Collection](http://mith.umd.edu/larsen/) (DLC). The collection consists of Macintosh SE computers, archived press materials, and early hypertexts and electronic literature from 1987 to 2004. I recently had the fortunate opportunity to sit down with Deena and fellow hypertext author, Bill Bly.

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-03-31T20:14:00.000Z'
+  - "MITH "
+date: "2009-03-31T20:14:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-fellowships
 title: Call for Fellowships

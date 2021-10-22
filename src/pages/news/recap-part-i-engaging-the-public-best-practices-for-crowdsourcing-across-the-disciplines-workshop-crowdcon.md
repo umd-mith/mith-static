@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2015-05-21T20:02:00.000Z'
+  - "MITH "
+date: "2015-05-21T20:02:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: recap-part-i-engaging-the-public-best-practices-for-crowdsourcing-across-the-disciplines-workshop-crowdcon
-title: 'Recap Part I: Engaging the Public: Best Practices for Crowdsourcing across
-  the Disciplines Workshop (CrowdCon)'
+title:
+  "Recap Part I: Engaging the Public: Best Practices for Crowdsourcing across
+  the Disciplines Workshop (CrowdCon)"
 ---
 
 From May 6-8, 2015, MITH teamed up with [Dartmouth College](http://film-media.dartmouth.edu/) and the [iSchool at University of Maryland](http://ischool.umd.edu/) to host a workshop entitled Engaging the Public: Best Practices for Crowdsourcing across the Disciplines ([CrowdCon](http://www.crowdconsortium.org/)). The goal of the workshop was to expand the ongoing conversations about best practices for engaging the public across both the humanities and the sciences, in order to build a networking bridge for crowdsourced research projects and to build a consortium to support such work.

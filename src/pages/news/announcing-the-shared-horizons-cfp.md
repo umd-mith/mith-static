@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-11-02T13:00:00.000Z'
+  - Jennifer Guiliano
+date: "2012-11-02T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-the-shared-horizons-cfp
 title: Announcing the Shared Horizons CFP

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-03-29T12:02:00.000Z'
+  - "MITH "
+date: "2011-03-29T12:02:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-and-dh-in-the-news-and-in-the-world
 title: MITH and DH in the News and in the World

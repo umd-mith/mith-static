@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2011-11-17T19:52:00.000Z'
+  - Hayim Lapin
+date: "2011-11-17T19:52:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: progress-involves-some-undoing
 title: Progress Involves Some Undoing

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-08-30T13:53:00.000Z'
+  - "MITH "
+date: "2012-08-30T13:53:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: spaces-open-to-lunch-with-digital-dialogue-speakers
 title: Spaces Open to Lunch with Our Digital Dialogue Speakers

@@ -1,10 +1,10 @@
 ---
 author:
-- Avery Dame
-date: '2017-01-23T15:53:00.000Z'
+  - Avery Dame
+date: "2017-01-23T15:53:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: archiving-usenet-adopting-ethics-care
-title: 'Archiving Usenet: Adopting an Ethics of Care'
+title: "Archiving Usenet: Adopting an Ethics of Care"
 ---
 
 _This is the fourth in [series of blog posts](http://mith.umd.edu/tag/transgender-usenet-archive/) by 2016-17 Winnemore Digital Dissertation Fellow Avery Dame on the progress of his dissertation, “[Talk Amongst Yourselves: Community Formation in Transgender Counterpublic Discourse Online](http://mith.umd.edu/?p=18022),” which explores the affective and structural meanings assigned to “community” in English-language transgender discourse online._

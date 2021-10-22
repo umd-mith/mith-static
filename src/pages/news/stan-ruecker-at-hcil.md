@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-04-22T22:17:00.000Z'
+  - "MITH "
+date: "2007-04-22T22:17:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: stan-ruecker-at-hcil
 title: Stan Ruecker at HCIL

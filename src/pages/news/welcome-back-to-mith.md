@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-08-30T15:45:00.000Z'
+  - "MITH "
+date: "2010-08-30T15:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: welcome-back-to-mith
 title: Welcome Back to MITH!

@@ -1,7 +1,7 @@
 ---
 author:
-- Raff Viglianti
-date: '2014-11-24T19:22:00.000Z'
+  - Raff Viglianti
+date: "2014-11-24T19:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: music-addressability-api
 title: Music Addressability API

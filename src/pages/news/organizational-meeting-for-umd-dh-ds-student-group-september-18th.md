@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2018-09-13T16:40:00.000Z'
+  - "MITH "
+date: "2018-09-13T16:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: organizational-meeting-for-umd-dh-ds-student-group-september-18th
 title: Organizational Meeting for UMD DH/DS Student Group—September 18th

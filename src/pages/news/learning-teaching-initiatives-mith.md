@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2017-05-18T20:20:00.000Z'
+  - "MITH "
+date: "2017-05-18T20:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: learning-teaching-initiatives-mith
 title: Learning and Teaching Initiatives at MITH

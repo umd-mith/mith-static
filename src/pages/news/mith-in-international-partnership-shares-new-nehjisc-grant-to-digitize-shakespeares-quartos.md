@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2008-03-26T15:24:00.000Z'
+  - "MITH "
+date: "2008-03-26T15:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-in-international-partnership-shares-new-nehjisc-grant-to-digitize-shakespeares-quartos
-title: MITH in International Partnership Shares New NEH/JISC Grant to Digitize Shakespeare's
+title:
+  MITH in International Partnership Shares New NEH/JISC Grant to Digitize Shakespeare's
   Quartos
 ---
 

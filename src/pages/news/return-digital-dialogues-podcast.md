@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2017-04-03T20:15:00.000Z'
+  - Ed Summers
+date: "2017-04-03T20:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: return-digital-dialogues-podcast
 title: Return of the Digital Dialogues Podcast

@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2014-09-18T13:00:00.000Z'
+  - Stephanie Sapienza
+date: "2014-09-18T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: limited-spaces-open-lunch-digital-dialogue-speakers
 title: Limited Spaces Open for Lunch with Our Digital Dialogue Speakers!

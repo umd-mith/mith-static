@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-06-12T01:14:00.000Z'
+  - "MITH "
+date: "2009-06-12T01:14:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: dh09-registrations-breaks-300
 title: DH09 Registrations Breaks 300!

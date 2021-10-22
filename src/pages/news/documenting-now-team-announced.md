@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2016-04-11T23:18:00.000Z'
+  - Ed Summers
+date: "2016-04-11T23:18:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: documenting-now-team-announced
 title: Documenting the Now Team Announced

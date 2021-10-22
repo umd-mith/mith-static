@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2012-04-06T13:48:00.000Z'
+  - Emma Millon
+date: "2012-04-06T13:48:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: carla-peterson-interviewed-by-brian-lehrer
 title: Carla Peterson Interviewed by Brian Lehrer

@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Wellman
-date: '2012-01-23T20:10:00.000Z'
+  - Jennifer Wellman
+date: "2012-01-23T20:10:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: telling-the-story-of-foreign-literatures-in-america
 title: Telling the Story of Foreign Literatures in America

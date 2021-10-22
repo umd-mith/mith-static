@@ -1,7 +1,7 @@
 ---
 author:
-- James Smith
-date: '2013-02-14T19:05:00.000Z'
+  - James Smith
+date: "2013-02-14T19:05:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-to-host-u-s-east-coast-open-annotation-data-model-rollout
 title: MITH to Host U.S. East Coast Open Annotation Data Model Rollout

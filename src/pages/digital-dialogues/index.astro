@@ -4,99 +4,101 @@ import DialoguePreview from "../../components/DialoguePreview.astro"
 
 import eventsJson from "../../../public/data/events.json"
 
-const dialogues = eventsJson.filter((e) => e['event type'].includes("Digital Dialogue"))
+const dialogues = eventsJson.filter(e =>
+  e["event type"].includes("Digital Dialogue")
+)
 
-const allYears = dialogues.map((d) => d.year).sort()
+const allYears = dialogues.map(d => d.year).sort()
 const yearKeys = [...new Set(allYears)]
-const mapDialoguesYear = new Map();
+const mapDialoguesYear = new Map()
 
-dialogues.forEach((d) => {
-    const collection = mapDialoguesYear.get(d.year)
-    if (!collection) {
-        mapDialoguesYear.set(d.year, [d])
-    } else {
-        collection.push(d)
-    }
+dialogues.forEach(d => {
+  const collection = mapDialoguesYear.get(d.year)
+  if (!collection) {
+    mapDialoguesYear.set(d.year, [d])
+  } else {
+    collection.push(d)
+  }
 })
 
 const pageContent = { title: "Digital Dialogues" }
 ---
-<style>
-    .page-nav > ul {
-        column-count: 4;
-        padding-left: 0;
-    }
 
-    .dialogues-year {
-        border-top: 1px solid hsl(var(--color-gray-600));
-        padding-top: 1ex;
-    }
-
-    .dialogues-year > header {
-        display: flex;
-        flex-flow: row nowrap;
-        gap: var(--spacing-base);
-        margin-bottom: var(--size-0);
-    }
-
-    .count {
-        color: hsl(var(--color-gray-600));
-        font-size: var(--size-2);
-    }
-
-    .footer {
-        margin-top: var(--size-1);
-        text-align: right;
-    }
-
-    .top-anchor {
-        font-size: var(--size-0);
-    }
-
-    @media screen and (min-width: 1000px) {
-        .page-dialogues {
-            --flow-space: var(--size-7);
-        }
-
-        .gallery-dialogues {
-            display: grid;
-            grid-template-columns: repeat( auto-fit, minmax(275px, 1fr));
-            column-gap: var(--spacing-large);
-            row-gap: var(--size-7);
-        }
-    }
-</style>
-
-<BaseLayout pageContent={ pageContent }>
-    <div class="page-dialogues flow wrapper">
-        <section>
-        <h1>{pageContent.title}</h1>
-        </section>
-        <nav class="page-nav">
-            <ul role="list">
-                {yearKeys.reverse().map((year) => <li><a href={`#${year}`}>{year}</a></li>)}
-            </ul>
-        </nav>
-        {
-            yearKeys.map((year) => (
-                <section id={year} class="dialogues-year">
-                    <header>
-                        <h2>{ year }</h2>
-                        <div class="count">{`${mapDialoguesYear.get(year).length} events`}</div>
-                    </header>
-                    <div class="gallery-dialogues">
-                        {
-                            mapDialoguesYear.get(year)
-                                .sort((a,b) => new Date(a['start date']) - new Date(b['start date']))
-                                .reverse()
-                                .map((dialogue) => <DialoguePreview dd={dialogue}/>)
-                        }
-                    </div>
-                    <div class="footer">
-                        <a class="top-anchor" href="#page-top">(↑ Back to Top)</a>
-                    </div>
-                </section>
-            ))
-        }
-    </div>
+<BaseLayout pageContent={pageContent}>
+  <div class="page-dialogues flow wrapper">
+    <section>
+      <h1>{pageContent.title}</h1>
+    </section>
+    <nav class="page-nav">
+      <ul role="list">
+        {yearKeys.reverse().map(year => <li>
+            <a href={`#${year}`}>{year}</a>
+          </li>)}
+      </ul>
+    </nav>
+    {yearKeys.map(year => <section id={year} class="dialogues-year">
+        <header>
+          <h2>{year}</h2>
+          <div class="count">{`${mapDialoguesYear.get(year).length} events`}</div>
+        </header>
+        <div class="gallery-dialogues">
+          {mapDialoguesYear
+            .get(year)
+            .sort((a, b) => new Date(a["start date"]) - new Date(b["start date"]))
+            .reverse()
+            .map(dialogue => <DialoguePreview dd={dialogue} />)}
+        </div>
+        <div class="footer">
+          <a class="top-anchor" href="#page-top">
+            (↑ Back to Top)
+          </a>
+        </div>
+      </section>)}
+  </div>
 </BaseLayout>
+
+<style>
+  .page-nav > ul {
+    column-count: 4;
+    padding-left: 0;
+  }
+
+  .dialogues-year {
+    border-top: 1px solid hsl(var(--color-gray-600));
+    padding-top: 1ex;
+  }
+
+  .dialogues-year > header {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: var(--spacing-base);
+    margin-bottom: var(--size-0);
+  }
+
+  .count {
+    color: hsl(var(--color-gray-600));
+    font-size: var(--size-2);
+  }
+
+  .footer {
+    margin-top: var(--size-1);
+    text-align: right;
+  }
+
+  .top-anchor {
+    font-size: var(--size-0);
+  }
+
+  @media screen and (min-width: 1000px) {
+    .page-dialogues {
+      --flow-space: var(--size-7);
+    }
+
+    .gallery-dialogues {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+      column-gap: var(--spacing-large);
+      row-gap: var(--size-7);
+    }
+  }
+</style>

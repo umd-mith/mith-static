@@ -1,7 +1,7 @@
 ---
 author:
-- Sayan Bhattacharyya
-date: '2011-08-08T13:40:00.000Z'
+  - Sayan Bhattacharyya
+date: "2011-08-08T13:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reflections-on-scale-and-topic-modeling
 title: Reflections on Scale and Topic Modeling

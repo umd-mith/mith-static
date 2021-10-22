@@ -1,7 +1,7 @@
 ---
 author:
-- Lisa Marie Antonille Rhody
-date: '2012-03-02T14:10:00.000Z'
+  - Lisa Marie Antonille Rhody
+date: "2012-03-02T14:10:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: chasing-the-great-data-whale
 title: Chasing the Great Data Whale

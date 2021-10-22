@@ -1,7 +1,7 @@
 ---
 author:
-- Carla L. Peterson
-date: '2011-11-08T21:30:00.000Z'
+  - Carla L. Peterson
+date: "2011-11-08T21:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: confessions
 title: Confessions

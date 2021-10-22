@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2011-07-14T13:35:00.000Z'
+  - Neil Fraistat
+date: "2011-07-14T13:35:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: new-models-for-scholarly-communication
 title: New Models for Scholarly Communication

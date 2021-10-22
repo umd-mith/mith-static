@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-11-30T17:00:00.000Z'
+  - "MITH "
+date: "2007-11-30T17:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: a-new-digital-humanities-blog
 title: A New Digital Humanities Blog

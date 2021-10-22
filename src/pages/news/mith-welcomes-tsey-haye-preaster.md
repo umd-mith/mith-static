@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2018-12-13T16:46:00.000Z'
+  - Trevor Muñoz
+date: "2018-12-13T16:46:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-tsey-haye-preaster
 title: MITH welcomes T'Sey-Haye Preaster

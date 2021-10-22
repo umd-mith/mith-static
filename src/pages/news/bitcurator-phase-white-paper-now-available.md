@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-04-27T13:30:00.000Z'
+  - "MITH "
+date: "2013-04-27T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: bitcurator-phase-white-paper-now-available
 title: New White Paper on Bringing Digital Forensics Practices to Collecting Institutions

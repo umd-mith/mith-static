@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-11-19T01:08:00.000Z'
+  - "MITH "
+date: "2009-11-19T01:08:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: shakespeare-quartos-archive-launched
 title: Shakespeare Quartos Archive Launched

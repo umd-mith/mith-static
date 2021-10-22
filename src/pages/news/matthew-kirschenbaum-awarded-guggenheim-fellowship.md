@@ -1,7 +1,7 @@
 ---
 author:
-- James Neal
-date: '2011-04-12T20:20:00.000Z'
+  - James Neal
+date: "2011-04-12T20:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: matthew-kirschenbaum-awarded-guggenheim-fellowship
 title: Matthew Kirschenbaum awarded Guggenheim Fellowship

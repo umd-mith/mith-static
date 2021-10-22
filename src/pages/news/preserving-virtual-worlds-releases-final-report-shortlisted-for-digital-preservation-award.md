@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2010-09-21T14:46:00.000Z'
+  - "MITH "
+date: "2010-09-21T14:46:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: preserving-virtual-worlds-releases-final-report-shortlisted-for-digital-preservation-award
-title: Preserving Virtual Worlds Releases Final Report, Shortlisted for Digital Preservation
+title:
+  Preserving Virtual Worlds Releases Final Report, Shortlisted for Digital Preservation
   Award
 ---
 

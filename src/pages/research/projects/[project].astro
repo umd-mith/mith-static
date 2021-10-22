@@ -1,94 +1,90 @@
 ---
-import { Markdown } from 'astro/components';
-import BaseLayout from '../../../layouts/BaseLayout.astro'
-import RelatedPerson from '../../../components/RelatedPerson.astro'
-import BreadcrumbNav from '../../../components/BreadcrumbNav.astro'
-import { readableDate, makeDateRange } from '../../../utils/dateHandlers.ts'
+import { Markdown } from "astro/components"
+import BaseLayout from "../../../layouts/BaseLayout.astro"
+import RelatedPerson from "../../../components/RelatedPerson.astro"
+import BreadcrumbNav from "../../../components/BreadcrumbNav.astro"
+import { readableDate, makeDateRange } from "../../../utils/dateHandlers.ts"
 
-import researchJson from '../../../../public/data/research.json'
+import researchJson from "../../../../public/data/research.json"
 
 export async function getStaticPaths() {
-    const paths = researchJson.map((projectData) => {
-        return {
-            params: { project: projectData.id },
-            props: { projectData }
-        }
-    })
+  const paths = researchJson.map(projectData => {
+    return {
+      params: { project: projectData.id },
+      props: { projectData },
+    }
+  })
 
-    return paths
+  return paths
 }
 
 const { project } = Astro.request.params
 const { projectData } = Astro.props
 const subPaths = {
-    pathName: Astro.request.url.pathname, 
-    current: projectData.title
+  pathName: Astro.request.url.pathname,
+  current: projectData.title,
 }
 ---
-<style>
-    @media screen and (min-width: 1000px) {
 
-    }
-</style>
-
-<BaseLayout pageContent={ projectData }>
-    <div class="page-project flow wrapper">
-        <BreadcrumbNav pathInfo={subPaths} />
-        <div class="hero">
-            {projectData.image ? <img src={projectData.image[0].url} /> : ""}
-        </div>
-        <section class="project flow">
-                <h1>{projectData.title}</h1>
-                <div class="project-dates">
-                    {makeDateRange([projectData.start, projectData.end])}
-                </div>
-                <div class="project-description">
-                    {projectData.description ? <Markdown content={projectData.description.replace(/(?:\n)/g,'<br>')} /> : ""}
-                </div>
-        </section>
-        <aside class="flow">
-            <div class="project-people flow">
-                <div>
-                    <h2>Directors</h2>
-                    {projectData.directors.map((p) => <RelatedPerson person={p} />)}
-                </div>
-                <div>
-                    <h2>Participants</h2>
-                    {projectData.participants.map((p) => <RelatedPerson person={p} />)}
-                </div>
-            </div>
-            <div class="project-links">
-                <h2>Links</h2>
-                {projectData.links.map((p) => <a href={p.url}>{p.title}</a>)}
-            </div>
-            <div class="twitter-hashtag">
-                {projectData['twitter hashtag'] ? `#${projectData['twitter hashtag']}` : ""}
-            </div>
-            <div class="project-posts flow">
-                <h2>News</h2>
-                {projectData.posts.map((p) => (
-                    <div>
-                        <h3><a href={`/news/${p.slug}`}>{p['post title']}</a></h3>
-                        <div>{readableDate(p['post date'])}</div>
-                    </div>
-                ))}
-            </div>
-            <div class="project-partners">
-                <h2>Partner Organizations</h2>
-                {projectData.partners.map((p) => (
-                    <div class="partner-org">
-                        {p.website ? <a href={p.website}>{p.name}</a> : p.name }
-                    </div>
-                ))}
-            </div>
-            <div class="project-sponsors">
-                <h2>Sponsors</h2>
-                {projectData.sponsors.map((p) => (
-                    <div class="sponsor">
-                    {p.website ? <a href={p.website}>{p.name}</a> : p.name }
-                </div>
-                ))}
-            </div>
-        </aside>
+<BaseLayout pageContent={projectData}>
+  <div class="page-project flow wrapper">
+    <BreadcrumbNav pathInfo={subPaths} />
+    <div class="hero">
+      {projectData.image ? <img src={projectData.image[0].url} /> : ""}
     </div>
+    <section class="project flow">
+      <h1>{projectData.title}</h1>
+      <div class="project-dates">
+        {makeDateRange([projectData.start, projectData.end])}
+      </div>
+      <div class="project-description">
+        {projectData.description ? <Markdown content={projectData.description.replace(/(?:\n)/g, "<br>")} /> : ""}
+      </div>
+    </section>
+    <aside class="flow">
+      <div class="project-people flow">
+        <div>
+          <h2>Directors</h2>
+          {projectData.directors.map(p => <RelatedPerson person={p} />)}
+        </div>
+        <div>
+          <h2>Participants</h2>
+          {projectData.participants.map(p => <RelatedPerson person={p} />)}
+        </div>
+      </div>
+      <div class="project-links">
+        <h2>Links</h2>
+        {projectData.links.map(p => <a href={p.url}>{p.title}</a>)}
+      </div>
+      <div class="twitter-hashtag">
+        {projectData["twitter hashtag"] ? `#${projectData["twitter hashtag"]}` : ""}
+      </div>
+      <div class="project-posts flow">
+        <h2>News</h2>
+        {projectData.posts.map(p => <div>
+            <h3>
+              <a href={`/news/${p.slug}`}>{p["post title"]}</a>
+            </h3>
+            <div>{readableDate(p["post date"])}</div>
+          </div>)}
+      </div>
+      <div class="project-partners">
+        <h2>Partner Organizations</h2>
+        {projectData.partners.map(p => <div class="partner-org">
+            {p.website ? <a href={p.website}>{p.name}</a> : p.name}
+          </div>)}
+      </div>
+      <div class="project-sponsors">
+        <h2>Sponsors</h2>
+        {projectData.sponsors.map(p => <div class="sponsor">
+            {p.website ? <a href={p.website}>{p.name}</a> : p.name}
+          </div>)}
+      </div>
+    </aside>
+  </div>
 </BaseLayout>
+
+<style>
+  @media screen and (min-width: 1000px) {
+  }
+</style>

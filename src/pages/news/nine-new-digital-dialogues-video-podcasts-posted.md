@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-11-11T17:00:00.000Z'
+  - "MITH "
+date: "2013-11-11T17:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: nine-new-digital-dialogues-video-podcasts-posted
 title: Ten New Digital Dialogues Video Podcasts Posted!

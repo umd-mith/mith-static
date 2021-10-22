@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-02-14T11:55:00.000Z'
+  - "MITH "
+date: "2006-02-14T11:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: carl-stahmer-on-technology-and-intersectionality
 title: Carl Stahmer on  "Technology and Intersectionality"

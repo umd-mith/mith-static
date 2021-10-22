@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-12-01T19:53:00.000Z'
+  - "MITH "
+date: "2010-12-01T19:53:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-stickers-up-for-grabs
 title: MITH stickers up for grabs

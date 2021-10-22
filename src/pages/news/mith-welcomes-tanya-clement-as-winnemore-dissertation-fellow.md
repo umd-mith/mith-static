@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-02-05T20:49:00.000Z'
+  - "MITH "
+date: "2008-02-05T20:49:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-tanya-clement-as-winnemore-dissertation-fellow
 title: MITH Welcomes Tanya Clement as Winnemore Dissertation Fellow

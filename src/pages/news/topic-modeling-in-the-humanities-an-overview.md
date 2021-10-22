@@ -1,10 +1,10 @@
 ---
 author:
-- Clay Templeton
-date: '2011-08-01T13:16:00.000Z'
+  - Clay Templeton
+date: "2011-08-01T13:16:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: topic-modeling-in-the-humanities-an-overview
-title: 'Topic Modeling in the Humanities: An Overview'
+title: "Topic Modeling in the Humanities: An Overview"
 ---
 
 In a [recent post](http://mith.umd.edu/digging-into-data-with-topic-models/) to this blog, Sayan Bhattacharyya described his contributions to the [Woodchipper](http://mith.umd.edu/corporacamp/tool.php) project in the context of a broader discussion about corpus-based approaches to humanities research. Topic modeling, the statistical technology undergirding Woodchipper, has garnered increasing attention as a tool of hermeneutic empowerment, a method for drawing structure out of a corpus on the basis of minimal critical presuppositions. In this post I map out a basic genealogy of topic modeling in the humanities, from the highly cited paper that first articulated Latent Dirichlet Allocation (LDA) to recent work at MITH.

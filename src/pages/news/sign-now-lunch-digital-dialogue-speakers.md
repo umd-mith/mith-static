@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2015-02-09T21:12:00.000Z'
+  - Stephanie Sapienza
+date: "2015-02-09T21:12:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: sign-now-lunch-digital-dialogue-speakers
 title: Sign up now to have lunch with our Digital Dialogue speakers!

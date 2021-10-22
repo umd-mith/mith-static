@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-10-20T12:21:00.000Z'
+  - "MITH "
+date: "2011-10-20T12:21:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-partners-with-unc-sils-on-digital-forensics-project
 title: MITH Partners with UNC SILS on Digital Forensics Project

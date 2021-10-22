@@ -1,10 +1,10 @@
 ---
 author:
-- Grant Dickie
-date: '2011-10-08T10:26:00.000Z'
+  - Grant Dickie
+date: "2011-10-08T10:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: interedition-bootcamp-wuerzburg-day-2
-title: 'Interedition Bootcamp Wuerzburg: Day 2'
+title: "Interedition Bootcamp Wuerzburg: Day 2"
 ---
 
 Our Bootcamp is continuing into its second day.

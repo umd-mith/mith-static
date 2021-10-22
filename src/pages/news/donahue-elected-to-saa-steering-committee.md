@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-08-19T13:04:00.000Z'
+  - "MITH "
+date: "2009-08-19T13:04:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: donahue-elected-to-saa-steering-committee
 title: Donahue Elected to SAA Steering Committee

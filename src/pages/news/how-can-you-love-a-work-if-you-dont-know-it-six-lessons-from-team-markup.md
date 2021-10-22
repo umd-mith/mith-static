@@ -1,7 +1,7 @@
 ---
 author:
-- Amanda Visconti
-date: '2012-04-27T09:47:00.000Z'
+  - Amanda Visconti
+date: "2012-04-27T09:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: how-can-you-love-a-work-if-you-dont-know-it-six-lessons-from-team-markup
 title: '"How Can You Love a Work If You Don''t Know It?": Six Lessons from Team MARKUP'

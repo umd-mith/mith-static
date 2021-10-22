@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-07-05T22:24:00.000Z'
+  - "MITH "
+date: "2007-07-05T22:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: centernet-web-site-opens
 title: centerNet Web Site Opens

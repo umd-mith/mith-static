@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2015-01-15T18:52:00.000Z'
+  - "MITH "
+date: "2015-01-15T18:52:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: researching-ferguson-update-previewing-miths-teach-ins-blacklivesmatter-umd
-title: 'Researching Ferguson Update: Previewing MITH’s Teach Ins for #BlackLivesMatter
-  at UMD'
+title:
+  "Researching Ferguson Update: Previewing MITH’s Teach Ins for #BlackLivesMatter
+  at UMD"
 ---
 
 ## Tuesday January 27, 2015 at 12:30pm

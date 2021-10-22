@@ -1,7 +1,7 @@
 ---
 author:
-- Peter Mallios
-date: '2012-02-20T17:41:00.000Z'
+  - Peter Mallios
+date: "2012-02-20T17:41:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: open-water
 title: Open Water

@@ -1,7 +1,7 @@
 ---
 author:
-- Katherine Stanutz
-date: '2012-04-02T16:30:00.000Z'
+  - Katherine Stanutz
+date: "2012-04-02T16:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: archive-of-emotion
 title: Archive of Emotion

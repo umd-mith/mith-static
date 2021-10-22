@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-08-28T13:00:00.000Z'
+  - "MITH "
+date: "2012-08-28T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: fraistat-adho-chair
 title: MITH Director Neil Fraistat to Chair the Alliance of Digital Humanities Organizations

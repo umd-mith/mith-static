@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-08-03T15:24:00.000Z'
+  - "MITH "
+date: "2009-08-03T15:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: apply-for-advanced-tei-seminar-at-mith
 title: Apply for Advanced TEI Seminar at MITH!

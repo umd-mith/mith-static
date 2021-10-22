@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2012-01-27T17:23:00.000Z'
+  - Emma Millon
+date: "2012-01-27T17:23:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: spring-mith-monitor-hot-off-the-press
 title: Spring MITH Monitor Hot Off the Press!

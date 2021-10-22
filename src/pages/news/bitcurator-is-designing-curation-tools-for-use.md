@@ -1,7 +1,7 @@
 ---
 author:
-- Porter Olsen
-date: '2012-01-12T19:50:00.000Z'
+  - Porter Olsen
+date: "2012-01-12T19:50:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: bitcurator-is-designing-curation-tools-for-use
 title: BitCurator is Designing Curation Tools for Use

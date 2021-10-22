@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-12-15T15:44:00.000Z'
+  - "MITH "
+date: "2010-12-15T15:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-forensics-and-cultural-heritage
 title: Digital Forensics and Cultural Heritage

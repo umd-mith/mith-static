@@ -1,11 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2017-03-28T13:30:00.000Z'
+  - "MITH "
+date: "2017-03-28T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: ryan-long-vambery-lecture-2017
-title: 'Ryan Long Vambery Lecture: ''Hannes Meyer in Europe and Mexico: Building,
-  a Poetics of Displacement'''
+title: "Ryan Long Vambery Lecture: 'Hannes Meyer in Europe and Mexico: Building,
+  a Poetics of Displacement'"
 ---
 
 This Wednesday March 29th, the Comparative Literature Department will present the Vambery Lecture with current Vambery Distinguished Professor [Ryan Long](http://mith.umd.edu/people/person/ryan-long/) of the Spanish Department.

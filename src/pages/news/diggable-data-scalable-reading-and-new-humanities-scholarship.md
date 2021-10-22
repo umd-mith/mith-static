@@ -1,7 +1,7 @@
 ---
 author:
-- Seth Denbo
-date: '2011-10-18T12:59:00.000Z'
+  - Seth Denbo
+date: "2011-10-18T12:59:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: diggable-data-scalable-reading-and-new-humanities-scholarship
 title: Diggable Data, Scalable Reading, and New Humanities Scholarship

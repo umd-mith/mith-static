@@ -1,7 +1,7 @@
 ---
 author:
-- Amanda Visconti
-date: '2015-04-07T15:28:00.000Z'
+  - Amanda Visconti
+date: "2015-04-07T15:28:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: early-use-data-on-a-participatory-digital-edition
 title: Early use data on a participatory digital edition

@@ -1,7 +1,7 @@
 ---
 author:
-- Amanda Visconti
-date: '2011-10-05T17:23:00.000Z'
+  - Amanda Visconti
+date: "2011-10-05T17:23:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-sponsors-thatcamp-games
 title: MITH Sponsors THATCamp Games

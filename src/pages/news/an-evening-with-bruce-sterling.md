@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-10-17T12:56:00.000Z'
+  - "MITH "
+date: "2009-10-17T12:56:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: an-evening-with-bruce-sterling
 title: An Evening with Bruce Sterling

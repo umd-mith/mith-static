@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-03-16T16:09:00.000Z'
+  - "MITH "
+date: "2006-03-16T16:09:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-announces-fellowship-calls-for-2006-7
 title: MITH Announces Fellowship Calls for 2006-7

@@ -1,32 +1,35 @@
 ---
-import BaseLayout from './BaseLayout.astro'
-import BreadcrumbNav from '../components/BreadcrumbNav.astro'
-import { makeAuthorStr } from '../utils/stringHandlers.ts'
-import { readableDate } from '../utils/dateHandlers.ts'
+import BaseLayout from "./BaseLayout.astro"
+import BreadcrumbNav from "../components/BreadcrumbNav.astro"
+import { makeAuthorStr } from "../utils/stringHandlers.ts"
+import { readableDate } from "../utils/dateHandlers.ts"
 
 const { content } = Astro.props
 const subPaths = {
-    pathName: Astro.request.url.pathname, 
-    current: content.title
+  pathName: Astro.request.url.pathname,
+  current: content.title,
 }
 ---
-<style>
-    .article-body {
-        font-family: Literata, Georgia, 'Times New Roman', Times, serif;
-    }
-</style>
 
 <BaseLayout pageContent={content}>
-    <div class="page-news wrapper">
-        <BreadcrumbNav pathInfo={subPaths} />
-        <article class="flow wrapper">
-            <header>
-                <h1>{content.title}</h1>
-                <div>By {content.author ? makeAuthorStr(content.author) : ""} on {readableDate(content.date)}</div>
-            </header>
-            <div class="article-body flow">
-                <slot />
-            </div>
-        </article>
-    </div>
+  <div class="page-news wrapper">
+    <BreadcrumbNav pathInfo={subPaths} />
+    <article class="flow wrapper">
+      <header>
+        <h1>{content.title}</h1>
+        <div>
+          By {content.author ? makeAuthorStr(content.author) : ""} on {readableDate(content.date)}
+        </div>
+      </header>
+      <div class="article-body flow">
+        <slot />
+      </div>
+    </article>
+  </div>
 </BaseLayout>
+
+<style>
+  .article-body {
+    font-family: Literata, Georgia, "Times New Roman", Times, serif;
+  }
+</style>

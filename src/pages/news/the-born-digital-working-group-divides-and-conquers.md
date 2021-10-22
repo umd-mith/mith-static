@@ -1,7 +1,7 @@
 ---
 author:
-- Rachel Donahue
-date: '2013-01-29T15:00:00.000Z'
+  - Rachel Donahue
+date: "2013-01-29T15:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-born-digital-working-group-divides-and-conquers
 title: The Born Digital Working Group Divides and Conquers

@@ -1,7 +1,7 @@
 ---
 author:
-- Lisa Marie Antonille Rhody
-date: '2012-04-02T13:37:00.000Z'
+  - Lisa Marie Antonille Rhody
+date: "2012-04-02T13:37:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: small-projects-limited-datasets
 title: Small Projects & Limited Datasets

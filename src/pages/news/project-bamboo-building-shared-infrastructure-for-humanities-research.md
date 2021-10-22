@@ -1,10 +1,10 @@
 ---
 author:
-- Emma Millon
-date: '2011-07-01T14:20:00.000Z'
+  - Emma Millon
+date: "2011-07-01T14:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: project-bamboo-building-shared-infrastructure-for-humanities-research
-title: 'Project Bamboo: Building Shared Infrastructure for Humanities Research'
+title: "Project Bamboo: Building Shared Infrastructure for Humanities Research"
 ---
 
 ![Project Bamboo](/assets/images/2011-07-PBamboo_Logo_sm.png)Several MITH staff members are currently working on [Project Bamboo](http://www.projectbamboo.org), a partnership of ten research universities, led by [University of California, Berkeley](http://berkeley.edu/), and including [Australian National University](http://www.anu.edu.au/); [Indiana University](http://www.indiana.edu/); [Northwestern University](http://www.northwestern.edu/); [Tufts University](http://www.tufts.edu/); [University of Chicago](http://www.uchicago.edu); [University of Illinois at Urbana-Champaign](http://illinois.edu/); [University of Maryland](http://www.umd.edu/); [University of Oxford](http://www.ox.ac.uk/); and [University of Wisconsin-Madison](http://www.wisc.edu/). Within Bamboo, MITH is leading Corpora Space. We are designing research environments where scholars may discover, analyze and curate digital texts across the 450 years of print culture in English from 1473 until 1923, along with the texts from the Classical world upon which that print culture is based. We are initially focusing on the following collections: [AUSTLit](http://www.austlit.edu.au/); [Nineteenth-century Scholarship Online](http://www.nines.org/) (NINES); [Google Books](http://books.google.com/); [HathiTrust](http://www.hathitrust.org/); [Oxford Text Archive](http://ota.ahds.ac.uk/); [Perseus Digital Library](http://www.perseus.tufts.edu); and [Text Creation Partnership](http://www.lib.umich.edu/tcp/index.html) of Early English Books Online (EEBO) and Eighteenth Century Collections Online (ECCO).

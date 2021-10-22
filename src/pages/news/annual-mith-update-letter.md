@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-08-28T17:45:00.000Z'
+  - "MITH "
+date: "2008-08-28T17:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: annual-mith-update-letter
 title: Annual MITH Update Letter

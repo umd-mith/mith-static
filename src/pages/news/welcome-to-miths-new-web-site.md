@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-02-01T16:32:00.000Z'
+  - "MITH "
+date: "2006-02-01T16:32:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: welcome-to-miths-new-web-site
 title: Welcome to MITH's New Web Site

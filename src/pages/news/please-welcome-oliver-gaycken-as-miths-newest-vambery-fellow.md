@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2015-11-03T17:09:00.000Z'
+  - "MITH "
+date: "2015-11-03T17:09:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: please-welcome-oliver-gaycken-as-miths-newest-vambery-fellow
 title: Please welcome Oliver Gaycken as MITH’s newest Vambery Fellow!

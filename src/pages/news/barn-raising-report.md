@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-01-14T17:46:00.000Z'
+  - "MITH "
+date: "2011-01-14T17:46:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: barn-raising-report
 title: Barn raising report

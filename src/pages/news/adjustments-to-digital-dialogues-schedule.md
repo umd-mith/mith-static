@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2007-11-02T19:24:00.000Z'
+  - Digital Dialogues
+date: "2007-11-02T19:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: adjustments-to-digital-dialogues-schedule
 title: Adjustments to Digital Dialogues Schedule

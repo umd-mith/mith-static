@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-08-21T19:59:00.000Z'
+  - "MITH "
+date: "2014-08-21T19:59:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: ed-summers-joins-mith-as-lead-developer
 title: Ed Summers joins MITH as Lead Developer!

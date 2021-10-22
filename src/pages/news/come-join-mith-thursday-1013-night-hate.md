@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2016-10-11T14:56:00.000Z'
+  - "MITH "
+date: "2016-10-11T14:56:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: come-join-mith-thursday-1013-night-hate
 title: Come join MITH Thursday 10/13 for a Night Against Hate!

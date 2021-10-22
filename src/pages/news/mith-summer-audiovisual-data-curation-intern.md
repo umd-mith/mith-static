@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2016-05-18T13:30:00.000Z'
+  - "MITH "
+date: "2016-05-18T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-summer-audiovisual-data-curation-intern
-title: 'Call for Applications: MITH Summer Audiovisual Data Curation Intern'
+title: "Call for Applications: MITH Summer Audiovisual Data Curation Intern"
 ---
 
 The Maryland Institute for Technology in the Humanities (MITH), University of Maryland’s digital humanities institute, is seeking a graduate student intern to assist with a data curation and stewardship project during the summer 2016 term to assist with the assessment, organization and curation of our collection of audiovisual recordings covering MITH’s speaker series and events. The intern must complete at least 120 hours of work over at least a six-week period between late May and early July 2016. Interns may receive academic credit (based on approval from their department) and MITH will offer a stipend of up to \$1800.

@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2011-10-19T19:11:00.000Z'
+  - Hayim Lapin
+date: "2011-10-19T19:11:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: starting-out
 title: Starting Out

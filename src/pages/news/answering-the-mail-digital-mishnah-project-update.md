@@ -1,10 +1,10 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-11-15T13:30:00.000Z'
+  - Hayim Lapin
+date: "2012-11-15T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: answering-the-mail-digital-mishnah-project-update
-title: 'Answering the Mail: Digital Mishnah Project Update'
+title: "Answering the Mail: Digital Mishnah Project Update"
 ---
 
 I had promised to respond to comments on the [Digital Mishnah](http://digitalmishnah.org) demo, so, at long last, here goes.

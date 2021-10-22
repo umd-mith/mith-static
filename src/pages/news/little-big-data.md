@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2018-08-03T12:45:00.000Z'
+  - Ed Summers
+date: "2018-08-03T12:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: little-big-data
 title: Little Big Data

@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2018-02-22T15:27:00.000Z'
+  - Purdom Lindblad
+date: "2018-02-22T15:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: inviting-umd-participants-regional-dh-symposium-march-9-2018
 title: Inviting UMD Participants to a Regional DH Symposium, March 9, 2018

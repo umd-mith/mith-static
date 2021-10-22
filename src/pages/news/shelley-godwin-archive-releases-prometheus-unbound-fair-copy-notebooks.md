@@ -1,10 +1,11 @@
 ---
 author:
-- Neil Fraistat
-date: '2016-02-29T20:05:00.000Z'
+  - Neil Fraistat
+date: "2016-02-29T20:05:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: shelley-godwin-archive-releases-prometheus-unbound-fair-copy-notebooks
-title: The Shelley-Godwin Archive Releases the <em>Prometheus Unbound</em> fair copy
+title:
+  The Shelley-Godwin Archive Releases the <em>Prometheus Unbound</em> fair copy
   notebooks
 ---
 

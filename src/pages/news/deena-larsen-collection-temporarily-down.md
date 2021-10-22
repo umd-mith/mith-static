@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-01-26T21:04:00.000Z'
+  - "MITH "
+date: "2012-01-26T21:04:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: deena-larsen-collection-temporarily-down
 title: Deena Larsen Collection Temporarily Down

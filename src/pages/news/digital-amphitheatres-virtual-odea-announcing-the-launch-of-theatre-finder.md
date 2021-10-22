@@ -1,10 +1,10 @@
 ---
 author:
-- Emma Millon
-date: '2011-07-26T18:45:00.000Z'
+  - Emma Millon
+date: "2011-07-26T18:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-amphitheatres-virtual-odea-announcing-the-launch-of-theatre-finder
-title: 'Digital Amphitheatres, Virtual Odea: Announcing the Launch of Theatre Finder'
+title: "Digital Amphitheatres, Virtual Odea: Announcing the Launch of Theatre Finder"
 ---
 
 As a young student at Oxford, [Franklin J. Hildy](http://mith.umd.edu/theatrefinder/index/fhildy), found himself returning to school after a six-week tour of Europe only to realize that he had often been within proximity of a historic theatre, but had inadvertently bypassed it without knowing it was there. In an effort to provide a comprehensive study to historic theatres where there was none, Hildy, now Professor and Director of Graduate Studies in the [Department of Theatre at the University of Maryland](http://tdps.umd.edu/), started collecting information in the early 80s. Yet as his research grew from Greek and Roman theaters, to include Eastern European, North African, and Middle Eastern sites, he found himself restrained by the print medium. Contemporary reference books proved inadequate: the entries were not sufficiently comprehensive, and by the time the book was printed, the material was outdated.

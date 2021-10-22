@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-04-09T18:23:00.000Z'
+  - "MITH "
+date: "2009-04-09T18:23:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-is-hiring-a-web-programmer
 title: MITH is Hiring a Web Programmer

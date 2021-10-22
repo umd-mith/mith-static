@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2011-03-08T22:30:00.000Z'
+  - "MITH "
+date: "2011-03-08T22:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: how-byronic-is-emma-woodchipping-the-digital-humanities
-title: '‘How Byronic is Emma’: Woodchipping the Digital Humanities'
+title: "‘How Byronic is Emma’: Woodchipping the Digital Humanities"
 ---
 
 \[fusion_text]During the three-day [CorporaCamp](http://mith.umd.edu/corporacamp/) code sprint at MITH the participants built a prototype application designed to work across three large text collections. The result of our efforts is ‘Woodchipper’ — a tool that allows the scholar to select a set of texts from these collections and to produce visualizations of thematic relationships between them.

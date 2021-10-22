@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2017-09-29T15:44:00.000Z'
+  - Stephanie Sapienza
+date: "2017-09-29T15:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: panel-workshop-linked-data-crowdsourcing-radio
 title: MITH Panel/Workshop Nov 2 on Linked Data & Crowdsourcing for Radio Collections!

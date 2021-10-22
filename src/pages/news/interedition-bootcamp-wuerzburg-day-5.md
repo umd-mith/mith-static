@@ -1,10 +1,10 @@
 ---
 author:
-- Grant Dickie
-date: '2011-10-11T21:39:00.000Z'
+  - Grant Dickie
+date: "2011-10-11T21:39:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: interedition-bootcamp-wuerzburg-day-5
-title: 'Interedition Bootcamp Wuerzburg: Day 5'
+title: "Interedition Bootcamp Wuerzburg: Day 5"
 ---
 
 At the University of Wuerzburg Seminar building, the same place that the TEI Conference Workshops are occurring, the Interedition group is hard at work finishing up prototypes and proofs of concept for our individual projects. Today is the last day for the Bootcamp, although a lot of the members are talking about continuing to hack tomorrow, since the seminar room we reserved remains reserved tomorrow. Some of the group are particularly tired, as there was a late-night hacking session until 1:30am for the third night in a row. To say these people are committed is only putting it lightly.

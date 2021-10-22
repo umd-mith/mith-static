@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2012-03-05T13:26:00.000Z'
+  - Emma Millon
+date: "2012-03-05T13:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-faculty-fellow-to-speak-at-um-libraries-campus-author-series
 title: MITH Faculty Fellow to Speak at UM Libraries' Campus Author Series

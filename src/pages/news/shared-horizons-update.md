@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2012-11-29T15:28:00.000Z'
+  - Neil Fraistat
+date: "2012-11-29T15:28:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: shared-horizons-update
 title: Shared Horizons Update

@@ -1,10 +1,10 @@
 ---
 author:
-- Leighton Christiansen
-date: '2011-06-13T13:00:00.000Z'
+  - Leighton Christiansen
+date: "2011-06-13T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: hands-on-the-dlc-finding-and-finding-aids
-title: 'Hands on the DLC: Finding and Finding Aids'
+title: "Hands on the DLC: Finding and Finding Aids"
 ---
 
 “…it is a true hybrid collection. It is not just a collection of digital materials.” MITH Associate Director Matt Kirschenbaum

@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2010-12-20T22:35:00.000Z'
+  - "MITH "
+date: "2010-12-20T22:35:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: first-mith-barn-raising-web-based-tei-editor
-title: 'First MITH barn-raising: Web-based TEI editor'
+title: "First MITH barn-raising: Web-based TEI editor"
 ---
 
 It's January 3rd. You've taken back all your unwanted gifts and started your diet. What is there left to be excited about...except the first MITH barn raising! In the grand tradition of the Old Order Mennonites of the Pennsylvanian and Canadian prairies (well, except for that whole eschewing modern technologies thing), we're hosting a virtual barn-raising and building something as a community for the good of the community. There have been several attempts (at MITH and elsewhere) to build a web-based TEI editor, and some great prototypes have emerged, but none have quite produced a really usable tool. We hope, in 5 days, to begin a process that will change that. On January 3rd we'll spend the day meeting with whomever is interested to design initial specifications for the tool. On the morning of January 4th, interested coders will divy up the tasks and head back home. We'll all get a good night's sleep, fire up our Skype accounts, and start a remote worksprint on Wednesday-Friday with the goal of a public launch at 4 p.m. Eastern on January 7th.

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-08-14T16:22:00.000Z'
+  - "MITH "
+date: "2007-08-14T16:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: kirschenbaum-in-the-chronicle
 title: Kirschenbaum in the Chronicle

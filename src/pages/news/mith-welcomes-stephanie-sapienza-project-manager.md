@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-09-04T19:30:00.000Z'
+  - "MITH "
+date: "2013-09-04T19:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-stephanie-sapienza-project-manager
 title: MITH Welcomes Stephanie Sapienza as Project Manager!

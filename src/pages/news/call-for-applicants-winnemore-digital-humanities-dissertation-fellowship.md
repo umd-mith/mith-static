@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2010-11-04T19:06:00.000Z'
+  - "MITH "
+date: "2010-11-04T19:06:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-applicants-winnemore-digital-humanities-dissertation-fellowship
-title: 'Call for Applicants: Winnemore Digital Humanities Dissertation Fellowship'
+title: "Call for Applicants: Winnemore Digital Humanities Dissertation Fellowship"
 ---
 
 Applications for MITH’s Spring 2011 Winnemore Digital Humanities Dissertation Fellowship are now being accepted. Intended for students whose dissertations engage the intersections between new media and the traditional concerns of the Arts and Humanities, the Winnemore Fellowship will provide a stipend of \$9,570, plus full benefits and tuition remission up to five credits.

@@ -1,10 +1,11 @@
 ---
 author:
-- Trevor Muñoz
-date: '2013-02-08T16:40:00.000Z'
+  - Trevor Muñoz
+date: "2013-02-08T16:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-and-university-of-maryland-libraries-selected-as-a-host-institution-for-inaugural-national-digital-stewardship-residency-program
-title: MITH and University of Maryland Libraries Collaboration Selected as a Host
+title:
+  MITH and University of Maryland Libraries Collaboration Selected as a Host
   Institution for Inaugural National Digital Stewardship Residency Program
 ---
 

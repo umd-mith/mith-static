@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-01-24T18:44:00.000Z'
+  - "MITH "
+date: "2011-01-24T18:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: collaborators-bill-of-rights-from-recent-off-the-tracks-workshop
 title: Collaborators’ Bill of Rights from recent "Off The Tracks" workshop

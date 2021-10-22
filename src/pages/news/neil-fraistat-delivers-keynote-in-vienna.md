@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-10-20T02:24:00.000Z'
+  - "MITH "
+date: "2010-10-20T02:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: neil-fraistat-delivers-keynote-in-vienna
 title: Neil Fraistat Delivers Keynote in Vienna

@@ -1,7 +1,7 @@
 ---
 author:
-- Rachel Donahue
-date: '2012-09-06T16:57:00.000Z'
+  - Rachel Donahue
+date: "2012-09-06T16:57:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: testudo-takes-over-the-mith-dedication-celebration
 title: Testudo takes over the MITH Dedication Celebration

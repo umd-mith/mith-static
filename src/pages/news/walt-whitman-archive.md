@@ -1,7 +1,7 @@
 ---
 author:
-- Raff Viglianti
-date: '2014-03-20T14:34:00.000Z'
+  - Raff Viglianti
+date: "2014-03-20T14:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: walt-whitman-archive
 title: The Walt Whitman Archive

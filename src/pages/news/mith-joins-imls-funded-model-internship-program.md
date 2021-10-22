@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-06-19T14:15:00.000Z'
+  - "MITH "
+date: "2008-06-19T14:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-joins-imls-funded-model-internship-program
 title: MITH Partners with iSchool for IMLS-Funded Model Internship Program

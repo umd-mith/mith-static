@@ -1,7 +1,7 @@
 ---
 author:
-- Rachel Donahue
-date: '2013-02-28T15:16:00.000Z'
+  - Rachel Donahue
+date: "2013-02-28T15:16:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: developing-policies-for-a-digital-world
 title: Developing Policies for a Digital World

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-10-24T23:15:00.000Z'
+  - "MITH "
+date: "2009-10-24T23:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-dcc
 title: MITH Welcomes DCC

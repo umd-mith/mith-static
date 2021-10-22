@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-10-24T13:00:00.000Z'
+  - Hayim Lapin
+date: "2012-10-24T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: drowning-in-texts
 title: Drowning in Texts

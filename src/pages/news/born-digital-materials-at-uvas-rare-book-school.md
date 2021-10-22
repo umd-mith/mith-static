@@ -1,7 +1,7 @@
 ---
 author:
-- Matthew Kirschenbaum
-date: '2011-07-25T16:22:00.000Z'
+  - Matthew Kirschenbaum
+date: "2011-07-25T16:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: born-digital-materials-at-uvas-rare-book-school
 title: Born-Digital Materials at UVA's Rare Book School

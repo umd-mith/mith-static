@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2015-01-13T20:21:00.000Z'
+  - "MITH "
+date: "2015-01-13T20:21:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: ilya-kreymer-will-speak-mith-january-20th-web-archiving-tools
 title: Ilya Kreymer will speak at MITH on January 20th on web archiving tools

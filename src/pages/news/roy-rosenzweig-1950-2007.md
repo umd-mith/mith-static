@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-10-13T15:48:00.000Z'
+  - "MITH "
+date: "2007-10-13T15:48:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: roy-rosenzweig-1950-2007
 title: Roy Rosenzweig, 1950-2007

@@ -1,7 +1,7 @@
 ---
 author:
-- Dave Lester
-date: '2010-12-21T16:22:00.000Z'
+  - Dave Lester
+date: "2010-12-21T16:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-participants-mith-api-workshop
 title: Call for Participants, MITH API Workshop

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-02-22T18:00:00.000Z'
+  - "MITH "
+date: "2006-02-22T18:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: kirschenbaum-to-speak-at-ut-austin
 title: Kirschenbaum to Speak at UT Austin

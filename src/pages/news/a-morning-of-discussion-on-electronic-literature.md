@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2006-04-19T15:47:00.000Z'
+  - "MITH "
+date: "2006-04-19T15:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: a-morning-of-discussion-on-electronic-literature
-title: 'April 28th: MITH Presents a Morning of Discussion on Electronic Literature'
+title: "April 28th: MITH Presents a Morning of Discussion on Electronic Literature"
 ---
 
 Following a very successful day of discussion on the digital humanities MITH hosted earlier this semester with Johanna Drucker and Jerome McGann, please join us for a morning of discussion on electronic literature. In preparation for the Electronic Literature Organization's impending move to MITH (www.eliterature.org), two of the ELO's directors, ALAN LIU (Professor of English, University of California Santa Barbara) and JOE TABBI (Professor of English, University of Illinois Chicago) will visit to present talks on the preservation and collecting of electronic literature, as well as a new curriculum (at Santa Barbara) to support its teaching.

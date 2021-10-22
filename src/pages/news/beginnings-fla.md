@@ -1,7 +1,7 @@
 ---
 author:
-- Peter Mallios
-date: '2011-12-07T17:09:00.000Z'
+  - Peter Mallios
+date: "2011-12-07T17:09:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: beginnings-fla
 title: Beginnings…

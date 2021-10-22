@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2014-11-26T16:02:00.000Z'
+  - Ed Summers
+date: "2014-11-26T16:02:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: miths-ed-summers-discusses-ferguson-twitter-archive
 title: MITH’s Ed Summers discusses his Ferguson Twitter archive

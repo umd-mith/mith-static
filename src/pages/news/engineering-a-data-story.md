@@ -1,10 +1,10 @@
 ---
 author:
-- Misti Yang
-date: '2018-08-27T20:18:00.000Z'
+  - Misti Yang
+date: "2018-08-27T20:18:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: engineering-a-data-story
-title: '#Engineering: A Data Story'
+title: "#Engineering: A Data Story"
 ---
 
 _This post is part 2 in a [series](https://mith.umd.edu/little-big-data/) about social media data collection experiments conducted in [Matt Kirschenbaum](https://twitter.com/mkirschenbaum)‘s [Introduction to Digital Studies](https://dsah.umd.edu/requirements/#introds)._

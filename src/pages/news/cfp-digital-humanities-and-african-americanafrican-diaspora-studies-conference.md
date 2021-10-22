@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2008-01-24T18:38:00.000Z'
+  - "MITH "
+date: "2008-01-24T18:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: cfp-digital-humanities-and-african-americanafrican-diaspora-studies-conference
-title: 'CFP: Digital Humanities and African American/African Diaspora Studies Conference'
+title: "CFP: Digital Humanities and African American/African Diaspora Studies Conference"
 ---
 
 Call for Posters and Demonstrations

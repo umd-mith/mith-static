@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2008-06-06T22:26:00.000Z'
+  - "MITH "
+date: "2008-06-06T22:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: more-jobs-at-mith-coordinator-and-web-programmer
-title: 'More Jobs at MITH: Coordinator and Web Programmer'
+title: "More Jobs at MITH: Coordinator and Web Programmer"
 ---
 
 **Coordinator (#112158)**

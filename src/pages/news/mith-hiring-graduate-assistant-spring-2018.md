@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2018-01-02T19:40:00.000Z'
+  - "MITH "
+date: "2018-01-02T19:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-hiring-graduate-assistant-spring-2018
 title: MITH is Hiring a Graduate Assistant for Spring 2018!

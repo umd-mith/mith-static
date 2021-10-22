@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2011-11-14T19:43:00.000Z'
+  - Jennifer Guiliano
+date: "2011-11-14T19:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: come-chat-about-dh-gender-sexuality
 title: Come chat about DH, gender & sexuality...

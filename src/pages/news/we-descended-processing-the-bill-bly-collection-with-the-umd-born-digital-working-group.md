@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2012-10-12T17:07:00.000Z'
+  - "MITH "
+date: "2012-10-12T17:07:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: we-descended-processing-the-bill-bly-collection-with-the-umd-born-digital-working-group
-title: 'We Descended: Processing the Bill Bly Collection with the UMD Born-Digital
-  Working Group'
+title:
+  "We Descended: Processing the Bill Bly Collection with the UMD Born-Digital
+  Working Group"
 ---
 
 _This post was co-authored by members of the Born-Digital Working Group._

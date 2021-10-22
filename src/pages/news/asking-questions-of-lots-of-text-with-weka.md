@@ -1,7 +1,7 @@
 ---
 author:
-- Peter Mallios
-date: '2012-12-18T13:30:00.000Z'
+  - Peter Mallios
+date: "2012-12-18T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: asking-questions-of-lots-of-text-with-weka
 title: Asking Questions of Lots of Text with Weka

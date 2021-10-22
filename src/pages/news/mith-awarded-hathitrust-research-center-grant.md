@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-04-15T14:43:00.000Z'
+  - "MITH "
+date: "2014-04-15T14:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-awarded-hathitrust-research-center-grant
 title: MITH awarded HathiTrust Research Center grant

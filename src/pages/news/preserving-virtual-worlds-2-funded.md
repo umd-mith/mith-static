@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-10-04T16:57:00.000Z'
+  - "MITH "
+date: "2010-10-04T16:57:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: preserving-virtual-worlds-2-funded
 title: Preserving Virtual Worlds 2 Funded

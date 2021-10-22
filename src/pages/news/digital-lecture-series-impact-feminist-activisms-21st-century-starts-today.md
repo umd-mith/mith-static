@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2014-11-03T15:58:00.000Z'
+  - "MITH "
+date: "2014-11-03T15:58:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-lecture-series-impact-feminist-activisms-21st-century-starts-today
-title: Digital Lecture Series on the Impact of Feminist Activisms in the 21st Century
+title:
+  Digital Lecture Series on the Impact of Feminist Activisms in the 21st Century
   Starts Today
 ---
 

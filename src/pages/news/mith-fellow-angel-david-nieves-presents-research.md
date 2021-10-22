@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-05-23T16:54:00.000Z'
+  - "MITH "
+date: "2007-05-23T16:54:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-fellow-angel-david-nieves-presents-research
 title: MITH Fellow Angel David Nieves Presents Research

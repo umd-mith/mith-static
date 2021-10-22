@@ -1,7 +1,7 @@
 ---
 author:
-- Leighton Christiansen
-date: '2011-06-21T13:00:00.000Z'
+  - Leighton Christiansen
+date: "2011-06-21T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: accessing-the-dlc-from-a-distance
 title: Accessing the DLC from a Distance?

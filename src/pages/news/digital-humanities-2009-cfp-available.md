@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-09-11T17:50:00.000Z'
+  - "MITH "
+date: "2008-09-11T17:50:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-humanities-2009-cfp-available
 title: Digital Humanities 2009 CFP Available!

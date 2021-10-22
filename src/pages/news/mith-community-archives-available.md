@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-09-21T13:18:00.000Z'
+  - "MITH "
+date: "2006-09-21T13:18:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-community-archives-available
 title: MITH-COMMUNITY Archives Available

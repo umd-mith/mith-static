@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-01-09T15:34:00.000Z'
+  - "MITH "
+date: "2006-01-09T15:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: nora-project-update
 title: nora Project Update

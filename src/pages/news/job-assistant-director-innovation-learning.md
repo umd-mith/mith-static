@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2016-04-08T16:30:00.000Z'
+  - "MITH "
+date: "2016-04-08T16:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: job-assistant-director-innovation-learning
-title: 'Job: Assistant Director for Innovation and Learning'
+title: "Job: Assistant Director for Innovation and Learning"
 ---
 
 The [Maryland Institute for Technology in the Humanities](http://mith.umd.edu/) (MITH) at the University of Maryland seeks an Assistant Director for Innovation and Learning to play a leadership role in managing MITH’s growing portfolio of courses and instructional programs. The successful candidate will report to MITH’s Director and be adept at fostering the development of exciting digital humanities related curriculum and programs; creating dynamic learning communities for faculty, postdoctoral fellows, graduate students and undergraduates; and providing valuable input towards MITH’s strategic goals and plans. She or he will draw upon successful experience with training and curriculum development in the digital humanities, and demonstrate the ability to cultivate and manage constructive relationships with a variety of University partners and stakeholders.

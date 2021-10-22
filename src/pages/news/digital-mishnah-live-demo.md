@@ -1,10 +1,10 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-09-04T12:00:00.000Z'
+  - Hayim Lapin
+date: "2012-09-04T12:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-mishnah-live-demo
-title: 'Digital Mishnah: Live Demo'
+title: "Digital Mishnah: Live Demo"
 ---
 
 I am pleased to say that with a lot of work on a lot of people’s part, there is now a[ live demo of the Digital Mishnah Project](http://www.digitalmishnah.org/demo/). The demo is just that: a demonstration of possible functionalities.This post will outline some of the features that were always meant to be temporary and some new planned or desired features, and then invite comments.

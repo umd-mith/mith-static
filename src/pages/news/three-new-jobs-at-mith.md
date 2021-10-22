@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-10-07T17:40:00.000Z'
+  - "MITH "
+date: "2010-10-07T17:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: three-new-jobs-at-mith
 title: Three New Jobs at MITH

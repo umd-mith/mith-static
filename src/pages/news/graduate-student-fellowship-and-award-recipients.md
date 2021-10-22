@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-01-12T17:38:00.000Z'
+  - "MITH "
+date: "2006-01-12T17:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: graduate-student-fellowship-and-award-recipients
 title: Graduate Student Fellowship and Award Recipients

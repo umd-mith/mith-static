@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-11-12T19:43:00.000Z'
+  - "MITH "
+date: "2009-11-12T19:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: greg-crane-podcast-now-available
 title: Greg Crane Podcast Now Available

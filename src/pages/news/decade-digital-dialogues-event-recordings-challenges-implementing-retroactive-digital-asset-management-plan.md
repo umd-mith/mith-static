@@ -1,10 +1,11 @@
 ---
 author:
-- David Durden
-date: '2016-07-14T20:39:00.000Z'
+  - David Durden
+date: "2016-07-14T20:39:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: decade-digital-dialogues-event-recordings-challenges-implementing-retroactive-digital-asset-management-plan
-title: A Decade of Digital Dialogues Event Recordings and the Challenges of Implementing
+title:
+  A Decade of Digital Dialogues Event Recordings and the Challenges of Implementing
   a Retroactive Digital Asset Management Plan
 ---
 

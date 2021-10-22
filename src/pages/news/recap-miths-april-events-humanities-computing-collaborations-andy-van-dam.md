@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2016-05-13T00:52:00.000Z'
+  - "MITH "
+date: "2016-05-13T00:52:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: recap-miths-april-events-humanities-computing-collaborations-andy-van-dam
-title: 'Recap: MITH’s April events on Humanities and Computing Collaborations with
-  Andy van Dam'
+title:
+  "Recap: MITH’s April events on Humanities and Computing Collaborations with
+  Andy van Dam"
 ---
 
 This spring, MITH worked with the National Endowment for the Humanities (NEH) and the University of Maryland Human-Computer Interaction Lab (HCIL) to bring renowned technology scholar Andy van Dam to campus for two successful events.

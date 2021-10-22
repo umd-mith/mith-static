@@ -1,10 +1,10 @@
 ---
 author:
-- Trevor Muñoz
-date: '2018-10-08T13:20:00.000Z'
+  - Trevor Muñoz
+date: "2018-10-08T13:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: help-shape-a-conversation-about-black-digital-collections-at-aadhum2018
-title: 'Help Shape a Conversation About Black Digital Collections at #AADHum2018'
+title: "Help Shape a Conversation About Black Digital Collections at #AADHum2018"
 ---
 
 Together [_Umbra Search African American History_](https://www.umbrasearch.org/) and the [African American History, Culture, and Digital Humanities (AADHum) initiative](https://aadhum.umd.edu/) at the University of Maryland are working on a research agenda related to vital issues of collaboration and sustainability for digital collections and platforms focused on African American history and culture.

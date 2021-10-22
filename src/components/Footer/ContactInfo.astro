@@ -1,31 +1,40 @@
-<style>
-    .contact-info span:first-child {
-        font-weight: 700;
-    }
 
-    address {
-        font-style: normal;
-    }
 
-    @media screen and (min-width: 1440px) {
-        .contact-info {
-            text-align: right;
+<section
+  class="contact-info"
+  itemscope
+  itemtype="https://schema.org/Organization">
+  <span itemprop="name"
+    >Maryland Institute for Technology in the Humanities</span>
+  <address>
+    <div
+      itemprop="address"
+      itemscope
+      itemtype="https://schema.org/PostalAddress">
+      0301 Hornbake Library North<br />
+      <span itemprop="streetAddress">4130 Campus Drive</span><br />
+      University of Maryland<br />
+      <span itemprop="addressLocality">College Park, MD</span>
+      <span itemprop="postalCode">&thinsp;20742</span><br />
+    </div>
 
-        }
-    }
-</style>
-
-<section class="contact-info" itemscope itemtype="https://schema.org/Organization">
-    <span itemprop="name">Maryland Institute for Technology in the Humanities</span>
-    <address>
-        <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-            0301 Hornbake Library North<br>
-            <span itemprop="streetAddress">4130 Campus Drive</span><br>
-            University of Maryland<br>
-            <span itemprop="addressLocality">College Park, MD</span> <span itemprop="postalCode">&thinsp;20742</span><br>
-        </div>
-        
-        Phone: <span itemprop="telephone">301.405.8927</span><br>
-        Email: <span itemprop="email">mith@umd.edu</span><br>
-    </address>
+    Phone: <span itemprop="telephone">301.405.8927</span><br />
+    Email: <span itemprop="email">mith@umd.edu</span><br />
+  </address>
 </section>
+
+<style>
+  .contact-info span:first-child {
+    font-weight: 700;
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .contact-info {
+      text-align: right;
+    }
+  }
+</style>

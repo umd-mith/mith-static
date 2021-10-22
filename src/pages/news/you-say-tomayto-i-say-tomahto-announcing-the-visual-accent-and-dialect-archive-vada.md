@@ -1,11 +1,12 @@
 ---
 author:
-- Emma Millon
-date: '2011-06-23T18:19:00.000Z'
+  - Emma Millon
+date: "2011-06-23T18:19:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: you-say-tomayto-i-say-tomahto-announcing-the-visual-accent-and-dialect-archive-vada
-title: 'You Say Tomayto, I Say Tomahto: Announcing the Visual Accent and Dialect Archive
-  (VADA)'
+title:
+  "You Say Tomayto, I Say Tomahto: Announcing the Visual Accent and Dialect Archive
+  (VADA)"
 ---
 
 Why do residents in the Italian neighborhood of Philadelphia pronounce words like “home” and “hoagie” in a Scottish dialect? Questions such as these have long drawn the curiosity of linguistics and language scholars. Up until now, audio recordings served as the primary source material for those studying accent and dialect history. Now, thanks to [Leigh Wilson Smiley](http://tdps.umd.edu/faculty/Leigh-Wilson-Smiley), Head of the MFA in Performance in the School of Theatre, Dance, and Performance Studies at the University of Maryland, and MITH Resident Fellow, her launch of the [Visual Accent and Dialect Archive](http://mith.umd.edu/vada/) (VADA) allows viewers to closely monitor facial movements of speakers while listening to English spoken in a variety of accents and dialects.

@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2016-06-30T14:00:00.000Z'
+  - "MITH "
+date: "2016-06-30T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: aadhum-postdocs
-title: 'Jobs: Postdoctoral Positions in Digital Humanities and African American History
-  and Culture'
+title:
+  "Jobs: Postdoctoral Positions in Digital Humanities and African American History
+  and Culture"
 ---
 
 ### Overview

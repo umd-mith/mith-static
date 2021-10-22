@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-01-26T15:12:00.000Z'
+  - Hayim Lapin
+date: "2012-01-26T15:12:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: thinking-about-the-end-product
 title: Thinking about the End Product

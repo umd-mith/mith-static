@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-06-12T12:30:00.000Z'
+  - Jennifer Guiliano
+date: "2012-06-12T12:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: trends-at-the-digital-humanities-summer-institute
 title: Trends at the Digital Humanities Summer Institute

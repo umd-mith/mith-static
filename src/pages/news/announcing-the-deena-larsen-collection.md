@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-12-03T04:23:00.000Z'
+  - "MITH "
+date: "2009-12-03T04:23:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-the-deena-larsen-collection
 title: Announcing the Deena Larsen Collection

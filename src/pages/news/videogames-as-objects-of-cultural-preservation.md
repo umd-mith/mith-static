@@ -1,7 +1,7 @@
 ---
 author:
-- Rachel Donahue
-date: '2011-10-27T17:59:00.000Z'
+  - Rachel Donahue
+date: "2011-10-27T17:59:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: videogames-as-objects-of-cultural-preservation
 title: Videogames as Objects of Cultural Preservation

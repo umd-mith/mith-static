@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-03-02T22:02:00.000Z'
+  - "MITH "
+date: "2011-03-02T22:02:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-hosts-corporacamp
 title: MITH Hosts CorporaCamp

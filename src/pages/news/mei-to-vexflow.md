@@ -1,7 +1,7 @@
 ---
 author:
-- Zoltan Komives
-date: '2013-06-07T17:13:00.000Z'
+  - Zoltan Komives
+date: "2013-06-07T17:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mei-to-vexflow
 title: MEI-to-VexFlow

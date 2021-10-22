@@ -1,10 +1,11 @@
 ---
 author:
-- Digital Dialogues
-date: '2009-10-29T18:03:00.000Z'
+  - Digital Dialogues
+date: "2009-10-29T18:03:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: coming-up-mith-113-ben-bederson-nick-chen-matt-kirschenbaum-the-great-ebook-throwdown
-title: 'Coming up @ MITH 11/3: Ben Bederson, Nick Chen, & Matt Kirschenbaum, "The
+title:
+  'Coming up @ MITH 11/3: Ben Bederson, Nick Chen, & Matt Kirschenbaum, "The
   Great Ebook Throwdown"'
 ---
 

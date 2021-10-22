@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2011-02-07T18:04:00.000Z'
+  - Digital Dialogues
+date: "2011-02-07T18:04:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-dialogues-returns-to-mith
 title: Digital Dialogues returns to MITH

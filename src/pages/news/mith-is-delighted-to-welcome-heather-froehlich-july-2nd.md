@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-06-21T13:47:00.000Z'
+  - "MITH "
+date: "2013-06-21T13:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-is-delighted-to-welcome-heather-froehlich-july-2nd
 title: MITH is delighted to welcome Heather Froehlich, July 2nd

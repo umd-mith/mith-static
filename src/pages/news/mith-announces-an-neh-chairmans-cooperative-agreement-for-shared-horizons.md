@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-08-06T14:00:00.000Z'
+  - Jennifer Guiliano
+date: "2012-08-06T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-announces-an-neh-chairmans-cooperative-agreement-for-shared-horizons
 title: MITH Announces an NEH Chairman's Cooperative Agreement for Shared Horizons

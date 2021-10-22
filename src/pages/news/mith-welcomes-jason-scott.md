@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-11-02T14:16:00.000Z'
+  - "MITH "
+date: "2010-11-02T14:16:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-jason-scott
 title: MITH Welcomes Jason Scott

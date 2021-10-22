@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-12-19T20:13:00.000Z'
+  - "MITH "
+date: "2012-12-19T20:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: shelley-godwin-archive-seeking-applications-for-text-encoders
 title: Shelley-Godwin Archive Seeking Applications for Text-Encoders

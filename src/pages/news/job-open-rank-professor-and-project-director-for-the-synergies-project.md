@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2015-11-17T18:38:00.000Z'
+  - "MITH "
+date: "2015-11-17T18:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: job-open-rank-professor-and-project-director-for-the-synergies-project
-title: 'Job: Open Rank Professor and Synergies Project Director'
+title: "Job: Open Rank Professor and Synergies Project Director"
 ---
 
 Come work with us on this wonderful opportunity connecting Digital Humanities and African American History and Culture!

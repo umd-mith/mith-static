@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2011-03-18T16:01:00.000Z'
+  - "MITH "
+date: "2011-03-18T16:01:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: associate-director-position-assistant-dean-libraries
-title: 'We''re Hiring: Associate Director, MITH; Assistant Dean for Digital Humanities
-  Research, Libraries'
+title:
+  "We're Hiring: Associate Director, MITH; Assistant Dean for Digital Humanities
+  Research, Libraries"
 ---
 
 The Maryland Institute for Technology in the Humanities (MITH) and the University Libraries at the University of Maryland are seeking an experienced, dynamic, and highly talented individual to fill a joint position as an Associate Director of MITH and Assistant Dean for Digital Humanities Research in the Libraries. The successful candidate will have primary responsibility for developing joint projects between MITH and the University Libraries, coordinating activities and initiatives between the two units, and developing a digital scholarship strategy for the Libraries and its digital humanities collections.

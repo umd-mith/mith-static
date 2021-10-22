@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2016-10-05T14:13:00.000Z'
+  - "MITH "
+date: "2016-10-05T14:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-avery-dame-2016-17-winnemore-fellow
 title: MITH Welcomes Avery Dame as the 2016-17 Winnemore Fellow!

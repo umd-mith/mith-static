@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-03-21T20:38:00.000Z'
+  - "MITH "
+date: "2006-03-21T20:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: march-29th-coffeehouse-conversation-on-scholarly-electronic-publishing
 title: 3/29 Coffeehouse Conversation on Scholarly Electronic Publishing

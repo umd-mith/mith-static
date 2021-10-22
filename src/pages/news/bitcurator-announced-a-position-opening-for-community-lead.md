@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-04-02T14:00:00.000Z'
+  - "MITH "
+date: "2013-04-02T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: bitcurator-announced-a-position-opening-for-community-lead
 title: BitCurator Announced a Position Opening for Community Lead

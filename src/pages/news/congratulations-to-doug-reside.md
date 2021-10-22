@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2010-12-14T22:03:00.000Z'
+  - Neil Fraistat
+date: "2010-12-14T22:03:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: congratulations-to-doug-reside
 title: Congratulations to Doug Reside!

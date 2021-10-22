@@ -1,10 +1,10 @@
 ---
 author:
-- Emma Millon
-date: '2011-05-09T16:48:00.000Z'
+  - Emma Millon
+date: "2011-05-09T16:48:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: documenting-dance-upcoming-event-monday-516-at-the-kennedy-center
-title: 'Documenting Dance: Upcoming Event Monday 5/16 at the Kennedy Center'
+title: "Documenting Dance: Upcoming Event Monday 5/16 at the Kennedy Center"
 ---
 
 Renowned ballerina [Suzanne Farrell](https://secure.wikimedia.org/wikipedia/en/wiki/Suzanne_Farrell) performed an exceptional 28 years before retiring from an established and widely-accomplished career. Having danced for world-famous companies in Berlin, New York City, Paris and Vienna, Farrell gained an unparalleled wealth of knowledge and expertise that she then chose to pass down to the next generation of dancers as teacher and founder of her own company, the Suzanne Farrell Ballet at the [John F. Kennedy Center for the Performing Arts](http://www.kennedy-center.org).

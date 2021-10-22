@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2015-04-15T14:41:00.000Z'
+  - "MITH "
+date: "2015-04-15T14:41:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-meyerhoff-center-for-jewish-studies-and-mith-present-digitizing-the-cairo-genizah-collections-on-april-29
-title: 'The Meyerhoff Center for Jewish Studies and MITH present: Digitizing the Cairo
-  Genizah Collections, on April 29'
+title:
+  "The Meyerhoff Center for Jewish Studies and MITH present: Digitizing the Cairo
+  Genizah Collections, on April 29"
 ---
 
 _The Joseph and Rebecca Meyerhoff Center for Jewish Studies and the Maryland Institute for Technology in the Humanities (MITH) at the University of Maryland present:_

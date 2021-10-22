@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2017-04-04T20:22:00.000Z'
+  - "MITH "
+date: "2017-04-04T20:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: registration-now-open-textual-embodiments-2017-sts-annual-conference
 title: Registration is now open for ‘Textual Embodiments,’ the 2017 STS annual conference!

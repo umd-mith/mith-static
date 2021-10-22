@@ -1,7 +1,7 @@
 ---
 author:
-- Carla L. Peterson
-date: '2011-11-21T14:57:00.000Z'
+  - Carla L. Peterson
+date: "2011-11-21T14:57:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: whats-the-virtue-of-virtuality
 title: What's the Virtue of Virtuality?

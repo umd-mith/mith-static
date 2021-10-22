@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-11-10T15:42:00.000Z'
+  - "MITH "
+date: "2011-11-10T15:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-receives-the-bill-bly-collection-of-electronic-literature
 title: MITH Receives the Bill Bly Collection of Electronic Literature

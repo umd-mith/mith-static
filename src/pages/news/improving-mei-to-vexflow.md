@@ -1,7 +1,7 @@
 ---
 author:
-- Zoltan Komives
-date: '2013-08-07T17:36:00.000Z'
+  - Zoltan Komives
+date: "2013-08-07T17:36:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: improving-mei-to-vexflow
 title: Improving MEI to VexFlow

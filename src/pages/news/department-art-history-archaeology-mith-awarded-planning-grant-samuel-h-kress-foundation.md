@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-09-29T13:00:00.000Z'
+  - "MITH "
+date: "2014-09-29T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: department-art-history-archaeology-mith-awarded-planning-grant-samuel-h-kress-foundation
 title: Department of Art History and Archaeology and MITH Awarded Planning Grant

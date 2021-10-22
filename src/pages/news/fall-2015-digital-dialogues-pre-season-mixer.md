@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2015-09-21T15:00:00.000Z'
+  - Stephanie Sapienza
+date: "2015-09-21T15:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: fall-2015-digital-dialogues-pre-season-mixer
 title: Fall 2015 Digital Dialogues Pre-Season Mixer

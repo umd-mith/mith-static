@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2017-05-17T15:37:00.000Z'
+  - "MITH "
+date: "2017-05-17T15:37:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: register-one-free-workshops-hosted-mith-wednesday-may-31st
-title: Register for one or more FREE workshop(s), hosted by MITH on Wednesday, May
+title:
+  Register for one or more FREE workshop(s), hosted by MITH on Wednesday, May
   31st
 ---
 
