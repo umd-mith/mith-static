@@ -1,7 +1,7 @@
 ---
 author:
-- Nicholas Slaughter
-date: '2012-04-16T12:28:00.000Z'
+  - Nicholas Slaughter
+date: "2012-04-16T12:28:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: names-of-the-game
 title: Names of the Game

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-03-03T18:13:00.000Z'
+  - "MITH "
+date: "2006-03-03T18:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-goes-to-capitol-hill
 title: MITH Goes to Capitol Hill

@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-07-20T07:06:00.000Z'
+  - Jennifer Guiliano
+date: "2012-07-20T07:06:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: we-are-moving-to-our-new-campus-home
 title: We are moving to our new campus home

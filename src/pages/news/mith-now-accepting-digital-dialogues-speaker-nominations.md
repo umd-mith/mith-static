@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-10-25T20:15:00.000Z'
+  - "MITH "
+date: "2013-10-25T20:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-now-accepting-digital-dialogues-speaker-nominations
 title: MITH is now accepting Digital Dialogues speaker nominations!

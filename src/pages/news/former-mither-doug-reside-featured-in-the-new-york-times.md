@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-02-02T19:34:00.000Z'
+  - "MITH "
+date: "2012-02-02T19:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: former-mither-doug-reside-featured-in-the-new-york-times
 title: Former MITHer Doug Reside Featured in The New York Times

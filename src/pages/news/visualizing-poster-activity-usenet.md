@@ -1,7 +1,7 @@
 ---
 author:
-- Avery Dame
-date: '2016-11-17T20:38:00.000Z'
+  - Avery Dame
+date: "2016-11-17T20:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: visualizing-poster-activity-usenet
 title: Visualizing Poster Activity on Usenet

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-01-11T21:32:00.000Z'
+  - "MITH "
+date: "2012-01-11T21:32:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digitally-networking-the-humanities
 title: Digitally Networking the Humanities

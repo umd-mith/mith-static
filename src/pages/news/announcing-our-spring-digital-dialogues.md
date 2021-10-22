@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2012-01-12T17:34:00.000Z'
+  - Emma Millon
+date: "2012-01-12T17:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-our-spring-digital-dialogues
 title: Announcing our Spring Digital Dialogues!

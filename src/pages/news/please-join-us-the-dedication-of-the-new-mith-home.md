@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-08-09T14:30:00.000Z'
+  - Jennifer Guiliano
+date: "2012-08-09T14:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: please-join-us-the-dedication-of-the-new-mith-home
 title: Please Join Us! The dedication of the new MITH home

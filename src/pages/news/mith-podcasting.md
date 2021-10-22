@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-11-01T20:55:00.000Z'
+  - "MITH "
+date: "2006-11-01T20:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-podcasting
 title: MITH Podcasting

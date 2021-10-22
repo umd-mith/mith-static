@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2012-02-15T13:34:00.000Z'
+  - Emma Millon
+date: "2012-02-15T13:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-faculty-fellow-answers-readers-questions-on-times-taking-questions
 title: MITH Faculty Fellow Answers Readers' Questions on Times’ “Taking Questions”

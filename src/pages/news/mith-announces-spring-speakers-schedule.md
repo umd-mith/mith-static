@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2006-02-09T18:34:00.000Z'
+  - Digital Dialogues
+date: "2006-02-09T18:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-announces-spring-speakers-schedule
 title: MITH Announces Spring Speakers Schedule

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-02-11T18:14:00.000Z'
+  - "MITH "
+date: "2010-02-11T18:14:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reading-for-the-snowbound-and-the-rest-of-you
 title: Reading for the Snowbound (and the Rest of You)

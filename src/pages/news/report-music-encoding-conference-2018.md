@@ -1,10 +1,10 @@
 ---
 author:
-- Raff Viglianti
-date: '2018-05-30T19:42:00.000Z'
+  - Raff Viglianti
+date: "2018-05-30T19:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: report-music-encoding-conference-2018
-title: 'Report: Music Encoding Conference 2018'
+title: "Report: Music Encoding Conference 2018"
 ---
 
 ![Music Encoding Conference](/assets/images/2017-10-header_mec2018.png)

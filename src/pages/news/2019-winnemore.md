@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2018-10-01T19:29:00.000Z'
+  - Purdom Lindblad
+date: "2018-10-01T19:29:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: 2019-winnemore
 title: 2019 Winnemore Dissertation Fellowship Call for Applications

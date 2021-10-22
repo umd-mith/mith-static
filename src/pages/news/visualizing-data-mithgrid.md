@@ -1,7 +1,7 @@
 ---
 author:
-- Selvam Palanimalai
-date: '2013-09-10T14:27:00.000Z'
+  - Selvam Palanimalai
+date: "2013-09-10T14:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: visualizing-data-mithgrid
 title: Visualizing Data with MITHgrid

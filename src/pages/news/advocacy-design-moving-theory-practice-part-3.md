@@ -1,10 +1,10 @@
 ---
 author:
-- Purdom Lindblad
-date: '2018-02-09T13:00:00.000Z'
+  - Purdom Lindblad
+date: "2018-02-09T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: advocacy-design-moving-theory-practice-part-3
-title: 'Advocacy By Design: Moving Between Theory and Practice—Part 3'
+title: "Advocacy By Design: Moving Between Theory and Practice—Part 3"
 ---
 
 _I’m posting a [short series](http://mith.umd.edu/tag/advocacy-by-design/) of a lightly edited posts from of my keynote for the University of Maryland Library Research and Innovative Practice Forum. Slides and talk are available through DRUM. This is Part 3 and the final post of the series. [Read Part 1](http://mith.umd.edu/advocacy-design-moving-theory-practice-part-1/) and [Part 2](http://mith.umd.edu/advocacy-design-moving-theory-practice-part-2/). —Purdom_

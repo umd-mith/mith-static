@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-07-14T16:27:00.000Z'
+  - "MITH "
+date: "2011-07-14T16:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: welcome-clay-and-sayan
 title: Welcome Clay and Sayan

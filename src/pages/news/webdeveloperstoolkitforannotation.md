@@ -1,7 +1,7 @@
 ---
 author:
-- James Smith
-date: '2012-11-08T13:30:00.000Z'
+  - James Smith
+date: "2012-11-08T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: webdeveloperstoolkitforannotation
 title: '"A Web Developer''s Toolkit for Annotation of Streaming Video"'

@@ -1,7 +1,7 @@
 ---
 author:
-- Porter Olsen
-date: '2012-11-26T13:00:00.000Z'
+  - Porter Olsen
+date: "2012-11-26T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-curation-workstation
 title: Digital Curation Workstation

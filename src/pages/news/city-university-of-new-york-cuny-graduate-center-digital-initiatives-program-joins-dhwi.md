@@ -1,10 +1,11 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-07-12T05:00:00.000Z'
+  - Jennifer Guiliano
+date: "2012-07-12T05:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: city-university-of-new-york-cuny-graduate-center-digital-initiatives-program-joins-dhwi
-title: City University of New York (CUNY) Graduate Center Digital Initiatives Program
+title:
+  City University of New York (CUNY) Graduate Center Digital Initiatives Program
   Joins DHWI!
 ---
 

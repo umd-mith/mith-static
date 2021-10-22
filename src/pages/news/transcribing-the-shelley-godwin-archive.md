@@ -1,7 +1,7 @@
 ---
 author:
-- David Brookshire
-date: '2011-10-12T13:39:00.000Z'
+  - David Brookshire
+date: "2011-10-12T13:39:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: transcribing-the-shelley-godwin-archive
 title: Transcribing The Shelley-Godwin Archive

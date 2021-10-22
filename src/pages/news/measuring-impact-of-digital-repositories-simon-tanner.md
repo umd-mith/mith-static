@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2019-04-23T13:03:00.000Z'
+  - Ed Summers
+date: "2019-04-23T13:03:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: measuring-impact-of-digital-repositories-simon-tanner
 title: Measuring Impact of Digital Repositories - Simon Tanner

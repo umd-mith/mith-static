@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2006-06-30T18:46:00.000Z'
+  - "MITH "
+date: "2006-06-30T18:46:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: position-available-assistant-director-of-mith
-title: 'Position Available: Assistant Director of MITH'
+title: "Position Available: Assistant Director of MITH"
 ---
 
 MARYLAND INSTITUTE FOR TECHNOLOGY IN THE HUMANITIES

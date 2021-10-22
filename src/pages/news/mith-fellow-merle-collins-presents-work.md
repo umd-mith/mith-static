@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-11-07T16:10:00.000Z'
+  - "MITH "
+date: "2006-11-07T16:10:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-fellow-merle-collins-presents-work
 title: MITH Fellow Merle Collins Presents Work

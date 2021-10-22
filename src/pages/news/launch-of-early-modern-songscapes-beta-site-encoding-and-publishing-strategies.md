@@ -1,10 +1,10 @@
 ---
 author:
-- Raff Viglianti
-date: '2019-02-13T15:50:00.000Z'
+  - Raff Viglianti
+date: "2019-02-13T15:50:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: launch-of-early-modern-songscapes-beta-site-encoding-and-publishing-strategies
-title: 'Launch of Early Modern Songscapes Beta Site: Encoding and Publishing strategies'
+title: "Launch of Early Modern Songscapes Beta Site: Encoding and Publishing strategies"
 ---
 
 [Early Modern Songscapes](http://songscapes.org) is a project exploring the circulation and performance of English Renaissance poetry. The recently released beta version of the project’s site includes a digital exploration of Henry Lawes’s 1653 songbook _Ayres and Dialogues_. The project is a collaboration between the University of Toronto (UoT), the University of Maryland (UMD), and the University of South Carolina (USC). My role (Raff Viglianti) at MITH for this first exploratory phase has focused on designing a data model and an online viewer for the text and musical score of the songs. Prof. Scott Trudell (UMD) and Prof. Sarah Williams (USC) have contributed to shaping the data model and have carried out the encoding work so far.

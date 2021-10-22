@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2017-11-09T18:44:00.000Z'
+  - "MITH "
+date: "2017-11-09T18:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-coffee-hour-december-5-plus-spring-digital-dialogues-want-see
-title: 'MITH Coffee Hour December 5! Plus, Spring 2018 Digital Dialogues: Who Do You
-  Want to See?'
+title:
+  "MITH Coffee Hour December 5! Plus, Spring 2018 Digital Dialogues: Who Do You
+  Want to See?"
 ---
 
 ![](/assets/images/2017-11-Fall-2017-collage.jpg)

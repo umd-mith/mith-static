@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2017-04-18T13:45:00.000Z'
+  - "MITH "
+date: "2017-04-18T13:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: two-important-s-ga-announcements-scrope-davies-notebook-publication-plus-new-grant
-title: 'Two important S-GA announcements: Scrope Davies Notebook publication, plus
-  a new grant!'
+title:
+  "Two important S-GA announcements: Scrope Davies Notebook publication, plus
+  a new grant!"
 ---
 
 The [Shelley-Godwin Archive](http://mith.umd.edu/research/shelley-godwin-archive/), one of MITH's longstanding projects, is pleased to share two important announcements:

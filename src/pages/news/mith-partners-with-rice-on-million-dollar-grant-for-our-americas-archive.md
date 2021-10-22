@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-10-08T16:46:00.000Z'
+  - "MITH "
+date: "2007-10-08T16:46:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-partners-with-rice-on-million-dollar-grant-for-our-americas-archive
 title: MITH Partners with Rice on Million Dollar Grant for Our Americas Archive

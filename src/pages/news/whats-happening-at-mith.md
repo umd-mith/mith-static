@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-09-26T12:32:00.000Z'
+  - "MITH "
+date: "2011-09-26T12:32:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: whats-happening-at-mith
 title: What's Happening at MITH?

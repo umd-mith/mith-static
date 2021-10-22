@@ -1,11 +1,12 @@
 ---
 author:
-- Porter Olsen
-date: '2015-07-08T15:33:00.000Z'
+  - Porter Olsen
+date: "2015-07-08T15:33:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: hacking-miths-legacy-servers
-title: 'Hacking MITH''s Legacy Web Servers: A Holistic Approach to Preservation on
-  the Web'
+title:
+  "Hacking MITH's Legacy Web Servers: A Holistic Approach to Preservation on
+  the Web"
 ---
 
 _Editor's note— This is the second post in MITH's series on stewarding digital humanities scholarship._

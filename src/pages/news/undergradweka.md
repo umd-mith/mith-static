@@ -1,7 +1,7 @@
 ---
 author:
-- Peter Mallios
-date: '2012-11-05T13:30:00.000Z'
+  - Peter Mallios
+date: "2012-11-05T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: undergradweka
 title: An Undergraduate View of Data Mining with WEKA

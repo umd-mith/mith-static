@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Wellman
-date: '2012-05-09T13:00:00.000Z'
+  - Jennifer Wellman
+date: "2012-05-09T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: progress-update-on-the-modern-british-archive
 title: Progress Update on the Modern British Archive

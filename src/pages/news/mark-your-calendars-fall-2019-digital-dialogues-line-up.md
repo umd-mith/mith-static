@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2019-09-18T14:47:00.000Z'
+  - Purdom Lindblad
+date: "2019-09-18T14:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mark-your-calendars-fall-2019-digital-dialogues-line-up
 title: Mark your calendars! Fall 2019 Digital Dialogues Line Up

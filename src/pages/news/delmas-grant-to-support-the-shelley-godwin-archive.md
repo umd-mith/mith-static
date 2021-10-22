@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-11-14T18:00:00.000Z'
+  - "MITH "
+date: "2011-11-14T18:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: delmas-grant-to-support-the-shelley-godwin-archive
 title: Delmas Grant to Support the Shelley-Godwin Archive

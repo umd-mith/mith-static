@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2006-11-01T20:48:00.000Z'
+  - "MITH "
+date: "2006-11-01T20:48:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-applicants-winnemore-digital-humanities-dissertation-fellowships
-title: 'Call for Applicants: Winnemore Digital Humanities Dissertation Fellowships'
+title: "Call for Applicants: Winnemore Digital Humanities Dissertation Fellowships"
 ---
 
 MITH is delighted to announce that we will be able to offer two Winnemore Digital Humanities Dissertation Fellowships this year.

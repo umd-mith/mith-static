@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2014-12-17T14:40:00.000Z'
+  - "MITH "
+date: "2014-12-17T14:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: neh-sloan-award-funds-university-maryland-dartmouth-host-crowdsourcing-workshop-may-2015
-title: NEH and Sloan award funds to University of Maryland and Dartmouth to host crowdsourcing
+title:
+  NEH and Sloan award funds to University of Maryland and Dartmouth to host crowdsourcing
   workshop in May 2015
 ---
 

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-08-03T15:22:00.000Z'
+  - "MITH "
+date: "2009-08-03T15:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-receives-mellon-funding-for-open-annotation-collaboration
 title: MITH Receives Mellon Funding for Open Annotation Collaboration

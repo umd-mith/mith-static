@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2006-09-25T14:15:00.000Z'
+  - "MITH "
+date: "2006-09-25T14:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: elo-plugs-into-new-hub-mith-maryland
-title: 'ELO Plugs Into New Hub: MITH @ Maryland'
+title: "ELO Plugs Into New Hub: MITH @ Maryland"
 ---
 
 **ELO PLUGS INTO NEW HUB: MITH @ MARYLAND**

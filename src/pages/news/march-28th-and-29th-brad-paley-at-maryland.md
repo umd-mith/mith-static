@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-03-20T13:42:00.000Z'
+  - "MITH "
+date: "2007-03-20T13:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: march-28th-and-29th-brad-paley-at-maryland
 title: Brad Paley at Maryland

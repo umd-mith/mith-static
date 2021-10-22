@@ -1,7 +1,7 @@
 ---
 author:
-- Rachel Donahue
-date: '2012-10-25T13:00:00.000Z'
+  - Rachel Donahue
+date: "2012-10-25T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: preserving-virtual-snes-games
 title: Preserving Virtual SNES Games

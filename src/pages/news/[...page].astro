@@ -1,30 +1,31 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro'
-import DateBanner from '../../components/DateRangeBanner.astro'
-import PostPreview from '../../components/PostPreview.astro'
-import Paginator from '../../components/PaginationControls.astro'
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import DateBanner from "../../components/DateRangeBanner.astro"
+import PostPreview from "../../components/PostPreview.astro"
+import Paginator from "../../components/PaginationControls.astro"
 
-export async function getStaticPaths({paginate}) {
-    const postContents = Astro.fetchContent('./*.md')
-    const sortedPosts = postContents
-        .sort((a,b) => new Date(a.date).valueOf() - new Date(b.date).valueOf())
-        .reverse()
+export async function getStaticPaths({ paginate }) {
+  const postContents = Astro.fetchContent("./*.md")
+  const sortedPosts = postContents
+    .sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf())
+    .reverse()
 
-    return paginate(sortedPosts, { pageSize: 25 })
+  return paginate(sortedPosts, { pageSize: 25 })
 }
 
 const { page } = Astro.props
 const pageContent = {
-    title: `News p. ${page.currentPage} of ${page.lastPage}`
+  title: `News p. ${page.currentPage} of ${page.lastPage}`,
 }
 const earliestDate = page.data[page.data.length - 1].date
 const latestDate = page.data[0].date
 ---
-<BaseLayout pageContent={pageContent}>
-    <section class="page-news flow wrapper">
-        <h1>News</h1>
-        <DateBanner start={earliestDate} end={latestDate} />
-        { page.data.map((post) => <PostPreview post={post} />) }
-    </section>
-    <Paginator pagesInfo={ [page.currentPage, page.lastPage, page.url] } />
+
+<BaseLayout {pageContent}>
+  <section class="page-news flow wrapper">
+    <h1>News</h1>
+    <DateBanner start={earliestDate} end={latestDate} />
+    {page.data.map(post => <PostPreview post={post} />)}
+  </section>
+  <Paginator pagesInfo={[page.currentPage, page.lastPage, page.url]} />
 </BaseLayout>

@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2017-11-01T20:55:00.000Z'
+  - "MITH "
+date: "2017-11-01T20:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: books-files-new-project-help-scholars-assess-digital-components-todays-bookmaking
-title: 'Books.Files: New project to help scholars assess digital components of today’s
-  bookmaking'
+title:
+  "Books.Files: New project to help scholars assess digital components of today’s
+  bookmaking"
 ---
 
 COLLEGE PARK, MD—The **Maryland Institute for Technology in the Humanities **at the University of Maryland and the **Book Industry Study Group** are pleased to announce **Books.Files**, a new project funded by **The** **Andrew W. Mellon Foundation** to assess the potential for the archival collection and scholarly study of digital assets associated with today’s trade publishing and bookmaking.

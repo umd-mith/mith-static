@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2009-09-09T02:16:00.000Z'
+  - "MITH "
+date: "2009-09-09T02:16:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: september-15th-digital-dialgoue-rachel-donahue-a-glance-at-the-current-state-of-video-game-preservation
-title: '10/5 Digital Dialgoue: Rachel Donahue, "A Glance at the Current State of Video
+title:
+  '10/5 Digital Dialgoue: Rachel Donahue, "A Glance at the Current State of Video
   Game Preservation"'
 ---
 

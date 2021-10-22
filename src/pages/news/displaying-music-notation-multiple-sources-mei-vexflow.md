@@ -1,7 +1,7 @@
 ---
 author:
-- Zoltan Komives
-date: '2013-11-19T14:55:00.000Z'
+  - Zoltan Komives
+date: "2013-11-19T14:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: displaying-music-notation-multiple-sources-mei-vexflow
 title: Displaying Music Notation of Multiple Sources With MEI-to-VexFlow

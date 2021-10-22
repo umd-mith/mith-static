@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2018-08-28T15:38:00.000Z'
+  - Stephanie Sapienza
+date: "2018-08-28T15:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: fall-2018-digital-dialogue-lineup
 title: Announcing the Fall 2018 Digital Dialogue Lineup

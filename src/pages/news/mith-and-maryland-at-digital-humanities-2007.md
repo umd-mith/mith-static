@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-06-11T17:20:00.000Z'
+  - "MITH "
+date: "2007-06-11T17:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-and-maryland-at-digital-humanities-2007
 title: MITH and Maryland at Digital Humanities 2007

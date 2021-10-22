@@ -1,10 +1,10 @@
 ---
 author:
-- Rachel Donahue
-date: '2013-04-08T06:00:00.000Z'
+  - Rachel Donahue
+date: "2013-04-08T06:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: born-digital-working-group-configuring-fred
-title: 'Born Digital Working Group: Configuring FRED'
+title: "Born Digital Working Group: Configuring FRED"
 ---
 
 _This post was written by Eric Cartier and also appears on the [Special Collections blog](http://hornbakelibrary.wordpress.com/2013/04/05/born-digital-working-group-configuring-fred/ "University of Maryland Special Collections Blog")._ ![The FRED Workstation (Computer tower, monitor, desk and chair.)](/assets/images/2013-04-fred-at-umd-libraries.jpg)

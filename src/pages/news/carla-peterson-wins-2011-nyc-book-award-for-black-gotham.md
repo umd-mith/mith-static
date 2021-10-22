@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2012-04-16T16:33:00.000Z'
+  - Emma Millon
+date: "2012-04-16T16:33:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: carla-peterson-wins-2011-nyc-book-award-for-black-gotham
 title: Carla Peterson Wins 2011 NYC Book Award for Black Gotham

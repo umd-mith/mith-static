@@ -1,7 +1,7 @@
 ---
 author:
-- Peter Mallios
-date: '2012-05-23T13:00:00.000Z'
+  - Peter Mallios
+date: "2012-05-23T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: on-fish-fla-and-the-digital-humanities
 title: On Fish, FLA, and the Digital Humanities

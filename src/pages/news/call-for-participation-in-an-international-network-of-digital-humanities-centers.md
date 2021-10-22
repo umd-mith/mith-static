@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-04-24T13:56:00.000Z'
+  - "MITH "
+date: "2007-04-24T13:56:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-participation-in-an-international-network-of-digital-humanities-centers
 title: Call for Participation in an International Network of Digital Humanities Centers

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-01-10T18:42:00.000Z'
+  - "MITH "
+date: "2012-01-10T18:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: publicist-wanted
 title: Publicist Wanted

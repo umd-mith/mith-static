@@ -1,7 +1,7 @@
 ---
 author:
-- Nicholas Slaughter
-date: '2012-01-09T15:34:00.000Z'
+  - Nicholas Slaughter
+date: "2012-01-09T15:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reinventing-the-boundaries-of-american-literature
 title: Reinventing the Boundaries of American Literature

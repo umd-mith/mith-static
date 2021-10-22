@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-01-09T13:42:00.000Z'
+  - "MITH "
+date: "2007-01-09T13:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: companion-to-digital-humanities-online
 title: Companion to Digital Humanities Online

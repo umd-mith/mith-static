@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2019-02-05T17:40:00.000Z'
+  - Purdom Lindblad
+date: "2019-02-05T17:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-the-spring-2019-digital-dialogues
 title: Announcing the Spring 2019 Digital Dialogues!

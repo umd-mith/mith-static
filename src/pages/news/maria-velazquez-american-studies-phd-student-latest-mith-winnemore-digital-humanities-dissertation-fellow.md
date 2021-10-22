@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2011-02-05T00:33:00.000Z'
+  - "MITH "
+date: "2011-02-05T00:33:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: maria-velazquez-american-studies-phd-student-latest-mith-winnemore-digital-humanities-dissertation-fellow
-title: Maria Velazquez, American Studies PhD student, latest MITH Winnemore Digital
+title:
+  Maria Velazquez, American Studies PhD student, latest MITH Winnemore Digital
   Humanities Dissertation Fellow
 ---
 

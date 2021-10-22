@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-04-30T13:30:00.000Z'
+  - Hayim Lapin
+date: "2012-04-30T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: haim-lapin-housekeeping
 title: Housekeeping

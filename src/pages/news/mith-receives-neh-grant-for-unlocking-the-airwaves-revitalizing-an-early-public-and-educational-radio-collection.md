@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2018-05-10T15:17:00.000Z'
+  - Stephanie Sapienza
+date: "2018-05-10T15:17:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-receives-neh-grant-for-unlocking-the-airwaves-revitalizing-an-early-public-and-educational-radio-collection
 title: MITH Receives NEH Grant for “Unlocking the Airwaves"

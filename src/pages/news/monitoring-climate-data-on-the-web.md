@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2018-05-03T17:59:00.000Z'
+  - Ed Summers
+date: "2018-05-03T17:59:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: monitoring-climate-data-on-the-web
 title: Monitoring Climate Data on the Web

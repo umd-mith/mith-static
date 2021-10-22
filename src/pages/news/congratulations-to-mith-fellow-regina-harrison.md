@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-02-06T16:58:00.000Z'
+  - "MITH "
+date: "2006-02-06T16:58:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: congratulations-to-mith-fellow-regina-harrison
 title: Congratulations to MITH Fellow Regina Harrison

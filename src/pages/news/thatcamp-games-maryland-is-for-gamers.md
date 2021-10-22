@@ -1,10 +1,10 @@
 ---
 author:
-- Amanda Visconti
-date: '2012-01-25T18:33:00.000Z'
+  - Amanda Visconti
+date: "2012-01-25T18:33:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: thatcamp-games-maryland-is-for-gamers
-title: 'THATCamp Games: Maryland Is For Gamers'
+title: "THATCamp Games: Maryland Is For Gamers"
 ---
 
 ![THAT Camp Games Stickers](/assets/images/2012-06-THATCampGames_stickers-320x202.jpg "THATCampGames_stickers")

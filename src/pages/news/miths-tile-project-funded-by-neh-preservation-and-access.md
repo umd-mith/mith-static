@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-03-26T17:45:00.000Z'
+  - "MITH "
+date: "2009-03-26T17:45:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: miths-tile-project-funded-by-neh-preservation-and-access
 title: MITH's TILE Project Funded by NEH Preservation and Access

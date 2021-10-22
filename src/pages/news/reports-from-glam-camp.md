@@ -1,7 +1,7 @@
 ---
 author:
-- Grant Dickie
-date: '2012-02-16T13:40:00.000Z'
+  - Grant Dickie
+date: "2012-02-16T13:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reports-from-glam-camp
 title: Reports from GLAM Camp

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-02-02T16:41:00.000Z'
+  - "MITH "
+date: "2007-02-02T16:41:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mellon-gives-monk-a-million
 title: Mellon Gives MONK a Million

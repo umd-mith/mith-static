@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-10-24T17:57:00.000Z'
+  - "MITH "
+date: "2007-10-24T17:57:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-tei20
 title: MITH Welcomes TEI@20

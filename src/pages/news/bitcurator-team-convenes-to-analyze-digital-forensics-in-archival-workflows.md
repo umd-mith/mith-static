@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-12-15T18:54:00.000Z'
+  - "MITH "
+date: "2011-12-15T18:54:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: bitcurator-team-convenes-to-analyze-digital-forensics-in-archival-workflows
 title: BitCurator Team Convenes to Analyze Digital Forensics in Archival Workflows

@@ -1,7 +1,7 @@
 ---
 author:
-- James Smith
-date: '2012-08-01T17:56:00.000Z'
+  - James Smith
+date: "2012-08-01T17:56:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-demonstrates-video-annotation-at-oac-meeting
 title: MITH Demonstrates Video Annotation at OAC Meeting

@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2011-08-31T12:49:00.000Z'
+  - Neil Fraistat
+date: "2011-08-31T12:49:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: introducing-the-mith-monitor
 title: Introducing the MITH Monitor

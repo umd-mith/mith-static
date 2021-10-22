@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2012-02-22T18:16:00.000Z'
+  - Emma Millon
+date: "2012-02-22T18:16:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-faculty-fellow-carla-peterson-in-the-news
 title: MITH Faculty Fellow Carla Peterson in the News

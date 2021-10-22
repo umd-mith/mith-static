@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2013-10-03T14:57:00.000Z'
+  - "MITH "
+date: "2013-10-03T14:57:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: friday-october-4th-mith-hosts-special-unconference
-title: 'This Friday, October 4th: MITH Hosts a Special *Unconference*'
+title: "This Friday, October 4th: MITH Hosts a Special *Unconference*"
 ---
 
 WHERE: 0301 Hornbake Library, University of Maryland, College Park

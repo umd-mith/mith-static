@@ -1,7 +1,7 @@
 ---
 author:
-- Avery Dame
-date: '2016-10-19T18:01:00.000Z'
+  - Avery Dame
+date: "2016-10-19T18:01:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: gets-us-talking-cant-bad-building-transgender-usenet-archive
 title: “If it gets us talking, it can't be bad:” Building the Transgender Usenet Archive

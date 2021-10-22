@@ -1,7 +1,7 @@
 ---
 author:
-- Carla L. Peterson
-date: '2011-12-20T20:51:00.000Z'
+  - Carla L. Peterson
+date: "2011-12-20T20:51:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: beginnings-bga
 title: Beginnings

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-09-25T15:59:00.000Z'
+  - "MITH "
+date: "2014-09-25T15:59:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: hester-baer-named-mith-fellow
 title: Hester Baer named MITH Fellow

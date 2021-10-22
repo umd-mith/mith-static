@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2017-09-19T16:35:00.000Z'
+  - "MITH "
+date: "2017-09-19T16:35:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: documenting-the-now-receives-imls-forum-grant
 title: DocNow and Rhizome receive IMLS National Forum grant!

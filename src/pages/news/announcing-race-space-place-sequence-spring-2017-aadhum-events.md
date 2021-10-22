@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2017-01-30T21:29:00.000Z'
+  - "MITH "
+date: "2017-01-30T21:29:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-race-space-place-sequence-spring-2017-aadhum-events
 title: Announcing the 'Race, Space, and Place' sequence of Spring 2017 AADHum Events!

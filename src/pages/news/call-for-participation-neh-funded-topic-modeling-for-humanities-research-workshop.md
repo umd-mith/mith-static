@@ -1,11 +1,12 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-07-10T14:44:00.000Z'
+  - Jennifer Guiliano
+date: "2012-07-10T14:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-participation-neh-funded-topic-modeling-for-humanities-research-workshop
-title: 'Call for Participation: NEH-funded Topic Modeling for Humanities Research
-  Workshop'
+title:
+  "Call for Participation: NEH-funded Topic Modeling for Humanities Research
+  Workshop"
 ---
 
 MITH is pleased to announce a call for participation for its NEH-funded workshop on Topic Modeling for Humanities Research. This one-day event will take place Saturday, November 3, 2012 from 9 am to 5 pm on the campus of the University of Maryland.

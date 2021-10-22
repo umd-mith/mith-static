@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2014-01-08T14:30:00.000Z'
+  - Stephanie Sapienza
+date: "2014-01-08T14:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-spring-2014-mith-digital-dialogues-lineup
 title: Announcing the Spring 2014 MITH Digital Dialogues Lineup!

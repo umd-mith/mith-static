@@ -1,10 +1,10 @@
 ---
 author:
-- Ed Summers
-date: '2019-10-07T17:29:00.000Z'
+  - Ed Summers
+date: "2019-10-07T17:29:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-cleaners-movie-night-oct-30
-title: 'The Cleaners: Movie Night (Oct 30)'
+title: "The Cleaners: Movie Night (Oct 30)"
 ---
 
 ![The Cleaners](/assets/images/2019-10-the-cleaners-cubicles-dark-sig-1920x830.jpg)

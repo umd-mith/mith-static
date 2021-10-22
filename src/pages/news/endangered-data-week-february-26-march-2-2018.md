@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2018-02-19T17:18:00.000Z'
+  - Purdom Lindblad
+date: "2018-02-19T17:18:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: endangered-data-week-february-26-march-2-2018
 title: Endangered Data Week, February 26 - March 2, 2018

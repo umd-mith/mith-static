@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2015-10-28T13:30:00.000Z'
+  - "MITH "
+date: "2015-10-28T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-arhu-and-synergies-mellon-project-featured-in-president-loh-video
 title: MITH, ARHU and Synergies Mellon project featured in President Loh video

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-09-07T14:00:00.000Z'
+  - "MITH "
+date: "2012-09-07T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: dan-cohen-and-more-speak-at-miths-reception
 title: Dan Cohen and More Speak at MITH's Reception

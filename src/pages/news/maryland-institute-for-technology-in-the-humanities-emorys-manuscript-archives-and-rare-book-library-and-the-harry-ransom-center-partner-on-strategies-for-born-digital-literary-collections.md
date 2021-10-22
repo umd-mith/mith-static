@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2008-03-06T16:01:00.000Z'
+  - "MITH "
+date: "2008-03-06T16:01:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: maryland-institute-for-technology-in-the-humanities-emorys-manuscript-archives-and-rare-book-library-and-the-harry-ransom-center-partner-on-strategies-for-born-digital-literary-collections
-title: Maryland Institute for Technology in the Humanities, Emory's Manuscript, Archives,
+title:
+  Maryland Institute for Technology in the Humanities, Emory's Manuscript, Archives,
   and Rare Book Library, and the Harry Ransom Center Partner on Strategies for Born-Digital
   Literary Collections
 ---

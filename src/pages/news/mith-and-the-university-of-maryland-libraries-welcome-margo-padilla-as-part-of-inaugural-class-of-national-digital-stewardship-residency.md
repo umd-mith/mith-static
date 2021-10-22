@@ -1,10 +1,11 @@
 ---
 author:
-- Trevor Muñoz
-date: '2013-06-20T14:39:00.000Z'
+  - Trevor Muñoz
+date: "2013-06-20T14:39:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-and-the-university-of-maryland-libraries-welcome-margo-padilla-as-part-of-inaugural-class-of-national-digital-stewardship-residency
-title: MITH and the University of Maryland Libraries Welcome Margo Padilla as part
+title:
+  MITH and the University of Maryland Libraries Welcome Margo Padilla as part
   of inaugural class of National Digital Stewardship Residents
 ---
 

@@ -1,10 +1,10 @@
 ---
 author:
-- Emma Millon
-date: '2011-06-07T19:41:00.000Z'
+  - Emma Millon
+date: "2011-06-07T19:41:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: frankenstein-goes-digital-recent-neh-award-to-build-shelley-godwin-archive
-title: 'Frankenstein Goes Digital: Recent NEH Award to Build Shelley-Godwin Archive'
+title: "Frankenstein Goes Digital: Recent NEH Award to Build Shelley-Godwin Archive"
 ---
 
 Mary Wollstonecraft Shelley’s _Frankenstein_, also titled _The Modern Prometheus_, stands as one of the most widely read novels of the Romantic era since its publication in 1818. No more so than now may Frankenstein be called the modern Prometheus, or rather, the digital Prometheus (bringing intellectual fire without the unpleasant ending).

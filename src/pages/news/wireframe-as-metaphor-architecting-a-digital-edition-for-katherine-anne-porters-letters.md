@@ -1,11 +1,12 @@
 ---
 author:
-- Wendy Hagenmaier
-date: '2012-05-04T13:30:00.000Z'
+  - Wendy Hagenmaier
+date: "2012-05-04T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: wireframe-as-metaphor-architecting-a-digital-edition-for-katherine-anne-porters-letters
-title: 'Wireframe as Metaphor: Architecting a Digital Edition for Katherine Anne Porter’s
-  Letters'
+title:
+  "Wireframe as Metaphor: Architecting a Digital Edition for Katherine Anne Porter’s
+  Letters"
 ---
 
 According to Christina Wodtke and Austin Govella in _Information Architecture: Blueprints for the Web_, wireframes are the spaces in which thinking becomes tangible. As my semester-long exploration of digital scholarly editions comes to a close, I have been thinking about how to synthesize the insights I’ve gleaned from the different phases of the project—from the literature review to the TEI encoding guidelines—into a set of visual representations, or wireframes, for a digital edition of Katherine Anne Porter’s letters. In other words, I have been attempting to transform my thinking into something tangible.

@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-06-13T12:30:00.000Z'
+  - Jennifer Guiliano
+date: "2012-06-13T12:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-humanities-training-and-community
 title: Digital Humanities Training

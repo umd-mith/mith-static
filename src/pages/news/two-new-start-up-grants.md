@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-04-27T18:46:00.000Z'
+  - "MITH "
+date: "2014-04-27T18:46:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: two-new-start-up-grants
 title: Two New Start-Up Grants

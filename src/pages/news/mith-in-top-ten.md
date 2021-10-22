@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-01-03T20:22:00.000Z'
+  - "MITH "
+date: "2011-01-03T20:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-in-top-ten
 title: MITH in Top Ten!

@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2011-11-04T16:28:00.000Z'
+  - Emma Millon
+date: "2011-11-04T16:28:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: archive-ahoy-a-dive-into-the-world-of-game-preservation
 title: '"Archive Ahoy!": A Dive into the World of Game Preservation'

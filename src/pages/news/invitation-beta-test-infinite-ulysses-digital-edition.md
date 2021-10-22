@@ -1,7 +1,7 @@
 ---
 author:
-- Amanda Visconti
-date: '2015-01-14T16:22:00.000Z'
+  - Amanda Visconti
+date: "2015-01-14T16:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: invitation-beta-test-infinite-ulysses-digital-edition
 title: An Invitation to Beta-Test the Infinite Ulysses Digital Edition

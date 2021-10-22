@@ -1,10 +1,10 @@
 ---
 author:
-- Digital Dialogues
-date: '2008-09-02T11:43:00.000Z'
+  - Digital Dialogues
+date: "2008-09-02T11:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: september-9th-digitial-dialogue-doug-reside-the-mithological-axe-multimedia-metadata-encoding-with-the-ajax-xml-encoder
-title: '9/9 MITH Digitial Dialogue: Doug Reside'
+title: "9/9 MITH Digitial Dialogue: Doug Reside"
 ---
 
 [Listen to the podcast of this Digital Dialogue](http://web.archive.org/web/20111121231708/http://mith.umd.edu/programs/digitaldialogue/mp3/dougdigdial.mp3)

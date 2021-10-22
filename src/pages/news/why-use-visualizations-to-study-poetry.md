@@ -1,7 +1,7 @@
 ---
 author:
-- Lisa Marie Antonille Rhody
-date: '2012-05-07T13:00:00.000Z'
+  - Lisa Marie Antonille Rhody
+date: "2012-05-07T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: why-use-visualizations-to-study-poetry
 title: Why use visualizations to study poetry?

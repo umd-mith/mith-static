@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2018-08-28T14:30:00.000Z'
+  - "MITH "
+date: "2018-08-28T14:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: assessing-interest-in-a-dh-ds-student-organization
 title: Assessing Interest in a DH/DS Student Organization

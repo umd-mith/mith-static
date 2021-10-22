@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2012-03-07T15:24:00.000Z'
+  - Neil Fraistat
+date: "2012-03-07T15:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-miths-newly-launched-website
 title: Announcing MITH’s Newly Launched Website!

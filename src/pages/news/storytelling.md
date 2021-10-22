@@ -1,7 +1,7 @@
 ---
 author:
-- Carla L. Peterson
-date: '2012-01-30T13:20:00.000Z'
+  - Carla L. Peterson
+date: "2012-01-30T13:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: storytelling
 title: Storytelling

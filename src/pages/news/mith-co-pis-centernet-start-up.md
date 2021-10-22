@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-09-10T10:15:00.000Z'
+  - "MITH "
+date: "2009-09-10T10:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-co-pis-centernet-start-up
 title: MITH co-PIs centerNet Start Up

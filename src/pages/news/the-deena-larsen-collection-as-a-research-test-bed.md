@@ -1,7 +1,7 @@
 ---
 author:
-- Leighton Christiansen
-date: '2011-06-06T13:00:00.000Z'
+  - Leighton Christiansen
+date: "2011-06-06T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-deena-larsen-collection-as-a-research-test-bed
 title: The Deena Larsen Collection as a Research Test Bed

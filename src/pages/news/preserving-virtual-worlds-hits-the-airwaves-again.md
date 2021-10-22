@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-05-03T19:28:00.000Z'
+  - "MITH "
+date: "2010-05-03T19:28:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: preserving-virtual-worlds-hits-the-airwaves-again
 title: Preserving Virtual Worlds Hits the Airwaves Again

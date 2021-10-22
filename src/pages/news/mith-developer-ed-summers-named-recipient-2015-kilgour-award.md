@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2015-03-10T20:04:00.000Z'
+  - "MITH "
+date: "2015-03-10T20:04:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-developer-ed-summers-named-recipient-2015-kilgour-award
 title: MITH developer Ed Summers named recipient of the 2015 Kilgour Award

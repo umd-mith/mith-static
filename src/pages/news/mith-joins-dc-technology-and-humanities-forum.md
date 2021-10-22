@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-01-22T21:13:00.000Z'
+  - "MITH "
+date: "2007-01-22T21:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-joins-dc-technology-and-humanities-forum
 title: MITH Joins DC Area Technology and Humanities Forum

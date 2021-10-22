@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2015-04-23T18:26:00.000Z'
+  - Ed Summers
+date: "2015-04-23T18:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: chances-and-challenges-of-studying-social-media-data
 title: Chances and Challenges of Studying Social Media Data

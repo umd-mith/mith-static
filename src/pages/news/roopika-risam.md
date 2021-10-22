@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2018-03-05T23:55:00.000Z'
+  - "MITH "
+date: "2018-03-05T23:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: roopika-risam
-title: 'Roopika Risam, Thursday March 8 at MITH: ''Visualizing Du Bois: The Politics
-  of Literary Recovery'''
+title:
+  "Roopika Risam, Thursday March 8 at MITH: 'Visualizing Du Bois: The Politics
+  of Literary Recovery'"
 ---
 
 ![](/assets/images/2018-03-Roopika-Risam-talk-.png)We are excited to have Roopika Risam on campus to kick off a weekend of digital humanities events between March 8 and 10th. Risam’s work focuses on the intersections between postcolonial, African American, and US ethnic studies, and the role of digital humanities in mediating between them.

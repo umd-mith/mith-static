@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2013-01-16T14:47:00.000Z'
+  - Neil Fraistat
+date: "2013-01-16T14:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-new-staff-member
 title: MITH Welcomes New Staff Member

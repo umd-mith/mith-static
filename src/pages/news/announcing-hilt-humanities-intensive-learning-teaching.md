@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2013-04-17T17:32:00.000Z'
+  - "MITH "
+date: "2013-04-17T17:32:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-hilt-humanities-intensive-learning-teaching
-title: 'Announcing Hilt: Humanities Intensive Learning + Teaching'
+title: "Announcing Hilt: Humanities Intensive Learning + Teaching"
 ---
 
 Thanks to a group of wonderful instructors and an energetic, passionate cohort of students from around the world, the first iteration of our intensive digital humanities training institute was a great success when it was held in January 2013. We were inspired by the model pioneered at the Digital Humanities Summer Institute (DHSI) and we were responding to an unmet need we perceived for additional training opportunities—in new locations, with different but complementary courses and emphasis. Our first year was a true experiment.

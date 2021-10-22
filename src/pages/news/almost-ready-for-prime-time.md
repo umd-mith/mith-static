@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-05-25T13:00:00.000Z'
+  - Hayim Lapin
+date: "2012-05-25T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: almost-ready-for-prime-time
 title: Almost Ready for Prime Time

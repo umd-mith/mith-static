@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-11-10T19:44:00.000Z'
+  - "MITH "
+date: "2009-11-10T19:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: chain
 title: Coalition of Humanities and Arts Infrastructures and Networks - CHAIN

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-12-13T15:52:00.000Z'
+  - "MITH "
+date: "2006-12-13T15:52:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: willard-mccartys-2006-lyman-lecture-the-imaginations-of-computing
 title: 'Willard McCarty''s 2006 Lyman Lecture: "The Imaginations of Computing"'

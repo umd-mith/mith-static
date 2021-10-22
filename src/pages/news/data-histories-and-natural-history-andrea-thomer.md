@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2019-04-23T13:05:00.000Z'
+  - Ed Summers
+date: "2019-04-23T13:05:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: data-histories-and-natural-history-andrea-thomer
 title: Data Histories and Natural History—Andrea Thomer

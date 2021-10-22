@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-03-01T16:03:00.000Z'
+  - "MITH "
+date: "2010-03-01T16:03:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: doug-reside-promoted-to-asscoiate-director
 title: Doug Reside Promoted to Associate Director!

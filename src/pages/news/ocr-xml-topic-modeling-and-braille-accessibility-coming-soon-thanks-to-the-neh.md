@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2012-03-21T03:39:00.000Z'
+  - "MITH "
+date: "2012-03-21T03:39:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: ocr-xml-topic-modeling-and-braille-accessibility-coming-soon-thanks-to-the-neh
-title: 'OCR, XML, Topic Modeling, and Braille Accessibility: Coming Soon Thanks to
-  the NEH!'
+title:
+  "OCR, XML, Topic Modeling, and Braille Accessibility: Coming Soon Thanks to
+  the NEH!"
 ---
 
 MITH is delighted to announce four awards from the 2012 [National Endowment for the Humanities](http://www.neh.gov) [Office of Digital Humanities](http://www.neh.gov/odh/) Start Up Grant Competition:

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-05-05T18:50:00.000Z'
+  - "MITH "
+date: "2009-05-05T18:50:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-amanda-visconti
 title: MITH Welcomes Amanda Visconti

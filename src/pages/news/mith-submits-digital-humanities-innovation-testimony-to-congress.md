@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-04-29T15:24:00.000Z'
+  - "MITH "
+date: "2014-04-29T15:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-submits-digital-humanities-innovation-testimony-to-congress
 title: MITH Submits Digital Humanities Innovation Testimony to Congress

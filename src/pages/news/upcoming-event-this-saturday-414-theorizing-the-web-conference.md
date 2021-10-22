@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2012-04-12T14:17:00.000Z'
+  - "MITH "
+date: "2012-04-12T14:17:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: upcoming-event-this-saturday-414-theorizing-the-web-conference
-title: 'Upcoming Event This Saturday 4/14: Theorizing the Web Conference'
+title: "Upcoming Event This Saturday 4/14: Theorizing the Web Conference"
 ---
 
 [![Theorizing the Web Flyer](/assets/images/2012-04-ttw12_promo_flyer-980x757.jpg)](http://mith.umd.edu/wp-content/uploads/2012/04/ttw12_promo_flyer.pdf)

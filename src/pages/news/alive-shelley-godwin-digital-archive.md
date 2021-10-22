@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-10-29T15:21:00.000Z'
+  - "MITH "
+date: "2013-10-29T15:21:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: alive-shelley-godwin-digital-archive
 title: It's Alive! The Shelley-Godwin Archive Launches this Thursday!

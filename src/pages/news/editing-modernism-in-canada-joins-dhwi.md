@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-06-20T15:00:00.000Z'
+  - Jennifer Guiliano
+date: "2012-06-20T15:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: editing-modernism-in-canada-joins-dhwi
 title: Editing Modernism in Canada joins DHWI!

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-08-28T17:26:00.000Z'
+  - "MITH "
+date: "2008-08-28T17:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-wins-another-digital-humanities-start-up-award
 title: MITH Wins Another Digital Humanities Start-Up Award!

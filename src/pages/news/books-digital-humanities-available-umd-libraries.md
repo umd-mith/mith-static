@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-10-16T14:49:00.000Z'
+  - "MITH "
+date: "2014-10-16T14:49:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: books-digital-humanities-available-umd-libraries
 title: Books on the Digital Humanities available through UMD Libraries!

@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2019-09-05T14:27:00.000Z'
+  - Trevor Muñoz
+date: "2019-09-05T14:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: new-team-members-at-aadhum-and-mith
 title: New Team Members at AADHum and MITH

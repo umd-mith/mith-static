@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2011-02-16T21:38:00.000Z'
+  - "MITH "
+date: "2011-02-16T21:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: coalition-for-networked-information-cni-video-featuring-mith39s-matthew-kirschenbaum-and-rachel-donahaue-45-digital-forensics-cultural-heritage
-title: Coalition for Networked Information (CNI) - VIDEO featuring MITH's Matthew
+title:
+  Coalition for Networked Information (CNI) - VIDEO featuring MITH's Matthew
   Kirschenbaum and Rachel Donahaue - Digital Forensics & Cultural Heritage
 ---
 

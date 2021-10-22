@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-06-12T14:01:00.000Z'
+  - "MITH "
+date: "2007-06-12T14:01:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-to-host-digital-humanities-2009-conference
 title: MITH to Host Digital Humanities 2009 Conference

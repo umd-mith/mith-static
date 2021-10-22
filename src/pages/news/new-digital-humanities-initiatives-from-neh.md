@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-07-12T14:05:00.000Z'
+  - "MITH "
+date: "2006-07-12T14:05:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: new-digital-humanities-initiatives-from-neh
 title: New Digital Humanities Initiatives from NEH

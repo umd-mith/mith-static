@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2020-02-10T15:29:00.000Z'
+  - Stephanie Sapienza
+date: "2020-02-10T15:29:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-the-spring-2020-digital-dialogues-line-up
 title: Announcing the Spring 2020 Digital Dialogues Line Up

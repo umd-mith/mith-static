@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2015-06-01T19:49:00.000Z'
+  - "MITH "
+date: "2015-06-01T19:49:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: recap-part-ii-engaging-the-public-best-practices-for-crowdsourcing-across-the-disciplines-workshop-crowdcon
-title: 'Recap Part II: Engaging the Public: Best Practices for Crowdsourcing across
-  the Disciplines Workshop (CrowdCon)'
+title:
+  "Recap Part II: Engaging the Public: Best Practices for Crowdsourcing across
+  the Disciplines Workshop (CrowdCon)"
 ---
 
 Last week, [we posted Part I](http://mith.umd.edu/recap-part-i-engaging-the-public-best-practices-for-crowdsourcing-across-the-disciplines-workshop-crowdcon/) of a series of two blog entries detailing the outcomes of our workshop entitled Engaging the Public: Best Practices for Crowdsourcing across the Disciplines ([CrowdCon](http://www.crowdconsortium.org/)). For the second entry, we’ve gathered the final storified tweets and videos of the event, covering big challenges in research crowdsourcing, best practices and next steps. Click on the links below to read more about the final panels and discussion from this fantastic event!

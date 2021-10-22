@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2015-07-16T14:00:00.000Z'
+  - "MITH "
+date: "2015-07-16T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-partners-in-1-25-million-mellon-grant
-title: MITH partners in $1.25 Million Mellon Grant Awarded to UMD's Arts and Humanities
+title:
+  MITH partners in $1.25 Million Mellon Grant Awarded to UMD's Arts and Humanities
   College
 ---
 

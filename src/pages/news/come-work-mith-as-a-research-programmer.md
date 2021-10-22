@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2012-07-17T02:44:00.000Z'
+  - Jennifer Guiliano
+date: "2012-07-17T02:44:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: come-work-mith-as-a-research-programmer
 title: Come work @MITH as a research programmer

@@ -1,7 +1,7 @@
 ---
 author:
-- Travis Brown
-date: '2012-10-26T19:20:00.000Z'
+  - Travis Brown
+date: "2012-10-26T19:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: topic-modeling-for-humanities-research
 title: Upcoming Topic Modeling for Humanities Research workshop

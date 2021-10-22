@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2018-03-20T19:19:00.000Z'
+  - Purdom Lindblad
+date: "2018-03-20T19:19:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: archives-in-the-anthropocene
 title: Archives in the Anthropocene

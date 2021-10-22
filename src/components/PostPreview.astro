@@ -1,40 +1,39 @@
 ---
-import PostExcerpt from './PostExcerpt.astro'
-import { makeAuthorStr } from '../utils/stringHandlers.ts'
-import { readableDate } from '../utils/dateHandlers.ts'
+import PostExcerpt from "./PostExcerpt.astro"
+import { makeAuthorStr } from "../utils/stringHandlers.ts"
+import { readableDate } from "../utils/dateHandlers.ts"
 
 const { post } = Astro.props
 ---
-<style>
-    article {
-        --flow-space: var(--size-7);
-    }
-
-    header a {
-        text-decoration: none;
-    }
-
-    .author::before {
-        content: 'by ';
-    }
-
-    time::before {
-        content: ' on ';
-    }
-</style>
 
 <article class="news">
-    <header>
-        <h2><a href={`/news/${post.slug}`}>{post.title}</a></h2>
-        <div class="article-meta">
-            <a class="author" rel="author">
-                {
-                    post.author && post.author.length > 0 ? 
-                    makeAuthorStr(post.author) : ""
-                }
-            </a>
-            <time datetime={post.date}>{ post.date ? readableDate(post.date) : ""}</time>
-        </div>
-    </header>
-    <PostExcerpt content={post.astro.html} />
+  <header>
+    <h2><a href={`/news/${post.slug}`}>{post.title}</a></h2>
+    <div class="article-meta">
+      <a class="author" rel="author">
+        {post.author && post.author.length > 0 ? makeAuthorStr(post.author) : ""}
+      </a>
+      <time datetime={post.date}
+        >{post.date ? readableDate(post.date) : ""}</time>
+    </div>
+  </header>
+  <PostExcerpt content={post.astro.html} />
 </article>
+
+<style>
+  article {
+    --flow-space: var(--size-7);
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  .author::before {
+    content: "by ";
+  }
+
+  time::before {
+    content: " on ";
+  }
+</style>

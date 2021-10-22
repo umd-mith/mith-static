@@ -1,53 +1,55 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro'
-import ProjectPreview from '../../components/ProjectPreview.astro'
-import Paginator from '../../components/PaginationControls.astro'
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import ProjectPreview from "../../components/ProjectPreview.astro"
+import Paginator from "../../components/PaginationControls.astro"
 
-import researchJson from '../../../public/data/research.json'
+import researchJson from "../../../public/data/research.json"
 
-export async function getStaticPaths({paginate}) {
-    const projectPreviewData = researchJson.map((project) => {
-        return {
-            slug: project.id,
-            projectTitle: project.title,
-            excerpt: project.excerpt,
-            startYear: project['year start'],
-            startMonth: project['month start'],
-            projectDates: [project.start, project.end]
-        }
+export async function getStaticPaths({ paginate }) {
+  const projectPreviewData = researchJson
+    .map(project => {
+      return {
+        slug: project.id,
+        projectTitle: project.title,
+        excerpt: project.excerpt,
+        startYear: project["year start"],
+        startMonth: project["month start"],
+        projectDates: [project.start, project.end],
+      }
     })
-    .sort((a,b) => a.startYear - b.startYear || a.startMonth - b.startMonth) // sort by year then month
+    .sort((a, b) => a.startYear - b.startYear || a.startMonth - b.startMonth) // sort by year then month
     .reverse()
 
-    return paginate(projectPreviewData, { pageSize: 25 })
+  return paginate(projectPreviewData, { pageSize: 25 })
 }
 
 const { page } = Astro.props
 const pageContent = {
-    title: "Research"
+  title: "Research",
 }
 ---
-<style>
-    @media screen and (min-width: 1000px) {
-        .page-research {
-            --flow-space: var(--size-7);
-        }
 
-        .gallery-project {
-            display: grid;
-            grid-template-columns: repeat( auto-fit, minmax(275px, 1fr));
-            column-gap: var(--spacing-large);
-            row-gap: var(--size-7);
-        }
-    }
-</style>
-
-<BaseLayout pageContent={pageContent}>
-    <div class="page-research flow wrapper">
-        <h1>{pageContent.title}</h1>
-        <section class="gallery-project">
-            {page.data.map((item) => <ProjectPreview title={item.projectTitle} dates={item.projectDates} excerpt={item.excerpt} url={`/research/projects/${item.slug}`} />)}
-        </section>
-        <Paginator pagesInfo={ [page.currentPage, page.lastPage, page.url] } />
-    </div>
+<BaseLayout {pageContent}>
+  <div class="page-research flow wrapper">
+    <h1>{pageContent.title}</h1>
+    <section class="gallery-project">
+      {page.data.map( item => <ProjectPreview title={item.projectTitle} dates={item.projectDates} excerpt={item.excerpt} url={`/research/projects/${item.slug}`} /> )}
+    </section>
+    <Paginator pagesInfo={[page.currentPage, page.lastPage, page.url]} />
+  </div>
 </BaseLayout>
+
+<style>
+  @media screen and (min-width: 1000px) {
+    .page-research {
+      --flow-space: var(--size-7);
+    }
+
+    .gallery-project {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+      column-gap: var(--spacing-large);
+      row-gap: var(--size-7);
+    }
+  }
+</style>

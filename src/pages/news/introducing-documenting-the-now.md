@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2016-02-17T03:13:00.000Z'
+  - Ed Summers
+date: "2016-02-17T03:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: introducing-documenting-the-now
 title: Introducing Documenting the Now

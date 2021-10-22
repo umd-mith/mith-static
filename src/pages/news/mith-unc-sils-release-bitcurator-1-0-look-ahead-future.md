@@ -1,7 +1,7 @@
 ---
 author:
-- Porter Olsen
-date: '2014-10-08T14:28:00.000Z'
+  - Porter Olsen
+date: "2014-10-08T14:28:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-unc-sils-release-bitcurator-1-0-look-ahead-future
 title: MITH and UNC SILS release BitCurator 1.0 and look ahead to the future

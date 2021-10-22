@@ -1,7 +1,7 @@
 ---
 author:
-- Sayan Bhattacharyya
-date: '2011-07-22T15:11:00.000Z'
+  - Sayan Bhattacharyya
+date: "2011-07-22T15:11:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digging-into-data-with-topic-models
 title: Digging into Data with Topic Models

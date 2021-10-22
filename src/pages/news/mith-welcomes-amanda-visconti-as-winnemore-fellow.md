@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-08-26T13:35:00.000Z'
+  - "MITH "
+date: "2014-08-26T13:35:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-amanda-visconti-as-winnemore-fellow
 title: MITH Welcomes Amanda Visconti as Winnemore Fellow!

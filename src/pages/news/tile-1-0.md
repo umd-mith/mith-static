@@ -1,7 +1,7 @@
 ---
 author:
-- Dave Lester
-date: '2011-07-21T15:51:00.000Z'
+  - Dave Lester
+date: "2011-07-21T15:51:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: tile-1-0
 title: TILE 1.0

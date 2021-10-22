@@ -1,7 +1,7 @@
 ---
 author:
-- Selvam Palanimalai
-date: '2013-06-21T13:00:00.000Z'
+  - Selvam Palanimalai
+date: "2013-06-21T13:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mithgrid-demonstration-development
 title: MITHgrid Demonstration Development

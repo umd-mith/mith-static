@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2013-02-25T19:49:00.000Z'
+  - Hayim Lapin
+date: "2013-02-25T19:49:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: new-version-of-digital-mishnah-demo
 title: New Version of Digital Mishnah Demo

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-07-11T15:20:00.000Z'
+  - "MITH "
+date: "2009-07-11T15:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-receives-mellon-funding-for-computer-forensics-report
 title: MITH Receives Mellon Funding for Computer Forensics Report

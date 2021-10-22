@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2014-03-04T17:30:00.000Z'
+  - Trevor Muñoz
+date: "2014-03-04T17:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: lead-developer-job
 title: Join MITH! We're Hiring a Lead Developer

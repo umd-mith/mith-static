@@ -1,7 +1,7 @@
 ---
 author:
-- Rebecca Borden
-date: '2012-03-06T14:11:00.000Z'
+  - Rebecca Borden
+date: "2012-03-06T14:11:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: my-dissertation-in-the-year-2112
 title: My Dissertation in the Year 2112

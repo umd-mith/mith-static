@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-08-14T16:24:00.000Z'
+  - "MITH "
+date: "2007-08-14T16:24:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-receives-neh-digital-humanities-start-up-grant
 title: MITH Receives NEH Digital Humanities Start-Up Grant

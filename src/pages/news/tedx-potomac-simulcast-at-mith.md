@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-05-17T15:09:00.000Z'
+  - "MITH "
+date: "2010-05-17T15:09:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: tedx-potomac-simulcast-at-mith
 title: TEDx Potomac Simulcast at MITH

@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2016-10-27T17:26:00.000Z'
+  - "MITH "
+date: "2016-10-27T17:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: next-wednesday-112-dont-miss-matt-kirschenbaum-discuss-new-book-track-changes-literary-history-word-processing
-title: 'Next Wednesday 11/2, don''t miss Matt Kirschenbaum discuss his new book ''Track
-  Changes: A Literary History of Word Processing!'''
+title:
+  "Next Wednesday 11/2, don't miss Matt Kirschenbaum discuss his new book 'Track
+  Changes: A Literary History of Word Processing!'"
 ---
 
 **What:** Speaking of Books: A Conversation with Matthew Kirschenbaum

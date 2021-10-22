@@ -1,7 +1,7 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2013-12-04T14:30:00.000Z'
+  - Jennifer Guiliano
+date: "2013-12-04T14:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: future-accessibility-braillesc-org-braillerise
 title: The Future of Accessibility with BrailleSC.org and BrailleRISE

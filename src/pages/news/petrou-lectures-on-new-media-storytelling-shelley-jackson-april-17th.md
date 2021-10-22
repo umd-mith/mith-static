@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2006-04-10T18:19:00.000Z'
+  - "MITH "
+date: "2006-04-10T18:19:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: petrou-lectures-on-new-media-storytelling-shelley-jackson-april-17th
-title: 'Petrou Lectures on New Media Storytelling: Shelley Jackson, April 17th'
+title: "Petrou Lectures on New Media Storytelling: Shelley Jackson, April 17th"
 ---
 
 ![Shelley Jackson, April 17th](/assets/images/2006-04-shelley.jpg)

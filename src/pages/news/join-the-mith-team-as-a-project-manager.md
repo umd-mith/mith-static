@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2013-04-25T14:46:00.000Z'
+  - "MITH "
+date: "2013-04-25T14:46:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: join-the-mith-team-as-a-project-manager
 title: Join the MITH team as a Project Manager!

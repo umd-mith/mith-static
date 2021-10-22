@@ -1,7 +1,7 @@
 ---
 author:
-- James Smith
-date: '2012-04-05T16:19:00.000Z'
+  - James Smith
+date: "2012-04-05T16:19:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: designing-applications-for-extensibility-and-reuse
 title: Designing Applications for Extensibility and Reuse

@@ -1,7 +1,7 @@
 ---
 author:
-- Clay Templeton
-date: '2011-08-19T17:40:00.000Z'
+  - Clay Templeton
+date: "2011-08-19T17:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reading-the-topic-modeling-literature
 title: Reading the Topic Modeling Literature

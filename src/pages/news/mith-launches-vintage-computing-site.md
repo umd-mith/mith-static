@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-09-10T12:35:00.000Z'
+  - "MITH "
+date: "2010-09-10T12:35:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-launches-vintage-computing-site
 title: MITH Launches Vintage Computing Site

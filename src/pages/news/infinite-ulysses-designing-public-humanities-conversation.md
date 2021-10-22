@@ -1,10 +1,10 @@
 ---
 author:
-- Amanda Visconti
-date: '2014-12-01T18:02:00.000Z'
+  - Amanda Visconti
+date: "2014-12-01T18:02:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: infinite-ulysses-designing-public-humanities-conversation
-title: 'Infinite Ulysses: Designing a Public Humanities Conversation'
+title: "Infinite Ulysses: Designing a Public Humanities Conversation"
 ---
 
 Scholarly editor Gary Taylor has asked: “How can you love a work, if you don’t know it? How can you know it, if you can’t get near it? How can you get near it, without editors?” Scholarly editors and other textual scholars are an integral part of the continuum that keeps the stories of the past understood by the present—but just as important is the _you_, that public of not just scholars, but also readers beyond the academy whose interest keeps the humanities alive and relevant.

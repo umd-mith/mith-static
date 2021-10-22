@@ -1,7 +1,7 @@
 ---
 author:
-- James Smith
-date: '2011-11-02T14:42:00.000Z'
+  - James Smith
+date: "2011-11-02T14:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: nanodhmo-nadhmo-whatever-lets-just-make-something
 title: NanoDHMo, NaDHMo, ... Whatever, Let's Just Make Something

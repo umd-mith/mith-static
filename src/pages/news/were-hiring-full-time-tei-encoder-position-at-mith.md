@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2008-04-25T16:13:00.000Z'
+  - "MITH "
+date: "2008-04-25T16:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: were-hiring-full-time-tei-encoder-position-at-mith
-title: 'We''re Hiring: Full Time TEI Encoder Position at MITH'
+title: "We're Hiring: Full Time TEI Encoder Position at MITH"
 ---
 
 The Maryland Institute for Technology in the Humanities (MITH) is seeking a full time TEI encoder to work on in-house text encoding projects as well as a collaboration with the National Gallery in Washington DC on a new digital archive under development: "The History of the Accademia di San Luca, 1589-1635: Documents from the Archivio di Stato, Rome." The successful candidate will have experience with humanities encoding projects and knowledge of TEI (preferably P5). Experience with transforming TEI via XSL and DOM manipulations is preferred.

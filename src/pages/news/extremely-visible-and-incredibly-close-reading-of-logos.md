@@ -1,7 +1,7 @@
 ---
 author:
-- Amanda Visconti
-date: '2012-02-07T16:43:00.000Z'
+  - Amanda Visconti
+date: "2012-02-07T16:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: extremely-visible-and-incredibly-close-reading-of-logos
 title: Extremely Visible and Incredibly Close Reading of Logos

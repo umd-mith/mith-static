@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2006-11-28T16:36:00.000Z'
+  - "MITH "
+date: "2006-11-28T16:36:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: deadline-approaching-for-winnemore-dissertation-fellowship-and-graduate-travel-awards
-title: Deadline Approaching for Winnemore Dissertation Fellowships and Graduate Travel
+title:
+  Deadline Approaching for Winnemore Dissertation Fellowships and Graduate Travel
   Awards
 ---
 

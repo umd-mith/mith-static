@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-09-28T14:55:00.000Z'
+  - "MITH "
+date: "2010-09-28T14:55:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-alan-liu
 title: MITH Welcomes Alan Liu

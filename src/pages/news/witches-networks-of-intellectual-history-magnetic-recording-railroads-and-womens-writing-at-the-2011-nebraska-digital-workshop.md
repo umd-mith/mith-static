@@ -1,10 +1,11 @@
 ---
 author:
-- Trevor Muñoz
-date: '2011-10-19T17:05:00.000Z'
+  - Trevor Muñoz
+date: "2011-10-19T17:05:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: witches-networks-of-intellectual-history-magnetic-recording-railroads-and-womens-writing-at-the-2011-nebraska-digital-workshop
-title: Witches, Networks of Intellectual History, Magnetic Recording, Railroads, and
+title:
+  Witches, Networks of Intellectual History, Magnetic Recording, Railroads, and
   Women's Writing at the 2011 Nebraska Digital Workshop
 ---
 

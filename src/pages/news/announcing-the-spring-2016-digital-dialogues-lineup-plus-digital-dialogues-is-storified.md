@@ -1,10 +1,11 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2016-02-05T15:00:00.000Z'
+  - Stephanie Sapienza
+date: "2016-02-05T15:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-the-spring-2016-digital-dialogues-lineup-plus-digital-dialogues-is-storified
-title: Announcing the Spring 2016 Digital Dialogues Lineup, plus Digital Dialogues
+title:
+  Announcing the Spring 2016 Digital Dialogues Lineup, plus Digital Dialogues
   is Storified!
 ---
 

@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2017-06-15T13:40:00.000Z'
+  - Neil Fraistat
+date: "2017-06-15T13:40:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: fond-farewell-mith
 title: My Fond Farewell to MITH

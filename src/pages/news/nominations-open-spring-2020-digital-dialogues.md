@@ -1,7 +1,7 @@
 ---
 author:
-- Purdom Lindblad
-date: '2019-10-14T13:32:00.000Z'
+  - Purdom Lindblad
+date: "2019-10-14T13:32:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: nominations-open-spring-2020-digital-dialogues
 title: Nominations Open, Spring 2020 Digital Dialogues

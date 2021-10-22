@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-11-02T16:22:00.000Z'
+  - "MITH "
+date: "2006-11-02T16:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-graduate-student-travel-grants
 title: MITH Graduate Student Travel Grants

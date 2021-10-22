@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2009-11-03T02:27:00.000Z'
+  - "MITH "
+date: "2009-11-03T02:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: call-for-applications-miths-winnemore-digital-humanities-dissertation-fellowship
-title: 'Call for Applications: MITH''s Winnemore Digital Humanities Dissertation Fellowship'
+title: "Call for Applications: MITH's Winnemore Digital Humanities Dissertation Fellowship"
 ---
 
 Applications for MITH's Spring 2010 Winnemore Digital Humanities Dissertation Fellowship are now being accepted.

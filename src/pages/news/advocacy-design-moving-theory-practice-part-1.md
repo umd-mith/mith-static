@@ -1,10 +1,10 @@
 ---
 author:
-- Purdom Lindblad
-date: '2017-09-18T19:43:00.000Z'
+  - Purdom Lindblad
+date: "2017-09-18T19:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: advocacy-design-moving-theory-practice-part-1
-title: 'Advocacy By Design: Moving Between Theory and Practice—Part 1'
+title: "Advocacy By Design: Moving Between Theory and Practice—Part 1"
 ---
 
 \_I'm posting a [short series](http://mith.umd.edu/tag/advocacy-by-design/) of a lightly edited posts from of my keynote for the University of Maryland Library Research and Innovative Practice Forum. [Slides and talk are available through DRUM.](http://drum.lib.umd.edu/handle/1903/19250) Below is Part 1, with more posts to follow. —Purdom_I have been sitting with a sentence written by the editors of the journal [Salvage](http://salvage.zone/), “The infrastructures against social misery have yet to be built.”

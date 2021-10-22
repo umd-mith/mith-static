@@ -1,7 +1,7 @@
 ---
 author:
-- Matthew Kirschenbaum
-date: '2011-10-10T15:38:00.000Z'
+  - Matthew Kirschenbaum
+date: "2011-10-10T15:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: an-english-professor-among-the-archivists
 title: An English Professor Among the Archivists

@@ -1,10 +1,10 @@
 ---
 author:
-- Ed Summers
-date: '2015-01-19T16:34:00.000Z'
+  - Ed Summers
+date: "2015-01-19T16:34:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: a-look-at-fergusonsyllabus
-title: 'A Look at #FergusonSyllabus'
+title: "A Look at #FergusonSyllabus"
 ---
 
 As a new semester is about to begin academics are busily putting finishing touches on their course syllabi. Here at the University of Maryland there has been sustained interest over the past few months in integrating discussion and thinking about the recent events in Ferguson, and subsequent #BlackLivesMatter movement into our classes. Look for news about planned teach-ins and events like [ours](http://mith.umd.edu/researching-ferguson-update-previewing-miths-teach-ins-blacklivesmatter-umd/) in the coming weeks.

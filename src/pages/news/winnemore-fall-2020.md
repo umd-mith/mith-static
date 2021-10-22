@@ -1,10 +1,10 @@
 ---
 author:
-- Purdom Lindblad
-date: '2019-08-13T14:00:00.000Z'
+  - Purdom Lindblad
+date: "2019-08-13T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: winnemore-fall-2020
-title: 'Call for Proposals: Winnemore Fellowship - Updated Deadline'
+title: "Call for Proposals: Winnemore Fellowship - Updated Deadline"
 ---
 
 _The 2020 Winnemore Fellowship will now be awarded for the Fall semester. The application deadline has been changed to **November 5, 2019.**_

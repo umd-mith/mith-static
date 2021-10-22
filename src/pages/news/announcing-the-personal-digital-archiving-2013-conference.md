@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2012-08-07T14:00:00.000Z'
+  - Trevor Muñoz
+date: "2012-08-07T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-the-personal-digital-archiving-2013-conference
 title: Announcing the Personal Digital Archiving 2013 Conference

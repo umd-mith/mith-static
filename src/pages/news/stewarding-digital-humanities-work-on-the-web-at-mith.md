@@ -1,7 +1,7 @@
 ---
 author:
-- Trevor Muñoz
-date: '2015-06-15T14:00:00.000Z'
+  - Trevor Muñoz
+date: "2015-06-15T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: stewarding-digital-humanities-work-on-the-web-at-mith
 title: Stewarding Digital Humanities Work on the Web at MITH

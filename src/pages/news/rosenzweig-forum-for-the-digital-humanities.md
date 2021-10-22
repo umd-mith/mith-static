@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2010-02-15T15:33:00.000Z'
+  - "MITH "
+date: "2010-02-15T15:33:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: rosenzweig-forum-for-the-digital-humanities
 title: Rosenzweig Forum for the Digital Humanities

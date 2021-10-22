@@ -1,7 +1,7 @@
 ---
 author:
-- Hayim Lapin
-date: '2012-03-12T13:01:00.000Z'
+  - Hayim Lapin
+date: "2012-03-12T13:01:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: progress-real-but-in-small-steps
 title: Progress, real but in small steps

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-06-17T00:13:00.000Z'
+  - "MITH "
+date: "2006-06-17T00:13:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: appointment-of-matthew-kirschenbaum-as-associate-director-of-mith
 title: Appointment of Matthew Kirschenbaum as Associate Director of MITH

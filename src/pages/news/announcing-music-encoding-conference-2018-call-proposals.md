@@ -1,7 +1,7 @@
 ---
 author:
-- Raff Viglianti
-date: '2017-09-27T19:30:00.000Z'
+  - Raff Viglianti
+date: "2017-09-27T19:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-music-encoding-conference-2018-call-proposals
 title: Announcing the Music Encoding Conference 2018 Call for Proposals

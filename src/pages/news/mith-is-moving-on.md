@@ -1,7 +1,7 @@
 ---
 author:
-- Emma Millon
-date: '2011-05-18T16:15:00.000Z'
+  - Emma Millon
+date: "2011-05-18T16:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-is-moving-on
 title: MITH is Moving On!

@@ -1,10 +1,10 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2018-10-04T20:20:00.000Z'
+  - Stephanie Sapienza
+date: "2018-10-04T20:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reckoning-with-digital-projects-mith-makes-a-roadmap
-title: 'Reckoning with Digital Projects: MITH Makes a Roadmap'
+title: "Reckoning with Digital Projects: MITH Makes a Roadmap"
 ---
 
 In February of 2018, MITH spent dedicated time talking about sustainability of digital projects with a team from the University of Pittsburgh’s Visual Media Workshop (VMW) as part of a focused user testing session for The Socio-Technical Sustainability Roadmap. The research project that produced the Roadmap was led by Alison Langmead, with Project Managers Aisling Quigley (2016-17) and Chelsea Gunn (2017-18). The final goal of that project was to create a digital sustainability roadmap for developers and curators of digital projects to follow. The work was initially based on what the project team discovered during its NEH-funded project, “Sustaining MedArt." In this blog post, which is a late entry in MITH’s [Digital Stewardship Series](https://mith.umd.edu/tag/mith-digital-stewardship-series/) from 2016, I’m going to talk a bit about what I discovered during the process of using the roadmap for one of MITH’s projects, how I synthesized our discoveries in the form of a concrete tool for MITH to utilize the roadmap afterward, and how this has changed some of my conceptions about digital sustainability practices.

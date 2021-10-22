@@ -1,10 +1,10 @@
 ---
 author:
-- Grant Dickie
-date: '2011-10-07T19:35:00.000Z'
+  - Grant Dickie
+date: "2011-10-07T19:35:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: interedition-bootcamp-day-1
-title: 'Interedition Bootcamp: Day 1'
+title: "Interedition Bootcamp: Day 1"
 ---
 
 After a long but pleasant flight, a shorter but even more pleasant train ride, and a scenic bus ride from the train station, I am finally at the University of Wuerzburg at the Interedition conference. It's exciting to be here with so many other professionals from annotation and linking projects.

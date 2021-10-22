@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2007-08-31T18:38:00.000Z'
+  - Digital Dialogues
+date: "2007-08-31T18:38:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: fall-2007-digital-dialogues-schedule
 title: Fall 2007 Digital Dialogues Schedule

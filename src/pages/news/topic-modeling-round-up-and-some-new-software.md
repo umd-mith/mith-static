@@ -1,10 +1,10 @@
 ---
 author:
-- Travis Brown
-date: '2012-12-18T18:43:00.000Z'
+  - Travis Brown
+date: "2012-12-18T18:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: topic-modeling-round-up-and-some-new-software
-title: 'Topic Modeling: New Software and a Wrap-up of our NEH-Sponsored Workshop'
+title: "Topic Modeling: New Software and a Wrap-up of our NEH-Sponsored Workshop"
 ---
 
 Topic modeling in (and on) the humanities has been the subject of a number of blog posts and online conversations over the past few weeks, including [this article](http://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/) by [Andrew Goldstone](http://andrewgoldstone.com/) and [Ted Underwood](http://tedunderwood.com/), which provides a very clear introduction to the method and outlines a set of experiments on [PMLA](http://www.mla.org/pmla), and [a series of posts](http://www.jgoodwin.net/?cat=20) by [Jon Goodwin](http://www.jgoodwin.net/) that walk through experiments on texts from JSTOR's [Data for Research](http://dfr.jstor.org/) in useful detail. The comments on these blog posts are well worth reading, along with the parallel discussions on Twitter, such as [these responses](http://storify.com/travisbrown/distance-measures-for-topic-modeling) to a recent question by [Matt Burton](http://www.si.umich.edu/people/matt-burton) about appropriate techniques for measuring the similarity of documents or topics.

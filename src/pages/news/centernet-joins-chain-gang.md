@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-11-10T23:22:00.000Z'
+  - "MITH "
+date: "2009-11-10T23:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: centernet-joins-chain-gang
 title: centerNet Joins CHAIN Gang

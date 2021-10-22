@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-06-06T22:54:00.000Z'
+  - "MITH "
+date: "2006-06-06T22:54:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: appointment-of-professor-neil-fraistat-as-director-of-mith
 title: Appointment of Professor Neil Fraistat as Director of MITH

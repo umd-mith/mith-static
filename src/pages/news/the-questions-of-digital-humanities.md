@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2011-02-07T21:00:00.000Z'
+  - Neil Fraistat
+date: "2011-02-07T21:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-questions-of-digital-humanities
 title: The Question(s) of Digital Humanities

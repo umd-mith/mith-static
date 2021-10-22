@@ -1,11 +1,12 @@
 ---
 author:
-- 'MITH '
-date: '2007-03-28T11:52:00.000Z'
+  - "MITH "
+date: "2007-03-28T11:52:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: directors-of-national-digital-humanities-centers-to-hold-summit-meeting-at-neh
-title: 'Press Release: Directors of National Digital Humanities Centers to Hold Summit
-  Meeting at NEH'
+title:
+  "Press Release: Directors of National Digital Humanities Centers to Hold Summit
+  Meeting at NEH"
 ---
 
 WASHINGTON (March 27, 2007) The National Endowment for the Humanities (NEH) and the Maryland Institute for Technology in the Humanities (MITH) at the University of Maryland are pleased to announce a summit meeting to plan a national coalition of digital humanities centers.

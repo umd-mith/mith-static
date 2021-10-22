@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2009-03-02T18:15:00.000Z'
+  - "MITH "
+date: "2009-03-02T18:15:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-humanities-2009-registration-now-open
 title: Digital Humanities 2009 Registration Now Open!

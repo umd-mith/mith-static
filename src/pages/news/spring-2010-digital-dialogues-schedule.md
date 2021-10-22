@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2010-02-01T20:58:00.000Z'
+  - Digital Dialogues
+date: "2010-02-01T20:58:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: spring-2010-digital-dialogues-schedule
 title: Spring 2010 Digital Dialogues Schedule

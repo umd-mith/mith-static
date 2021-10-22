@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-08-06T19:43:00.000Z'
+  - "MITH "
+date: "2007-08-06T19:43:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: researchers-at-mith-partner-to-preserve-virtual-worlds
 title: Researchers at MITH Partner to Preserve Virtual Worlds

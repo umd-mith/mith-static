@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2011-04-20T14:33:00.000Z'
+  - Neil Fraistat
+date: "2011-04-20T14:33:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: congratulations-to-dave-lester
 title: Congratulations to Dave Lester!

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2016-03-02T21:09:00.000Z'
+  - "MITH "
+date: "2016-03-02T21:09:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: april-events-van-dam
 title: Announcing TWO events in April with Andy van Dam from Brown University!

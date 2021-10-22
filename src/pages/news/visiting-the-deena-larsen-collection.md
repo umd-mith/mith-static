@@ -1,7 +1,7 @@
 ---
 author:
-- Leighton Christiansen
-date: '2011-05-31T17:25:00.000Z'
+  - Leighton Christiansen
+date: "2011-05-31T17:25:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: visiting-the-deena-larsen-collection
 title: Visiting the Deena Larsen Collection

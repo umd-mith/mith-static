@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2008-04-15T14:51:00.000Z'
+  - "MITH "
+date: "2008-04-15T14:51:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: new-ga-position-available
 title: New GA Position Available

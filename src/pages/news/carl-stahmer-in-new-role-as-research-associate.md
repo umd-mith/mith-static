@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-06-30T15:52:00.000Z'
+  - "MITH "
+date: "2006-06-30T15:52:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: carl-stahmer-in-new-role-as-research-associate
 title: Carl Stahmer in New Role as Research Associate

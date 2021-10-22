@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-10-26T02:36:00.000Z'
+  - "MITH "
+date: "2006-10-26T02:36:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: byte-by-byte
 title: Byte by Byte

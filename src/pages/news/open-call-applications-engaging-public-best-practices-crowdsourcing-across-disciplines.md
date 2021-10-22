@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2015-02-18T15:04:00.000Z'
+  - "MITH "
+date: "2015-02-18T15:04:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: open-call-applications-engaging-public-best-practices-crowdsourcing-across-disciplines
-title: 'Open Call for Applications: "Engaging the Public: Best Practices for Crowdsourcing
+title:
+  'Open Call for Applications: "Engaging the Public: Best Practices for Crowdsourcing
   Across the Disciplines"'
 ---
 

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2016-11-04T18:00:00.000Z'
+  - "MITH "
+date: "2016-11-04T18:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-announces-first-courses-ever-spring-2017
 title: MITH announces first courses ever for spring 2017!

@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2012-02-07T14:27:00.000Z'
+  - "MITH "
+date: "2012-02-07T14:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-dlc-is-back
 title: The DLC is Back!

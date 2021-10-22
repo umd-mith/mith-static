@@ -1,7 +1,7 @@
 ---
 author:
-- Amanda Visconti
-date: '2012-06-14T12:00:00.000Z'
+  - Amanda Visconti
+date: "2012-06-14T12:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: whats-up-with-digital-editing-tools-summer-conference-edition
 title: What’s Up with Digital Editing Tools? (Summer Conference Edition)

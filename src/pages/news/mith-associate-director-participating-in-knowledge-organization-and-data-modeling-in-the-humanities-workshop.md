@@ -1,10 +1,11 @@
 ---
 author:
-- Trevor Muñoz
-date: '2012-03-12T22:27:00.000Z'
+  - Trevor Muñoz
+date: "2012-03-12T22:27:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-associate-director-participating-in-knowledge-organization-and-data-modeling-in-the-humanities-workshop
-title: MITH Associate Director Participating in “Knowledge Organization and Data Modeling
+title:
+  MITH Associate Director Participating in “Knowledge Organization and Data Modeling
   in the Humanities” Workshop
 ---
 

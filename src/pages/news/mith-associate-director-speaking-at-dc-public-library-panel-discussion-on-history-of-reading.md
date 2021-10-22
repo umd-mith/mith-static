@@ -1,10 +1,11 @@
 ---
 author:
-- Emma Millon
-date: '2012-03-08T19:10:00.000Z'
+  - Emma Millon
+date: "2012-03-08T19:10:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-associate-director-speaking-at-dc-public-library-panel-discussion-on-history-of-reading
-title: MITH Associate Director Speaking at DC Public Library Panel Discussion on History
+title:
+  MITH Associate Director Speaking at DC Public Library Panel Discussion on History
   of Reading
 ---
 

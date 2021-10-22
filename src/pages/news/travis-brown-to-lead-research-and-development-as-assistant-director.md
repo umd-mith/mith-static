@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-10-18T20:54:00.000Z'
+  - "MITH "
+date: "2011-10-18T20:54:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: travis-brown-to-lead-research-and-development-as-assistant-director
 title: Travis Brown to Lead Research and Development as Assistant Director

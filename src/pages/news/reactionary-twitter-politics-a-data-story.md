@@ -1,10 +1,10 @@
 ---
 author:
-- Jeannette Schollaert
-date: '2018-10-09T19:42:00.000Z'
+  - Jeannette Schollaert
+date: "2018-10-09T19:42:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: reactionary-twitter-politics-a-data-story
-title: 'Reactionary Twitter Politics: A Data Story'
+title: "Reactionary Twitter Politics: A Data Story"
 ---
 
 _This post is part 3 in a series about social media data collection experiments conducted in [Matt Kirschenbaum](https://twitter.com/mkirschenbaum)'s [Introduction to Digital Studies](https://dsah.umd.edu/requirements/#introds). Please see parts [1](https://mith.umd.edu/little-big-data/) and [2](https://mith.umd.edu/little-big-data/) for more context._

@@ -1,24 +1,28 @@
 ---
-import HeadCommon from '../components/HeadCommon.astro'
-import Header from '../components/Header.astro'
-import Footer from '../components/Footer/Footer.astro'
-import * as CONFIG from '../config.ts'
+import HeadCommon from "../components/HeadCommon.astro"
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer/Footer.astro"
+import * as CONFIG from "../config.ts"
 const { pageContent = {} } = Astro.props
 const currentPage = Astro.request.url.pathname
 ---
-<!doctype html>
-<html lang="{CONFIG.SITE.language}">
-    <head>
-        <meta charset="UTF-8" />
-        <title>{pageContent.title ? `${pageContent.title} | ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
-        <HeadCommon />
-    </head>
-    <body>
-        <Header currentPage={currentPage} />
-        <main id="main-content">
-            <slot />
-        </main>
-        <Footer />
-        <script src="https://umd-header.umd.edu/build/bundle.js?search=0&search_domain=&events=0&news=0&schools=0&admissions=0&support=0&support_url=&wrapper=990&sticky=0"></script>
-    </body>
+
+<!DOCTYPE html>
+<html lang={CONFIG.SITE.language}>
+  <head>
+    <meta charset="UTF-8" />
+    <title
+      >{pageContent.title ? `${pageContent.title} | ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
+    <HeadCommon />
+  </head>
+  <body>
+    <Header {currentPage} />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+    <script
+      src="https://umd-header.umd.edu/build/bundle.js?search=0&search_domain=&events=0&news=0&schools=0&admissions=0&support=0&support_url=&wrapper=990&sticky=0"
+    ></script>
+  </body>
 </html>

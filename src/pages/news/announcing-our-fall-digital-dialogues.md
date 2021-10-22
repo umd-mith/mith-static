@@ -1,7 +1,7 @@
 ---
 author:
-- Digital Dialogues
-date: '2011-09-06T13:47:00.000Z'
+  - Digital Dialogues
+date: "2011-09-06T13:47:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-our-fall-digital-dialogues
 title: Announcing Our Fall Digital Dialogues!

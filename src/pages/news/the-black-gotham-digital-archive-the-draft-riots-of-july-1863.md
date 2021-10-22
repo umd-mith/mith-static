@@ -1,10 +1,10 @@
 ---
 author:
-- Carla L. Peterson
-date: '2012-03-14T13:30:00.000Z'
+  - Carla L. Peterson
+date: "2012-03-14T13:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: the-black-gotham-digital-archive-the-draft-riots-of-july-1863
-title: 'The Black Gotham Digital Archive: The Draft Riots of July 1863'
+title: "The Black Gotham Digital Archive: The Draft Riots of July 1863"
 ---
 
 [![Letter](/assets/images/C_PETERSON_fig_7.3-313x500.jpg "C_PETERSON_fig_7.3")](http://www.blackgothamarchive.org/wp-content/uploads/C_PETERSON_fig_7.3.jpg) I found this note in the Harry A. Williamson Papers at the Schomburg Center while doing research for _Black Gotham_. It’s a central document in my “cluster” on the New York City draft riots and uncovers a fascinating story. The first part of the story relates to Williamson’s identity. He turns out to be the grandson of Albro Lyons, the man to whom the note is addressed. Williamson’s extensive collection testifies to his determination to preserve his family’s history; it includes genealogical records as well as a short memoir by one of Lyons’s daughters, Maritcha (and his aunt).

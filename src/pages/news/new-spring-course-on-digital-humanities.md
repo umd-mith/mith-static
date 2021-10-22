@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-11-26T20:26:00.000Z'
+  - "MITH "
+date: "2007-11-26T20:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: new-spring-course-on-digital-humanities
 title: New Spring Course on Digital Humanities

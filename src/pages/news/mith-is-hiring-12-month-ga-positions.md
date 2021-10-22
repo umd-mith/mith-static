@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2007-04-07T15:48:00.000Z'
+  - "MITH "
+date: "2007-04-07T15:48:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-is-hiring-12-month-ga-positions
-title: 'MITH is Hiring: 12-month GA Position(s)'
+title: "MITH is Hiring: 12-month GA Position(s)"
 ---
 
 **MITH Program Associate12-month GA positionMaryland Institute for Technology in the Humanities (MITH)**

@@ -1,7 +1,7 @@
 ---
 author:
-- Stephanie Sapienza
-date: '2016-09-08T18:22:00.000Z'
+  - Stephanie Sapienza
+date: "2016-09-08T18:22:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: join-us-mith-mixer-kick-off-fall-2016-season-digital-dialogues
 title: Join us at MITH for a mixer to kick off the Fall 2016 season of Digital Dialogues!

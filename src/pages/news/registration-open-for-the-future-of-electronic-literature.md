@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-02-09T21:12:00.000Z'
+  - "MITH "
+date: "2007-02-09T21:12:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: registration-open-for-the-future-of-electronic-literature
 title: Registration Open for the Future of Electronic Literature

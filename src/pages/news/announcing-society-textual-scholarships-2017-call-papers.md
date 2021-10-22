@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2017-01-25T18:26:00.000Z'
+  - "MITH "
+date: "2017-01-25T18:26:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: announcing-society-textual-scholarships-2017-call-papers
 title: Announcing the Society for Textual Scholarship's 2017 Call for Papers

@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2019-04-23T12:56:00.000Z'
+  - Ed Summers
+date: "2019-04-23T12:56:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: old-futures-book-launch-alexis-lothian
 title: Old Futures Book Launch—Alexis Lothian

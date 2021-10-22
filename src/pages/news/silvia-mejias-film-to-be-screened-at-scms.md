@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-02-10T21:17:00.000Z'
+  - "MITH "
+date: "2007-02-10T21:17:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: silvia-mejias-film-to-be-screened-at-scms
 title: Silvia Mejia's Film to be Screened at SCMS

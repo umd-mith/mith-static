@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2007-08-23T18:03:00.000Z'
+  - "MITH "
+date: "2007-08-23T18:03:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: chicago-colloqium-on-digital-humanities-and-computer-science
 title: Chicago Colloqium on Digital Humanities and Computer Science

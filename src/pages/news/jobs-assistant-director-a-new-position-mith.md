@@ -1,10 +1,10 @@
 ---
 author:
-- 'MITH '
-date: '2009-09-30T18:20:00.000Z'
+  - "MITH "
+date: "2009-09-30T18:20:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: jobs-assistant-director-a-new-position-mith
-title: 'Job: Assistant Director'
+title: "Job: Assistant Director"
 ---
 
 The Maryland Institute for Technology in the Humanities (MITH) is seeking to hire an Assistant Director to join our management team, which currently consists of Neil Fraistat, Matt Kirschenbaum, and Doug Reside.

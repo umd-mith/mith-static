@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2013-07-26T14:00:00.000Z'
+  - "MITH "
+date: "2013-07-26T14:00:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: accessiblefuture-and-o-say-can-you-see
-title: 'Announcing Accessible Future and "O Say Can You See": Early Washington, D.C.
+title:
+  'Announcing Accessible Future and "O Say Can You See": Early Washington, D.C.
   Law and Family Project'
 ---
 

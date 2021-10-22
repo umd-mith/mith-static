@@ -1,10 +1,11 @@
 ---
 author:
-- Trevor Muñoz
-date: '2012-12-19T14:06:00.000Z'
+  - Trevor Muñoz
+date: "2012-12-19T14:06:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: digital-humanities-data-curation-institute-summer-2013-workshop-now-accepting-applications
-title: Digital Humanities Data Curation Institute Summer 2013 Workshop Now Accepting
+title:
+  Digital Humanities Data Curation Institute Summer 2013 Workshop Now Accepting
   Applications
 ---
 

@@ -1,10 +1,10 @@
 ---
 author:
-- Jennifer Guiliano
-date: '2013-12-17T07:30:00.000Z'
+  - Jennifer Guiliano
+date: "2013-12-17T07:30:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: o-say-can-see-legal-cultural-history-19th-century
-title: 'O Say Can You See: A Legal and Cultural History of the 19th Century'
+title: "O Say Can You See: A Legal and Cultural History of the 19th Century"
 ---
 
 In 1813 the United States Supreme Court heard arguments in one of the first petitions for freedom by an enslaved person. Mima Queen sued John Hepburn claiming she was descended from a free woman. Francis Scott Key argued the case for her, but Chief Justice John Marshall wrote the majority opinion denying her petition. Queen and her child Louisa remained in slavery. A few months later Key wrote the "Star Spangled Banner" and the British invaded Maryland and burned parts of Washington, D.C.

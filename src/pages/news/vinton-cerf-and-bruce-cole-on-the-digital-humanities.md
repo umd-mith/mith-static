@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2006-03-30T04:06:00.000Z'
+  - "MITH "
+date: "2006-03-30T04:06:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: vinton-cerf-and-bruce-cole-on-the-digital-humanities
 title: Vinton Cerf and Bruce Cole on the Digital Humanities

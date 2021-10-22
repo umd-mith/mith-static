@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-06-19T00:48:00.000Z'
+  - "MITH "
+date: "2011-06-19T00:48:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-new-associate-director
 title: MITH Welcomes New Associate Director

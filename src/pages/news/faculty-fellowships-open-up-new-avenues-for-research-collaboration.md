@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2011-08-29T12:51:00.000Z'
+  - "MITH "
+date: "2011-08-29T12:51:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: faculty-fellowships-open-up-new-avenues-for-research-collaboration
 title: Faculty Fellowships Open Up New Avenues for Research Collaboration

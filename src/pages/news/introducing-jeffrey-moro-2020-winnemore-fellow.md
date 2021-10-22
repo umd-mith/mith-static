@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2020-05-27T16:10:00.000Z'
+  - "MITH "
+date: "2020-05-27T16:10:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: introducing-jeffrey-moro-2020-winnemore-fellow
 title: Introducing Jeffrey Moro, 2020 Winnemore Fellow

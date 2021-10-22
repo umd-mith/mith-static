@@ -1,10 +1,11 @@
 ---
 author:
-- 'MITH '
-date: '2015-11-16T17:31:00.000Z'
+  - "MITH "
+date: "2015-11-16T17:31:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: neh-launches-contest-to-use-chronicling-america-database-for-new-web-based-creative-projects
-title: NEH launches contest to use Chronicling America database for new web-based
+title:
+  NEH launches contest to use Chronicling America database for new web-based
   creative projects
 ---
 

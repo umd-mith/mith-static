@@ -1,7 +1,7 @@
 ---
 author:
-- Neil Fraistat
-date: '2011-04-27T15:36:00.000Z'
+  - Neil Fraistat
+date: "2011-04-27T15:36:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-welcomes-new-community-lead
 title: MITH Welcomes New Community Lead

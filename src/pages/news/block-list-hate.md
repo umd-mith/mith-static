@@ -1,7 +1,7 @@
 ---
 author:
-- Ed Summers
-date: '2016-10-27T11:10:00.000Z'
+  - Ed Summers
+date: "2016-10-27T11:10:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: block-list-hate
 title: A Block List Against Hate

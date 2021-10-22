@@ -1,7 +1,7 @@
 ---
 author:
-- 'MITH '
-date: '2014-07-23T14:07:00.000Z'
+  - "MITH "
+date: "2014-07-23T14:07:00.000Z"
 layout: ../../layouts/PostLayout.astro
 slug: mith-directors-kirschenbaum-and-munoz-featured-at-digital-preservation-2014
 title: MITH Directors Kirschenbaum and Muñoz featured at Digital Preservation 2014
