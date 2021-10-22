@@ -3,9 +3,9 @@ const { pathInfo } = Astro.props
 const fmtPaths = (pathStr:string):string[] => {
     const pathParts = pathStr.split('/')
     // pathParts[0] will be empty because paths always start with /
-    if (pathParts.length === 3) {
+    if (pathParts.length <= 4) {
         return [pathParts[1], pathParts[2]]
-    } else if (pathParts.length === 4) {
+    } else if (pathParts.length > 4) {
         return [pathParts[1], pathParts[3]]
     } else {
         return []
