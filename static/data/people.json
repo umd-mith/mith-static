@@ -1663,7 +1663,8 @@
     "linked identities": [],
     "identities as current": [
       "recHZYBFvQwt6bxPo",
-      "recsUKkYafsJMfBoq"
+      "recsUKkYafsJMfBoq",
+      "recSLHbWF4Cjhsq1F"
     ],
     "name": "Marisa Parham",
     "group type": [
@@ -1673,7 +1674,7 @@
     "slug": "marisa-parham",
     "slug formula": "marisa-parham",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-04-15T20:10:24.000Z",
+    "modified": "2021-10-22T12:57:58.000Z",
     "record_id": "rec4GSBjn9Pccdx9h",
     "status": [
       "current"
@@ -1798,6 +1799,59 @@
         ],
         "person group": [
           "current"
+        ]
+      },
+      {
+        "id": 862,
+        "identity group": "current",
+        "identity": "marisa-parham-current-862",
+        "full affiliation": "Professor, English, University of Maryland",
+        "slug": "marisa-parham-862",
+        "linked person": [
+          "rec4GSBjn9Pccdx9h"
+        ],
+        "person name": [
+          "Marisa Parham"
+        ],
+        "linked person bio": [
+          "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst."
+        ],
+        "headshot": [
+          {
+            "id": "attBTIP6EbdsSocQo",
+            "width": 400,
+            "height": 400,
+            "url": "https://dl.airtable.com/.attachments/f2863fe1381d49b08c672e7ce30ca610/1647cdde/marisa-parham.jpg",
+            "filename": "marisa-parham.jpg",
+            "size": 31421,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/25a8aab0a2e8ffd1f9f1b6dfdc475c2f/de45c46d",
+                "width": 36,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/5eb69ce725a115be5c6dbfbb479fa8f9/9861c6e6",
+                "width": 400,
+                "height": 400
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/7391b39b8de86c15975377dd1b7e5d80/ef9f0410",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "person group": [
+          "current"
+        ],
+        "title": "Professor",
+        "institution": "University of Maryland",
+        "department": "English",
+        "linked people as current": [
+          "rec4GSBjn9Pccdx9h"
         ]
       }
     ]
@@ -7497,6 +7551,7 @@
         }
       }
     ],
+    "title": "Assistant Professor of French and Francophone Studies + MITH Affiliate Assistant Professor",
     "bio external": "http://sllc.umd.edu/user/mbelsol",
     "email": "mbelsol@umd.edu",
     "website": "http://sllc.umd.edu/user/mbelsol",
@@ -7518,7 +7573,6 @@
     "created": "2021-06-02T15:16:31.000Z",
     "modified": "2021-10-21T14:31:16.000Z",
     "record_id": "recKebgqP0nkoWAte",
-    "title": "Assistant Professor of French and Francophone Studies + MITH Affiliate Assistant Professor",
     "current identities": [
       {
         "title": "Assistant Professor",
@@ -7575,21 +7629,24 @@
       {
         "title": "MITH Affiliate Assistant Professor",
         "start": 2021,
+        "linked person": [
+          "recKebgqP0nkoWAte"
+        ],
         "group": [
           "recLGWBbAoT1l1tfN"
         ],
+        "linked people as current": [
+          "recKebgqP0nkoWAte"
+        ],
         "id": 860,
-        "identity group": "current",
         "identity": "masha-solomon-current-860",
         "full affiliation": "MITH Affiliate Assistant Professor",
         "slug": "masha-solomon-860",
         "date span": "MITH Affiliate Assistant Professor, 2021",
-        "linked person": [
-          "recKebgqP0nkoWAte"
-        ],
         "person name": [
           "Maria Beliaeva Solomon"
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attkC75ICBnQ7KYZA",
@@ -7617,9 +7674,6 @@
               }
             }
           }
-        ],
-        "linked people as current": [
-          "recKebgqP0nkoWAte"
         ]
       }
     ]
@@ -16215,6 +16269,9 @@
     "identity as past": "susan-l-wiesner-467",
     "bio": "Susan L. Wiesner received her BA in Dance from Goucher College and her MA and PhD from the University of Surrey, England. Dr. Wiesner was granted two CLIR (Council for Library and Information Resources) postdoctoral fellowships to the University of Virginia and the University of North Carolina–Greensboro where she managed digital projects in the libraries and lectured in dance history and research methods. Her ongoing project, ARTeFACT, has been presented at several academic conferences (both Dance and Digital Humanities), been awarded an NEH Digital Start-up Grant, and has been featured in book chapters and journal articles. Dr. Wiesner was awarded an ACLS Digital Innovation Fellowship for 2011 to pursue research into movements representative of conceptual metaphor. She has conducted research into metadata and the development of ontologies for the performing arts using Digital Humanities methodologies and has developed a database of dance publications. A choreographer and dancer, Dr. Wiesner has presented her work in both the US and the UK, written as a dance critic, taught technique and theory at several universities, and continues to work with intersections of language and movement in an attempt to develop automated tagging of movement in dance film. Her current research focuses on movement and notation systems as a means of machine learning and transfer of data between artistic forms.\nIn her spare time, she works with adult dancers with special needs as she remains dedicated to the belief that all people can dance. Wiesner earned her Certification in Movement Analysis (CMA) from the Laban/Bartenieff Institute of Movement Studies and is the LIMS Archivist/Historian. At MITH, Wiesner is Principal Faculty Specialist for the Performing Arts where she works with the DocNow project and manages other projects which relate to the performing arts.\n",
     "email": "swiesner@umd.edu",
+    "people groups": [
+      "Past Research Faculty + Staff"
+    ],
     "wordpress nicename": "susanwiesner",
     "new id": 10,
     "wordpress id": 20698,
@@ -16228,9 +16285,6 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-10-21T14:24:30.000Z",
     "record_id": "receGG1TyCzvcyaFG",
-    "people groups": [
-      "Past Research Faculty + Staff"
-    ],
     "current identities": []
   },
   {
@@ -17563,6 +17617,7 @@
         }
       }
     ],
+    "title": "Graduate Research Assistant",
     "bio": "Emily Frazier is a Research Assistant for MITH's _[Unlocking the Airwaves](https://mith.umd.edu/research/unlocking-the-airwaves)_ and _[Broadcasting Audiovisual Data](https://mith.umd.edu/research/broadcasting-av-data/)_ projects. She is a History MA and Master of Library & Information Science graduate student at the University of Maryland. Her research interests include discoverability in archives and linked data, as well as maps, cartography, and digital humanities. Outside of school and work, she enjoys needlepoint embroidery and spending time with her cat. Emily is a graduate of the University of Texas at Austin, where she earned her BA in Linguistics, Spanish, and the Plan II Honors Program. During undergrad, she worked with museum and archival collections doing cataloging and processing.\n\n",
     "email": "emilyf1@umd.edu",
     "people groups": [
@@ -17595,7 +17650,6 @@
     "status": [
       "current"
     ],
-    "title": "Graduate Research Assistant",
     "current identities": [
       {
         "title": "Graduate Research Assistant",
@@ -21917,6 +21971,10 @@
     "email": "jmoro@umd.edu",
     "twitter": "jeffreymoro",
     "website": "https://jeffreymoro.com/",
+    "people groups": [
+      "Past Resident Fellows",
+      "Resident Fellows"
+    ],
     "new id": 180,
     "wordpress id": 20997,
     "linked identities": [
@@ -21940,31 +21998,33 @@
     "created": "2021-02-12T09:45:32.000Z",
     "modified": "2021-10-21T14:58:13.000Z",
     "record_id": "rect4XPdHKVIk2cPn",
-    "people groups": [
-      "Past Resident Fellows",
-      "Resident Fellows"
-    ],
     "status": [
       "current"
     ],
     "current identities": [
       {
-        "id": 861,
-        "identity group": "current",
-        "identity": "jeffrey-moro-current-861",
-        "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
-        "slug": "jeffrey-moro-861",
-        "date span": "Research Fellow, AADHum, 2021",
+        "title": "Research Fellow, AADHum",
+        "department": "MITH",
+        "institution": "University of Maryland",
         "start": 2021,
         "linked person": [
           "rect4XPdHKVIk2cPn"
         ],
+        "linked people as current": [
+          "rect4XPdHKVIk2cPn"
+        ],
+        "id": 861,
+        "identity": "jeffrey-moro-current-861",
+        "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
+        "slug": "jeffrey-moro-861",
+        "date span": "Research Fellow, AADHum, 2021",
         "person name": [
           "Jeffrey Moro"
         ],
         "linked person bio": [
           "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland. His interdisciplinary research explores how media technologies facilitate our cultural understanding of the natural world. He works as a research assistant with the African American History, Culture, and Digital Humanities (AADHum) Initiative at the Maryland Institute for Technology in the Humanities, where he previously served as their Winnemore Digital Humanities Dissertation Fellow. His dissertation, “Atmospheric Media: Computation and the Environmental Imagination,” is a cultural study of atmospheric data, exploring the technologies that record it, the creative and critical uses to which it’s put, and its role in addressing our climate crisis. His writing has appeared in Media Fields, Amodern, ISLE, Qui Parle, and the Los Angeles Review of Books. Past lives include work as site manager for Romantic Circles, a born-digital journal of Romantic Literature, and as Post-Baccalaureate Resident with Five College Digital Humanities. He holds BAs in English and Theater & Dance from Amherst College. "
         ],
+        "identity group": "current",
         "headshot": [
           {
             "id": "attcLD6hAgr9IUkIe",
@@ -21992,12 +22052,6 @@
               }
             }
           }
-        ],
-        "title": "Research Fellow, AADHum",
-        "department": "MITH",
-        "institution": "University of Maryland",
-        "linked people as current": [
-          "rect4XPdHKVIk2cPn"
         ],
         "person group": [
           "current"

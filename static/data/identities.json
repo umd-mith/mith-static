@@ -5786,21 +5786,24 @@
   {
     "title": "MITH Affiliate Assistant Professor",
     "start": 2021,
+    "linked person": [
+      "recKebgqP0nkoWAte"
+    ],
     "group": [
       "recLGWBbAoT1l1tfN"
     ],
+    "linked people as current": [
+      "recKebgqP0nkoWAte"
+    ],
     "id": 860,
-    "identity group": "current",
     "identity": "masha-solomon-current-860",
     "full affiliation": "MITH Affiliate Assistant Professor",
     "slug": "masha-solomon-860",
     "date span": "MITH Affiliate Assistant Professor, 2021",
-    "linked person": [
-      "recKebgqP0nkoWAte"
-    ],
     "person name": [
       "Maria Beliaeva Solomon"
     ],
+    "identity group": "current",
     "headshot": [
       {
         "id": "attkC75ICBnQ7KYZA",
@@ -5828,9 +5831,6 @@
           }
         }
       }
-    ],
-    "linked people as current": [
-      "recKebgqP0nkoWAte"
     ],
     "person_slug": "masha-solomon"
   },
@@ -9427,6 +9427,7 @@
   {
     "title": "Associate Professor of History",
     "institution": "University of Maryland",
+    "end": 2021,
     "linked person": [
       "recibUxoBhGVXDkP9"
     ],
@@ -9470,7 +9471,6 @@
         }
       }
     ],
-    "end": 2021,
     "person_slug": "daryle-williams"
   },
   {
@@ -13728,6 +13728,60 @@
     "person_slug": "paul-e-ceruzzi"
   },
   {
+    "id": 862,
+    "identity group": "current",
+    "identity": "marisa-parham-current-862",
+    "full affiliation": "Professor, English, University of Maryland",
+    "slug": "marisa-parham-862",
+    "linked person": [
+      "rec4GSBjn9Pccdx9h"
+    ],
+    "person name": [
+      "Marisa Parham"
+    ],
+    "linked person bio": [
+      "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst."
+    ],
+    "headshot": [
+      {
+        "id": "attBTIP6EbdsSocQo",
+        "width": 400,
+        "height": 400,
+        "url": "https://dl.airtable.com/.attachments/f2863fe1381d49b08c672e7ce30ca610/1647cdde/marisa-parham.jpg",
+        "filename": "marisa-parham.jpg",
+        "size": 31421,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/25a8aab0a2e8ffd1f9f1b6dfdc475c2f/de45c46d",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5eb69ce725a115be5c6dbfbb479fa8f9/9861c6e6",
+            "width": 400,
+            "height": 400
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7391b39b8de86c15975377dd1b7e5d80/ef9f0410",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "person group": [
+      "current"
+    ],
+    "title": "Professor",
+    "institution": "University of Maryland",
+    "department": "English",
+    "linked people as current": [
+      "rec4GSBjn9Pccdx9h"
+    ],
+    "person_slug": "marisa-parham"
+  },
+  {
     "title": "Program Associate",
     "department": "MITH",
     "institution": "University of Maryland",
@@ -17543,6 +17597,7 @@
     "department": "MITH",
     "institution": "University of Maryland",
     "start": 2020,
+    "end": 2021,
     "linked person": [
       "rect4XPdHKVIk2cPn"
     ],
@@ -17587,7 +17642,6 @@
         }
       }
     ],
-    "end": 2021,
     "person group": [
       "current"
     ],
@@ -17821,22 +17875,28 @@
     "person_slug": "emad-khazraee"
   },
   {
-    "id": 861,
-    "identity group": "current",
-    "identity": "jeffrey-moro-current-861",
-    "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
-    "slug": "jeffrey-moro-861",
-    "date span": "Research Fellow, AADHum, 2021",
+    "title": "Research Fellow, AADHum",
+    "department": "MITH",
+    "institution": "University of Maryland",
     "start": 2021,
     "linked person": [
       "rect4XPdHKVIk2cPn"
     ],
+    "linked people as current": [
+      "rect4XPdHKVIk2cPn"
+    ],
+    "id": 861,
+    "identity": "jeffrey-moro-current-861",
+    "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
+    "slug": "jeffrey-moro-861",
+    "date span": "Research Fellow, AADHum, 2021",
     "person name": [
       "Jeffrey Moro"
     ],
     "linked person bio": [
       "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland. His interdisciplinary research explores how media technologies facilitate our cultural understanding of the natural world. He works as a research assistant with the African American History, Culture, and Digital Humanities (AADHum) Initiative at the Maryland Institute for Technology in the Humanities, where he previously served as their Winnemore Digital Humanities Dissertation Fellow. His dissertation, “Atmospheric Media: Computation and the Environmental Imagination,” is a cultural study of atmospheric data, exploring the technologies that record it, the creative and critical uses to which it’s put, and its role in addressing our climate crisis. His writing has appeared in Media Fields, Amodern, ISLE, Qui Parle, and the Los Angeles Review of Books. Past lives include work as site manager for Romantic Circles, a born-digital journal of Romantic Literature, and as Post-Baccalaureate Resident with Five College Digital Humanities. He holds BAs in English and Theater & Dance from Amherst College. "
     ],
+    "identity group": "current",
     "headshot": [
       {
         "id": "attcLD6hAgr9IUkIe",
@@ -17864,12 +17924,6 @@
           }
         }
       }
-    ],
-    "title": "Research Fellow, AADHum",
-    "department": "MITH",
-    "institution": "University of Maryland",
-    "linked people as current": [
-      "rect4XPdHKVIk2cPn"
     ],
     "person group": [
       "current"
@@ -25753,6 +25807,7 @@
     "department": "MITH",
     "institution": "University of Maryland",
     "start": 2018,
+    "end": 2021,
     "linked person": [
       "recibUxoBhGVXDkP9"
     ],
@@ -25794,7 +25849,6 @@
         }
       }
     ],
-    "end": 2021,
     "person_slug": "daryle-williams"
   },
   {
@@ -30495,6 +30549,7 @@
     "title": "Associate Dean for Faculty Affairs",
     "department": "ARHU",
     "institution": "University of Maryland",
+    "end": 2021,
     "linked person": [
       "recibUxoBhGVXDkP9"
     ],
@@ -30535,7 +30590,6 @@
         }
       }
     ],
-    "end": 2021,
     "person_slug": "daryle-williams"
   },
   {
