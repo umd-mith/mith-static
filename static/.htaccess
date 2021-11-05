@@ -19,6 +19,8 @@ RewriteRule ^mto/(.*)$ http://dougreside.com/mto/$1 [R=301,L]
 RewriteRule ^digital-dialogues/podcast/(.*)$ http://digital-dialogues.s3-website-us-east-1.amazonaws.com/podcast.xml [R=302,L]
 RewriteRule ^ema/(.*)$ http://ema.mith.us/$1 [R=302,L]
 RewriteRule ^minimaldigipub /minimaldigipub/
+RewriteRule ^airwaves/(.*)$ https://www.unlockingtheairwaves.org/$1 [R=301,L]
+RewriteRule ^airwaves$ https://www.unlockingtheairwaves.org/ [R=301,L]
 
 # These are things that moved around within mith.umd.edu under wordpress.
 
