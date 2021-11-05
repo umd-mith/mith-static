@@ -181,6 +181,9 @@
     ],
     "year start": 2013,
     "month start": 1,
+    "end": "1/11/2013",
+    "year end": 2013,
+    "month end": 1,
     "participants": [
       {
         "affiliations": [
@@ -1978,6 +1981,9 @@
     ],
     "year start": 2002,
     "month start": 4,
+    "end": "06/30/2005",
+    "year end": 2005,
+    "month end": 6,
     "participants": [
       {
         "affiliations": [
@@ -2410,6 +2416,9 @@
     ],
     "year start": 2016,
     "month start": 4,
+    "end": "4/21/2016",
+    "year end": 2016,
+    "month end": 4,
     "participants": [
       {
         "affiliations": [
@@ -3350,6 +3359,9 @@
     ],
     "year start": 2013,
     "month start": 4,
+    "end": "8/30/2013",
+    "year end": 2013,
+    "month end": 8,
     "participants": [
       {
         "affiliations": [
@@ -4958,6 +4970,9 @@
     ],
     "year start": 2012,
     "month start": 11,
+    "end": "11/3/2012",
+    "year end": 2012,
+    "month end": 11,
     "participants": [
       {
         "affiliations": [
@@ -6344,6 +6359,9 @@
     ],
     "year start": 2009,
     "month start": 6,
+    "end": "6/30/2009",
+    "year end": 2009,
+    "month end": 6,
     "participants": [
       {
         "affiliations": [
@@ -7881,6 +7899,9 @@
     ],
     "year start": 1997,
     "month start": 1,
+    "end": "06/30/2005",
+    "year end": 2005,
+    "month end": 6,
     "participants": [],
     "directors": [
       {
@@ -11072,6 +11093,9 @@
     ],
     "year start": 2004,
     "month start": 4,
+    "end": "4/4/2004",
+    "year end": 2004,
+    "month end": 4,
     "participants": [],
     "directors": [],
     "links": [],
@@ -12489,7 +12513,7 @@
     "slug": "documenting-the-now-supporting-scholarly-use-and-preservation-of-social-media-content",
     "excerpt": "Documenting the Now responds to the public's use of social media for chronicling historically significant events as well as demand from scholars and archivists seeking a user-friendly means of collecting and preserving digital content. \n",
     "start": "1/1/2016",
-    "end": "12/1/2017",
+    "end": "09/30/2021",
     "linked links": [
       "rechY6B5zwFSGKE1P",
       "recnTtjTmUiaNlR6v"
@@ -12877,9 +12901,9 @@
       }
     ],
     "year start": 2016,
-    "year end": 2017,
+    "year end": 2021,
     "month start": 1,
-    "month end": 12,
+    "month end": 9,
     "participants": [
       {
         "affiliations": [
@@ -14171,6 +14195,9 @@
     ],
     "year start": 2008,
     "month start": 1,
+    "end": "12/31/2008",
+    "year end": 2008,
+    "month end": 12,
     "participants": [
       {
         "affiliations": [
@@ -15647,6 +15674,9 @@
     ],
     "year start": 2012,
     "month start": 9,
+    "end": "9/1/2012",
+    "year end": 2012,
+    "month end": 9,
     "participants": [],
     "directors": [
       {
@@ -18002,6 +18032,9 @@
     ],
     "year start": 2013,
     "month start": 10,
+    "end": "10/1/2013",
+    "year end": 2013,
+    "month end": 10,
     "participants": [
       {
         "affiliations": [
@@ -18425,6 +18458,9 @@
     ],
     "year start": 2014,
     "month start": 1,
+    "end": "1/30/2014",
+    "year end": 2014,
+    "month end": 1,
     "participants": [],
     "directors": [
       {
@@ -21058,7 +21094,7 @@
       {
         "affiliations": [
           {
-            "title": "Assistant Director of Finance and Administration",
+            "title": "Assistant Director for Finance and Administration",
             "department": "MITH",
             "institution": "University of Maryland"
           }
@@ -22213,6 +22249,9 @@
     ],
     "year start": 2006,
     "month start": 4,
+    "end": "12/31/2018",
+    "year end": 2018,
+    "month end": 12,
     "participants": [],
     "directors": [
       {
@@ -24425,7 +24464,7 @@
     "title": "Personal Digital Archiving 2013",
     "slug": "pda-2013",
     "excerpt": "PDA provides a two-day-long opportunity for researchers and practitioners in the field of personal archiving to convene for presentations and networking. The conference supports a broad community of practitioners working to ensure long term access for various personal collections and archives.\n",
-    "start": "1/1/2013",
+    "start": "2/21/2013",
     "linked links": [
       "recLdoeLzHlBn9134"
     ],
@@ -24697,7 +24736,10 @@
       }
     ],
     "year start": 2013,
-    "month start": 1,
+    "month start": 2,
+    "end": "2/22/2013",
+    "year end": 2013,
+    "month end": 2,
     "participants": [
       {
         "affiliations": [
@@ -25265,6 +25307,9 @@
     ],
     "year start": 2016,
     "month start": 10,
+    "end": "10/1/2016",
+    "year end": 2016,
+    "month end": 10,
     "participants": [
       {
         "affiliations": [
@@ -25288,7 +25333,7 @@
       {
         "affiliations": [
           {
-            "title": "Assistant Director of Innovation and Learning",
+            "title": "Assistant Director for Innovation and Learning",
             "department": "MITH",
             "institution": "University of Maryland"
           }
@@ -28142,6 +28187,9 @@
     ],
     "year start": 2006,
     "month start": 1,
+    "end": "06/30/2008",
+    "year end": 2008,
+    "month end": 6,
     "participants": [],
     "directors": [
       {
@@ -31357,6 +31405,9 @@
     ],
     "year start": 2011,
     "month start": 2,
+    "end": "2/28/2011",
+    "year end": 2011,
+    "month end": 2,
     "participants": [
       {
         "affiliations": [
@@ -34081,6 +34132,9 @@
     ],
     "year start": 2004,
     "month start": 4,
+    "end": "4/1/2004",
+    "year end": 2004,
+    "month end": 4,
     "participants": [
       {
         "affiliations": [
@@ -36120,6 +36174,9 @@
     ],
     "year start": 2010,
     "month start": 5,
+    "end": "12/31/2010",
+    "year end": 2010,
+    "month end": 12,
     "participants": [],
     "directors": [
       {
@@ -37231,6 +37288,9 @@
     ],
     "year start": 2007,
     "month start": 5,
+    "end": "5/31/2007",
+    "year end": 2007,
+    "month end": 5,
     "participants": [
       {
         "affiliations": [
@@ -39003,6 +39063,9 @@
     ],
     "year start": 2002,
     "month start": 2,
+    "end": "2/25/2002",
+    "year end": 2002,
+    "month end": 2,
     "participants": [
       {
         "affiliations": [
@@ -40985,6 +41048,9 @@
     ],
     "year start": 2013,
     "month start": 5,
+    "end": "5/31/2013",
+    "year end": 2013,
+    "month end": 5,
     "participants": [],
     "directors": [
       {
@@ -57151,6 +57217,9 @@
     ],
     "year start": 2018,
     "month start": 5,
+    "end": "5/25/2018",
+    "year end": 2018,
+    "month end": 5,
     "participants": [],
     "directors": [],
     "links": [
@@ -60888,6 +60957,9 @@
     ],
     "year start": 2004,
     "month start": 11,
+    "end": "11/18/2004",
+    "year end": 2004,
+    "month end": 11,
     "participants": [],
     "directors": [
       {
@@ -61181,6 +61253,9 @@
     ],
     "year start": 2005,
     "month start": 12,
+    "end": "06/30/2017",
+    "year end": 2017,
+    "month end": 6,
     "participants": [],
     "directors": [
       {
@@ -61384,6 +61459,9 @@
     ],
     "year start": 2002,
     "month start": 9,
+    "end": "12/31/2002",
+    "year end": 2002,
+    "month end": 12,
     "participants": [],
     "directors": [
       {
@@ -64901,7 +64979,7 @@
       {
         "affiliations": [
           {
-            "title": "Assistant Director of Innovation and Learning",
+            "title": "Assistant Director for Innovation and Learning",
             "department": "MITH",
             "institution": "University of Maryland"
           }
@@ -69497,6 +69575,9 @@
     ],
     "year start": 2011,
     "month start": 1,
+    "end": "12/31/2011",
+    "year end": 2011,
+    "month end": 12,
     "participants": [
       {
         "affiliations": [
@@ -71266,6 +71347,9 @@
     ],
     "year start": 2000,
     "month start": 9,
+    "end": "5/31/2001",
+    "year end": 2001,
+    "month end": 5,
     "participants": [
       {
         "affiliations": [
@@ -73203,6 +73287,7 @@
         "post title": "On Forks and Completion: Reflections on a Five-year Digital Humanities Project",
         "author": "stephanie-sapienza",
         "author name": "Stephanie Sapienza",
+        "post date": "2021-07-29T13:00:00.000Z",
         "tags": [
           "Unlocking the Airwaves",
           "Research"
@@ -73210,8 +73295,7 @@
         "record id": "recWFRliAQbiUmYCT",
         "linked research": [
           "recvR6EgsUHNU7q27"
-        ],
-        "post date": "2021-07-29T13:00:00.000Z"
+        ]
       }
     ]
   },
@@ -73613,6 +73697,9 @@
     ],
     "year start": 2016,
     "month start": 4,
+    "end": "4/25/2016",
+    "year end": 2016,
+    "month end": 4,
     "participants": [
       {
         "affiliations": [
@@ -74180,7 +74267,6 @@
     "slug": "aadhum",
     "excerpt": "African American History, Culture and Digital Humanities (AADHum) was awarded to the College of Arts and Humanities (ARHU) and is being co-directed by MITH and the Arts and Humanities Center for Synergy (Center for Synergy). The project was funded by a $1.25 million grant from the Andrew W. Mellon Foundation for research, education and training at the intersections of digital humanities and African American studies, and will help to prepare a diverse community of scholars and students whose work will both broaden the reach of the digital humanities in African American history and cultural studies, and enrich humanities research with new methods, archives and tools.\n",
     "start": "1/1/2016",
-    "end": "12/1/2018",
     "linked links": [
       "recn5thOYqNnmeVsL",
       "recZjuz7B74blmBz4",
@@ -74751,9 +74837,7 @@
       }
     ],
     "year start": 2016,
-    "year end": 2018,
     "month start": 1,
-    "month end": 12,
     "participants": [
       {
         "affiliations": [
@@ -74832,7 +74916,7 @@
       {
         "affiliations": [
           {
-            "title": "Assistant Director of Innovation and Learning",
+            "title": "Assistant Director for Innovation and Learning",
             "department": "MITH",
             "institution": "University of Maryland"
           }
@@ -76685,6 +76769,9 @@
     ],
     "year start": 2017,
     "month start": 4,
+    "end": "3/2/2018",
+    "year end": 2018,
+    "month end": 3,
     "participants": [
       {
         "affiliations": [
@@ -76709,7 +76796,7 @@
       {
         "affiliations": [
           {
-            "title": "Assistant Director of Innovation and Learning",
+            "title": "Assistant Director for Innovation and Learning",
             "department": "MITH",
             "institution": "University of Maryland"
           }

@@ -1663,7 +1663,8 @@
     "linked identities": [],
     "identities as current": [
       "recHZYBFvQwt6bxPo",
-      "recsUKkYafsJMfBoq"
+      "recsUKkYafsJMfBoq",
+      "recSLHbWF4Cjhsq1F"
     ],
     "name": "Marisa Parham",
     "group type": [
@@ -1673,7 +1674,7 @@
     "slug": "marisa-parham",
     "slug formula": "marisa-parham",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-04-15T20:10:24.000Z",
+    "modified": "2021-10-22T12:57:58.000Z",
     "record_id": "rec4GSBjn9Pccdx9h",
     "status": [
       "current"
@@ -1798,6 +1799,59 @@
         ],
         "person group": [
           "current"
+        ]
+      },
+      {
+        "id": 862,
+        "identity group": "current",
+        "identity": "marisa-parham-current-862",
+        "full affiliation": "Professor, English, University of Maryland",
+        "slug": "marisa-parham-862",
+        "linked person": [
+          "rec4GSBjn9Pccdx9h"
+        ],
+        "person name": [
+          "Marisa Parham"
+        ],
+        "linked person bio": [
+          "Marisa Parham is Visiting Professor of English at the University of Maryland, where she serves as director for the African American Digital Humanities initiative (AADHUM), and is the associate director for the Maryland Institute for Technology in the Humanities (MITH). She also co-directs the Immersive Realities Lab for the Humanities, which is an independent workgroup for digital and experimental humanities (irLhumanities).\nParham’s current teaching and research projects focus on texts and technologies that problematize assumptions about time, space, and bodily materiality. She is particularly interested in how such terms share a history of increasing complexity in literary and cultural texts produced by African Americans, and how they also offer ways of thinking about intersectional approaches to digital humanities and technology studies. Recently published examples of this work include “Sample | Signal | Strobe: Haunting, Social Media, and Black Digitality,” and the interactive longform scholarly essays .break .dance, and Breaking, dancing, making in the machine. She is currently developing Black Haints in the Anthropocene, a book-length interactive project that focuses on memory, haunting, digitality, and Black environmental experience.\nParham holds a PhD in English and Comparative Literature from Columbia University, and is the author of Haunting and Displacement in African-American Literature and Culture, The African-American Student’s Guide to College, and is co-editor of Theorizing Glissant: Sites and Citations. She has also carried fellowships and residencies at the Huntington Library, The WEB DuBois Center at Harvard University, and the School for Criticism and Theory. From 2001 – 2020 she served as Professor of English, Faculty Diversity and Inclusion officer, and Mellon Mays program advisor at Amherst College, where in 2018 she was awarded the Jeffrey B. Ferguson Teaching award. She is also a former director (2013-2017) of Five College Digital Humanities, serving Amherst, Hampshire, Mt. Holyoke, and Smith Colleges, and University of Massachusetts-Amherst."
+        ],
+        "headshot": [
+          {
+            "id": "attBTIP6EbdsSocQo",
+            "width": 400,
+            "height": 400,
+            "url": "https://dl.airtable.com/.attachments/f2863fe1381d49b08c672e7ce30ca610/1647cdde/marisa-parham.jpg",
+            "filename": "marisa-parham.jpg",
+            "size": 31421,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/25a8aab0a2e8ffd1f9f1b6dfdc475c2f/de45c46d",
+                "width": 36,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/5eb69ce725a115be5c6dbfbb479fa8f9/9861c6e6",
+                "width": 400,
+                "height": 400
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/7391b39b8de86c15975377dd1b7e5d80/ef9f0410",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "person group": [
+          "current"
+        ],
+        "title": "Professor",
+        "institution": "University of Maryland",
+        "department": "English",
+        "linked people as current": [
+          "rec4GSBjn9Pccdx9h"
         ]
       }
     ]
@@ -2826,7 +2880,7 @@
         }
       }
     ],
-    "title": "Graduate Assistant, AADHum",
+    "title": "Research Fellow, AADHum ",
     "department": "MITH",
     "institution": "University of Maryland",
     "bio": "Christin Washington is a Graduate Assistant for the African-American History, Culture, and Digital Humanities center (AADHUM), first year PhD student in the Department of American Studies, and Flagship Fellow at the University of Maryland, College Park. She is also a member of the Immersive Realities Lab for the Humanities (irLh).\nFocusing on digitality’s place in Black and American life, she explores how digital technologies stretch and remodel the present limits of storytelling and memorialization, warp time, shrink space, and democratize resources. She remains attuned to the ways it can reproduce marginalization and obstruct access in the United States. As a result, she feels called to helping create digital tools that are equitable and humanistic at its core.\nPrior to joining the team, Christin was a Community Partnerships Associate at DonorsChoose, an edtech company that provides learning materials to public school students across the United States. Christin is an alumna of Amherst College where she received a B.A. with the highest distinction in Black Studies and Political Science.\n",
@@ -2848,14 +2902,14 @@
     "slug": "christin-washington",
     "slug formula": "christin-washington",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-10-21T14:26:48.000Z",
     "record_id": "rec7Cf1wiymlfSECF",
     "status": [
       "current"
     ],
     "current identities": [
       {
-        "title": "Graduate Assistant, AADHum",
+        "title": "Research Fellow, AADHum",
         "department": "MITH",
         "institution": "University of Maryland",
         "start": 2020,
@@ -2872,9 +2926,9 @@
         "person bio": "Christin Washington is a Graduate Assistant for the African-American History, Culture, and Digital Humanities center (AADHUM), first year PhD student in the Department of American Studies, and Flagship Fellow at the University of Maryland, College Park. She is also a member of the Immersive Realities Lab for the Humanities (irLh).\nFocusing on digitality’s place in Black and American life, she explores how digital technologies stretch and remodel the present limits of storytelling and memorialization, warp time, shrink space, and democratize resources. She remains attuned to the ways it can reproduce marginalization and obstruct access in the United States. As a result, she feels called to helping create digital tools that are equitable and humanistic at its core.\nPrior to joining the team, Christin was a Community Partnerships Associate at DonorsChoose, an edtech company that provides learning materials to public school students across the United States. Christin is an alumna of Amherst College where she received a B.A. with the highest distinction in Black Studies and Political Science.\n",
         "identity id": 1,
         "identity": "christin-washington-current-458",
-        "full affiliation": "Graduate Assistant, AADHum, MITH, University of Maryland",
+        "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
         "slug": "christin-washington-458",
-        "date span": "Graduate Assistant, AADHum, 2020",
+        "date span": "Research Fellow, AADHum, 2020",
         "person name": [
           "Christin Washington"
         ],
@@ -7235,7 +7289,7 @@
         }
       }
     ],
-    "title": "Postdoctoral Associate for Data Curation, AADHum/MITH",
+    "title": "Postdoctoral Associate for Data Curation",
     "department": "MITH",
     "institution": "University of Maryland",
     "bio": "Francena Turner is a CLIR Fellow and Postdoctoral Associate for Data Curation in African American History and Culture for the University of Maryland Restorative Justice Project where her archival and oral history work sits at the intersection of African American History, Culture, and Digital Humanities (AADHum), oral history, and the University of Maryland Libraries faculty.\nFrancena uses oral history methodology as excavation work in an effort to bridge the past and present. That is, her research has a decidedly social justice centered purpose and end goal. Her research interests include histories of Black education, Black women’s higher education, activist scholars, Black Feminisms. She is most interested in historical and contemporary issues of equity, agency, and thriving in education. In her dissertation research for example, she used oral history methodology to explore the organizing and activism experiences of Black women who attended a Southeastern historically Black university during the Civil Rights/Black Power Era. Such scholarship provides valuable information and possibilities for current organizers and activists.\nTurner holds a Ph.D. in Education Policy, Organization & Leadership with a concentration in History of Education from the University of Illinois at Urbana-Champaign and degrees from Fayetteville State University (B.A. History) and Fayetteville Technical Community College (A.A.S. Respiratory Care, General Education).\n",
@@ -7258,14 +7312,14 @@
     "slug": "francena-turner",
     "slug formula": "francena-turner",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-10-21T14:39:14.000Z",
     "record_id": "recJw6zduU3Qsq1VG",
     "status": [
       "current"
     ],
     "current identities": [
       {
-        "title": "Postdoctoral Associate for Data Curation, AADHum/MITH",
+        "title": "Postdoctoral Associate for Data Curation",
         "department": "Maryland Institute for Technology in the Humanities",
         "institution": "University of Maryland",
         "start": 2020,
@@ -7282,9 +7336,9 @@
         "person bio": "Francena Turner is a CLIR Fellow and Postdoctoral Associate for Data Curation in African American History and Culture for the University of Maryland Restorative Justice Project where her archival and oral history work sits at the intersection of African American History, Culture, and Digital Humanities (AADHum), oral history, and the University of Maryland Libraries faculty.\nFrancena uses oral history methodology as excavation work in an effort to bridge the past and present. That is, her research has a decidedly social justice centered purpose and end goal. Her research interests include histories of Black education, Black women’s higher education, activist scholars, Black Feminisms. She is most interested in historical and contemporary issues of equity, agency, and thriving in education. In her dissertation research for example, she used oral history methodology to explore the organizing and activism experiences of Black women who attended a Southeastern historically Black university during the Civil Rights/Black Power Era. Such scholarship provides valuable information and possibilities for current organizers and activists.\nTurner holds a Ph.D. in Education Policy, Organization & Leadership with a concentration in History of Education from the University of Illinois at Urbana-Champaign and degrees from Fayetteville State University (B.A. History) and Fayetteville Technical Community College (A.A.S. Respiratory Care, General Education).\n",
         "identity id": 1,
         "identity": "francena-turner-current-445",
-        "full affiliation": "Postdoctoral Associate for Data Curation, AADHum/MITH, Maryland Institute for Technology in the Humanities, University of Maryland",
+        "full affiliation": "Postdoctoral Associate for Data Curation, Maryland Institute for Technology in the Humanities, University of Maryland",
         "slug": "francena-turner-445",
-        "date span": "Postdoctoral Associate for Data Curation, AADHum/MITH, 2020",
+        "date span": "Postdoctoral Associate for Data Curation, 2020",
         "person name": [
           "Francena Turner"
         ],
@@ -7497,6 +7551,7 @@
         }
       }
     ],
+    "title": "Assistant Professor of French and Francophone Studies + MITH Affiliate Assistant Professor",
     "bio external": "http://sllc.umd.edu/user/mbelsol",
     "email": "mbelsol@umd.edu",
     "website": "http://sllc.umd.edu/user/mbelsol",
@@ -7506,7 +7561,8 @@
     "new id": 625,
     "linked identities": [],
     "identities as current": [
-      "recffYfcMdlNYwq67"
+      "recffYfcMdlNYwq67",
+      "recAfxHvyYH0cyGTm"
     ],
     "name": "Maria Beliaeva Solomon",
     "group type": [
@@ -7515,7 +7571,7 @@
     "slug": "masha-solomon",
     "slug formula": "maria-beliaeva-solomon",
     "created": "2021-06-02T15:16:31.000Z",
-    "modified": "2021-06-10T15:46:16.000Z",
+    "modified": "2021-10-21T14:31:16.000Z",
     "record_id": "recKebgqP0nkoWAte",
     "current identities": [
       {
@@ -7537,6 +7593,56 @@
         "full affiliation": "Assistant Professor, French and Francophone Studies, University of Maryland",
         "slug": "masha-solomon-857",
         "date span": "Assistant Professor, 2020",
+        "person name": [
+          "Maria Beliaeva Solomon"
+        ],
+        "identity group": "current",
+        "headshot": [
+          {
+            "id": "attkC75ICBnQ7KYZA",
+            "width": 449,
+            "height": 582,
+            "url": "https://dl.airtable.com/.attachments/74576df75f5af72d8ff2062c51736a03/a2b11a26/beliaeva_solomon.jpg",
+            "filename": "beliaeva_solomon.jpg",
+            "size": 103546,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/8a15eb0b85746ebaea95f5859d78e346/c0642809",
+                "width": 28,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/cef55fde4d5958110e0fb646ddfd1b8e/fc006e41",
+                "width": 449,
+                "height": 582
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/25647a766866335160b0fb8659b0908c/5682d6f0",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "MITH Affiliate Assistant Professor",
+        "start": 2021,
+        "linked person": [
+          "recKebgqP0nkoWAte"
+        ],
+        "group": [
+          "recLGWBbAoT1l1tfN"
+        ],
+        "linked people as current": [
+          "recKebgqP0nkoWAte"
+        ],
+        "id": 860,
+        "identity": "masha-solomon-current-860",
+        "full affiliation": "MITH Affiliate Assistant Professor",
+        "slug": "masha-solomon-860",
+        "date span": "MITH Affiliate Assistant Professor, 2021",
         "person name": [
           "Maria Beliaeva Solomon"
         ],
@@ -11352,7 +11458,7 @@
     ],
     "current identities": [
       {
-        "title": "Assistant Director of Finance and Administration",
+        "title": "Assistant Director for Finance and Administration",
         "department": "MITH",
         "institution": "University of Maryland",
         "linked person": [
@@ -11371,7 +11477,7 @@
         "person bio": "As Assistant Director for Finance and Administration, Grace Babukiika is responsible for the direction, execution and management of the unit’s business, personnel, and research administration functions. This includes strategic planning as part of the management team, direct oversight of human resource and personnel activities, budget formulation and execution, payroll administration, procurement; facilities and space management; supervision of administrative personnel and students; and review of University and sponsored research reporting. Ms. Babukiika has an extensive background in Accounting and Finance. Prior to joining MITH in 2014, Ms. Babukiika gained University experience by working as a Business Services Coordinator and Business Manager at the University of Maryland, College Park and as an Accountant at the University of New Haven. She has also held senior-level financial positions in Banking and Manufacturing firms. Ms. Babukiika holds an M.B.A. from Southern Connecticut State University and a B.B.A. from Baruch College, City University of New York.\n",
         "identity id": 1,
         "identity": "grace-babukiika-current-12",
-        "full affiliation": "Assistant Director of Finance and Administration, MITH, University of Maryland",
+        "full affiliation": "Assistant Director for Finance and Administration, MITH, University of Maryland",
         "slug": "grace-babukiika-12",
         "person name": [
           "Grace Babukiika"
@@ -13271,7 +13377,7 @@
     ],
     "current identities": [
       {
-        "title": "Assistant Director of Innovation and Learning",
+        "title": "Assistant Director for Innovation and Learning",
         "department": "MITH",
         "institution": "University of Maryland",
         "linked person": [
@@ -13297,7 +13403,7 @@
         ],
         "person bio": "Purdom Lindblad is the Assistant Director of Innovation and Learning at MITH. She coordinates MITH’s growing portfolio of courses and instructional programs and is a member of the AADHum (Synergies Among Digital Humanities and African American History and Culture) team.\nPurdom has an MA in American Studies from Michigan State University and an MS in Information Science from the [School of Information](https://www.si.umich.edu/), University of Michigan. Interested in digital humanities since graduate school, Purdom has worked at Michigan State University’s [Matrix](http://www2.matrix.msu.edu/), [Virginia Tech Libraries](http://www.lib.vt.edu/), and the [Scholars’ Lab ](http://scholarslab.org/)at the University of Virginia Library.\nPurdom is broadly interested in the implicit and explicit effort that digital humanities can do for social, cultural, and environmental justice. Applying principles from Feminist Interface Design, Purdom and her Scholars’ Lab colleague [Jeremy Boggs](http://scholarslab.org/people/jeremy-boggs/), explore how the process of feature development and public documentation shape the experience of users and render the theoretical underpinnings of digital work more accessible. Recent publications include [Praxis](https://digitalpedagogy.commons.mla.org/keywords/praxis/), a keyword in the MLA Commons Digital Pedagogy in the Humanities: Concepts, Models, and Experiments written with [Bethany Nowviskie](http://nowviskie.org/) and Jeremy Boggs as well as a chapter in [Making Humanities Matter](https://github.com/jentery/mhm), edited by Jentery Sayers.\n",
         "identity": "purdom-lindblad-current-265",
-        "full affiliation": "Assistant Director of Innovation and Learning, MITH, University of Maryland",
+        "full affiliation": "Assistant Director for Innovation and Learning, MITH, University of Maryland",
         "slug": "purdom-lindblad-265",
         "person name": [
           "Purdom Lindblad"
@@ -14369,8 +14475,8 @@
     "twitter": "CollardStudies",
     "linked events": "dd-fall-2018-aleia-brown",
     "people groups": [
-      "Directors",
-      "Speaker"
+      "Speaker",
+      "Past Directors"
     ],
     "sort": 3,
     "wordpress nicename": "ambrown",
@@ -14383,90 +14489,21 @@
       {
         "title": "Assistant Director, African American History, Culture and Digital Humanities (AADHum) Initiative",
         "start": 2019,
-        "end": 2019,
+        "end": 2021,
         "id": 50
       }
     ],
-    "identities as current": [
-      "recdLVXnTmSEkJQzi"
-    ],
     "name": "Aleia Brown",
     "group type": [
-      "Staff",
-      "External"
+      "External",
+      "Past"
     ],
     "slug": "aleia-brown",
     "slug formula": "aleia-brown",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-04-09T16:58:53.000Z",
+    "modified": "2021-10-21T14:25:27.000Z",
     "record_id": "recaHTd3vSFituxZw",
-    "status": [
-      "current"
-    ],
-    "current identities": [
-      {
-        "title": "Assistant Director, African American History, Culture and Digital Humanities (AADHum) Initiative",
-        "department": "MITH",
-        "institution": "University of Maryland",
-        "start": 2019,
-        "end": 2019,
-        "linked person": [
-          "recaHTd3vSFituxZw"
-        ],
-        "group": [
-          "reca7CXjhBhqjbvVe"
-        ],
-        "linked people as current": [
-          "recaHTd3vSFituxZw"
-        ],
-        "linked people as speaker/external": "aleia-brown",
-        "id": 50,
-        "person bio": "Aleia M. Brown serves as the Assistant Director of the African American History, Culture and Digital Humanities (AADHum) Initiative where she co-directs the Restorative Justice Project and leads research, teaching, and programmatic initiatives. She was the recipient of the 2017-2019 Mellon-ACLS public fellowship, working as program manager at the Humanities Action Lab at Rutgers University-Newark. There she launched the multi-media installation Climates of Inequality: Stories of Environmental Justice. As Curator of African American History and Culture at the Michigan State University Museum she worked with the Desmond & Leah Tutu Legacy Foundation in Cape Town, SA to co-curate the traveling exhibition Ubuntutu: Life Legacies of Love and Action, and co-author the companion catalog. She has written and given talks on her two digital projects #BlkTwitterstorians and #MuseumsRespondtoFerguson. The desire to surface how Black folks have imagined and crafted liberation animates her exploration in un/merging material culture and virtual environments.\nHer current manuscript in progress reckons with the historic mishandling of Black women’s textile art and illuminates the sophisticated ways that makers have visualized Black political thought.\nBrown holds a Ph.D. in Public History from Middle Tennessee State University, an M.A. in Public History from Northern Kentucky University, and a B.S. in History from the Honors College at Coppin State University.\n",
-        "identity id": 1,
-        "identity": "aleia-brown-current-50",
-        "full affiliation": "Assistant Director, African American History, Culture and Digital Humanities (AADHum) Initiative, MITH, University of Maryland",
-        "slug": "aleia-brown-50",
-        "date span": "Assistant Director, African American History, Culture and Digital Humanities (AADHum) Initiative, 2019 – 2019",
-        "person name": [
-          "Aleia Brown"
-        ],
-        "linked person bio": [
-          "Aleia M. Brown serves as the Assistant Director of the African American History, Culture and Digital Humanities (AADHum) Initiative where she co-directs the Restorative Justice Project and leads research, teaching, and programmatic initiatives. She was the recipient of the 2017-2019 Mellon-ACLS public fellowship, working as program manager at the Humanities Action Lab at Rutgers University-Newark. There she launched the multi-media installation Climates of Inequality: Stories of Environmental Justice. As Curator of African American History and Culture at the Michigan State University Museum she worked with the Desmond & Leah Tutu Legacy Foundation in Cape Town, SA to co-curate the traveling exhibition Ubuntutu: Life Legacies of Love and Action, and co-author the companion catalog. She has written and given talks on her two digital projects #BlkTwitterstorians and #MuseumsRespondtoFerguson. The desire to surface how Black folks have imagined and crafted liberation animates her exploration in un/merging material culture and virtual environments.\nHer current manuscript in progress reckons with the historic mishandling of Black women’s textile art and illuminates the sophisticated ways that makers have visualized Black political thought.\nBrown holds a Ph.D. in Public History from Middle Tennessee State University, an M.A. in Public History from Northern Kentucky University, and a B.S. in History from the Honors College at Coppin State University."
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "atttBfK9Oagl4X48H",
-            "width": 1000,
-            "height": 1000,
-            "url": "https://dl.airtable.com/.attachments/16487f6767ffaa2267ce1d1d830a6bc8/37792da0/aleia-brown.jpg",
-            "filename": "aleia-brown.jpg",
-            "size": 372806,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/fdbf3f1eb29e696bb2fd635f089fb9be/668e09f5",
-                "width": 36,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/acf6dd93a6c77e76ef4f28ccfd28c3de/660a7b29",
-                "width": 512,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/06e50e6367b4f4c2f4023d5e432f3742/1a09fbef",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ],
-        "person group": [
-          "current"
-        ]
-      }
-    ]
+    "current identities": []
   },
   {
     "id": "effie-kapsalis",
@@ -16233,86 +16270,22 @@
     "bio": "Susan L. Wiesner received her BA in Dance from Goucher College and her MA and PhD from the University of Surrey, England. Dr. Wiesner was granted two CLIR (Council for Library and Information Resources) postdoctoral fellowships to the University of Virginia and the University of North Carolina–Greensboro where she managed digital projects in the libraries and lectured in dance history and research methods. Her ongoing project, ARTeFACT, has been presented at several academic conferences (both Dance and Digital Humanities), been awarded an NEH Digital Start-up Grant, and has been featured in book chapters and journal articles. Dr. Wiesner was awarded an ACLS Digital Innovation Fellowship for 2011 to pursue research into movements representative of conceptual metaphor. She has conducted research into metadata and the development of ontologies for the performing arts using Digital Humanities methodologies and has developed a database of dance publications. A choreographer and dancer, Dr. Wiesner has presented her work in both the US and the UK, written as a dance critic, taught technique and theory at several universities, and continues to work with intersections of language and movement in an attempt to develop automated tagging of movement in dance film. Her current research focuses on movement and notation systems as a means of machine learning and transfer of data between artistic forms.\nIn her spare time, she works with adult dancers with special needs as she remains dedicated to the belief that all people can dance. Wiesner earned her Certification in Movement Analysis (CMA) from the Laban/Bartenieff Institute of Movement Studies and is the LIMS Archivist/Historian. At MITH, Wiesner is Principal Faculty Specialist for the Performing Arts where she works with the DocNow project and manages other projects which relate to the performing arts.\n",
     "email": "swiesner@umd.edu",
     "people groups": [
-      "Research Faculty + Staff"
+      "Past Research Faculty + Staff"
     ],
     "wordpress nicename": "susanwiesner",
     "new id": 10,
     "wordpress id": 20698,
     "linked identities": [],
-    "identities as current": [
-      "recXQXw5nIl5XZzPr"
-    ],
     "name": "Susan L. Wiesner",
     "group type": [
-      "Staff"
+      "Past"
     ],
     "slug": "susan-l-wiesner",
     "slug formula": "susan-l-wiesner",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-04-09T16:58:53.000Z",
+    "modified": "2021-10-21T14:24:30.000Z",
     "record_id": "receGG1TyCzvcyaFG",
-    "status": [
-      "current"
-    ],
-    "current identities": [
-      {
-        "title": "Principal Faculty Specialist for the Performing Arts",
-        "department": "MITH",
-        "institution": "University of Maryland",
-        "start": 2019,
-        "linked person": [
-          "receGG1TyCzvcyaFG"
-        ],
-        "linked people as current": [
-          "receGG1TyCzvcyaFG"
-        ],
-        "linked people as past": "susan-l-wiesner",
-        "id": 466,
-        "person bio": "Susan L. Wiesner received her BA in Dance from Goucher College and her MA and PhD from the University of Surrey, England. Dr. Wiesner was granted two CLIR (Council for Library and Information Resources) postdoctoral fellowships to the University of Virginia and the University of North Carolina–Greensboro where she managed digital projects in the libraries and lectured in dance history and research methods. Her ongoing project, ARTeFACT, has been presented at several academic conferences (both Dance and Digital Humanities), been awarded an NEH Digital Start-up Grant, and has been featured in book chapters and journal articles. Dr. Wiesner was awarded an ACLS Digital Innovation Fellowship for 2011 to pursue research into movements representative of conceptual metaphor. She has conducted research into metadata and the development of ontologies for the performing arts using Digital Humanities methodologies and has developed a database of dance publications. A choreographer and dancer, Dr. Wiesner has presented her work in both the US and the UK, written as a dance critic, taught technique and theory at several universities, and continues to work with intersections of language and movement in an attempt to develop automated tagging of movement in dance film. Her current research focuses on movement and notation systems as a means of machine learning and transfer of data between artistic forms.\nIn her spare time, she works with adult dancers with special needs as she remains dedicated to the belief that all people can dance. Wiesner earned her Certification in Movement Analysis (CMA) from the Laban/Bartenieff Institute of Movement Studies and is the LIMS Archivist/Historian. At MITH, Wiesner is Principal Faculty Specialist for the Performing Arts where she works with the DocNow project and manages other projects which relate to the performing arts.\n",
-        "identity": "susan-l-wiesner-current-466",
-        "full affiliation": "Principal Faculty Specialist for the Performing Arts, MITH, University of Maryland",
-        "slug": "susan-l-wiesner-466",
-        "date span": "Principal Faculty Specialist for the Performing Arts, 2019",
-        "person name": [
-          "Susan L. Wiesner"
-        ],
-        "linked person bio": [
-          "Susan L. Wiesner received her BA in Dance from Goucher College and her MA and PhD from the University of Surrey, England. Dr. Wiesner was granted two CLIR (Council for Library and Information Resources) postdoctoral fellowships to the University of Virginia and the University of North Carolina–Greensboro where she managed digital projects in the libraries and lectured in dance history and research methods. Her ongoing project, ARTeFACT, has been presented at several academic conferences (both Dance and Digital Humanities), been awarded an NEH Digital Start-up Grant, and has been featured in book chapters and journal articles. Dr. Wiesner was awarded an ACLS Digital Innovation Fellowship for 2011 to pursue research into movements representative of conceptual metaphor. She has conducted research into metadata and the development of ontologies for the performing arts using Digital Humanities methodologies and has developed a database of dance publications. A choreographer and dancer, Dr. Wiesner has presented her work in both the US and the UK, written as a dance critic, taught technique and theory at several universities, and continues to work with intersections of language and movement in an attempt to develop automated tagging of movement in dance film. Her current research focuses on movement and notation systems as a means of machine learning and transfer of data between artistic forms.\nIn her spare time, she works with adult dancers with special needs as she remains dedicated to the belief that all people can dance. Wiesner earned her Certification in Movement Analysis (CMA) from the Laban/Bartenieff Institute of Movement Studies and is the LIMS Archivist/Historian. At MITH, Wiesner is Principal Faculty Specialist for the Performing Arts where she works with the DocNow project and manages other projects which relate to the performing arts."
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "attU5fey5oFmZlR7g",
-            "width": 1000,
-            "height": 1000,
-            "url": "https://dl.airtable.com/.attachments/3c2264ac37aec8dc09d7c5c05625936d/3862e02f/susan-weisner.jpg",
-            "filename": "susan-weisner.jpg",
-            "size": 412982,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/a914ecb5b13caeea71cce07e4b615634/a87b0b5e",
-                "width": 36,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/6b6c10f88b84651adbc84e6903de923b/91487dd8",
-                "width": 512,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/12c8e3db1f03e9f051ff9ff694617abe/5e06bb97",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ],
-        "person group": [
-          "current"
-        ]
-      }
-    ]
+    "current identities": []
   },
   {
     "id": "jonathan-reyes",
@@ -17644,6 +17617,7 @@
         }
       }
     ],
+    "title": "Graduate Research Assistant",
     "bio": "Emily Frazier is a Research Assistant for MITH's _[Unlocking the Airwaves](https://mith.umd.edu/research/unlocking-the-airwaves)_ and _[Broadcasting Audiovisual Data](https://mith.umd.edu/research/broadcasting-av-data/)_ projects. She is a History MA and Master of Library & Information Science graduate student at the University of Maryland. Her research interests include discoverability in archives and linked data, as well as maps, cartography, and digital humanities. Outside of school and work, she enjoys needlepoint embroidery and spending time with her cat. Emily is a graduate of the University of Texas at Austin, where she earned her BA in Linguistics, Spanish, and the Plan II Honors Program. During undergrad, she worked with museum and archival collections doing cataloging and processing.\n\n",
     "email": "emilyf1@umd.edu",
     "people groups": [
@@ -17671,7 +17645,7 @@
     "slug": "emily-frazier",
     "slug formula": "emily-frazier",
     "created": "2021-03-09T15:05:02.000Z",
-    "modified": "2021-03-12T17:21:57.000Z",
+    "modified": "2021-10-21T14:27:32.000Z",
     "record_id": "rechjhwTnRXvMF3Fy",
     "status": [
       "current"
@@ -17980,9 +17954,9 @@
     "twitter": "DaryleWilliams",
     "website": "http://faculty.history.umd.edu/DWilliams",
     "people groups": [
-      "Affiliates",
       "Past Resident Fellows",
-      "Speaker"
+      "Speaker",
+      "Past Affiliates"
     ],
     "new id": 12,
     "wordpress id": 5819,
@@ -17998,177 +17972,25 @@
         "start": 2001,
         "end": 2002,
         "id": 468
+      },
+      {
+        "title": "MITH Affiliate Associate Professor",
+        "start": 2018,
+        "end": 2021,
+        "id": 469
       }
-    ],
-    "identities as current": [
-      "recovZfOzCiKOcpok",
-      "recxKo48A9G7FCMwm",
-      "recJbYZh8utoxju4z"
     ],
     "name": "Daryle Williams",
     "group type": [
-      "Affiliates",
       "Past",
       "External"
     ],
     "slug": "daryle-williams",
     "slug formula": "daryle-williams",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-05-13T15:52:53.000Z",
+    "modified": "2021-10-21T15:20:19.000Z",
     "record_id": "recibUxoBhGVXDkP9",
-    "current identities": [
-      {
-        "title": "MITH Affiliate Associate Professor",
-        "department": "MITH",
-        "institution": "University of Maryland",
-        "start": 2018,
-        "linked person": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as current": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as past": "daryle-williams",
-        "id": 469,
-        "identity id": 2,
-        "identity": "daryle-williams-current-469",
-        "full affiliation": "MITH Affiliate Associate Professor, MITH, University of Maryland",
-        "slug": "daryle-williams-469",
-        "date span": "MITH Affiliate Associate Professor, 2018",
-        "person name": [
-          "Daryle Williams"
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "attFlFd0WAZlKVGpG",
-            "width": 1400,
-            "height": 933,
-            "url": "https://dl.airtable.com/.attachments/17daf1a1e3d0ceab98ec607181060b4f/bb91912a/daryle-williams.jpg",
-            "filename": "daryle-williams.jpg",
-            "size": 582423,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/699163d487f671e527854fd4dcb794fd/2777a985",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/e86f560efffbf155629aa056f194153c/4286e910",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/625674e7305d5bb9116ab3d0489adeba/b74f188d",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ]
-      },
-      {
-        "title": "Associate Dean for Faculty Affairs",
-        "department": "ARHU",
-        "institution": "University of Maryland",
-        "linked person": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as current": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as past": "daryle-williams",
-        "id": 470,
-        "identity id": 3,
-        "identity": "daryle-williams-current-470",
-        "full affiliation": "Associate Dean for Faculty Affairs, ARHU, University of Maryland",
-        "slug": "daryle-williams-470",
-        "person name": [
-          "Daryle Williams"
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "attFlFd0WAZlKVGpG",
-            "width": 1400,
-            "height": 933,
-            "url": "https://dl.airtable.com/.attachments/17daf1a1e3d0ceab98ec607181060b4f/bb91912a/daryle-williams.jpg",
-            "filename": "daryle-williams.jpg",
-            "size": 582423,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/699163d487f671e527854fd4dcb794fd/2777a985",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/e86f560efffbf155629aa056f194153c/4286e910",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/625674e7305d5bb9116ab3d0489adeba/b74f188d",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ]
-      },
-      {
-        "title": "Associate Professor of History",
-        "institution": "University of Maryland",
-        "linked person": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as current": [
-          "recibUxoBhGVXDkP9"
-        ],
-        "linked people as past": "daryle-williams",
-        "id": 471,
-        "linked events as speaker": [
-          "recnvK4kcNTd9ps5a"
-        ],
-        "identity id": 4,
-        "identity": "daryle-williams-current-471",
-        "full affiliation": "Associate Professor of History, University of Maryland",
-        "slug": "daryle-williams-471",
-        "person name": [
-          "Daryle Williams"
-        ],
-        "identity group": "current",
-        "headshot": [
-          {
-            "id": "attFlFd0WAZlKVGpG",
-            "width": 1400,
-            "height": 933,
-            "url": "https://dl.airtable.com/.attachments/17daf1a1e3d0ceab98ec607181060b4f/bb91912a/daryle-williams.jpg",
-            "filename": "daryle-williams.jpg",
-            "size": 582423,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/699163d487f671e527854fd4dcb794fd/2777a985",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/e86f560efffbf155629aa056f194153c/4286e910",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/625674e7305d5bb9116ab3d0489adeba/b74f188d",
-                "width": 3000,
-                "height": 3000
-              }
-            }
-          }
-        ]
-      }
-    ]
+    "current identities": []
   },
   {
     "id": "joyce-ray",
@@ -22141,59 +21963,66 @@
         }
       }
     ],
-    "title": "Winnemore Digital Dissertation Fellow",
+    "title": "Research Fellow, AADHum ",
     "department": "English",
     "institution": "University of Maryland",
     "identity as past": "jeffrey-moro-308",
-    "bio": "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland, College Park. His interdisciplinary research bridges media studies, digital humanities, and the environmental humanities to study how media technologies facilitate our cultural understanding of the natural world. His dissertation, \"Atmospheric Media: Computation and the Environmental Imagination,\" explores how artists, technologists, and critics imagine digital media in terms of atmospheres, both literal and otherwise—and how in turn, these media atmospheres condition the possibilities for sustainable human life on our planet. His writing has appeared or will soon appear in _\\*Amodern\\*_, _\\*Media Fields\\*_, _\\*Qui Parle\\*_, and the _\\*Los Angeles Review of Books\\*_. Past lives include work as site manager for _\\*Romantic Circles\\*_, a born-digital journal of Romantic literature, and as Post-Baccalaureate Resident with Five College Digital Humanities, a Mellon-funded DH program at the Five Colleges of Western Massachusetts. He holds BAs in English and Theater & Dance from Amherst College. \n",
+    "bio": "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland. His interdisciplinary research explores how media technologies facilitate our cultural understanding of the natural world. He works as a research assistant with the African American History, Culture, and Digital Humanities (AADHum) Initiative at the Maryland Institute for Technology in the Humanities, where he previously served as their Winnemore Digital Humanities Dissertation Fellow. His dissertation, “Atmospheric Media: Computation and the Environmental Imagination,” is a cultural study of atmospheric data, exploring the technologies that record it, the creative and critical uses to which it’s put, and its role in addressing our climate crisis. His writing has appeared in _Media Fields_, _Amodern_, _ISLE_, _Qui Parle_, and the_ Los Angeles Review of Books_. Past lives include work as site manager for Romantic Circles, a born-digital journal of Romantic Literature, and as Post-Baccalaureate Resident with Five College Digital Humanities. He holds BAs in English and Theater & Dance from Amherst College. \n",
     "email": "jmoro@umd.edu",
     "twitter": "jeffreymoro",
     "website": "https://jeffreymoro.com/",
     "people groups": [
+      "Past Resident Fellows",
       "Resident Fellows"
     ],
     "new id": 180,
     "wordpress id": 20997,
-    "linked identities": [],
+    "linked identities": [
+      {
+        "title": "Winnemore Digital Humanities Dissertation Fellow",
+        "start": 2020,
+        "end": 2021,
+        "id": 307
+      }
+    ],
     "identities as current": [
-      "recZ7pEhEy1AS6uIv"
+      "reca3RXKux2qQA8cn"
     ],
     "name": "Jeffrey Moro",
     "group type": [
+      "Past",
       "Staff"
     ],
     "slug": "jeffrey-moro",
     "slug formula": "jeffrey-moro",
     "created": "2021-02-12T09:45:32.000Z",
-    "modified": "2021-02-24T19:43:39.000Z",
+    "modified": "2021-10-21T14:58:13.000Z",
     "record_id": "rect4XPdHKVIk2cPn",
     "status": [
       "current"
     ],
     "current identities": [
       {
-        "title": "Winnemore Digital Humanities Dissertation Fellow",
+        "title": "Research Fellow, AADHum",
         "department": "MITH",
         "institution": "University of Maryland",
-        "start": 2020,
+        "start": 2021,
         "linked person": [
           "rect4XPdHKVIk2cPn"
         ],
         "linked people as current": [
           "rect4XPdHKVIk2cPn"
         ],
-        "linked people as past": "jeffrey-moro",
-        "id": 307,
-        "person bio": "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland, College Park. His interdisciplinary research bridges media studies, digital humanities, and the environmental humanities to study how media technologies facilitate our cultural understanding of the natural world. His dissertation, \"Atmospheric Media: Computation and the Environmental Imagination,\" explores how artists, technologists, and critics imagine digital media in terms of atmospheres, both literal and otherwise—and how in turn, these media atmospheres condition the possibilities for sustainable human life on our planet. His writing has appeared or will soon appear in _\\*Amodern\\*_, _\\*Media Fields\\*_, _\\*Qui Parle\\*_, and the _\\*Los Angeles Review of Books\\*_. Past lives include work as site manager for _\\*Romantic Circles\\*_, a born-digital journal of Romantic literature, and as Post-Baccalaureate Resident with Five College Digital Humanities, a Mellon-funded DH program at the Five Colleges of Western Massachusetts. He holds BAs in English and Theater & Dance from Amherst College. \n",
-        "identity": "jeffrey-moro-current-307",
-        "full affiliation": "Winnemore Digital Humanities Dissertation Fellow, MITH, University of Maryland",
-        "slug": "jeffrey-moro-307",
-        "date span": "Winnemore Digital Humanities Dissertation Fellow, 2020",
+        "id": 861,
+        "identity": "jeffrey-moro-current-861",
+        "full affiliation": "Research Fellow, AADHum, MITH, University of Maryland",
+        "slug": "jeffrey-moro-861",
+        "date span": "Research Fellow, AADHum, 2021",
         "person name": [
           "Jeffrey Moro"
         ],
         "linked person bio": [
-          "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland, College Park. His interdisciplinary research bridges media studies, digital humanities, and the environmental humanities to study how media technologies facilitate our cultural understanding of the natural world. His dissertation, \"Atmospheric Media: Computation and the Environmental Imagination,\" explores how artists, technologists, and critics imagine digital media in terms of atmospheres, both literal and otherwise—and how in turn, these media atmospheres condition the possibilities for sustainable human life on our planet. His writing has appeared or will soon appear in *Amodern*, *Media Fields*, *Qui Parle*, and the *Los Angeles Review of Books*. Past lives include work as site manager for *Romantic Circles*, a born-digital journal of Romantic literature, and as Post-Baccalaureate Resident with Five College Digital Humanities, a Mellon-funded DH program at the Five Colleges of Western Massachusetts. He holds BAs in English and Theater & Dance from Amherst College. "
+          "Jeffrey Moro is a PhD candidate in English with a certificate in Digital Studies at the University of Maryland. His interdisciplinary research explores how media technologies facilitate our cultural understanding of the natural world. He works as a research assistant with the African American History, Culture, and Digital Humanities (AADHum) Initiative at the Maryland Institute for Technology in the Humanities, where he previously served as their Winnemore Digital Humanities Dissertation Fellow. His dissertation, “Atmospheric Media: Computation and the Environmental Imagination,” is a cultural study of atmospheric data, exploring the technologies that record it, the creative and critical uses to which it’s put, and its role in addressing our climate crisis. His writing has appeared in Media Fields, Amodern, ISLE, Qui Parle, and the Los Angeles Review of Books. Past lives include work as site manager for Romantic Circles, a born-digital journal of Romantic Literature, and as Post-Baccalaureate Resident with Five College Digital Humanities. He holds BAs in English and Theater & Dance from Amherst College. "
         ],
         "identity group": "current",
         "headshot": [
