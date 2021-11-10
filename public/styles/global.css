@@ -96,6 +96,18 @@
      max-width: 35ch;
  }
 
+:is(h1, h2, h3) a {
+    text-decoration: none;
+}
+
+ [class^="excerpt-"] {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    
+ }
+
  p, li {
      max-width: clamp(65ch, 72ch, 75ch);
  }
