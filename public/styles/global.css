@@ -122,3 +122,33 @@ a:focus {
     aspect-ratio: 3 /1;
     height: var(--size-3);
  }
+
+ /* Menu styles */
+ #menu-toggle {
+    background-color: transparent;
+    border: 1px solid hsl(var(--color-gray-200));
+    color: hsl(var(--color-gray-600));
+    font-weight: 500;
+    padding: 1ch calc(1ch * 2);
+    position: absolute;
+    top: calc(var(--spacing-base) + 56px);
+    right: var(--spacing-small);
+    z-index: 500;
+  }
+
+  #menu-toggle.menu-open:hover,
+  #menu-toggle.menu-open:focus {
+    background-color: hsl(var(--color-gray-600));
+    color: hsl(var(--color-gray-100));
+    border-radius: 32px;
+  }
+
+  #menu-toggle.menu-open {
+    border: none;
+  }
+
+  @media screen and (min-width: 27em) {
+    #menu-toggle {
+      display: none;
+    }
+  }
