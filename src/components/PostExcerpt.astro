@@ -1,34 +1,34 @@
 ---
-import { unified } from "unified"
-import rehypeParse from "rehype-parse"
-import { visit } from "unist-util-visit"
+// import { unified } from "unified"
+// import rehypeParse from "rehype-parse"
+// import { visit } from "unist-util-visit"
 
 const { content } = Astro.props
 
-const makeExcerpt = (postBodyHTML, maxLen = 300) => {
-  const engine = unified().use(rehypeParse, { fragment: true })
-  const ast = engine.parse(postBodyHTML)
+// const makeExcerpt = (postBodyHTML, maxLen = 300) => {
+//   const engine = unified().use(rehypeParse, { fragment: true })
+//   const ast = engine.parse(postBodyHTML)
 
-  let allText = ""
-  visit(
-    ast,
-    node => node.type === "text",
-    node => {
-      allText += node.value
-    }
-  )
+//   let allText = ""
+//   visit(
+//     ast,
+//     node => node.type === "text",
+//     node => {
+//       allText += node.value
+//     }
+//   )
 
-  if (allText.length <= maxLen) {
-    return allText
-  }
+//   if (allText.length <= maxLen) {
+//     return allText
+//   }
 
-  // TODO: make this not a dumb hack
-  return allText.substring(0, allText.lastIndexOf(".", maxLen))
-}
+//   // TODO: make this not a dumb hack
+//   return allText.substring(0, allText.lastIndexOf(".", maxLen))
+// }
 ---
 
 <section class="post-excerpt">
-  {makeExcerpt(content).length > 0 ? <p>{makeExcerpt(content)}</p> : ""}
+  <!-- {makeExcerpt(content).length > 0 ? <p>{makeExcerpt(content)}</p> : ""} -->
 </section>
 
 <style>
