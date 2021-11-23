@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@fontsource/literata": "^4.5.0",
-    "astro": "^0.21.0",
+    "astro": "^0.0.0-build-20211022225750",
     "date-fns": "^2.25.0",
     "is-plain-obj": "^4.0.0",
     "jsdom": "^18.0.1"
