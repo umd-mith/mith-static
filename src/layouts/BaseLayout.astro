@@ -12,7 +12,10 @@ const currentPage = Astro.request.url.pathname
   <head>
     <meta charset="UTF-8" />
     <title
-      >{pageContent.title ? `${pageContent.title} | ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
+      >{pageContent.title
+        ? `${pageContent.title} | ${CONFIG.SITE.title}`
+        : CONFIG.SITE.title}</title
+    >
     <HeadCommon />
   </head>
   <body>

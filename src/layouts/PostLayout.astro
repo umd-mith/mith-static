@@ -18,7 +18,9 @@ const subPaths = {
       <header>
         <h1>{content.title}</h1>
         <div>
-          By {content.author ? makeAuthorStr(content.author) : ""} on {readableDate(content.date)}
+          By {content.author ? makeAuthorStr(content.author) : ""} on {readableDate(
+            content.date
+          )}
         </div>
       </header>
       <div class="article-body flow">
