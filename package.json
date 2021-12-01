@@ -15,7 +15,7 @@
     "persist": "node scripts/persist.js",
     "compose": "node scripts/compose.js",
     "release": "node scripts/release.js",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,astro}\"",
     "publish": "astro build && npm run rsync",
     "rsync": "rsync --archive --recursive --delete dist/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu"
   },
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@fontsource/literata": "^4.5.0",
-    "astro": "^0.21.0",
+    "astro": "^0.21.6",
     "date-fns": "^2.25.0",
     "is-plain-obj": "^4.0.0",
     "jsdom": "^18.0.1"
@@ -36,6 +36,7 @@
   "devDependencies": {
     "airtable": "^0.11.1",
     "dotenv": "^10.0.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "prettier-plugin-astro": "^0.0.11"
   }
 }
