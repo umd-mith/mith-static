@@ -35,30 +35,56 @@ const subPaths = {
     <BreadcrumbNav pathInfo={subPaths} />
     <div class="flow" itemscope itemtype="https://schema.org/Event">
       <h1 class="title">{dd["talk title"]}</h1>
-      {dd["talk subtitle"] ? <h2 class="subtitle">
-          {dd["talk subtitle"]}
-        </h2> : ""}
+      {dd["talk subtitle"] ? (
+        <h2 class="subtitle">{dd["talk subtitle"]}</h2>
+      ) : (
+        ""
+      )}
       <div class="dialogue-meta">
         {readableDateTime(dd["start date"])}
       </div>
       <div class="speakers">
-        {dd.speakers.map(speaker => <div class="speaker">
+        {dd.speakers.map(speaker => (
+          <div class="speaker">
             <RelatedPerson person={speaker} />
             <div class="twitter">
-              {speaker.twitter ? <a href={`https://twitter.com/${speaker.twitter}`}>{`@${speaker.twitter}`}</a> : ""}
+              {speaker.twitter ? (
+                <a
+                  href={`https://twitter.com/${speaker.twitter}`}
+                >{`@${speaker.twitter}`}</a>
+              ) : (
+                ""
+              )}
             </div>
             <div class="website">
-              {speaker.website ? <a href={speaker.website}>
-                  {speaker.website}
-                </a> : ""}
+              {speaker.website ? (
+                <a href={speaker.website}>{speaker.website}</a>
+              ) : (
+                ""
+              )}
             </div>
-          </div>)}
+          </div>
+        ))}
       </div>
       <div class="dialogue-desc">
-        <Markdown content={dd.description} />
+        <Markdown content={dd.description}>
+
+        </Markdown>
       </div>
       <div class="media">
-        {dd["vimeo id"] ? <iframe title={dd["event title"]} src={`https://player.vimeo.com/video/${dd["vimeo id"]}`} height="360" width="640" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe> : ""}
+        {dd["vimeo id"] ? (
+          <iframe
+            title={dd["event title"]}
+            src={`https://player.vimeo.com/video/${dd["vimeo id"]}`}
+            height="360"
+            width="640"
+            frameborder="0"
+            allow="fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   </div>

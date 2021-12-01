@@ -21,9 +21,9 @@ const { currentPage } = Astro.props
             fill-rule="evenodd"
             ><path
               d="M85.676 71.939h10.866V0H85.676zM137.267 10.212v61.787h-10.865V10.212h-16.555V0h43.927v10.212h-16.507M177.945 28.166h31.058V0h10.864v71.999h-10.864V38.378h-31.058v33.621h-10.866V0h10.866v28.166M60.048 0 36.156 30.647 12.261 0H-.06v71.998h10.866V15.809l25.35 32.511 25.347-32.511v56.189H72.37V0H60.048"
-            ></path
-            ></g
-          ></svg>
+            ></path></g
+          ></svg
+        >
       </a>
     </div>
     <MenuButton client:idle />
@@ -31,20 +31,23 @@ const { currentPage } = Astro.props
       id="primary-navigation"
       class="nav-container"
       aria-label="primary"
-      tabindex="-1">
+      tabindex="-1"
+    >
       <ul class="menu flow" role="list">
         {CONFIG.MENU.en
           .filter(page => page.group === "main")
-          .map(page => <li>
+          .map(page => (
+            <li>
               <a href={page.link}>{page.label}</a>
-            </li>)}
+            </li>
+          ))}
       </ul>
     </nav>
   </div>
 </header>
 
 <style>
-  header{
+  header {
     margin-bottom: var(--spacing-base);
   }
 

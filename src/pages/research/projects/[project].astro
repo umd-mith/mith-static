@@ -38,7 +38,13 @@ const subPaths = {
         {makeDateRange([projectData.start, projectData.end])}
       </div>
       <div class="project-description">
-        {projectData.description ? <Markdown content={projectData.description.replace(/(?:\n)/g, "<br>")} /> : ""}
+        {projectData.description ? (
+          <Markdown
+            content={projectData.description.replace(/(?:\n)/g, "<br>")}
+          />
+        ) : (
+          ""
+        )}
       </div>
     </section>
     <aside class="flow">
@@ -57,28 +63,36 @@ const subPaths = {
         {projectData.links.map(p => <a href={p.url}>{p.title}</a>)}
       </div>
       <div class="twitter-hashtag">
-        {projectData["twitter hashtag"] ? `#${projectData["twitter hashtag"]}` : ""}
+        {projectData["twitter hashtag"]
+          ? `#${projectData["twitter hashtag"]}`
+          : ""}
       </div>
       <div class="project-posts flow">
         <h2>News</h2>
-        {projectData.posts.map(p => <div>
+        {projectData.posts.map(p => (
+          <div>
             <h3>
               <a href={`/news/${p.slug}`}>{p["post title"]}</a>
             </h3>
             <div>{readableDate(p["post date"])}</div>
-          </div>)}
+          </div>
+        ))}
       </div>
       <div class="project-partners">
         <h2>Partner Organizations</h2>
-        {projectData.partners.map(p => <div class="partner-org">
+        {projectData.partners.map(p => (
+          <div class="partner-org">
             {p.website ? <a href={p.website}>{p.name}</a> : p.name}
-          </div>)}
+          </div>
+        ))}
       </div>
       <div class="project-sponsors">
         <h2>Sponsors</h2>
-        {projectData.sponsors.map(p => <div class="sponsor">
+        {projectData.sponsors.map(p => (
+          <div class="sponsor">
             {p.website ? <a href={p.website}>{p.name}</a> : p.name}
-          </div>)}
+          </div>
+        ))}
       </div>
     </aside>
   </div>

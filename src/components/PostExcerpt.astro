@@ -1,12 +1,12 @@
 ---
-import { JSDOM } from 'jsdom';
+import { JSDOM } from "jsdom"
 
 const { content } = Astro.props
 const { document } = new JSDOM(content).window
 
-const makeExcerpt = (content:string) => {
+const makeExcerpt = (content: string) => {
   const { document } = new JSDOM(content).window
-  const paragraphs = [...document.querySelectorAll('p')].map(p => p.textContent)
+  const paragraphs = [...document.querySelectorAll("p")].map(p => p.textContent)
 
   if (!paragraphs) {
     return null

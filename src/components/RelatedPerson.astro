@@ -3,14 +3,20 @@ const { person } = Astro.props
 ---
 
 <div class="related-person-details">
-  {person.affiliations.filter(a => a.department === "MITH").length ? <a class="name" href={`/people/${person.slug}`}>
+  {person.affiliations.filter(a => a.department === "MITH").length ? (
+    <a class="name" href={`/people/${person.slug}`}>
       {person.name}
-    </a> : <div class="name">{person.name}</div>}
-  {person.affiliations.map(a => <div class="identities">
+    </a>
+  ) : (
+    <div class="name">{person.name}</div>
+  )}
+  {person.affiliations.map(a => (
+    <div class="identities">
       {a.title ? <span class="title">{a.title}</span> : ""}
       {a.department ? <span>{a.department}</span> : ""}
       <span>{a.institution}</span>
-    </div>)}
+    </div>
+  ))}
 </div>
 
 <style>
