@@ -1,0 +1,2 @@
+(self.webpackChunkmith_static=self.webpackChunkmith_static||[]).push([[883],{9616:function(e,t,n){"use strict";n.r(t);var a=n(7294),l=n(378),u=n(7487);t.default=function(){return a.createElement(l.Z,null,a.createElement(u.Z,{title:"404: Not found"}),a.createElement("h1",null,"NOT FOUND"),a.createElement("p",null,"You've discovered a new path that doesn't go anywhere... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-44eaee598f57dc1af124.js.map
