@@ -7,6 +7,9 @@
     "astro"
   ],
   "license": "0BSD",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "start": "astro dev",
     "prebuild": "cp -r node_modules/@fontsource public/styles",
