@@ -1,0 +1,14 @@
+---
+import { readableDate } from "../utils/dateHandlers.ts"
+const { start, end } = Astro.props
+---
+
+<div>
+  {`${readableDate(end)} to ${readableDate(start)}`}
+</div>
+
+<style>
+  div {
+    color: hsl(var(--color-gray-600));
+  }
+</style>

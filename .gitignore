@@ -37,7 +37,9 @@ node_modules/
 jspm_packages/
 
 # build directory
-public
+dist
+# ignore copied font files
+public/styles/@fontsource
 
 
 # Typescript v1 declaration files

@@ -1,0 +1,124 @@
+@import "./reset.css";
+@import "@fontsource/literata/400.css";
+@import "@fontsource/literata/400-italic.css";
+
+:root {
+    /* Grays */
+    --color-full-black: 0 0% 0%;
+    --color-gray-900: 0 0% 10%;
+    --color-gray-800: 0 0% 15%;
+    --color-gray-700: 0 0% 30%;
+    --color-gray-600: 0 0% 45%;
+    --color-gray-200: 0 0% 80%;
+    --color-gray-100: 15 10% 95%;
+    --color-full-white: 360 100% 100%;
+
+    /* Typography */
+    --font-stack-system: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    /* Sizes */
+    --size-0: .8rem;
+    --size-1: 1rem;
+    --size-2: 1.25rem;
+    --size-3: 1.56rem;
+    --size-4: 1.95rem;
+    --size-5: 2.44rem;
+    --size-6: 3.05rem;
+    --size-7: 3.82rem;
+    --size-8: 4.77rem;
+    --size-9: 5.96rem;
+
+    /* Spacing */
+    --spacing-base: var(--size-1);
+    --spacing-small: var(--size-0);
+    --spacing-large: var(--size-4);
+    --spacing-xlarge: var(--size-7);
+}
+
+/* Utility Classes */
+.flow > * + * {
+    margin-top: var(--flow-space, 1em);
+ }
+
+ .wrapper {
+     max-width: 55rem;
+     margin-left: auto;
+     margin-right: auto; 
+ }
+
+ .full-bleed {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+  
+
+ html {
+     font-size: 18px;
+ }
+
+ body {
+     display: flex;
+     flex-flow: column nowrap;
+     font-family: var(--font-stack-system);
+     line-height: 1.5;
+     min-width: 275px;
+     overflow-x: hidden;
+ }
+
+ main, footer {
+    padding-inline: var(--spacing-base);
+ }
+
+ main {
+     flex: 1 0 auto;
+     margin-bottom: var(--spacing-xlarge);
+ }
+
+ h1, h2, h3 {
+    font-family: var(--font-stack-system);
+    line-height: 1.1;
+ }
+
+ h1 {
+     font-size: var(--size-4);
+     font-weight: 900;
+     max-width: 23ch;
+ }
+
+ h2 {
+     font-size: var(--size-3);
+     font-weight: 900;
+     max-width: 35ch;
+ }
+
+ h3 {
+     font-size: var(--size-2);
+     max-width: 35ch;
+ }
+
+ p, li {
+     max-width: clamp(65ch, 72ch, 75ch);
+ }
+
+ img {
+    display: block;
+    margin-block: 1em;
+    margin-bottom: 1em;
+    max-width: min(55rem, 100%);
+}
+
+a {
+    text-decoration-thickness: 0.0625rem;
+    text-underline-offset: 0.1em;
+}
+
+a:hover,
+a:focus {
+    color: hsl(var(--color-gray-600));
+    text-decoration-thickness: 0.125rem;
+}
+
+ .logo {
+    aspect-ratio: 3 /1;
+    height: var(--size-3);
+ }
