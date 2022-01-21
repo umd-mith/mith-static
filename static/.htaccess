@@ -575,7 +575,7 @@ RewriteRule ^tile/?(.*)$ https://archive.mith.umd.edu/tile/$1 [R=301,L]
 RewriteRule ^tools/?(.*)$ https://archive.mith.umd.edu/tools/$1 [R=301,L]
 RewriteRule ^topicmodeling/?(.*)$ https://archive.mith.umd.edu/topicmodeling/$1 [R=301,L]
 RewriteRule ^vintage-computers/?(.*)$ https://archive.mith.umd.edu/vintage-computers/$1 [R=301,L]
-RewriteRule ^womensstudies/?(.*)$ https://archive.mith.umd.edu/womensstudies/$1 [R=301,L]
+RewriteRule ^womensstudies/?(.*)$ https://archive.mith.umd.edu/womensstudies/$1 [R=301,L,NC]
 RewriteRule ^workshop/?(.*)$ https://archive.mith.umd.edu/workshop/$1 [R=301,L]
 
 # For everything else when we don't have a file or a directory here in the static
