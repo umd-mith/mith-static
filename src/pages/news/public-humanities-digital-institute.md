@@ -1,4 +1,13 @@
-![Public Digital Humanities Institute Logo](../images/pdhi-logo.png)
+---
+author:
+  - Stephanie Sapienza
+date: "2021-12-01T14:12:00.000Z"
+layout: ../../layouts/PostLayout.astro
+slug: public-humanities-digital-institute
+title: MITH and Lakeland at the 2022 Public Digital Humanities Institute!
+---
+
+![Public Digital Humanities Institute Logo](/assets/images/pdhi-logo.png)
 
 MITH is pleased to announce that we will be representing our community-university collaboration with the [The Lakeland Community Heritage Project (LCHP)](https://publicdh.org/case-studies/lakeland-community-heritage-project/) at the 2022 Public Digital Humanities Institute at the Institute for Digital Research in the Humanities (IDRH) at the University of Kansas! Lakeland team members Violetta Sharps-Jones and Stephanie Sapienza will act as instructors at the Institute, which will be held on June 6-11, 2022, at The Hall Center on the KU campus. The purpose of the Institute is to foster successful academic-community collaborations focused on digital, public-facing humanities projects. Applicants will receive training and support in public digital humanities and academic-community collaborations. The LCHP will be one of several case studies used by Institute instructors to highlight a range of platforms and modes of digital scholarship, to provide participants with real-world examples.
 
