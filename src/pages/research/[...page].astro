@@ -33,7 +33,14 @@ const pageContent = {
   <div class="page-research flow wrapper">
     <h1>{pageContent.title}</h1>
     <section class="gallery-project">
-      {page.data.map( item => <ProjectPreview title={item.projectTitle} dates={item.projectDates} excerpt={item.excerpt} url={`/research/projects/${item.slug}`} /> )}
+      {page.data.map(item => (
+        <ProjectPreview
+          title={item.projectTitle}
+          dates={item.projectDates}
+          excerpt={item.excerpt}
+          url={`/research/projects/${item.slug}`}
+        />
+      ))}
     </section>
     <Paginator pagesInfo={[page.currentPage, page.lastPage, page.url]} />
   </div>

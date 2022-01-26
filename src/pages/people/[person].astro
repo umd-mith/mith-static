@@ -42,25 +42,48 @@ const subPaths = {
         itemprop="image"
         src={personData.headshot ? personData.headshot[0].url : ""}
         alt={`${personData.first} ${personData.last}`}
-        width="320" />
+        width="320"
+      />
       <div class="person-meta">
-        {personData.phone ? <div class="phone" itemprop="telephone">
+        {personData.phone ? (
+          <div class="phone" itemprop="telephone">
             {personData.phone}
-          </div> : ""}
-        {personData.email ? <div class="email">
+          </div>
+        ) : (
+          ""
+        )}
+        {personData.email ? (
+          <div class="email">
             <a href={`mailto:${personData.email}`} itemprop="email">
               {personData.email}
             </a>
-          </div> : ""}
-        {personData.website ? <div class="website">
+          </div>
+        ) : (
+          ""
+        )}
+        {personData.website ? (
+          <div class="website">
             <a href={personData.website}>{personData.website}</a>
-          </div> : ""}
-        {personData.twitter ? <div class="twitter">
-            <a href={`https://twitter.com/${personData.twitter}`}>{`@${personData.twitter}`}</a>
-          </div> : ""}
+          </div>
+        ) : (
+          ""
+        )}
+        {personData.twitter ? (
+          <div class="twitter">
+            <a
+              href={`https://twitter.com/${personData.twitter}`}
+            >{`@${personData.twitter}`}</a>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
       <div class="bio">
-        {personData.bio ? <Markdown content={personData.bio.replace(/(?:\n)/g, "<br>")} /> : ""}
+        {personData.bio ? (
+          <Markdown content={personData.bio.replace(/(?:\n)/g, "<br>")} />
+        ) : (
+          ""
+        )}
       </div>
     </div>
   </div>

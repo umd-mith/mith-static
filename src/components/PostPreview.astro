@@ -11,10 +11,13 @@ const { post } = Astro.props
     <h2><a href={`/news/${post.slug}`}>{post.title}</a></h2>
     <div class="article-meta">
       <a class="author" rel="author">
-        {post.author && post.author.length > 0 ? makeAuthorStr(post.author) : ""}
+        {post.author && post.author.length > 0
+          ? makeAuthorStr(post.author)
+          : ""}
       </a>
       <time datetime={post.date}
-        >{post.date ? readableDate(post.date) : ""}</time>
+        >{post.date ? readableDate(post.date) : ""}</time
+      >
     </div>
   </header>
   <PostExcerpt content={post.astro.html} />

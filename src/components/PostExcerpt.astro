@@ -1,42 +1,29 @@
 ---
-import { unified } from "unified"
-import rehypeParse from "rehype-parse"
-import { visit } from "unist-util-visit"
+import { JSDOM } from "jsdom"
 
 const { content } = Astro.props
+const { document } = new JSDOM(content).window
 
-const makeExcerpt = (postBodyHTML, maxLen = 300) => {
-  const engine = unified().use(rehypeParse, { fragment: true })
-  const ast = engine.parse(postBodyHTML)
+const makeExcerpt = (content: string) => {
+  const { document } = new JSDOM(content).window
+  const paragraphs = [...document.querySelectorAll("p")].map(p => p.textContent)
 
-  let allText = ""
-  visit(
-    ast,
-    node => node.type === "text",
-    node => {
-      allText += node.value
-    }
-  )
-
-  if (allText.length <= maxLen) {
-    return allText
+  if (!paragraphs) {
+    return null
+  } else if (paragraphs[0] && paragraphs[0].length > 0) {
+    return paragraphs[0]
+  } else {
+    return paragraphs[1]
   }
-
-  // TODO: make this not a dumb hack
-  return allText.substring(0, allText.lastIndexOf(".", maxLen))
 }
 ---
 
-<section class="post-excerpt">
-  {makeExcerpt(content).length > 0 ? <p>{makeExcerpt(content)}</p> : ""}
+<section class="excerpt-post">
+  {makeExcerpt(content) ? <p>{makeExcerpt(content)}</p> : ""}
 </section>
 
 <style>
   p {
     margin-top: var(--size-0);
-  }
-
-  p::after {
-    content: ".";
   }
 </style>

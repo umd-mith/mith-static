@@ -12,9 +12,11 @@ const { dd } = Astro.props
     {dd["talk subtitle"] ? <h4 class="subtitle">{dd["talk subtitle"]}</h4> : ""}
   </header>
   <div class="speakers">
-    {dd.speakers.map(speaker => <div class="speaker">
+    {dd.speakers.map(speaker => (
+      <div class="speaker">
         <RelatedPerson person={speaker} />
-      </div>)}
+      </div>
+    ))}
   </div>
 </article>
 

@@ -49,7 +49,14 @@ const pageContent = {
         {peopleData
           .filter(p => p.type.includes("Staff"))
           .sort((a, b) => a.last.localeCompare(b.last))
-          .map( staff => <PersonPreview name={`${staff.first} ${staff.last}`} titles={staff.titles} headshot={staff.headshot[0]} url={`/people/${staff.id}`} /> )}
+          .map(staff => (
+            <PersonPreview
+              name={`${staff.first} ${staff.last}`}
+              titles={staff.titles}
+              headshot={staff.headshot[0]}
+              url={`/people/${staff.id}`}
+            />
+          ))}
       </div>
     </section>
     <section id="affiliates" class="flow">
@@ -58,7 +65,14 @@ const pageContent = {
         {peopleData
           .filter(p => p.type.includes("Affiliates"))
           .sort((a, b) => a.last.localeCompare(b.last))
-          .map( aff => <PersonPreview name={`${aff.first} ${aff.last}`} titles={aff.titles} headshot={aff.headshot[0]} url={aff.externalLink} /> )}
+          .map(aff => (
+            <PersonPreview
+              name={`${aff.first} ${aff.last}`}
+              titles={aff.titles}
+              headshot={aff.headshot[0]}
+              url={aff.externalLink}
+            />
+          ))}
       </div>
     </section>
   </div>

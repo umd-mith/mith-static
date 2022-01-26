@@ -8,7 +8,7 @@ const { title, dates, excerpt, url } = Astro.props
 <article class="card-project flow">
   <h2><a href={url}>{title}</a></h2>
   <div>{makeDateRange(dates)}</div>
-  <div class="short-desc">
+  <div class="excerpt-project">
     {excerpt ? <Markdown content={excerpt.replace(/(?:\n)/g, "<br>")} /> : ""}
   </div>
 </article>

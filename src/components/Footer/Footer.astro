@@ -14,16 +14,20 @@ import * as CONFIG from "../../config.ts"
       <ul role="list">
         {CONFIG.MENU.en
           .filter(page => page.group === "main")
-          .map(page => <li>
+          .map(page => (
+            <li>
               <a href={page.link}>{page.label}</a>
-            </li>)}
+            </li>
+          ))}
       </ul>
       <ul role="list">
         {CONFIG.MENU.en
           .filter(page => page.group != "main")
-          .map(page => <li>
+          .map(page => (
+            <li>
               <a href={page.link}>{page.label}</a>
-            </li>)}
+            </li>
+          ))}
       </ul>
     </nav>
     <ContactInfo />

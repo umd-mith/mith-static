@@ -24,36 +24,46 @@ dialogues.forEach(d => {
 const pageContent = { title: "Digital Dialogues" }
 ---
 
-<BaseLayout pageContent={pageContent}>
+<BaseLayout {pageContent}>
   <div class="page-dialogues flow wrapper">
     <section>
       <h1>{pageContent.title}</h1>
     </section>
     <nav class="page-nav">
       <ul role="list">
-        {yearKeys.reverse().map(year => <li>
+        {yearKeys.reverse().map(year => (
+          <li>
             <a href={`#${year}`}>{year}</a>
-          </li>)}
+          </li>
+        ))}
       </ul>
     </nav>
-    {yearKeys.map(year => <section id={year} class="dialogues-year">
+    {yearKeys.map(year => (
+      <section id={year} class="dialogues-year">
         <header>
           <h2>{year}</h2>
-          <div class="count">{`${mapDialoguesYear.get(year).length} events`}</div>
+          <div class="count">{`${
+            mapDialoguesYear.get(year).length
+          } events`}</div>
         </header>
         <div class="gallery-dialogues">
           {mapDialoguesYear
             .get(year)
-            .sort((a, b) => new Date(a["start date"]) - new Date(b["start date"]))
+            .sort(
+              (a, b) => new Date(a["start date"]) - new Date(b["start date"])
+            )
             .reverse()
-            .map(dialogue => <DialoguePreview dd={dialogue} />)}
+            .map(dialogue => (
+              <DialoguePreview dd={dialogue} />
+            ))}
         </div>
         <div class="footer">
           <a class="top-anchor" href="#page-top">
             (↑ Back to Top)
           </a>
         </div>
-      </section>)}
+      </section>
+    ))}
   </div>
 </BaseLayout>
 
