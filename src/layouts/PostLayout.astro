@@ -6,7 +6,7 @@ import { readableDate } from "../utils/dateHandlers.ts"
 
 const { content } = Astro.props
 const subPaths = {
-  pathName: Astro.request.url.pathname,
+  pathName: Astro.site.pathname,
   current: content.title,
 }
 ---

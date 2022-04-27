@@ -1,14 +1,12 @@
 //@ts-check
 
-export default /** @type {import('astro').AstroUserConfig} */ ({
-    buildOptions: {
-        site: "https://mith-static.netlify.app",
-    },
-    renderers: [
-    //   '@astrojs/renderer-svelte',
-    //   '@astrojs/renderer-vue',
-    //   '@astrojs/renderer-react',
-      '@astrojs/renderer-preact',
-    ],
-    vite: {},
-  });
+import preact from '@astrojs/preact';
+import { defineConfig } from 'astro/config'
+
+export default defineConfig({
+  site: "https://mith-static.netlify.app",
+  integrations: [
+    preact()
+  ],
+  vite: {},
+});

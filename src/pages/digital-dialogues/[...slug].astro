@@ -22,10 +22,9 @@ export async function getStaticPaths() {
   return paths
 }
 
-const { slug } = Astro.request.params
 const { dd } = Astro.props
 const subPaths = {
-  pathName: Astro.request.url.pathname,
+  pathName: Astro.site.pathname,
   current: dd["talk title"],
 }
 ---

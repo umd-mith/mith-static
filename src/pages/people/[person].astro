@@ -20,14 +20,13 @@ export async function getStaticPaths() {
   return paths
 }
 
-const { person } = Astro.request.params
 const { personData } = Astro.props
 const fullName = `${personData.first} ${personData.last}`
 const pageContent = {
   title: fullName,
 }
 const subPaths = {
-  pathName: Astro.request.url.pathname,
+  pathName: Astro.site.pathname,
   current: fullName,
 }
 ---

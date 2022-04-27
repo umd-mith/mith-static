@@ -32,15 +32,16 @@
   },
   "dependencies": {
     "@fontsource/literata": "^4.5.0",
-    "astro": "^0.23.0",
+    "astro": "^1.0.0-beta.18",
     "date-fns": "^2.25.0",
     "is-plain-obj": "^4.0.0",
-    "jsdom": "^18.0.1"
+    "jsdom": "^19.0.0"
   },
   "devDependencies": {
+    "@astrojs/preact": "^0.1.2",
     "airtable": "^0.11.1",
-    "dotenv": "^10.0.0",
+    "dotenv": "^16.0.0",
     "prettier": "^2.4.1",
-    "prettier-plugin-astro": "^0.0.11"
+    "prettier-plugin-astro": "^0.0.12"
   }
 }

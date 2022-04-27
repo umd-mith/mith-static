@@ -4,7 +4,7 @@ import Header from "../components/Header.astro"
 import Footer from "../components/Footer/Footer.astro"
 import * as CONFIG from "../config.ts"
 const { pageContent = {} } = Astro.props
-const currentPage = Astro.request.url.pathname
+const currentPage = Astro.site.pathname
 ---
 
 <!DOCTYPE html>
