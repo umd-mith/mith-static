@@ -5,9 +5,9 @@ import PostPreview from "../../components/PostPreview.astro"
 import Paginator from "../../components/PaginationControls.astro"
 
 export async function getStaticPaths({ paginate }) {
-  const postContents = Astro.fetchContent("./*.md")
+  const postContents = await Astro.glob("./*.md")
   const sortedPosts = postContents
-    .sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf())
+    .sort((a, b) => new Date(a.frontmatter.date).valueOf() - new Date(b.frontmatter.date).valueOf())
     .reverse()
 
   return paginate(sortedPosts, { pageSize: 25 })
@@ -17,8 +17,8 @@ const { page } = Astro.props
 const pageContent = {
   title: `News p. ${page.currentPage} of ${page.lastPage}`,
 }
-const earliestDate = page.data[page.data.length - 1].date
-const latestDate = page.data[0].date
+const earliestDate = page.data[page.data.length - 1].frontmatter.date
+const latestDate = page.data[0].frontmatter.date
 ---
 
 <BaseLayout {pageContent}>

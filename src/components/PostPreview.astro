@@ -4,23 +4,24 @@ import { makeAuthorStr } from "../utils/stringHandlers.ts"
 import { readableDate } from "../utils/dateHandlers.ts"
 
 const { post } = Astro.props
+const { frontmatter } = post
 ---
 
 <article class="news">
   <header>
-    <h2><a href={`/news/${post.slug}`}>{post.title}</a></h2>
+    <h2><a href={`/news/${frontmatter.slug}`}>{frontmatter.title}</a></h2>
     <div class="article-meta">
       <a class="author" rel="author">
-        {post.author && post.author.length > 0
-          ? makeAuthorStr(post.author)
+        {frontmatter.author && frontmatter.author.length > 0
+          ? makeAuthorStr(frontmatter.author)
           : ""}
       </a>
-      <time datetime={post.date}
-        >{post.date ? readableDate(post.date) : ""}</time
+      <time datetime={frontmatter.date}
+        >{frontmatter.date ? readableDate(frontmatter.date) : ""}</time
       >
     </div>
   </header>
-  <PostExcerpt content={post.astro.html} />
+  <!-- <PostExcerpt content={} /> -->
 </article>
 
 <style>
