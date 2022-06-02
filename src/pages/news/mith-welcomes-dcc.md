@@ -13,4 +13,4 @@ Designed for the 21st century student who was born into the world of windows and
 
 Kirschenbaum is joined by Associate Director Tanya Clement, who recently earned her Ph.D. from Maryland and is herself a rising star in the international digital humanities community. "I'm looking forward to continuing the tradition of making the University of Maryland an innovator in digital humanities teaching and learning," says Clement. Neil Fraistat, Director of MITH, adds: "MITH is delighted to be partnering with the Department of Computer Science and the iSchool to bring this program into being. DCC will make palpable to first- and second-year honors students the intellectual excitement and energy characterizing the emergent field of digital humanities."
 
-DCC will welcome its first cohort of students next fall. Watch <http://dcc.umd.edu> for further news and developments, or follow us on Twitter as [@umd_dcc](http://twitter.com/umd_dcc).
+DCC will welcome its first cohort of students next fall. Watch http://dcc.umd.edu for further news and developments, or follow us on Twitter as [@umd_dcc](http://twitter.com/umd_dcc).

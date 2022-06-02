@@ -15,6 +15,6 @@ The Regional DH Symposium website may be found at[ http://symposium.scholarslab.
 
 Logistics information is located at[ http://symposium.scholarslab.org/logistics/](http://symposium.scholarslab.org/logistics/)
 
-Please contact Purdom Lindblad (mith@umd.edu) with any questions. If you are interested in participating or in sharing your work on issues of social justice or pedagogy (or both!), please fill out the form at <https://goo.gl/forms/riXessSSyuk9192m2>
+Please contact Purdom Lindblad (mith@umd.edu) with any questions. If you are interested in participating or in sharing your work on issues of social justice or pedagogy (or both!), please fill out the form at https://goo.gl/forms/riXessSSyuk9192m2
 
 A limited number of bursaries up to \$75 may be available to support travel. Apply for funding or to present by March 1, 2018. We will continue taking expressions of interest in attending until 11 PM Wednesday, March 7, 2018.

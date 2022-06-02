@@ -11,7 +11,7 @@ After a long but pleasant flight, a shorter but even more pleasant train ride, a
 
 Interedition was originally set up to get domain experts for text analysis tools together and ask them how to make their tools interoperable. A by-product of this action was a creation of a Java suite called CollateX. However, this is not the only reason for the conference. It is founded on the desire to create common goals and networks between DH programmers.
 
-This Bootcamp will last from Friday, October 7th to Tuesday, October 11th. It has a lot of the same people who were present from the last Bootcamp in March, which I attended, plus some new faces. To see what happened in the previous Bootcamps, check out the Interedition wiki: <http://www.interedition.eu/wiki/index.php/Main_Page>
+This Bootcamp will last from Friday, October 7th to Tuesday, October 11th. It has a lot of the same people who were present from the last Bootcamp in March, which I attended, plus some new faces. To see what happened in the previous Bootcamps, check out the Interedition wiki: http://www.interedition.eu/wiki/index.php/Main_Page
 
 [Joris Van Zundert](http://alfalablog.huygensinstituut.nl/?page_id=122 "Joris Van Zundert"), the head organizer for Interedition, had the same train as me, so we were able to have a great discussion on the train about the Interedition conference. Joris feels that so long as we come out of the conference with a clear understanding on how to make the various tools collaborators bring interoperable, the weekend will be successful. We'll see if that goal is met or exceeded.
 

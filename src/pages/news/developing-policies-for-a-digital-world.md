@@ -26,7 +26,7 @@ While part of the scope of this group will be making changes to the Special Coll
 
 Fortunately, we are not the first to begin work on these issues and we will be relying heavily on the work of other institutions. Our first steps are to examine the following resources:**\*\*\*\***
 
-- AIMS Born-Digital Collections: An Inter-Institutional Model for Stewardship, January 2012 (<http://www2.lib.virginia.edu/aims/whitepaper/AIMS_final.pdf>)
+- AIMS Born-Digital Collections: An Inter-Institutional Model for Stewardship, January 2012 (http://www2.lib.virginia.edu/aims/whitepaper/AIMS_final.pdf)
 - SAA Campus Case Studies
 - SAA E-records listserv (for examples/templates)
 

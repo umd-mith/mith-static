@@ -17,7 +17,7 @@ Roy was a collaborator and tremendous supporter of MITH, and we will miss his pr
 
 The Washington Post obituary is here:
 
-<http://www.washingtonpost.com/wp-dyn/content/article/2007/10/12/AR2007101202489.html>
+http://www.washingtonpost.com/wp-dyn/content/article/2007/10/12/AR2007101202489.html
 
 Testimonials and remembrances have already started to appear around the Web.
 

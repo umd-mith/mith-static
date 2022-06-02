@@ -15,10 +15,10 @@ Help solve the information challenges of today's world. Student teams work with 
 
 You can learn more about the program and hear from the FIA Founding Partners: the National Geographic Society, the Smithsonian Institution, the Library of Congress, the US National Park Service, the Newseum, the National Archives, Sesame Workshop, WAMU 88.5, the Barrie School, and the Office of the Governor of Maryland.
 
-Registration is required. Details at <http://fia.umd.edu>
+Registration is required. Details at http://fia.umd.edu
 
 Students and faculty mentors from nine UMD colleges and schools took part in the competition last year.
 
-See more about the 2012-2013 seed grant winners here: <http://ter.ps/winners>.
+See more about the 2012-2013 seed grant winners here: http://ter.ps/winners.
 
-The FIA Seed Grant Competition is made possible with a \$1 million gift from the Robert W. Deutsch Foundation <http://ter.ps/DeutschFIA>
+The FIA Seed Grant Competition is made possible with a \$1 million gift from the Robert W. Deutsch Foundation http://ter.ps/DeutschFIA

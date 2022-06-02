@@ -53,7 +53,7 @@ So in the collaborative spirit, my next post will describe my adventures researc
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Want to schedule a visit to the _DLC_? Use the form at <http://mith.umd.edu/larsen/contact>
+Want to schedule a visit to the _DLC_? Use the form at http://mith.umd.edu/larsen/contact
 
 Citations:
 

@@ -18,7 +18,7 @@ To aid with this, we proceeded to give or listen to a series of 15-20 minute pre
 - CATMA, Marco Petris ([www.catma.de](http://www.catma.de/))
 - CollateX, Ronald Dekker ([collatex.sourceforge.net](http://collatex.sourceforge.net/))
 - TextGrid, Ubbo Ventjeer & Yahya Al-Hajj (http://www.textgrid.de/en.html)
-- DigiLib, Robert Casties (<http://digilib.berlios.de/>)
+- DigiLib, Robert Casties (http://digilib.berlios.de/)
 - TILE, Dave Lester & Grant Dickie
 - OpenAnnotation, Grant Dickie, Marco Petris & Moritz Wissenbach
 - xMod ([https://bitbucket.org/jmvieira](https://bitbucket.org/JMVieira/)), Miguel Vieira

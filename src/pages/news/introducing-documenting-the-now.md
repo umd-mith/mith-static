@@ -61,5 +61,5 @@ So, this is the challenge that we’ve signed up for. We are extremely fortunate
 
 \[fusion_text]
 
-- Jackson, S. J & Welles, B. F. (2015). #ferguson is everywhere: initiators in emerging counterpublic networks. Information, Communication & Society, 19, 3. Retrieved from <http://www.tandfonline.com/doi/full/10.1080/1369118X.2015.1106571>.
+- Jackson, S. J & Welles, B. F. (2015). #ferguson is everywhere: initiators in emerging counterpublic networks. Information, Communication & Society, 19, 3. Retrieved from http://www.tandfonline.com/doi/full/10.1080/1369118X.2015.1106571.
 - Trouillot, M. R. (1997). Silencing the past: power and the production of history. Boston, Massachusetts: Beacon Press.

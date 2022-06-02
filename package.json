@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@fontsource/literata": "^4.5.0",
-    "astro": "^1.0.0-beta.18",
+    "astro": "^1.0.0-beta.40",
     "date-fns": "^2.25.0",
     "is-plain-obj": "^4.0.0",
     "jsdom": "^19.0.0"

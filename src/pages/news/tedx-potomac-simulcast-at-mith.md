@@ -11,4 +11,4 @@ On **Thursday May 20th**, MITH will be hosting a live simulcast of [TEDx Potomac
 
 Tickets to the event at George Washington University were \$100 and sold out quickly, so the simulcast party is a great way to participate in this event—and free! You can come to all of the talks, or just the ones that look interesting to you. We'll have food and good company.
 
-Here's a link to the details and signup info: <http://mith-tedxpotomac.eventbrite.com/>. Please sign up if you're interested, and pass the invite along to friends and colleagues from other UMD departments or those outside the UMD community.
+Here's a link to the details and signup info: http://mith-tedxpotomac.eventbrite.com/. Please sign up if you're interested, and pass the invite along to friends and colleagues from other UMD departments or those outside the UMD community.

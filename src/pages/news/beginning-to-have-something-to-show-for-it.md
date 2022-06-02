@@ -7,7 +7,7 @@ slug: beginning-to-have-something-to-show-for-it
 title: Beginning to Have Something to Show for It
 ---
 
-What I envision is parallel transcriptions of all witnesses to the text of the Mishnah (including citations in the Talmuds and the commentaries, although I have not encoded any of these yet). These transcriptions and their markup (they will be TEI compliant) will pay greater attention to the mss. as artifacts than raw transcriptions of text, so that the data encoded could, in theory, be used by scholars interested in scribal practice or orthography. I have taken chapter 2 of Bava Metsia as my sample text, and encoded several witnesses with the help of some students. These are all viewable at <http://bit.ly/uCG10o>. An example of "raw" markup (where significant data is encoded rather than marked graphically) is:
+What I envision is parallel transcriptions of all witnesses to the text of the Mishnah (including citations in the Talmuds and the commentaries, although I have not encoded any of these yet). These transcriptions and their markup (they will be TEI compliant) will pay greater attention to the mss. as artifacts than raw transcriptions of text, so that the data encoded could, in theory, be used by scholars interested in scribal practice or orthography. I have taken chapter 2 of Bava Metsia as my sample text, and encoded several witnesses with the help of some students. These are all viewable at http://bit.ly/uCG10o. An example of "raw" markup (where significant data is encoded rather than marked graphically) is:
 
 - [bm_ch2_kauf_noCSS.xml](http://sites.google.com/site/digitalmishnah/files/bm_ch2_kauf_noCSS.xml).
 

@@ -41,7 +41,7 @@ The _DLC_ staff has a great start on collection organization, and with more use 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Want to schedule a visit to the _DLC_? Use the form at <http://mith.umd.edu/larsen/contact>
+Want to schedule a visit to the _DLC_? Use the form at http://mith.umd.edu/larsen/contact
 
 Citations:
 

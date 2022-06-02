@@ -34,7 +34,7 @@ We would also appreciate it if you would answer two other questions:
 
 Finally, you might want to have a look at the different types of centers represented at
 
-<http://digitalhumanities.pbwiki.com/Centers%20by%20type>
+http://digitalhumanities.pbwiki.com/Centers%20by%20type
 
 and if yours is not there, tell us in what category to list it, and we'll add it, or if the right category doesn't exist, suggest one.
 

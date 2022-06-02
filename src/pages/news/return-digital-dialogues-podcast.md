@@ -17,7 +17,7 @@ While we do have an [RSS feed for the MITH website](http://mith.umd.edu/feed/) w
 
 So, while we're not getting rid of the video channel we decided to bring back the Digital Dialogues podcast:
 
-<http://mith.umd.edu/digital-dialogues/podcast/>
+http://mith.umd.edu/digital-dialogues/podcast/
 
 Drop that URL in your podcast player or head on [over to the Apple Store](itms://itunes.apple.com/us/podcast/miths-digital-dialogues/id1200528741?mt=2):
 

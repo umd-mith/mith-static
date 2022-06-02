@@ -21,7 +21,7 @@ It’s my understanding that I can share the data with others at the University 
 
 So that’s what I’m doing today: publishing the tweet ids using a CC-BY license. You can download them from the Internet Archive:
 
-> _<https://archive.org/details/ferguson-tweet-ids>_
+> _https://archive.org/details/ferguson-tweet-ids_
 
 ### **Hydration**
 

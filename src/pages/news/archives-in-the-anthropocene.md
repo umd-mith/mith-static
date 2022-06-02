@@ -142,45 +142,45 @@ Works Cited
 
 \[fusion_text]
 
-Bailey, Moya #transform(ing)DH Writing and Research, An Autoethnography of Digital Humanities and Feminist Ethics, Digital Humanities Quarterly, Vol 9, No 2, 2015. <http://www.digitalhumanities.org/dhq/vol/9/2/000209/000209.html>
+Bailey, Moya #transform(ing)DH Writing and Research, An Autoethnography of Digital Humanities and Feminist Ethics, Digital Humanities Quarterly, Vol 9, No 2, 2015. http://www.digitalhumanities.org/dhq/vol/9/2/000209/000209.html
 
-Bardzell, Shaowen, “Feminist HCI: Taking Stock and Outlining an Agenda for Design,” CHI 2010, April 10-15, 2010. <http://wtf.tw/ref/bardzell.pdf>
+Bardzell, Shaowen, “Feminist HCI: Taking Stock and Outlining an Agenda for Design,” CHI 2010, April 10-15, 2010. http://wtf.tw/ref/bardzell.pdf
 
-Caswell, Michelle, et al. “Critical Archival Studies: An Introduction.” Journal of Critical Library and Information Studies, vol. 1, no. 2, 2017, doi:10.24242/jclis.v1i2.50. <http://libraryjuicepress.com/journals/index.php/jclis/article/view/50/0>
+Caswell, Michelle, et al. “Critical Archival Studies: An Introduction.” Journal of Critical Library and Information Studies, vol. 1, no. 2, 2017, doi:10.24242/jclis.v1i2.50. http://libraryjuicepress.com/journals/index.php/jclis/article/view/50/0
 
 Caswell, Michelle. “Not Just between Us: A Riposte to Mark Greene.” American Archivist 76 (2): 605–8. 2013.
 
 Terry Cook, “Fashionable Nonsense or Professional Rebirth: Postmodernism and the Practice of Archives,” Archivaria 51 (2001): 26
 
-Document the Now. <http://www.docnow.io/> Accessed February 2, 2018
+Document the Now. http://www.docnow.io/ Accessed February 2, 2018
 
-Drake, Jarrett. “Repositories of Failure: Creating Abolitionist Archives to Project Past the Punishment Paradigm” Maryland Institute of Technology in the Humanities Digital Dialogue. February 13, 2018. <http://mith.umd.edu/dialogues/dd-spring-2018-jarrett-drake/>
+Drake, Jarrett. “Repositories of Failure: Creating Abolitionist Archives to Project Past the Punishment Paradigm” Maryland Institute of Technology in the Humanities Digital Dialogue. February 13, 2018. http://mith.umd.edu/dialogues/dd-spring-2018-jarrett-drake/
 
-Gilligan, Carol, “Ethics of Care Interview,” Ethics of Care, June 21 2011. <http://ethicsofcare.org/carol-gilligan/>
+Gilligan, Carol, “Ethics of Care Interview,” Ethics of Care, June 21 2011. http://ethicsofcare.org/carol-gilligan/
 
-Haraway, Donna, “Anthropocene, Capitalocene, Plantationocene, Cthlulucene,” Environmental Humanities, Vol. 6, 2015. <http://environmentalhumanities.org/arch/vol6/6.7.pdf>
+Haraway, Donna, “Anthropocene, Capitalocene, Plantationocene, Cthlulucene,” Environmental Humanities, Vol. 6, 2015. http://environmentalhumanities.org/arch/vol6/6.7.pdf
 
 Staying with the Trouble : Making Kin in the Chthulucene. Duke University Press, 2016.
 
-Johnson, Jessica Marie. July 23, 2016. “The Digital in the Humanities: An Interview with Jessica Marie Johnson” LA Review of Books. <https://lareviewofbooks.org/article/digital-humanities-interview-jessica-marie-johnson/> Accessed February 2, 2018
+Johnson, Jessica Marie. July 23, 2016. “The Digital in the Humanities: An Interview with Jessica Marie Johnson” LA Review of Books. https://lareviewofbooks.org/article/digital-humanities-interview-jessica-marie-johnson/ Accessed February 2, 2018
 
-Parham, Marisa, “Black Haunts in the Anthropocene”. <http://blackhaunts.mp285.com/> Accessed February 2, 2018
+Parham, Marisa, “Black Haunts in the Anthropocene”. http://blackhaunts.mp285.com/ Accessed February 2, 2018
 
-Paterson, Katie. Future Library. <https://www.blackquantumfuturism.com/community-futurisms> Accessed February 2, 2018
+Paterson, Katie. Future Library. https://www.blackquantumfuturism.com/community-futurisms Accessed February 2, 2018
 
-Perkins, Yvonne, “Women and archival silences” Stumbling Through the Past: Delving in to History blog. Posted 09/03/2012. <https://stumblingpast.com/2012/03/09/women-and-archival-silences/> Accessed February 2, 2018
+Perkins, Yvonne, “Women and archival silences” Stumbling Through the Past: Delving in to History blog. Posted 09/03/2012. https://stumblingpast.com/2012/03/09/women-and-archival-silences/ Accessed February 2, 2018
 
-Philips, Rasheedah, Camae Ayeway, Community Futures Lab project, Black Quantum Futurism. <https://www.blackquantumfuturism.com/community-futurisms> Accessed Feb 2, 2018
+Philips, Rasheedah, Camae Ayeway, Community Futures Lab project, Black Quantum Futurism. https://www.blackquantumfuturism.com/community-futurisms Accessed Feb 2, 2018
 
-“Project Blacklight”, <https://github.com/projectblacklight/blacklight/wiki#support> and <https://github.com/projectblacklight/blacklight/wiki/Quickstart> Accessed Feb 2, 2018
+“Project Blacklight”, https://github.com/projectblacklight/blacklight/wiki#support and https://github.com/projectblacklight/blacklight/wiki/Quickstart Accessed Feb 2, 2018
 
-Ricardo L. Punzalan and Michelle Caswell, "Critical Directions for Archival Approaches to Social Justice," The Library Quarterly 86, no. 1 (January 2016): 25-42. <https://doi.org/10.1086/684145>
+Ricardo L. Punzalan and Michelle Caswell, "Critical Directions for Archival Approaches to Social Justice," The Library Quarterly 86, no. 1 (January 2016): 25-42. https://doi.org/10.1086/684145
 
 Ramirez, Mario H. (2015) Being Assumed Not to Be: A Critique of Whiteness as an Archival Imperative. The American Archivist: Fall/Winter 2015, Vol. 78, No. 2, pp. 339-356.
 
-Risam, Roopika and Micah Cardenas, Social Justice and the Digital Humanities, 2015. <http://criticaldh.roopikarisam.com/> Accessed Feb 2, 2018
+Risam, Roopika and Micah Cardenas, Social Justice and the Digital Humanities, 2015. http://criticaldh.roopikarisam.com/ Accessed Feb 2, 2018
 
-Sadler, Bess and Chris Bourg, “Feminism and the Future of Library Discovery,” Code4Lib, Issue 28, April 15, 2015. <http://journal.code4lib.org/articles/10425>
+Sadler, Bess and Chris Bourg, “Feminism and the Future of Library Discovery,” Code4Lib, Issue 28, April 15, 2015. http://journal.code4lib.org/articles/10425
 
 Solli, Brit, et al. “Some Reflections on Heritage and Archaeology in the Anthropocene.” Norwegian Archaeological Review, vol. 44, no. 1, 2011, pp. 40–88., doi:10.1080/00293652.2011.572677.
 

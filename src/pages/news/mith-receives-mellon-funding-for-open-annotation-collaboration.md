@@ -23,4 +23,4 @@ The co-Principal Investigators for the OAC Phase I project are Timothy W. Cole o
 
 All work produced as part of the OAC Phase I project will be made available under open source license for the free use and exploitation by other scholars and non-profit educational, scholarly and charitable institutions.
 
-For additional information contact t-cole3 at illinois dot edu or consult the OAC Website at <http://www.openannotation.org/>
+For additional information contact t-cole3 at illinois dot edu or consult the OAC Website at http://www.openannotation.org/

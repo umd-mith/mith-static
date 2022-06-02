@@ -50,7 +50,7 @@ Opportunities for archival work in the rich research collections at the Universi
 
 **To apply, please send a letter of application, CV, and contact information for three references to [aadhum-postdocs@umd.edu](mailto:aadhum-postdocs@umd.edu)\*\***. For best consideration, applications should be submitted no later than July 22, 2016.\*\* Review will continue until the position is filled. Start date to be negotiated, but no later than February 1, 2017.
 
-For complete information about the position, please visit: <http://go.umd.edu/AADHumPostDocs>
+For complete information about the position, please visit: http://go.umd.edu/AADHumPostDocs
 
 ### The University and Community
 

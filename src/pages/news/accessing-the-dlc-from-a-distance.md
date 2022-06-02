@@ -45,7 +45,7 @@ I would also like to thank Deena Larsen for her encouragement as I study her wor
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Want to schedule a visit to the _DLC_? Use the form at <http://mith.umd.edu/larsen/contact>
+Want to schedule a visit to the _DLC_? Use the form at http://mith.umd.edu/larsen/contact
 
 Citations:
 
@@ -53,11 +53,11 @@ Quotations from MITH Associate Director Matthew Kirschenbaum are from an intervi
 
 Image credits:
 
-_The Deena Larsen Collection Web site_. Maryland Institute for Technology in the Humanities. <http://mith.umd.edu/larsen/>
+_The Deena Larsen Collection Web site_. Maryland Institute for Technology in the Humanities. http://mith.umd.edu/larsen/
 
-Deena Larsen, "Marble Springs Shower Curtain," in The Deena Larsen Collection at the Maryland Institute for Technology in the Humanities, Item #42, <http://mith.umd.edu/larsen/items/show/42> (accessed May 10, 2011)
+Deena Larsen, "Marble Springs Shower Curtain," in The Deena Larsen Collection at the Maryland Institute for Technology in the Humanities, Item #42, http://mith.umd.edu/larsen/items/show/42 (accessed May 10, 2011)
 
-Deena Larsen, ""Hyperpoems and Hyperpossibilities": Deena Larsen's M.A. Thesis," in The Deena Larsen Collection at the Maryland Institute for Technology in the Humanities, Item #161, <http://mith.umd.edu/larsen/items/show/161> (accessed May 17, 2011).
+Deena Larsen, ""Hyperpoems and Hyperpossibilities": Deena Larsen's M.A. Thesis," in The Deena Larsen Collection at the Maryland Institute for Technology in the Humanities, Item #161, http://mith.umd.edu/larsen/items/show/161 (accessed May 17, 2011).
 
 Leighton Christiansen is pursing his Master’s of Library and Information Science Degree at the Graduate School of Library and Information Science (GSLIS), at the University of Illinois at Urbana-Champaign, and threatens to catch that degree any time now.
 

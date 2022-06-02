@@ -107,7 +107,7 @@ Even though they are highly sensitive to change there are some rules of thumb yo
 - status metadata: http://example.org/**drafts**/item/1
 - user metadata: http://example.org/**timbl**/notes/
 
-Ironically enough the URL for Cool URIs Don’t Change is <http://www.w3.org/Provider/Style/URI.html> which is counter to the first recommendation since it uses the .html filename extension. Remember, these are not hard and fast rules--they are simply helpful pointers to things that are more susceptible to change in URLs.
+Ironically enough the URL for Cool URIs Don’t Change is http://www.w3.org/Provider/Style/URI.html which is counter to the first recommendation since it uses the .html filename extension. Remember, these are not hard and fast rules--they are simply helpful pointers to things that are more susceptible to change in URLs.
 
 In fact you may have already heard of Cool URIs by a more popular name: _permalinks_. In 2000, Just as blogging was becoming popular, Paul Bausch, Matt Howie and Ev Williams at Blogger needed a way to reference older posts that had cycled off a a blog’s homepage. Necessity was the mother of invention, and so the idea of the permalink was born. A permalink uniquely identifies a blog post which can be used when referencing older content in the archive. The idea is now so ubiquitous it is difficult to recognize as the innovation it was then.
 

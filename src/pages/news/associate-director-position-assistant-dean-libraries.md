@@ -26,6 +26,6 @@ The successful candidate will occupy a position of influence that will serve as 
 
 Position is appointed to Librarian Faculty Ranks as established by the University System of Maryland Board of Regents. Rank at appointment is based on the successful applicant’s experience and relevant credentials.
 
-**APPLICATIONS: Electronic applications required.** Please apply online at <https://jobs.umd.edu>, click faculty. The University of Maryland Libraries will not sponsor individuals for employment. You must be legally able to work in the United States. An application consists of a cover letter which includes the source of advertisement, a Curriculum Vitae, and names/e-mail addresses of three references. Applications will be reviewed as they are received and accepted until **April 15, 2011**.
+**APPLICATIONS: Electronic applications required.** Please apply online at https://jobs.umd.edu, click faculty. The University of Maryland Libraries will not sponsor individuals for employment. You must be legally able to work in the United States. An application consists of a cover letter which includes the source of advertisement, a Curriculum Vitae, and names/e-mail addresses of three references. Applications will be reviewed as they are received and accepted until **April 15, 2011**.
 
 The University of Maryland is an Equal Opportunity Employer. Women and Minorities are encouraged to apply.

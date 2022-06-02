@@ -21,4 +21,4 @@ Looking ahead, longer bootcamps found around the world at DHSI, Bamboo, and DARI
 
 Programmers are indeed pro-active at times and so our group, post-Symposium, wasted no time talking about what is next. Interedition continues to work to find additional funding and ways to continue offering programmers and research-field insiders the means to interact in hands-on sessions. Van Zundert has accepted the mantle of head of Interedition and will be in charge of seeing his framework of informal bootcamps and planning sessions live on. Whether Interedition gets picked up by another series of funding now or in the future, I assert that it will serve as a marker for the way in which open-source, academic programming careers will operate.
 
-_Learn more about\_\_ Interedition on their website (<http://www.interedition.eu>). To get more involved, contact Joris Van Zundert at joris DOT van DOT zundert AT gmail DOT com._
+_Learn more about\_\_ Interedition on their website (http://www.interedition.eu). To get more involved, contact Joris Van Zundert at joris DOT van DOT zundert AT gmail DOT com._

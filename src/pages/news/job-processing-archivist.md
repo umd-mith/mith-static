@@ -13,4 +13,4 @@ The Processing Archivist is responsible for carrying out the day-to-day workflow
 
 The position is a contractual position that includes additional benefits. The contract is for a maximum of 12 months.
 
-For more information and to apply, please use the following URL: <https://ejobs.umd.edu/postings/43954>.
+For more information and to apply, please use the following URL: https://ejobs.umd.edu/postings/43954.
