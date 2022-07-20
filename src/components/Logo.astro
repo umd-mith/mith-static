@@ -1,7 +1,11 @@
+---
+const { fill } = Astro.props
+---
+
 <svg
   id="mith-logo-large"
   xmlns="http://www.w3.org/2000/svg"
-  class="logo"
+  class={fill || 'fill-mithgray'}
   viewBox="0 0 431 144"
 >
   <path
@@ -9,16 +13,3 @@
     fill-rule="evenodd"
   ></path>
 </svg>
-
-<style>
-  .logo {
-    fill: hsl(var(--color-gray-200));
-    height: var(--size-7);
-  }
-
-  @media screen and (min-width: 1440px) {
-    .logo {
-      height: var(--size-6);
-    }
-  }
-</style>

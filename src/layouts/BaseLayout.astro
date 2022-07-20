@@ -20,9 +20,9 @@ const currentPage = Astro.site.pathname
     >
     <HeadCommon />
   </head>
-  <body>
+  <body class="min-h-screen">
     <Header {currentPage} />
-    <main id="main-content">
+    <main class="container mx-auto px-5 my-20 break-words">
       <slot />
     </main>
     <Footer />

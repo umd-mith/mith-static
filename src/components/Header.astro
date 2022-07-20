@@ -1,7 +1,8 @@
 ---
 import SkipToContent from "./SkipToContent.astro"
 import MenuButton from "./MenuButton.tsx"
-import * as CONFIG from "../config.ts"
+import Logo from "./Logo.astro"
+import * as CONFIG from "../config"
 
 const { currentPage } = Astro.props
 ---
@@ -13,25 +14,13 @@ const { currentPage } = Astro.props
     <!-- <MenuButton client:idle /> -->
     <nav
       id="primary-navigation"
-      class="text-xl mx-2 text-slate-800"
+      class="text-xl mx-2 text-mithgray p-4"
       aria-label="primary"
       tabindex="-1"
     >
       <ul class="flex flex-row gap-5" role="list">
         <li class="w-[220px]"><a href="/">
-          <svg 
-            id="mith-logo-small"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-    
-            viewBox="0 0 220 72"
-            ><defs><path id="a" d="M0 0h219.867v71.939H0z"></path></defs><g
-              fill-rule="evenodd"
-              ><path
-                d="M85.676 71.939h10.866V0H85.676zM137.267 10.212v61.787h-10.865V10.212h-16.555V0h43.927v10.212h-16.507M177.945 28.166h31.058V0h10.864v71.999h-10.864V38.378h-31.058v33.621h-10.866V0h10.866v28.166M60.048 0 36.156 30.647 12.261 0H-.06v71.998h10.866V15.809l25.35 32.511 25.347-32.511v56.189H72.37V0H60.048"
-              ></path></g
-            ></svg
-          >
+          <Logo/>
         </a></li>
         {CONFIG.MENU.en
           .filter(page => page.group === "main")
