@@ -9,31 +9,30 @@ const { currentPage } = Astro.props
 <SkipToContent />
 <header>
   <div id="page-top" class="header-inner-wrapper">
-    <div class="logo-container">
-      <a href="/">
-        <svg
-          id="mith-logo-small"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          class="logo"
-          viewBox="0 0 220 72"
-          ><defs><path id="a" d="M0 0h219.867v71.939H0z"></path></defs><g
-            fill-rule="evenodd"
-            ><path
-              d="M85.676 71.939h10.866V0H85.676zM137.267 10.212v61.787h-10.865V10.212h-16.555V0h43.927v10.212h-16.507M177.945 28.166h31.058V0h10.864v71.999h-10.864V38.378h-31.058v33.621h-10.866V0h10.866v28.166M60.048 0 36.156 30.647 12.261 0H-.06v71.998h10.866V15.809l25.35 32.511 25.347-32.511v56.189H72.37V0H60.048"
-            ></path></g
-          ></svg
-        >
-      </a>
-    </div>
-    <MenuButton client:idle />
+  
+    <!-- <MenuButton client:idle /> -->
     <nav
       id="primary-navigation"
       class="text-xl mx-2 text-slate-800"
       aria-label="primary"
       tabindex="-1"
     >
-      <ul class="menu flow" role="list">
+      <ul class="flex flex-row gap-5" role="list">
+        <li class="w-[220px]"><a href="/">
+          <svg 
+            id="mith-logo-small"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+    
+            viewBox="0 0 220 72"
+            ><defs><path id="a" d="M0 0h219.867v71.939H0z"></path></defs><g
+              fill-rule="evenodd"
+              ><path
+                d="M85.676 71.939h10.866V0H85.676zM137.267 10.212v61.787h-10.865V10.212h-16.555V0h43.927v10.212h-16.507M177.945 28.166h31.058V0h10.864v71.999h-10.864V38.378h-31.058v33.621h-10.866V0h10.866v28.166M60.048 0 36.156 30.647 12.261 0H-.06v71.998h10.866V15.809l25.35 32.511 25.347-32.511v56.189H72.37V0H60.048"
+              ></path></g
+            ></svg
+          >
+        </a></li>
         {CONFIG.MENU.en
           .filter(page => page.group === "main")
           .map(page => (
@@ -46,143 +45,3 @@ const { currentPage } = Astro.props
   </div>
 </header>
 
-<style>
-  header {
-    margin-bottom: var(--spacing-base);
-  }
-
-  .header-inner-wrapper {
-    line-height: 1.1;
-    margin: var(--spacing-base) var(--spacing-small);
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .logo-container {
-    padding-bottom: var(--spacing-base);
-  }
-
-  .logo {
-    fill: hsl(var(--color-gray-900));
-    position: relative;
-    top: 1ch;
-  }
-
-  .logo:hover,
-  .logo:active {
-    fill: hsl(var(--color-gray-600));
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .menu li:active a {
-    border-bottom: 1px solid hsl(var(--color-gray-900));
-  }
-
-  .menu li:focus,
-  .menu li:hover {
-    color: hsl(var(--color-gray-100));
-    background-color: hsl(var(--color-gray-200));
-    font-weight: 300;
-    padding-block: 1ch;
-    padding-inline: calc(1ch * 2);
-  }
-
-  /* Menu open styles */
-  .logo-container.menu-open,
-  .nav-container.menu-open {
-    margin: 0 auto;
-    width: 75vmin;
-  }
-
-  .logo-container.menu-open {
-    position: relative;
-    top: 20vmin;
-    z-index: 300;
-  }
-
-  .logo-container.menu-open .logo {
-    display: block;
-    height: var(--size-5);
-    margin: 0 auto;
-  }
-
-  .nav-container.menu-open {
-    padding-left: 0;
-    padding-top: calc(20vmin + var(--size-5));
-  }
-
-  .nav-container.menu-open::after {
-    content: "";
-    background-color: hsl(var(--color-gray-100));
-    opacity: 98%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    z-index: 100;
-  }
-
-  .menu.menu-open {
-    --flow-space: var(--size-3);
-    display: flex;
-    flex-flow: column;
-    font-size: var(--size-2);
-    font-weight: 700;
-    padding: 0;
-    position: relative;
-    text-align: center;
-    z-index: 300;
-  }
-
-  @media screen and (min-width: 27em) {
-    .header-inner-wrapper {
-      display: flex;
-      flex-flow: row nowrap;
-    }
-
-    .logo-container {
-      flex: 1 0 auto;
-    }
-
-    .nav-container {
-      flex-shrink: 0;
-    }
-
-    .menu {
-      --flow-space: 0.67em;
-      display: flex;
-      flex-flow: column;
-      font-size: var(--size-0);
-      margin-block: 0;
-      padding-top: 1ex;
-      text-align: justify;
-    }
-
-    .menu li {
-      max-width: 12ch;
-    }
-  }
-
-  @media screen and (min-width: 62em) {
-    .menu {
-      --flow-space: 0;
-      flex-flow: row nowrap;
-      font-size: var(--size-1);
-      gap: var(--spacing-base);
-      padding-top: 0;
-      padding-right: var(--spacing-small);
-    }
-
-    .menu li:focus,
-    .menu li:hover {
-      padding-block: 0;
-      padding-inline: 0.5ex;
-    }
-  }
-</style>

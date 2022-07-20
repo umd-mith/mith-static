@@ -10,9 +10,9 @@ export const MENU = {
   en: [
     { label: "Research", link: "/research/", group: "main" },
     { label: "Digital Dialogues", link: "/digital-dialogues/", group: "main" },
-    { label: "News", link: "/news/", group: "main" },
+    { label: "Communications", link: "/news/", group: "main" },
     { label: "Events", link: "/events/"},
-    { label: "Our Values", link: "/values/", group: "main" },
-    { label: "People", link: "/people/", group: "main" },
+    { label: "Our Values", link: "/values/"},
+    { label: "People", link: "/people/", group: "main"},
   ],
 }
