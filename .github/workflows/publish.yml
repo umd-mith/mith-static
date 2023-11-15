@@ -18,7 +18,7 @@ jobs:
           envkey_AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
       - name: npm install and build and deploy
         run: |
-          npm install
+          npm install --openssl-legacy-provider
           npm run build --openssl-legacy-provider
       - uses: peaceiris/actions-gh-pages@v2
         env:
