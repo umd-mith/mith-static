@@ -194,6 +194,7 @@ async function makePosts(createPage, graphql, pathPrefix) {
 }
 
 async function makePostIndex(createPage, graphql, pathPrefix) {
+  console.log(`making post index`)
   const results = await graphql(`
     query {
       allMarkdownRemark(
@@ -211,6 +212,8 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
   const numPosts = results.data.allMarkdownRemark.pageInfo.itemCount
   const postsPerPage = 25
   const numPages = Math.ceil(numPosts / postsPerPage)
+
+  console.log(`NUMPAGES:`, numPages)
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
