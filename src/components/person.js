@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
@@ -60,11 +60,11 @@ const Person = ({ person, type }) => {
             : null
         }
       }
-      return (<>
+      return (<Fragment key={aff.title}>
         {person_title}
         {person_dept}
         {person_institution}
-      </>)
+      </Fragment>)
     })
   }
 

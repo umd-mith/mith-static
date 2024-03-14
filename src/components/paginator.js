@@ -8,7 +8,7 @@ const Paginator = ({count, path}) => {
     <section className="pagination-wrap">
       <ul className="pagination">
         {Array.from({ length: count }, (_, i) => (
-          <li className="page-link">
+          <li className="page-link" key={`pa${i}`}>
             <Link
               activeClassName="active" 
               className="page-link"

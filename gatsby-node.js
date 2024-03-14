@@ -120,6 +120,7 @@ async function makePeople(createPage, graphql) {
       ) {
         nodes {
           name
+          airtable_id
           fields {
             headshot {
               childImageSharp {
@@ -142,7 +143,6 @@ async function makePeople(createPage, graphql) {
           research_interests
           people_groups
           new_id
-          id
         }
       }
     }  
@@ -155,7 +155,7 @@ async function makePeople(createPage, graphql) {
       person.bio = person.fields.peopleBio ? person.fields.peopleBio.childMarkdownRemark.html : person.bio
     }
     createPage({
-      path: `/people/${person.id}/`,
+      path: `/people/${person.airtable_id}/`,
       component: require.resolve(`./src/templates/person.js`),
       context: {
         ...person
@@ -263,7 +263,7 @@ async function makeResearch(createPage, graphql) {
     query {
       allResearchJson {
         nodes {
-          id
+          airtable_id
           fields {
             researchDescription {
               childMarkdownRemark {
@@ -365,7 +365,7 @@ async function makeResearch(createPage, graphql) {
   for (const node of results.data.allResearchJson.nodes) {
     const item = node
     createPage({
-      path: `/research/${item.id}/`,
+      path: `/research/${item.airtable_id}/`,
       component: require.resolve(`./src/templates/research.js`),
       context: {
         ...item
@@ -410,7 +410,7 @@ async function makeEvents(createPage, graphql) {
     query {
       allEventsJson {
         nodes {
-          id
+          airtable_id
           fields {
             eventsDescription {
               childMarkdownRemark {
@@ -569,7 +569,7 @@ async function makeEvents(createPage, graphql) {
     })
     node.research.forEach(rr => {
       results.data.allResearchJson.nodes.map(research => {
-        if (research.id === rr.id) {
+        if (research.airtable_id === rr.airtable_id) {
           if (research.fields) {
             rr.image = research.fields.image
           }
@@ -577,7 +577,7 @@ async function makeEvents(createPage, graphql) {
       })
     })
     createPage({
-      path: `/events/${node.id}/`,
+      path: `/events/${node.airtable_id}/`,
       component: require.resolve(`./src/templates/event.js`),
       context: {
         ...node
@@ -652,7 +652,7 @@ async function makeDialogues(createPage, graphql) {
         }
       ) {
         nodes {
-          id
+          airtable_id
           fields {
             eventsDescription {
               childMarkdownRemark {
@@ -773,7 +773,7 @@ async function makeDialogues(createPage, graphql) {
       })
     })
     createPage({
-      path: `/digital-dialogues/${node.id}/`,
+      path: `/digital-dialogues/${node.airtable_id}/`,
       component: require.resolve(`./src/templates/dialogue.js`),
       context: {
         ...node

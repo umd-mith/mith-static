@@ -26,7 +26,10 @@ const Dialogue = ({ pageContext: item }) => {
       className="event-image" 
     /> : <div className="header">{title}{subtitle}</div>
     
-  const description = item.fields.eventsDescription 
+    if (item.fields) {
+
+    }
+  const description = item.fields && item.fields.eventsDescription 
     ? <div className="description" 
       dangerouslySetInnerHTML={{ __html: item.fields.eventsDescription.childMarkdownRemark.html }} 
     /> : ''

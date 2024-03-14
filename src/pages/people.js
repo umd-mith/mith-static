@@ -10,7 +10,7 @@ import './people.css'
 const PeoplePage = ({ data }) => { 
 
   function makePerson(person, useWebsite=false) {
-    let pageLocation = person.id
+    let pageLocation = person.airtable_id
     if (useWebsite) {
       if (person.website) {
         pageLocation = person.website.startsWith('http')
@@ -43,10 +43,10 @@ const PeoplePage = ({ data }) => {
     if (person.current_identities) {
       identities = person.current_identities.map(identity => {
         return (identity.department === 'MITH' || identity.department === 'Maryland Institute for Technology in the Humanities' || identity.department === null)
-          ? <div className="identity" id={identity.id} key={`i-${identity.id}`}>
+          ? <div className="identity" id={identity.airtable_id} key={`i-${identity.airtable_id}`}>
             <span className="title">{identity.title}</span>
           </div>
-          : <div className="identity" id={identity.id} key={`i-${identity.id}`}>
+          : <div className="identity" id={identity.airtable_id} key={`i-${identity.airtable_id}`}>
             <span className="title">{identity.title}</span>
             <span className="department">{identity.department}</span>
           </div>
@@ -113,7 +113,7 @@ export const query = graphql`
       group(field: group_type) {
         fieldValue
         nodes {
-          id
+          airtable_id
           new_id
           name
           first

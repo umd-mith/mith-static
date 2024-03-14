@@ -24,7 +24,7 @@ const Event = ({ pageContext: item }) => {
       className="event-image" 
     /> : <div className="header">{title}{subtitle}</div>
     
-  const description = item.fields.eventsDescription 
+  const description = item.fields && item.fields.eventsDescription 
     ? <div className="description" 
       dangerouslySetInnerHTML={{ __html: item.fields.eventsDescription.childMarkdownRemark.html }} 
     /> : ''
@@ -105,9 +105,9 @@ const Event = ({ pageContext: item }) => {
             className="related-research-item"
           />
         }
-        return <Link className="related-research-item" to={`../../research/${r.id}`}>{research_img}</Link>
+        return <Link className="related-research-item" to={`../../research/${r.airtable_id}`}>{research_img}</Link>
       } else {
-        return <Link className="related-research-item" to={`../../research/${r.id}`}>{r.title}</Link>
+        return <Link className="related-research-item" to={`../../research/${r.airtable_id}`}>{r.title}</Link>
       }
     })
     research = <div class="related-research">

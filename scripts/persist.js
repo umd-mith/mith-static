@@ -13,9 +13,9 @@ const Airtable = require('airtable')
 
 class Persistor {
   constructor() {
-    const airtableKey = process.env.AIRTABLE_API_KEY
+    const airtableKey = process.env.AIRTABLE_TOKEN
     if (! airtableKey) {
-      console.error('Please add AIRTABLE_API_KEY to your environment or .env file!')
+      console.error('Please add AIRTABLE_TOKEN to your environment or .env file!')
       process.exit()
     }
     this.at = new Airtable({apiKey: airtableKey})    
@@ -202,6 +202,7 @@ class Persistor {
           }, {})
           
           persInfo['linked identities'] = Object.values(resolvedLinkedIdentities)
+          persInfo['airtable_id'] = persInfo.id
         }
 
         // Current Identities
@@ -235,6 +236,7 @@ class Persistor {
           sort: group.get('sort'),
           slug: group.get('slug')
         }
+        groupInfo.airtable_id = group.get('id')
         groups.push(groupInfo)
       }
   
@@ -254,6 +256,7 @@ class Persistor {
         const post = postsData[postId]
   
         const postInfo = post.fields
+        postInfo.airtable_id = postInfo.id
         posts.push(postInfo)
       }
   
@@ -427,7 +430,8 @@ class Persistor {
         research.fields.posts = (researchItem.get('linked posts') || []).map(
           id => syncedPosts[id].fields
         )
-  
+        
+        research.fields.airtable_id = researchItem.get('id')
         allResearch.push(research.fields)
       }
   
@@ -543,7 +547,8 @@ class Persistor {
         event.fields.posts = (eventsItem.get('linked posts') || []).map(
           id => syncedPosts[id].fields
         )
-
+        
+        event.fields.airtable_id = eventsItem.get('id')
         events.push(event.fields)
       }
   
@@ -572,7 +577,7 @@ class Persistor {
           return people[personId].get('slug')
         })
         identityInfo.person_slug = resolvedPerson[0]
-
+        identityInfo.airtable_id = identity.get('id')
         identities.push(identityInfo)
       }
 

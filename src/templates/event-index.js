@@ -23,7 +23,7 @@ const EventIndex = ({data}) => {
           <h1 className="page-title">Events</h1>
           {items.map(item => {
 
-            const slug = '/events/' + item.id + '/'
+            const slug = '/events/' + item.airtable_id + '/'
             
             const event_title = item.event_title
             const talk_title = item.talk_title
@@ -74,14 +74,14 @@ const EventIndex = ({data}) => {
               types = <div className="event-types">{types_list}{status}</div>
             }
 
-            const itemId = item.id.replace(/-/g, '_')
+            const itemId = item.airtable_id.replace(/-/g, '_')
             const iconLocation = <FontAwesomeIcon icon="map-marker-alt" />
             const location = item.location 
               ? <span className="location">{iconLocation} {item.location}</span> : ''
             const details = <Link className="button" to={slug}>Event Details</Link>
 
             return (
-              <article className="event-item" key={`event-${item.id}`} id={itemId}>
+              <article className="event-item" key={`event-${item.airtable_id}`} id={itemId}>
                 {image}
                 <div className="content">
                   {title}
@@ -119,7 +119,7 @@ export const query = graphql`
       }
     ) {
       nodes {
-        id
+        airtable_id
         event_title
         talk_title
         talk_subtitle

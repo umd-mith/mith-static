@@ -47,10 +47,10 @@ const ResearchIndex = ({data}) => {
               }
             }
             
-            const itemId = item.id.replace(/-/g, '_')
+            const itemId = item.airtable_id.replace(/-/g, '_')
 
             return (
-              <article className="post research-item-post" key={`research-${item.id}`} id={itemId}>
+              <article className="post research-item-post" key={`research-${item.airtable_id}`} id={itemId}>
                 {title}
                 <div className="meta">
                   {dates}
@@ -79,7 +79,7 @@ export const query = graphql`
       }
     ) {
       nodes{
-        id
+        airtable_id
         title
         slug
         year_start

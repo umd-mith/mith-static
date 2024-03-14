@@ -17,7 +17,7 @@ const PeoplePastPage = ({ data }) => {
         .sort((a, b) => a.start - b.start)
         .map(identity => {
           const end = identity.start === identity.end ? '' : <span className="end">{identity.end}</span>
-          return (<article className="identity" id={identity.id} key={`i-${identity.id}`}>
+          return (<article className="identity" id={identity.airtable_id} key={`i-${identity.airtable_id}`}>
             <span className="title">{identity.title}</span>
             <span className="date-span">
               <span className="start">{identity.start}</span>
@@ -71,7 +71,7 @@ export const query = graphql`
             start
             end
           }
-          id
+          airtable_id
           new_id
         }
       }
