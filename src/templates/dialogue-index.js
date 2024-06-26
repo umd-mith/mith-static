@@ -73,6 +73,13 @@ const DialogueIndex = ({data, pageContext}) => {
       <div className="page-dialogues">
         <section className="posts dialogues events">
           <h1 className="page-title">Digital Dialogues</h1>
+          <p>
+            Digital Dialogues convenes prominent digital humanities, new media, and information technology practitioners 
+            to present their field-defining research. The series, which celebrated its 40th season in Spring 2024, 
+            invites intellectual exchange around topics critical to the digital humanities. 
+            Follow us on social media (<a href="https://twitter.com/UMD_MITH">@umd_mith</a> on X/Twitter and
+            <a href="https://www.instagram.com/mith_umd">@mith_umd</a> on Instagram) for more details.
+          </p>
           {sortedItems.future.map(item => <Entry item={item} headshots={headshots} key={item.airtable_id} />)}
           <h2 className="page-title">Past Digital Dialogues</h2>
           {sortedItems.past.map(item => <Entry item={item} headshots={headshots} key={item.airtable_id} />)}
