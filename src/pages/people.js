@@ -10,7 +10,7 @@ import './people.css'
 const PeoplePage = ({ data }) => { 
 
   function makePerson(person, useWebsite=false) {
-    let pageLocation = person.airtable_id
+    let pageLocation = person.id
     if (useWebsite) {
       if (person.website) {
         pageLocation = person.website.startsWith('http')
@@ -22,9 +22,9 @@ const PeoplePage = ({ data }) => {
     }
 
     let img = ''
-    if (person.fields.headshot) {
+    if (person.headshot.localFiles[0].childImageSharp) {
       const el = <GatsbyImage 
-        image={person.fields.headshot.childImageSharp.gatsbyImageData}
+        image={person.headshot.localFiles[0].childImageSharp.gatsbyImageData}
         alt={`Headshot of ${person.name}`} 
         imgStyle={{
           objectFit: "cover",
@@ -40,13 +40,14 @@ const PeoplePage = ({ data }) => {
       : person.name
 
     let identities = ''
-    if (person.current_identities) {
-      identities = person.current_identities.map(identity => {
+    if (person.identities_as_current) {
+      identities = person.identities_as_current.map(_identity => {
+        const identity = _identity.data
         return (identity.department === 'MITH' || identity.department === 'Maryland Institute for Technology in the Humanities' || identity.department === null)
-          ? <div className="identity" id={identity.airtable_id} key={`i-${identity.airtable_id}`}>
+          ? <div className="identity" id={identity.id} key={`i-${identity.id}`}>
             <span className="title">{identity.title}</span>
           </div>
-          : <div className="identity" id={identity.airtable_id} key={`i-${identity.airtable_id}`}>
+          : <div className="identity" id={identity.id} key={`i-${identity.id}`}>
             <span className="title">{identity.title}</span>
             <span className="department">{identity.department}</span>
           </div>
@@ -62,15 +63,15 @@ const PeoplePage = ({ data }) => {
     )    
   }
 
-  function makeStaff(people) {    
+  function makeStaff(people) { 
     return people.nodes.map(person => {
-      return makePerson(person)
+      return makePerson(person.data)
     })
   }
 
   function makeAffiliates(affiliates) {    
     return affiliates.nodes.map(person => {
-      return makePerson(person, true)
+      return makePerson(person.data, true)
     })
   }
 
@@ -102,35 +103,39 @@ const PeoplePage = ({ data }) => {
 
 export const query = graphql`
   query PeopleQuery {
-    people: allPeopleJson(
-      sort: {
-        fields: last
-      }, 
-      filter: {
-        group_type: {in: ["Staff", "Affiliates"]}
-      }
+    people: allAirtablePeople(
+      filter: {data: {group_type: {in: ["Staff", "Affiliates"]}}}
+      sort: {data: {last: ASC}}
     ) {
-      group(field: group_type) {
+      group(field: {data: {group_type: SELECT}}) {
         fieldValue
         nodes {
-          airtable_id
-          new_id
-          name
-          first
-          last
-          website
-          twitter
-          current_identities {
+          data {
             id
-            title
-            department
-            institution
-            person_bio
-          }
-          fields {
+            new_id
+            name
+            first
+            last
+            website
+            twitter
+            identities_as_current {
+              data {
+                id
+                title
+                department
+                institution
+              }
+            }
             headshot {
-              childImageSharp {
-                gatsbyImageData(height: 500, width: 500, transformOptions: {fit: COVER}, backgroundColor: "rgba(255,255,255,0)")
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData(
+                    width: 500
+                    height: 500
+                    transformOptions: {fit: COVER}
+                    backgroundColor: "rgba(255,255,255,0)"
+                  )
+                }
               }
             }
           }

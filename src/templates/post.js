@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 import './post.css'
 
 const Post = ({ data, pageContext: post }) => {
-  const metadata = data.postInfo.nodes[0]
+  const metadata = data.postInfo.nodes[0].data
   if (!metadata) return null
 
   return (
@@ -18,7 +18,7 @@ const Post = ({ data, pageContext: post }) => {
           <h1 className="post-title">{metadata.post_title}</h1> 
           <div className="post-meta">
             by {metadata.author_name} on {metadata.post_date}
-            {' '}in {metadata.categories.join(', ')}
+            {/* {' '}in {metadata.categories.join(', ')} */}
           </div>       
           <div 
             className="post-content"
@@ -32,19 +32,18 @@ const Post = ({ data, pageContext: post }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    postInfo: allPostsJson(
+    postInfo: allAirtablePosts(
       filter: {
-        DD_Post: {eq: null}, 
-        Event_Post: {eq: null}, 
-        slug: {eq: $slug}
+        data: {slug: {eq: $slug}}
       }
     ) {
       nodes {
-        slug
-        author_name
-        post_title
-        post_date(formatString: "MMMM D, YYYY")
-        categories
+        data {
+          slug
+          author_name
+          post_title
+          post_date(formatString: "MMMM D, YYYY")
+        }
       }
     }
   }

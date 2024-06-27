@@ -11,8 +11,9 @@ import './post-index.css'
 import './research-index.css'
 
 const ResearchIndex = ({data}) => {
-  const items = data.allResearchJson.nodes
-  const pageCount = data.allResearchJson.pageInfo.pageCount
+  console.log(data)
+  const items = data.allAirtableResearchItems.nodes
+  const pageCount = data.allAirtableResearchItems.pageInfo.pageCount
 
   return (
     <Layout>
@@ -20,7 +21,8 @@ const ResearchIndex = ({data}) => {
       <div className="page-research">
         <section className="posts research">
           <h1 className="page-title">Research</h1>
-          {items.map(item => {
+          {items.map(_item => {
+            const item = _item.data
             const slug = '/research/' + item.slug + '/'
             const active = item.active === 'TRUE' ? <span className="pill">Active</span> : ''
             const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
@@ -33,24 +35,22 @@ const ResearchIndex = ({data}) => {
             let excerpt = ''
             let image = ''
             let title = <h2 className="title"><Link to={slug}>{item.title}</Link></h2>
-            if (item.fields) {
-              if (item.fields.image) {
-                image = <GatsbyImage 
-                  image={item.fields.image.childImageSharp.gatsbyImageData}
-                  alt={item.title} 
-                  className="research-image" 
-                />
-              title = <Link to={slug} className="header">{image}</Link>
-              }
-              if (item.fields.researchDescription) {
-                excerpt = item.fields.researchDescription.childMarkdownRemark.excerpt
-              }
+            if (item.image) {
+              image = <GatsbyImage 
+                image={item.image.localFiles[0].childImageSharp.gatsbyImageData}
+                alt={item.title} 
+                className="research-image" 
+              />
+            title = <Link to={slug} className="header">{image}</Link>
+            }
+            if (item.description) {
+              excerpt = item.description.childMarkdownRemark.excerpt
             }
             
-            const itemId = item.airtable_id.replace(/-/g, '_')
+            const itemId = item.id.replace(/-/g, '_')
 
             return (
-              <article className="post research-item-post" key={`research-${item.airtable_id}`} id={itemId}>
+              <article className="post research-item-post" key={`research-${item.id}`} id={itemId}>
                 {title}
                 <div className="meta">
                   {dates}
@@ -70,32 +70,35 @@ const ResearchIndex = ({data}) => {
 
 export const query = graphql`
   query ResearchQuery($skip: Int!, $limit: Int!) {
-    allResearchJson(
+    allAirtableResearchItems(
       limit: $limit
       skip: $skip
-      sort: {
-        fields: [active, year_start], 
-        order: [DESC, DESC]
-      }
+      sort: {data: {active: DESC, year_start: DESC}}
     ) {
-      nodes{
-        airtable_id
-        title
-        slug
-        year_start
-        month_start
-        year_end
-        month_end
-        active
-        fields {
-          researchDescription {
+      nodes {
+        data {
+          id
+          title
+          slug
+          year_start
+          year_end
+          month_end
+          month_start
+          active
+          description {
             childMarkdownRemark {
-                excerpt(pruneLength: 250)
-              }
+              excerpt(pruneLength: 250)
+            }
           }
           image {
-            childImageSharp {
-              gatsbyImageData(width: 500, quality: 100, backgroundColor: "rgba(255,255,255,0)")
+            localFiles {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 500
+                  quality: 100
+                  backgroundColor: "rgba(255,255,255,0)"
+                )
+              }
             }
           }
         }

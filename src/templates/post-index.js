@@ -9,8 +9,8 @@ import SEO from '../components/seo'
 import './post-index.css'
 
 const PostIndex = ({data}) => {
-  const posts = data.allPostsJson.nodes
-  const pageCount = data.allPostsJson.pageInfo.pageCount
+  const posts = data.allAirtablePosts.nodes
+  const pageCount = data.allAirtablePosts.pageInfo.pageCount
 
   return (
 		<Layout>
@@ -23,13 +23,14 @@ const PostIndex = ({data}) => {
               <FontAwesomeIcon title="News RSS Feed" icon="rss" />
             </a>
           </h1>
-          {posts.map(post => {
+          {posts.map(_post => {
+            const post = _post.data
             const slug = '/news/' + post.slug
             const markdownFile = post.slug + '.md'
 
             // pick out the markdown file that has the same slug
-            const doc = data.allMarkdownRemark.nodes.find(
-              n => n.fileAbsolutePath.match(markdownFile)
+            const doc = data.allFile.nodes.find(
+              n => n.childMarkdownRemark.fileAbsolutePath.match(markdownFile)
             )
 
             // if there is no doc then we're missing the markdown file for a blog
@@ -64,32 +65,31 @@ const PostIndex = ({data}) => {
 
 export const query = graphql`
   query PostsQuery($skip: Int!, $limit: Int!) {
-    allPostsJson(
-      filter: {
-        DD_Post: {eq: null}, Event_Post: {eq: null}
-      }
+    allAirtablePosts(
       limit: $limit
       skip: $skip
-      sort: {fields: post_date, order: DESC}
+      sort: {data: {post_date: DESC}}
     ) {
       nodes {
-        id
-        slug
-        author_name
-        post_title
-        post_date(formatString: "MMMM D, YYYY")
+        data {
+          slug
+          record_id
+          author_name
+          post_title
+          post_date(formatString: "MMMM D, YYYY")
+        }
       }
       pageInfo {
         pageCount
       }
     }
-    allMarkdownRemark(
-      filter: {fields: {sourceName: {eq: "news"}}}
-    ) {
+    allFile(filter: {sourceInstanceName: {eq: "news"}}) {
       nodes {
-        excerpt(pruneLength: 250)
-        id
-        fileAbsolutePath
+        childMarkdownRemark {
+          excerpt(pruneLength: 250)
+          id
+          fileAbsolutePath
+        }
       }
     }
   }
