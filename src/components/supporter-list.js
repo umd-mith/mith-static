@@ -11,7 +11,8 @@ const SupporterList = ({supporters, type}) => {
     <div className={`supporters ${types}`}>
       <h2>{title}</h2>
       <ul>
-        {supporters.map(s => {
+        {supporters.map(_s => {
+          const s = _s.data
           const umd = (s.slug !== "umdlib" && s.type === "Internal") 
             ? "University of Maryland " : ""
           const supporter_name = s.website 

@@ -11,8 +11,8 @@ import './post-index.css'
 import './research-index.css'
 
 const ResearchIndex = ({data}) => {
-  console.log(data)
   const items = data.allAirtableResearchItems.nodes
+  const sortedItems = items.sort((a) => (a.data.active === "TRUE" ? -1 : 1))
   const pageCount = data.allAirtableResearchItems.pageInfo.pageCount
 
   return (
@@ -21,7 +21,7 @@ const ResearchIndex = ({data}) => {
       <div className="page-research">
         <section className="posts research">
           <h1 className="page-title">Research</h1>
-          {items.map(_item => {
+          {sortedItems.map(_item => {
             const item = _item.data
             const slug = '/research/' + item.slug + '/'
             const active = item.active === 'TRUE' ? <span className="pill">Active</span> : ''
@@ -68,12 +68,14 @@ const ResearchIndex = ({data}) => {
   )
 }
 
+// TODO: We don't seem to be able to sort on both year_start and active any longer.
+// Sorting on the client as a result.
 export const query = graphql`
   query ResearchQuery($skip: Int!, $limit: Int!) {
     allAirtableResearchItems(
       limit: $limit
       skip: $skip
-      sort: {data: {active: DESC, year_start: DESC}}
+      sort: {data: {year_start: DESC}} 
     ) {
       nodes {
         data {

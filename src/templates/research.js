@@ -13,23 +13,24 @@ import SupporterList from '../components/supporter-list'
 import './research.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Research = ({ pageContext: item }) => {
+const Research = ({ pageContext }) => {
+
+  const item = pageContext.item
 
   let header = <h1 className="title">{item.title}</h1>
   let description = ''
-  if (item.fields) {
-    if (item.fields.image) {
-      header = <GatsbyImage 
-        image={item.fields.image.childImageSharp.gatsbyImageData}
-        alt={item.title} 
-        className="research-image" 
-      />
-    }
-    if (item.fields.researchDescription) {
-      description = <div className="description" 
-        dangerouslySetInnerHTML={{ __html: item.fields.researchDescription.childMarkdownRemark.html }} 
-      />
-    }
+  const img = item.image.localFiles[0]
+  if (img) {
+    header = <GatsbyImage 
+      image={img.childImageSharp.gatsbyImageData}
+      alt={item.title} 
+      className="research-image" 
+    />
+  }
+  if (item.description) {
+    description = <div className="description" 
+      dangerouslySetInnerHTML={{ __html: item.description.childMarkdownRemark.html }} 
+    />
   }
 
   const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
@@ -43,7 +44,7 @@ const Research = ({ pageContext: item }) => {
   let participants = null
   if (item.participants.length > 0) {
     participant_list = item.participants.map((p, i) => {
-      return <Person key={`p${i}`} person={p} showTitle="true" type="participant" />
+      return <Person key={`p${i}`} person={p.data} showTitle="true" type="participant" />
     })
     participants = <div className="participants">
       <h2>Participants</h2>
@@ -56,7 +57,7 @@ const Research = ({ pageContext: item }) => {
   const directors_title = item.directors.length > 1 ? "Directors" : "Director"
   if (item.directors.length > 0) {
     director_list = item.directors.map(person => {
-      return <Person person={person} showTitle="true" type="director" />
+      return <Person person={person.data} showTitle="true" type="director" />
     })
     directors = <div className="directors">
       <h2>{directors_title}</h2>
@@ -81,8 +82,9 @@ const Research = ({ pageContext: item }) => {
   let links_list = null
   let links = null
   let link_url = null
-  if (item.links.length > 0) {
-    links_list = item.links.map(l => {
+  if (item.linked_links.length > 0) {
+    links_list = item.linked_links.map(_l => {
+      const l = _l.data
       link_url = l.url.startsWith('http') 
         ? l.url 
         : `http://${l.url}`
@@ -91,17 +93,18 @@ const Research = ({ pageContext: item }) => {
     links = <div className="links"><h2>Links</h2><ul>{links_list}</ul></div>
   }
 
-  const sponsors = item.sponsors.length > 0 
-    ? <SupporterList supporters={item.sponsors} type="sponsor" />
+  const sponsors = item.linked_sponsors && item.linked_sponsors.length > 0 
+    ? <SupporterList supporters={item.linked_sponsors} type="sponsor" />
     : ''
-  const partners = item.partners.length > 0 
-    ? <SupporterList supporters={item.partners} type="partner" />
+  const partners = item.linked_partners && item.linked_partners.length > 0 
+    ? <SupporterList supporters={item.linked_partners} type="partner" />
     : ''
 
   let events_list = null 
   let events = null
-  if (item.events.length > 0) {
-    events_list = item.events.map(e => {
+  if (item.linked_events.length > 0) {
+    events_list = item.linked_events.map(_e => {
+      const e = _e.data;
       return <li id={e.id} className="event">
         <h3 className="title"><Link key={`e-${e.id}`} to={`../../events/${e.id}`}>{e.talk_title || e.event_title}</Link></h3>
         <EventTime start={e.start} end={e.end} />
@@ -115,8 +118,9 @@ const Research = ({ pageContext: item }) => {
 
   let news_list = null 
   let news = null
-  if (item.posts.length > 0) {
-    news_list = item.posts.map(n => {
+  if (item.linked_posts.length > 0) {
+    news_list = item.linked_posts.map(_n => {
+      const n = _n.data
       return <li id={n.slug.toLowerCase().replace(/-/g, '_')}>
         <div className="post-title"><Link key={`n-${n.record_id}`} to={`../../news/${n.slug}`}>{n.post_title}</Link></div>
         <div className="meta">

@@ -8,7 +8,7 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makeResearch(createPage, graphql, pathPrefix)
   await makeResearchIndex(createPage, graphql, pathPrefix)
   // await makeEvents(createPage, graphql, pathPrefix)
-  // await makeEventIndex(createPage, graphql, pathPrefix)
+  await makeEventIndex(createPage, graphql, pathPrefix)
   // await makeDialogues(createPage, graphql, pathPrefix)
   // await makeDialogueIndex(createPage, graphql, pathPrefix)
 }
@@ -119,8 +119,6 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
   const postsPerPage = 25
   const numPages = Math.ceil(numPosts / postsPerPage)
 
-  console.log(`NUMPAGES:`, numPages)
-
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/news` : `/news/${i + 1}`,
@@ -200,11 +198,8 @@ async function makeResearch(createPage, graphql) {
                 name
                 slug
                 new_id
-                people_groups {
-                  data {
-                    group_name
-                  }
-                }
+                group_type
+                id
               }
             }
             linked_internal_participant_affiliations {
@@ -214,18 +209,37 @@ async function makeResearch(createPage, graphql) {
                 department
                 end
                 start
+                person_name
+                linked_person {
+                  data {
+                    id
+                  }
+                }
               }
+            }
+            linked_external_participant_affiliations {
+                data {
+                  department
+                  end
+                  institution
+                  start
+                  title
+                  person_name
+                  linked_person {
+                    data {
+                      id
+                    }
+                  }
+              	}
+              id
             }
             linked_directors {
               data {
                 name
-                people_groups {
-                  data {
-                    group_name
-                  }
-                }
+                group_type
                 slug
                 new_id
+                id
               }
             }
             linked_director_affiliations {
@@ -233,6 +247,13 @@ async function makeResearch(createPage, graphql) {
                 title
                 department
                 institution
+                start
+                end
+                linked_person {
+                  data {
+                    id
+                  }
+                }
               }
             }
             linked_links {
@@ -299,11 +320,72 @@ async function makeResearch(createPage, graphql) {
 
   for (const node of results.data.allAirtableResearchItems.nodes) {
     const item = node.data
+
+    if (item.linked_participants) {
+      item.participants = item.linked_participants.map(p => {
+        const new_p = Object.assign({}, p);
+        const id = p.data.id
+
+        if (p.data.group_type.includes("Staff") || p.data.group_type.includes("Past")) {
+          // Lookup staff members in internal participants
+          if (item.linked_internal_participant_affiliations) {
+            for (const aff of item.linked_internal_participant_affiliations) {
+              if (!aff.data.linked_person[0]) continue;
+              if (aff.data.linked_person[0].data.id === id) {
+                if (new_p.data.affiliations) {
+                  new_p.data.affiliations.push(aff)
+                } else {
+                  new_p.data.affiliations = [aff] 
+                }
+                break;
+              }
+            }
+          }
+        } else {
+          // Lookup other people in external participants
+          if (item.linked_external_participant_affiliations) {
+            for (const aff of item.linked_external_participant_affiliations) {
+              if (!aff.data.linked_person[0].data) continue;
+              if (aff.data.linked_person[0].data.id === id) {
+                if (new_p.data.affiliations) {
+                  new_p.data.affiliations.push(aff)
+                } else {
+                  new_p.data.affiliations = [aff] 
+                }
+                break;
+              }
+            }
+          }
+        }
+        return new_p;
+      })
+    }
+    if (item.linked_directors) {
+      item.directors = item.linked_directors.map(p => {
+        const new_p = Object.assign({}, p);
+        const id = p.data.id
+        if (item.linked_director_affiliations) {
+          for (const aff of item.linked_director_affiliations) {
+            if (!aff.data.linked_person[0].data) continue;
+            if (aff.data.linked_person[0].data.id === id) {
+              if (new_p.data.affiliations) {
+                new_p.data.affiliations.push(aff)
+              } else {
+                new_p.data.affiliations = [aff] 
+              }
+              break;
+            }
+          }
+        }
+        return new_p;
+      })
+    }
+
     createPage({
       path: `/research/${item.id}/`,
       component: require.resolve(`./src/templates/research.js`),
       context: {
-        ...item
+        item
       }
     })
   }
@@ -313,7 +395,7 @@ async function makeResearch(createPage, graphql) {
 async function makeEventIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allEventsJson {
+      allAirtableEvents {
         pageInfo {
           itemCount
         }
@@ -321,7 +403,7 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
     }  
   `)
 
-  const numItems = results.data.allEventsJson.pageInfo.itemCount
+  const numItems = results.data.allAirtableEvents.pageInfo.itemCount
   const itemsPerPage = 30
   const numPages = Math.ceil(numItems / itemsPerPage)
 

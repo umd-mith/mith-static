@@ -10,11 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Person = ({ pageContext: person }) => {
   const name = person.name
   let photo = ''
-  console.log(person)
   if (person.headshot) {
     const personHeadshot = person.headshot.localFiles[0]
     if (personHeadshot.childImageSharp) {
-      console.log(personHeadshot.childImageSharp.gatsbyImageData)
       photo = <div className="headshot">
         <GatsbyImage 
           image={personHeadshot.childImageSharp.gatsbyImageData}

@@ -14,13 +14,13 @@ const PeoplePastPage = ({ data }) => {
       <h3 className="name">{person.name}</h3>
       <div className="details">
         {identities
-        .sort((a, b) => a.start - b.start)
+        .sort((a, b) => a.data.start - b.data.start)
         .map(identity => {
-          const end = identity.start === identity.end ? '' : <span className="end">{identity.end}</span>
-          return (<article className="identity" id={identity.airtable_id} key={`i-${identity.airtable_id}`}>
-            <span className="title">{identity.title}</span>
+          const end = identity.data.start === identity.data.end ? '' : <span className="end">{identity.data.end}</span>
+          return (<article className="identity" id={identity.data.id} key={`i-${identity.data.id}`}>
+            <span className="title">{identity.data.title}</span>
             <span className="date-span">
-              <span className="start">{identity.start}</span>
+              <span className="start">{identity.data.start}</span>
               {end}
             </span>   
           </article>)
@@ -30,6 +30,19 @@ const PeoplePastPage = ({ data }) => {
     )    
   }
 
+  // This is returning the groups without additional fields like fieldValue
+  // const simplifiedPastPeople = data.people.group.map(g => {
+  //   const simplified = Object.assign({}, g)
+  //   simplified.nodes = g.nodes.map(n => {
+  //     const p = Object.assign({}, n)
+  //     p.group_name = n.data.people_groups.filter(pg => pg.data.group_name.includes("Past"))[0].data.group_name
+  //     return p
+  //   })
+  //   return simplified
+  // })
+
+  // console.log(simplifiedPastPeople, data.people.group)
+
   return (
     <Layout>
       <SEO title="Past People" />
@@ -38,14 +51,16 @@ const PeoplePastPage = ({ data }) => {
           <h1 className="page-title text-hidden">Past People</h1>
         </section>
         {
+          // Sort the people groups in the order specified by the `sort` field in the `allAirtableGroups` data.
           data.people.group.filter(g => g.fieldValue.startsWith('Past'))
-          .sort((a, b) => data.groups.nodes.filter(g => g.group_name === a.fieldValue)[0].sort - data.groups.nodes.filter(g => g.group_name === b.fieldValue)[0].sort)
+          .sort((a, b) => {
+            return data.groups.nodes.filter(g => g.data.group_name === a.fieldValue)[0].data.sort - data.groups.nodes.filter(g => g.data.group_name === b.fieldValue)[0].data.sort})
           .map(people => {
             return (
               <section id={people.fieldValue.toLowerCase().replace(' ', '_')} className="people-group">
                 <h2>{people.fieldValue}</h2>
                 {people.nodes.map(person => {
-                  return makePerson(person)
+                  return makePerson(person.data)
                 })}
               </section>
             )
@@ -57,32 +72,43 @@ const PeoplePastPage = ({ data }) => {
 }
 export const query = graphql`
   query PeoplePastQuery {
-    people: allPeopleJson(
-      filter: {group_type: {regex: "/Past/"}}
-      sort: {fields: [last]}
+    people: allAirtablePeople(
+      filter: {data: {group_type: {regex: "/Past/"}}}
+      sort: {data: {last: ASC}}
     ) {
-      group(field: people_groups) {
+      group(field: {data: {people_groups: {data: {group_name: SELECT}}}}) {
         fieldValue
         nodes {
-          name
-          last
-          linked_identities {
-            title
-            start
-            end
+          data {
+            name
+            last
+            linked_identities {
+              data {
+                title
+                start
+                end
+              }
+            }
+            id
+            new_id
+            people_groups {
+              data {
+                group_name
+              }
+            }
           }
-          airtable_id
-          new_id
         }
       }
     }
-    groups: allGroupsJson {
+    groups: allAirtableGroups {
       nodes {
-        sort
-        group_name
+        data {
+          sort
+          group_name
+        }
       }
     }
   }
 `
- 
+
 export default PeoplePastPage

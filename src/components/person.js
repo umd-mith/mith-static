@@ -7,7 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Person = ({ person, type }) => {
 
   let pageLocation = null
-  if (person.person_group) {
+  const isStaff = person.group_type && person.group_type.includes("Staff") 
+  if (isStaff) {
     pageLocation = person.slug ? person.slug : null
   }
   let person_name = pageLocation // link current staff names to profile
@@ -22,27 +23,32 @@ const Person = ({ person, type }) => {
 
     let date_span = null
     if ( type === "director" ) {
-      const start = person.start 
-        ? <span className="start">{person.start}</span> : null
-      const end = person.end 
-        ? <span className="end">{person.end}</span> : null
-      if (person.start && person.end ) {
-        date_span = <div className="date-span">({start} &ndash; {end})</div>
+      const _aff = person.affiliations[0]
+      if (_aff) {
+        const aff = _aff.data
+        const start = aff.start
+          ? <span className="start">{aff.start}</span> : null
+        const end = aff.end 
+          ? <span className="end">{aff.end}</span> : null
+        if (aff.start && aff.end ) {
+          date_span = <div className="date-span">({start} &ndash; {end})</div>
+        }
+        if (aff.start && !aff.end) {
+          const end = isStaff
+            ?  <> &ndash; <span className="end">present</span></> : null
+          date_span = <div className="date-span">({start}{end})</div>
+        }
+      }
     } 
-    if (person.start && !person.end) {
-      const end = person.person_group 
-        ?  <> &ndash; <span className="end">present</span></> : null
-      date_span = <div className="date-span">({start}{end})</div>
-    }
-  } 
 
   let affiliations = ""
   if (person.affiliations) {
-    affiliations = person.affiliations.map(aff => {
+    affiliations = person.affiliations.map(_aff => {
+      const aff = _aff.data
       let person_title = null
       let person_institution = null
       let person_dept = null
-      if ( !person.person_group ) { // hide titles for current staff
+      if ( !isStaff ) { // hide titles for current staff
         if ( type === "speaker" || type === "dialogue" || type === "participant" || type === "director" ) {
           person_title = aff.title 
             ? <span className="title">{aff.title}</span>
