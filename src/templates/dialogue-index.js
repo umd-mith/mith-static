@@ -10,7 +10,7 @@ import Person from '../components/person'
 import './event-index.css'
 
 const Entry = ({item, headshots}) => {
-  const slug = '/digital-dialogues/' + item.airtable_id + '/'
+  const slug = '/digital-dialogues/' + item.id + '/'
             
   const event_title = item.event_title
   const talk_title = item.talk_title
@@ -31,14 +31,14 @@ const Entry = ({item, headshots}) => {
   if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
       // find headshot                
-      p.headshot = headshots[p.slug]
-      return <Person key={`p${i}`} person={p} type="dialogue-index" />
+      p.data.headshot = headshots[p.data.slug]
+      return <Person key={`p${i}`} person={p.data} type="dialogue-index" />
     })
     speakers = <div className="speakers">{speakers_list}</div>
   }
 
   return (
-    <article className="post dialogue event" id={item.airtable_id.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.airtable_id}`}>
+    <article className="post dialogue event" id={item.id.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.id}`}>
       {title}
       <div className="meta">
         {speakers}
@@ -52,13 +52,13 @@ const Entry = ({item, headshots}) => {
 
 
 const DialogueIndex = ({data, pageContext}) => {
-  const items = data.allEventsJson.nodes
-  const pageCount = data.allEventsJson.pageInfo.pageCount
+  const items = data.allAirtableEvents.nodes
+  const pageCount = data.allAirtableEvents.pageInfo.pageCount
   const headshots = pageContext.headshots
 
   // Arrange items in the future into reverse order.
   const sortedItems = items.reduce((acc, item) => {
-    const date = new Date(item.start)
+    const date = new Date(item.data.start)
     if (date > new Date()) {
       acc.future.unshift(item)
     } else {
@@ -80,9 +80,9 @@ const DialogueIndex = ({data, pageContext}) => {
             Follow us on social media (<a href="https://twitter.com/UMD_MITH">@umd_mith</a> on X/Twitter and
             <a href="https://www.instagram.com/mith_umd">@mith_umd</a> on Instagram) for more details.
           </p>
-          {sortedItems.future.map(item => <Entry item={item} headshots={headshots} key={item.airtable_id} />)}
+          {sortedItems.future.map(item => <Entry item={item.data} headshots={headshots} key={item.id} />)}
           <h2 className="page-title">Past Digital Dialogues</h2>
-          {sortedItems.past.map(item => <Entry item={item} headshots={headshots} key={item.airtable_id} />)}
+          {sortedItems.past.map(item => <Entry item={item.data} headshots={headshots} key={item.id} />)}
         </section>
         <Paginator count={pageCount} path="digital-dialogues" />
       </div>
@@ -92,35 +92,37 @@ const DialogueIndex = ({data, pageContext}) => {
 
 export const query = graphql`
   query DialoguesQuery($skip: Int!, $limit: Int!) {
-    allEventsJson (
+    allAirtableEvents(
       limit: $limit
       skip: $skip
-      filter: {
-        event_type: {eq: "Digital Dialogue"}
-      }
-      sort: {
-        fields: [start_date], order: [DESC]
-      }
+      filter: {data: {event_type: {eq: "Digital Dialogue"}}}
+      sort: {data: {start_date: DESC}}
     ) {
       nodes {
-        airtable_id
-        event_title
-        talk_title
-        talk_subtitle
-        type: event_type
-        start: start_date
-        end: end_date
-        location
-        speakers {
-          name
-          affiliations {
-            title
-            department
-            institution
+        data {
+          id
+          event_title
+          talk_title
+          talk_subtitle
+          type: event_type
+          start: start_date
+          end: end_date
+          location
+          speakers {
+            data {
+              name
+              slug
+              new_id
+              group_type
+            }
           }
-          person_group
-          slug
-          new_id
+          speaker_affiliations {
+            data {
+              department
+              institution
+              title
+            }
+          }
         }
       }
       pageInfo {

@@ -2,15 +2,15 @@ const path = require('path')
 const {createRemoteFileNode} = require('gatsby-source-filesystem')
 
 exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
-  await makePeople(createPage, graphql, pathPrefix)
-  await makePosts(createPage, graphql, pathPrefix)
-  await makePostIndex(createPage, graphql, pathPrefix)
-  await makeResearch(createPage, graphql, pathPrefix)
-  await makeResearchIndex(createPage, graphql, pathPrefix)
-  await makeEvents(createPage, graphql, pathPrefix)
-  await makeEventIndex(createPage, graphql, pathPrefix)
-  // await makeDialogues(createPage, graphql, pathPrefix)
-  // await makeDialogueIndex(createPage, graphql, pathPrefix)
+  // await makePeople(createPage, graphql, pathPrefix)
+  // await makePosts(createPage, graphql, pathPrefix)
+  // await makePostIndex(createPage, graphql, pathPrefix)
+  // await makeResearch(createPage, graphql, pathPrefix)
+  // await makeResearchIndex(createPage, graphql, pathPrefix)
+  // await makeEvents(createPage, graphql, pathPrefix)
+  // await makeEventIndex(createPage, graphql, pathPrefix)
+  await makeDialogues(createPage, graphql, pathPrefix)
+  await makeDialogueIndex(createPage, graphql, pathPrefix)
 }
 
 async function makePeople(createPage, graphql) {
@@ -664,7 +664,7 @@ async function makeEvents(createPage, graphql) {
           for (const aff of item.speaker_affiliations) {
             if (!aff.data.linked_person[0].data) continue;
             if (aff.data.linked_person[0].data.slug === sp.data.slug) {
-              if (sp.affiliations) {
+              if (sp.data.affiliations) {
                 sp.data.affiliations.push(aff)
               } else {
                 sp.data.affiliations = [aff] 
@@ -699,23 +699,23 @@ async function makeEvents(createPage, graphql) {
 async function makeDialogueIndex(createPage, graphql, pathPrefix) {
   const results = await graphql(`
     query {
-      allEventsJson {
+      allAirtableEvents {
         pageInfo {
           itemCount
         }
       }
-      allPeopleJson(
-        filter: {
-          events_as_speaker: {ne: null}
-        }
+      allAirtablePeople(
+        filter: {data: {events_as_speaker: {elemMatch: {data: {id: {ne: "null"}}}}}}
       ) {
         nodes {
-          slug
-          new_id
-          fields {
+          data {
+            slug
+            new_id
             headshot {
-              childImageSharp {
-                gatsbyImageData
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData
+                }
               }
             }
           }
@@ -724,12 +724,12 @@ async function makeDialogueIndex(createPage, graphql, pathPrefix) {
     }
   `)
 
-  const numItems = results.data.allEventsJson.pageInfo.itemCount
+  const numItems = results.data.allAirtableEvents.pageInfo.itemCount
   const itemsPerPage = 10
   const numPages = Math.ceil(numItems / itemsPerPage)
 
-  const headshots = results.data.allPeopleJson.nodes.reduce((people, node) => {    
-    people[node.slug] = node.fields ? node.fields.headshot : undefined
+  const headshots = results.data.allAirtablePeople.nodes.reduce((people, node) => {    
+    people[node.data.slug] = node.data.headshot ? node.data.headshot : undefined
     return people
   }, {})
 
@@ -752,108 +752,135 @@ async function makeDialogueIndex(createPage, graphql, pathPrefix) {
 async function makeDialogues(createPage, graphql) {
   const results = await graphql(`
     query {
-      allEventsJson(
-        filter: {
-          event_type: {eq: "Digital Dialogue"}
-        }
-        sort: {
-          fields: [start_date], order: [DESC]
-        }
+      allAirtableEvents(
+        filter: {data: {event_type: {eq: "Digital Dialogue"}}}
+        sort: {data: {start_date: DESC}}
       ) {
         nodes {
-          airtable_id
-          fields {
-            eventsDescription {
+          data {
+            id
+            description {
               childMarkdownRemark {
                 html
               }
             }
             image {
-              childImageSharp {
-                gatsbyImageData(width: 1400, quality: 100, backgroundColor: "rgba(255,255,255,0)")
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData(
+                    width: 1400
+                    quality: 100
+                    backgroundColor: "rgba(255,255,255,0)"
+                  )
+                }
+              }
+            }
+            event_title
+            talk_title
+            talk_subtitle
+            type: event_type
+            start: start_date
+            end: end_date
+            location
+            speakers {
+              data {
+                name
+                website
+                twitter
+                slug
+                new_id
+              }
+            }
+            linked_links {
+              data {
+                id
+                title
+                url
+                type
+              }
+            }
+            video_id: vimeo_id
+            video_url: vimeo_url
+            livestream: livestream_link
+            sponsors {
+              data {
+                name
+                website
+                type
+                slug
+              }
+            }
+            partners {
+              data {
+                name
+                website
+                type
+                slug
+              }
+            }
+            disciplines {
+              data {
+                term: name
+                type: method_or_discipline
+              }
+            }
+            methods {
+              data {
+                term: name
+                type: method_or_discipline
+              }
+            }
+            speaker_affiliations {
+              data {
+                department
+                institution
+                title
+                linked_person {
+                  data {
+                    bio {
+                      childMarkdownRemark {
+                        html
+                      }
+                    }
+                    slug
+                  }
+                }
               }
             }
           }
-          event_title
-          talk_title
-          talk_subtitle
-          type: event_type
-          start: start_date
-          end: end_date
-          location
-          speakers {
-            name
-            affiliations {
-              title
-              department
-              institution
+        }
+      }
+      allAirtableIdentities(
+        filter: {data: {person_bio: {childMarkdownRemark: {html: {ne: "null"}}}}}
+      ) {
+        nodes {
+          data {
+            slug
+            linked_person {
+              data {
+                bio {
+                  childMarkdownRemark {
+                    html
+                  }
+                }
+                slug
+              }
             }
-            website
-            twitter
+          }
+        }
+      }
+      allAirtablePeople(
+        filter: {data: {events_as_speaker: {elemMatch: {data: {id: {ne: "null"}}}}}}
+      ) {
+        nodes {
+          data {
             slug
             new_id
-          }
-          links {
-            id
-            title
-            url
-            type
-          }
-          video_id: vimeo_id
-          video_url: vimeo_url
-          livestream: livestream_link
-          sponsors {
-            name
-            website
-            type
-            slug
-          }
-          partners {
-            name
-            website
-            type
-            slug
-          }
-          disciplines {
-            term: name
-            type: method_or_discipline
-          }
-          methods {
-            term: name
-            type: method_or_discipline
-          }
-        }
-      }
-      allIdentitiesJson(
-        filter: {
-          person_bio: {ne: null}, 
-          fields: {identitiesPerson_bio: {childMarkdownRemark: {html: {ne: ""} } } }
-        }
-      ) {
-        nodes {
-          slug
-          person_slug
-          fields {
-            identitiesPerson_bio {
-              childMarkdownRemark {
-                html
-              }
-            }
-          }
-        }
-      }
-      allPeopleJson(
-        filter: {
-          events_as_speaker: {ne: null}
-        }
-      ) {
-        nodes {
-          slug
-          new_id
-          fields {
             headshot {
-              childImageSharp {
-                gatsbyImageData
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData
+                }
               }
             }
           }
@@ -862,30 +889,48 @@ async function makeDialogues(createPage, graphql) {
     }
   `)
 
-  for (const node of results.data.allEventsJson.nodes) {
-    // Attach headshot and speakers bio from people and identities table
-    node.speakers.forEach(sp => {
-      results.data.allPeopleJson.nodes.map(pers => {
-        if (pers.slug === sp.slug) {
-          if (pers.fields) {
-            sp.headshot = pers.fields.headshot
+  for (const node of results.data.allAirtableEvents.nodes) {
+    const item = node.data
+    if (item.speakers) {
+      // Attach headshot and speakers bio from people and identities table
+      item.speakers.forEach(sp => {
+        results.data.allAirtablePeople.nodes.map(_pers => {
+          const pers = _pers.data
+          if (pers.slug === sp.data.slug) {
+            if (pers.headshot) {
+              sp.data.headshot = pers.headshot
+            }
+          }
+        })
+        results.data.allAirtableIdentities.nodes.map(_pers => {
+          const pers = _pers.data
+          if (pers.linked_person[0].data.slug === sp.data.slug) {
+            if (pers.linked_person[0].data.bio) {
+              sp.data.bio = pers.linked_person[0].data.bio
+            }
+          }
+        })
+        // Lookup speaker affiliation
+        if (item.speaker_affiliations) {
+          for (const aff of item.speaker_affiliations) {
+            if (!aff.data.linked_person[0].data) continue;
+            if (aff.data.linked_person[0].data.slug === sp.data.slug) {
+              if (sp.data.affiliations) {
+                sp.data.affiliations.push(aff)
+              } else {
+                sp.data.affiliations = [aff] 
+              }
+              break;
+            }
           }
         }
       })
-      results.data.allIdentitiesJson.nodes.map(pers => {
-        //console.log(pers)
-        if (pers.person_slug === sp.slug) {
-          if (pers.fields) {
-            sp.bio = pers.fields.identitiesPerson_bio
-          }
-        }
-      })
-    })
+    }
     createPage({
-      path: `/digital-dialogues/${node.airtable_id}/`,
+      path: `/digital-dialogues/${item.id}/`,
       component: require.resolve(`./src/templates/dialogue.js`),
       context: {
-        ...node
+        ...item
       }
     })
   }

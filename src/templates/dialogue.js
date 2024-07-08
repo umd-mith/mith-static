@@ -19,6 +19,13 @@ const Dialogue = ({ pageContext: item }) => {
     ? <h2 className="subtitle">{item.talk_subtitle}</h2> : ''
   const title = <h1 className="title" itemProp="name">{item.talk_title || item.event_title}</h1>
   
+  const headerImage = item.image
+    ? <GatsbyImage 
+      image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
+      alt={item.event_title} 
+      className="event-image" 
+    /> : null
+
   const header = item.image
     ? <GatsbyImage 
       image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
@@ -26,12 +33,9 @@ const Dialogue = ({ pageContext: item }) => {
       className="event-image" 
     /> : <div className="header">{title}{subtitle}</div>
     
-    if (item.fields) {
-
-    }
-  const description = item.fields && item.fields.eventsDescription 
+  const description = item.description
     ? <div className="description" 
-      dangerouslySetInnerHTML={{ __html: item.fields.eventsDescription.childMarkdownRemark.html }} 
+      dangerouslySetInnerHTML={{ __html: item.description.childMarkdownRemark.html }} 
     /> : ''
   
   let speakers_list = null
@@ -42,13 +46,15 @@ const Dialogue = ({ pageContext: item }) => {
   const speakers_data = item.speakers ? item.speakers : []
   if (item.speakers.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      return <Person key={`p${i}`} person={p} type="dialogue" />
+      console.log(p)
+      return <Person key={`p${i}`} person={p.data} type="dialogue" />
     })
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>
       {speakers_list}
     </div>
-    speaker_bios_list = speakers_data.map(b => {
+    speaker_bios_list = speakers_data.map(_b => {
+      const b = _b.data
       if (b.bio) {
         speaker_bio = <div dangerouslySetInnerHTML={{ __html: b.bio.childMarkdownRemark.html }} id={b.slug} className="speaker-bio" />
       }
@@ -61,18 +67,19 @@ const Dialogue = ({ pageContext: item }) => {
       </div> : ''
   }
   
-  const sponsors = item.sponsors.length > 0 
-    ? <SupporterList supporters={item.sponsors} type="sponsor" />
+  const sponsors = item.sponsors 
+    ? <SupporterList supporters={item.sponsors.data} type="sponsor" />
     : ''
-  const partners = item.partners.length > 0 
-    ? <SupporterList supporters={item.partners} type="partner" />
+  const partners = item.partners
+    ? <SupporterList supporters={item.partners.data} type="partner" />
     : ''
 
   let links_list = null
   let links = null
   let link_name = null
-  if (item.links.length > 0) {
-    links_list = item.links.map(l => {
+  if (item.linked_links) {
+    links_list = item.linked_links.map(_l => {
+      const l = _l.data
         if (l.url) {
           link_name = l.url.startsWith('http') 
             ? <a href={l.url} rel="noreferrer">{l.title}</a>
@@ -88,12 +95,12 @@ const Dialogue = ({ pageContext: item }) => {
     </div>
   }
   
-  const disciplines = item.disciplines.length > 0 
-    ? <TaxonomyList terms={item.disciplines} type="disciplines" />
+  const disciplines = item.disciplines 
+    ? <TaxonomyList terms={item.disciplines.data} type="disciplines" />
     : ''
 
-  const methods = item.methods.length > 0 
-    ? <TaxonomyList terms={item.methods} type="methods" />
+  const methods = item.methods 
+    ? <TaxonomyList terms={item.methods.data} type="methods" />
     : ''
 
   const iconVideo = <FontAwesomeIcon icon="play-circle" />
@@ -134,7 +141,7 @@ const Dialogue = ({ pageContext: item }) => {
       <SEO title={item.title} />
       <div className="page-dialogue">
         <section className="dialogue event" itemProp="event" itemScope itemType="https://schema.org/Event">
-          {header}
+          <div className="header">{headerImage}{title}{subtitle}</div>
           <div className="content">
             <div className="metadata">
               <EventTime start={item.start} end={item.end} />
