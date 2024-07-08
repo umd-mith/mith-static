@@ -12,8 +12,8 @@ import Person from '../components/person'
 import './event-index.css'
 
 const EventIndex = ({data}) => {
-  const items = data.allEventsJson.nodes
-  const pageCount = data.allEventsJson.pageInfo.pageCount
+  const items = data.allAirtableEvents.nodes
+  const pageCount = data.allAirtableEvents.pageInfo.pageCount
 
   return (
     <Layout>
@@ -21,9 +21,10 @@ const EventIndex = ({data}) => {
       <div className="page-events">
         <section className="posts events">
           <h1 className="page-title">Events</h1>
-          {items.map(item => {
+          {items.map(_item => {
 
-            const slug = '/events/' + item.airtable_id + '/'
+            const item = _item.data
+            const slug = '/events/' + item.id + '/'
             
             const event_title = item.event_title
             const talk_title = item.talk_title
@@ -34,20 +35,18 @@ const EventIndex = ({data}) => {
 
             let image = ''
             let excerpt = '' 
-            if (item.fields) {
-              if (item.fields.image) {
-                image = <Link to={slug} className="image">
-                  <GatsbyImage 
-                    image={item.fields.image.childImageSharp.gatsbyImageData}
-                    alt={item.title} 
-                    className="event-image" 
-                /></Link>
-              }
-              if (item.fields.eventsDescription) {
-                excerpt = <div className="excerpt">
-                  {item.fields.eventsDescription.childMarkdownRemark.excerpt}
-                </div>
-              }
+            if (item.image) {
+              image = <Link to={slug} className="image">
+                <GatsbyImage 
+                  image={item.image.localFiles[0].childImageSharp.gatsbyImageData}
+                  alt={item.title} 
+                  className="event-image"
+              /></Link>
+            }
+            if (item.description) {
+              excerpt = <div className="excerpt">
+                {item.description.childMarkdownRemark.excerpt}
+              </div>
             }
           
             let speakers_list = null
@@ -74,14 +73,14 @@ const EventIndex = ({data}) => {
               types = <div className="event-types">{types_list}{status}</div>
             }
 
-            const itemId = item.airtable_id.replace(/-/g, '_')
+            const itemId = item.id.replace(/-/g, '_')
             const iconLocation = <FontAwesomeIcon icon="map-marker-alt" />
             const location = item.location 
               ? <span className="location">{iconLocation} {item.location}</span> : ''
             const details = <Link className="button" to={slug}>Event Details</Link>
 
             return (
-              <article className="event-item" key={`event-${item.airtable_id}`} id={itemId}>
+              <article className="event-item" key={`event-${item.id}`} id={itemId}>
                 {image}
                 <div className="content">
                   {title}
@@ -107,47 +106,52 @@ const EventIndex = ({data}) => {
 
 export const query = graphql`
   query EventsQuery($skip: Int!, $limit: Int!) {
-    allEventsJson (
+    allAirtableEvents(
       limit: $limit
       skip: $skip
-      sort: {
-        fields: [start_date], 
-        order: [DESC]
-      }
-      filter: {
-        event_type: {ne: "Digital Dialogue"}
-      }
+      filter: {data: {event_type: {ne: "Digital Dialogue"}}}
+      sort: {data: {start_date: DESC}}
     ) {
       nodes {
-        airtable_id
-        event_title
-        talk_title
-        talk_subtitle
-        type: event_type
-        start: start_date
-        end: end_date
-        location
-        status
-        speakers {
-          name
-          affiliations {
-            title
-            department
-            institution
-          }
-          person_group
-          slug
-          new_id
-        }
-        fields {
-          eventsDescription {
-            childMarkdownRemark {
-                excerpt(pruneLength: 250)
+        data {
+          id
+          event_title
+          talk_title
+          talk_subtitle
+          type: event_type
+          start: start_date
+          end: end_date
+          location
+          status
+          speakers {
+            data {
+              name
+              slug
+              new_id
+              linked_identities {
+                data {
+                  title
+                  department
+                  institution
+                  person_group
+                }
               }
+            }
           }
           image {
-            childImageSharp {
-              gatsbyImageData(width: 600, quality: 100, backgroundColor: "rgba(255,255,255,0)")
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData(
+                    width: 500
+                    quality: 100
+                    backgroundColor: "rgba(255,255,255,0)"
+                  )
+                }
+              }
+            }
+          description {
+            childMarkdownRemark {
+              excerpt(pruneLength: 250)
             }
           }
         }
@@ -158,5 +162,5 @@ export const query = graphql`
     }
   }
 `
- 
+
 export default EventIndex

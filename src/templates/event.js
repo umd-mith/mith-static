@@ -12,29 +12,28 @@ import SupporterList from '../components/supporter-list'
 import './event.css'
 
 const Event = ({ pageContext: item }) => {
-  
   const subtitle = item.talk_subtitle 
     ? <h2 className="subtitle">{item.talk_subtitle}</h2> : ''
   const title = <h1 className="title" itemProp="name">{item.talk_title || item.event_title}</h1>
   
-  const header = item.image
+  const headerImage = item.image
     ? <GatsbyImage 
       image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
       alt={item.event_title} 
       className="event-image" 
-    /> : <div className="header">{title}{subtitle}</div>
+    /> : null
     
-  const description = item.fields && item.fields.eventsDescription 
+  const description = item.description 
     ? <div className="description" 
-      dangerouslySetInnerHTML={{ __html: item.fields.eventsDescription.childMarkdownRemark.html }} 
+      dangerouslySetInnerHTML={{ __html: item.description.childMarkdownRemark.html }} 
     /> : ''
   
   let speakers_list = null
   let speakers = null
   const speakers_data = item.speakers ? item.speakers : []
-  if (item.speakers.length > 0) {
+  if (speakers_data.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      return <Person key={`p${i}`} person={p} type="speaker" />
+      return <Person key={`p${i}`} person={p.data} type="speaker" />
     })
     speakers = <div className="speakers-wrapper">
       <h2>Speakers</h2>
@@ -51,18 +50,19 @@ const Event = ({ pageContext: item }) => {
     types = <span className="event-types">{types_list}</span>
   }
 
-  const sponsors = item.sponsors.length > 0 
+  const sponsors = item.sponsors 
     ? <SupporterList supporters={item.sponsors} type="sponsor" />
     : ''
-  const partners = item.partners.length > 0 
+  const partners = item.partners 
     ? <SupporterList supporters={item.partners} type="partner" />
     : ''
   
   let links_list = null
   let links = null
   let link_name = null
-  if (item.links.length > 0) {
-    links_list = item.links.map(l => {
+  if (item.linked_links) {
+    links_list = item.linked_links.map(_l => {
+      const l = _l.data
         if (l.url) {
           link_name = l.url.startsWith('http') 
             ? <a href={l.url} rel="noreferrer">{l.title}</a>
@@ -78,23 +78,24 @@ const Event = ({ pageContext: item }) => {
     </div>
   }
 
-  const disciplines = item.disciplines.length > 0 
+  const disciplines = item.disciplines 
   ? <TaxonomyList terms={item.disciplines} type="disciplines" />
   : ''
 
-  const methods = item.methods.length > 0 
+  const methods = item.methods
   ? <TaxonomyList terms={item.methods} type="methods" />
   : ''
 
   let research = null
   let research_list = null
   let research_img = null
-  if (item.research.length > 0) {
-    research_list = item.research.map(r => {
-      if (r.image) {
-        if (r.image.childImageSharp) {
+  if (item.linked_research_item) {
+    research_list = item.linked_research_item.map(_r => {
+      const r = _r.data
+      if (r.image.localFiles[0]) {
+        if (r.image.localFiles[0].childImageSharp) {
           research_img = <GatsbyImage
-            image={r.image.childImageSharp.gatsbyImageData}
+            image={r.image.localFiles[0].childImageSharp.gatsbyImageData}
             alt={r.title}
             className="related-research-item"
           />
@@ -105,9 +106,9 @@ const Event = ({ pageContext: item }) => {
             className="related-research-item"
           />
         }
-        return <Link className="related-research-item" to={`../../research/${r.airtable_id}`}>{research_img}</Link>
+        return <Link className="related-research-item" to={`../../research/${r.id}`}>{research_img}</Link>
       } else {
-        return <Link className="related-research-item" to={`../../research/${r.airtable_id}`}>{r.title}</Link>
+        return <Link className="related-research-item" to={`../../research/${r.id}`}>{r.title}</Link>
       }
     })
     research = <div class="related-research">
@@ -117,8 +118,9 @@ const Event = ({ pageContext: item }) => {
   }
   let news_list = null 
   let news = null
-  if (item.posts.length > 0) {
-    news_list = item.posts.map(n => {
+  if (item.linked_posts) {
+    news_list = item.linked_posts.map(_n => {
+      const n = _n.data
       return <li id={n.slug.toLowerCase().replace(/-/g, '_')}>
         <div className="post-title"><Link key={`n-${n.record_id}`} to={`../../news/${n.slug}`}>{n.post_title}</Link></div>
         <div className="meta">
@@ -135,7 +137,7 @@ const Event = ({ pageContext: item }) => {
       <SEO title={item.title} />
       <div className="page-event">
         <section className="event" itemProp="event" itemScope itemType="https://schema.org/Event">
-          {header}
+          <div className="header">{headerImage}{title}{subtitle}</div>
           <div className="content">
             <div className="metadata">
               <EventTime start={item.start} end={item.end} />

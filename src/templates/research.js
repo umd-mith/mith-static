@@ -13,9 +13,7 @@ import SupporterList from '../components/supporter-list'
 import './research.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Research = ({ pageContext }) => {
-
-  const item = pageContext.item
+const Research = ({ pageContext: item }) => {
 
   let header = <h1 className="title">{item.title}</h1>
   let description = ''
@@ -42,7 +40,7 @@ const Research = ({ pageContext }) => {
 
   let participant_list = null
   let participants = null
-  if (item.participants.length > 0) {
+  if (item.participants) {
     participant_list = item.participants.map((p, i) => {
       return <Person key={`p${i}`} person={p.data} showTitle="true" type="participant" />
     })
@@ -54,8 +52,8 @@ const Research = ({ pageContext }) => {
   
   let director_list = null
   let directors = null
-  const directors_title = item.directors.length > 1 ? "Directors" : "Director"
-  if (item.directors.length > 0) {
+  if (item.directors) {
+    const directors_title = item.directors.length > 1 ? "Directors" : "Director"
     director_list = item.directors.map(person => {
       return <Person person={person.data} showTitle="true" type="director" />
     })

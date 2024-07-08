@@ -108,6 +108,8 @@ module.exports = {
             separateNodeType: true,
             mapping: { 
               excerpt: `text/markdown`,
+              description: `text/markdown`,
+              image: `fileNode`
             },
             tableLinks: [
               `linked_research_item`,
@@ -181,6 +183,7 @@ module.exports = {
             queryName: `Identities`,
             separateNodeType: true,
             mapping: { 
+              linked_person_bio: `text/markdown`,
               person_bio: `text/markdown`,
             },
             tableLinks: [

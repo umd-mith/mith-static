@@ -30,19 +30,6 @@ const PeoplePastPage = ({ data }) => {
     )    
   }
 
-  // This is returning the groups without additional fields like fieldValue
-  // const simplifiedPastPeople = data.people.group.map(g => {
-  //   const simplified = Object.assign({}, g)
-  //   simplified.nodes = g.nodes.map(n => {
-  //     const p = Object.assign({}, n)
-  //     p.group_name = n.data.people_groups.filter(pg => pg.data.group_name.includes("Past"))[0].data.group_name
-  //     return p
-  //   })
-  //   return simplified
-  // })
-
-  // console.log(simplifiedPastPeople, data.people.group)
-
   return (
     <Layout>
       <SEO title="Past People" />

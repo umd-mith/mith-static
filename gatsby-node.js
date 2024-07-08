@@ -7,7 +7,7 @@ exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) =
   await makePostIndex(createPage, graphql, pathPrefix)
   await makeResearch(createPage, graphql, pathPrefix)
   await makeResearchIndex(createPage, graphql, pathPrefix)
-  // await makeEvents(createPage, graphql, pathPrefix)
+  await makeEvents(createPage, graphql, pathPrefix)
   await makeEventIndex(createPage, graphql, pathPrefix)
   // await makeDialogues(createPage, graphql, pathPrefix)
   // await makeDialogueIndex(createPage, graphql, pathPrefix)
@@ -385,7 +385,7 @@ async function makeResearch(createPage, graphql) {
       path: `/research/${item.id}/`,
       component: require.resolve(`./src/templates/research.js`),
       context: {
-        item
+        ...item
       }
     })
   }
@@ -425,179 +425,271 @@ async function makeEventIndex(createPage, graphql, pathPrefix) {
 async function makeEvents(createPage, graphql) {
   const results = await graphql(`
     query {
-      allEventsJson {
+      allAirtableEvents {
         nodes {
-          airtable_id
-          fields {
-            eventsDescription {
-              childMarkdownRemark {
-                html
-              }
-            }
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 1400, quality: 100, backgroundColor: "rgba(255,255,255,0)")
-              }
-            }
-          }
-          event_title
-          talk_title
-          talk_subtitle
-          type: event_type
-          start: start_date
-          end: end_date
-          location
-          speakers {
-            name
-            affiliations {
-              title
-              department
-              institution
-            }
-            person_group
-            slug
-            new_id
-          }
-          participants {
-            name
-            title
-            department
-            institution
-            start
-            end
-            person_group
-            slug
-            new_id
-          }
-          links {
-            title
-            url
-            type
-          }
-          sponsors {
-            name
-            website
-            type
-            slug
-          }
-          partners {
-            name
-            website
-            type
-            slug
-          }
-          research {
+          data {
             id
-            title
-            image {
-              url
-            }
-          }
-          posts {
-            post_title
-            author
-            author_name
-            post_date(formatString: "MMMM D, YYYY")
-            slug
-          }
-          disciplines {
-            term: name
-            type: method_or_discipline
-          }
-          methods {
-            term: name
-            type: method_or_discipline
-          }
-        }
-      }
-      allIdentitiesJson(
-        filter: {
-          person_bio: {ne: null}, 
-          fields: {identitiesPerson_bio: {
-            childMarkdownRemark: {html: {ne: ""} } 
-          } }
-        }
-      ) {
-        nodes {
-          slug
-          person_slug
-          fields {
-            identitiesPerson_bio {
+            description {
               childMarkdownRemark {
                 html
               }
             }
+            image {
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData(
+                    width: 1400
+                    quality: 100
+                    backgroundColor: "rgba(255,255,255,0)"
+                  )
+                }
+              }
+            }
+            event_title
+            talk_title
+            talk_subtitle
+            type: event_type
+            start: start_date
+            end: end_date
+            location
+            speakers {
+              data {
+                name
+                slug
+                new_id
+                group_type
+              }
+            }
+            sponsors {
+              data {
+                name
+                website
+                type
+                slug
+              }
+            }
+            partners {
+              data {
+                name
+                website
+                type
+                slug
+              }
+            }
+            disciplines {
+              data {
+                term: name
+                type: method_or_discipline
+              }
+            }
+            methods {
+              data {
+                term: name
+                type: method_or_discipline
+              }
+            }
+            speaker_affiliations {
+              data {
+                linked_person {
+                  data {
+                    id
+                    slug
+                  }
+                }
+                department
+                institution
+                title
+              }
+            }
+            linked_participant_affiliations {
+              data {
+                linked_person {
+                  data {
+                    id
+                  }
+                }
+                end
+                institution
+                department
+                start
+                title
+                person_group
+              }
+            }
+            linked_participants {
+              data {
+                id
+              }
+            }
+            linked_links {
+              data {
+                title
+                url
+                type
+              }
+            }
+            linked_research_item {
+              data {
+                id
+                title
+                image {
+                  localFiles {
+                    childImageSharp {
+                      gatsbyImageData(
+                        width: 1400
+                        quality: 100
+                        backgroundColor: "rgba(255,255,255,0)"
+                      )
+                    }
+                  }
+                }
+              }
+            }
+            linked_posts {
+              data {
+                author
+                author_name
+                post_date(formatString: "MMMM D, YYYY")
+                slug
+                record_id
+                post_title
+              }
+            }
           }
         }
       }
-      allPeopleJson(
-        filter: {
-          events_as_speaker: {ne: null}
-        }
+      allAirtableIdentities(
+        filter: {data: {person_bio: {childMarkdownRemark: {html: {ne: "null"}}}}}
       ) {
         nodes {
-          slug
-          fields {
+          data {
+            slug
+            linked_person {
+              data {
+                slug
+                id
+                bio {
+                  childMarkdownRemark {
+                    html
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      allAirtablePeople(
+        filter: {data: {events_as_speaker: {elemMatch: {data: {id: {ne: "null"}}}}}}
+      ) {
+        nodes {
+          data {
+            id
+            new_id
+            slug
             headshot {
-              childImageSharp {
-                gatsbyImageData
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData
+                }
               }
             }
           }
         }
       }
-      allResearchJson(
-        filter: {
-          linked_events: {ne: null}, 
-          image: {elemMatch: {url: {ne: null}}}
-        }
+      allAirtableResearchItems(
+        filter: {data: {linked_events: {elemMatch: {data: {id: {ne: "null"}}}}, image: {localFiles: {elemMatch: {url: {ne: "null"}}}}}}
       ) {
         nodes {
-          id
-          fields {
-            image  {
-              childImageSharp {
-                gatsbyImageData
+          data {
+            id
+            image {
+              localFiles {
+                childImageSharp {
+                  gatsbyImageData
+                }
               }
             }
           }
         }
       }
-    }  
+    }
   `)
 
-  for (const node of results.data.allEventsJson.nodes) {
+  for (const node of results.data.allAirtableEvents.nodes) {
+    const item = node.data
+    // Attach linked participant affiliations
+    if (item.linked_participants) {
+      item.participants = item.linked_participants.map(p => {
+        const new_p = Object.assign({}, p);
+        const id = p.data.id
+        // Lookup staff members in internal participants
+        if (item.linked_participant_affiliations) {
+          for (const aff of item.linked_participant_affiliations) {
+            if (!aff.data.linked_person[0]) continue;
+            if (aff.data.linked_person[0].data.id === id) {
+              if (new_p.data.affiliations) {
+                new_p.data.affiliations.push(aff)
+              } else {
+                new_p.data.affiliations = [aff] 
+              }
+              break;
+            }
+          }
+        }
+        return new_p;
+      })
+    }
+
     // Attach headshot and speakers bio from people and identities table
-    node.speakers.forEach(sp => {
-      results.data.allPeopleJson.nodes.map(pers => {
-        if (pers.slug === sp.slug) {
-          if (pers.fields) {
-            sp.headshot = pers.fields.headshot
+    if (item.speakers) {
+      item.speakers.forEach(sp => {
+        results.data.allAirtablePeople.nodes.map(_pers => {
+          const pers = _pers.data
+          if (pers.slug === sp.data.slug) {
+            if (pers.headshot) {
+              sp.data.headshot = pers.headshot
+            }
+          }
+        })
+        results.data.allAirtableIdentities.nodes.map(_pers => {
+          const pers = _pers.data
+          if (pers.linked_person[0].data.slug === sp.data.slug) {
+            if (pers.linked_person[0].data.bio) {
+              sp.data.bio = pers.linked_person[0].data.bio
+            }
+          }
+        })
+        // Lookup speaker affiliation
+        if (item.speaker_affiliations) {
+          for (const aff of item.speaker_affiliations) {
+            if (!aff.data.linked_person[0].data) continue;
+            if (aff.data.linked_person[0].data.slug === sp.data.slug) {
+              if (sp.affiliations) {
+                sp.data.affiliations.push(aff)
+              } else {
+                sp.data.affiliations = [aff] 
+              }
+              break;
+            }
           }
         }
       })
-      results.data.allIdentitiesJson.nodes.map(ident => {
-        if (ident.person_slug === sp.slug) {
-          if (ident.fields) {
-            sp.bio = ident.fields.identitiesPerson_bio
+    }
+    if (item.linked_research_item) {
+      item.linked_research_item.forEach(ri => {
+        results.data.allAirtableResearchItems.nodes.map(_r => {
+          const r = _r.data
+          if (ri.data.id === r.id) {
+            ri.data.image = r.image
           }
-        }
+        })
       })
-    })
-    node.research.forEach(rr => {
-      results.data.allResearchJson.nodes.map(research => {
-        if (research.airtable_id === rr.airtable_id) {
-          if (research.fields) {
-            rr.image = research.fields.image
-          }
-        }
-      })
-    })
+    }
     createPage({
-      path: `/events/${node.airtable_id}/`,
+      path: `/events/${item.id}/`,
       component: require.resolve(`./src/templates/event.js`),
       context: {
-        ...node
+        ...item
       }
     })
   }

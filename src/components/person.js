@@ -84,15 +84,16 @@ const Person = ({ person, type }) => {
       ? <a href={`https://twitter.com/${person.twitter}`} className="twitter" target="_blank" rel="noreferrer">{iconTwitter} {person.twitter}</a> 
       : null
     if (person.headshot) {
-      if (person.headshot.childImageSharp) {
+      const headshotData = person.headshot.localFiles[0]
+      if (headshotData) {
         headshot = <GatsbyImage 
-          image={person.headshot.childImageSharp.gatsbyImageData} 
+          image={headshotData.childImageSharp.gatsbyImageData} 
           alt={person.name} 
           className="headshot" 
         />
       } else {
         headshot = <img
-          src={person.headshot.url}
+          src={headshotData.url}
           alt={`Headshot of ${person.name}`} 
           className="headshot"
           style={{
@@ -103,10 +104,10 @@ const Person = ({ person, type }) => {
       hasImg = "has-headshot"
     }
   }
-  const bio_link = person.bio 
+  const bio_link = person.bio && person.bio.childMarkdownRemark
     ? <a href={`#${person.slug}`} className="bio-link">Read Bio</a> : null
 
-  const person_bio = person.bio
+  const person_bio = person.bio && person.bio.childMarkdownRemark
     ? <div className="bio" dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark.html }} /> : ''
 
   if (person.website) {
