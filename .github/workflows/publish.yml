@@ -1,30 +1,37 @@
-name: Gatsby Publish
+name: Build and Site
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
+    env:
+      MY_ENV_VAR: "some_value"
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: SpicyPizza/create-envfile@v1.3
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          envkey_AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY  }}
-          envkey_AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
-          envkey_AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
-          envkey_AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-      - name: npm install and build and deploy
-        run: |
-          npm install
-          npm run build
-      - uses: peaceiris/actions-gh-pages@v2
+          node-version: '20.x'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to server
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+          RSYNC_RSH: "ssh -i ${{ secrets.SSH_SECRET_KEY }} -o StrictHostKeyChecking=no"
+        run: |
+          rsync -avz --delete --quiet ./public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu
+
+      - name: Clean up
+        run: rm -rf ./public/
