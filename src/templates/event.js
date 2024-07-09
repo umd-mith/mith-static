@@ -53,7 +53,7 @@ const Event = ({ pageContext: item }) => {
   const sponsors = item.sponsors 
     ? <SupporterList supporters={item.sponsors} type="sponsor" />
     : ''
-  const partners = item.partners 
+  const partners = item.partners
     ? <SupporterList supporters={item.partners} type="partner" />
     : ''
   
@@ -92,7 +92,7 @@ const Event = ({ pageContext: item }) => {
   if (item.linked_research_item) {
     research_list = item.linked_research_item.map(_r => {
       const r = _r.data
-      if (r.image.localFiles[0]) {
+      if (r.image && r.image.localFiles && r.image.localFiles[0]) {
         if (r.image.localFiles[0].childImageSharp) {
           research_img = <GatsbyImage
             image={r.image.localFiles[0].childImageSharp.gatsbyImageData}

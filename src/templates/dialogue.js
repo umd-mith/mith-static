@@ -44,9 +44,8 @@ const Dialogue = ({ pageContext: item }) => {
   let speaker_bios = null
   let speaker_bio = null
   const speakers_data = item.speakers ? item.speakers : []
-  if (item.speakers.length > 0) {
+  if (speakers_data.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      console.log(p)
       return <Person key={`p${i}`} person={p.data} type="dialogue" />
     })
     speakers = <div className="speakers">
@@ -68,10 +67,10 @@ const Dialogue = ({ pageContext: item }) => {
   }
   
   const sponsors = item.sponsors 
-    ? <SupporterList supporters={item.sponsors.data} type="sponsor" />
+    ? <SupporterList supporters={item.sponsors} type="sponsor" />
     : ''
   const partners = item.partners
-    ? <SupporterList supporters={item.partners.data} type="partner" />
+    ? <SupporterList supporters={item.partners} type="partner" />
     : ''
 
   let links_list = null

@@ -37,7 +37,20 @@ const PostIndex = ({data}) => {
             // post that is in airtable 
             
             if (! doc) {
-              throw new Error(`missing markdown post for slug ${post.slug}`)
+              console.warn(`missing markdown post for slug ${post.slug}`)
+              // throw new Error(`missing markdown post for slug ${post.slug}`)
+              return <article className="post news-post" key={`news-${post.id}`}>
+                <h2 className="post-title">
+                  <Link>{post.post_title}</Link>
+                </h2>
+                <div className="meta">
+                  by <span className="author">{post.author_name}</span>
+                  {' '}on <time>{post.post_date}</time>
+                </div>
+                <div className="excerpt">
+                  Currently unavailable.
+                </div>
+              </article>
             }
 
             return (

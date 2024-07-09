@@ -7,8 +7,9 @@ import SEO from '../components/seo'
 import './post.css'
 
 const Post = ({ data, pageContext: post }) => {
-  const metadata = data.postInfo.nodes[0].data
-  if (!metadata) return null
+  const _metadata = data.postInfo.nodes[0]
+  if (!_metadata) return null
+  const metadata = _metadata.data
 
   return (
     <Layout>

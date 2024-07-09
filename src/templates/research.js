@@ -17,10 +17,11 @@ const Research = ({ pageContext: item }) => {
 
   let header = <h1 className="title">{item.title}</h1>
   let description = ''
-  const img = item.image.localFiles[0]
-  if (img) {
+  const img = item.image
+  console.log(img)
+  if (img && img.localFiles) {
     header = <GatsbyImage 
-      image={img.childImageSharp.gatsbyImageData}
+      image={img.localFiles[0].childImageSharp.gatsbyImageData}
       alt={item.title} 
       className="research-image" 
     />
@@ -80,7 +81,7 @@ const Research = ({ pageContext: item }) => {
   let links_list = null
   let links = null
   let link_url = null
-  if (item.linked_links.length > 0) {
+  if (item.linked_links) {
     links_list = item.linked_links.map(_l => {
       const l = _l.data
       link_url = l.url.startsWith('http') 
@@ -100,7 +101,7 @@ const Research = ({ pageContext: item }) => {
 
   let events_list = null 
   let events = null
-  if (item.linked_events.length > 0) {
+  if (item.linked_events) {
     events_list = item.linked_events.map(_e => {
       const e = _e.data;
       return <li id={e.id} className="event">
@@ -116,7 +117,7 @@ const Research = ({ pageContext: item }) => {
 
   let news_list = null 
   let news = null
-  if (item.linked_posts.length > 0) {
+  if (item.linked_posts) {
     news_list = item.linked_posts.map(_n => {
       const n = _n.data
       return <li id={n.slug.toLowerCase().replace(/-/g, '_')}>
@@ -130,11 +131,11 @@ const Research = ({ pageContext: item }) => {
     news = <div className="news"><h2>News</h2><ul>{news_list}</ul></div>
   }
 
-  const disciplines = item.disciplines.length > 0 
+  const disciplines = item.disciplines
   ? <TaxonomyList terms={item.disciplines} type="disciplines" />
   : ''
 
-  const methods = item.methods.length > 0 
+  const methods = item.methods
   ? <TaxonomyList terms={item.methods} type="methods" />
   : ''
 

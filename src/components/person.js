@@ -23,9 +23,9 @@ const Person = ({ person, type }) => {
 
     let date_span = null
     if ( type === "director" ) {
-      const _aff = person.affiliations[0]
-      if (_aff) {
-        const aff = _aff.data
+      const _aff = person.affiliations
+      if (_aff && _aff[0]) {
+        const aff = _aff[0].data
         const start = aff.start
           ? <span className="start">{aff.start}</span> : null
         const end = aff.end 

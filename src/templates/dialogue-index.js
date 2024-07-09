@@ -28,7 +28,7 @@ const Entry = ({item, headshots}) => {
   let speakers_list = null
   let speakers = null
   const speakers_data = item.speakers ? item.speakers : []
-  if (item.speakers.length > 0) {
+  if (speakers_data.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
       // find headshot                
       p.data.headshot = headshots[p.data.slug]
