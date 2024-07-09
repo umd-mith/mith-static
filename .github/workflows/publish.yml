@@ -1,9 +1,7 @@
-name: Build and Site
+name: Build and Publish Site
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -18,6 +16,14 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_API_KEY  }}
+          AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
+          AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
+          AIRTABLE_EVENTS_BASE_ID: tbl6CURONRn8ML6le
+          AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
+          AIRTABLE_MITH_BASE_ID: appMWsw8HKjjokBg2
+          
         with:
           node-version: '20.x'
 

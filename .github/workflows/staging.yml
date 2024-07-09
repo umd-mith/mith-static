@@ -3,24 +3,23 @@ name: Publish Staging Site on GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: SpicyPizza/create-envfile@v1.3
-        with:
-          envkey_AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_API_KEY  }}
-          envkey_AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
-          envkey_AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
-          envkey_AIRTABLE_EVENTS_BASE_ID: tbl6CURONRn8ML6le
-          envkey_AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
-          envkey_AIRTABLE_MITH_BASE_ID: appMWsw8HKjjokBg2
       - uses: actions/setup-node@v3
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_API_KEY  }}
+          AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
+          AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
+          AIRTABLE_EVENTS_BASE_ID: tbl6CURONRn8ML6le
+          AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
+          AIRTABLE_MITH_BASE_ID: appMWsw8HKjjokBg2
         with:
-          node-version: 16.x
+          node-version: 20.x
       - name: npm install and build and deploy
         run: |
           npm install
