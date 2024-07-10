@@ -25,7 +25,6 @@ jobs:
           npm install
           npm run build
       - uses: peaceiris/actions-gh-pages@v4
-        env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
