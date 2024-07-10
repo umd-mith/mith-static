@@ -24,7 +24,7 @@ jobs:
 
       - name: Build project
         env:
-          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_API_KEY  }}
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN  }}
           AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
           AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
           AIRTABLE_EVENTS_BASE_ID: tbl6CURONRn8ML6le
