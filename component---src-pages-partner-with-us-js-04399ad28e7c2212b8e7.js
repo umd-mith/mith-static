@@ -1,2 +1,0 @@
-(self.webpackChunkmith_static=self.webpackChunkmith_static||[]).push([[992],{9549:function(e,t,a){"use strict";a.r(t);var n=a(7294),r=a(378),l=a(7487);t.default=function(){return n.createElement(r.Z,null,n.createElement(l.Z,{title:"Partner With Us"}),n.createElement("div",{className:"page-partnership"},n.createElement("section",{className:"leader"},n.createElement("h1",null,"Partner With Us"),n.createElement("p",null,"[add intro text here]"))))}}}]);
-//# sourceMappingURL=component---src-pages-partner-with-us-js-04399ad28e7c2212b8e7.js.map

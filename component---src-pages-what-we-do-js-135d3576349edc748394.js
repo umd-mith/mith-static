@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmith_static=self.webpackChunkmith_static||[]).push([[434],{6654:function(e,t,l){l.r(t);var a=l(7294),n=l(7654),c=l(8183);t.default=()=>a.createElement(n.Z,null,a.createElement(c.Z,{title:"What We Do"}),a.createElement("div",{className:"page-who-we-are"},a.createElement("section",{className:"leader"},a.createElement("h1",null,"What We Do"),a.createElement("p",null,"Intro text")),a.createElement("section",null,a.createElement("p",null,"[other text here]"))))}}]);
-//# sourceMappingURL=component---src-pages-what-we-do-js-135d3576349edc748394.js.map
