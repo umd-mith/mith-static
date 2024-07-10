@@ -37,7 +37,7 @@ jobs:
         with:
           key: ${{ secrets.SSH_SECRET_KEY }}
           name: id_rsa
-          known_hosts: ${{ secrets.SSH_HOST }}
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
 
       - name: Deploy to server
         run: |
