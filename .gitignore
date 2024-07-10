@@ -77,3 +77,6 @@ yarn-error.log
 .yarn-integrity
 
 releases
+
+# Tool versioning info
+.tool-versions
