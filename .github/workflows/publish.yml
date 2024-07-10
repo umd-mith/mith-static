@@ -42,8 +42,8 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan $SSH_HOST >> ~/.ssh/known_hosts
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          rsync -avz --delete --quiet ./public/ $SSH_USER@$SSH_HOST:$SSH_REMOTE_PATH
+          chmod -R 400 ~/.ssh
+          rsync -avz --delete --quiet -e "ssh -i ~/.ssh/id_rsa" ./public/ $SSH_USER@$SSH_HOST:$SSH_REMOTE_PATH
 
       - name: Clean up
         run: |
