@@ -38,9 +38,9 @@ jobs:
 
       - name: Deploy to server
         env:
-          SSH_USER: ${{ SSH_USER }}
-          SSH_HOST: ${{ SSH_HOST }}
-          SSH_REMOTE_PATH: ${{ SSH_REMOTE_PATH }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_REMOTE_PATH: ${{ secrets.SSH_REMOTE_PATH }}
         run: |
           rsync -avz --delete --quiet ./public/ $SSH_USER@$SSH_HOST:$SSH_REMOTE_PATH
 
