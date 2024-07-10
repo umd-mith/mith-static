@@ -32,17 +32,17 @@ jobs:
           AIRTABLE_MITH_BASE_ID: appMWsw8HKjjokBg2
         run: npm run build
 
-      - name: Adding Known Hosts
-        run: ssh-keyscan -H mith.umd.edu >> ~/.ssh/known_hosts
-
-      - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.SSH_SECRET_KEY }}
-
       - name: Deploy to server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          rsync -avz --delete --quiet -e "ssh -i ${{ secrets.SSH_SECRET_KEY }} -o StrictHostKeyChecking=no" ./public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu
+          mkdir -p ~/.ssh
+          ssh-keyscan mith.umd.edu >> ~/.ssh/known_hosts
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          rsync -avz --delete --quiet ./public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu
 
       - name: Clean up
-        run: rm -rf ./public/
+        run: |
+          rm -rf ./public/
+          rm ~/.ssh/id_rsa
