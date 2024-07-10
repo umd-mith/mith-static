@@ -35,12 +35,15 @@ jobs:
       - name: Deploy to server
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_REMOTE_PATH: ${{ secrets.SSH_REMOTE_PATH }}
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan mith.umd.edu >> ~/.ssh/known_hosts
+          ssh-keyscan $SSH_HOST >> ~/.ssh/known_hosts
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          rsync -avz --delete --quiet ./public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu
+          rsync -avz --delete --quiet ./public/ $SSH_USER@$SSH_HOST:$SSH_REMOTE_PATH
 
       - name: Clean up
         run: |
