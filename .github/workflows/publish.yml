@@ -37,12 +37,8 @@ jobs:
           known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
 
       - name: Deploy to server
-        env:
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_REMOTE_PATH: ${{ secrets.SSH_REMOTE_PATH }}
         run: |
-          rsync -avz --delete --quiet ./public/ $SSH_USER@$SSH_HOST:$SSH_REMOTE_PATH
+          rsync -avz --delete --quiet ./public/ ubuntu@mith.umd.edu:/var/www/mith.umd.edu
 
       - name: Clean up
         run: |
