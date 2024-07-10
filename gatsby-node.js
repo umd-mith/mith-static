@@ -1,16 +1,16 @@
 const path = require('path')
 const {createRemoteFileNode} = require('gatsby-source-filesystem')
 
-exports.createPages = async ({ actions: { createPage }, graphql, pathPrefix }) => {
-  await makePeople(createPage, graphql, pathPrefix)
-  await makePosts(createPage, graphql, pathPrefix)
-  await makePostIndex(createPage, graphql, pathPrefix)
-  await makeResearch(createPage, graphql, pathPrefix)
-  await makeResearchIndex(createPage, graphql, pathPrefix)
-  await makeEvents(createPage, graphql, pathPrefix)
-  await makeEventIndex(createPage, graphql, pathPrefix)
-  await makeDialogues(createPage, graphql, pathPrefix)
-  await makeDialogueIndex(createPage, graphql, pathPrefix)
+exports.createPages = async ({ actions: { createPage }, graphql }) => {
+  await makePeople(createPage, graphql)
+  await makePosts(createPage, graphql)
+  await makePostIndex(createPage, graphql)
+  await makeResearch(createPage, graphql)
+  await makeResearchIndex(createPage, graphql)
+  await makeEvents(createPage, graphql)
+  await makeEventIndex(createPage, graphql)
+  await makeDialogues(createPage, graphql)
+  await makeDialogueIndex(createPage, graphql)
 }
 
 async function makePeople(createPage, graphql) {
@@ -75,7 +75,7 @@ async function makePeople(createPage, graphql) {
   }
 }
 
-async function makePosts(createPage, graphql, pathPrefix) {
+async function makePosts(createPage, graphql) {
   const results = await graphql(`
     query {
       allFile(filter: {sourceInstanceName: {eq: "news"}}) {
@@ -103,7 +103,7 @@ async function makePosts(createPage, graphql, pathPrefix) {
   }
 }
 
-async function makePostIndex(createPage, graphql, pathPrefix) {
+async function makePostIndex(createPage, graphql) {
   console.log(`making post index`)
   const results = await graphql(`
     query {
@@ -133,7 +133,7 @@ async function makePostIndex(createPage, graphql, pathPrefix) {
   })
 }
 
-async function makeResearchIndex(createPage, graphql, pathPrefix) {
+async function makeResearchIndex(createPage, graphql) {
   const results = await graphql(`
     query {
       allAirtableResearchItems {
@@ -392,7 +392,7 @@ async function makeResearch(createPage, graphql) {
 }
 
 
-async function makeEventIndex(createPage, graphql, pathPrefix) {
+async function makeEventIndex(createPage, graphql) {
   const results = await graphql(`
     query {
       allAirtableEvents {
@@ -696,7 +696,7 @@ async function makeEvents(createPage, graphql) {
 }
 
 
-async function makeDialogueIndex(createPage, graphql, pathPrefix) {
+async function makeDialogueIndex(createPage, graphql) {
   const results = await graphql(`
     query {
       allAirtableEvents {

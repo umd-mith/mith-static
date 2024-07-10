@@ -1,9 +1,10 @@
 require("dotenv").config();
 
 const baseId = process.env.AIRTABLE_MITH_BASE_ID;
+const basePath = process.env.BASEPATH
 
 module.exports = {
-  pathPrefix: `mith-static`,
+  pathPrefix: basePath,
   siteMetadata: {
     title: `MITH`,
     siteUrl: "https://mith.umd.edu",
