@@ -35,7 +35,7 @@ jobs:
       - name: Set SSH key and known hosts
         uses: shimataro/ssh-key-action@v2
         with:
-          key: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_SECRET_KEY }}
           name: id_rsa
           known_hosts: ${{ secrets.SSH_HOST }}
 
