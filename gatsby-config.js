@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const baseId = process.env.AIRTABLE_MITH_BASE_ID;
-console.log(process.env.AIRTABLE_TOKEN)
+console.log("t: ", process.env.AIRTABLE_TOKEN)
 
 module.exports = {
   pathPrefix: `mith-static`,
