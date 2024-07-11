@@ -12,6 +12,7 @@
     "build": "gatsby build",
     "build-pages": "BASEPATH=/mith-static gatsby build --prefix-paths",
     "develop": "gatsby develop",
+    "test": "playwright test",
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
