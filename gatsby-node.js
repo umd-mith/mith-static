@@ -1,5 +1,4 @@
 const path = require('path')
-const {createRemoteFileNode} = require('gatsby-source-filesystem')
 
 exports.createPages = async ({ actions: { createPage }, graphql }) => {
   await makePeople(createPage, graphql)
