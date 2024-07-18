@@ -80,3 +80,9 @@ releases
 
 # Tool versioning info
 .tool-versions
+
+# Playwright tests
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
