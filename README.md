@@ -23,8 +23,8 @@ You may also build the site locally and `rsync` the built site if you have the r
 
 To build the site you will need to install a few things:
 
-* [Node](https://nodejs.org): a JavaScript programming environment
-* [Git](https://git-scm.com/): version control software
+- [Node](https://nodejs.org): a JavaScript programming environment
+- [Git](https://git-scm.com/): version control software
 
 Then you will need to get this repository:
 
@@ -46,3 +46,11 @@ You will also need a personal token from Airtable. Once logged in, you can gener
 Now you are ready to start the development server:
 
     npm run develop
+
+## Test
+
+To run the project's tests:
+
+`npm run test`
+
+You may also be required to install Playwright and test browser binaries with `npx playwright install`
