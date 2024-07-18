@@ -28,12 +28,12 @@ jobs:
           key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
-      - name: Start Gatsby development server
-        env:
-          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
-        run: |
-          npm run develop &
-          npx wait-on http://localhost:8000 --timeout 300000
+      # - name: Start Gatsby development server
+      #   env:
+      #     AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      #   run: |
+      #     npm run develop &
+      #     npx wait-on http://localhost:8000 --timeout 300000
 
       - name: Run Playwright tests
         env:
