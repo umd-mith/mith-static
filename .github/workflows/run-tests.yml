@@ -15,6 +15,14 @@ jobs:
           node-version: 20.x
       - name: Install dependencies
         run: npm ci
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN  }}
+          AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
+          AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
+          AIRTABLE_EVENTS_BASE_ID: tbl6CURONRn8ML6le
+          AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
+          AIRTABLE_MITH_BASE_ID: appMWsw8HKjjokBg2
+
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
