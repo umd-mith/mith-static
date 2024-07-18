@@ -8,6 +8,12 @@ jobs:
   test:
     timeout-minutes: 10
     runs-on: ubuntu-latest
+    env:
+      AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
+      AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
+      AIRTABLE_EVENTS_BASE_ID: tbl6CURONRn8ML6le
+      AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
+      AIRTABLE_MITH_BASE_ID: appMWsw8HKjjokBg2
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -22,15 +28,16 @@ jobs:
           key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
+      - name: Start Gatsby development server
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: |
+          npm run develop &
+          npx wait-on http://localhost:8000 --timeout 300000
+
       - name: Run Playwright tests
         env:
           AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN  }}
-          AIRTABLE_PEOPLE_BASE_ID: appk2btw36qEO3vFo
-          AIRTABLE_RESEARCH_BASE_ID: appTv9J1zxqaNgBHi
-          AIRTABLE_EVENTS_BASE_ID: tbl6CURONRn8ML6le
-          AIRTABLE_POSTS_BASE_ID: appsY0VXF7pbv3mKR
-          AIRTABLE_MITH_BASE_ID: appMWsw8HKjjokBg2
-
         run: npx playwright test
       - uses: actions/upload-artifact@v4
         if: failure()
