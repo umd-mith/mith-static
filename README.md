@@ -1,5 +1,8 @@
 # MITH (Static) Website
 
+![Staging Site](https://github.com/umd-mith/mith-static/actions/workflows/staging.yml/badge.svg)
+![Deployment](https://github.com/umd-mith/mith-static/actions/workflows/publish.yml/badge.svg)
+
 This is the Gatsby static site for https://mith.umd.edu. It builds pages based
 on data stored in several Airtable bases.
 
