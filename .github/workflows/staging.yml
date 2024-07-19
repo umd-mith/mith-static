@@ -9,6 +9,8 @@ on:
 jobs:
   test:
     uses: ./.github/workflows/run-tests.yml
+    secrets:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
 
   build:
     needs: test
