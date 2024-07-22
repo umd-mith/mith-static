@@ -105,7 +105,7 @@ export const query = graphql`
   query PeopleQuery {
     people: allAirtablePeople(
       filter: {data: {group_type: {in: ["Staff", "Affiliates"]}}}
-      sort: {data: {last: ASC}}
+      sort: {data: {name: ASC}}
     ) {
       group(field: {data: {group_type: SELECT}}) {
         fieldValue
@@ -114,8 +114,6 @@ export const query = graphql`
             id
             new_id
             name
-            first
-            last
             website
             twitter
             identities_as_current {

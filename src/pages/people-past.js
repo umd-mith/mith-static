@@ -61,14 +61,13 @@ export const query = graphql`
   query PeoplePastQuery {
     people: allAirtablePeople(
       filter: {data: {group_type: {regex: "/Past/"}}}
-      sort: {data: {last: ASC}}
+      sort: {data: {name: ASC}}
     ) {
       group(field: {data: {people_groups: {data: {group_name: SELECT}}}}) {
         fieldValue
         nodes {
           data {
             name
-            last
             linked_identities {
               data {
                 title
