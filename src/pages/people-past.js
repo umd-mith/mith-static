@@ -8,7 +8,7 @@ import './people.css'
 const PeoplePastPage = ({ data }) => {
   
   function makePerson(person) {
-    let identities = person.linked_identities || []
+    let identities = (person.linked_identities || []).filter(i => i.data.start)
     return (
     <article className="person" id={person.new_id} title={person.name} key={`p-${person.new_id}`}>
       <h3 className="name">{person.name}</h3>
