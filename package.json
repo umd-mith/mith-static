@@ -14,8 +14,7 @@
     "develop": "gatsby develop",
     "test": "playwright test",
     "clean": "gatsby clean",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "listt": "tsc --listFiles"
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "repository": {
     "type": "git",
