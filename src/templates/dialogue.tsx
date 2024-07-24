@@ -5,15 +5,25 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import EventTime from '../components/event-time'
-import Person from '../components/person'
-import TaxonomyList from '../components/taxonomy-list'
-import SupporterList from '../components/supporter-list'
+import Person, { PersonComponentProps } from '../components/person'
+// import TaxonomyList from '../components/taxonomy-list'
+import SupporterList, { SupporterComponentProps } from '../components/supporter-list'
 
 import './event.css'
 import './dialogue.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Dialogue = ({ pageContext: item }) => {
+interface Props {
+  pageContext: NonNullable<Queries.PageDialogueQuery["allAirtableEvents"]["nodes"][number]["data"]>
+}
+
+// TODO: Simplify / Aggregate with types from gatsby-node.
+type ExtendedSpeakerData = NonNullable<NonNullable<NonNullable<Queries.PageDialogueQuery["allAirtableEvents"]["nodes"][number]["data"]>["speakers"]>[number]> & {
+  headshot: NonNullable<Queries.PageDialogueIndexQuery["allAirtablePeople"]["nodes"][number]["data"]>["headshot"]
+  bio: NonNullable<NonNullable<NonNullable<NonNullable<Queries.PageDialogueQuery["allAirtableIdentities"]["nodes"][number]["data"]>["linked_person"]>[number]>["data"]>["bio"]
+}
+
+const Dialogue = ({ pageContext: item }: Props) => {
   
   const subtitle = item.talk_subtitle 
     ? <h2 className="subtitle">{item.talk_subtitle}</h2> : ''
@@ -21,41 +31,41 @@ const Dialogue = ({ pageContext: item }) => {
   
   const headerImage = item.image
     ? <GatsbyImage 
-      image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
-      alt={item.event_title} 
+      image={item.image.localFiles?.[0]?.childImageSharp?.gatsbyImageData!} 
+      alt={item.event_title || ""} 
       className="event-image" 
     /> : null
 
-  const header = item.image
-    ? <GatsbyImage 
-      image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
-      alt={item.event_title} 
-      className="event-image" 
-    /> : <div className="header">{title}{subtitle}</div>
+  // const header = item.image
+  //   ? <GatsbyImage 
+  //     image={item.image.localFiles[0].childImageSharp.gatsbyImageData} 
+  //     alt={item.event_title} 
+  //     className="event-image" 
+  //   /> : <div className="header">{title}{subtitle}</div>
     
   const description = item.description
     ? <div className="description" 
-      dangerouslySetInnerHTML={{ __html: item.description.childMarkdownRemark.html }} 
+      dangerouslySetInnerHTML={{ __html: item.description.childMarkdownRemark?.html || "" }} 
     /> : ''
   
   let speakers_list = null
   let speakers = null
   let speaker_bios_list = null
-  let speaker_bios = null
-  let speaker_bio = null
+  let speaker_bios: JSX.Element | undefined;
+  let speaker_bio: JSX.Element | undefined;
   const speakers_data = item.speakers ? item.speakers : []
   if (speakers_data.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      return <Person key={`p${i}`} person={p.data} type="dialogue" />
+      return <Person key={`p${i}`} person={p?.data as unknown as PersonComponentProps} type="dialogue" />
     })
     speakers = <div className="speakers">
       <h2 className="hidden">Speakers</h2>
       {speakers_list}
     </div>
     speaker_bios_list = speakers_data.map(_b => {
-      const b = _b.data
-      if (b.bio) {
-        speaker_bio = <div dangerouslySetInnerHTML={{ __html: b.bio.childMarkdownRemark.html }} id={b.slug} className="speaker-bio" />
+      const b = _b?.data as unknown as ExtendedSpeakerData
+      if (b?.bio) {
+        speaker_bio = <div dangerouslySetInnerHTML={{ __html: b.bio?.childMarkdownRemark?.html || "" }} id={b.data?.slug!} className="speaker-bio" />
       }
       return <>{speaker_bio}</>
     })
@@ -63,14 +73,14 @@ const Dialogue = ({ pageContext: item }) => {
       ? <div className="bios">
         <h2 className="hidden">Speaker Bios</h2>
         {speaker_bios_list}
-      </div> : ''
+      </div> : undefined
   }
   
   const sponsors = item.sponsors 
-    ? <SupporterList supporters={item.sponsors} type="sponsor" />
+    ? <SupporterList supporters={item.sponsors as SupporterComponentProps} type="sponsor" />
     : ''
   const partners = item.partners
-    ? <SupporterList supporters={item.partners} type="partner" />
+    ? <SupporterList supporters={item.partners as SupporterComponentProps} type="partner" />
     : ''
 
   let links_list = null
@@ -78,15 +88,15 @@ const Dialogue = ({ pageContext: item }) => {
   let link_name = null
   if (item.linked_links) {
     links_list = item.linked_links.map(_l => {
-      const l = _l.data
+      const l = _l?.data!
         if (l.url) {
           link_name = l.url.startsWith('http') 
             ? <a href={l.url} rel="noreferrer">{l.title}</a>
-            : <a href={`http://${l.url}`} title={l.title} target="_blank" rel="noreferrer">{l.title}</a>
+            : <a href={`http://${l.url}`} title={l.title || ""} target="_blank" rel="noreferrer">{l.title}</a>
         } else {
           link_name = l.title
         }
-      return <li className={l.type}>{link_name}</li>
+      return <li className={l.type || undefined}>{link_name}</li>
     })
     links = <div className="links">
       <h2>Resources</h2>
@@ -94,13 +104,13 @@ const Dialogue = ({ pageContext: item }) => {
     </div>
   }
   
-  const disciplines = item.disciplines 
-    ? <TaxonomyList terms={item.disciplines.data} type="disciplines" />
-    : ''
+  // const disciplines = item.disciplines 
+  //   ? <TaxonomyList terms={item.disciplines.data} type="disciplines" />
+  //   : ''
 
-  const methods = item.methods 
-    ? <TaxonomyList terms={item.methods.data} type="methods" />
-    : ''
+  // const methods = item.methods 
+  //   ? <TaxonomyList terms={item.methods.data} type="methods" />
+  //   : ''
 
   const iconVideo = <FontAwesomeIcon icon="play-circle" />
   const video_id = item.video_id ? item.video_id : ''
@@ -122,7 +132,7 @@ const Dialogue = ({ pageContext: item }) => {
     ? <div className="video">
         <h2>Media</h2>
         <div className="video-wrapper">
-          <iframe title={`${title} Video`} src={`https://player.vimeo.com/video/${video_id}?color=afbc21&title=0&byline=0&portrait=0`} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe title={`${title} Video`} src={`https://player.vimeo.com/video/${video_id}?color=afbc21&title=0&byline=0&portrait=0`} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
       </div> : ''
@@ -137,13 +147,13 @@ const Dialogue = ({ pageContext: item }) => {
 
   return (
     <Layout>
-      <SEO title={item.title} />
+      <SEO title={item.event_title || ""} />
       <div className="page-dialogue">
         <section className="dialogue event" itemProp="event" itemScope itemType="https://schema.org/Event">
           <div className="header">{headerImage}{title}{subtitle}</div>
           <div className="content">
             <div className="metadata">
-              <EventTime start={item.start} end={item.end} />
+              <EventTime start={parseInt(item.start!)} end={parseInt(item.end!)} />
               <div itemProp="location" className="location">{item.location}</div>
             </div>
             {speakers}

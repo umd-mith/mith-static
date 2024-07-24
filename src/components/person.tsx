@@ -1,10 +1,45 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
+import type { IGatsbyImageData } from 'gatsby-plugin-image'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Person = ({ person, type }) => {
+export type PersonComponentProps = {
+  group_type: string
+  slug: string
+  new_id: string
+  name: string
+  affiliations: {
+    data: {
+      start: number
+      end: number
+      title: string
+      department: string
+      institution: string
+    }
+  }[]
+  twitter: string
+  website: string
+  bio: {
+    childMarkdownRemark: {html: string}
+  }
+  headshot: {
+    localFiles: {
+      childImageSharp: {
+        gatsbyImageData: IGatsbyImageData
+      }
+      url: string
+    }[]
+  }
+}
+
+interface Props {
+  person: PersonComponentProps
+  type: string
+}
+
+const Person = ({ person, type }: Props) => {
 
   let pageLocation = null
   const isStaff = person.group_type && person.group_type.includes("Staff") 
@@ -41,7 +76,7 @@ const Person = ({ person, type }) => {
       }
     } 
 
-  let affiliations = ""
+  let affiliations: JSX.Element[] | undefined;
   if (person.affiliations) {
     affiliations = person.affiliations.map(_aff => {
       const aff = _aff.data
@@ -85,7 +120,7 @@ const Person = ({ person, type }) => {
       : null
     if (person.headshot) {
       const headshotData = person.headshot.localFiles[0]
-      if (headshotData) {
+      if (headshotData.childImageSharp) {
         headshot = <GatsbyImage 
           image={headshotData.childImageSharp.gatsbyImageData} 
           alt={person.name} 
@@ -117,7 +152,10 @@ const Person = ({ person, type }) => {
   }
 
   if (type === "dialogue-index") {
+    // TODO: default typing for itemScope is boolean | undefined, which is incorrect.
     return (
+      // @ts-expect-error
+      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <div className={`speaker person ${hasImg}`} id={person.new_id} title={person.name} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
         <div className="details">
@@ -131,6 +169,8 @@ const Person = ({ person, type }) => {
   }
   if (type === "dialogue") {
     return (
+      // @ts-expect-error
+      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <span className={`speaker person ${hasImg}`} id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
         <div className="details">
@@ -147,6 +187,8 @@ const Person = ({ person, type }) => {
   } 
   if (type === "speaker") {
     return (
+      // @ts-expect-error
+      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <span className={`speaker person ${hasImg}`} id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
         <div className="details">
@@ -163,6 +205,8 @@ const Person = ({ person, type }) => {
   } 
   if (type !== "dialogue-index" && type !== "dialogue") {
     return (
+      // @ts-expect-error
+      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <div className={`person ${hasImg}`} id={person.new_id} key={`p-${person.new_id}`} itemProp="performer" itemScope="https://schema.org/Person">
         {headshot}
         <div className="details">

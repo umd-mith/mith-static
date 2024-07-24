@@ -1,20 +1,31 @@
-const path = require('path')
+import type { Actions, CreatePagesArgs, GatsbyNode } from "gatsby";
+import path from "path";
 
-exports.createPages = async ({ actions: { createPage }, graphql }) => {
-  await makePeople(createPage, graphql)
-  await makePosts(createPage, graphql)
-  await makePostIndex(createPage, graphql)
-  await makeResearch(createPage, graphql)
-  await makeResearchIndex(createPage, graphql)
-  await makeEvents(createPage, graphql)
-  await makeEventIndex(createPage, graphql)
-  await makeDialogues(createPage, graphql)
-  await makeDialogueIndex(createPage, graphql)
+interface IMakePages {
+  createPage: Actions["createPage"]
+  graphql: CreatePagesArgs["graphql"]
 }
 
-async function makePeople(createPage, graphql) {
+type PeopleImage = NonNullable<Queries.PageEventQuery["allAirtablePeople"]["nodes"][number]["data"]>["headshot"]
+
+export const createPages: GatsbyNode["createPages"] = async ({ actions: { createPage }, graphql }) => {
+
+  const utils: IMakePages = {createPage, graphql};
+
+  await makePeople(utils)
+  await makePosts(utils)
+  await makePostIndex(utils)
+  await makeResearch(utils)
+  await makeResearchIndex(utils)
+  await makeEvents(utils)
+  await makeEventIndex(utils)
+  await makeDialogues(utils)
+  await makeDialogueIndex(utils)
+}
+
+async function makePeople({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query PagePeopleQuery {
+    query PagePeople {
       allAirtablePeople(filter: {data: {group_type: {eq: "Staff"}}}) {
         nodes {
           data {
@@ -58,15 +69,13 @@ async function makePeople(createPage, graphql) {
     }
   `)
 
-  for (const node of results.data.allAirtablePeople.nodes) {
+  const {nodes} = (results.data as Queries.PagePeopleQuery).allAirtablePeople;
+
+  for (const node of nodes) {
     const person = node.data
-    // Simplify fields
-    if (person.bio) {
-      person.bio = person.bio.childMarkdownRemark.html
-    }
     createPage({
-      path: `/people/${person.id}/`,
-      component: require.resolve(`./src/templates/person.js`),
+      path: `/people/${person?.id}/`,
+      component: path.resolve(`./src/templates/person.tsx`),
       context: {
         ...person
       }
@@ -74,9 +83,9 @@ async function makePeople(createPage, graphql) {
   }
 }
 
-async function makePosts(createPage, graphql) {
+async function makePosts({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query {
+    query PagePosts {
       allFile(filter: {sourceInstanceName: {eq: "news"}}) {
         nodes {
           childMarkdownRemark {
@@ -87,13 +96,18 @@ async function makePosts(createPage, graphql) {
       }
     }
   `)
+
+  const {nodes} = (results.data as Queries.PagePostsQuery).allFile;
   
-  for (const _post of results.data.allFile.nodes) {
+  for (const _post of nodes) {
     const post = _post.childMarkdownRemark
-    const slug = path.basename(post.fileAbsolutePath, '.md')
+    if (!post?.fileAbsolutePath) {
+      console.error(`No markdown path for post.`)
+    }
+    const slug = path.basename(post?.fileAbsolutePath || "", '.md')
     createPage({
       path: `/news/${slug}/`,
-      component: require.resolve(`./src/templates/post.js`),
+      component: path.resolve(`./src/templates/post.tsx`),
       context: {
         slug,
         ...post
@@ -102,10 +116,10 @@ async function makePosts(createPage, graphql) {
   }
 }
 
-async function makePostIndex(createPage, graphql) {
+async function makePostIndex({createPage, graphql}: IMakePages) {
   console.log(`making post index`)
   const results = await graphql(`
-    query {
+    query PagePostIndex {
       allFile(filter: {sourceInstanceName: {eq: "news"}}) {
         pageInfo {
           itemCount
@@ -114,14 +128,14 @@ async function makePostIndex(createPage, graphql) {
     }
   `)
 
-  const numPosts = results.data.allFile.pageInfo.itemCount
+  const numPosts = (results.data as Queries.PagePostIndexQuery).allFile.pageInfo.itemCount
   const postsPerPage = 25
   const numPages = Math.ceil(numPosts / postsPerPage)
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/news` : `/news/${i + 1}`,
-      component: path.resolve("./src/templates/post-index.js"),
+      component: path.resolve("./src/templates/post-index.tsx"),
       context: {
         limit: postsPerPage,
         skip: i * postsPerPage,
@@ -132,9 +146,9 @@ async function makePostIndex(createPage, graphql) {
   })
 }
 
-async function makeResearchIndex(createPage, graphql) {
+async function makeResearchIndex({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query {
+    query PageResearchIndex {
       allAirtableResearchItems {
         pageInfo {
           itemCount
@@ -143,14 +157,14 @@ async function makeResearchIndex(createPage, graphql) {
     }
   `)
 
-  const numItems = results.data.allAirtableResearchItems.pageInfo.itemCount
+  const numItems = (results.data as Queries.PageResearchIndexQuery).allAirtableResearchItems.pageInfo.itemCount
   const itemsPerPage = 30
   const numPages = Math.ceil(numItems / itemsPerPage)
 
   Array.from({ length: numItems }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/research` : `/research/${i + 1}/`,
-      component: path.resolve("./src/templates/research-index.js"),
+      component: path.resolve("./src/templates/research-index.tsx"),
       context: {
         limit: itemsPerPage,
         skip: i * itemsPerPage,
@@ -161,9 +175,9 @@ async function makeResearchIndex(createPage, graphql) {
   })
 }
 
-async function makeResearch(createPage, graphql) {
+async function makeResearch({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query {
+    query PageResearch {
       allAirtableResearchItems {
         nodes {
           data {
@@ -229,7 +243,7 @@ async function makeResearch(createPage, graphql) {
                       id
                     }
                   }
-              	}
+              }
               id
             }
             linked_directors {
@@ -317,24 +331,38 @@ async function makeResearch(createPage, graphql) {
     }
   `)
 
-  for (const node of results.data.allAirtableResearchItems.nodes) {
-    const item = node.data
+  for (const node of (results.data as Queries.PageResearchQuery).allAirtableResearchItems.nodes) {
+
+    // These extended types are defined to accommodate the data merging below that brings together participants with their affiliations.
+    // TODO: Can these types be simplified?
+    type Affiliation = 
+      NonNullable<NonNullable<Queries.PageResearchQuery["allAirtableResearchItems"]["nodes"][number]["data"]>["linked_internal_participant_affiliations"]>[number]
+      | NonNullable<NonNullable<Queries.PageResearchQuery["allAirtableResearchItems"]["nodes"][number]["data"]>["linked_external_participant_affiliations"]>[number]
+    type ExtendedLinkedParticipant = NonNullable<NonNullable<Queries.PageResearchQuery["allAirtableResearchItems"]["nodes"][number]["data"]>["linked_participants"]>[number] &{
+      affiliations?: Affiliation[]
+    }
+    type ExtendedPageResearchQuery = Queries.PageResearchQuery["allAirtableResearchItems"]["nodes"][number]["data"] & {
+      participants?: ExtendedLinkedParticipant[]
+      directors?: ExtendedLinkedParticipant[]
+    }
+
+    const item = node.data as ExtendedPageResearchQuery
 
     if (item.linked_participants) {
       item.participants = item.linked_participants.map(p => {
-        const new_p = Object.assign({}, p);
-        const id = p.data.id
+        const new_p: ExtendedLinkedParticipant = Object.assign({}, p);
+        const id = p?.data?.id
 
-        if (p.data.group_type.includes("Staff") || p.data.group_type.includes("Past")) {
+        if (p?.data?.group_type?.includes("Staff") || p?.data?.group_type?.includes("Past")) {
           // Lookup staff members in internal participants
           if (item.linked_internal_participant_affiliations) {
             for (const aff of item.linked_internal_participant_affiliations) {
-              if (!aff.data.linked_person[0]) continue;
-              if (aff.data.linked_person[0].data.id === id) {
-                if (new_p.data.affiliations) {
-                  new_p.data.affiliations.push(aff)
+              if (!aff?.data?.linked_person?.[0]) continue;
+              if (aff?.data?.linked_person[0].data?.id === id) {
+                if (new_p.affiliations) {
+                  new_p.affiliations.push(aff)
                 } else {
-                  new_p.data.affiliations = [aff] 
+                  new_p.affiliations = [aff] 
                 }
                 break;
               }
@@ -344,12 +372,12 @@ async function makeResearch(createPage, graphql) {
           // Lookup other people in external participants
           if (item.linked_external_participant_affiliations) {
             for (const aff of item.linked_external_participant_affiliations) {
-              if (!aff.data.linked_person[0].data) continue;
-              if (aff.data.linked_person[0].data.id === id) {
-                if (new_p.data.affiliations) {
-                  new_p.data.affiliations.push(aff)
+              if (!aff?.data?.linked_person?.[0]?.data) continue;
+              if (aff?.data?.linked_person[0].data?.id === id) {
+                if (new_p.affiliations) {
+                  new_p.affiliations.push(aff)
                 } else {
-                  new_p.data.affiliations = [aff] 
+                  new_p.affiliations = [aff] 
                 }
                 break;
               }
@@ -361,16 +389,16 @@ async function makeResearch(createPage, graphql) {
     }
     if (item.linked_directors) {
       item.directors = item.linked_directors.map(p => {
-        const new_p = Object.assign({}, p);
-        const id = p.data.id
+        const new_p: ExtendedLinkedParticipant = Object.assign({}, p);
+        const id = p?.data?.id
         if (item.linked_director_affiliations) {
           for (const aff of item.linked_director_affiliations) {
-            if (!aff.data.linked_person[0].data) continue;
+            if (!aff?.data?.linked_person?.[0]?.data) continue;
             if (aff.data.linked_person[0].data.id === id) {
-              if (new_p.data.affiliations) {
-                new_p.data.affiliations.push(aff)
+              if (new_p.affiliations) {
+                new_p.affiliations.push(aff as unknown as Affiliation)
               } else {
-                new_p.data.affiliations = [aff] 
+                new_p.affiliations = [aff as unknown as Affiliation] 
               }
               break;
             }
@@ -382,7 +410,7 @@ async function makeResearch(createPage, graphql) {
 
     createPage({
       path: `/research/${item.id}/`,
-      component: require.resolve(`./src/templates/research.js`),
+      component: path.resolve(`./src/templates/research.tsx`),
       context: {
         ...item
       }
@@ -391,9 +419,9 @@ async function makeResearch(createPage, graphql) {
 }
 
 
-async function makeEventIndex(createPage, graphql) {
+async function makeEventIndex({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query {
+    query PageEventIndex {
       allAirtableEvents {
         pageInfo {
           itemCount
@@ -402,14 +430,15 @@ async function makeEventIndex(createPage, graphql) {
     }  
   `)
 
-  const numItems = results.data.allAirtableEvents.pageInfo.itemCount
+
+  const numItems = (results.data as Queries.PageEventIndexQuery).allAirtableEvents.pageInfo.itemCount
   const itemsPerPage = 30
   const numPages = Math.ceil(numItems / itemsPerPage)
 
   Array.from({ length: numItems }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/events/` : `/events/${i + 1}/`,
-      component: path.resolve("./src/templates/event-index.js"),
+      component: path.resolve("./src/templates/event-index.tsx"),
       context: {
         limit: itemsPerPage,
         skip: i * itemsPerPage,
@@ -421,9 +450,9 @@ async function makeEventIndex(createPage, graphql) {
 }
 
 
-async function makeEvents(createPage, graphql) {
+async function makeEvents({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query {
+    query PageEvent {
       allAirtableEvents {
         nodes {
           data {
@@ -540,6 +569,7 @@ async function makeEvents(createPage, graphql) {
                         backgroundColor: "rgba(255,255,255,0)"
                       )
                     }
+                    publicURL
                   }
                 }
               }
@@ -614,22 +644,34 @@ async function makeEvents(createPage, graphql) {
     }
   `)
 
-  for (const node of results.data.allAirtableEvents.nodes) {
-    const item = node.data
+  // These extended types are defined to accommodate the data merging below that brings together participants with their affiliations.
+  // TODO: Can these types be simplified?
+  type Affiliation = 
+    NonNullable<NonNullable<Queries.PageEventQuery["allAirtableEvents"]["nodes"][number]["data"]>["linked_participant_affiliations"]>[number]
+  type ExtendedLinkedParticipantEvent = NonNullable<NonNullable<Queries.PageEventQuery["allAirtableEvents"]["nodes"][number]["data"]>["linked_participants"]>[number] & {
+    affiliations?: Affiliation[]
+  }
+  type ExtendedPageEventQuery = Queries.PageEventQuery["allAirtableEvents"]["nodes"][number]["data"] & {
+    participants?: ExtendedLinkedParticipantEvent[]
+    directors?: ExtendedLinkedParticipantEvent[]
+  }
+
+  for (const node of (results.data as Queries.PageEventQuery).allAirtableEvents.nodes) {
+    const item = node.data as ExtendedPageEventQuery
     // Attach linked participant affiliations
     if (item.linked_participants) {
       item.participants = item.linked_participants.map(p => {
-        const new_p = Object.assign({}, p);
-        const id = p.data.id
+        const new_p: ExtendedLinkedParticipantEvent = Object.assign({}, p);
+        const id = p?.data?.id
         // Lookup staff members in internal participants
         if (item.linked_participant_affiliations) {
           for (const aff of item.linked_participant_affiliations) {
-            if (!aff.data.linked_person[0]) continue;
-            if (aff.data.linked_person[0].data.id === id) {
-              if (new_p.data.affiliations) {
-                new_p.data.affiliations.push(aff)
+            if (!aff?.data?.linked_person?.[0]) continue;
+            if (aff.data.linked_person?.[0]?.data?.id === id) {
+              if (new_p.affiliations) {
+                new_p.affiliations.push(aff)
               } else {
-                new_p.data.affiliations = [aff] 
+                new_p.affiliations = [aff] 
               }
               break;
             }
@@ -639,34 +681,42 @@ async function makeEvents(createPage, graphql) {
       })
     }
 
+    type ExtendedSpeakerData = NonNullable<NonNullable<Queries.PageEventQuery["allAirtableEvents"]["nodes"][number]["data"]>["speakers"]>[number] & {
+      headshot: PeopleImage
+      bio: NonNullable<NonNullable<NonNullable<NonNullable<Queries.PageEventQuery["allAirtableIdentities"]["nodes"][number]["data"]>["linked_person"]>[number]>["data"]>["bio"]
+    }
+
     // Attach headshot and speakers bio from people and identities table
     if (item.speakers) {
       item.speakers.forEach(sp => {
-        results.data.allAirtablePeople.nodes.map(_pers => {
+        (results.data as Queries.PageEventQuery).allAirtablePeople.nodes.map(_pers => {
           const pers = _pers.data
-          if (pers.slug === sp.data.slug) {
-            if (pers.headshot) {
-              sp.data.headshot = pers.headshot
+          if (pers?.slug === sp?.data?.slug) {
+            if (pers?.headshot && sp?.data) {
+              (sp.data as unknown as ExtendedSpeakerData).headshot = pers?.headshot
             }
           }
-        })
-        results.data.allAirtableIdentities.nodes.map(_pers => {
+        });
+        
+        (results.data as Queries.PageEventQuery).allAirtableIdentities.nodes.map(_pers => {
           const pers = _pers.data
-          if (pers.linked_person[0].data.slug === sp.data.slug) {
-            if (pers.linked_person[0].data.bio) {
-              sp.data.bio = pers.linked_person[0].data.bio
+          if (pers?.linked_person?.[0]?.data?.slug === sp?.data?.slug) {
+            if (pers?.linked_person?.[0]?.data?.bio && sp?.data) {
+              (sp.data as unknown as ExtendedSpeakerData).bio = pers.linked_person[0].data.bio
             }
           }
         })
         // Lookup speaker affiliation
+        // TODO: typing here is a little fudged.
         if (item.speaker_affiliations) {
           for (const aff of item.speaker_affiliations) {
-            if (!aff.data.linked_person[0].data) continue;
-            if (aff.data.linked_person[0].data.slug === sp.data.slug) {
-              if (sp.data.affiliations) {
-                sp.data.affiliations.push(aff)
+            if (!aff?.data?.linked_person?.[0]?.data) continue;
+            if (aff.data.linked_person[0].data.slug === sp?.data?.slug) {
+              const spData = sp.data as unknown as ExtendedLinkedParticipantEvent
+              if (spData.affiliations) {
+                spData.affiliations.push(aff as Affiliation)
               } else {
-                sp.data.affiliations = [aff] 
+                spData.affiliations = [aff as Affiliation] 
               }
               break;
             }
@@ -674,19 +724,24 @@ async function makeEvents(createPage, graphql) {
         }
       })
     }
+
+    type ExtendedResearchItem = NonNullable<Queries.PageEventQuery["allAirtableResearchItems"]["nodes"][number]["data"]> & {
+      image?: PeopleImage
+    }
+
     if (item.linked_research_item) {
       item.linked_research_item.forEach(ri => {
-        results.data.allAirtableResearchItems.nodes.map(_r => {
+        (results.data as Queries.PageEventQuery).allAirtableResearchItems.nodes.map(_r => {
           const r = _r.data
-          if (ri.data.id === r.id) {
-            ri.data.image = r.image
+          if (ri?.data?.id === r?.id && ri?.data && r) {
+            (ri.data as unknown as ExtendedResearchItem).image = r.image
           }
         })
       })
     }
     createPage({
       path: `/events/${item.id}/`,
-      component: require.resolve(`./src/templates/event.js`),
+      component: path.resolve(`./src/templates/event.tsx`),
       context: {
         ...item
       }
@@ -695,9 +750,9 @@ async function makeEvents(createPage, graphql) {
 }
 
 
-async function makeDialogueIndex(createPage, graphql) {
+async function makeDialogueIndex({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query {
+    query PageDialogueIndex {
       allAirtableEvents {
         pageInfo {
           itemCount
@@ -723,19 +778,23 @@ async function makeDialogueIndex(createPage, graphql) {
     }
   `)
 
-  const numItems = results.data.allAirtableEvents.pageInfo.itemCount
+  const numItems = (results.data as Queries.PageDialogueIndexQuery).allAirtableEvents.pageInfo.itemCount
   const itemsPerPage = 10
   const numPages = Math.ceil(numItems / itemsPerPage)
 
-  const headshots = results.data.allAirtablePeople.nodes.reduce((people, node) => {    
-    people[node.data.slug] = node.data.headshot ? node.data.headshot : undefined
+  const peopleAccumulator: {[key: string]: PeopleImage | undefined} = {}
+
+  const headshots = (results.data as Queries.PageDialogueIndexQuery).allAirtablePeople.nodes.reduce((people, node) => {   
+    if (node?.data?.slug) {
+      people[node.data.slug] = node.data.headshot ? node.data.headshot : undefined
+    } 
     return people
-  }, {})
+  }, peopleAccumulator)
 
   Array.from({ length: numItems }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/digital-dialogues/` : `/digital-dialogues/${i + 1}/`,
-      component: path.resolve("./src/templates/dialogue-index.js"),
+      component: path.resolve("./src/templates/dialogue-index.tsx"),
       context: {
         limit: itemsPerPage,
         skip: i * itemsPerPage,
@@ -748,9 +807,9 @@ async function makeDialogueIndex(createPage, graphql) {
 }
 
 
-async function makeDialogues(createPage, graphql) {
+async function makeDialogues({createPage, graphql}: IMakePages) {
   const results = await graphql(`
-    query {
+    query PageDialogue {
       allAirtableEvents(
         filter: {data: {event_type: {eq: "Digital Dialogue"}}}
         sort: {data: {start_date: DESC}}
@@ -888,46 +947,60 @@ async function makeDialogues(createPage, graphql) {
     }
   `)
 
-  for (const node of results.data.allAirtableEvents.nodes) {
+type ExtendedSpeakerData = NonNullable<NonNullable<NonNullable<Queries.PageDialogueQuery["allAirtableEvents"]["nodes"][number]["data"]>["speakers"]>[number]> & {
+  headshot: PeopleImage
+  bio: NonNullable<NonNullable<NonNullable<NonNullable<Queries.PageDialogueQuery["allAirtableIdentities"]["nodes"][number]["data"]>["linked_person"]>[number]>["data"]>["bio"]
+}
+
+type Affiliation = 
+    NonNullable<NonNullable<Queries.PageDialogueQuery["allAirtableEvents"]["nodes"][number]["data"]>["speaker_affiliations"]>[number]
+type ExtendedSpeakers = NonNullable<NonNullable<Queries.PageDialogueQuery["allAirtableEvents"]["nodes"][number]["data"]>["speakers"]>[number] & {
+  affiliations?: Affiliation[]
+}
+
+  for (const node of (results.data as Queries.PageDialogueQuery).allAirtableEvents.nodes) {
     const item = node.data
-    if (item.speakers) {
+    if (item?.speakers) {
       // Attach headshot and speakers bio from people and identities table
       item.speakers.forEach(sp => {
-        results.data.allAirtablePeople.nodes.map(_pers => {
+        (results.data as Queries.PageDialogueQuery).allAirtablePeople.nodes.map(_pers => {
           const pers = _pers.data
-          if (pers.slug === sp.data.slug) {
-            if (pers.headshot) {
-              sp.data.headshot = pers.headshot
+          if (pers?.slug === sp?.data?.slug) {
+            if (pers?.headshot && sp?.data) {
+              (sp.data as unknown as ExtendedSpeakerData).headshot = pers?.headshot
             }
           }
-        })
-        results.data.allAirtableIdentities.nodes.map(_pers => {
+        });
+        (results.data as Queries.PageDialogueQuery).allAirtableIdentities.nodes.map(_pers => {
           const pers = _pers.data
-          if (pers.linked_person[0].data.slug === sp.data.slug) {
-            if (pers.linked_person[0].data.bio) {
-              sp.data.bio = pers.linked_person[0].data.bio
+          if (pers?.linked_person?.[0]?.data?.slug === sp?.data?.slug) {
+            if (pers?.linked_person?.[0]?.data?.bio && sp?.data) {
+              (sp.data as unknown as ExtendedSpeakerData).bio = pers.linked_person[0].data.bio
             }
           }
         })
         // Lookup speaker affiliation
+        // TODO: typing here is a little fudged.
         if (item.speaker_affiliations) {
           for (const aff of item.speaker_affiliations) {
-            if (!aff.data.linked_person[0].data) continue;
-            if (aff.data.linked_person[0].data.slug === sp.data.slug) {
-              if (sp.data.affiliations) {
-                sp.data.affiliations.push(aff)
+            if (!aff?.data?.linked_person?.[0]?.data) continue;
+            if (aff.data.linked_person[0].data.slug === sp?.data?.slug) {
+              const spData = sp.data as unknown as ExtendedSpeakers
+              if (spData.affiliations) {
+                spData.affiliations.push(aff as Affiliation)
               } else {
-                sp.data.affiliations = [aff] 
+                spData.affiliations = [aff as Affiliation] 
               }
               break;
             }
           }
         }
+        
       })
     }
     createPage({
-      path: `/digital-dialogues/${item.id}/`,
-      component: require.resolve(`./src/templates/dialogue.js`),
+      path: `/digital-dialogues/${item?.id}/`,
+      component: path.resolve(`./src/templates/dialogue.tsx`),
       context: {
         ...item
       }

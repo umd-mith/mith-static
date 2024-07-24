@@ -9,7 +9,21 @@ import Person from '../components/person'
 
 import './event-index.css'
 
-const Entry = ({item, headshots}) => {
+import type { PersonComponentProps } from '../components/person'
+
+type Headshot = NonNullable<Queries.PageDialogueIndexQuery["allAirtablePeople"]["nodes"][number]["data"]>["headshot"]
+type ExtendedSpeaker = NonNullable<NonNullable<NonNullable<Queries.DialoguesQuery["allAirtableEvents"]["nodes"][number]["data"]>["speakers"]>[number]>["data"] & {
+  headshot: Headshot
+}
+
+interface EntryProps {
+  item: NonNullable<Queries.DialoguesQuery["allAirtableEvents"]["nodes"][number]["data"]>
+  headshots: {
+    [key: string]: Headshot
+  }
+}
+
+const Entry = ({item, headshots}: EntryProps) => {
   const slug = '/digital-dialogues/' + item.id + '/'
             
   const event_title = item.event_title
@@ -30,43 +44,51 @@ const Entry = ({item, headshots}) => {
   const speakers_data = item.speakers ? item.speakers : []
   if (speakers_data.length > 0) {
     speakers_list = speakers_data.map((p, i) => {
-      // find headshot                
-      p.data.headshot = headshots[p.data.slug]
-      return <Person key={`p${i}`} person={p.data} type="dialogue-index" />
+      // find headshot
+      if (p?.data) {
+        (p.data as ExtendedSpeaker).headshot = headshots[p.data.slug!]
+      }     
+      return <Person key={`p${i}`} person={p?.data as unknown as PersonComponentProps} type="dialogue-index" />
     })
     speakers = <div className="speakers">{speakers_list}</div>
   }
 
   return (
-    <article className="post dialogue event" id={item.id.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.id}`}>
+    <article className="post dialogue event" id={item.id?.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.id}`}>
       {title}
       <div className="meta">
         {speakers}
         {location}
-        <EventTime start={item.start} />
+        <EventTime start={parseInt(item.start!)} />
       </div>
     </article>
   )
 
 }
 
+interface Props {
+  pageContext: {
+    headshots: { [key: string]: Headshot }
+  }
+  data: Queries.DialoguesQuery
+}
 
-const DialogueIndex = ({data, pageContext}) => {
+const DialogueIndex = ({data, pageContext}: Props) => {
   const items = data.allAirtableEvents.nodes
   const pageCount = data.allAirtableEvents.pageInfo.pageCount
   const headshots = pageContext.headshots
 
   // Arrange items in the future into reverse order.
-  const sortedItems = items.reduce((acc, item) => {
-    const date = new Date(item.data.start)
+  // TODO: use of any is a shortcut.
+  const sortedItems = items.reduce<{ future: any[]; past: any[] }>((acc, item) => {
+    const date = new Date(item.data?.start!)
     if (date > new Date()) {
       acc.future.unshift(item)
     } else {
       acc.past.push(item)
     }
     return acc
-  }, {future:[], past: []})
-
+  }, { future: [], past: [] })
   return (
     <Layout>
       <SEO title="MITH Digital Dialogues" />
@@ -91,7 +113,7 @@ const DialogueIndex = ({data, pageContext}) => {
 }
 
 export const query = graphql`
-  query DialoguesQuery($skip: Int!, $limit: Int!) {
+  query Dialogues($skip: Int!, $limit: Int!) {
     allAirtableEvents(
       limit: $limit
       skip: $skip

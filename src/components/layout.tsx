@@ -29,9 +29,13 @@ library.add(
   fas.faPlay
 )
 
-const Layout = ({ children }) => {
+interface Props {
+  children: JSX.Element[]
+}
+
+const Layout = ({ children }: Props) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query SiteTitle {
       site {
         siteMetadata {
           title

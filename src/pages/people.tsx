@@ -7,10 +7,16 @@ import SEO from '../components/seo'
 
 import './people.css'
 
-const PeoplePage = ({ data }) => { 
+interface Props {
+  data: Queries.PeopleQuery
+}
 
-  function makePerson(person, useWebsite=false) {
-    let pageLocation = person.id
+type Person = NonNullable<Queries.PeopleQuery["people"]["group"][number]["nodes"][number]["data"]>
+
+const PeoplePage = ({ data }: Props) => { 
+
+  function makePerson(person: Person, useWebsite=false) {
+    let pageLocation: string | null = person.id
     if (useWebsite) {
       if (person.website) {
         pageLocation = person.website.startsWith('http')
@@ -21,8 +27,8 @@ const PeoplePage = ({ data }) => {
       }
     }
 
-    let img = ''
-    if (person.headshot.localFiles[0].childImageSharp) {
+    let img: JSX.Element | undefined;
+    if (person.headshot?.localFiles?.[0]?.childImageSharp) {
       const el = <GatsbyImage 
         image={person.headshot.localFiles[0].childImageSharp.gatsbyImageData}
         alt={`Headshot of ${person.name}`} 
@@ -31,23 +37,23 @@ const PeoplePage = ({ data }) => {
         }}
       />
       img = pageLocation
-        ? <Link key={`p-${person.new_id}`} id={person.new_id} to={pageLocation} className="headshot">{el}</Link>
+        ? <Link key={`p-${person.new_id}`} id={person.new_id?.toString()} to={pageLocation} className="headshot">{el}</Link>
         : el
     }
 
     let persName = pageLocation 
-      ? <Link key={`p-${person.new_id}`} id={person.new_id} to={pageLocation}>{person.name}</Link>
+      ? <Link key={`p-${person.new_id}`} id={person.new_id?.toString()} to={pageLocation}>{person.name}</Link>
       : person.name
 
-    let identities = ''
+    let identities: JSX.Element[] | undefined;
     if (person.identities_as_current) {
       identities = person.identities_as_current.map(_identity => {
-        const identity = _identity.data
+        const identity = _identity?.data!
         return (identity.department === 'MITH' || identity.department === 'Maryland Institute for Technology in the Humanities' || identity.department === null)
-          ? <div className="identity" id={identity.id} key={`i-${identity.id}`}>
+          ? <div className="identity" id={identity.id?.toString()} key={`i-${identity.id}`}>
             <span className="title">{identity.title}</span>
           </div>
-          : <div className="identity" id={identity.id} key={`i-${identity.id}`}>
+          : <div className="identity" id={identity.id?.toString()} key={`i-${identity.id}`}>
             <span className="title">{identity.title}</span>
             <span className="department">{identity.department}</span>
           </div>
@@ -55,7 +61,7 @@ const PeoplePage = ({ data }) => {
     }
 
     return (
-      <article className="person" id={person.new_id} title={person.name} key={`p-${person.new_id}`}>
+      <article className="person" id={person.new_id?.toString()} title={person.name || ""} key={`p-${person.new_id}`}>
         {img}
         <h3 className="name">{persName}</h3>
         {identities}
@@ -63,15 +69,15 @@ const PeoplePage = ({ data }) => {
     )    
   }
 
-  function makeStaff(people) { 
+  function makeStaff(people: NonNullable<Queries.PeopleQuery["people"]["group"]>[number]) { 
     return people.nodes.map(person => {
-      return makePerson(person.data)
+      return makePerson(person.data!)
     })
   }
 
-  function makeAffiliates(affiliates) {    
+  function makeAffiliates(affiliates: NonNullable<Queries.PeopleQuery["people"]["group"]>[number]) {    
     return affiliates.nodes.map(person => {
-      return makePerson(person.data, true)
+      return makePerson(person.data!, true)
     })
   }
 
@@ -102,7 +108,7 @@ const PeoplePage = ({ data }) => {
 }
 
 export const query = graphql`
-  query PeopleQuery {
+  query People {
     people: allAirtablePeople(
       filter: {data: {group_type: {in: ["Staff", "Affiliates"]}}}
       sort: {data: {name: ASC}}

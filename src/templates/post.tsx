@@ -6,14 +6,21 @@ import SEO from '../components/seo'
 
 import './post.css'
 
-const Post = ({ data, pageContext: post }) => {
+interface Props {
+  data: Queries.PostQuery
+  pageContext: {
+    html: string
+  }
+}
+
+const Post = ({ data, pageContext: post }: Props) => {
   const _metadata = data.postInfo.nodes[0]
   if (!_metadata) return null
-  const metadata = _metadata.data
+  const metadata = _metadata.data!
 
   return (
     <Layout>
-      <SEO title={metadata.post_title} />
+      <SEO title={metadata.post_title || ""} />
       <div className="page-post">
         <section className="post flow">
           <h1 className="post-title">{metadata.post_title}</h1> 
@@ -32,7 +39,7 @@ const Post = ({ data, pageContext: post }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query Post($slug: String!) {
     postInfo: allAirtablePosts(
       filter: {
         data: {slug: {eq: $slug}}

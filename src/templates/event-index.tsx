@@ -7,11 +7,15 @@ import Layout from '../components/layout'
 import Paginator from '../components/paginator'
 import SEO from '../components/seo'
 import EventTime from '../components/event-time'
-import Person from '../components/person'
+import Person, { PersonComponentProps } from '../components/person'
 
 import './event-index.css'
 
-const EventIndex = ({data}) => {
+interface Props {
+  data: Queries.EventsQuery
+}
+
+const EventIndex = ({data}: Props) => {
   const items = data.allAirtableEvents.nodes
   const pageCount = data.allAirtableEvents.pageInfo.pageCount
 
@@ -23,7 +27,7 @@ const EventIndex = ({data}) => {
           <h1 className="page-title">Events</h1>
           {items.map(_item => {
 
-            const item = _item.data
+            const item = _item.data!
             const slug = '/events/' + item.id + '/'
             
             const event_title = item.event_title
@@ -33,28 +37,28 @@ const EventIndex = ({data}) => {
               ? <h2 className="title"><Link to={slug}>{title_text}<span className="subtitle">{item.talk_subtitle}</span></Link></h2> 
               : <h2 className="title"><Link to={slug}>{title_text}</Link></h2>
 
-            let image = ''
-            let excerpt = '' 
+            let image: JSX.Element | undefined
+            let excerpt: JSX.Element | undefined
             if (item.image) {
               image = <Link to={slug} className="image">
                 <GatsbyImage 
-                  image={item.image.localFiles[0].childImageSharp.gatsbyImageData}
-                  alt={item.title} 
+                  image={item.image.localFiles?.[0]?.childImageSharp?.gatsbyImageData!}
+                  alt={item.event_title || ""} 
                   className="event-image"
               /></Link>
             }
             if (item.description) {
               excerpt = <div className="excerpt">
-                {item.description.childMarkdownRemark.excerpt}
+                {item.description.childMarkdownRemark?.excerpt}
               </div>
             }
           
             let speakers_list = null
-            let speakers = null
+            let speakers: JSX.Element | undefined
             const speakers_data = item.speakers ? item.speakers : []
             if (item.speakers) {
               speakers_list = speakers_data.map((p, i) => {
-                return <Person key={`p${i}`} person={p} showTitle="false" type="index" />
+                return <Person key={`p${i}`} person={p?.data as unknown as PersonComponentProps} type="index" />
               })
               speakers = <div className="speakers hidden">
                 <ul className="inline-list">
@@ -73,7 +77,7 @@ const EventIndex = ({data}) => {
               types = <div className="event-types">{types_list}{status}</div>
             }
 
-            const itemId = item.id.replace(/-/g, '_')
+            const itemId = item.id?.replace(/-/g, '_')
             const iconLocation = <FontAwesomeIcon icon="map-marker-alt" />
             const location = item.location 
               ? <span className="location">{iconLocation} {item.location}</span> : ''
@@ -88,7 +92,7 @@ const EventIndex = ({data}) => {
                   {excerpt}
                 </div>
                 <div className="meta">
-                  <EventTime start={item.start} end={item.end} icon="yes" />
+                  <EventTime start={parseInt(item.start!)} end={parseInt(item.end!)} icon="yes" />
                   {location}
                 </div>
                 <div className="details">
@@ -105,7 +109,7 @@ const EventIndex = ({data}) => {
 }
 
 export const query = graphql`
-  query EventsQuery($skip: Int!, $limit: Int!) {
+  query Events($skip: Int!, $limit: Int!) {
     allAirtableEvents(
       limit: $limit
       skip: $skip

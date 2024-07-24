@@ -14,7 +14,8 @@
     "develop": "gatsby develop",
     "test": "playwright test",
     "clean": "gatsby clean",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "listt": "tsc --listFiles"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@types/react-helmet": "^6.1.11",
     "gatsby": "^5.13.6",
     "gatsby-plugin-feed": "^5.13.1",
     "gatsby-plugin-google-analytics": "^5.13.1",

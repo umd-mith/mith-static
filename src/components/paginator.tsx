@@ -3,7 +3,12 @@ import React from 'react'
 
 import './paginator.css'
 
-const Paginator = ({count, path}) => {
+interface Props {
+  count: number
+  path: string
+}
+
+const Paginator = ({count, path}: Props) => {
   return(
     <section className="pagination-wrap">
       <ul className="pagination">

@@ -1,6 +1,11 @@
 import React from 'react'
 
-const TaxonomyList = ({terms, type}) => {
+interface Props {
+  terms: {term: string}[]
+  type: string
+}
+
+const TaxonomyList = ({terms, type}: Props) => {
 
   const tax_title = type ? <h2>{type.charAt(0).toUpperCase() + type.slice(1)}</h2> : ''
 

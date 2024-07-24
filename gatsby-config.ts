@@ -1,10 +1,13 @@
-require("dotenv").config();
+import "dotenv/config";
+import type { GatsbyConfig } from "gatsby";
+
 
 const baseId = process.env.AIRTABLE_MITH_BASE_ID;
 const basePath = process.env.BASEPATH
 
-module.exports = {
+const config: GatsbyConfig = {
   pathPrefix: basePath,
+  graphqlTypegen: true,
   siteMetadata: {
     title: `MITH`,
     siteUrl: "https://mith.umd.edu",
@@ -438,3 +441,5 @@ module.exports = {
     },
   ],
 }
+
+export default config;

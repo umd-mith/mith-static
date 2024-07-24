@@ -7,11 +7,15 @@ import SEO from '../components/seo'
 import './person.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Person = ({ pageContext: person }) => {
+interface Props {
+  pageContext: NonNullable<Queries.PagePeopleQuery["allAirtablePeople"]["nodes"][number]["data"]>
+}
+
+const Person = ({ pageContext: person }: Props) => {
   const name = person.name
-  let photo = ''
+  let photo: JSX.Element | undefined
   if (person.headshot) {
-    const personHeadshot = person.headshot.localFiles[0]
+    const personHeadshot = person.headshot.localFiles?.[0]!
     if (personHeadshot.childImageSharp) {
       photo = <div className="headshot">
         <GatsbyImage 
@@ -25,7 +29,7 @@ const Person = ({ pageContext: person }) => {
     } else {
       photo = <div className="headshot">
         <img
-          src={personHeadshot.publicURL}
+          src={personHeadshot.publicURL || ""}
           alt={`Headshot of ${person.name}`} 
           style={{
             objectFit: "cover",
@@ -58,11 +62,11 @@ const Person = ({ pageContext: person }) => {
         <a href={`https://twitter.com/${person.twitter}`}>{person.twitter}</a>
       </span> : ''
   const bio = person.bio
-    ? <div className='bio' dangerouslySetInnerHTML={{ __html: person.bio }} /> : ''
+    ? <div className='bio' dangerouslySetInnerHTML={{ __html: person.bio.childMarkdownRemark?.html || "" }} /> : ''
 
   return (
     <Layout>
-      <SEO title={name} />
+      <SEO title={name || ""} />
       <div className="page-person">
         <section className="person">
           <h1 className="name">{name}</h1>

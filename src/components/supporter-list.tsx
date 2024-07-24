@@ -1,6 +1,20 @@
 import React from 'react'
 
-const SupporterList = ({supporters, type}) => {
+export type SupporterComponentProps = {
+  data: {
+    website: string
+    name: string
+    slug: string
+    type: string
+  }
+}[]
+
+interface Props {
+  supporters: SupporterComponentProps
+  type: string
+}
+
+const SupporterList = ({supporters, type}: Props) => {
 
   const title = supporters.length > 1 
     ? `${type.charAt(0).toUpperCase() + type.slice(1)}s`
