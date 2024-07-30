@@ -106,7 +106,7 @@ const Event = ({ pageContext: item }: EventProps) => {
   let link_name = null
   if (item.linked_links) {
     links_list = item.linked_links.map(_l => {
-      const l = _l.data!
+      const l = _l?.data!
       if (l.url) {
         link_name = l.url.startsWith("http") ? (
           <a href={l.url} rel="noreferrer">
@@ -148,7 +148,8 @@ const Event = ({ pageContext: item }: EventProps) => {
   let research_img = null
   if (item.linked_research_item) {
     research_list = item.linked_research_item.map(_r => {
-      const r = _r?.data!
+      const r = _r?.data
+      if (!r) return null
       if (r.image && r.image.localFiles && r.image.localFiles[0]) {
         if (r.image.localFiles[0].childImageSharp) {
           research_img = (
@@ -161,7 +162,11 @@ const Event = ({ pageContext: item }: EventProps) => {
         } else {
           research_img = (
             <img
-              src={r.image.localFiles[0].publicUrl}
+              src={
+                r.image.localFiles[0].publicURL
+                  ? r.image.localFiles[0].publicURL
+                  : ""
+              }
               alt={r.title || ""}
               className="related-research-item"
             />

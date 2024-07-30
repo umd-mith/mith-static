@@ -1,14 +1,10 @@
-import { Link } from 'gatsby'
-import React from 'react'
+import { Link } from "gatsby"
+import React from "react"
 
-import './header.css'
-import Logo from '../svg/MITH-logostack-blk.svg'
+import "./header.css"
+import Logo from "../svg/MITH-logostack-blk.svg"
 
-interface Props {
-  siteTitle: string
-}
-
-const Header = ({siteTitle}: Props) => (
+const Header = () => (
   // siteTitle currently unused.
   <header>
     <div className="logo">

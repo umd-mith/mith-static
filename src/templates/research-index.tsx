@@ -33,12 +33,12 @@ const ResearchIndex = ({ data }: ResearchIndexProps) => {
             const slug = "/research/" + item.slug + "/"
             // const active = item.active === 'TRUE' ? <span className="pill">Active</span> : ''
             // const start = item.month_start ? `${item.year_start}-${item.month_start}` : item.year_start
-            let end: string | number
-            if (item.year_end) {
-              end = item.month_end
-                ? `${item.year_end}-${item.month_end}`
-                : item.year_end
-            }
+            // let end: string | number
+            // if (item.year_end) {
+            //   end = item.month_end
+            //     ? `${item.year_end}-${item.month_end}`
+            //     : item.year_end
+            // }
             // const dates = <ResearchTime start={start} end={end} active={item.active} />
 
             let excerpt = ""

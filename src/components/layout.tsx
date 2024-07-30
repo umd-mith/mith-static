@@ -1,6 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Nav from "./nav"
@@ -34,23 +33,13 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitle {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <a className="skip-link" href="#main-content">
         Skip to main content
       </a>
       <div className="outerWrapper">
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header />
         <Nav />
         <main id="main-content">{children}</main>
         <Footer />

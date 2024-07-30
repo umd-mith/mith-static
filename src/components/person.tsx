@@ -210,14 +210,14 @@ const Person = ({ person, type }: PersonProps) => {
   if (type === "dialogue-index") {
     // TODO: default typing for itemScope is boolean | undefined, which is incorrect.
     return (
-      // @ts-expect-error
-      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <div
         className={`speaker person ${hasImg}`}
         id={person.new_id}
         title={person.name}
         key={`p-${person.new_id}`}
         itemProp="performer"
+        // @ts-expect-error
+        // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
         itemScope="https://schema.org/Person"
       >
         {headshot}
@@ -230,13 +230,14 @@ const Person = ({ person, type }: PersonProps) => {
   }
   if (type === "dialogue") {
     return (
-      // @ts-expect-error
-      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <span
         className={`speaker person ${hasImg}`}
         id={person.new_id}
         key={`p-${person.new_id}`}
         itemProp="performer"
+        // @ts-expect-error
+        // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
+
         itemScope="https://schema.org/Person"
       >
         {headshot}
@@ -254,13 +255,14 @@ const Person = ({ person, type }: PersonProps) => {
   }
   if (type === "speaker") {
     return (
-      // @ts-expect-error
-      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <span
         className={`speaker person ${hasImg}`}
         id={person.new_id}
         key={`p-${person.new_id}`}
         itemProp="performer"
+        // @ts-expect-error
+        // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
+
         itemScope="https://schema.org/Person"
       >
         {headshot}
@@ -278,13 +280,14 @@ const Person = ({ person, type }: PersonProps) => {
   }
   if (type !== "dialogue-index" && type !== "dialogue") {
     return (
-      // @ts-expect-error
-      // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
       <div
         className={`person ${hasImg}`}
         id={person.new_id}
         key={`p-${person.new_id}`}
         itemProp="performer"
+        // @ts-expect-error
+        // ^~~~~~~~~~~~~~~^ error: "Type 'string' is not assignable to type 'boolean | undefined' (2322)"
+
         itemScope="https://schema.org/Person"
       >
         {headshot}

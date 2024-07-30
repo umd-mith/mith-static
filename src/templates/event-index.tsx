@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import Paginator from "../components/paginator"
 import SEO from "../components/seo"
 import EventTime from "../components/event-time"
-import Person, { PersonComponentProps } from "../components/person"
+// import Person, { PersonComponentProps } from "../components/person"
 
 import "./event-index.css"
 
@@ -69,25 +69,28 @@ const EventIndex = ({ data }: EventIndexProps) => {
               )
             }
 
-            let speakers_list = null
-            let speakers: JSX.Element | undefined
-            const speakers_data = item.speakers ? item.speakers : []
-            if (item.speakers) {
-              speakers_list = speakers_data.map((p, i) => {
-                return (
-                  <Person
-                    key={`p${i}`}
-                    person={p?.data as unknown as PersonComponentProps}
-                    type="index"
-                  />
-                )
-              })
-              speakers = (
-                <div className="speakers hidden">
-                  <ul className="inline-list">{speakers_list}</ul>
-                </div>
-              )
-            }
+            // TODO: The speakers list is not currently being displayed. Uncomment this code to display the list and also add to return statement below
+
+            // let speakers_list = null
+            // let speakers: JSX.Element | undefined
+            // const speakers_data = item.speakers ? item.speakers : []
+            // if (item.speakers) {
+            //   speakers_list = speakers_data.map((p, i) => {
+            //     return (
+            //       <Person
+            //         key={`p${i}`}
+            //         person={p?.data as unknown as PersonComponentProps}
+            //         type="index"
+            //       />
+            //     )
+            //   })
+
+            // speakers = (
+            //   <div className="speakers hidden">
+            //     <ul className="inline-list">{speakers_list}</ul>
+            //   </div>
+            // )
+            //}
             const status =
               item.status === "canceled" ? (
                 <span className={`pill event-status ${item.status}`}>
