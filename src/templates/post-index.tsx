@@ -8,11 +8,11 @@ import SEO from "../components/seo"
 
 import "./post-index.css"
 
-interface Props {
+interface PostIndexProps {
   data: Queries.PostsQuery
 }
 
-const PostIndex = ({ data }: Props) => {
+const PostIndex = ({ data }: PostIndexProps) => {
   const posts = data.allAirtablePosts.nodes
   const pageCount = data.allAirtablePosts.pageInfo.pageCount
 
@@ -45,7 +45,10 @@ const PostIndex = ({ data }: Props) => {
               console.warn(`missing markdown post for slug ${post.slug}`)
               // throw new Error(`missing markdown post for slug ${post.slug}`)
               return (
-                <article className="post news-post" key={`news-${post.record_id}`}>
+                <article
+                  className="post news-post"
+                  key={`news-${post.record_id}`}
+                >
                   <h2 className="post-title">
                     <Link to={post.slug!}>{post.post_title}</Link>
                   </h2>
@@ -59,7 +62,10 @@ const PostIndex = ({ data }: Props) => {
             }
 
             return (
-              <article className="post news-post" key={`news-${post.record_id}`}>
+              <article
+                className="post news-post"
+                key={`news-${post.record_id}`}
+              >
                 <h2 className="post-title">
                   <Link to={slug}>{post.post_title}</Link>
                 </h2>

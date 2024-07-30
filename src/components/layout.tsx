@@ -1,15 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
-import Header from './header' 
-import Nav from './nav'
-import Footer from './footer'
-import './layout.css'
+import Header from "./header"
+import Nav from "./nav"
+import Footer from "./footer"
+import "./layout.css"
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-const { fas } = require('@fortawesome/free-solid-svg-icons')
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+const { fas } = require("@fortawesome/free-solid-svg-icons")
 
 // add just what we need from font-awesome
 
@@ -26,14 +26,14 @@ library.add(
   fas.faMapMarkerAlt,
   fas.faRss,
   fas.faPlayCircle,
-  fas.faPlay
+  fas.faPlay,
 )
 
-interface Props {
+interface LayoutProps {
   children: JSX.Element[]
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children }: LayoutProps) => {
   const data = useStaticQuery(graphql`
     query SiteTitle {
       site {
@@ -46,13 +46,13 @@ const Layout = ({ children }: Props) => {
 
   return (
     <>
-      <a className="skip-link" href="#main-content">Skip to main content</a>
+      <a className="skip-link" href="#main-content">
+        Skip to main content
+      </a>
       <div className="outerWrapper">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Nav/>
-        <main id="main-content">
-          {children}
-        </main>
+        <Nav />
+        <main id="main-content">{children}</main>
         <Footer />
       </div>
     </>

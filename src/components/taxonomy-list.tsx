@@ -1,15 +1,18 @@
-import React from 'react'
+import React from "react"
 
-interface Props {
-  terms: {term: string}[]
+interface TaxonomyListProps {
+  terms: { term: string }[]
   type: string
 }
 
-const TaxonomyList = ({terms, type}: Props) => {
+const TaxonomyList = ({ terms, type }: TaxonomyListProps) => {
+  const tax_title = type ? (
+    <h2>{type.charAt(0).toUpperCase() + type.slice(1)}</h2>
+  ) : (
+    ""
+  )
 
-  const tax_title = type ? <h2>{type.charAt(0).toUpperCase() + type.slice(1)}</h2> : ''
-
-  return(
+  return (
     <div className={`taxonomy ${type}`}>
       <h2>{tax_title}</h2>
       <ul className="terms">
@@ -22,3 +25,4 @@ const TaxonomyList = ({terms, type}: Props) => {
 }
 
 export default TaxonomyList
+

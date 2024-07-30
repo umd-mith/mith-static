@@ -1,43 +1,62 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
+import React from "react"
+import { graphql, Link } from "gatsby"
 
-import Layout from '../components/layout'
-import Paginator from '../components/paginator'
-import SEO from '../components/seo'
-import EventTime from '../components/event-time'
-import Person from '../components/person'
+import Layout from "../components/layout"
+import Paginator from "../components/paginator"
+import SEO from "../components/seo"
+import EventTime from "../components/event-time"
+import Person from "../components/person"
 
-import './event-index.css'
+import "./event-index.css"
 
-import type { PersonComponentProps } from '../components/person'
+import type { PersonComponentProps } from "../components/person"
 
-type Headshot = NonNullable<Queries.PageDialogueIndexQuery["allAirtablePeople"]["nodes"][number]["data"]>["headshot"]
-type ExtendedSpeaker = NonNullable<NonNullable<NonNullable<Queries.DialoguesQuery["allAirtableEvents"]["nodes"][number]["data"]>["speakers"]>[number]>["data"] & {
+type Headshot = NonNullable<
+  Queries.PageDialogueIndexQuery["allAirtablePeople"]["nodes"][number]["data"]
+>["headshot"]
+type ExtendedSpeaker = NonNullable<
+  NonNullable<
+    NonNullable<
+      Queries.DialoguesQuery["allAirtableEvents"]["nodes"][number]["data"]
+    >["speakers"]
+  >[number]
+>["data"] & {
   headshot: Headshot
 }
 
 interface EntryProps {
-  item: NonNullable<Queries.DialoguesQuery["allAirtableEvents"]["nodes"][number]["data"]>
+  item: NonNullable<
+    Queries.DialoguesQuery["allAirtableEvents"]["nodes"][number]["data"]
+  >
   headshots: {
     [key: string]: Headshot
   }
 }
 
-const Entry = ({item, headshots}: EntryProps) => {
-  const slug = '/digital-dialogues/' + item.id + '/'
-            
+const Entry = ({ item, headshots }: EntryProps) => {
+  const slug = "/digital-dialogues/" + item.id + "/"
+
   const event_title = item.event_title
   const talk_title = item.talk_title
   const title_text = talk_title ? talk_title : event_title
-  const title = item.talk_subtitle
-  ? <h2 className="title">
-      <Link to={slug}>{title_text}<span className="subtitle">{item.talk_subtitle}</span></Link>
+  const title = item.talk_subtitle ? (
+    <h2 className="title">
+      <Link to={slug}>
+        {title_text}
+        <span className="subtitle">{item.talk_subtitle}</span>
+      </Link>
     </h2>
-  : <h2 className="title">
+  ) : (
+    <h2 className="title">
       <Link to={slug}>{title_text}</Link>
     </h2>
+  )
 
-  const location = item.location ? <div className="location">{item.location}</div> : ''
+  const location = item.location ? (
+    <div className="location">{item.location}</div>
+  ) : (
+    ""
+  )
 
   let speakers_list = null
   let speakers = null
@@ -46,15 +65,25 @@ const Entry = ({item, headshots}: EntryProps) => {
     speakers_list = speakers_data.map((p, i) => {
       // find headshot
       if (p?.data) {
-        (p.data as ExtendedSpeaker).headshot = headshots[p.data.slug!]
-      }     
-      return <Person key={`p${i}`} person={p?.data as unknown as PersonComponentProps} type="dialogue-index" />
+        ;(p.data as ExtendedSpeaker).headshot = headshots[p.data.slug!]
+      }
+      return (
+        <Person
+          key={`p${i}`}
+          person={p?.data as unknown as PersonComponentProps}
+          type="dialogue-index"
+        />
+      )
     })
     speakers = <div className="speakers">{speakers_list}</div>
   }
 
   return (
-    <article className="post dialogue event" id={item.id?.toLowerCase().replace(/-/g, '_')} key={`dialogue-${item.id}`}>
+    <article
+      className="post dialogue event"
+      id={item.id?.toLowerCase().replace(/-/g, "_")}
+      key={`dialogue-${item.id}`}
+    >
       {title}
       <div className="meta">
         {speakers}
@@ -63,32 +92,34 @@ const Entry = ({item, headshots}: EntryProps) => {
       </div>
     </article>
   )
-
 }
 
-interface Props {
+interface DialogueIndexProps {
   pageContext: {
     headshots: { [key: string]: Headshot }
   }
   data: Queries.DialoguesQuery
 }
 
-const DialogueIndex = ({data, pageContext}: Props) => {
+const DialogueIndex = ({ data, pageContext }: DialogueIndexProps) => {
   const items = data.allAirtableEvents.nodes
   const pageCount = data.allAirtableEvents.pageInfo.pageCount
   const headshots = pageContext.headshots
 
   // Arrange items in the future into reverse order.
   // TODO: use of any is a shortcut.
-  const sortedItems = items.reduce<{ future: any[]; past: any[] }>((acc, item) => {
-    const date = new Date(item.data?.start!)
-    if (date > new Date()) {
-      acc.future.unshift(item)
-    } else {
-      acc.past.push(item)
-    }
-    return acc
-  }, { future: [], past: [] })
+  const sortedItems = items.reduce<{ future: any[]; past: any[] }>(
+    (acc, item) => {
+      const date = new Date(item.data?.start!)
+      if (date > new Date()) {
+        acc.future.unshift(item)
+      } else {
+        acc.past.push(item)
+      }
+      return acc
+    },
+    { future: [], past: [] },
+  )
   return (
     <Layout>
       <SEO title="MITH Digital Dialogues" />
@@ -96,15 +127,23 @@ const DialogueIndex = ({data, pageContext}: Props) => {
         <section className="posts dialogues events">
           <h1 className="page-title">Digital Dialogues</h1>
           <p>
-            Digital Dialogues convenes prominent digital humanities, new media, and information technology practitioners 
-            to present their field-defining research. The series, which celebrated its 40th season in Spring 2024, 
-            invites intellectual exchange around topics critical to the digital humanities. 
-            Follow us on social media (<a href="https://twitter.com/UMD_MITH">@umd_mith</a> on X/Twitter and
-            <a href="https://www.instagram.com/mith_umd">@mith_umd</a> on Instagram) for more details.
+            Digital Dialogues convenes prominent digital humanities, new media,
+            and information technology practitioners to present their
+            field-defining research. The series, which celebrated its 40th
+            season in Spring 2024, invites intellectual exchange around topics
+            critical to the digital humanities. Follow us on social media (
+            <a href="https://twitter.com/UMD_MITH">@umd_mith</a> on X/Twitter
+            and
+            <a href="https://www.instagram.com/mith_umd">@mith_umd</a> on
+            Instagram) for more details.
           </p>
-          {sortedItems.future.map(item => <Entry item={item.data} headshots={headshots} key={item.id} />)}
+          {sortedItems.future.map(item => (
+            <Entry item={item.data} headshots={headshots} key={item.id} />
+          ))}
           <h2 className="page-title">Past Digital Dialogues</h2>
-          {sortedItems.past.map(item => <Entry item={item.data} headshots={headshots} key={item.id} />)}
+          {sortedItems.past.map(item => (
+            <Entry item={item.data} headshots={headshots} key={item.id} />
+          ))}
         </section>
         <Paginator count={pageCount} path="digital-dialogues" />
       </div>
@@ -117,8 +156,8 @@ export const query = graphql`
     allAirtableEvents(
       limit: $limit
       skip: $skip
-      filter: {data: {event_type: {eq: "Digital Dialogue"}}}
-      sort: {data: {start_date: DESC}}
+      filter: { data: { event_type: { eq: "Digital Dialogue" } } }
+      sort: { data: { start_date: DESC } }
     ) {
       nodes {
         data {
@@ -153,5 +192,5 @@ export const query = graphql`
     }
   }
 `
- 
+
 export default DialogueIndex
