@@ -13,7 +13,7 @@
     "build-pages": "BASEPATH=/mith-static gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "test": "playwright test",
-    "check": "tsc --noEmit",
+    "check": "tsc --noEmit && tsc -p ./gatsby-node.ts",
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
