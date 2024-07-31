@@ -3,7 +3,7 @@ name: Run Typescript Checks
 on:
   pull_request:
     branches: [main]
-  workflow_dispatch:
+  workflow_call:
     secrets:
       AIRTABLE_TOKEN:
         required: true
