@@ -14,6 +14,8 @@ jobs:
 
   typescript-check:
     uses: ./.github/workflows/run-typescript.yml
+    secrets:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
 
   build:
     needs: [test, typescript-check]
