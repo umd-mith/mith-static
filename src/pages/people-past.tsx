@@ -95,7 +95,6 @@ const PeoplePastPage = ({ data }: PeoplePastProps) => {
       return bMaxEnd - aMaxEnd;
     })
     
-    console.log(filteredPeople)
     return filteredPeople.map(p => {
       return makePerson(p.data!)
     })
