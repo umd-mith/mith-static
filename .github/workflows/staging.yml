@@ -12,8 +12,11 @@ jobs:
     secrets:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
 
+  typescript-check:
+    uses: ./.github/workflows/run-typescript.yml
+
   build:
-    needs: test
+    needs: [test, typescript-check]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

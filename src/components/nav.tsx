@@ -4,6 +4,11 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import './nav.css'
 
+interface NavLink {
+  link: string
+  name: string
+}
+
 const Nav = () => {
   const data = useStaticQuery(graphql`
     {
@@ -21,7 +26,7 @@ const Nav = () => {
   return(
     <nav>
       <ul className="navbar">
-        {data.site.siteMetadata.navLinks.map(link=> (
+        {data.site.siteMetadata.navLinks.map((link: NavLink) => (
           <li key={link.name} >
             <Link activeClassName="active" to={link.link}>{link.name}</Link>
           </li>

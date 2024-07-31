@@ -1,0 +1,42 @@
+import React from 'react'
+import dayjs from 'dayjs'
+import localizedFormat from 'dayjs/plugin/localizedFormat'
+
+dayjs.extend(localizedFormat)
+
+interface Props {
+  start: number
+  end: number
+  active: boolean
+}
+
+const ResearchTime = ({start, end, active}: Props) => {
+  const format = ['YYYY', 'YYYY-M']
+  const startDate = dayjs(start, format)
+  const endDate = end ? dayjs(end, format) : null
+
+  const startEl = start ? <time itemProp="startDate" dateTime={startDate.format('YYYY-MM')}>{startDate.format('MMMM YYYY')}</time> : ''
+
+  let endEl = ''
+  if (active === 'TRUE') {
+    if (endDate) {
+      endEl = <time itemProp="endDate" dateTime={endDate.format('YYYY-MM')}>{endDate.format('MMMM YYYY')}</time>
+    } else {
+      endEl = <span itemProp="endDate">Present</span>
+    }
+  } else {
+    if (endDate) {
+      endEl = <time itemProp="endDate" dateTime={endDate.format('YYYY-MM')}>{endDate.format('MMMM YYYY')}</time>
+    } else {
+      endEl = ''
+    }
+  }
+  
+  if (startEl && endEl) {
+    return <span className="time date research-date">{startEl} &ndash; {endEl}</span>
+  } else {
+    return <span className="time date research-date">{startEl}</span>
+  }
+}
+
+export default ResearchTime

@@ -1,10 +1,14 @@
-require("dotenv").config();
+import "dotenv/config"
+import type { GatsbyConfig } from "gatsby"
 
-const baseId = process.env.AIRTABLE_MITH_BASE_ID;
+const baseId = process.env.AIRTABLE_MITH_BASE_ID
 const basePath = process.env.BASEPATH
 
-module.exports = {
+const config: GatsbyConfig = {
   pathPrefix: basePath,
+  graphqlTypegen: {
+    generateOnBuild: true,
+  },
   siteMetadata: {
     title: `MITH`,
     siteUrl: "https://mith.umd.edu",
@@ -76,7 +80,7 @@ module.exports = {
             tableView: `All Research Items`,
             queryName: `ResearchItems`,
             separateNodeType: true,
-            mapping: { 
+            mapping: {
               image: `fileNode`,
               description: `text/markdown`,
               excerpt: `text/markdown`,
@@ -98,8 +102,8 @@ module.exports = {
               `linked_sponsors`,
               `linked_posts`,
               `linked_events`,
-              `related_research`
-            ]
+              `related_research`,
+            ],
           },
           {
             baseId,
@@ -107,10 +111,10 @@ module.exports = {
             tableView: `All Events`,
             queryName: `Events`,
             separateNodeType: true,
-            mapping: { 
+            mapping: {
               excerpt: `text/markdown`,
               description: `text/markdown`,
-              image: `fileNode`
+              image: `fileNode`,
             },
             tableLinks: [
               `linked_research_item`,
@@ -126,8 +130,8 @@ module.exports = {
               `methods`,
               `disciplines`,
               `tags`,
-              `event_types`
-            ]
+              `event_types`,
+            ],
           },
           {
             baseId,
@@ -135,10 +139,7 @@ module.exports = {
             tableView: `All Links`,
             queryName: `Links`,
             separateNodeType: true,
-            tableLinks: [
-              `linked_research_items`,
-              `linked_events`
-            ]
+            tableLinks: [`linked_research_items`, `linked_events`],
           },
           {
             baseId,
@@ -146,22 +147,22 @@ module.exports = {
             tableView: `All Partners & Sponsors`,
             queryName: `PartnersSponsors`,
             separateNodeType: true,
-            mapping: { 
+            mapping: {
               logo: `fileNode`,
             },
             tableLinks: [
               `linked_research_items_as_partner`,
               `linked_events_as_partner`,
               `linked_research_items_as_sponsor`,
-              `linked_events_as_sponsor`
-            ]
+              `linked_events_as_sponsor`,
+            ],
           },
           {
             baseId,
             tableName: `People`,
             tableView: `All People`,
             queryName: `People`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
-            mapping: { 
+            mapping: {
               headshot: `fileNode`,
               bio: `text/markdown`,
             }, // optional, e.g. "text/markdown", "fileNode"
@@ -172,7 +173,7 @@ module.exports = {
               `linked_featured_research`,
               `linked_research_as_participant`,
               `events_as_participant`,
-              `events_as_speaker`
+              `events_as_speaker`,
             ], // optional, for deep linking to records across tables.
             separateNodeType: true, // boolean, default is false, see the documentation on naming conflicts for more information
             // separateMapType: false, // boolean, default is false, see the documentation on using markdown and attachments for more information
@@ -183,7 +184,7 @@ module.exports = {
             tableView: `All Identities`,
             queryName: `Identities`,
             separateNodeType: true,
-            mapping: { 
+            mapping: {
               linked_person_bio: `text/markdown`,
               person_bio: `text/markdown`,
             },
@@ -195,8 +196,8 @@ module.exports = {
               `linked_research_as_internal`,
               `linked_research_as_external`,
               `linked_events_as_speaker`,
-              `linked_events_as_participant`
-            ]
+              `linked_events_as_participant`,
+            ],
           },
           {
             baseId,
@@ -204,10 +205,7 @@ module.exports = {
             tableView: `All Groups`,
             queryName: `Groups`,
             separateNodeType: true,
-            tableLinks: [
-              `linked_people`,
-              `linked_affiliations`
-            ]
+            tableLinks: [`linked_people`, `linked_affiliations`],
           },
           {
             baseId,
@@ -220,8 +218,8 @@ module.exports = {
               `linked_events`,
               `linked_people`,
               `disciplines`,
-              `methods`
-            ]
+              `methods`,
+            ],
           },
           {
             baseId,
@@ -229,10 +227,7 @@ module.exports = {
             tableView: `All Tags`,
             queryName: `Tags`,
             separateNodeType: true,
-            tableLinks: [
-              `linked_research`,
-              `linked_events`
-            ]
+            tableLinks: [`linked_research`, `linked_events`],
           },
           {
             baseId,
@@ -240,10 +235,7 @@ module.exports = {
             tableView: `All Research Types`,
             queryName: `ResearchTypes`,
             separateNodeType: true,
-            tableLinks: [
-              `linked_research`,
-              `linked_events`
-            ]
+            tableLinks: [`linked_research`, `linked_events`],
           },
           {
             baseId,
@@ -255,8 +247,8 @@ module.exports = {
               `linked_research`,
               `linked_events`,
               `methods`,
-              `disciplines`
-            ]
+              `disciplines`,
+            ],
           },
           {
             baseId,
@@ -270,17 +262,17 @@ module.exports = {
               `linked_events_methods`,
               `linked_events_disciplines`,
               `linked_posts_methods`,
-              `linked_posts_disciplines`
-            ]
+              `linked_posts_disciplines`,
+            ],
           },
-        ]
-      }
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `mith.umd.edu`,
-        excludePaths: ["/mith-static/*"]
+        excludePaths: ["/mith-static/*"],
       },
     },
     {
@@ -320,7 +312,7 @@ module.exports = {
             },
           },
         ],
-        pedantic: false
+        pedantic: false,
       },
     },
     {
@@ -438,3 +430,6 @@ module.exports = {
     },
   ],
 }
+
+export default config
+

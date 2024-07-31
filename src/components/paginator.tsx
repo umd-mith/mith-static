@@ -1,19 +1,25 @@
-import { Link } from 'gatsby'
-import React from 'react'
+import { Link } from "gatsby"
+import React from "react"
 
-import './paginator.css'
+import "./paginator.css"
 
-const Paginator = ({count, path}) => {
-  return(
+interface PaginatorProps {
+  count: number
+  path: string
+}
+
+const Paginator = ({ count, path }: PaginatorProps) => {
+  return (
     <section className="pagination-wrap">
       <ul className="pagination">
         {Array.from({ length: count }, (_, i) => (
           <li className="page-link" key={`pa${i}`}>
             <Link
-              activeClassName="active" 
+              activeClassName="active"
               className="page-link"
               key={`pagination-number${i + 1}`}
-              to={`/${path}/${i === 0 ? "" : i + 1}`}>
+              to={`/${path}/${i === 0 ? "" : i + 1}`}
+            >
               {i + 1}
             </Link>
           </li>
@@ -23,4 +29,5 @@ const Paginator = ({count, path}) => {
   )
 }
 
-export default Paginator;
+export default Paginator
+
