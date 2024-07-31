@@ -13,6 +13,12 @@ type Person = NonNullable<
   Queries.PeoplePastQuery["people"]["group"][number]["nodes"][number]["data"]
 >
 
+type LinkedIdentity = NonNullable<Person["linked_identities"]>[number]
+
+type MutablePerson = {
+  -readonly [P in keyof Person]: Person[P];
+};
+
 const PeoplePastPage = ({ data }: PeoplePastProps) => {
   function makePerson(person: Person) {
     let identities = (person.linked_identities || []).filter(
@@ -55,6 +61,46 @@ const PeoplePastPage = ({ data }: PeoplePastProps) => {
     )
   }
 
+  const handlePeople = (people: readonly { data: Person | null}[]): JSX.Element[] => {
+    
+    // dedupe identities
+    const filteredPeople: {data: MutablePerson}[] = people.map((p: {data: Person | null}) => {
+      const seen = new Set();
+      const filteredIdentities = p.data?.linked_identities?.filter((identity: LinkedIdentity) => {
+        const data = identity!.data!
+        const identifier = `${data.title}-${data.start}-${data.end}`;
+        if (seen.has(identifier)) {
+          return false;
+        } else {
+          if (data.end && data.start) {
+            seen.add(identifier);
+            return true;
+          }
+          return false;
+        }
+      }) ?? [];
+
+      // Sort them by end date
+      filteredIdentities.sort((a, b) => b!.data!.end! - a!.data!.end!)
+
+      const mutablePerson: MutablePerson = { ...p.data! } as MutablePerson;
+      mutablePerson.linked_identities = filteredIdentities;
+      return { data: mutablePerson };
+    })
+
+    // sort by end date
+    filteredPeople.sort((a, b) => {
+      const aMaxEnd = Math.max(...a!.data.linked_identities!.map(identity => identity!.data!.end || 0));
+      const bMaxEnd = Math.max(...b!.data.linked_identities!.map(identity => identity!.data!.end || 0));
+      return bMaxEnd - aMaxEnd;
+    })
+    
+    console.log(filteredPeople)
+    return filteredPeople.map(p => {
+      return makePerson(p.data!)
+    })
+  }
+
   return (
     <Layout>
       <SEO title="Past People" />
@@ -83,11 +129,10 @@ const PeoplePastPage = ({ data }: PeoplePastProps) => {
                 <section
                   id={people.fieldValue?.toLowerCase().replace(" ", "_")}
                   className="people-group"
+                  key={people.fieldValue}
                 >
                   <h2>{people.fieldValue}</h2>
-                  {people.nodes.map(p => {
-                    return makePerson(p.data!)
-                  })}
+                  {handlePeople(people.nodes)}
                 </section>
               )
             })

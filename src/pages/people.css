@@ -8,8 +8,12 @@
   letter-spacing: 1px;
 }
 @media screen and (min-width: 67em) {
-  #main-content section.pastpeople {
+  #main-content section.pastpeople,
+  #main-content > div section.people-group {
     margin-bottom: var(--content-spacing-xl);
+  }
+  #main-content section.pastpeople {
+    margin-top: calc(var(--content-spacing-xl) * -1);
   }
 }
 
