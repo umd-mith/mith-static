@@ -136,6 +136,7 @@ const PeoplePage = ({ data }: PeopleProps) => {
             .filter(g => g.fieldValue === "Staff")
             .map(makeStaff)}
         </section>
+        <section className="pastpeople"><h3 className="name"><Link to="/people-past">See past faculty and staff</Link></h3></section>
         <section id="affiliates" className="people-group">
           <h2>Affiliates</h2>
           {data.people.group

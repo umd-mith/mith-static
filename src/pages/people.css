@@ -8,7 +8,7 @@
   letter-spacing: 1px;
 }
 @media screen and (min-width: 67em) {
-  #main-content > div section.people-group {
+  #main-content section.pastpeople {
     margin-bottom: var(--content-spacing-xl);
   }
 }
