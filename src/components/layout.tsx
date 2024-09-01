@@ -38,10 +38,12 @@ const Layout = ({ children }: LayoutProps) => {
       <a className="skip-link" href="#main-content">
         Skip to main content
       </a>
-      <div className="outerWrapper">
+      <div className="flex flex-col min-h-screen">
         <Header />
         <Nav />
-        <main id="main-content">{children}</main>
+        <main id="main-content" className="grow">
+          {children}
+        </main>
         <Footer />
       </div>
     </>
