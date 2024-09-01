@@ -41,7 +41,7 @@ const Layout = ({ children }: LayoutProps) => {
       <div className="flex flex-col min-h-screen">
         <Header />
         <Nav />
-        <main id="main-content" className="grow">
+        <main id="main-content" className="mt-56 grow">
           {children}
         </main>
         <Footer />
