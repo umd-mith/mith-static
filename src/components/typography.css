@@ -1,4 +1,4 @@
-@import 'variables.css';
+@import "variables.css";
 
 html {
   color: hsla(0, 0%, 0%, 0.8);
@@ -12,6 +12,14 @@ body {
 }
 
 /* modified tritonic scale */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-footer-stack);
+}
 h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -45,3 +53,4 @@ strong {
 h1 a {
   border-bottom: none;
 }
+
