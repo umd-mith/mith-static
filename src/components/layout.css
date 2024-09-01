@@ -1,7 +1,7 @@
-@import 'site-reset.css';
-@import 'typography.css';
-@import 'variables.css';
-@import 'grid.css';
+@import "site-reset.css";
+@import "typography.css";
+@import "variables.css";
+@import "grid.css";
 
 html {
   overflow-y: scroll;
@@ -42,8 +42,8 @@ p *:last-child {
 }
 ol,
 ul {
-    list-style-position: outside;
-    list-style-image: none;
+  list-style-position: outside;
+  list-style-image: none;
 }
 ul {
   list-style: none;
@@ -63,7 +63,7 @@ ul {
 }
 .skip-link:focus {
   top: 2rem;
-  outline: 5px solid rgba(0,0,0,0.1);
+  outline: 5px solid rgba(0, 0, 0, 0.1);
   transform: translateY(0%);
 }
 .text-hidden {
@@ -72,14 +72,14 @@ ul {
   height: 1px;
   display: inline-block;
   overflow: hidden;
-  position: absolute!important;
-  border: 0!important;
-  padding: 0!important;
-  margin: 0!important;
-  clip: rect(1px,1px,1px,1px);
+  position: absolute !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
 }
 .hidden {
-  display:none;
+  display: none;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -104,7 +104,7 @@ ul.inline-list > li {
   display: inline;
 }
 ul.inline-list > li:before {
-  content: ', ';
+  content: ", ";
 }
 ul.inline-list > li:first-child:before {
   content: normal;
@@ -124,5 +124,6 @@ ul.inline-list > li:first-child:before {
 .button:active {
   border-bottom: 0;
   color: #fff;
-  background-color: rgba(183,191,16,0.8);
+  background-color: rgba(183, 191, 16, 0.8);
 }
+
