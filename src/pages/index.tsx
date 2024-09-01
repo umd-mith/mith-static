@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div>
-      <section className="leader">
+      <section>
         <p>
           We are an interdisciplinary group of researchers who collaboratively
           advance the study of cultural heritage and arts using computational
@@ -36,8 +36,8 @@ const IndexPage = () => (
           .
         </p>
         <p>
-          The MITH website is currently being redeveloped in public. If you are
-          looking for content that was previously here, it's in{" "}
+          If you are looking for content that was previously on MITH's website,
+          it's in{" "}
           <a href="https://archive.mith.umd.edu/mith-2020/">the archive</a>.
         </p>
       </section>
