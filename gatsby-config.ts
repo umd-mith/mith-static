@@ -58,6 +58,7 @@ const config: GatsbyConfig = {
     ],
   },
   plugins: [
+    "gatsby-plugin-postcss",
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
@@ -432,4 +433,3 @@ const config: GatsbyConfig = {
 }
 
 export default config
-
