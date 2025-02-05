@@ -270,6 +270,15 @@ const config: GatsbyConfig = {
       },
     },
     {
+      resolve: `gatsby-source-notion`,
+      options: {
+        databases: ["19040a10-6acb-804d-9a6f-e3c5813c55ff"],
+        token: process.env.GATSBY_NOTION_TOKEN,
+        version: "2022-06-28",
+        previewCallRate: 0,
+      },
+    },
+    {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `mith.umd.edu`,
