@@ -19,6 +19,16 @@
   },
   "homepage": "https://github.com/umd-mith/mith-static#readme",
   "dependencies": {
-    "astro": "^5.4.1"
+    "@astrojs/svelte": "^7.0.5",
+    "@tailwindcss/vite": "^4.0.9",
+    "astro": "^5.4.1",
+    "svelte": "^5.21.0",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.8.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11"
   }
 }
