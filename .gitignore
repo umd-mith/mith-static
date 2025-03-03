@@ -1,4 +1,11 @@
-gatsby-types.d.ts
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
 
 # Logs
 logs

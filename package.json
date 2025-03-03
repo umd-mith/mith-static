@@ -1,72 +1,24 @@
 {
   "name": "mith-static",
-  "description": "The Website of the Maryland Institute for Technology in the Humanities",
-  "version": "0.1.0",
-  "author": "MITH <mith@umd.edu>",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
+  "version": "0.2.0",
+  "description": "The website of the Maryland Institute for Technology in the Humanities (MITH)",
+  "main": "src/pages/index.astro",
   "scripts": {
-    "start": "npm run develop",
-    "build": "gatsby build",
-    "build-pages": "BASEPATH=/mith-static gatsby build --prefix-paths",
-    "develop": "gatsby develop",
-    "test": "playwright test",
-    "check": "tsc --noEmit",
-    "clean": "gatsby clean",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/umd-mith/mith-static"
+    "url": "git+https://github.com/umd-mith/mith-static.git"
   },
+  "author": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/umd-mith/mith-static/issues"
   },
+  "homepage": "https://github.com/umd-mith/mith-static#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "@fortawesome/free-brands-svg-icons": "^6.5.2",
-    "@fortawesome/free-regular-svg-icons": "^6.5.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@types/react-helmet": "^6.1.11",
-    "gatsby": "^5.13.6",
-    "gatsby-plugin-feed": "^5.13.1",
-    "gatsby-plugin-google-analytics": "^5.13.1",
-    "gatsby-plugin-image": "^3.13.1",
-    "gatsby-plugin-plausible": "^0.0.7",
-    "gatsby-plugin-react-helmet": "^6.13.1",
-    "gatsby-plugin-react-svg": "^3.3.0",
-    "gatsby-plugin-sharp": "^5.13.1",
-    "gatsby-remark-images": "^7.13.1",
-    "gatsby-remark-source-name": "^1.0.0",
-    "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-transformer-json": "^5.13.1",
-    "gatsby-transformer-remark": "^6.13.1",
-    "gatsby-transformer-sharp": "^5.13.1",
-    "prop-types": "^15.8.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-helmet": "^6.1.0",
-    "request": "^2.88.2"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.45.1",
-    "@types/node": "^22.0.0",
-    "airtable": "^0.12.2",
-    "autoprefixer": "^10.4.20",
-    "chalk": "^5.3.0",
-    "dayjs": "^1.11.11",
-    "dotenv": "^16.4.5",
-    "gatsby-plugin-postcss": "^6.13.1",
-    "gatsby-source-airtable": "^2.4.2",
-    "gh-pages": "^6.1.1",
-    "postcss": "^8.4.42",
-    "prettier": "^3.3.2",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4",
-    "unzipper": "^0.12.1",
-    "winston": "^3.13.0"
+    "astro": "^5.4.1"
   }
 }

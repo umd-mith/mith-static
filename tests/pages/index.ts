@@ -1,5 +1,0 @@
-export { ResearchPage } from "./research-page"
-export { PeoplePage } from "./people-page"
-export { NewsPage } from "./news-page"
-export { DialoguesPage } from "./dialogues-page"
-export { ValuesPage } from "./values-page"
