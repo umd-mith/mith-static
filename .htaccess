@@ -6,6 +6,11 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} www.mith.umd.edu [NC]
 RewriteRule ^(.*)$ https://mith.umd.edu/$1 [L,R=301,NC]
 
+# Exclude proxied paths from archive redirect
+
+RewriteRule ^desclab(/.*)?$ - [L]
+RewriteRule ^minimaldigipub(/.*)?$ - [L]
+
 # These are some handy abbreviations that were used for some reason.
 
 RewriteRule ^dd/?$ https://mith.umd.edu/digital-dialogues/ [R=302,L]
@@ -18,7 +23,6 @@ RewriteRule ^theatrefinder/(.*)$ http://www.theatre-finder.org/$1 [R=301,L]
 RewriteRule ^mto/(.*)$ http://dougreside.com/mto/$1 [R=301,L]
 RewriteRule ^digital-dialogues/podcast/(.*)$ http://digital-dialogues.s3-website-us-east-1.amazonaws.com/podcast.xml [R=302,L]
 RewriteRule ^ema/(.*)$ http://ema.mith.us/$1 [R=302,L]
-RewriteRule ^minimaldigipub minimaldigipub/ [R=301,L]
 RewriteRule ^airwaves/(.*)$ https://www.unlockingtheairwaves.org/$1 [R=301,L]
 RewriteRule ^airwaves$ https://www.unlockingtheairwaves.org/ [R=301,L]
 
