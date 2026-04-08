@@ -1,0 +1,55 @@
+---
+import { Image } from 'astro:assets'
+import MITHLogoBlk from '../assets/images/MITH-logostack-blk.svg';
+import MITHLogoWht from '../assets/images/MITH-logostack-wht.svg';
+---
+<footer class="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
+  <aside>
+    <Image
+      id="footer-logo"
+      src={MITHLogoBlk}
+      data-light-src={MITHLogoBlk.src}
+      data-dark-src={MITHLogoWht.src}
+      alt="MITH logo."
+      class="w-50"
+      loading="lazy" />
+  </aside>
+  <div>
+    <p class="mt-4">
+      Unless otherwise noted, this site and its contents are copyright © 2005 – 2026 Maryland Institute for Technology in the Humanities and licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" class="link">Creative Commons Attribution 4.0 International License</a>.<br/>
+    <a href="https://umd.edu/web-accessibility" class="link">Web Accessibility</a>
+    | <a href="https://umd.edu/privacy-notice" class="link">Privacy Notice</a>
+  </p>
+  </div>
+  
+</footer>
+
+<script>
+    const ftLogo = document.getElementById('footer-logo') as HTMLImageElement;
+    
+    function updateFtLogoForTheme() {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const isDark = currentTheme === 'mith-dark';
+      
+      if (ftLogo) {
+        const newSrc = isDark ? ftLogo.dataset.darkSrc : ftLogo.dataset.lightSrc;
+        if (newSrc) ftLogo.src = newSrc;
+      }
+    }
+    // Update logos on page load
+    updateFtLogoForTheme();
+    
+    // Watch for theme changes using MutationObserver
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.attributeName === 'data-theme') {
+          updateFtLogoForTheme();
+        }
+      });
+    });
+    
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme']
+    });
+  </script>

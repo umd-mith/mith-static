@@ -1,0 +1,51 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import PageLayout from '../layouts/PageLayout.astro';
+
+const pages = await getCollection('pages');
+const entry = pages.find((e: CollectionEntry<'pages'>) => e.data.slug === 'index');
+if (!entry) throw new Error('No index entry found in pages collection');
+
+const { Content } = await render(entry);
+---
+
+<PageLayout title={entry.data.title} active="index" showTitle={false}>
+  <div class="grid grid-cols-1 sm:grid-cols-2">
+    <section><Content /></section>
+    <section class="justify-self-end not-prose">
+      <div class="card bg-base-100 w-96 shadow-sm mb-8">
+        <figure class="h-40">
+          <img
+            src="https://mith.umd.edu/static/546d9202d06dddb774053499a504b299/8e19d/header_uta..webp"
+            alt="Unlocking the Airwaves Logo" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title"><a href="/research">Research & Labs</a></h2>
+          <!-- randomize research and labs -->
+          <p>Learn more about our research initiatives and programs. Here is an example.</p>
+          <p><strong>Unlocking the Airwaves</strong> Unlocking the Airwaves: Revitalizing an Early Public and Educational Radio Collection is a multi-institutional collaboration between MITH, the University of Wisconsin-Madison, [...] </p>
+          <div class="card-actions justify-end">
+            <a class="btn btn-accent text-base-content" href="/reserach">Explore Research & Labs</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure class="h-40">
+          <img
+            src="https://mith.umd.edu/static/b2e2eb5737f528e95c7ea423fc8a34a4/9a4d4/event_frankenreads..webp"
+            alt="Frankenreads Event Logo" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">From the Archive</h2>
+          <p>MITH has been leading Digital Humanities research at the University of Maryland for over 20 years. 
+            Explore our archive of resources and past events.</p>
+            <!-- randomize archive research -->
+          <p class="italic">Pictured: All-day Frankenstein Reading at the NEH</p>
+          <div class="card-actions justify-end">
+            <a class="btn btn-accent text-base-content" href="/archive">Explore the Archive</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</PageLayout>

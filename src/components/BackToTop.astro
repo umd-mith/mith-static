@@ -1,0 +1,26 @@
+---
+import { ChevronUp } from "@lucide/astro";
+
+---
+<button
+    id="backToTop"
+    class="btn btn-accent btn-circle fixed bottom-6 right-6 opacity-0 pointer-events-none transition-opacity duration-300"
+    aria-label="Back to top"
+  >
+  <ChevronUp />
+</button>
+<script>
+  const btn = document.getElementById('backToTop') as HTMLButtonElement;
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+      btn.classList.remove('opacity-0', 'pointer-events-none');
+    } else {
+      btn.classList.add('opacity-0', 'pointer-events-none');
+    }
+  });
+
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>

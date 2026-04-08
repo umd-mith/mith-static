@@ -1,0 +1,6 @@
+[
+  { "name": "News", "href": "/news" },
+  { "name": "People", "href": "/people" },
+  { "name": "Research & Labs", "href": "/research" },
+  { "name": "Archive", "href": "/archive" }
+]

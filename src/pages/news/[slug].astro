@@ -1,0 +1,35 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('news');
+
+  return pages
+    .filter((entry: CollectionEntry<'news'>) => entry.data.slug !== 'index')
+    .map((entry: CollectionEntry<'news'>) => ({
+      params: { slug: entry.data.slug },
+      props: { entry },
+    }));
+}
+
+interface Props {
+  entry: CollectionEntry<'news'>;
+}
+
+const { entry } = Astro.props as Props;
+const { title, slug, authors, date } = entry.data;
+const { Content } = await render(entry);
+---
+
+<PageLayout title={title} active="news">
+  <p>{
+    authors.map((a) => (
+    <span>{a}</span>
+  ))} – {new Date(date).toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  })}</p>
+  <Content />
+</PageLayout>

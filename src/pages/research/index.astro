@@ -1,0 +1,101 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets'
+import PageLayout from '../../layouts/PageLayout.astro';
+import FigurePlaceHolder from '../../components/FigurePlaceHolder.astro';
+
+const pages = await getCollection('pages');
+const entry = pages.find((e: CollectionEntry<'pages'>) => e.data.slug === 'research');
+if (!entry) throw new Error('No research entry found in pages collection');
+
+const { Content } = await render(entry);
+
+const labs = await getCollection("labs");
+
+// sort current people alphabetically by name
+labs.sort((a: CollectionEntry<"labs">, b: CollectionEntry<"labs">) => {
+  const nameA = a.data.title.toUpperCase();
+  const nameB = b.data.title.toUpperCase();
+  if (nameA < nameB) return -1;
+  if (nameA > nameB) return 1;
+  return 0;
+});
+
+const research = await getCollection("research");
+
+// filter research to only include active research projects
+const activeResearch = research.filter((r: CollectionEntry<"research">) => r.data.active === "TRUE").sort(
+  (a: CollectionEntry<"research">, b: CollectionEntry<"research">) => {
+  const nameA = a.data.title.toUpperCase();
+  const nameB = b.data.title.toUpperCase();
+  if (nameA < nameB) return -1;
+  if (nameA > nameB) return 1;
+  return 0;
+});
+---
+
+<PageLayout title="Reasearch & Labs" active="research">
+  <Content />
+  <section>
+    <h2>Labs</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {labs.map((lab: CollectionEntry<"labs">) => (
+        <div class="card bg-base-100 w-full shadow-sm not-prose">
+          {lab.data.image && lab.data.image.length > 0 ? (
+            <figure class="h-80">
+              <a href={lab.data["external link"]|| `/labs/${lab.data.id}`} aria-hidden="true" tabindex="-1" class="block w-full h-full">
+                <Image
+                  src={lab.data.image[0].url}
+                  width={500}
+                  height={500}
+                  loading="eager"
+                  alt=""
+                  class="w-full h-full object-cover" />
+              </a>
+            </figure>
+          ) : <FigurePlaceHolder />}
+          <div class="card-body">
+            <h3 class="card-title"><a href={lab.data["external link"]|| `/labs/${lab.data.id}`}>{lab.data.title}</a></h3>
+            {lab.data.subtitle && <h4>{lab.data.subtitle}</h4>}
+            <p>Led by {
+              lab.data.directors?.map((d, i) => (
+                <>
+                  <a href={`/people/${d.slug}`} class="link">{d.name}</a>
+                  {i < (lab.data.directors?.length || 0) - 1 && ' | '}
+                </>
+              ))
+            }</p>
+            <Fragment set:html={lab.data.description} />
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+  <section>
+    <h2>Active Research Projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {activeResearch.map((project: CollectionEntry<"research">) => (
+        <div class="card bg-base-100 w-full shadow-sm not-prose">
+          {project.data.image && project.data.image.length > 0 ? (
+            <figure class="h-80">
+              <a href={`/research/${project.data.slug}`} aria-hidden="true" tabindex="-1" class="block w-full h-full">
+                <Image
+                  src={project.data.image[0].url}
+                  width={500}
+                  height={500}
+                  loading="eager"
+                  alt=""
+                  class="w-full h-full object-cover" />
+              </a>
+            </figure>
+          ) : <FigurePlaceHolder />}
+          <div class="card-body">
+            <h3 class="card-title"><a href={`/research/${project.data.slug}`}>{project.data.title}</a></h3>
+            {project.data.subtitle && <h4>{project.data.subtitle}</h4>}
+            <Fragment set:html={project.data.excerpt} />
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</PageLayout>

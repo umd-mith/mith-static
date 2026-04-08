@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^8.0.4",
+    "@lucide/astro": "^1.7.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.2.2",
+    "airtable": "^0.12.2",
+    "astro": "^6.1.4",
+    "astro-pagefind": "^1.8.6",
+    "daisyui": "^5.5.19",
+    "pagefind": "^1.5.0",
+    "sharp": "^0.34.5",
+    "svelte": "^5.55.2",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3"
+  }
+}

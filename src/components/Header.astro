@@ -1,0 +1,50 @@
+---
+import { Image } from 'astro:assets'
+import MITHLogoBlk from '../assets/images/MITH-logostack-blk.svg';
+import MITHLogoWht from '../assets/images/MITH-logostack-wht.svg';
+---
+<header>
+  <div class="max-w-7xl mx-8 2xl:mx-auto 2xl:px-32 py-4">
+    <a href="/" aria-label="MITH Home">
+      <Image
+        id="mith-logo"
+        src={MITHLogoBlk}
+        data-light-src={MITHLogoBlk.src}
+        data-dark-src={MITHLogoWht.src}
+        alt=""
+        aria-hidden="true"
+        class="w-full h-full object-cover"
+        loading="eager" />
+    </a>
+  </div>
+</header>
+
+<script>
+  const headerLogo = document.getElementById('mith-logo') as HTMLImageElement;
+  
+  function updateFtLogoForTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const isDark = currentTheme === 'mith-dark';
+    
+    if (headerLogo) {
+      const newSrc = isDark ? headerLogo.dataset.darkSrc : headerLogo.dataset.lightSrc;
+      if (newSrc) headerLogo.src = newSrc;
+    }
+  }
+  // Update logos on page load
+  updateFtLogoForTheme();
+  
+  // Watch for theme changes using MutationObserver
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.attributeName === 'data-theme') {
+        updateFtLogoForTheme();
+      }
+    });
+  });
+  
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['data-theme']
+  });
+</script>

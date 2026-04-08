@@ -1,0 +1,119 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+import FigurePlaceHolder from '../../components/FigurePlaceHolder.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('research');
+
+  return pages
+    .filter((entry: CollectionEntry<'research'>) => entry.data.active === "FALSE")
+    .map((entry: CollectionEntry<'research'>) => ({
+      params: { slug: entry.data.slug },
+      props: { entry },
+    }));
+}
+
+interface Props {
+  entry: CollectionEntry<'research'>;
+}
+
+const { entry } = Astro.props as Props;
+const { data } = entry;
+---
+
+<PageLayout title={data.title} active="archive">
+  {data.subtitle && <h2>{data.subtitle}</h2>}
+  {data.image && data.image.length > 0 ? (
+    <Image
+      src={data.image[0].url}
+      inferSize={true}
+      loading="eager"
+      alt={data["image alt"] || "Project logo or representative image."}
+      class="w-full object-contain" />
+  ) : <FigurePlaceHolder/>}
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <article class="col-span-2">
+      <Fragment set:html={data.description} />
+    </article>
+    <aside class="p-6">
+      <strong>{data["year start"]}
+        {data["year end"] && (
+          <span> – {data["year end"]}</span>
+        )}
+      </strong>
+      {data["linked directors"] && data["linked directors"].length > 0 &&
+      <h3>Directors</h3>
+      <ul class="list list-none p-0">
+        {data["linked directors"]?.map((director, i) => (
+          <li>{director["group type"].includes("Staff")
+            ? <a href={`/people/${director.slug}`} class="font-bold">{director.name}</a>
+            : <strong>{director.name}</strong>
+          }<br/>
+          {data["linked director affiliations"]?.[i]["full affiliation"]}
+          </li>
+        ))}
+      </ul>}
+      {data["linked participants"] && data["linked participants"].length > 0 &&
+      <h3>Participants</h3>
+      <ul class="list list-none p-0">
+        {data["linked participants"]?.filter(p => p["group type"].includes("Staff") || p["group type"].includes("Past")).map((participant, i) => (
+          <li>
+            <strong>{participant.name}</strong><br/>
+            {data["linked internal participant affiliations"]?.[i] && data["linked internal participant affiliations"]?.[i]["full affiliation"]}
+          </li>
+        ))}
+        {data["linked participants"]?.filter(p => !p["group type"].includes("Staff") && !p["group type"].includes("Past")).map((participant, i) => (
+          <li>
+            <strong>{participant.name}</strong><br/>
+            {data["linked external participant affiliations"]?.[i] && data["linked external participant affiliations"]?.[i]["full affiliation"]}
+          </li>
+        ))}
+      </ul>}
+      {data["linked links"] && data["linked links"].length > 0 &&
+      <h3>Links</h3>
+      <ul class="list list-none p-0">
+        {data["linked links"]?.map(l => (
+          <li>
+            <a href={l.url}>{l.title}</a>
+          </li>
+        ))}
+      </ul>
+      }
+      {data["linked posts"] && data["linked posts"].length > 0 &&
+      <h3>News</h3>
+      <ul class="list list-none p-0">
+        {data["linked posts"]?.map(l => (
+          <li>
+            <a href={`/news/${l.slug}`}>{l["post title"]}</a>
+            <br/>{new Date(l["post date"]).toLocaleDateString()}
+          </li>
+        ))}
+      </ul>
+      }
+      {data["linked partners"] && data["linked partners"].length > 0 &&
+      <h3>Partners</h3>
+      <ul class="list list-none p-0">
+        {data["linked partners"]?.map(l => (
+          <li>
+            <a href={l.website}>{l.name}</a>
+          </li>
+        ))}
+      </ul>
+      }
+      {data["linked sponsors"] && data["linked sponsors"].length > 0 &&
+      <h3>Sponsor</h3>
+      <ul class="list list-none p-0">
+        {data["linked sponsors"]?.map(l => (
+          <li>
+            <a href={l.website}>{l.name}</a>
+          </li>
+        ))}
+      </ul>
+      }
+    </aside>
+  </div>
+
+</PageLayout>

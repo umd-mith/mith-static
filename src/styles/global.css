@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --default-font-family: Noto Sans, sans-serif;
+}
+
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "mith-light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(98% 0 0);
+  --color-base-300: oklch(90% 0 0);
+  --color-base-content: oklch(0.3867 0 0);
+  --color-primary: oklch(0.5875 0.2059 30.49);
+  --color-primary-content: oklch(0.9307 0.0228 71.78);
+  --color-secondary: oklch(0.9307 0.0228 71.78);
+  --color-secondary-content: oklch(0.3867 0 0);
+  --color-accent: oklch(0.7725 0.1693 112.78);
+  --color-accent-content: oklch(0.9307 0.0228 71.78);
+  --color-neutral: oklch(0.3867 0 0);
+  --color-neutral-content: oklch(0.9307 0.0228 71.78);
+  --color-info: oklch(74% 0.16 232.661);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(76% 0.177 163.223);
+  --color-success-content: oklch(37% 0.077 168.94);
+  --color-warning: oklch(82% 0.189 84.429);
+  --color-warning-content: oklch(41% 0.112 45.904);
+  --color-error: oklch(71% 0.194 13.428);
+  --color-error-content: oklch(27% 0.105 12.094);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+@plugin "daisyui/theme" {
+  name: "mith-dark";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(25.33% 0.016 252.42);
+  --color-base-200: oklch(23.26% 0.014 253.1);
+  --color-base-300: oklch(21.15% 0.012 254.09);
+  --color-base-content: oklch(97.807% 0.029 256.847);
+  --color-primary: oklch(0.5875 0.2059 30.49);
+  --color-primary-content: oklch(0.9307 0.0228 71.78);
+  --color-secondary: oklch(0.9307 0.0228 71.78);
+  --color-secondary-content: oklch(0.3867 0 0);
+  --color-accent: oklch(0.7725 0.1693 112.78);
+  --color-accent-content: oklch(0.9307 0.0228 71.78);
+  --color-neutral: oklch(0.3867 0 0);
+  --color-neutral-content: oklch(0.9307 0.0228 71.78);
+  --color-info: oklch(74% 0.16 232.661);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(76% 0.177 163.223);
+  --color-success-content: oklch(37% 0.077 168.94);
+  --color-warning: oklch(82% 0.189 84.429);
+  --color-warning-content: oklch(41% 0.112 45.904);
+  --color-error: oklch(71% 0.194 13.428);
+  --color-error-content: oklch(27% 0.105 12.094);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+

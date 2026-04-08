@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPathsOptions } from 'astro';
+import PageLayout from '../../layouts/PageLayout.astro';
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const allNews = await getCollection('news');
+
+  const sorted = allNews.sort((a, b) => {
+    return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+  });
+
+  return paginate(sorted, { pageSize: 20 });
+}
+
+const { page } = Astro.props;
+
+function formatYear(raw: string) {
+  return new Date(raw).getFullYear();
+}
+
+// Group entries by year for the timeline layout
+const grouped: Record<number, typeof page.data> = {};
+for (const entry of page.data) {
+  const year = formatYear(entry.data.date);
+  if (!grouped[year]) grouped[year] = [];
+  grouped[year].push(entry);
+}
+const years = Object.keys(grouped)
+  .map(Number)
+  .sort((a, b) => b - a);
+
+const totalPages = page.lastPage;
+const currentPage = page.currentPage;
+
+// Build the page number list with ellipsis markers — done here to avoid
+// comparison operators (<=, >=) in the template, which Astro misreads as JSX.
+type PageItem = { type: 'number'; n: number } | { type: 'ellipsis' };
+const pageItems: PageItem[] = [];
+for (let i = 1; i <= totalPages; i++) {
+  const nearCurrent = i >= currentPage - 1 && i <= currentPage + 1;
+  const isEdge = i === 1 || i === totalPages;
+  if (isEdge || nearCurrent) {
+    pageItems.push({ type: 'number', n: i });
+  } else if (pageItems[pageItems.length - 1]?.type !== 'ellipsis') {
+    pageItems.push({ type: 'ellipsis' });
+  }
+}
+
+const pages: (number | '…')[] = [];
+for (let i = 1; i <= totalPages; i++) {
+  if (
+    i === 1 ||
+    i === totalPages ||
+    Math.abs(i - currentPage) <= 1
+  ) {
+    pages.push(i);
+  } else if (
+    pages[pages.length - 1] !== '…'
+  ) {
+    pages.push('…');
+  }
+}
+
+---
+
+<PageLayout title="News" active="news">
+  {years.map((year) => (
+    <section class="year-section">
+      <div class="badge badge-xl badge-neutral">{year}</div>
+
+      <ul class="list">
+        {grouped[year].map((entry) => (
+          <li class="list-row">
+            <div class="text-4xl font-thin opacity-80 tabular-nums min-w-28">
+              {new Date(entry.data.date).toLocaleDateString('en-US', {
+                month: 'short',
+                day: '2-digit',
+              })}
+            </div>
+            <div class="list-col-grow">
+              <div class="text-lg">
+                <a href={`/news/${entry.data.slug}`} >
+                  {entry.data.title}
+                </a>
+              </div>
+              <div class="uppercase font-semibold opacity-80">{
+                entry.data.authors.map((a) => (
+                <span>{a}</span>
+              ))}</div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+    <nav class="join w-full flex justify-center" aria-label="Pagination bottom">
+        <a
+          href={page.url.prev ?? '#'}
+          class={`join-item btn${!page.url.prev ? ' disabled' : ''}`}
+          aria-disabled={!page.url.prev}
+        >
+          &lt;
+        </a>
+       {pages.map((p) =>
+          p === '…' ? (
+            <button class="join-item btn btn-disabled">…</button>
+          ) : (
+            <a
+              href={`/news/${p === 1 ? '1' : p}`}
+              class={`join-item btn${p === currentPage ? ' btn-active' : ''}`}
+              aria-current={p === currentPage ? 'page' : undefined}
+            >
+              {p}
+            </a>
+          )
+        )}
+        <a
+          href={page.url.next ?? '#'}
+          class={`join-item btn${!page.url.next ? ' disabled' : ''}`}
+          aria-disabled={!page.url.next}
+        >
+          &gt;
+        </a>
+    </nav>
+</PageLayout>

@@ -1,0 +1,77 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { Image } from 'astro:assets'
+import PageLayout from "../../layouts/PageLayout.astro";
+import FigurePlaceHolder from "../../components/FigurePlaceHolder.astro";
+ 
+const currentPeople = await getCollection("people");
+
+// sort current people alphabetically by name
+currentPeople.sort((a: CollectionEntry<"people">, b: CollectionEntry<"people">) => {
+  const nameA = a.data.name.toUpperCase();
+  const nameB = b.data.name.toUpperCase();
+  if (nameA < nameB) return -1;
+  if (nameA > nameB) return 1;
+  return 0;
+});
+---
+
+<PageLayout title="People" active="people">
+  <section>
+    <h2>Faculty & Staff</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {currentPeople.filter((person: CollectionEntry<"people">) => person.data.status).map((person: CollectionEntry<"people">) => (
+        <div class="card bg-base-100 w-full shadow-sm not-prose">
+          {person.data.headshot && person.data.headshot.length > 0 ? (
+            <figure class="h-80">
+              <a href={`/people/${person.data.slug}`} aria-hidden="true" tabindex="-1" class="block w-full h-full">
+                <Image
+                  src={person.data.headshot[0].url}
+                  width={500}
+                  height={500}
+                  loading="eager"
+                  alt=""
+                  class="w-full h-full object-cover" />
+              </a>
+            </figure>
+          ) : <FigurePlaceHolder />}
+          <div class="card-body">
+            <h3 class="card-title"><a href={`/people/${person.data.slug}`}>{person.data.name}</a></h3>
+            <p>{person.data.title.join(" | ")}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+  <section>
+    <h2>Affiliates</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {currentPeople.filter((person: CollectionEntry<"people">) => !person.data.status).map((person: CollectionEntry<"people">) => (
+        <div class="card bg-base-100 w-full shadow-sm not-prose">
+          {person.data.headshot && person.data.headshot.length > 0 ? (
+            <figure class="h-80">
+              <a href={person.data.website} aria-label="person page" aria-hidden="true" tabindex="-1" class="block w-full h-full">
+                <Image
+                  src={person.data.headshot[0].url}
+                  width={500}
+                  height={500}
+                  loading="eager"
+                  alt=""
+                  class="w-full h-full object-cover" />
+              </a>
+            </figure>
+          ) : (
+            <figure class="bg-gray-200 w-full h-48 flex items-center justify-center">
+              <span class="text-gray-500">No photo available</span>
+            </figure>
+          )}
+          <div class="card-body">
+            <h3 class="card-title"><a href={person.data.website}>{person.data.name}</a></h3>
+            <p>{person.data.title.join(" | ")}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</PageLayout>

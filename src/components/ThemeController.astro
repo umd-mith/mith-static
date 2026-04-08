@@ -1,0 +1,35 @@
+---
+import { Sun, Moon } from "@lucide/astro";
+
+
+---
+<script>
+  import ThemeController from "./ThemeController.ts";
+</script>
+
+<label class="swap swap-rotate" for="theme-toggle">
+  <!-- this hidden checkbox controls the state -->
+  <input id="theme-toggle" type="checkbox" class="theme-controller" value="se-dark" />
+  <span class="sr-only">Toggle theme</span>
+  <script is:inline>
+    // Set checkbox state immediately to prevent icon flash
+    (function() {
+      const checkbox = document.currentScript.previousElementSibling;
+      const storageKey = 'daisyui-theme';
+      const storedTheme = localStorage.getItem(storageKey);
+      
+      let theme;
+      if (storedTheme) {
+        theme = storedTheme;
+      } else {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        theme = prefersDark ? 'se-dark' : 'se-light';
+      }
+      
+      checkbox.checked = (theme === 'se-dark');
+    })();
+  </script>
+
+   <Sun class="swap-off" />
+   <Moon class="swap-on" />
+</label>

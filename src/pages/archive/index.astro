@@ -1,0 +1,86 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets'
+import { experimental_AstroContainer } from 'astro/container';
+import DD from '../../assets/images/dd.jpg'
+import WA from '../../assets/images/webarchive.png'
+import PageLayout from '../../layouts/PageLayout.astro';
+import FigurePlaceHolder from '../../components/FigurePlaceHolder.astro';
+import PastResearch from '../../components/PastResearch.svelte';
+
+const pages = await getCollection('pages');
+const entry = pages.find((e: CollectionEntry<'pages'>) => e.data.slug === 'archive');
+if (!entry) throw new Error('No archive entry found in pages collection');
+
+const { Content } = await render(entry);
+
+const research = await getCollection("research");
+
+// filter research to only include past research projects
+const pastResearch = research.filter((r: CollectionEntry<"research">) => r.data.active === "FALSE").sort(
+  (a: CollectionEntry<"research">, b: CollectionEntry<"research">) => {
+  const nameA = new Date(a.data['year start']);
+  const nameB = new Date(b.data['year start']);
+  if (nameA < nameB) return 1;
+  if (nameA > nameB) return -1;
+  return 0;
+});
+
+// Serialize only the fields the Svelte component needs
+const projectsForComponent = pastResearch.map((r: CollectionEntry<"research">) => ({
+  slug: r.data.slug,
+  title: r.data.title,
+  subtitle: r.data.subtitle,
+  "year start": r.data['year start'],
+  "year end": r.data['year end'],
+  excerpt: r.data.excerpt,
+  image: r.data.image,
+  topics: r.data.topics,
+  methods: r.data.methods,
+  disciplines: r.data.disciplines,
+  "research types": r.data['research types'],
+}));
+
+const container = await experimental_AstroContainer.create();
+const placeholderHtml = await container.renderToString(FigurePlaceHolder);
+---
+
+<PageLayout title={entry.data.title} active="archive">
+  <Content />
+  <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose">
+    <div class="card bg-base-100 w-full shadow-sm">
+      <figure class="h-80">
+        <a href="/digital-dialogues" aria-hidden="true" tabindex="-1" class="block w-full h-full">
+          <Image
+            src={DD}
+            loading="eager"
+            alt=""
+            class="w-full h-full object-cover" />
+        </a>
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title"><a href="/digital-dialogues">Digital Dialogues</a></h2>
+        <p>Digital Dialogues were MITH’s signature events program for over a decade, held almost every week during academic semesters. Digital Dialogues provided an occasion for discussion, presentation, and intellectual exchange. Discover the full record of Digital Dialogues events, including videos and materials, in the <a href="/digital-dialogues"  class="link">Digital Dialogues Archive</a>.</p>
+      </div>
+    </div>
+    <div class="card bg-base-100 w-full shadow-sm">
+      <figure class="h-80">
+        <a href="https://archive.mith.umd.edu" aria-hidden="true" tabindex="-1" class="block w-full h-full">
+          <Image
+            src={WA}
+            loading="eager"
+            alt=""
+            class="w-full h-full object-fit" />
+        </a>
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title"><a href="https://archive.mith.umd.edu">MITH Web Archive</a></h2>
+        <p>MITH Web Archive is a curated archive of legacy Digital Humanities research projects developed by MITH between approximately 2005–2020. These sites are preserved as historical scholarly artifacts and are no longer actively maintained or updated. They reflect historically specific platforms, design conventions, and technical infrastructures.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Past Research Projects</h2>
+    <PastResearch client:load projects={projectsForComponent} placeholderHtml={placeholderHtml} />
+  </section>
+</PageLayout>
