@@ -1,0 +1,102 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('digital_dialogues');
+
+  return pages
+    .map((entry: CollectionEntry<'digital_dialogues'>) => ({
+      params: { slug: entry.data.id },
+      props: { entry },
+    }));
+}
+
+interface Props {
+  entry: CollectionEntry<'digital_dialogues'>;
+}
+
+const { entry } = Astro.props as Props;
+const { data } = entry;
+---
+
+<PageLayout title={data["talk title"]} active="archive" showTitle={false}>
+  <div class="breadcrumbs text-sm not-prose pb-8">
+    <ul>
+      <li><a href="/archive">Archive</a></li>
+      <li><a href="/digital-dialogues">Digital Dialogues</a></li>
+    </ul>
+  </div>
+  <h1>{data["talk title"]}</h1>
+  {data["talk subtitle"] && <h2>{data["talk subtitle"]}</h2>}
+  <p class="mb-0">{new Date(data["start date"]).toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric'
+  })}</p>
+  <p class="italic mt-0">{data.location}</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 not-prose">{data.speakers?.map((sp, i) => (
+    <div class="card bg-base-100 w-96 shadow-sm">
+      {sp.headshot?.[0] &&
+        <figure>
+          <Image
+            src={sp.headshot?.[0].url}
+            inferSize={true}
+            loading="eager"
+            alt={`Headshot of ${sp.name}`}
+            class="w-full object-contain" />
+        </figure>
+      }
+      <div class="card-body">
+        <h2 class="card-title">{sp.name}</h2>
+        {data['speaker affiliations'] && 
+          <p class="italic">{data['speaker affiliations'][i] && data['speaker affiliations'][i]['full affiliation']}</p>
+        }
+        <div class="card-actions justify-start">
+          {sp.website && <a href={sp.website} class="btn btn-accent text-base-content">Website</a>}
+          {sp.bio && <a href={`#${sp.slug}`} class="btn btn-accent text-base-content">Read bio</a>}
+        </div>
+      </div>
+    </div>
+  ))}</div>
+  <article set:html={data.description} />
+  {data['speakers']?.map((sp) => (
+    <hr/>
+    <div id={sp.slug} set:html={sp.bio}/>
+  ))}
+  {data['vimeo id'] &&
+  <h2>Media</h2>
+  <div style="padding:56.25% 0 0 0; position:relative;">
+    <iframe 
+        src={`https://player.vimeo.com/video/${data['vimeo id']}`}
+        width="640" 
+        height="360" 
+        allow="fullscreen; picture-in-picture" 
+        style="position:absolute; top:0; left:0; width:100%; height:100%;"
+        allowfullscreen>
+    </iframe>}
+  </div>
+  {data["linked links"] && data["linked links"].length > 0 &&
+    <h2>Resources</h3>
+    <ul class="list list-none p-0">
+      {data["linked links"]?.map(l => (
+        <li>
+          <a href={l.url}>{l.title}</a>
+        </li>
+      ))}
+    </ul>
+  }
+  {data["linked posts"] && data["linked posts"].length > 0 &&
+    <h2>Related News</h3>
+    <ul class="list list-none p-0">
+      {data["linked posts"]?.map(l => (
+        <li>
+          <a href={`/news/${l.slug}`}>{l["post title"]}</a>
+          <br/>{new Date(l["post date"]).toLocaleDateString()}
+        </li>
+      ))}
+    </ul>
+  }
+  </div>
+</PageLayout>

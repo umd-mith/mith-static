@@ -76,6 +76,7 @@ const labs = defineCollection({
     title: z.string(),
     subtitle: z.string().optional(),
     image:   z.array(attachment).optional(),
+    "image alt": z.string().optional(),
     description: z.string().optional(),
     directors:   z.array(z.object({
       name: z.string(),
@@ -171,4 +172,56 @@ const research = defineCollection({
   }),
 });
 
-export const collections = { pages, news, people, labs, research };
+const digital_dialogues = defineCollection({
+  loader: airtableLoader({
+    table: "Events",
+    view: "Digital Dialogues",
+    markdownFields: ["description"],
+    linkedFields: {
+      speakers: "People",
+      "speaker affiliations": "Identities",
+      "linked posts": "Posts",
+      "linked links": "Links",
+    },
+     linkedMarkdownFields: {
+      "speakers": ["bio"],
+    },
+    linkedAttachmentFields: {
+      speakers: ["headshot"],
+    },
+  }),
+ 
+  schema: z.object({
+    id:    z.string(),
+    "talk title": z.string(),
+    "talk subtitle": z.string().optional(),
+    series: z.string(),
+    "start date": z.date(),
+    description: z.string().optional(),
+    speakers:   z.array(z.object({
+      name: z.string(),
+      slug: z.string(),
+      website: z.string().optional(),
+      headshot: z.array(attachment).optional(),
+      bio: z.string().optional()
+    })).optional(),
+    "speaker affiliations":   z.array(z.object({
+      "full affiliation": z.string()
+    })).optional(),
+    location: z.string().optional(),
+    "linked posts": z.array(z.object({
+      "post title": z.string(),
+      "post date": z.date(),
+      "slug": z.string()
+    })).optional(),
+    "vimeo url": z.url().optional(),
+    "vimeo id": z.string().optional(),
+    "status": z.string().optional(),
+    "linked links": z.array(z.object({
+      title: z.string(),
+      url: z.url()
+    })).optional(),
+  }),
+});
+
+export const collections = { pages, news, people, labs, research, digital_dialogues };

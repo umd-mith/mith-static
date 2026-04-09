@@ -10,9 +10,9 @@ const {title, showTitle = true, active} = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <script src="https://umd-header.umd.edu/build/bundle.js?search=0&search_domain=&events=0&news=0&schools=0&admissions=0&support=0&support_url=&wrapper=1100&sticky=0"></script>
+<head>    
     <meta charset="UTF-8">
+    <meta name="view-transition" content="same-origin" />
     <meta
       name="description"
       content="MITH – Maryland Institute for Technology in the Humanities at the University of Maryland."
@@ -36,11 +36,13 @@ const {title, showTitle = true, active} = Astro.props;
   </a>
   <Header/>
   <Nav active={active}/>
-  <main id="main-content" tabindex="-1" class="pb-12 max-w-7xl mx-8 2xl:mx-auto 2xl:px-32 prose prose-xl relative focus:outline-none">
+  <main id="main-content" tabindex="-1" 
+    class="pb-12 max-w-7xl mx-8 2xl:mx-auto 2xl:px-32 prose prose-xl relative focus:outline-none">
     {showTitle && <h1>{title}</h1>}
     <slot />
   </main>
   <Footer/>
   <BackToTop /> 
+  <script is:inline src="https://umd-header.umd.edu/build/bundle.js?search=0&search_domain=&events=0&news=0&schools=0&admissions=0&support=0&support_url=&wrapper=1100&sticky=0"></script>
 </body>
 </html>

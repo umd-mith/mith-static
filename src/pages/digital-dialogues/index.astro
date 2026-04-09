@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets'
+import DDNew from '../../assets/images/dd-new.webp'
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const digitalDialogues = await getCollection("digital_dialogues");
+
+// Sort all events newest-first.
+const sorted = digitalDialogues.sort(
+  (a, b) => new Date(b.data["start date"]).getTime() - new Date(a.data["start date"]).getTime()
+);
+
+// Group by year.
+const grouped = sorted.reduce<Record<number, typeof sorted>>((acc, entry) => {
+  const year = new Date(entry.data["start date"]).getFullYear();
+  (acc[year] ??= []).push(entry);
+  return acc;
+}, {});
+
+const years = Object.keys(grouped).map(Number).sort((a, b) => b - a);
+---
+
+<PageLayout title="Digital Dialogues" active="archive">
+
+  <figure>
+    <Image
+      src={DDNew}
+      loading="eager"
+      alt=""
+      class="w-full h-full object-cover" />
+  </figure>
+
+  <p>
+    Digital Dialogues were MITH’s signature events program for over a decade,
+    held almost every week during academic semesters. Digital Dialogues provided
+    an occasion for discussion, presentation, and intellectual exchange. Explore
+    the full record of Digital Dialogues events, including videos and materials.
+  </p>
+
+  {years.map((year) => (
+    <section>
+      <div class="badge badge-xl badge-neutral">{year}</div>
+
+      <ul class="list">
+        {grouped[year].map((entry) => (
+          <li class="list-row">
+            <div class="text-4xl font-thin opacity-80 tabular-nums min-w-28">
+              {new Date(entry.data["start date"]).toLocaleDateString('en-US', {
+                month: 'short',
+                day: '2-digit',
+              })}
+            </div>
+            <div class="list-col-grow">
+              <div class="text-lg">
+                <a href={`/digital-dialogues/${entry.data.id}`} >
+                  {entry.data["talk title"]}
+                </a>
+                {entry.data["talk subtitle"] && (
+                  <div class="text-base opacity-70 italic">{entry.data["talk subtitle"]}</div>
+                )}
+              </div>
+              <div class="uppercase font-semibold opacity-80">{
+                entry.data.speakers?.map((sp) => sp.name).join(", ")}</div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</PageLayout>

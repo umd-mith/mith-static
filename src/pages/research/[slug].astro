@@ -6,7 +6,7 @@ export async function getStaticPaths() {
   const pages = await getCollection('research');
 
   return pages
-    .filter((entry: CollectionEntry<'research'>) => entry.data.active === "FALSE")
+    .filter((entry: CollectionEntry<'research'>) => entry.data.active === "TRUE")
     .map((entry: CollectionEntry<'research'>) => ({
       params: { slug: entry.data.slug },
       props: { entry },
@@ -20,11 +20,4 @@ interface Props {
 const { entry } = Astro.props as Props;
 ---
 
-<ResearchLayout entry={entry} active="archive" showTitle={false}>
-  <div class="breadcrumbs text-sm not-prose pb-8">
-    <ul>
-      <li><a href="/archive">Archive</a></li>
-      <li><a href="/archive#past-research-projects">Past Research Projects</a></li>
-    </ul>
-  </div>
-</ResearchLayout>
+<ResearchLayout entry={entry} active="research"/>

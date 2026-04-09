@@ -7,6 +7,20 @@ interface AirtableResponse {
   offset?: string;
 }
 
+/** Normalised shape of a single Airtable attachment. */
+export interface AirtableAttachment {
+  id: string;
+  url: string;
+  filename: string;
+  size: number;
+  type: string;
+  thumbnails?: {
+    small?: { url: string; width: number; height: number };
+    large?: { url: string; width: number; height: number };
+    full?:  { url: string; width: number; height: number };
+  };
+}
+
 /**
  * Fetch every record from a table into a `Map<recordId, fields>`,
  * paging through Airtable's 100-record limit automatically.
@@ -128,13 +142,96 @@ function deriveSlug(
 }
 
 /**
+ * Render markdown sub-fields within an array of resolved linked records.
+ * Returns a new array with the specified fields replaced by their HTML.
+ */
+async function renderLinkedMarkdown(
+  records: LinkedRecord[],
+  subFields: string[],
+  renderMarkdown: (md: string) => Promise<{ html: string }>
+): Promise<LinkedRecord[]> {
+  return Promise.all(
+    records.map(async (record) => {
+      const rendered = Object.fromEntries(
+        await Promise.all(
+          subFields.map(async (subField) => {
+            const value = record[subField];
+            if (typeof value !== "string" || !value.trim()) return [subField, ""];
+            const { html } = await renderMarkdown(value);
+            return [subField, html];
+          })
+        )
+      );
+      return { ...record, ...rendered };
+    })
+  );
+}
+
+/**
+ * Cast a raw Airtable attachment array into clean `AirtableAttachment` objects,
+ * dropping any items that are missing required fields.
+ */
+function normalizeAttachments(raw: unknown): AirtableAttachment[] {
+  if (!Array.isArray(raw)) return [];
+  return raw.flatMap((item) => {
+    if (
+      typeof item !== "object" ||
+      item === null ||
+      typeof (item as Record<string, unknown>).url !== "string"
+    ) return [];
+    const a = item as Record<string, unknown>;
+    return [{
+      id:       String(a.id       ?? ""),
+      url:      String(a.url),
+      filename: String(a.filename ?? ""),
+      size:     Number(a.size     ?? 0),
+      type:     String(a.type     ?? ""),
+      thumbnails: (a.thumbnails as AirtableAttachment["thumbnails"]) ?? undefined,
+    }];
+  });
+}
+
+/**
+ * Normalize attachment sub-fields within an array of resolved linked records.
+ * Returns a new array with those fields replaced by `AirtableAttachment[]`.
+ */
+function resolveLinkedAttachments(
+  records: LinkedRecord[],
+  subFields: string[]
+): LinkedRecord[] {
+  return records.map((record) => {
+    const normalized = Object.fromEntries(
+      subFields.map((subField) => [subField, normalizeAttachments(record[subField])])
+    );
+    return { ...record, ...normalized };
+  });
+}
+
+/**
  * Generic Astro content-layer loader for any Airtable table.
- * Uses Bearer token auth (required for personal access tokens).`
+ * Uses Bearer token auth (required for personal access tokens).
+ *
+ * @param options.linkedMarkdownFields - Map of linked field name → sub-field
+ *   names whose values should be rendered from Markdown to HTML.
+ *   e.g. `{ "speaker affiliations": ["person bio"] }`
  */
 export function airtableLoader<F extends string = string>(
-  options: AirtableLoaderOptions<F>
+  options: AirtableLoaderOptions<F> & {
+    /** Sub-fields inside linked records that contain Markdown and should be rendered to HTML. */
+    linkedMarkdownFields?: Partial<Record<F, string[]>>;
+    /** Sub-fields inside linked records that are Airtable attachment arrays and should be normalised. */
+    linkedAttachmentFields?: Partial<Record<F, string[]>>;
+  }
 ): Loader {
-  const { table, view, linkedFields = {} as Record<F, string>, slugField, markdownFields = [] } = options;
+  const {
+    table,
+    view,
+    linkedFields = {} as Record<F, string>,
+    slugField,
+    markdownFields = [],
+    linkedMarkdownFields    = {} as Partial<Record<F, string[]>>,
+    linkedAttachmentFields  = {} as Partial<Record<F, string[]>>,
+  } = options;
 
   return {
     name: `airtable-loader:${table}`,
@@ -168,6 +265,7 @@ export function airtableLoader<F extends string = string>(
       for (const record of raw) {
         const { id, fields } = record;
 
+        // Resolve linked record IDs → full field objects.
         const resolvedLinked = Object.fromEntries(
           (Object.keys(linkedFields) as F[]).map((fieldKey) => {
             const targetTable = linkedFields[fieldKey];
@@ -176,12 +274,40 @@ export function airtableLoader<F extends string = string>(
           })
         ) as Record<F, LinkedRecord[]>;
 
+        // Render markdown within linked records where requested.
+        const linkedWithMarkdown = Object.fromEntries(
+          await Promise.all(
+            (Object.keys(linkedFields) as F[]).map(async (fieldKey) => {
+              const subFields = linkedMarkdownFields[fieldKey];
+              if (!subFields || subFields.length === 0) {
+                return [fieldKey, resolvedLinked[fieldKey]];
+              }
+              return [
+                fieldKey,
+                await renderLinkedMarkdown(resolvedLinked[fieldKey], subFields, renderMarkdown),
+              ];
+            })
+          )
+        ) as Record<F, LinkedRecord[]>;
+
+        // Normalise attachment sub-fields within linked records where requested.
+        const linkedWithAttachments = Object.fromEntries(
+          (Object.keys(linkedFields) as F[]).map((fieldKey) => {
+            const subFields = linkedAttachmentFields[fieldKey];
+            if (!subFields || subFields.length === 0) {
+              return [fieldKey, linkedWithMarkdown[fieldKey]];
+            }
+            return [fieldKey, resolveLinkedAttachments(linkedWithMarkdown[fieldKey], subFields)];
+          })
+        ) as Record<F, LinkedRecord[]>;
+
+        // Render top-level markdown fields.
         const renderedMarkdown = Object.fromEntries(
           await Promise.all(
             markdownFields.map(async (fieldKey) => {
-              const raw = fields[fieldKey];
-              if (typeof raw !== "string" || !raw.trim()) return [fieldKey, ""];
-              const { html } = await renderMarkdown(raw);
+              const value = fields[fieldKey];
+              if (typeof value !== "string" || !value.trim()) return [fieldKey, ""];
+              const { html } = await renderMarkdown(value);
               return [fieldKey, html];
             })
           )
@@ -189,7 +315,7 @@ export function airtableLoader<F extends string = string>(
 
         store.set({
           id: deriveSlug(id, fields, slugField),
-          data: { ...fields, ...resolvedLinked, ...renderedMarkdown },
+          data: { ...fields, ...linkedWithAttachments, ...renderedMarkdown },
           rendered: { html: "", metadata: { airtableId: id } },
         });
       }

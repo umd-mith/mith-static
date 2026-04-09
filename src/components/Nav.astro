@@ -2,7 +2,7 @@
 import ThemeController from "../components/ThemeController.astro";
 import { Menu } from "@lucide/astro";
 import menuItems from "../data/nav.json";
-import SearchModal from "./SearchModal.astro";
+import SearchModal from "./SearchModal.svelte";
 
 const { active } = Astro.props;
 ---
@@ -43,7 +43,7 @@ const { active } = Astro.props;
           </ol>
         </div>
       </div>
-      <SearchModal/>
+      <SearchModal client:load/>
       <ThemeController/>
     </div>
   </div>

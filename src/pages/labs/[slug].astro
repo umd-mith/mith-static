@@ -1,0 +1,40 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+import FigurePlaceHolder from '../../components/FigurePlaceHolder.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('labs');
+
+  return pages
+    .map((entry: CollectionEntry<'labs'>) => ({
+      params: { slug: entry.data.id },
+      props: { entry },
+    }));
+}
+
+interface Props {
+  entry: CollectionEntry<'labs'>;
+}
+
+const { entry } = Astro.props as Props;
+const { data } = entry;
+---
+
+<PageLayout title={data.title} active="research">
+  {data.subtitle && <h2>{data.subtitle}</h2>}
+  {data.image && data.image.length > 0 ? (
+    <Image
+      src={data.image[0].url}
+      inferSize={true}
+      loading="eager"
+      alt={data["image alt"] || "Project logo or representative image."}
+      class="w-full object-contain" />
+  ) : <FigurePlaceHolder/>}
+
+    <article class="col-span-2">
+      <Fragment set:html={data.description} />
+    </article>
+
+</PageLayout>
