@@ -21,6 +21,7 @@ export default defineConfig({
   site: 'https://mith.umd.edu/',
   redirects: {
     "/news": "/news/1",
+    "/events": "/events/1",
   },
   image: {
     remotePatterns: [{ hostname: "*.airtableusercontent.com" }],

@@ -4,10 +4,11 @@ import type { GetStaticPathsOptions } from 'astro';
 import PageLayout from '../../layouts/PageLayout.astro';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-  const allNews = await getCollection('news');
+  const pastEvents = (await getCollection('events'))
+    .filter(e => new Date(e.data['end date']).getTime() < new Date().getTime());
 
-  const sorted = allNews.sort((a, b) => {
-    return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+  const sorted = pastEvents.sort((a, b) => {
+    return new Date(b.data['end date']).getTime() - new Date(a.data['end date']).getTime();
   });
 
   return paginate(sorted, { pageSize: 20 });
@@ -22,7 +23,7 @@ function formatYear(raw: string) {
 // Group entries by year for the timeline layout
 const grouped: Record<number, typeof page.data> = {};
 for (const entry of page.data) {
-  const year = formatYear(entry.data.date);
+  const year = formatYear(entry.data['end date'].toString());
   if (!grouped[year]) grouped[year] = [];
   grouped[year].push(entry);
 }
@@ -64,30 +65,31 @@ for (let i = 1; i <= totalPages; i++) {
 
 ---
 
-<PageLayout title="News" active="news">
+<PageLayout title="Past Events" active="archive">
   {years.map((year) => (
     <section class="year-section">
       <div class="badge badge-xl badge-neutral">{year}</div>
 
-      <ul class="list">
+      <ul class="grid" style="grid-template-columns: max-content 1fr">
         {grouped[year].map((entry) => (
-          <li class="list-row">
-            <div class="text-4xl font-thin opacity-80 tabular-nums min-w-28">
-              {new Date(entry.data.date).toLocaleDateString('en-US', {
+          <li class="contents">
+            <div class="text-4xl font-thin opacity-80 tabular-nums py-2 pr-4 pb-10">
+              {new Date(entry.data['start date']).toLocaleDateString('en-US', {
+                month: 'short',
+                day: '2-digit',
+              })} –
+              {new Date(entry.data['end date']).toLocaleDateString('en-US', {
                 month: 'short',
                 day: '2-digit',
               })}
             </div>
             <div class="list-col-grow">
               <div class="text-lg">
-                <a href={`/news/${entry.data.slug}`} >
-                  {entry.data.title}
+                <a href={`/events/${entry.data.id}`}>
+                  {entry.data['event title']}
                 </a>
               </div>
-              <div class="uppercase font-semibold">{
-                entry.data.authors.map((a) => (
-                <span>{a}</span>
-              ))}</div>
+              <div class="uppercase font-semibold">{entry.data.location}</div>
             </div>
           </li>
         ))}
@@ -107,7 +109,7 @@ for (let i = 1; i <= totalPages; i++) {
             <button class="join-item btn btn-disabled">…</button>
           ) : (
             <a
-              href={`/news/${p === 1 ? '1' : p}`}
+              href={`/events/${p === 1 ? '1' : p}`}
               class={`join-item btn${p === currentPage ? ' btn-active' : ''}`}
               aria-current={p === currentPage ? 'page' : undefined}
             >

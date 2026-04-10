@@ -1,0 +1,42 @@
+---
+import { Link2, Share2 } from "@lucide/astro";
+
+const { url } = Astro.props;
+
+const message = `From MITH’s website: https://mith.umd.edu/${url}`; 
+const encodedMessage = encodeURIComponent(message);
+const encodedUrl = encodeURIComponent(`https://mith.umd.edu/${url}`);
+const blueskyLink = `https://bsky.app/intent/compose?text=${encodedMessage}`;
+---
+
+<div class="border-b-8 border-b-accent py-4 flex justify-between items-center my-8">
+  <slot/>
+  <span>
+    <slot name="actions"/>
+    <div class="tooltip" data-tip="Share" slot="actions">
+      <button class="btn btn-ghost btn-square" aria-label="Share this content" popovertarget="pop-share" style="anchor-name:--anchor-share"><Share2 /></button>
+    </div>
+    <ul class="dropdown dropdown-end menu w-52 rounded-box bg-base-100 shadow-sm"
+      popover id="pop-share" style="position-anchor:--anchor-share">
+      <li><a href={blueskyLink} target="_blank">
+        <svg width="15" height="15" viewBox="0 0 568 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M123.121 33.6637C188.241 82.5526 258.281 181.681 284 234.873C309.719 181.681 379.759 82.5526 444.879 33.6637C491.866 -1.61183 568 -28.9064 568 57.9464C568 75.2916 558.055 203.659 552.222 224.501C531.947 296.954 458.067 315.434 392.347 304.249C507.222 323.8 536.444 388.56 473.333 453.32C353.473 576.312 301.061 422.461 287.631 383.039C285.169 375.812 284.017 372.431 284 375.306C283.983 372.431 282.831 375.812 280.369 383.039C266.939 422.461 214.527 576.312 94.6667 453.32C31.5556 388.56 60.7778 323.8 175.653 304.249C109.933 315.434 36.0535 296.954 15.7778 224.501C9.94525 203.659 0 75.2916 0 57.9464C0 -28.9064 76.1345 -1.61183 123.121 33.6637Z" fill="black"/>
+        </svg> BlueSky</a></li>
+      <li><a href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank">
+        <svg width="15" height="15" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg> Facebook</a></li>
+      <li><a href={`https://www.linkedin.com/shareArticle?url=${encodedUrl}&Source=${encodedUrl}`} target="_blank">
+        <svg width="15" height="15" class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06" viewBox="0 0 24 24" data-testid="LinkedInIcon"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>LinkedIn</a></li>
+      <li><button id="copy-link-btn" class="w-full"><Link2 size={15} /><span>Copy link</span></button></li>
+    </ul>
+  </span>
+</div>
+
+<script define:vars={{ url }}>
+  document.getElementById('copy-link-btn').addEventListener('click', async () => {
+    const fullUrl = `https://mith.umd.edu/${url}`;
+    await navigator.clipboard.writeText(fullUrl);
+    const btnContent = document.querySelector('#copy-link-btn span');
+    btnContent.textContent = '✓ Copied!';
+    setTimeout(() => btnContent.textContent = `Copy link`, 2000);
+  });
+</script>

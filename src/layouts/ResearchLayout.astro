@@ -3,6 +3,8 @@ import type { CollectionEntry } from 'astro:content';
 import PageLayout from './PageLayout.astro'
 import { Image } from 'astro:assets';
 import FigurePlaceHolder from '../components/FigurePlaceHolder.astro';
+import { Mail, Globe } from '@lucide/astro';
+import PubInfo from '../components/PubInfo.astro';
 
 interface Props {
   entry: CollectionEntry<'research'>;
@@ -25,17 +27,19 @@ const { data } = entry;
       alt={data["image alt"] || "Project logo or representative image."}
       class="w-full object-contain" />
   ) : <FigurePlaceHolder/>}
-
+  <PubInfo url={`${active}/${data.slug}`}>
+    <span>{data.active === "TRUE" && <div class="badge badge-xl badge-neutral">active</div>}
+    <strong>{data["year start"]}
+      {data["year end"] && (
+        <span> – {data["year end"]}</span>
+      )}
+    </strong></span>
+  </PubInfo>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     <article class="col-span-2">
       <Fragment set:html={data.description} />
     </article>
     <aside class="p-6">
-      <strong>{data["year start"]}
-        {data["year end"] && (
-          <span> – {data["year end"]}</span>
-        )}
-      </strong>
       {data["linked directors"] && data["linked directors"].length > 0 &&
       <h3>Directors</h3>
       <ul class="list list-none p-0">

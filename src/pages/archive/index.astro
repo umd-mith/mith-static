@@ -1,48 +1,17 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
-import { Image } from 'astro:assets'
-import { experimental_AstroContainer } from 'astro/container';
-import DD from '../../assets/images/dd.jpg'
-import WA from '../../assets/images/webarchive.png'
+import { Image } from 'astro:assets';
+import DD from '../../assets/images/dd.jpg';
+import WA from '../../assets/images/webarchive.png';
+import MITHCoffee from '../../assets/images/mith-coffee.jpg';
+import MITHOldHeader from '../../assets/images/mith-pattern-header.png';
 import PageLayout from '../../layouts/PageLayout.astro';
-import FigurePlaceHolder from '../../components/FigurePlaceHolder.astro';
-import PastResearch from '../../components/PastResearch.svelte';
 
 const pages = await getCollection('pages');
 const entry = pages.find((e: CollectionEntry<'pages'>) => e.data.slug === 'archive');
 if (!entry) throw new Error('No archive entry found in pages collection');
 
 const { Content } = await render(entry);
-
-const research = await getCollection("research");
-
-// filter research to only include past research projects
-const pastResearch = research.filter((r: CollectionEntry<"research">) => r.data.active === "FALSE").sort(
-  (a: CollectionEntry<"research">, b: CollectionEntry<"research">) => {
-  const nameA = new Date(a.data['year start']);
-  const nameB = new Date(b.data['year start']);
-  if (nameA < nameB) return 1;
-  if (nameA > nameB) return -1;
-  return 0;
-});
-
-// Serialize only the fields the Svelte component needs
-const projectsForComponent = pastResearch.map((r: CollectionEntry<"research">) => ({
-  slug: r.data.slug,
-  title: r.data.title,
-  subtitle: r.data.subtitle,
-  "year start": r.data['year start'],
-  "year end": r.data['year end'],
-  excerpt: r.data.excerpt,
-  image: r.data.image,
-  topics: r.data.topics,
-  methods: r.data.methods,
-  disciplines: r.data.disciplines,
-  "research types": r.data['research types'],
-}));
-
-const container = await experimental_AstroContainer.create();
-const placeholderHtml = await container.renderToString(FigurePlaceHolder);
 ---
 
 <PageLayout title={entry.data.title} active="archive">
@@ -65,6 +34,21 @@ const placeholderHtml = await container.renderToString(FigurePlaceHolder);
     </div>
     <div class="card bg-base-100 w-full shadow-sm">
       <figure class="h-80">
+        <a href="./past-research" aria-hidden="true" tabindex="-1" class="block w-full h-full">
+          <Image
+            src={MITHOldHeader}
+            loading="eager"
+            alt=""
+            class="w-full h-full object-fit" />
+        </a>
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title"><a href="/past-research">Past Research Projects</a></h2>
+        <p>Explore past research projects organized by topic, methods, and disciplines.</p>
+      </div>
+    </div>
+    <div class="card bg-base-100 w-full shadow-sm">
+      <figure class="h-80">
         <a href="https://archive.mith.umd.edu" aria-hidden="true" tabindex="-1" class="block w-full h-full">
           <Image
             src={WA}
@@ -78,9 +62,20 @@ const placeholderHtml = await container.renderToString(FigurePlaceHolder);
         <p>MITH Web Archive is a curated archive of legacy Digital Humanities research projects developed by MITH between approximately 2005–2020. These sites are preserved as historical scholarly artifacts and are no longer actively maintained or updated. They reflect historically specific platforms, design conventions, and technical infrastructures.</p>
       </div>
     </div>
-  </section>
-  <section>
-    <h2 id="past-research-projects">Past Research Projects</h2>
-    <PastResearch client:load projects={projectsForComponent} placeholderHtml={placeholderHtml} />
+    <div class="card bg-base-100 w-full shadow-sm">
+      <figure class="h-80">
+        <a href="/events/1" aria-hidden="true" tabindex="-1" class="block w-full h-full">
+          <Image
+            src={MITHCoffee}
+            loading="eager"
+            alt=""
+            class="w-full h-full object-fit" />
+        </a>
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title"><a href="/events/1">Past Events</a></h2>
+        <p>Explore MITH’s record of past events.</p>
+      </div>
+    </div>
   </section>
 </PageLayout>

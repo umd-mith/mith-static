@@ -4,6 +4,7 @@ import type { CollectionEntry } from "astro:content";
 import { Image } from 'astro:assets'
 import PageLayout from "../../layouts/PageLayout.astro";
 import {Mail, Globe} from "@lucide/astro";
+import PubInfo from "../../components/PubInfo.astro";
 
 export async function getStaticPaths() {
   const people = await getCollection("people");
@@ -21,11 +22,22 @@ interface Props {
 }
 
 const { person } = Astro.props;
-const { name, title, bio } = person.data;
+const { name, title, bio, slug } = person.data;
 ---
 
 <PageLayout title={name} active="people">
-  <section class="grid grid-cols-1 sm:grid-cols-5 gap-4">
+  <h2>{title.join(" | ")}</h2>
+  <PubInfo url={`people/${slug}`}>
+    <div class="flex flex-wrap gap-4 mb-4">
+      {person.data.email && (
+        <span class="flex gap-4 items-center"><Mail /><a href={`mailto:${person.data.email}`} class="link">{person.data.email}</a></span>
+      )}
+      {person.data.website && (
+        <span class="flex gap-4 items-center"><Globe /><a href={person.data.website} class="link">{person.data.website}</a></span>
+      )}
+    </div>
+  </PubInfo>
+  <section class="grid grid-cols-1 lg:grid-cols-5 gap-4">
     {person.data.headshot && person.data.headshot.length > 0 && (
       <figure class="h-85 w-85">
         <Image
@@ -37,16 +49,7 @@ const { name, title, bio } = person.data;
           class="w-full h-full object-cover" />
       </figure>
     )}
-    <div class="sm:col-span-3 sm:col-start-3">
-      <h2>{title.join(" | ")}</h2>
-      <div class="flex flex-wrap gap-4 mb-4">
-        {person.data.email && (
-          <span class="flex gap-4 items-center"><Mail /><a href={`mailto:${person.data.email}`} class="link">{person.data.email}</a></span>
-        )}
-        {person.data.website && (
-          <span class="flex gap-4 items-center"><Globe /><a href={person.data.website} class="link">{person.data.website}</a></span>
-        )}
-      </div>
+    <div class="lg:col-span-3 lg:col-start-3">
       <Fragment set:html={bio} />
     </div>
   </section>

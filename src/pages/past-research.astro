@@ -1,0 +1,41 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { experimental_AstroContainer } from 'astro/container';
+import PageLayout from '../layouts/PageLayout.astro';
+import FigurePlaceHolder from '../components/FigurePlaceHolder.astro';
+import PastResearch from '../components/PastResearch.svelte';
+
+const research = await getCollection("research");
+
+// filter research to only include past research projects
+const pastResearch = research.filter((r: CollectionEntry<"research">) => r.data.active === "FALSE").sort(
+  (a: CollectionEntry<"research">, b: CollectionEntry<"research">) => {
+  const nameA = new Date(a.data['year start']);
+  const nameB = new Date(b.data['year start']);
+  if (nameA < nameB) return 1;
+  if (nameA > nameB) return -1;
+  return 0;
+});
+
+// Serialize only the fields the Svelte component needs
+const projectsForComponent = pastResearch.map((r: CollectionEntry<"research">) => ({
+  slug: r.data.slug,
+  title: r.data.title,
+  subtitle: r.data.subtitle,
+  "year start": r.data['year start'],
+  "year end": r.data['year end'],
+  excerpt: r.data.excerpt,
+  image: r.data.image,
+  topics: r.data.topics,
+  methods: r.data.methods,
+  disciplines: r.data.disciplines,
+  "research types": r.data['research types'],
+}));
+
+const container = await experimental_AstroContainer.create();
+const placeholderHtml = await container.renderToString(FigurePlaceHolder);
+---
+
+<PageLayout title="Past Research Projects" active="archive">
+    <PastResearch client:load projects={projectsForComponent} placeholderHtml={placeholderHtml} />
+</PageLayout>

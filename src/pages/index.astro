@@ -1,12 +1,45 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import PageLayout from '../layouts/PageLayout.astro';
+import { getImage } from 'astro:assets';
+import MITHCoffee from '../assets/images/mith-coffee.jpg'
 
 const pages = await getCollection('pages');
 const entry = pages.find((e: CollectionEntry<'pages'>) => e.data.slug === 'index');
 if (!entry) throw new Error('No index entry found in pages collection');
 
 const { Content } = await render(entry);
+
+const labs = await getCollection("labs");
+const activeResearch = (await getCollection("research")).filter(r => r.data.active === "TRUE");
+const pastResearch = (await getCollection("research")).filter(r => r.data.active === "FALSE");
+
+interface Payload {title: string; slug: string, image?: string, alt?: string};
+
+const activePayload: Payload[] = [];
+
+const placeHolderImg = await getImage({src: MITHCoffee})
+
+activePayload.push(...labs.map(e => ({
+  title: e.data.title,
+  slug: e.data['external link'] || `/labs/${e.data.id}`,
+  image: e.data.image?.[0].url || placeHolderImg.src,
+  alt: e.data['image alt'],
+})));
+activePayload.push(...activeResearch.map(e => ({
+  title: e.data.title,
+  slug: `/research/${e.data.id}`,
+  image: e.data.image?.[0].url || placeHolderImg.src,
+  alt: e.data['image alt'],
+})));
+
+const archivePayload: Payload[] = pastResearch.map(e => ({
+  title: e.data.title,
+  slug: `/archive/${e.data.id}`,
+  image: e.data.image?.[0].url || placeHolderImg.src,
+  alt: e.data['image alt'],
+}))
+
 ---
 
 <PageLayout title={entry.data.title} active="index" showTitle={false}>
@@ -14,33 +47,25 @@ const { Content } = await render(entry);
     <section><Content /></section>
     <section class="justify-self-end not-prose">
       <div class="card bg-base-100 w-96 shadow-sm mb-8">
-        <figure class="h-40">
-          <img
-            src="https://mith.umd.edu/static/546d9202d06dddb774053499a504b299/8e19d/header_uta..webp"
-            alt="Unlocking the Airwaves Logo" />
+        <figure class="h-40" id="rl-card-img">
         </figure>
         <div class="card-body">
           <h2 class="card-title"><a href="/research">Research & Labs</a></h2>
-          <!-- randomize research and labs -->
-          <p>Learn more about our research initiatives and programs. Here is an example.</p>
-          <p><strong>Unlocking the Airwaves</strong> Unlocking the Airwaves: Revitalizing an Early Public and Educational Radio Collection is a multi-institutional collaboration between MITH, the University of Wisconsin-Madison, [...] </p>
+          <p class="pb-4">Learn more about our research initiatives and programs like <span id="rl-card-name"></span></p>
           <div class="card-actions justify-end">
             <a class="btn btn-accent text-base-content" href="/reserach">Explore Research & Labs</a>
           </div>
         </div>
       </div>
       <div class="card bg-base-100 w-96 shadow-sm">
-        <figure class="h-40">
-          <img
-            src="https://mith.umd.edu/static/b2e2eb5737f528e95c7ea423fc8a34a4/9a4d4/event_frankenreads..webp"
-            alt="Frankenreads Event Logo" />
+        <figure class="h-40" id="archive-card-img">
         </figure>
         <div class="card-body">
           <h2 class="card-title">From the Archive</h2>
           <p>MITH has been leading Digital Humanities research at the University of Maryland for over 20 years. 
             Explore our archive of resources and past events.</p>
             <!-- randomize archive research -->
-          <p class="italic">Pictured: All-day Frankenstein Reading at the NEH</p>
+          <p class="italic pb-4">Pictured: <span id="archive-card-name"></span></p>
           <div class="card-actions justify-end">
             <a class="btn btn-accent text-base-content" href="/archive">Explore the Archive</a>
           </div>
@@ -49,3 +74,23 @@ const { Content } = await render(entry);
     </section>
   </div>
 </PageLayout>
+
+<script define:vars={{ activePayload, archivePayload }}>
+  function escapeHTML(str) {
+    const map = {
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '/': '&#x2F;'
+    };
+    const reg = /[&<>"'/]/g;
+    return str.replace(reg, (match) => map[match]);
+  }
+  const activePick = activePayload[Math.floor(Math.random() * activePayload.length)];
+  document.getElementById("rl-card-img").innerHTML = `<img src="${activePick.image}" alt="${activePick.alt}"/>`
+  document.getElementById("rl-card-name").innerHTML = `<a href="${activePick.slug}" class="link">${escapeHTML(activePick.title)}</a>`
+
+  const archivePick = archivePayload[Math.floor(Math.random() * activePayload.length)];
+  document.getElementById("archive-card-img").innerHTML = `<img src="${archivePick.image}" alt="${archivePick.alt}"/>`
+  document.getElementById("archive-card-name").innerHTML = `<a href="${archivePick.slug}" class="link">${escapeHTML(archivePick.title)}</a>`
+</script>

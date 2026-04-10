@@ -182,8 +182,10 @@ const digital_dialogues = defineCollection({
       "speaker affiliations": "Identities",
       "linked posts": "Posts",
       "linked links": "Links",
+      partners: "Partners_Sponsors",
+      sponsors: "Partners_Sponsors",
     },
-     linkedMarkdownFields: {
+    linkedMarkdownFields: {
       "speakers": ["bio"],
     },
     linkedAttachmentFields: {
@@ -224,4 +226,83 @@ const digital_dialogues = defineCollection({
   }),
 });
 
-export const collections = { pages, news, people, labs, research, digital_dialogues };
+const events = defineCollection({
+  loader: airtableLoader({
+    table: "Events",
+    view: "Other Events",
+    markdownFields: ["description"],
+    attachmentFields: ["image"],
+    linkedFields: {
+      "linked research item": "Research",
+      speakers: "People",
+      "speaker affiliations": "Identities",
+      "linked links": "Links",
+      "linked posts": "Posts",
+      "topics": "Topics",
+      "methods": "Taxonomy",
+      "disciplines": "Taxonomy",
+      "partners": "Partners_Sponsors",
+      "sponsors": "Partners_Sponsors",
+    },
+    linkedMarkdownFields: {
+      "speakers": ["bio"],
+    },
+    linkedAttachmentFields: {
+      speakers: ["headshot"],
+    },
+  }),
+ 
+  schema: z.object({
+    id:    z.string(),
+    "event type": z.string(),
+    "event title": z.string(),
+    "description": z.string(),
+    "start date": z.date(),
+    "end date": z.date(),
+     image:   z.array(attachment).optional(),
+    "image alt": z.string().optional(),
+    "linked research item": z.array(z.object({
+      title: z.string(),
+      slug: z.string()
+    })).optional(),
+    speakers:   z.array(z.object({
+      name: z.string(),
+      slug: z.string(),
+      website: z.string().optional(),
+      headshot: z.array(attachment).optional(),
+      bio: z.string().optional()
+    })).optional(),
+    "speaker affiliations":   z.array(z.object({
+      "full affiliation": z.string()
+    })).optional(),
+    partners:   z.array(z.object({
+      name: z.string(),
+      website: z.url().optional(),
+    })).optional(),
+    sponsors:   z.array(z.object({
+      name: z.string(),
+      website: z.url().optional(),
+    })).optional(),
+    location: z.string().optional(),
+    "linked links": z.array(z.object({
+      title: z.string(),
+      url: z.url()
+    })).optional(),
+    "linked posts": z.array(z.object({
+      "post title": z.string(),
+      "post date": z.date(),
+      slug: z.string(),
+    })).optional(),
+    topics: z.array(z.object({
+      topic: z.string(),
+    })).optional(),
+    methods: z.array(z.object({
+      name: z.string(),
+    })).optional(),
+    disciplines: z.array(z.object({
+      name: z.string(),
+    })).optional(),
+  }),
+});
+
+export const collections = { pages, news, people, labs, research, digital_dialogues, events };
