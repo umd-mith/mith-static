@@ -1,7 +1,7 @@
 ---
 import ThemeController from "../components/ThemeController.astro";
 import { Menu } from "@lucide/astro";
-import menuItems from "../data/nav.json";
+import menu from "../data/nav.json";
 import SearchModal from "./SearchModal.svelte";
 
 const { active } = Astro.props;
@@ -12,7 +12,7 @@ const { active } = Astro.props;
     2xl:grid-cols-[1fr_var(--container-5xl)_1fr] 2xl:mx-auto 2xl:max-w-full
     ">
     <ol class="lg:flex hidden 2xl:col-start-2 justify-between h-16">
-      {menuItems.map(item => 
+      {menu.items.map(item => 
         <li>
           <a class={`
           flex h-16 items-center transition duration-500 ease-in-out border-b-6 uppercase cursor-pointer text-2xl
@@ -37,7 +37,7 @@ const { active } = Astro.props;
             <span class="sr-only">close sidebar navigation</span>
           </label>
           <ol class="menu bg-base-100 w-screen p-4 mt-28 text-2xl leading-20 sm:grid sm:grid-cols-2 sm:gap-2">
-            {menuItems.map(item => 
+            {menu.items.map(item => 
               <li><a class={`uppercase hover:text-accent px-4 py-2 inline-block cursor-pointer ${'/' + active === item.href ? 'text-accent' : 'hover:text-accent'} `} href={item.href}>{item.name}</a></li>
             )}
           </ol>

@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+local_backend: true
+backend:
+  name: github
+  repo: umd-mith/mith-static
+  branch: astro-2026
+
+# Optional: Enable editorial workflow for draft/review/publish states
+# publish_mode: editorial_workflow
+
+# Media storage configuration
+media_folder: "src/assets/images"
+
+# Content collections
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "src/content/pages"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Path (Slug)"
+        name: "slug"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "new"
+    label: "News"
+    folder: "src/content/news"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Path (Slug)"
+        name: "slug"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: MM/DD/YYYY HH:mm
+      - name: authors
+        label: Authors
+        widget: list
+        field:
+          name: author
+          label: Author
+          widget: string
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: settings
+    label: Site Settings
+    files:
+      - name: navbar
+        label: Main Menu (navbar)
+        file: /src/data/nav.json
+        format: json
+        fields:
+          - name: items
+            label: Nav Items
+            widget: list
+            minimize_collapsed: true
+            fields:
+              - { name: name, label: Name }
+              - { name: href, label: Href }
+
+
+
