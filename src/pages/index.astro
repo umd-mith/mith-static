@@ -53,7 +53,7 @@ const archivePayload: Payload[] = pastResearch.map(e => ({
           <h2 class="card-title"><a href="/research">Research & Labs</a></h2>
           <p class="pb-4">Learn more about our research initiatives and programs like <span id="rl-card-name"></span></p>
           <div class="card-actions justify-end">
-            <a class="btn btn-accent text-base-content" href="/reserach">Explore Research & Labs</a>
+            <a class="btn btn-accent text-base-content" href="/research">Explore Research & Labs</a>
           </div>
         </div>
       </div>
@@ -85,10 +85,10 @@ const archivePayload: Payload[] = pastResearch.map(e => ({
     return str.replace(reg, (match) => map[match]);
   }
   const activePick = activePayload[Math.floor(Math.random() * activePayload.length)];
-  document.getElementById("rl-card-img").innerHTML = `<img src="${activePick.image}" alt="${activePick.alt}"/>`
+  document.getElementById("rl-card-img").innerHTML = `<img src="${activePick.image}" alt="${escapeHTML(activePick.alt ?? '')}"/>`
   document.getElementById("rl-card-name").innerHTML = `<a href="${activePick.slug}" class="link">${escapeHTML(activePick.title)}</a>`
 
   const archivePick = archivePayload[Math.floor(Math.random() * archivePayload.length)];
-  document.getElementById("archive-card-img").innerHTML = `<img src="${archivePick.image}" alt="${archivePick.alt}"/>`
+  document.getElementById("archive-card-img").innerHTML = `<img src="${archivePick.image}" alt="${escapeHTML(archivePick.alt ?? '')}"/>`
   document.getElementById("archive-card-name").innerHTML = `<a href="${archivePick.slug}" class="link">${escapeHTML(archivePick.title)}</a>`
 </script>
