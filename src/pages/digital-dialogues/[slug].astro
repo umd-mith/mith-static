@@ -46,7 +46,7 @@ const { data } = entry;
       {data.location}
     </p></div>
   </PubInfo>
-  <div class="grid grid-cols-1 sm:grid-cols-2 not-prose">{data.speakers?.map((sp, i) => (
+  <div class="grid grid-cols-1 sm:grid-cols-2 not-prose gap-4">{data.speakers?.map((sp, i) => (
     <div class="card bg-base-100 w-96 shadow-sm">
       {sp.headshot?.[0] &&
         <figure>
@@ -65,16 +65,20 @@ const { data } = entry;
         }
         <div class="card-actions justify-start">
           {sp.website && <a href={sp.website} class="btn btn-accent text-base-content">Website</a>}
-          {sp.bio && <a href={`#${sp.slug}`} class="btn btn-accent text-base-content">Read bio</a>}
+          {(data["speaker affiliations"]?.[i]?.bio || data["speaker affiliations"]?.[i]?.["affiliation bio"] || data["speaker affiliations"]?.[i]?.["person bio"]) && <a href={`#${sp.slug}`} class="btn btn-accent text-base-content">Read bio</a>}
         </div>
       </div>
     </div>
   ))}</div>
   <article set:html={data.description} />
-  {data['speakers']?.map((sp) => (
-    <hr/>
-    <div id={sp.slug} set:html={sp.bio}/>
-  ))}
+  {data['speakers'].length > 0 && <h2>Speaker Bios</h2>}
+  {data['speakers']?.map((sp, i) => {
+    const bio = data["speaker affiliations"]?.[i]?.bio || data["speaker affiliations"]?.[i]?.["affiliation bio"] || data["speaker affiliations"]?.[i]?.["person bio"];
+    if (bio) return (
+      <div id={sp.slug} set:html={bio}/>
+      <hr/>
+    )
+  })}
   {data['vimeo id'] &&
   <h2>Media</h2>
   <div style="padding:56.25% 0 0 0; position:relative;">

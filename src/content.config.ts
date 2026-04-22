@@ -186,7 +186,7 @@ const digital_dialogues = defineCollection({
       sponsors: "Partners_Sponsors",
     },
     linkedMarkdownFields: {
-      "speakers": ["bio"],
+      "speaker affiliations": ["bio", "affiliation bio", "person bio"],
     },
     linkedAttachmentFields: {
       speakers: ["headshot"],
@@ -205,10 +205,12 @@ const digital_dialogues = defineCollection({
       slug: z.string(),
       website: z.string().optional(),
       headshot: z.array(attachment).optional(),
-      bio: z.string().optional()
     })).optional(),
     "speaker affiliations":   z.array(z.object({
-      "full affiliation": z.string()
+      "full affiliation": z.string(),
+      bio: z.string().optional(),
+      "affiliation bio": z.string().optional(),
+      "person bio": z.string().optional()
     })).optional(),
     location: z.string().optional(),
     "linked posts": z.array(z.object({
