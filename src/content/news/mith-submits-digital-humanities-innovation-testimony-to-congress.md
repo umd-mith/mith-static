@@ -6,9 +6,9 @@ slug: mith-submits-digital-humanities-innovation-testimony-to-congress
 ---
 The following was submitted to the Senate Appropriations Committee by MITH Associate Director Matthew Kirschenbaum. This was in response to an invited opportunity for researchers and innovators to give testimony for an April 29, 2014 hearing on how federal research dollars can help drive innovation.
 
-#### Public Witness Testimony
+## Public Witness Testimony
 
-# Submitted to the Senate Appropriations Committee
+## Submitted to the Senate Appropriations Committee
 
 ### Digital Humanities Innovation from NEH Funding
 

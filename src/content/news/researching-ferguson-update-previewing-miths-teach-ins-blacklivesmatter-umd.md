@@ -6,9 +6,9 @@ slug: researching-ferguson-update-previewing-miths-teach-ins-blacklivesmatter-um
 ---
 ## Tuesday January 27, 2015 at 12:30pm
 
-#### MITH Conference Room
+### MITH Conference Room
 
-#### 0301 Hornbake Library North
+### 0301 Hornbake Library North
 
 A MITH Digital Humanities Incubator Roundtable Discussion of our ongoing work with Event-Based Social Media Data and Network Analysis
 
