@@ -56,7 +56,7 @@ const activeResearch = research.filter((r: CollectionEntry<"research">) => r.dat
           ) : <FigurePlaceHolder />}
           <div class="card-body">
             <h3 class="card-title"><a href={lab.data["external link"]|| `/labs/${lab.data.id}`}>{lab.data.title}</a></h3>
-            {lab.data.subtitle && <h4>{lab.data.subtitle}</h4>}
+            {lab.data.subtitle && <h4 class="italic text-[16px]">{lab.data.subtitle}</h4>}
             <p>Led by {
               lab.data.directors?.map((d, i) => (
                 <>
@@ -91,7 +91,7 @@ const activeResearch = research.filter((r: CollectionEntry<"research">) => r.dat
           ) : <FigurePlaceHolder />}
           <div class="card-body">
             <h3 class="card-title"><a href={`/research/${project.data.slug}`}>{project.data.title}</a></h3>
-            {project.data.subtitle && <h4>{project.data.subtitle}</h4>}
+            {project.data.subtitle && <h4 class="italic text-[16px]">{project.data.subtitle}</h4>}
             <Fragment set:html={project.data.excerpt} />
           </div>
         </div>

@@ -2,7 +2,7 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import PageLayout from '../layouts/PageLayout.astro';
 import { getImage } from 'astro:assets';
-import MITHCoffee from '../assets/images/mith-coffee.jpg'
+import MITHCoffee from '../assets/images/mith-coffee.jpg';
 
 const pages = await getCollection('pages');
 const entry = pages.find((e: CollectionEntry<'pages'>) => e.data.slug === 'index');
@@ -10,36 +10,43 @@ if (!entry) throw new Error('No index entry found in pages collection');
 
 const { Content } = await render(entry);
 
-const labs = await getCollection("labs");
-const activeResearch = (await getCollection("research")).filter(r => r.data.active === "TRUE");
-const pastResearch = (await getCollection("research")).filter(r => r.data.active === "FALSE");
+const labs = await getCollection('labs');
+const activeResearch = (await getCollection('research')).filter(r => r.data.active === 'TRUE');
+const pastResearch  = (await getCollection('research')).filter(r => r.data.active === 'FALSE');
 
-interface Payload {title: string; slug: string, image?: string, alt?: string};
+interface Payload { title: string; slug: string; image?: string; alt?: string }
 
-const activePayload: Payload[] = [];
+const placeholderImg = await getImage({ src: MITHCoffee });
 
-const placeHolderImg = await getImage({src: MITHCoffee})
+const getImageSrc = async (url: string | undefined): Promise<string> => {
+  if (!url) return placeholderImg.src;
+  const img = await getImage({ src: url, inferSize: true, });
+  return img.src;
+};
 
-activePayload.push(...labs.map(e => ({
-  title: e.data.title,
-  slug: e.data['external link'] || `/labs/${e.data.id}`,
-  image: e.data.image?.[0].url || placeHolderImg.src,
-  alt: e.data['image alt'],
-})));
-activePayload.push(...activeResearch.map(e => ({
-  title: e.data.title,
-  slug: `/research/${e.data.id}`,
-  image: e.data.image?.[0].url || placeHolderImg.src,
-  alt: e.data['image alt'],
-})));
+const activePayload: Payload[] = await Promise.all([
+  ...labs.map(async e => ({
+    title: e.data.title,
+    slug: e.data['external link'] || `/labs/${e.data.id}`,
+    image: await getImageSrc(e.data.image?.[0]?.url),
+    alt: e.data['image alt'] ?? 'Project logo or representative image.',
+  })),
+  ...activeResearch.map(async e => ({
+    title: e.data.title,
+    slug: `/research/${e.data.id}`,
+    image: await getImageSrc(e.data.image?.[0]?.url),
+    alt: e.data['image alt'] ?? 'Project logo or representative image.',
+  })),
+]);
 
-const archivePayload: Payload[] = pastResearch.map(e => ({
-  title: e.data.title,
-  slug: `/archive/${e.data.id}`,
-  image: e.data.image?.[0].url || placeHolderImg.src,
-  alt: e.data['image alt'],
-}))
-
+const archivePayload: Payload[] = await Promise.all(
+  pastResearch.map(async e => ({
+    title: e.data.title,
+    slug: `/archive/${e.data.id}`,
+    image: await getImageSrc(e.data.image?.[0]?.url),
+    alt: e.data['image alt'] ?? 'Project logo or representative image.',
+  }))
+);
 ---
 
 <PageLayout title={entry.data.title} active="index" showTitle={false} titleSrOnly={true}>
@@ -85,10 +92,10 @@ const archivePayload: Payload[] = pastResearch.map(e => ({
     return str.replace(reg, (match) => map[match]);
   }
   const activePick = activePayload[Math.floor(Math.random() * activePayload.length)];
-  document.getElementById("rl-card-img").innerHTML = `<img src="${activePick.image}" alt="${escapeHTML(activePick.alt ?? '')}"/>`
+  document.getElementById("rl-card-img").innerHTML = `<img src="${activePick.image}" alt="${escapeHTML(activePick.alt)}"/>`
   document.getElementById("rl-card-name").innerHTML = `<a href="${activePick.slug}" class="link">${escapeHTML(activePick.title)}</a>`
 
   const archivePick = archivePayload[Math.floor(Math.random() * archivePayload.length)];
-  document.getElementById("archive-card-img").innerHTML = `<img src="${archivePick.image}" alt="${escapeHTML(archivePick.alt ?? '')}"/>`
+  document.getElementById("archive-card-img").innerHTML = `<img src="${archivePick.image}" alt="${escapeHTML(archivePick.alt)}"/>`
   document.getElementById("archive-card-name").innerHTML = `<a href="${archivePick.slug}" class="link">${escapeHTML(archivePick.title)}</a>`
 </script>
