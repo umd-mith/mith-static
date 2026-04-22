@@ -12,18 +12,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/svelte": "^8.0.4",
-    "@lucide/astro": "^1.7.0",
+    "@astrojs/svelte": "^8.0.5",
+    "@lucide/astro": "^1.8.0",
     "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.2.2",
+    "@tailwindcss/vite": "^4.2.4",
     "airtable": "^0.12.2",
-    "astro": "^6.1.4",
+    "astro": "^6.1.8",
     "astro-pagefind": "^1.8.6",
     "daisyui": "^5.5.19",
-    "pagefind": "^1.5.0",
+    "pagefind": "^1.5.2",
     "sharp": "^0.34.5",
-    "svelte": "^5.55.2",
-    "tailwindcss": "^4.2.2",
-    "typescript": "^5.9.3"
+    "svelte": "^5.55.4",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
   }
 }
