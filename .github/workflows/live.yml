@@ -1,4 +1,4 @@
-name: Deploy Astro to EC2
+name: Deploy Live Site to mith.umd.edu
 
 on:
   workflow_dispatch:
