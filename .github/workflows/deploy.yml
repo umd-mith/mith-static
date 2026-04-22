@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: astro-2026
+          ref: main
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
