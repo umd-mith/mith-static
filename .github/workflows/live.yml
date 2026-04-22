@@ -1,6 +1,7 @@
 name: Deploy Astro to EC2
 
-workflow_dispatch:
+on:
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
