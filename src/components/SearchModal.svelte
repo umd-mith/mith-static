@@ -88,6 +88,7 @@
         <input
           type="text"
           autocomplete="off"
+          aria-label="Search"
           placeholder="Type to search..."
           bind:value={query}
           on:input={handleInput}
