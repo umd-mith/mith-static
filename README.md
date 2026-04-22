@@ -1,43 +1,19 @@
-# Astro Starter Kit: Minimal
+# MITH Website
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+This is the code repository for the website of the Maryland Institute for Technology in the Humanities, University of Maryland College Park.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+https://mith.umd.edu
 
-## 🚀 Project Structure
+## Development
 
-Inside of your Astro project, you'll see the following folders and files:
+This is an Astro website. Use `pnpm` to build and develop the site.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Data
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Most data is stored on Airtable. You will need access to MITH's Airtable and you will need to set the following secrets: `AIRTABLE_MITH_BASE_ID` (the ID of the Airtable Base) and `AIRTABLE_TOKEN` (a personal access token that can be generated on the Airtable website).
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+News are stored as markdown files and can be edited manually or via the CMS.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## CMS
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+We use Sveltia CMS, accessible at `/admin`. You will need a GitHub Personal Access Token with `repo` write permissions to this repository in order to contribute content.
