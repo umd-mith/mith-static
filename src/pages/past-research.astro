@@ -1,14 +1,24 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { experimental_AstroContainer } from 'astro/container';
+import { getImage } from 'astro:assets';
+import MITHCoffee from '../assets/images/mith-coffee.jpg';
 import PageLayout from '../layouts/PageLayout.astro';
 import FigurePlaceHolder from '../components/FigurePlaceHolder.astro';
 import PastResearch from '../components/PastResearch.svelte';
 
 const research = await getCollection("research");
 
+const placeholderImg = await getImage({ src: MITHCoffee });
+
+const getImageSrc = async (url: string | undefined): Promise<string> => {
+  if (!url) return placeholderImg.src;
+  const img = await getImage({ src: url, inferSize: true, });
+  return img.src;
+};
+
 // filter research to only include past research projects
-const pastResearch = research.filter((r: CollectionEntry<"research">) => r.data.active === "FALSE").sort(
+const pastResearchProjects = research.filter((r: CollectionEntry<"research">) => r.data.active === "FALSE").sort(
   (a: CollectionEntry<"research">, b: CollectionEntry<"research">) => {
   const nameA = new Date(a.data['year start']);
   const nameB = new Date(b.data['year start']);
@@ -18,19 +28,22 @@ const pastResearch = research.filter((r: CollectionEntry<"research">) => r.data.
 });
 
 // Serialize only the fields the Svelte component needs
-const projectsForComponent = pastResearch.map((r: CollectionEntry<"research">) => ({
-  slug: r.data.slug,
-  title: r.data.title,
-  subtitle: r.data.subtitle,
-  "year start": r.data['year start'],
-  "year end": r.data['year end'],
-  excerpt: r.data.excerpt,
-  image: r.data.image,
-  topics: r.data.topics,
-  methods: r.data.methods,
-  disciplines: r.data.disciplines,
-  "research types": r.data['research types'],
-}));
+const projectsForComponent = await Promise.all(
+  pastResearchProjects.map(async (r: CollectionEntry<"research">) => ({
+    slug: r.data.slug,
+    title: r.data.title,
+    subtitle: r.data.subtitle,
+    "year start": r.data['year start'],
+    "year end": r.data['year end'],
+    excerpt: r.data.excerpt,
+    image: await getImageSrc(r.data.image?.[0]?.url),
+    alt: r.data['image alt'] ?? 'Project logo or representative image.',
+    topics: r.data.topics,
+    methods: r.data.methods,
+    disciplines: r.data.disciplines,
+    "research types": r.data['research types'],
+  }))
+);
 
 const container = await experimental_AstroContainer.create();
 const placeholderHtml = await container.renderToString(FigurePlaceHolder);

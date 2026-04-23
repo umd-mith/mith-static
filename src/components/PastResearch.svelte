@@ -11,7 +11,8 @@
     "year start": number;
     "year end"?: number;
     excerpt?: string;
-    image?: { url: string }[];
+    image?: string;
+    alt?: string;
     topics?: Topic[];
     methods?: Method[];
     disciplines?: Discipline[];
@@ -248,10 +249,10 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 not-prose">
       {#each filtered as project (project.slug)}
         <div class="card bg-base-100 w-full shadow-sm">
-          {#if project.image && project.image.length > 0}
+          {#if project.image}
             <figure class="h-80">
               <a href={`/archive/${project.slug}`} aria-hidden="true" tabindex="-1">
-                <img src={project.image[0].url} alt="" loading="eager" class="w-full h-full object-contain"/>
+                <img src={project.image} alt={project.alt} loading="eager" class="w-full h-full object-contain"/>
               </a>
             </figure>
           {:else}
