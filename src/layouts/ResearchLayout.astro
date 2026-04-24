@@ -39,9 +39,9 @@ const { data } = entry;
     <article class="col-span-2">
       <Fragment set:html={data.description} />
     </article>
-    <aside class="p-6">
+    <aside class="px-6">
       {data["linked directors"] && data["linked directors"].length > 0 &&
-      <h3>Directors</h3>
+      <h2 class="text-[1.5em] mt-6 mb-[0.6em] leading-2.5 font-semibold">Directors</h2>
       <ul class="list list-none p-0">
         {data["linked directors"]?.map((director, i) => (
           <li>{director["group type"].includes("Staff")
@@ -53,7 +53,7 @@ const { data } = entry;
         ))}
       </ul>}
       {data["linked participants"] && data["linked participants"].length > 0 &&
-      <h3>Participants</h3>
+      <h2 class="text-[1.5em] mt-[1em] mb-[0.6em] leading-2.5 font-semibold">Participants</h2>
       <ul class="list list-none p-0">
         {data["linked participants"]?.filter(p => p["group type"].includes("Staff") || p["group type"].includes("Past")).map((participant, i) => (
           <li>
@@ -69,7 +69,7 @@ const { data } = entry;
         ))}
       </ul>}
       {data["linked links"] && data["linked links"].length > 0 &&
-      <h3>Links</h3>
+      <h2 class="text-[1.5em] mt-[1em] mb-[0.6em] leading-2.5 font-semibold"Links</h2>
       <ul class="list list-none p-0">
         {data["linked links"]?.map(l => (
           <li>
@@ -79,7 +79,7 @@ const { data } = entry;
       </ul>
       }
       {data["linked posts"] && data["linked posts"].length > 0 &&
-      <h3>News</h3>
+      <h2 class="text-[1.5em] mt-[1em] mb-[0.6em] leading-2.5 font-semibold"News</h2>
       <ul class="list list-none p-0">
         {data["linked posts"]?.map(l => (
           <li>
@@ -90,7 +90,7 @@ const { data } = entry;
       </ul>
       }
       {data["linked partners"] && data["linked partners"].length > 0 &&
-      <h3>Partners</h3>
+      <h2 class="text-[1.5em] mt-[1em] mb-[0.6em] leading-2.5 font-semibold"Partners</h2>
       <ul class="list list-none p-0">
         {data["linked partners"]?.map(l => (
           <li>
@@ -100,7 +100,7 @@ const { data } = entry;
       </ul>
       }
       {data["linked sponsors"] && data["linked sponsors"].length > 0 &&
-      <h3>Sponsor</h3>
+      <h2 class="text-[1.5em] mt-[1em] mb-[0.6em] leading-2.5 font-semibold"Sponsors</h2>
       <ul class="list list-none p-0">
         {data["linked sponsors"]?.map(l => (
           <li>
