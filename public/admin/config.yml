@@ -4,7 +4,7 @@ local_backend: true
 backend:
   name: github
   repo: umd-mith/mith-static
-  branch: astro-2026
+  branch: main
 
 # Optional: Enable editorial workflow for draft/review/publish states
 # publish_mode: editorial_workflow
