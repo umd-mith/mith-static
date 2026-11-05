@@ -32,4 +32,4 @@ Which is one way of bringing me back to my vocation as a professor of English. H
 
 \--[Matthew Kirschenbaum](http://mkirschenbaum.wordpress.com/)
 
-\_editor's note: \_this post [originally appeared](http://dayofdigitalarchives.blogspot.com/2011/10/english-professor-among-archivists.html) at dayofdigitalarchives.blogspot.com on October 6, 2011.
+_editor's note:_ this post [originally appeared](http://dayofdigitalarchives.blogspot.com/2011/10/english-professor-among-archivists.html) at dayofdigitalarchives.blogspot.com on October 6, 2011.

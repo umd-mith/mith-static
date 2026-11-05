@@ -137,7 +137,7 @@
           <div class="collapse-content flex flex-wrap gap-2">
             {#each allTopics as topic}
               <label
-                class="badge badge-lg gap-2 cursor-pointer text-base-content"
+                class="badge sm:badge-lg h-auto py-1 leading-snug gap-2 cursor-pointer text-base-content"
                 class:badge-accent={selectedTopics.has(topic)}
                 class:badge-outline={!selectedTopics.has(topic)}
               >
@@ -162,7 +162,7 @@
           <div class="collapse-content flex flex-wrap gap-2">
             {#each allMethods as method}
               <label
-                class="badge badge-lg gap-2 cursor-pointer text-base-content"
+                class="badge sm:badge-lg h-auto py-1 leading-snug gap-2 cursor-pointer text-base-content"
                 class:badge-accent={selectedMethods.has(method)}
                 class:badge-outline={!selectedMethods.has(method)}
               >
@@ -187,7 +187,7 @@
           <div class="collapse-content flex flex-wrap gap-2">
             {#each allDisciplines as discipline}
               <label
-                class="badge badge-lg gap-2 cursor-pointer text-base-content"
+                class="badge sm:badge-lg h-auto py-1 leading-snug gap-2 cursor-pointer text-base-content"
                 class:badge-accent={selectedDisciplines.has(discipline)}
                 class:badge-outline={!selectedDisciplines.has(discipline)}
               >
@@ -212,7 +212,7 @@
           <div class="collapse-content flex flex-wrap gap-2">
             {#each allResearchTypes as researchType}
               <label
-                class="badge badge-lg gap-2 cursor-pointer text-base-content"
+                class="badge sm:badge-lg h-auto py-1 leading-snug gap-2 cursor-pointer text-base-content"
                 class:badge-accent={selectedResearchTypes.has(researchType)}
                 class:badge-outline={!selectedResearchTypes.has(researchType)}
               >

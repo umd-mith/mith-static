@@ -14,4 +14,4 @@ The second of these is still buggy (and the cause of both a couple of late night
 
 Next up: modifying the demo to present multi-column synopses, and linking in Talmudic and Commentary citations.
 
-_Hayim Lapin is Robert H. Smith Professor of Jewish Studies and Professor in the Department of History at the University of Maryland. He currently is completing a faculty fellowship at MITH. This post originally appeared at[ Digital Mishnah](http://www.digitalmishnah.org/uncategorized/housekeeping/) on May 24th, 2012._
+_Hayim Lapin is Robert H. Smith Professor of Jewish Studies and Professor in the Department of History at the University of Maryland. He currently is completing a faculty fellowship at MITH. This post originally appeared at [Digital Mishnah](http://www.digitalmishnah.org/uncategorized/housekeeping/) on May 24th, 2012._

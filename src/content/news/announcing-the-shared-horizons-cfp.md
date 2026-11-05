@@ -6,9 +6,9 @@ slug: announcing-the-shared-horizons-cfp
 ---
 Shared Horizons solicits applications to attend this two-day National Endowment for the Humanities-funded Symposium
 
-**Date: **Wednesday, April 10- Friday, April 12, 2013 **Location: **University of Maryland, College Park, Maryland USA
+**Date:** Wednesday, April 10- Friday, April 12, 2013 **Location:** University of Maryland, College Park, Maryland USA
 
-**Applications Due: **December 15, 2012 _(please note the revised deadline)_
+**Applications Due:** December 15, 2012 _(please note the revised deadline)_
 
 The [Maryland Institute for Technology in the Humanities](http://mith.umd.edu) (MITH), working in cooperation with the [Office of Digital Humanities](http://www.neh.gov/divisions/odh) of the [National Endowment for the Humanities](http://www.neh.gov), the [National Library of Medicine](http://www.nlm.nih.gov/) of the [National Institutes for Health](http://www.nih.gov), and the [Research Councils UK](http://www.rcuk.ac.uk/), will host a two-day symposium to: (1) address questions about collaboration, research methodologies, and the interpretation of evidence arising from the interdisciplinary opportunities in this burgeoning area of biomedical-driven humanities scholarship; (2) to investigate the current state of the field; and (3) to facilitate future research collaborations between the humanities and biomedical sciences.
 

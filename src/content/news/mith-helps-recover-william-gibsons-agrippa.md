@@ -11,9 +11,9 @@ slug: mith-helps-recover-william-gibsons-agrippa
 
 Agrippa (a book of the dead) appeared in 1992 as a collaboration between artist Dennis Ashbaugh, author William Gibson, and publisher Kevin Begos, Jr. On December 9, 2008--the sixteenth anniversary of the original "Transmission" event debuting Agrippa--The Agrippa Files ([http://agrippa.english.ucsb.edu](http://agrippa.english.ucsb.edu/)) announces the release of two major new discoveries for scholars and fans:
 
-\* An emulated "run" of the entire original Agrippa poem, made possible by the forensic recovery of the code containing Gibson's text from a mint condition Agrippa diskette loaned by collector Allan Chasanoff. This is the first public view of Agrippa in its original incarnation (that is, its custom-made behaviors and interface) since 1992. ([direct link](http://agrippa.english.ucsb.edu/category/the-book-subcategories/the-poem-running-in-emulation))
+- An emulated "run" of the entire original Agrippa poem, made possible by the forensic recovery of the code containing Gibson's text from a mint condition Agrippa diskette loaned by collector Allan Chasanoff. This is the first public view of Agrippa in its original incarnation (that is, its custom-made behaviors and interface) since 1992. ([direct link](http://agrippa.english.ucsb.edu/category/the-book-subcategories/the-poem-running-in-emulation))
 
-\* An hour's worth of never-before-seen footage from the December 9, 1992, public debut of Agrippa at the Americas Society in New York City during the "Transmission" event. This footage, shot by "Templar, Rosehammer, and Pseudophred" is the source of the transcription of the text that was released online within hours of the event.
+- An hour's worth of never-before-seen footage from the December 9, 1992, public debut of Agrippa at the Americas Society in New York City during the "Transmission" event. This footage, shot by "Templar, Rosehammer, and Pseudophred" is the source of the transcription of the text that was released online within hours of the event.
 
 ([direct link](http://agrippa.english.ucsb.edu/category/documents-subcategories/the-hack))
 

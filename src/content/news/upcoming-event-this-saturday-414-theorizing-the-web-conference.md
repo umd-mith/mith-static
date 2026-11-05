@@ -6,7 +6,7 @@ slug: upcoming-event-this-saturday-414-theorizing-the-web-conference
 ---
 [![Theorizing the Web Flyer](../images/2012-04-ttw12_promo_flyer-980x757.jpg)](http://mith.umd.edu/wp-content/uploads/2012/04/ttw12_promo_flyer.pdf)
 
-This Saturday, April 14th the Maryland Institute for Technology in the Humanities will be co-sponsoring the second annual Theorizing the Web Conference along with the [Department of Sociology](http://www.bsos.umd.edu/socy/), [Cyborgology](http://www.cyborgology.org/), and the[ iSchool](http://ischool.umd.edu/). It should be a fantastic event. Come on out!
+This Saturday, April 14th the Maryland Institute for Technology in the Humanities will be co-sponsoring the second annual Theorizing the Web Conference along with the [Department of Sociology](http://www.bsos.umd.edu/socy/), [Cyborgology](http://www.cyborgology.org/), and the [iSchool](http://ischool.umd.edu/). It should be a fantastic event. Come on out!
 
 **THEORIZING THE WEB CONFERENCE** **APRIL 14, 2012** **UNIVERSITY OF MARYLAND** [cyborgology.org/theorizingtheweb](http://web.archive.org/web/20140705121326/http://www.cyborgology.org:80/theorizingtheweb/2012/) #TtW12
 

@@ -14,7 +14,7 @@ The wireframes I have created (please pardon the rough work of a first-time wire
 
 [![Wireframe for letter viewer](http://mith.umd.edu/wp-content/uploads/2012/04/Letter-Viewer.jpg "Letter Viewer")](../images/2012-04-Letter-Viewer.jpg)
 
-The Letter Viewer’s multiple display pane model enables the visitor to view many interpretations of a letter simultaneously by clicking on a word (“Image,” “Transcript,” “Author,” “Scholar,” “Curator,” “Reader”) in the horizontal navigation bar under the letter title and dragging it to a display pane. I envision the Letter Viewer existing in an expansive HTML5-enabled plane like those of the[ Mapping the Republic of Letters](https://republicofletters.stanford.edu/) project or the web-based[ Prezi](http://prezi.com/your/) software. Side-by-side comparisons of image and transcription are just the beginning of the opportunities afforded by this interface.
+The Letter Viewer’s multiple display pane model enables the visitor to view many interpretations of a letter simultaneously by clicking on a word (“Image,” “Transcript,” “Author,” “Scholar,” “Curator,” “Reader”) in the horizontal navigation bar under the letter title and dragging it to a display pane. I envision the Letter Viewer existing in an expansive HTML5-enabled plane like those of the [Mapping the Republic of Letters](https://republicofletters.stanford.edu/) project or the web-based [Prezi](http://prezi.com/your/) software. Side-by-side comparisons of image and transcription are just the beginning of the opportunities afforded by this interface.
 
 The Author view presents an interactive timeline display that illuminates information about a letter in the context of Porter’s biography and bibliography:
 

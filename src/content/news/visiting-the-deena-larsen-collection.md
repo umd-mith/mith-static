@@ -30,9 +30,9 @@ While talking about the _DLC_ with Neil, he was nice enough to invite me to post
 
 I hope that you will find these posts useful and will make time to visit _The Deena Larsen Collection_ at MITH soon.
 
-**Up next: **_The Deena Larsen Collection_ as a Research Test Bed
+**Up next:** _The Deena Larsen Collection_ as a Research Test Bed
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+---
 
 Want to schedule a visit to the _DLC_? Use the form at <http://mith.umd.edu/larsen/contact>
 

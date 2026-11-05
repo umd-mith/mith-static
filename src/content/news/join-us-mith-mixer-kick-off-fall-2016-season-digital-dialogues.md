@@ -4,7 +4,7 @@ authors: [Stephanie Sapienza]
 date: "9/8/2016 14:22"
 slug: join-us-mith-mixer-kick-off-fall-2016-season-digital-dialogues
 ---
-Doing digital scholarly work, or curious about the digital humanities and related digital studies? The [Maryland Institute for Technology in the Humanities](http://mith.umd.edu/) (MITH) is a digital humanities center located right at the heart of campus in Hornbake Library. During the semester, MITH hosts a signature event series, Digital Dialogues, featuring talks by local and visiting scholars on a wide variety of topics related to the digital humanities. The [Fall 2016 season](http://mith.umd.edu/digital-dialogues/schedule/) of Digital Dialogues starts soon on October 4th, but first, to kick things off, MITH would like to hold a pre-launch meet-up on **Tuesday September 27th at 12:30pm **for interested students and faculty.
+Doing digital scholarly work, or curious about the digital humanities and related digital studies? The [Maryland Institute for Technology in the Humanities](http://mith.umd.edu/) (MITH) is a digital humanities center located right at the heart of campus in Hornbake Library. During the semester, MITH hosts a signature event series, Digital Dialogues, featuring talks by local and visiting scholars on a wide variety of topics related to the digital humanities. The [Fall 2016 season](http://mith.umd.edu/digital-dialogues/schedule/) of Digital Dialogues starts soon on October 4th, but first, to kick things off, MITH would like to hold a pre-launch meet-up on **Tuesday September 27th at 12:30pm** for interested students and faculty.
 
 ![Losh Talk October 2015](../images/2016-09-IMG_6066-980x735.jpg)
 

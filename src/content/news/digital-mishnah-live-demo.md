@@ -4,7 +4,7 @@ authors: [Hayim Lapin]
 date: "9/4/2012 8:00"
 slug: digital-mishnah-live-demo
 ---
-I am pleased to say that with a lot of work on a lot of people’s part, there is now a[ live demo of the Digital Mishnah Project](http://www.digitalmishnah.org/demo/). The demo is just that: a demonstration of possible functionalities.This post will outline some of the features that were always meant to be temporary and some new planned or desired features, and then invite comments.
+I am pleased to say that with a lot of work on a lot of people’s part, there is now a [live demo of the Digital Mishnah Project](http://www.digitalmishnah.org/demo/). The demo is just that: a demonstration of possible functionalities.This post will outline some of the features that were always meant to be temporary and some new planned or desired features, and then invite comments.
 
 ### What will be changed
 

@@ -6,10 +6,8 @@ slug: announcing-music-encoding-conference-2018-call-proposals
 ---
 ![Music Encoding Conference](../images/2017-10-header_mec2018.png)
 
-```
-<strong>** Deadline extended until November 15 11:59pm EST **
-Submit at <a href="https://www.conftool.net/music-encoding2018">https://www.conftool.net/music-encoding2018</a></strong>
-```
+> **Deadline extended until November 15 11:59pm EST**  
+> Submit at <https://www.conftool.net/music-encoding2018>
 
 The [Maryland Institute for Technology in the Humanities](http://mith.umd.edu) and the [Michelle Smith Performing Arts Library](https://www.lib.umd.edu/mspal) invite you to participate in the 2018 Music Encoding Conference with the theme: “Encoding and Performance”.
 
@@ -34,7 +32,7 @@ As always, other topics are welcome. Suggested topics include, but are not limit
 - music encoding and symbolic music information retrieval
 - additional topics relevant to music encoding, editing, and description
 
-Authors are invited to upload their submission for review to our Conftool website: <https://www.conftool.net/music-encoding2018>. The deadline for all submissions is 1**5 November 2017 (11:59pm EST)**.
+Authors are invited to upload their submission for review to our Conftool website: <https://www.conftool.net/music-encoding2018>. The deadline for all submissions is **15 November 2017 (11:59pm EST)**.
 
 Abstracts (in PDF format only) should be submitted through ConfTool, and the submitted PDF must anonymize the authors’ details.
 

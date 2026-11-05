@@ -20,7 +20,7 @@ When Tim Berners-Lee created the Web at CERN in 1989 he had the insight to allow
 
 So in a way the Web is necessarily broken by design--there is no central authority making sure all the links work. The Web’s decentralization is one of the primary factors that allowed it to germinate and grow. I don’t have to ask for permission to create [this link to Wikipedia](https://en.wikipedia.org/wiki/Link_rot) or to anywhere else on the Web. I simply put the URL in my HTML and publish it. Similarly, no one has to ask me for permission to link here. An obvious consequence of this freedom is that if the page I’ve linked to happens to be deleted or moved somewhere else, then my link will break.
 
-Fast forward through 25 years of exponential growth and we have a Web where roughly[ 5%](http://idlewords.com/talks/web_design_first_100_years.htm) of the URLs collected using the social bookmarking site Pinboard break per year. URLs shared in social media are [estimated](http://arxiv.org/abs/1209.3026) to fare even worse with about 11% lost per year. In 2013 a group at Harvard University [discovered](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2329161) that 50% of the links in Supreme Court opinions no longer link to the originally cited information. To paraphrase William Gibson, the past isn’t evenly distributed.
+Fast forward through 25 years of exponential growth and we have a Web where roughly [5%](http://idlewords.com/talks/web_design_first_100_years.htm) of the URLs collected using the social bookmarking site Pinboard break per year. URLs shared in social media are [estimated](http://arxiv.org/abs/1209.3026) to fare even worse with about 11% lost per year. In 2013 a group at Harvard University [discovered](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2329161) that 50% of the links in Supreme Court opinions no longer link to the originally cited information. To paraphrase William Gibson, the past isn’t evenly distributed.
 
 There is no magic incantation that will make your Web content permanent. At the moment we rely on the perseverance and care of Web archivists like the Internet Archive, or your own organization's Web archiving team, to collect what they can. Perhaps efforts like [IPFS ](https://ipfs.io/)will succeed in layering new, more resilient protocols over or underneath the Web. But for now you are most likely stuck with the Web we’ve got, and if you’re like MITH, lots of it.
 
@@ -34,7 +34,7 @@ Naming things is hard partly because of semantic drift. The things our names see
 
 Naming on the Web is ultimately about the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS). DNS is a distributed database that maps a hostname like _mith.umd.edu_ to its IP address 174.129.6.250, which is a unique identifier for a computer that is connected to the Internet. Think of DNS as you would your address book, which lets you look up the phone number or mailing address for a person you know using their name. When your friend moves from one place to another, or changes their phone number you update your address book with the latest information. Establishing a DNS name for your website like _mith.umd.edu_ lets you move the actual machine around, say from your campus IT department, to a cloud provider like Amazon Web Services, which changes its IP address, but without changing its name. DNS is there to provide stability to the Web and the underlying Internet.
 
-DNS is _distributed_ in that there are actually many, many address books or zones that are hierarchically arranged in a pyramid like structure, with [one root zone](https://en.wikipedia.org/wiki/DNS_root_zone) at the top. In the case of _mith.umd.edu_ the address book is managed by the University of Maryland. In order to change the hostname \_mith.umd.edu \_to point at another IP address I would need to contact an administrator at UMD and request that it be changed. Depending on my trust relationship with this administrator they might or might not fulfill my request. Sometimes you might want to purchase a new domain for your site like \_namingthingsishard.org \_from a [DNS Registrar](https://en.wikipedia.org/wiki/Category:Domain_registrars). After you paid the registrar an annual fee, you would be able to administer the address book yourself. But with great power comes great responsibility.
+DNS is _distributed_ in that there are actually many, many address books or zones that are hierarchically arranged in a pyramid like structure, with [one root zone](https://en.wikipedia.org/wiki/DNS_root_zone) at the top. In the case of _mith.umd.edu_ the address book is managed by the University of Maryland. In order to change the hostname _mith.umd.edu_ to point at another IP address I would need to contact an administrator at UMD and request that it be changed. Depending on my trust relationship with this administrator they might or might not fulfill my request. Sometimes you might want to purchase a new domain for your site like _namingthingsishard.org_ from a [DNS Registrar](https://en.wikipedia.org/wiki/Category:Domain_registrars). After you paid the registrar an annual fee, you would be able to administer the address book yourself. But with great power comes great responsibility.
 
 Given its role in making Internet names more stable it's ironic that DNS is often blamed as a leading factor for link rot. It’s true, if you register a new domain and forget to pay your bill, a [cybersquatter](https://en.wikipedia.org/wiki/Cybersquatting) can snatch it up and hold it hostage. Alternative systems like [Handles](https://www.handle.net/), [Digital Object Identifiers ](http://www.doi.org/)and more recently [NameCoin](https://namecoin.info/) or [IPFS](https://ipfs.io/) have been developed partly out of an inherent distrust of DNS. These systems offer various improvements over DNS, but in some ways recapitulate the very problems that DNS itself was designed to solve. DNS has its warts, but it has been difficult to unseat because of its ubiquitous use on the Internet. Here are a few things you can do when working with DNS to keep your websites available over time:
 
@@ -58,7 +58,7 @@ The actual mechanisms for doing the redirect vary depending on the type of Web s
 ```
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} !^wordpress.example.org$ [fusion_builder_container hundred_percent="yes" overflow="visible"][fusion_builder_row][fusion_builder_column type="1_1" background_position="left top" background_color="" border_size="" border_color="" border_style="solid" spacing="yes" background_image="" background_repeat="no-repeat" padding="" margin_top="0px" margin_bottom="0px" class="" id="" animation_type="" animation_speed="0.3" animation_direction="left" hide_on_mobile="no" center_content="no" min_height="none"][NC]
+RewriteCond %{HTTP_HOST} !^wordpress.example.org$
 RewriteRule ^(.*)$ http://blog.example.org/$1 [L,R=301]
 ```
 
@@ -84,7 +84,7 @@ Reverse proxies are an extremely useful tool for managing your Web namespace. Th
 
 When a link breaks it’s not just the hostname or domain name in the URL that can be at fault. What is much more common is for the path or query components of the link URL to change. Unless a URL is for a website’s homepage almost all URLs have a path, which is the part that immediately follows the hostname, for example:
 
-> http://mith.umd.edu**/vintage-computers/items/show/9**
+> [http://mith.umd.edu<strong>/vintage-computers/items/show/9</strong>](http://mith.umd.edu/vintage-computers/items/show/9)
 
 This URL identifies the record in our Vintage Computers website for this Apple IIe computer that has been signed by the author Bruce Sterling:
 
@@ -92,17 +92,17 @@ This URL identifies the record in our Vintage Computers website for this Apple I
 
 In addition, a URL may have a query component, which is the portion of the URL that starts with a question mark. Here’s an example of a URL that identifies a search for the word apple in the Vintage Computing website:
 
-> http://mith.umd.edu/vintage-computers/items/browse**?search=apple**
+> [http://mith.umd.edu/vintage-computers/items/browse<strong>?search=apple</strong>](http://mith.umd.edu/vintage-computers/items/browse?search=apple)
 
 The path and query portions of a URL are much more susceptible to change because they uniquely identify the location of a document on the Web server, or (more often the case) the type of Web application that is running on the server. Consider what might happen if we auction off the Apple IIe (never!) and delete record 9 from our Omeka instance. Omeka will respond with a 404 Not Found response. Or perhaps we upgrade the version of Omeka that uses a new search query such as ?q=apple instead of ?search=apple. In this case the URL will no longer identify the search results.
 
 Even though they are highly sensitive to change there are some rules of thumb you can follow to help insure that your URLs don’t break over time. A useful set of recommendations can be found in a document called [Cool URIs Don’t Change](http://www.w3.org/Provider/Style/URI.html) written by Tim Berners-Lee himself back in 1998, which recommends you avoid URLs that contain:
 
-- filename extensions: http://example.org/search**.php**
-- application names: http://example.org/**omeka**/
-- access metadata: http://example.org/**public**/item/1
-- status metadata: http://example.org/**drafts**/item/1
-- user metadata: http://example.org/**timbl**/notes/
+- filename extensions: [http://example.org/search<strong>.php</strong>](http://example.org/search.php)
+- application names: [http://example.org/<strong>omeka</strong>/](http://example.org/omeka/)
+- access metadata: [http://example.org/<strong>public</strong>/item/1](http://example.org/public/item/1)
+- status metadata: [http://example.org/<strong>drafts</strong>/item/1](http://example.org/drafts/item/1)
+- user metadata: [http://example.org/<strong>timbl</strong>/notes/](http://example.org/timbl/notes/)
 
 Ironically enough the URL for Cool URIs Don’t Change is <http://www.w3.org/Provider/Style/URI.html> which is counter to the first recommendation since it uses the .html filename extension. Remember, these are not hard and fast rules--they are simply helpful pointers to things that are more susceptible to change in URLs.
 
@@ -131,7 +131,7 @@ Over the last 15 years MITH has used a variety of Web content management systems
 When you notice this transition in the life cycle of one of your projects there’s an opportunity to take a snapshot of the website so that the content remains available, and preserve what there is of the server side code and data. The venerable wget command line utility can create a mirror of a website. Here’s an example command you could use to harvest a website at http://example.com/app/
 
 ```
-     wget --warc-file example
+     wget --warc-file example \
           --mirror \
           --page-requisites \
           --html-extension \

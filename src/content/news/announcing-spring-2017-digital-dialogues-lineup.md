@@ -12,14 +12,14 @@ MITH’s Spring 2017 Digital Dialogues season is about to get underway! Starting
 
 **Tuesday February 28, 2017:** André Brock, Assistant Professor of Communication Studies (University of Michigan) [The Price of the Ticket: Racism, Black Digital Practice, and Racism Battle Fatigue](http://mith.umd.edu/dialogues/dd-spring-2017-andre-brock/)
 
-**Tuesday March 14, 2017: **Amanda Gould, PhD Candidate (Duke University) [Dirty Digital Environmental Humanities: From iPhones to eWaste](http://mith.umd.edu/dialogues/dd-spring-2017-amanda-starling-gould/)
+**Tuesday March 14, 2017:** Amanda Gould, PhD Candidate (Duke University) [Dirty Digital Environmental Humanities: From iPhones to eWaste](http://mith.umd.edu/dialogues/dd-spring-2017-amanda-starling-gould/)
 
 **Tuesday March 28, 2017:** Avery Dame, PhD Candidate (University of Maryland) [Spotlighting Hidden Histories: Archiving Transgender Usenet, 1994-2013](http://mith.umd.edu/dialogues/dd-spring-2017-avery-dame/)
 
-**Tuesday April 4, 2017: **Joanna Swafford, Assistant Professor for Interdisciplinary and Digital Teaching and Scholarship (SUNY New Paltz) [Sounding Poetry with Digital Tools](http://mith.umd.edu/dialogues/dd-spring-2017-joanna-swafford/)
+**Tuesday April 4, 2017:** Joanna Swafford, Assistant Professor for Interdisciplinary and Digital Teaching and Scholarship (SUNY New Paltz) [Sounding Poetry with Digital Tools](http://mith.umd.edu/dialogues/dd-spring-2017-joanna-swafford/)
 
-**Tuesday April 11, 2017: **Josh Shepperd, Assistant Professor of Media and Communication (Catholic University) [Public Media's Origin as a Strategically Networked Archive, 1949-1953](http://mith.umd.edu/dialogues/josh-shepperd-digital-dialogue/)
+**Tuesday April 11, 2017:** Josh Shepperd, Assistant Professor of Media and Communication (Catholic University) [Public Media's Origin as a Strategically Networked Archive, 1949-1953](http://mith.umd.edu/dialogues/josh-shepperd-digital-dialogue/)
 
-All talks are at 12:30 pm in the Maryland Institute for Technology in the Humanities Conference Room, 0301 Hornbake Library**.** All talks are open to the public. Speakers will be listed on the Digital Dialogues schedule [here](http://mith.umd.edu/digital-dialogues/schedule/), which will be updated with more information about each talk as it becomes available.
+All talks are at 12:30 pm in the Maryland Institute for Technology in the Humanities Conference Room, 0301 Hornbake Library. All talks are open to the public. Speakers will be listed on the Digital Dialogues schedule [here](http://mith.umd.edu/digital-dialogues/schedule/), which will be updated with more information about each talk as it becomes available.
 
 _Digital Dialogues is MITH’s signature events program, held during the academic year, and is an occasion for discussion, presentation and intellectual exchange that you can build into your schedule._

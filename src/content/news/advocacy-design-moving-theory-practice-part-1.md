@@ -4,7 +4,9 @@ authors: [Purdom Lindblad]
 date: "9/18/2017 15:43"
 slug: advocacy-design-moving-theory-practice-part-1
 ---
-\_I'm posting a [short series](http://mith.umd.edu/tag/advocacy-by-design/) of a lightly edited posts from of my keynote for the University of Maryland Library Research and Innovative Practice Forum. [Slides and talk are available through DRUM.](http://drum.lib.umd.edu/handle/1903/19250) Below is Part 1, with more posts to follow. —Purdom_I have been sitting with a sentence written by the editors of the journal [Salvage](http://salvage.zone/), “The infrastructures against social misery have yet to be built.”
+_I'm posting a [short series](http://mith.umd.edu/tag/advocacy-by-design/) of a lightly edited posts from of my keynote for the University of Maryland Library Research and Innovative Practice Forum. [Slides and talk are available through DRUM.](http://drum.lib.umd.edu/handle/1903/19250) Below is Part 1, with more posts to follow. —Purdom_
+
+I have been sitting with a sentence written by the editors of the journal [Salvage](http://salvage.zone/), “The infrastructures against social misery have yet to be built.”
 
 In 2014, the disappearance and murder of University of Virginia (UVA) undergraduate Hannah Graham, the Rolling Stone ‘After a Rape’ article, and the assault of UVA African American student leader, Martese Johnson, by two Alcoholic Beverage Control agents led to the development of Advocacy by Design. The cries of ‘how could this happen here?’ and ‘we had no idea!’ were discordant with the long history of sexual and racial violence at UVa.
 

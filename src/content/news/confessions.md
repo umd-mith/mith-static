@@ -12,7 +12,7 @@ Here's what I don't like: sitting in front of my computer trying to engage with 
 
 [![Black Gotham Book](../images/2014-02-black-gotham-archive.jpg)](http://mith.umd.edu/confessions/black-gotham-archive/)So you might well wonder why I went online a few nights ago and, with massive spousal support and encouragement, purchased a domain name: [www.blackgothamarchive.org](http://www.blackgothamarchive.org/).
 
-Earlier this spring Yale University Press published my book*,* [Black Gotham:](http://yalepress.yale.edu/book.asp?isbn=9780300162554)_[ A Family History of African Americans in Nineteenth-Century New York City](http://yalepress.yale.edu/book.asp?isbn=9780300162554)_. It was eleven years in the making, and I suspect it took that long because of my addiction to archival research and playing with narrative form.
+Earlier this spring Yale University Press published my book*,* [Black Gotham:](http://yalepress.yale.edu/book.asp?isbn=9780300162554) _[A Family History of African Americans in Nineteenth-Century New York City](http://yalepress.yale.edu/book.asp?isbn=9780300162554)_. It was eleven years in the making, and I suspect it took that long because of my addiction to archival research and playing with narrative form.
 
 An early paragraph in the book explains my general goal:
 
@@ -22,6 +22,6 @@ To make my argument, I structured my book around two concepts. The first is gene
 
 This past spring I gave many talks to both general and academic audiences about Black Gotham and, after a summer hiatus, have started my book tour again which will continue until March 2012. My audiences have been especially fascinated by two aspects of my work: my exposition of New York's black history before Harlem, and my use of family to tell a larger history. Many people tell me that they have stories of their own they want told, but they're daunted by the task of doing years of research, writing a manuscript, finding a publisher, and then attracting readers. I've reluctantly come to see the limitations of the printed essay and book. So one of my goals with the "Black Gotham Digital Archive" is to provide a platform on which those with New York family histories can add their own stories. Out of readers I hope to create writers. I'm hoping that the result will be an even more detailed portrait of black New Yorkers in the nineteenth century than my book provides.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+---
 
-_Editor's Note_: Carla L. Peterson is professor of English at the University of Maryland. She is the author of _"Doers of the Word": African-American Women Speakers and Writers in the North, 1830–1880._ She currently is completing a faculty fellowship at MITH. This post originally appeared at \_[Black Gotham Archive](http://www.blackgothamarchive.org/) \_on October 31, 2011.
+_Editor's Note_: Carla L. Peterson is professor of English at the University of Maryland. She is the author of _"Doers of the Word": African-American Women Speakers and Writers in the North, 1830–1880._ She currently is completing a faculty fellowship at MITH. This post originally appeared at _[Black Gotham Archive](http://www.blackgothamarchive.org/)_ on October 31, 2011.

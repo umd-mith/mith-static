@@ -43,7 +43,7 @@ Postdocs will work in close collaboration with faculty and staff from the Maryla
 
 Opportunities for archival work in the rich research collections at the University of Maryland will also be key components of the postdoc experience. The archives of the David C. Driskell Collection document the creation and curation of the largest academic holdings of African American art and art from the African diaspora. The George Meany Memorial AFL-CIO archives are the official repository for records of the American Federation of Labor (AFL), selected records of the Congress of Industrial Organizations (CIO), and the merged American Federation of Labor and Congress of Industrial Organizations (AFL-CIO).
 
-**To apply, please send a letter of application, CV, and contact information for three references to [aadhum-postdocs@umd.edu](mailto:aadhum-postdocs@umd.edu)\*\***. For best consideration, applications should be submitted no later than July 22, 2016.\*\* Review will continue until the position is filled. Start date to be negotiated, but no later than February 1, 2017.
+**To apply, please send a letter of application, CV, and contact information for three references to [aadhum-postdocs@umd.edu](mailto:aadhum-postdocs@umd.edu)**. **For best consideration, applications should be submitted no later than July 22, 2016.** Review will continue until the position is filled. Start date to be negotiated, but no later than February 1, 2017.
 
 For complete information about the position, please visit: <http://go.umd.edu/AADHumPostDocs>
 

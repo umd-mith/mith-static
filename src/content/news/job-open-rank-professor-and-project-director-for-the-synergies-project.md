@@ -20,7 +20,7 @@ Holding a tenure-track or tenured faculty appointment with a tenure line in an a
 
 Must hold a Ph.D. or comparable terminal degree. Must be qualified to be tenured in an academic unit of the College of Arts and Humanities, University of Maryland. Must have a proven research record in the study of African American history and culture. Must have demonstrated experience with digital humanities project development.
 
-**Salary will be commensurate with experience. For additional information about the position, the Synergies Project, and the University of Maryland, and for application instructions, please visit the University's ejobs portal ([position #121514](https://ejobs.umd.edu/postings/38224))\*\***.\*\*
+**Salary will be commensurate with experience. For additional information about the position, the Synergies Project, and the University of Maryland, and for application instructions, please visit the University's ejobs portal ([position #121514](https://ejobs.umd.edu/postings/38224))**.
 
 For best consideration, applications should be submit no later than **December 18, 2015**. Review will continue until the position is filled.
 

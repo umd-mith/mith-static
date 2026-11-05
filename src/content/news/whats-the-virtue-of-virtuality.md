@@ -20,6 +20,6 @@ All of these encounters have reminded me of Benedict Anderson's contention in _I
 
 That's what's got me so worried. Will my _Black Gotham Digital Archive_ replace the wonderful face-to-face contacts I've had throughout my book tour? Is there a way in which I can think of these two different forms of media not in terms of an either/or proposition but a both/and? Can I find a way to mesh the two together? Can I encounter people through my digital archive and then meet in person to exchange ideas, gifts, and maybe even get together for dinner? I certainly hope so!
 
-\_\_\_\_\_\_\_\_\_\_\_
+---
 
-_editor's note_: Carla L. Peterson is professor of English at the University of Maryland. She currently is completing a faculty fellowship at MITH. This post originally appeared at \_[Black Gotham Archive](http://www.blackgothamarchive.org/blog/what%E2%80%99s-the-virtue-of-virtuality/) \_on November 21, 2011.
+_editor's note_: Carla L. Peterson is professor of English at the University of Maryland. She currently is completing a faculty fellowship at MITH. This post originally appeared at _[Black Gotham Archive](http://www.blackgothamarchive.org/blog/what%E2%80%99s-the-virtue-of-virtuality/)_ on November 21, 2011.

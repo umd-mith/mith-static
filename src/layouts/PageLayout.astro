@@ -37,7 +37,7 @@ const {title, showTitle = true, titleSrOnly = false, active} = Astro.props;
   <Header/>
   <Nav active={active}/>
   <main id="main-content" tabindex="-1" 
-    class="pb-12 max-w-7xl mx-8 2xl:mx-auto 2xl:px-32 prose prose-xl relative focus:outline-none">
+    class="pb-12 max-w-7xl mx-4 sm:mx-8 2xl:mx-auto 2xl:px-32 prose sm:prose-lg xl:prose-xl wrap-break-word relative focus:outline-none">
     {showTitle && !titleSrOnly && <h1>{title}</h1>}
     {titleSrOnly && <h1 class="sr-only">{title}</h1>}
     <slot />

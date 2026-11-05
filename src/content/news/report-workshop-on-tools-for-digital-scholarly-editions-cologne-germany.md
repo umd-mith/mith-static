@@ -19,7 +19,7 @@ To aid with this, we proceeded to give or listen to a series of 15-20 minute pre
 - TILE, Dave Lester & Grant Dickie
 - OpenAnnotation, Grant Dickie, Marco Petris & Moritz Wissenbach
 - xMod ([https://bitbucket.org/jmvieira](https://bitbucket.org/JMVieira/)), Miguel Vieira
-- SADE, Alexander Czmiel (Currently under development, but here’s a link to his institution, the IDE:[ www.i-d-e.de](http://www.i-d-e.de/))
+- SADE, Alexander Czmiel (Currently under development, but here’s a link to his institution, the IDE: [www.i-d-e.de](http://www.i-d-e.de/))
 - MOM-CA, Jochen Graf (http://www.mom-wiki.uni-koeln.de/MOM-CA2/Metadata)
 
 The result of these presentations was an agreement that the Digital Humanities has a similar need across institutions for SVG annotations, exporting and importing TEI data and annotation data, and automatically linking lines and text together in a seamless fashion. Obviously, there is no one interface currently available (nor will there ever be, in my opinion) that can manage all of this, so the idea of arguing over what platform to incorporate our efforts in was found useless. Instead, we were encouraged to split up the workshop into sub-groups that focused on development and institutional planning goals that fit with what we wanted out of the event.

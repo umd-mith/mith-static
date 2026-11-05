@@ -26,7 +26,7 @@ A book about the mundane: the library card, the promissory note, the movie ticke
 
 Thanks to ever-greater digital connectivity, interest in oral traditions has grown beyond that of researcher and research subject to include a widening pool of global users. When new publics consume, manipulate and connect with field recordings and digital cultural archives, their involvement raises important practical and ethical questions. This volume explores the political repercussions of studying marginalised languages; the role of online tools in ensuring responsible access to sensitive cultural materials; and ways of ensuring that when digital documents are created, they are not fossilized as a consequence of being archived. Fieldwork reports by linguists and anthropologists in three continents provide concrete examples of overcoming barriers-ethical, practical and conceptual-in digital documentation projects. Oral Literature in the Digital Age is an essential guide and handbook for ethnographers, field linguists, community activists, curators, archivists, librarians, and all who connect with indigenous communities in order to document and preserve oral traditions.
 
-**[Debates in the digital humanities](https://umaryland.worldcat.org/title/debates-in-the-digital-humanities/oclc/759909869?referer=list_view) **edited by Matthew K. Gold
+**[Debates in the digital humanities](https://umaryland.worldcat.org/title/debates-in-the-digital-humanities/oclc/759909869?referer=list_view)** edited by Matthew K. Gold
 
 (Minneapolis : University of Minnesota Press, c2012)
 

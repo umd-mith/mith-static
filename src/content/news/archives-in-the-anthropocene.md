@@ -137,7 +137,7 @@ As an archivist, I am concerned about how these incredible and powerful archives
 
 Works Cited
 
-\[fusion_text]
+
 
 Bailey, Moya #transform(ing)DH Writing and Research, An Autoethnography of Digital Humanities and Feminist Ethics, Digital Humanities Quarterly, Vol 9, No 2, 2015. <http://www.digitalhumanities.org/dhq/vol/9/2/000209/000209.html>
 

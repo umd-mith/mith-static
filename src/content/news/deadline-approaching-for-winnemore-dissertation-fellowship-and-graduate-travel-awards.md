@@ -4,7 +4,7 @@ authors: [MITH]
 date: "11/28/2006 11:36"
 slug: deadline-approaching-for-winnemore-dissertation-fellowship-and-graduate-travel-awards
 ---
-A reminder that the application deadline for both MITH's Winnemore Digital Humanities Dissertation Fellowships and MITH's Graduate Travel Grants is** Monday, December 4.**
+A reminder that the application deadline for both MITH's Winnemore Digital Humanities Dissertation Fellowships and MITH's Graduate Travel Grants is **Monday, December 4.**
 
 Information on both programs can be found at:
 

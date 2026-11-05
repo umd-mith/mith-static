@@ -16,6 +16,6 @@ MITH is delighted to announce our fall 2013 slate of Digital Dialogues speakers.
 
 **October 29th 12:30-2 pm Nicole Saylor** Head, American Folklife Center Archive at Library of Congress Talk Title TBD
 
-\----- Unable to attend the events in person? Archived podcasts can be found on the MITH website, and you can follow our Digital Dialogues Twitter account @digdialog as well as the Twitter hashtag #mithdd to keep up with live tweets from our sessions. Viewers can watch the[ live stream](http://www.livestream.com/mithdigitaldialogues) as well.
+\----- Unable to attend the events in person? Archived podcasts can be found on the MITH website, and you can follow our Digital Dialogues Twitter account @digdialog as well as the Twitter hashtag #mithdd to keep up with live tweets from our sessions. Viewers can watch the [live stream](http://www.livestream.com/mithdigitaldialogues) as well.
 
 All talks free and open to the public. Attendees are welcome to bring their own lunches. Contact: MITH (http://mith.umd.edu, mith@umd.edu, 301-405-8927).

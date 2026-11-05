@@ -6,7 +6,7 @@ slug: mith-is-hiring
 ---
 MITH is currently conducting searches for two full-time Graduates Assistants (GAs): an information architect and a Managing Director for the Electronic Literature Organization.
 
-\*\*\*
+---
 
 MITH Program Associate
 
@@ -22,7 +22,7 @@ Candidates should have a solid background in web technologies, including XML, HT
 
 To apply, please submit application letter and resume to Professor Neil Fraistat, Acting Director, at fraistat@umd.edu. We are seeking to fill this position soon. For best consideration, please apply immediately. Women and minorities are especially encouraged to apply.
 
-\*\*\*
+---
 
 On July 1, 2006 the Electronic Literature Organization (www.eliterature.org) will move its institutional headquarters from the Department of English at UCLA to the Maryland Institute for Technology in the Humanities (MITH) at the University of Maryland, with additional support from the English department, the College of Arts and Humanities, and the University Library. The ELO is the premier creative and scholarly organization for authors, technologists, and theorists of new media and electronic literature. The ELO arranges readings and conferences, issues publications and reports, confers prizes and awards, and pursues grant opportunities to support its mission, which includes the preservation and popular dissemination of electronic literature. The organization is a 501(c)(3) nonprofit.
 

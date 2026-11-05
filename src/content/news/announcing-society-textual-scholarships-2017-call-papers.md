@@ -4,13 +4,13 @@ authors: [MITH]
 date: "1/25/2017 13:26"
 slug: announcing-society-textual-scholarships-2017-call-papers
 ---
-### **_\*\* NOTE - We've listened to your requests, and are extending the deadline for STS submissions to Monday March 6th by 9:00am EST. \*\*_**
+### **_NOTE - We've listened to your requests, and are extending the deadline for STS submissions to Monday March 6th by 9:00am EST._**
 
 The [Maryland Institute for Technology in the Humanities](http://mith.umd.edu/) (MITH) and the Andrew W. Mellon-funded [African American Digital Humanities Initiative ](http://arhusynergy.umd.edu/programs/aadhum/)(AADHum) invite your participation in “Textual Embodiments,” the Society for Textual Scholarship’s International Interdisciplinary Conference for 2017.
 
 **Date:** Wednesday, May 31 - Friday, June 2, 2017 **Location:** University of Maryland, College Park, Maryland USA
 
-**Program Chairs:** Neil Fraistat, Purdom Lindblad, Catherine Knight Steele, Raffaele Viglianti **Keynote speakers: **[Marisa Parham](https://www.amherst.edu/people/facstaff/mparham) (Amherst College) [Susan Brown ](https://www.uoguelph.ca/~sbrown/)(University of Guelph)
+**Program Chairs:** Neil Fraistat, Purdom Lindblad, Catherine Knight Steele, Raffaele Viglianti **Keynote speakers:** [Marisa Parham](https://www.amherst.edu/people/facstaff/mparham) (Amherst College) [Susan Brown ](https://www.uoguelph.ca/~sbrown/)(University of Guelph)
 
 **Deadline for Proposals:** March 6, 2017, 9:00am Eastern Standard Time
 

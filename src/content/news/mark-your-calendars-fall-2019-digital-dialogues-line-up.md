@@ -12,9 +12,9 @@ Digital Dialogues are open to the public and all are welcome.
 
 ## Fall 2019 Digital Dialogues
 
-**Tuesday, October 01: **Setsuko Yokoyama, Ph.D. Candidate, Department of English (University of Maryland) [The Sound of Public Humanities and its Oscillatory Accessibility](https://mith.umd.edu/?post_type=mith_dialogue&p=20725)
+**Tuesday, October 01:** Setsuko Yokoyama, Ph.D. Candidate, Department of English (University of Maryland) [The Sound of Public Humanities and its Oscillatory Accessibility](https://mith.umd.edu/?post_type=mith_dialogue&p=20725)
 
-**Tuesday, October 08: **Jen Guiliano, Associate Professor in the Department of History and affiliated faculty in both Native American and Indigenous Studies and American Studies (IUPUI, Indianapolis, Indiana). [Difficult Heritage: Indigenous Collections in Digital Humanities](https://mith.umd.edu/?post_type=mith_dialogue&p=20730)
+**Tuesday, October 08:** Jen Guiliano, Associate Professor in the Department of History and affiliated faculty in both Native American and Indigenous Studies and American Studies (IUPUI, Indianapolis, Indiana). [Difficult Heritage: Indigenous Collections in Digital Humanities](https://mith.umd.edu/?post_type=mith_dialogue&p=20730)
 
 **Tuesday, October 15:** Kelsey Corlett-Rivera: Head of the Research Commons (University of Maryland Libraries) and Nathan Dize: Ph.D. Candidate (Vanderbilt University) [A Colony in Crisis after Five Years: Digital Konbit in Practice](https://mith.umd.edu/?post_type=mith_dialogue&p=20733)
 

@@ -16,6 +16,6 @@ Students who have funding that is related to their dissertation research or anot
 
 Applications for Spring 2011 are due at MITH by noon, Monday, December 6, 2009. The recipient will be announced in mid-December 2011.
 
-The application form can be found [here](http://mith.umd.edu/community/fellowships/winnemore-fellows/ "Winnemore Digital Humanities Dissertation Fellows Program").[](http://mith.umd.edu/community/fellowships/winnemore-fellows/ "Winnemore Digital Humanities Dissertation Fellows Program")
+The application form can be found [here](http://mith.umd.edu/community/fellowships/winnemore-fellows/ "Winnemore Digital Humanities Dissertation Fellows Program").
 
 Please address any questions to Neil Fraistat, Director of MITH

@@ -14,6 +14,6 @@ The text is preserved in manuscripts the very earliest perhaps from the ninth or
 
 I have recently begun as a faculty fellow at MITH, the Maryland Institute for Technology in the Humanities, to develop a pilot edition using a single chapter, Bava Metsi'a Chapter 2, dealing with lost objects. To date, I have (with the assistance of students!) encoded several witnesses using the TEI encoding protocol, and developed some XSLT style sheets to display the results in HTML. I am now working with the good people at MITH to develop an ODD, and work on a pilot webservice to test the project, while continuing to work on transcriptions. Some sample texts are viewable at [https://sites.google.com/site/digitalmishnah/files](//sites.google.com/site/digitalmishnah/files).
 
-\_\_\_\_\_\_\_\_\_\_\_\_
+---
 
-_editor's note_: Hayim Lapin is Robert H. Smith Professor of Jewish Studies and Professor in the Department of History at the University of Maryland. He currently is completing a faculty fellowship at MITH. This post originally appeared at \_[Digital Mishnah](http://www.digitalmishnah.org/uncategorized/starting-out/) \_on October 18, 2011.
+_editor's note_: Hayim Lapin is Robert H. Smith Professor of Jewish Studies and Professor in the Department of History at the University of Maryland. He currently is completing a faculty fellowship at MITH. This post originally appeared at _[Digital Mishnah](http://www.digitalmishnah.org/uncategorized/starting-out/)_ on October 18, 2011.

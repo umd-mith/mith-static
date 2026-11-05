@@ -36,7 +36,7 @@ Some of the archivists out there might be cringing at this point: “They let hi
 
 “We have been entrusted with the material, and we take that seriously, and it is part of our mission to do right by it,” Kirschenbaum says. Of the Mac Classics he poses “one could ask are these artifacts first and foremost to be preserved? Are they tools? Are they instruments of access?”
 
-For the _DLC_, the answer is a bit of all three. On a practical level, the _DLC \_does not have the resources to leave usable tools on the shelf. On the other hand MITH is seeking ways to work with University of Maryland [iSchool](http://ischool.umd.edu) faculty to utilize the \_DLC_ materials in archiving or preservation classes. Students, under the supervision of MITH staff, have been able to practice imaging disks using the _DLC_ disk collection.
+For the _DLC_, the answer is a bit of all three. On a practical level, the _DLC_ does not have the resources to leave usable tools on the shelf. On the other hand MITH is seeking ways to work with University of Maryland [iSchool](http://ischool.umd.edu) faculty to utilize the _DLC_ materials in archiving or preservation classes. Students, under the supervision of MITH staff, have been able to practice imaging disks using the _DLC_ disk collection.
 
 “We have a lot of respect for the collection, we have a lot of affection for it, we do everything we can for it,” Kirschenbaum said warmly, “but we also see it as something to be used.”
 
@@ -46,9 +46,9 @@ Further, Kirschenbaum feels the MITH approach to _The Deena Larsen Collection_ i
 
 So in the collaborative spirit, my next post will describe my adventures researching in _The Deena Larsen Collection_, in hopes of making your visit more productive.
 
-**Up next: **_Hands on the DLC: Finding and Finding Aids_
+**Up next:** _Hands on the DLC: Finding and Finding Aids_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+---
 
 Want to schedule a visit to the _DLC_? Use the form at <http://mith.umd.edu/larsen/contact>
 

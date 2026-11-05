@@ -6,7 +6,7 @@ slug: launch-of-early-modern-songscapes-beta-site-encoding-and-publishing-strate
 ---
 [Early Modern Songscapes](http://songscapes.org) is a project exploring the circulation and performance of English Renaissance poetry. The recently released beta version of the project’s site includes a digital exploration of Henry Lawes’s 1653 songbook _Ayres and Dialogues_. The project is a collaboration between the University of Toronto (UoT), the University of Maryland (UMD), and the University of South Carolina (USC). My role (Raff Viglianti) at MITH for this first exploratory phase has focused on designing a data model and an online viewer for the text and musical score of the songs. Prof. Scott Trudell (UMD) and Prof. Sarah Williams (USC) have contributed to shaping the data model and have carried out the encoding work so far.
 
-![](../images/2019-02-songscapes_encoding_diagram.jpg)_![]()_
+![](../images/2019-02-songscapes_encoding_diagram.jpg)
 
 The scholarship surrounding Lawes’s book and Early Modern song is at the nexus of literature and music and pays careful attention to both the literary and musical aspects of the songs. To reflect this duality in the data model of a digital edition, we use the [Text Encoding Initiative](http://www.tei-c.org/) (TEI) format for the verse and the [Music Encoding Initiative](http://music-encoding.org/) (MEI) format for the notated music. You can find our encoded files on [GitHub](https://github.com/earlymodernsongscapes/songscapes). Combining the two formats is becoming a fairly established practice (see for example the [Thesaurus Musicarum Latinarum](http://www.chmtl.indiana.edu/tml/about/introduction)), but is not without challenges as existing tools and workflows are usually focused on either TEI or MEI. The hierarchical nature of these formats also requires one of the two to contain the other or, in other words, take a primary position. We have decide to prioritize TEI, partly because it has a well established metadata header in which we store bibliographical information. The MEI representing the music notation is then embedded within the TEI (see Fig. 1). We have decided to reproduce the underlying lyrics as a TEI-encoded stanza in order to provide our interpretation of how it may appear if formatted as subsequent stanzas often printed after the music.
 
@@ -20,4 +20,4 @@ The UoT Scarborough Digital Scholarship Unit, under the direction of Marcus Barn
 
 The first phase of Early Modern Songscapes has culminated with [a conference](https://crrs.ca/event/early-modern-songscapes-2019/) at the University of Toronto, February 8-9 2019. As we plan the next phase, we are gathering user feedback on the site: we invite you to visit [songscapes.org](http://songscapes.org) and fill in our [survey](https://www.surveymonkey.com/r/songscapes)!
 
-![](../images/2019-02-songscapes_variant-980x345.png)_![]()_
+![](../images/2019-02-songscapes_variant-980x345.png)

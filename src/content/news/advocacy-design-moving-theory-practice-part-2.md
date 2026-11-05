@@ -4,7 +4,9 @@ authors: [Purdom Lindblad]
 date: "2/6/2018 8:00"
 slug: advocacy-design-moving-theory-practice-part-2
 ---
-\_I’m posting a [short series](http://mith.umd.edu/tag/advocacy-by-design/) of a lightly edited posts from of my keynote for the University of Maryland Library Research and Innovative Practice Forum. Slides and talk are available through DRUM. This is Part 2 of the series. [Read Part 1](http://mith.umd.edu/advocacy-design-moving-theory-practice-part-1/). —Purdom_The interface for [Take Back the Archive](http://takeback.scholarslab.org/) which aims for transparency and temporality:
+_I’m posting a [short series](http://mith.umd.edu/tag/advocacy-by-design/) of a lightly edited posts from of my keynote for the University of Maryland Library Research and Innovative Practice Forum. Slides and talk are available through DRUM. This is Part 2 of the series. [Read Part 1](http://mith.umd.edu/advocacy-design-moving-theory-practice-part-1/). —Purdom_
+
+The interface for [Take Back the Archive](http://takeback.scholarslab.org/) which aims for transparency and temporality:
 
 The timeline is one way of showing stories persist over time. We are working to improve the timeline, but for now, the lines above the dots (which are sized according to how many materials are in the collection) indicate how these stories reappear over time. We want to visualize how these stories drop out of conversations or how often they are referenced.
 
@@ -16,7 +18,7 @@ I lean on Safiya Noble’s work on [Biased Data](https://www.youtube.com/watch?v
 
 Nobel writes ”when we talk about these kinds of racist experiences and pointers that happen in technical systems, we also hear in the public discourse these things talked about, again, as anomalies, as glitches, rather than helping us understand and unveil the ways that programmers are people who write, and code is a language. And all languages are value-laden, including binary code languages.”
 
-For the [De/Post/Colonial Digital Humanities course at HILT 2015](http://dhtraining.org/hilt/course/depostcolonial-digital-humanities/), Roopika Risam and Micha Cardenas collaborated with participants to develop a resource for designing digital humanities research with demonstrated commitments to social justice. 11 participants shared their work publicly with an explicit invitation for others to contribute prompts and resources around** access, material conditions, methods, ontologies and epistemologies** that shape digital humanities. In their words, “The goal here is to make visible the critical and theoretical processes that subtend digital humanities practices.”
+For the [De/Post/Colonial Digital Humanities course at HILT 2015](http://dhtraining.org/hilt/course/depostcolonial-digital-humanities/), Roopika Risam and Micha Cardenas collaborated with participants to develop a resource for designing digital humanities research with demonstrated commitments to social justice. 11 participants shared their work publicly with an explicit invitation for others to contribute prompts and resources around **access, material conditions, methods, ontologies and epistemologies** that shape digital humanities. In their words, “The goal here is to make visible the critical and theoretical processes that subtend digital humanities practices.”
 
 The site contains prompts, such as “How accessible is the project for people with disabilities?” “How accessible is the project in low-bandwidth environments?” “Which archives does the project use?” and “Whose voices are absent from these archives?” alongside links to practitioners and resources engaged with the issues around a particular prompt.
 

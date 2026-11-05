@@ -8,7 +8,7 @@ slug: hands-on-the-dlc-finding-and-finding-aids
 
 [![](http://mith.umd.edu/wp-content/uploads/2014/02/DLC_collage.jpg "DLC_Collection")](../images/2014-02-DLC_collage.jpg)
 
-Before opening the display cases, you will be shown to the three-ring binder with _The Deena Larsen Collection \_Finding Aid, if you haven’t already accessed the [electronic copy](http://mith.umd.edu/larsen/about/about) (scroll down to “The Collection Finding Aid” heading). The materials are inventoried in a spreadsheet of 18 tabs with categories such as “Authors,” “Manuals,” “Hardware,” “Articles,” “Correspondence,” and “Course Materials.” Many of the tabs relate to a specific archival box or set of boxes in the cases. There is also a separate finding aid spreadsheet for the 800+ (and growing) 3.5 inch floppy disk agglomeration that represent the most numerous single media item in the \_Deena Larsen Collection (DLC)_.
+Before opening the display cases, you will be shown to the three-ring binder with _The Deena Larsen Collection_ Finding Aid, if you haven’t already accessed the [electronic copy](http://mith.umd.edu/larsen/about/about) (scroll down to “The Collection Finding Aid” heading). The materials are inventoried in a spreadsheet of 18 tabs with categories such as “Authors,” “Manuals,” “Hardware,” “Articles,” “Correspondence,” and “Course Materials.” Many of the tabs relate to a specific archival box or set of boxes in the cases. There is also a separate finding aid spreadsheet for the 800+ (and growing) 3.5 inch floppy disk agglomeration that represent the most numerous single media item in the _Deena Larsen Collection (DLC)_.
 
 The finding aids are vital to the researcher first coming to the _DLC_. Once you begin to crack open the boxes and binders on the shelves, you are confronted by the broad scope of the collection. _The Deena Larsen Collection_ contains nearly 400 articles clipped from various sources, known and unknown, with another 150+ printed from various Web sources; materials from a dozen conferences; a hand-full of bound computer manuals from the days before everything was electronic PDF files; and the boxes of disks containing work from Larsen and many other e-literature authors, in various drafts and stages of completion.
 
@@ -16,7 +16,7 @@ The finding aids are vital to the researcher first coming to the _DLC_. Once you
 
 Maryland Institute for Technology in the Humanities (MITH) Associate Director Matthew Kirschenbaum expects that most researchers will be drawn to the _DLC_ for the array of e-literature to be found here. The disk boxes include hypertexts produced in HyperCard, StorySpace, and HTML. The authors represented include Stephanie Strickland, Judy Mallory, William Dickey, Bill Bly, and many others.
 
-The collection also has disks with purchased and pirated copies of software. These may be useful as \_DLC \_researchers begin trying to access the files on the disks, if for instance, a dedicated work-station were loaded with the software of the era utilized by Larsen: HyperCard, MacWrite, MacPaint, Photoshop 4, etc.
+The collection also has disks with purchased and pirated copies of software. These may be useful as _DLC_ researchers begin trying to access the files on the disks, if for instance, a dedicated work-station were loaded with the software of the era utilized by Larsen: HyperCard, MacWrite, MacPaint, Photoshop 4, etc.
 
 As I noted in an earlier post, I was able to find a number of working versions of _Marble Springs, Second Edition_ in the disk finding aid. However, some of these disks were not in the boxes. I searched through the boxes, and did not find them misfiled. Kirschenbaum told me that the MITH staff was able to successfully disk image about 70 percent of the 800+ disks cataloged. The remaining disks presented problems, either due to physical problems with the adding diskettes, or due to software incompatibility.
 
@@ -34,9 +34,9 @@ The broad range of media types in this hybrid collection does present organizati
 
 The _DLC_ staff has a great start on collection organization, and with more use it can be made stronger for future researchers.
 
-**Up next: **_Accessing the DLC from a Distance_
+**Up next:** _Accessing the DLC from a Distance_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+---
 
 Want to schedule a visit to the _DLC_? Use the form at <http://mith.umd.edu/larsen/contact>
 

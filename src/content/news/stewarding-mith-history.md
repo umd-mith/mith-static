@@ -4,11 +4,11 @@ authors: [Stephanie Sapienza]
 date: "3/4/2016 9:30"
 slug: stewarding-mith-history
 ---
-_\[fusion_builder_container hundred_percent="yes" overflow="visible"]\[fusion_builder_row]\[fusion_builder_column type="1_1" background_position="left top" background_color="" border_size="" border_color="" border_style="solid" spacing="yes" background_image="" background_repeat="no-repeat" padding="" margin_top="0px" margin_bottom="0px" class="" id="" animation_type="" animation_speed="0.3" animation_direction="left" hide_on_mobile="no" center_content="no" min_height="none"]\[fusion_text]This is the third post in [MITH’s series on stewarding digital humanities scholarship](http://mith.umd.edu/tag/mith-digital-stewardship-series/)._
+_This is the third post in [MITH’s series on stewarding digital humanities scholarship](http://mith.umd.edu/tag/mith-digital-stewardship-series/)._
 
 No doubt you’ve noticed that the MITH website looks a little different these days. We’re proud of this latest refresh of the site’s design, which brings a number of updates such as responsive design, better usability on mobile devices, and reorganized pages for featuring talks from our Digital Dialogues series. The overall process was led by our designer [Kirsten Keister ](http://mith.umd.edu/people/person/kirsten-keister/)but involved everyone at MITH.
 
-\_\[/fusion_text]\[fusion_text]\_This post is about one aspect of the redesign that I took a leading role in and that relates to MITH’s ongoing work to steward the digital humanities research that’s been done here. We wanted to improve the tools that visitors to our site can use to search and browse the history of MITH’s research. The result is [our new “Research” page](http://mith.umd.edu/research/).
+This post is about one aspect of the redesign that I took a leading role in and that relates to MITH’s ongoing work to steward the digital humanities research that’s been done here. We wanted to improve the tools that visitors to our site can use to search and browse the history of MITH’s research. The result is [our new “Research” page](http://mith.umd.edu/research/).
 
 #### Understanding the Challenge
 

@@ -12,15 +12,15 @@ The [Electronic Literature Organization](http://www.eliterature.org) (ELO) is no
 
 Founded in 1999 in Chicago, the ELO is a 501(c)(3) nonprofit organization made up of writers, scholars, educators, and technologists dedicated to exploring how computers can be used for literary expression, and how born-digital work can use the computer and the network to build on and extend the tradition of literature. Landmark events in the ELO's short history include:
 
-\* The launch of the Electronic Literature Directory, an acclaimed database-driven resource of information about electronic literature maintained by authors and visited by thousands of readers;
+- The launch of the Electronic Literature Directory, an acclaimed database-driven resource of information about electronic literature maintained by authors and visited by thousands of readers;
 
-\* Readings of electronic literature and outreach events in Chicago, New York, Seattle, Boston, Los Angeles, Philadelphia, and Providence;
+- Readings of electronic literature and outreach events in Chicago, New York, Seattle, Boston, Los Angeles, Philadelphia, and Providence;
 
-\* The Electronic Literature Awards, which recognized exemplary works of poetry and fiction and rewarded winners with substantial cash prizes;
+- The Electronic Literature Awards, which recognized exemplary works of poetry and fiction and rewarded winners with substantial cash prizes;
 
-\* The State of the Arts Symposium, which united over one hundred international writers, scholars, and publishers of electronic literature at UCLA for two days of panels and presentations and produced hard-copy proceedings; and
+- The State of the Arts Symposium, which united over one hundred international writers, scholars, and publishers of electronic literature at UCLA for two days of panels and presentations and produced hard-copy proceedings; and
 
-\* The Preservation, Archiving, and Dissemination (PAD) project's publication of two reports, Acid-Free Bits: Recommendations for Long-Lasting Electronic Literature and Born-Again Bits: A Framework for Migrating Electronic Literature.
+- The Preservation, Archiving, and Dissemination (PAD) project's publication of two reports, Acid-Free Bits: Recommendations for Long-Lasting Electronic Literature and Born-Again Bits: A Framework for Migrating Electronic Literature.
 
 The ELO has an international network of directors, literary advisors, and members. The organization'ss university partners include the University of Iowa, the University of Illinois Chicago, and the University of Pennsylvania. After the headquarters of the ELO moves to Maryland, partnerships with these universities, and the partnership with UCLA, will continue, as will electronic literature readings, events, and activities across the country.
 

@@ -8,21 +8,21 @@ Coalition of Humanities and Arts Infrastructures and Networks - CHAIN
 
 A meeting was held at King's College, London, on 26th and 27th October 2009, between representatives of the following networks, infrastructure projects, and planning initiatives working with digital technologies in the Arts and Humanities:
 
-\* arts-humanities.net (http://www.arts-humanities.net/)
+- arts-humanities.net (http://www.arts-humanities.net/)
 
-\* ADHO - Association of Digital Humanities Organisations (http://www.digitalhumanities.org/)
+- ADHO - Association of Digital Humanities Organisations (http://www.digitalhumanities.org/)
 
-\* CLARIN (http://www.clarin.eu/)
+- CLARIN (http://www.clarin.eu/)
 
-\* centerNet (http://www.digitalhumanities.org/centernet/)
+- centerNet (http://www.digitalhumanities.org/centernet/)
 
-\* DARIAH (http://www.dariah.eu/)
+- DARIAH (http://www.dariah.eu/)
 
-\* NoC - Network of Expert Centres in Great Britain and Ireland (http://www.arts-humanities.net/noc/)
+- NoC - Network of Expert Centres in Great Britain and Ireland (http://www.arts-humanities.net/noc/)
 
-\* Project Bamboo (http://projectbamboo.org/)
+- Project Bamboo (http://projectbamboo.org/)
 
-\* TextGrid (http://www.textgrid.de/)
+- TextGrid (http://www.textgrid.de/)
 
 We identified the current fragmented environment where researchers operate in separate areas with often mutually incompatible technologies as a barrier to fully exploiting the transformative role that these technologies can potentially play. We resolved that our present, proposed, and future activities are interdependent and complementary and should be oriented towards working together to overcome barriers, and to create a shared environment where technology services can interoperate and be sustained, thus enabling new forms of research in the Humanities.
 

@@ -22,18 +22,18 @@ _The front page of InfiniteUlysses.com uses these visuals to show the site's hig
 
 These screenshots offer a quick overview what you can do on Infinite Ulysses: ![Annotate](../images/2015-03-annotate.png)
 
-**Screenshot 1: **Highlight words and phrases and type in an annotation related to that highlight (comment, interpretation, question). You can add tags to the annotation to help readers filter in annotations that help or interest them, and filter out annotations that aren't useful for them.
+**Screenshot 1:** Highlight words and phrases and type in an annotation related to that highlight (comment, interpretation, question). You can add tags to the annotation to help readers filter in annotations that help or interest them, and filter out annotations that aren't useful for them.
 
 ![Help](../images/2015-03-help1.png)
 
-**Screenshot 2: **You can read annotations left by other readers by clicking on any of the highlights. Deeper yellow highlights mean a word or phrase has more than one annotation on it.
+**Screenshot 2:** You can read annotations left by other readers by clicking on any of the highlights. Deeper yellow highlights mean a word or phrase has more than one annotation on it.
 
 ![Help 2](../images/2015-03-help2.png)
 
-**Screenshot 3: **The sidebar initially shows random annotations for the whole page. Clicking on a highlight makes just the annotations tied to that highlight appear in the sidebar.
+**Screenshot 3:** The sidebar initially shows random annotations for the whole page. Clicking on a highlight makes just the annotations tied to that highlight appear in the sidebar.
 
 ![Customize](../images/2015-03-customize1.png)
 
-**Screenshot 4: **In addition to adding tags to annotations, you can up- or down-vote them, favorite them (you can see a list of your favorites on your account page), or report them for moderation. What highlights are displayed on a page can be changed using the filters for annotation text, author, and tag. When a highlight has more than one annotation tied to it, you can prioritize which annotations appear on top in the sidebar by creation date or the annotations' rankings.
+**Screenshot 4:** In addition to adding tags to annotations, you can up- or down-vote them, favorite them (you can see a list of your favorites on your account page), or report them for moderation. What highlights are displayed on a page can be changed using the filters for annotation text, author, and tag. When a highlight has more than one annotation tied to it, you can prioritize which annotations appear on top in the sidebar by creation date or the annotations' rankings.
 
 _Amanda Visconti is the 2014-2015 [Winnemore Digital Dissertation Fellow](http://mith.umd.edu/people/person/amanda-visconti/) at MITH._

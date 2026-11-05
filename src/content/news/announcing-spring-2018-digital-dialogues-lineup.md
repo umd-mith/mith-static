@@ -20,6 +20,6 @@ MITH’s Spring 2018 Digital Dialogues season is about to get underway! Starting
 
 **Tuesday April 3, 2018**: Chris Mustazza, Associate Director of PennSound (University of Pennsylvania) [Dialectical Materialities: PennSound, Early Poetry Recordings, and Disc-to- Disk Translations](http://mith.umd.edu/dialogues/dd-spring-2018-chris-mustazza/)
 
-All talks are at 12:30 pm in the Maryland Institute for Technology in the Humanities Conference Room, 0301 Hornbake Library\*\* \*\*North, and are open to the public. Speakers will be listed on the Digital Dialogues schedule [here](http://mith.umd.edu/digital-dialogues/schedule/), which will be updated with more information about each talk as it becomes available.
+All talks are at 12:30 pm in the Maryland Institute for Technology in the Humanities Conference Room, 0301 Hornbake Library North, and are open to the public. Speakers will be listed on the Digital Dialogues schedule [here](http://mith.umd.edu/digital-dialogues/schedule/), which will be updated with more information about each talk as it becomes available.
 
 _Digital Dialogues is MITH’s signature events program, held during the academic year, and is an occasion for discussion, presentation and intellectual exchange that you can build into your schedule._

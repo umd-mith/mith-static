@@ -68,7 +68,7 @@ In terms of ethical questions, I realize that the twarc search may have captured
 
 3 Carrie A. Rentschler, “Bystander Intervention, Feminist Hashtag Activism, and the Anti-Carceral Politics of Care," _Feminist Media Studies_ 17, no. 4 (2017): 568.
 
-4 Tara McLennan, “Hashtag "Sunset,"" _The International Journal of the Image_ 7, no. 1 (2016): 33, [doi://10.18848/2154-8560/CGP/v07i01/33-43]().
+4 Tara McLennan, “Hashtag "Sunset,"" _The International Journal of the Image_ 7, no. 1 (2016): 33, [doi:10.18848/2154-8560/CGP/v07i01/33-43](https://doi.org/10.18848/2154-8560/CGP/v07i01/33-43).
 
 5 Shirin Vossoughi, Paula K Hooper, and Meg Escudé, "Making through the Lens of Culture and Power: Toward Transformative Visions for Educational Equity," _Harvard Educational Review_ 86, no. 2 (2016): 207.
 

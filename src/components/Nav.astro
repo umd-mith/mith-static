@@ -8,7 +8,7 @@ const { active } = Astro.props;
 ---
 
 <nav class="py-0 sticky top-0 z-50 border-y border-base-content/20 bg-base-100 my-8 h-16">
-  <div class="grid max-w-7xl mx-8 grid-cols-2
+  <div class="grid max-w-7xl mx-4 sm:mx-8 grid-cols-2
     2xl:grid-cols-[1fr_var(--container-5xl)_1fr] 2xl:mx-auto 2xl:max-w-full
     ">
     <ol class="lg:flex hidden 2xl:col-start-2 justify-between h-16">
@@ -23,7 +23,7 @@ const { active } = Astro.props;
         </li>
       )}
     </ol>
-    <div class="flex col-start-2 2xl:col-start-3 justify-end gap-4 cursor-pointer pr-4 h-16">
+    <div class="flex col-start-2 2xl:col-start-3 justify-end gap-4 cursor-pointer pr-4 h-16 max-lg:[&_svg]:size-8">
       <div class="lg:hidden h-16 flex items-center">
         <input id="nav-drawer" type="checkbox" class="drawer-toggle" />
         <div class="lg:hidden">
